@@ -48,6 +48,7 @@ jobs:
         run: |
           python scripts/generate_seed_family.py
           python scripts/audit_successor_chain.py
+          python scripts/generate_all_n.py
           python scripts/evidence_manifest.py --check
       - name: Save verification records
         if: always()

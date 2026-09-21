@@ -1,5 +1,7 @@
 # Formalizing successive extensions: target, progress, and obstruction
 
+**Later all-order update:** [the all-order formalization](../all-n-formalization/README.md) now proves the numerical formula `floor((n-1)^2/4)+191` unconditionally for every `n >= 49`, using the classical baseline after order 50. The recurrence and its indefinite exterior realization remain unproved/obstructed as described here. The conditional theorem below remains valid but is no longer the only proof of its numerical target.
+
 20 September 2026. This report supersedes claims that the unrestricted recurrence merely needs its existing placeholders filled. It does not retract any independently certified finite coordinate bound.
 
 ## The requested recurrence and its formula
@@ -32,7 +34,7 @@ For the certified simple input \(s=49,T_s=767\), this becomes
 \qquad n\ge49.}\tag{3}
 \]
 
-**Equations (2) and (3) are conditional on (1).** `Kobon/Iteration.lean` proves this implication, with `FullStepClaim K` explicitly present in the theorem signature. It does not prove (1) for a geometric maximum. The general formula applies to either an odd or an even starting order.
+**The derivation of equations (2) and (3) in this section is conditional on (1).** Equation (3) now also has an independent unconditional proof in `AllN.from_49_unconditional`. `Kobon/Iteration.lean` proves this implication, with `FullStepClaim K` explicitly present in the theorem signature. It does not prove (1) for a geometric maximum. The general formula applies to either an odd or an even starting order.
 
 The first target counts from 49 are 767, 791, 816, 841, 867, 893, 920, 947, 975, 1003, 1032, 1061 at orders 49 through 60. These are not new finite records: our existing certificates already meet or exceed every one of them. For example, the retained classical witnesses give 51:817, 52:850, and 60:1140. The 51:817 witness is nonsimple. Separate simple bounds must be used for claims specifically about the simple maximum.
 

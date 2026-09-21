@@ -4,6 +4,12 @@ Owner: Alejandro Zarzuelo Urdiales. Research session: 20 September 2026 (America
 
 Read this file before resuming. It records what was retained, what failed, where the evidence lives, and what still needs proof. [FORMALIZATION.md](FORMALIZATION.md) is the authoritative Lean scope statement; [RESULTS.md](RESULTS.md) maps concrete claims to files.
 
+## All-order formalization update
+
+The classical Furedi–Palasti construction is now fully proved in the repository’s real-coordinate/empty-triangle definition for every `n >= 3`, including its arbitrary-order modular count. `AllN.all_n` supplies a total lower-bound function: the maximum of `ceil(n(n-3)/3)` (zero below three) and 52 finite enhancements from the 86 saved certificates. The baseline proof uses only standard logical axioms; finite enhancements retain their existing native-evaluation trust. Above 195 the current formula equals the baseline. This is a verified consolidation, not a new asymptotic construction or a first-discovery claim.
+
+`AllN.from_49_unconditional` also proves the formerly conditional numerical target `floor((n-1)^2/4)+191` for every `n >= 49`, independently of the still-unproved full-gain recurrence. The saved 49/50 witnesses cover the first two orders; the classical baseline dominates the target from 51 onward. Read [the new report](research/all-n-formalization/README.md), [complete exceptions](research/all-n-formalization/exceptions.md), and proof sources `FurediPalastiCount.lean`, `FurediPalasti.lean`, `AllN.lean`.
+
 ## Evidence register
 
 | Evidence | Location | What it supports |
@@ -11,6 +17,7 @@ Read this file before resuming. It records what was retained, what failed, where
 | Original paper/repository | `archive/2026-03-original/`; public Archivara link in `evidence/sources.json` | Historical claims and attribution, including the unfinished Lean source |
 | OEIS comparison | `evidence/oeis-observations.json`; `research/kobon-own-results/novelty-audit.md` | Entries/attributions observed during the audit, not proof of priority |
 | Boundary argument | `research/kobon-extension/manuscript.md`, `boundary_extension.py`, `verification.json` | Ordinary geometric proof, exact boundary computation, and 560 deterministic test arrangements |
+| All-order bound and 49-seed target | `research/all-n-formalization/`; `Kobon/FurediPalastiCount.lean`, `FurediPalasti.lean`, `AllN.lean` | Unconditional real-line lower bounds at all natural orders and the precise finite enhancement/attribution scope |
 | Formal counting core | `Kobon/BoundaryExtension.lean` | Cyclic identities and numerical consequences with stated hypotheses |
 | All promoted coordinates | `verification/certificate-index.json` | Unique coordinate hashes, original aliases, simple/nonsimple status, and Lean theorem names |
 | Independent finite checks | `verification/coordinate-summary.json` | Agreement of adjacency and open-interior-sign counters |
@@ -82,10 +89,10 @@ The 3–60 materialization does not attempt to include every externally known cl
 
 ## Next tasks, in order
 
-For the user's stronger successive recurrence, seek an interior/reconstruction step or a different arrangement family. Do not attempt to maintain full exterior gain indefinitely: the wedge resource budget obstructs it. The conditional target from 49 is `floor((n-1)^2/4)+191`, not a newly proved all-order bound.
+For the user's stronger successive recurrence, seek an interior/reconstruction step or a different arrangement family. Do not attempt to maintain full exterior gain indefinitely: the wedge resource budget obstructs it. The numerical target from 49, `floor((n-1)^2/4)+191`, is now proved unconditionally in `AllN.from_49_unconditional` by a different construction argument. The full-gain recurrence itself remains open here.
 
 1. Finish the Euclidean-to-cyclic proof obligations in [FORMALIZATION.md](FORMALIZATION.md), including a formal cell/empty-triple bridge. Preserve the present theorem statements and do not replace missing geometry by assumptions bearing the same conclusion.
-2. Formalize geometric BBL iteration and connect the now-proved `SeedFamily.arbitrarily_small` theorem to `Families.lean`. This is required for a self-contained growing-order infinite-family claim.
+2. Formalize geometric BBL iteration and connect the now-proved `SeedFamily.arbitrarily_small` theorem to `Families.lean`. This is required for a self-contained Lean claim for the stronger sparse hybrid family; the classical all-order construction is now formalized independently.
 3. Analyze the fixed exterior normal `(10,-13)` observed to attain the full finite gain at the checked hybrid stages. This concerns one extension of each doubled odd arrangement, not an indefinite chain consisting only of exterior additions. Derive the appropriate invariant or find a counterexample.
 4. Seek a compatible seed/type that eliminates the last odd-family triangle, or prove an obstruction for this type. The current finite 81/161 bounds have a one-triangle gap in the working catalogue; this is a research target, not an established impossibility.
 5. Formalize the second additional-line family and prove or correct its parameter range.

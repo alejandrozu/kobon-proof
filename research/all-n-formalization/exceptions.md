@@ -1,0 +1,58 @@
+# Complete finite enhancement table
+
+These are the 52 strict enhancements in this release, including prior published constructions and reproductions. This is not a list of 52 new discoveries. At every unlisted order use the proved classical baseline. See [the report](README.md) for scope and attribution.
+
+| n | Baseline | Bound | Gain | Verified witness |
+|---:|---:|---:|---:|---|
+| 3 | 0 | 1 | +1 | [Lean](../../Kobon/Certificates/N003T00001H05c82de6.lean) |
+| 5 | 4 | 5 | +1 | [Lean](../../Kobon/Certificates/N005T00005H948a0bdf.lean) |
+| 6 | 6 | 7 | +1 | [Lean](../../Kobon/Certificates/N006T00007H6ea9ebaa.lean) |
+| 7 | 10 | 11 | +1 | [Lean](../../Kobon/Certificates/N007T00011He6b9a626.lean) |
+| 9 | 18 | 21 | +3 | [Lean](../../Kobon/Certificates/N009T00021H6ebbed82.lean) |
+| 10 | 24 | 25 | +1 | [Lean](../../Kobon/Certificates/N010T00025Hb767c427.lean) |
+| 11 | 30 | 32 | +2 | [Lean](../../Kobon/Certificates/N011T00032Hb955e7c9.lean) |
+| 12 | 36 | 38 | +2 | [Lean](../../Kobon/Certificates/N012T00038H38f69f38.lean) |
+| 13 | 44 | 47 | +3 | [Lean](../../Kobon/Certificates/N013T00047Hddec1f78.lean) |
+| 14 | 52 | 53 | +1 | [Lean](../../Kobon/Certificates/N014T00053H45157b2f.lean) |
+| 15 | 60 | 65 | +5 | [Lean](../../Kobon/Certificates/N015T00065H4d3bf3b4.lean) |
+| 16 | 70 | 72 | +2 | [Lean](../../Kobon/Certificates/N016T00072H391cf79a.lean) |
+| 17 | 80 | 85 | +5 | [Lean](../../Kobon/Certificates/N017T00085H7cf3c061.lean) |
+| 18 | 90 | 93 | +3 | [Lean](../../Kobon/Certificates/N018T00093Hedb6246a.lean) |
+| 19 | 102 | 107 | +5 | [Lean](../../Kobon/Certificates/N019T00107Ha2f32bdb.lean) |
+| 20 | 114 | 116 | +2 | [Lean](../../Kobon/Certificates/N020T00116Hadc03eed.lean) |
+| 21 | 126 | 133 | +7 | [Lean](../../Kobon/Certificates/N021T00133H36bae754.lean) |
+| 22 | 140 | 143 | +3 | [Lean](../../Kobon/Certificates/N022T00143H54396c64.lean) |
+| 23 | 154 | 161 | +7 | [Lean](../../Kobon/Certificates/N023T00161H969ad7d3.lean) |
+| 24 | 168 | 172 | +4 | [Lean](../../Kobon/Certificates/N024T00172He63e906b.lean) |
+| 25 | 184 | 191 | +7 | [Lean](../../Kobon/Certificates/N025T00191Hb568bffb.lean) |
+| 26 | 200 | 203 | +3 | [Lean](../../Kobon/Certificates/N026T00203He61b423c.lean) |
+| 27 | 216 | 225 | +9 | [Lean](../../Kobon/Certificates/N027T00225H7d6ae9a0.lean) |
+| 28 | 234 | 238 | +4 | [Lean](../../Kobon/Certificates/N028T00238H56ef2acb.lean) |
+| 29 | 252 | 261 | +9 | [Lean](../../Kobon/Certificates/N029T00261Hd4805c25.lean) |
+| 30 | 270 | 275 | +5 | [Lean](../../Kobon/Certificates/N030T00275Hdcfe649a.lean) |
+| 31 | 290 | 299 | +9 | [Lean](../../Kobon/Certificates/N031T00299H70f23b94.lean) |
+| 32 | 310 | 314 | +4 | [Lean](../../Kobon/Certificates/N032T00314H9ab78b00.lean) |
+| 33 | 330 | 341 | +11 | [Lean](../../Kobon/Certificates/N033T00341H95f3b770.lean) |
+| 34 | 352 | 357 | +5 | [Lean](../../Kobon/Certificates/N034T00357Hfbde0a76.lean) |
+| 35 | 374 | 385 | +11 | [Lean](../../Kobon/Certificates/N035T00385H9ee99af6.lean) |
+| 36 | 396 | 402 | +6 | [Lean](../../Kobon/Certificates/N036T00402H3fc01b7d.lean) |
+| 37 | 420 | 431 | +11 | [Lean](../../Kobon/Certificates/N037T00431H11f0bde7.lean) |
+| 38 | 444 | 449 | +5 | [Lean](../../Kobon/Certificates/N038T00449H46ad5a32.lean) |
+| 39 | 468 | 469 | +1 | [Lean](../../Kobon/Certificates/N039T00469Hcf24d7d3.lean) |
+| 41 | 520 | 533 | +13 | [Lean](../../Kobon/Certificates/N041T00533H01e2ef66.lean) |
+| 42 | 546 | 553 | +7 | [Lean](../../Kobon/Certificates/N042T00553H2bdc9d67.lean) |
+| 43 | 574 | 587 | +13 | [Lean](../../Kobon/Certificates/N043T00587H861d8be2.lean) |
+| 44 | 602 | 608 | +6 | [Lean](../../Kobon/Certificates/N044T00608Hb5277675.lean) |
+| 45 | 630 | 645 | +15 | [Lean](../../Kobon/Certificates/N045T00645H3dc6e882.lean) |
+| 46 | 660 | 667 | +7 | [Lean](../../Kobon/Certificates/N046T00667H32b8ca2f.lean) |
+| 49 | 752 | 767 | +15 | [Lean](../../Kobon/Certificates/N049T00767H957e6f15.lean) |
+| 50 | 784 | 791 | +7 | [Lean](../../Kobon/Certificates/N050T00791H2ea22b55.lean) |
+| 51 | 816 | 817 | +1 | [Lean](../../Kobon/Certificates/N051T00817Hbd215f67.lean) |
+| 57 | 1026 | 1045 | +19 | [Lean](../../Kobon/Certificates/N057T01045H9a1d337c.lean) |
+| 58 | 1064 | 1073 | +9 | [Lean](../../Kobon/Certificates/N058T01073Hd988db55.lean) |
+| 81 | 2106 | 2132 | +26 | [Lean](../../Kobon/Certificates/N081T02132H7bc6b303.lean) |
+| 82 | 2160 | 2172 | +12 | [Lean](../../Kobon/Certificates/N082T02172Hd75c9101.lean) |
+| 99 | 3168 | 3169 | +1 | [Lean](../../Kobon/Certificates/N099T03169H4fef38d8.lean) |
+| 161 | 8480 | 8532 | +52 | [Lean](../../Kobon/Certificates/N161T08532H230691d5.lean) |
+| 162 | 8586 | 8612 | +26 | [Lean](../../Kobon/Certificates/N162T08612H1512e696.lean) |
+| 195 | 12480 | 12481 | +1 | [Lean](../../Kobon/Certificates/N195T12481Hcd3497db.lean) |

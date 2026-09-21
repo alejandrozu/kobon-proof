@@ -1,4 +1,4 @@
-ℹ [1190/1219] Replayed Kobon.BoundaryExtension
+ℹ [1189/1205] Replayed Kobon.BoundaryExtension
 info: Kobon/BoundaryExtension.lean:122:0: 'KobonBoundary.cap_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
 info: Kobon/BoundaryExtension.lean:123:0: 'KobonBoundary.exists_average' depends on axioms: [propext, Classical.choice, Quot.sound]
 info: Kobon/BoundaryExtension.lean:124:0: 'KobonBoundary.odd_full_gain' depends on axioms: [propext, Classical.choice, Quot.sound]
@@ -20,7 +20,7 @@ info: Kobon/Simple.lean:49:0: 'Kobon.validate_simple_sound' depends on axioms: [
 ℹ [1218/1219] Replayed Kobon.Exterior
 info: Kobon/Exterior.lean:207:0: 'Kobon.Exterior.extension' depends on axioms: [propext, Classical.choice, Quot.sound]
 info: Kobon/Exterior.lean:208:0: 'Kobon.Exterior.safeHeight_beyond' depends on axioms: [propext, Classical.choice, Quot.sound]
-ℹ [1219/1219] Built Kobon.Iteration (17s)
+ℹ [1219/1219] Replayed Kobon.Iteration
 info: Kobon/Iteration.lean:125:0: 'Kobon.Iteration.gainPrefix_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
 info: Kobon/Iteration.lean:126:0: 'Kobon.Iteration.full_step_iteration' depends on axioms: [propext, Classical.choice, Quot.sound]
 info: Kobon/Iteration.lean:127:0: 'Kobon.Iteration.from_49_conditional' depends on axioms: [propext, Classical.choice, Quot.sound]

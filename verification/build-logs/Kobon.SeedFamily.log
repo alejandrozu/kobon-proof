@@ -1,9 +1,9 @@
-ℹ [775/843] Replayed Kobon.Geometry
+ℹ [775/811] Replayed Kobon.Geometry
 info: Kobon/Geometry.lean:144:0: 'Kobon.validate_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
 info: Kobon/Geometry.lean:145:0: 'Kobon.orientedEval_affine' depends on axioms: [propext, Classical.choice, Quot.sound]
-ℹ [776/843] Replayed Kobon.Simple
+ℹ [776/811] Replayed Kobon.Simple
 info: Kobon/Simple.lean:49:0: 'Kobon.validate_simple_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
-ℹ [979/998] Replayed Kobon.Parametric
+ℹ [979/1047] Replayed Kobon.Parametric
 info: Kobon/Parametric.lean:183:0: 'Kobon.Parametric.triangle_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
 info: Kobon/Parametric.lean:184:0: 'Kobon.Parametric.simple_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
 ℹ [1920/1921] Replayed Kobon.TangentBounds

@@ -11,4 +11,7 @@ import Kobon.SeedFamily
 import Kobon.Exterior
 import Kobon.Iteration
 import Kobon.Iteration49
+import Kobon.FurediPalastiCount
+import Kobon.FurediPalasti
 import Kobon.Results
+import Kobon.AllN

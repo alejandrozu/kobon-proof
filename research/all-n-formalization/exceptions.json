@@ -1,0 +1,577 @@
+[
+  {
+    "n": 3,
+    "baseline": 0,
+    "lower_bound": 1,
+    "gain": 1,
+    "theorem": "Kobon.Certificates.N003T00001H05c82de6.lower_bound",
+    "sources": [
+      "research/finite-table/classical-003.json",
+      "research/finite-table/simple-003.json"
+    ]
+  },
+  {
+    "n": 5,
+    "baseline": 4,
+    "lower_bound": 5,
+    "gain": 1,
+    "theorem": "Kobon.Certificates.N005T00005H948a0bdf.lower_bound",
+    "sources": [
+      "research/finite-table/classical-005.json",
+      "research/finite-table/simple-005.json"
+    ]
+  },
+  {
+    "n": 6,
+    "baseline": 6,
+    "lower_bound": 7,
+    "gain": 1,
+    "theorem": "Kobon.Certificates.N006T00007H6ea9ebaa.lower_bound",
+    "sources": [
+      "research/finite-table/classical-006.json",
+      "research/finite-table/simple-006.json",
+      "research/kobon-extension/certificates/chain_6.json",
+      "research/kobon-own-results/certificates/n006.json"
+    ]
+  },
+  {
+    "n": 7,
+    "baseline": 10,
+    "lower_bound": 11,
+    "gain": 1,
+    "theorem": "Kobon.Certificates.N007T00011He6b9a626.lower_bound",
+    "sources": [
+      "research/finite-table/classical-007.json",
+      "research/finite-table/simple-007.json"
+    ]
+  },
+  {
+    "n": 9,
+    "baseline": 18,
+    "lower_bound": 21,
+    "gain": 3,
+    "theorem": "Kobon.Certificates.N009T00021H6ebbed82.lower_bound",
+    "sources": [
+      "research/finite-table/classical-009.json",
+      "research/finite-table/simple-009.json"
+    ]
+  },
+  {
+    "n": 10,
+    "baseline": 24,
+    "lower_bound": 25,
+    "gain": 1,
+    "theorem": "Kobon.Certificates.N010T00025Hb767c427.lower_bound",
+    "sources": [
+      "research/finite-table/classical-010.json",
+      "research/finite-table/simple-010.json"
+    ]
+  },
+  {
+    "n": 11,
+    "baseline": 30,
+    "lower_bound": 32,
+    "gain": 2,
+    "theorem": "Kobon.Certificates.N011T00032Hb955e7c9.lower_bound",
+    "sources": [
+      "research/finite-table/classical-011.json",
+      "research/finite-table/simple-011.json",
+      "research/kobon-hybrid/certificates/n011.json",
+      "research/kobon-hybrid/seed-11-rational.json"
+    ]
+  },
+  {
+    "n": 12,
+    "baseline": 36,
+    "lower_bound": 38,
+    "gain": 2,
+    "theorem": "Kobon.Certificates.N012T00038H38f69f38.lower_bound",
+    "sources": [
+      "research/finite-table/classical-012.json"
+    ]
+  },
+  {
+    "n": 13,
+    "baseline": 44,
+    "lower_bound": 47,
+    "gain": 3,
+    "theorem": "Kobon.Certificates.N013T00047Hddec1f78.lower_bound",
+    "sources": [
+      "research/finite-table/classical-013.json",
+      "research/finite-table/simple-013.json"
+    ]
+  },
+  {
+    "n": 14,
+    "baseline": 52,
+    "lower_bound": 53,
+    "gain": 1,
+    "theorem": "Kobon.Certificates.N014T00053H45157b2f.lower_bound",
+    "sources": [
+      "research/finite-table/classical-014.json",
+      "research/finite-table/simple-014.json"
+    ]
+  },
+  {
+    "n": 15,
+    "baseline": 60,
+    "lower_bound": 65,
+    "gain": 5,
+    "theorem": "Kobon.Certificates.N015T00065H4d3bf3b4.lower_bound",
+    "sources": [
+      "research/finite-table/classical-015.json",
+      "research/finite-table/simple-015.json"
+    ]
+  },
+  {
+    "n": 16,
+    "baseline": 70,
+    "lower_bound": 72,
+    "gain": 2,
+    "theorem": "Kobon.Certificates.N016T00072H391cf79a.lower_bound",
+    "sources": [
+      "research/finite-table/classical-016.json",
+      "research/finite-table/simple-016.json"
+    ]
+  },
+  {
+    "n": 17,
+    "baseline": 80,
+    "lower_bound": 85,
+    "gain": 5,
+    "theorem": "Kobon.Certificates.N017T00085H7cf3c061.lower_bound",
+    "sources": [
+      "research/finite-table/classical-017.json",
+      "research/finite-table/simple-017.json"
+    ]
+  },
+  {
+    "n": 18,
+    "baseline": 90,
+    "lower_bound": 93,
+    "gain": 3,
+    "theorem": "Kobon.Certificates.N018T00093Hedb6246a.lower_bound",
+    "sources": [
+      "research/finite-table/classical-018.json",
+      "research/finite-table/simple-018.json"
+    ]
+  },
+  {
+    "n": 19,
+    "baseline": 102,
+    "lower_bound": 107,
+    "gain": 5,
+    "theorem": "Kobon.Certificates.N019T00107Ha2f32bdb.lower_bound",
+    "sources": [
+      "research/finite-table/classical-019.json",
+      "research/finite-table/simple-019.json"
+    ]
+  },
+  {
+    "n": 20,
+    "baseline": 114,
+    "lower_bound": 116,
+    "gain": 2,
+    "theorem": "Kobon.Certificates.N020T00116Hadc03eed.lower_bound",
+    "sources": [
+      "research/finite-table/classical-020.json",
+      "research/finite-table/simple-020.json",
+      "research/kobon-extension/certificates/chain_20.json",
+      "research/kobon-own-results/certificates/n020.json"
+    ]
+  },
+  {
+    "n": 21,
+    "baseline": 126,
+    "lower_bound": 133,
+    "gain": 7,
+    "theorem": "Kobon.Certificates.N021T00133H36bae754.lower_bound",
+    "sources": [
+      "research/finite-table/classical-021.json",
+      "research/finite-table/simple-021.json"
+    ]
+  },
+  {
+    "n": 22,
+    "baseline": 140,
+    "lower_bound": 143,
+    "gain": 3,
+    "theorem": "Kobon.Certificates.N022T00143H54396c64.lower_bound",
+    "sources": [
+      "research/finite-table/classical-022.json",
+      "research/finite-table/simple-022.json"
+    ]
+  },
+  {
+    "n": 23,
+    "baseline": 154,
+    "lower_bound": 161,
+    "gain": 7,
+    "theorem": "Kobon.Certificates.N023T00161H969ad7d3.lower_bound",
+    "sources": [
+      "research/finite-table/classical-023.json",
+      "research/finite-table/simple-023.json"
+    ]
+  },
+  {
+    "n": 24,
+    "baseline": 168,
+    "lower_bound": 172,
+    "gain": 4,
+    "theorem": "Kobon.Certificates.N024T00172He63e906b.lower_bound",
+    "sources": [
+      "research/finite-table/classical-024.json",
+      "research/finite-table/simple-024.json"
+    ]
+  },
+  {
+    "n": 25,
+    "baseline": 184,
+    "lower_bound": 191,
+    "gain": 7,
+    "theorem": "Kobon.Certificates.N025T00191Hb568bffb.lower_bound",
+    "sources": [
+      "research/finite-table/classical-025.json",
+      "research/finite-table/simple-025.json"
+    ]
+  },
+  {
+    "n": 26,
+    "baseline": 200,
+    "lower_bound": 203,
+    "gain": 3,
+    "theorem": "Kobon.Certificates.N026T00203He61b423c.lower_bound",
+    "sources": [
+      "research/finite-table/classical-026.json",
+      "research/finite-table/simple-026.json"
+    ]
+  },
+  {
+    "n": 27,
+    "baseline": 216,
+    "lower_bound": 225,
+    "gain": 9,
+    "theorem": "Kobon.Certificates.N027T00225H7d6ae9a0.lower_bound",
+    "sources": [
+      "research/finite-table/classical-027.json",
+      "research/finite-table/simple-027.json"
+    ]
+  },
+  {
+    "n": 28,
+    "baseline": 234,
+    "lower_bound": 238,
+    "gain": 4,
+    "theorem": "Kobon.Certificates.N028T00238H56ef2acb.lower_bound",
+    "sources": [
+      "research/finite-table/classical-028.json",
+      "research/finite-table/simple-028.json"
+    ]
+  },
+  {
+    "n": 29,
+    "baseline": 252,
+    "lower_bound": 261,
+    "gain": 9,
+    "theorem": "Kobon.Certificates.N029T00261Hd4805c25.lower_bound",
+    "sources": [
+      "research/finite-table/classical-029.json",
+      "research/finite-table/simple-029.json"
+    ]
+  },
+  {
+    "n": 30,
+    "baseline": 270,
+    "lower_bound": 275,
+    "gain": 5,
+    "theorem": "Kobon.Certificates.N030T00275Hdcfe649a.lower_bound",
+    "sources": [
+      "research/finite-table/classical-030.json",
+      "research/finite-table/simple-030.json"
+    ]
+  },
+  {
+    "n": 31,
+    "baseline": 290,
+    "lower_bound": 299,
+    "gain": 9,
+    "theorem": "Kobon.Certificates.N031T00299H70f23b94.lower_bound",
+    "sources": [
+      "research/finite-table/classical-031.json",
+      "research/finite-table/simple-031.json"
+    ]
+  },
+  {
+    "n": 32,
+    "baseline": 310,
+    "lower_bound": 314,
+    "gain": 4,
+    "theorem": "Kobon.Certificates.N032T00314H9ab78b00.lower_bound",
+    "sources": [
+      "research/finite-table/classical-032.json",
+      "research/finite-table/simple-032.json"
+    ]
+  },
+  {
+    "n": 33,
+    "baseline": 330,
+    "lower_bound": 341,
+    "gain": 11,
+    "theorem": "Kobon.Certificates.N033T00341H95f3b770.lower_bound",
+    "sources": [
+      "research/finite-table/classical-033.json",
+      "research/finite-table/simple-033.json"
+    ]
+  },
+  {
+    "n": 34,
+    "baseline": 352,
+    "lower_bound": 357,
+    "gain": 5,
+    "theorem": "Kobon.Certificates.N034T00357Hfbde0a76.lower_bound",
+    "sources": [
+      "research/finite-table/classical-034.json",
+      "research/finite-table/simple-034.json"
+    ]
+  },
+  {
+    "n": 35,
+    "baseline": 374,
+    "lower_bound": 385,
+    "gain": 11,
+    "theorem": "Kobon.Certificates.N035T00385H9ee99af6.lower_bound",
+    "sources": [
+      "research/finite-table/classical-035.json",
+      "research/finite-table/simple-035.json"
+    ]
+  },
+  {
+    "n": 36,
+    "baseline": 396,
+    "lower_bound": 402,
+    "gain": 6,
+    "theorem": "Kobon.Certificates.N036T00402H3fc01b7d.lower_bound",
+    "sources": [
+      "research/finite-table/classical-036.json",
+      "research/finite-table/simple-036.json"
+    ]
+  },
+  {
+    "n": 37,
+    "baseline": 420,
+    "lower_bound": 431,
+    "gain": 11,
+    "theorem": "Kobon.Certificates.N037T00431H11f0bde7.lower_bound",
+    "sources": [
+      "research/finite-table/classical-037.json",
+      "research/finite-table/simple-037.json"
+    ]
+  },
+  {
+    "n": 38,
+    "baseline": 444,
+    "lower_bound": 449,
+    "gain": 5,
+    "theorem": "Kobon.Certificates.N038T00449H46ad5a32.lower_bound",
+    "sources": [
+      "research/finite-table/classical-038.json",
+      "research/finite-table/simple-038.json"
+    ]
+  },
+  {
+    "n": 39,
+    "baseline": 468,
+    "lower_bound": 469,
+    "gain": 1,
+    "theorem": "Kobon.Certificates.N039T00469Hcf24d7d3.lower_bound",
+    "sources": [
+      "research/finite-table/classical-039.json",
+      "research/kobon-own-results/certificates/n039.json"
+    ]
+  },
+  {
+    "n": 41,
+    "baseline": 520,
+    "lower_bound": 533,
+    "gain": 13,
+    "theorem": "Kobon.Certificates.N041T00533H01e2ef66.lower_bound",
+    "sources": [
+      "research/finite-table/classical-041.json",
+      "research/finite-table/simple-041.json"
+    ]
+  },
+  {
+    "n": 42,
+    "baseline": 546,
+    "lower_bound": 553,
+    "gain": 7,
+    "theorem": "Kobon.Certificates.N042T00553H2bdc9d67.lower_bound",
+    "sources": [
+      "research/finite-table/classical-042.json",
+      "research/finite-table/simple-042.json"
+    ]
+  },
+  {
+    "n": 43,
+    "baseline": 574,
+    "lower_bound": 587,
+    "gain": 13,
+    "theorem": "Kobon.Certificates.N043T00587H861d8be2.lower_bound",
+    "sources": [
+      "research/finite-table/classical-043.json",
+      "research/finite-table/simple-043.json"
+    ]
+  },
+  {
+    "n": 44,
+    "baseline": 602,
+    "lower_bound": 608,
+    "gain": 6,
+    "theorem": "Kobon.Certificates.N044T00608Hb5277675.lower_bound",
+    "sources": [
+      "research/finite-table/classical-044.json",
+      "research/finite-table/simple-044.json",
+      "research/kobon-own-results/certificates/n044.json"
+    ]
+  },
+  {
+    "n": 45,
+    "baseline": 630,
+    "lower_bound": 645,
+    "gain": 15,
+    "theorem": "Kobon.Certificates.N045T00645H3dc6e882.lower_bound",
+    "sources": [
+      "research/finite-table/classical-045.json",
+      "research/finite-table/simple-045.json"
+    ]
+  },
+  {
+    "n": 46,
+    "baseline": 660,
+    "lower_bound": 667,
+    "gain": 7,
+    "theorem": "Kobon.Certificates.N046T00667H32b8ca2f.lower_bound",
+    "sources": [
+      "research/finite-table/classical-046.json",
+      "research/finite-table/simple-046.json"
+    ]
+  },
+  {
+    "n": 49,
+    "baseline": 752,
+    "lower_bound": 767,
+    "gain": 15,
+    "theorem": "Kobon.Certificates.N049T00767H957e6f15.lower_bound",
+    "sources": [
+      "research/finite-table/classical-049.json",
+      "research/finite-table/simple-049.json"
+    ]
+  },
+  {
+    "n": 50,
+    "baseline": 784,
+    "lower_bound": 791,
+    "gain": 7,
+    "theorem": "Kobon.Certificates.N050T00791H2ea22b55.lower_bound",
+    "sources": [
+      "research/finite-table/classical-050.json",
+      "research/finite-table/simple-050.json"
+    ]
+  },
+  {
+    "n": 51,
+    "baseline": 816,
+    "lower_bound": 817,
+    "gain": 1,
+    "theorem": "Kobon.Certificates.N051T00817Hbd215f67.lower_bound",
+    "sources": [
+      "research/finite-table/classical-051.json",
+      "research/kobon-own-results/certificates/n051.json",
+      "research/kobon-research/certificates/n051.json"
+    ]
+  },
+  {
+    "n": 57,
+    "baseline": 1026,
+    "lower_bound": 1045,
+    "gain": 19,
+    "theorem": "Kobon.Certificates.N057T01045H9a1d337c.lower_bound",
+    "sources": [
+      "research/finite-table/classical-057.json",
+      "research/finite-table/simple-057.json"
+    ]
+  },
+  {
+    "n": 58,
+    "baseline": 1064,
+    "lower_bound": 1073,
+    "gain": 9,
+    "theorem": "Kobon.Certificates.N058T01073Hd988db55.lower_bound",
+    "sources": [
+      "research/finite-table/classical-058.json",
+      "research/finite-table/simple-058.json"
+    ]
+  },
+  {
+    "n": 81,
+    "baseline": 2106,
+    "lower_bound": 2132,
+    "gain": 26,
+    "theorem": "Kobon.Certificates.N081T02132H7bc6b303.lower_bound",
+    "sources": [
+      "research/kobon-hybrid/certificates/n081.json"
+    ]
+  },
+  {
+    "n": 82,
+    "baseline": 2160,
+    "lower_bound": 2172,
+    "gain": 12,
+    "theorem": "Kobon.Certificates.N082T02172Hd75c9101.lower_bound",
+    "sources": [
+      "research/kobon-hybrid/certificates/n082.json"
+    ]
+  },
+  {
+    "n": 99,
+    "baseline": 3168,
+    "lower_bound": 3169,
+    "gain": 1,
+    "theorem": "Kobon.Certificates.N099T03169H4fef38d8.lower_bound",
+    "sources": [
+      "research/kobon-own-results/certificates/n099.json",
+      "research/kobon-research/certificates/n099.json"
+    ]
+  },
+  {
+    "n": 161,
+    "baseline": 8480,
+    "lower_bound": 8532,
+    "gain": 52,
+    "theorem": "Kobon.Certificates.N161T08532H230691d5.lower_bound",
+    "sources": [
+      "research/kobon-hybrid/certificates/n161.json"
+    ]
+  },
+  {
+    "n": 162,
+    "baseline": 8586,
+    "lower_bound": 8612,
+    "gain": 26,
+    "theorem": "Kobon.Certificates.N162T08612H1512e696.lower_bound",
+    "sources": [
+      "research/kobon-hybrid/certificates/n162.json"
+    ]
+  },
+  {
+    "n": 195,
+    "baseline": 12480,
+    "lower_bound": 12481,
+    "gain": 1,
+    "theorem": "Kobon.Certificates.N195T12481Hcd3497db.lower_bound",
+    "sources": [
+      "research/kobon-own-results/certificates/n195.json",
+      "research/kobon-research/certificates/n195.json"
+    ]
+  }
+]

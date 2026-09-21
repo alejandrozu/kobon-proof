@@ -56,7 +56,7 @@
       "authors": "Roman Parpalak and Denis Utkin",
       "url": "https://github.com/parpalak/kobon-even-draft/blob/4da100acd30d9fb2c5b2a1fa3fb9ce848a2e52a5/8-14-26-even-series.md",
       "revision": "4da100acd30d9fb2c5b2a1fa3fb9ce848a2e52a5",
-      "locator": "Main theorem, Lemmas 2\u20133, Appendix A",
+      "locator": "Main theorem, Lemmas 2–3, Appendix A",
       "role": "Prior nonsimple even family used as input to the additional-line draft."
     },
     {
@@ -65,7 +65,9 @@
       "authors": "Zoltan Furedi and Ilona Palasti",
       "url": "https://paperzz.com/doc/9476977/arrangements-of-lines-with-a-large-number-of-triangles",
       "role": "Older construction reproduced for comparison; source text mirror of the original article, not a claim that these comparison bounds are new.",
-      "local": "data/prior-configurations/furedi-palasti-table.json"
+      "local": "data/prior-configurations/furedi-palasti-table.json",
+      "formalization_update": "The all-order affine ceiling baseline is now proved geometrically in Kobon/FurediPalasti.lean and Kobon/FurediPalastiCount.lean, rather than assumed from this source.",
+      "doi": "10.1090/S0002-9939-1984-0760946-2"
     },
     {
       "id": "ud1-gallery",

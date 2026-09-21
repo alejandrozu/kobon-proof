@@ -15,6 +15,9 @@ This document is a scope audit, not a declaration that the entire project is fin
 | `Results.earlier_NNN` | Every numerical row of the earlier own-results inventory, using a finite witness at least as strong. This verifies the inequality, not the originally proposed general derivation or novelty. |
 | `KobonBoundary` | Cyclic mass/average identities, charging arithmetic under explicit hypotheses, odd defect-two and even boundary criteria, and equivalence of the two parity formulations. |
 | `KobonExamples` | Exact small rational examples and simplicity, checked by kernel reduction. |
+| `FurediPalastiCount`, `FurediPalasti.lower_bound` | General modular counting and actual real-line geometry prove the classical ceiling baseline at every order at least three, without imported geometric assumptions or native evaluation. |
+| `AllN.all_n` | An unconditional geometric lower-bound function on all natural numbers: the maximum of the proved baseline and 52 finite enhancements; covers all 86 saved certificates. |
+| `AllN.from_49_unconditional` | `LowerBound n ((n-1)^2/4+191)` for every `n >= 49`, using 49/50 certificates and the proved classical baseline; does not assume or prove the full-gain recurrence. |
 | `Families` | Closed forms, recurrence identities, invariant arithmetic, and displayed family values. **No existence of a line arrangement for all parameters is inferred from these arithmetic theorems.** |
 | `AffineLemmas` | Affine sign stability from endpoints and preservation of a triangle by an exterior affine inequality. |
 | `Parametric` | Sound rational box certificates for whole families of real line arrangements, including an open positive exceptional parameter. |
@@ -48,4 +51,4 @@ The large Lean certificates prove **at least** the displayed count. They need no
 
 Completing these items is required before describing every result in the manuscripts as self-contained Lean mathematics. The current release deliberately makes no such claim.
 
-`Iteration.from_49_conditional` explicitly assumes `FullStepClaim K`; it cannot be cited as a proof of that premise. The exterior wedge budget obstructs indefinite full-gain iteration by that method, but does not refute the recurrence for maxima using interior additions or reconstructed arrangements. See [the successor report](research/successor-formalization/README.md) for the exact distinction and all source-to-theorem mappings.
+`Iteration.from_49_conditional` explicitly assumes `FullStepClaim K`; it cannot be cited as a proof of that premise. The same numerical lower-bound formula now has a separate unconditional geometric proof in `AllN.from_49_unconditional`, which uses the classical construction from order 51 onward. This does not establish the recurrence. The exterior wedge budget obstructs indefinite full-gain iteration by that method, but does not refute the recurrence for maxima using interior additions or reconstructed arrangements. See [the successor report](research/successor-formalization/README.md) for the exact distinction and all source-to-theorem mappings.

@@ -1,5 +1,7 @@
 # Finite result index
 
+The complete [all-order bound](research/all-n-formalization/README.md) now incorporates every saved finite inequality below and the proved classical construction for arbitrary natural orders. Its [52 strict enhancements](research/all-n-formalization/exceptions.md) include both prior work and our derived witnesses.
+
 Every numerical inequality in the earlier own-results inventory has a named theorem in [Kobon/Results.lean](Kobon/Results.lean). The coordinate certificates are independent of the unfinished general extension theorem. Consult [verification/lean-summary.json](verification/lean-summary.json) for actual build outcomes and [FORMALIZATION.md](FORMALIZATION.md) for the meaning and trust boundary of these statements.
 
 The table below lists the strongest **saved witnesses in this release** at 3–60. It is not a global best-known table or a list of solely original constructions. In particular, some published nonsimple witnesses in OEIS are stronger than the simple ones saved here. Existing inputs and comparison configurations retain their original attribution. An absent OEIS row is not a novelty proof.

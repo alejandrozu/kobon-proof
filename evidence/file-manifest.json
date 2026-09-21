@@ -7,8 +7,8 @@
       "sha256": "20965459e6e640ad14629653942f0ee20c234f3ab662ca17112567c3e320609c"
     },
     ".github/workflows/verify.yml": {
-      "bytes": 2286,
-      "sha256": "f4ff3161bda29a9c5826c45f73ee864f4fa7a0d29b0de2ae5de4903a32eb0a14"
+      "bytes": 2329,
+      "sha256": "1a0fd5154fc7b541873107ba898dd500c848b8911cabce578cb8c7463496dc82"
     },
     "archive/2026-03-original/kobon_complete.py": {
       "bytes": 11407,
@@ -147,8 +147,8 @@
       "sha256": "268a884066319c91474da3cf2aa88be5564922db99a9ed8bf6fcd68c668868d3"
     },
     "evidence/sources.json": {
-      "bytes": 5003,
-      "sha256": "ae9d62d49d1f2e624b726feb3961fed49ab338f66d5236a7b6e137e7c1a44c12"
+      "bytes": 5252,
+      "sha256": "9205acd124e679b7552552720c2c0643316adff19a135095cfc903cd4e36df3c"
     },
     "experiments/2026-09-20/analyze_hybrid_boundary.py": {
       "bytes": 933,
@@ -1011,12 +1011,16 @@
       "sha256": "867aefaee740f673a92fe765b5ab1bbbfbe8cada79707c19065a032fb88ebf99"
     },
     "FORMALIZATION.md": {
-      "bytes": 8023,
-      "sha256": "338579cffa0dc8dbdb7567b02b640661a944f5845d5b42c55249095e8d30e69d"
+      "bytes": 8870,
+      "sha256": "c0b669f6c92e05ecd234d0107bcde512b5fa3c823c1de0d7cc68ec8e71c4c1a7"
     },
     "Kobon/AffineLemmas.lean": {
       "bytes": 1568,
       "sha256": "eeeed8da603d2f3a2d618fd727985945b2655db6b13c3c1b551b15d7087c2757"
+    },
+    "Kobon/AllN.lean": {
+      "bytes": 12756,
+      "sha256": "f0106ee14c353c7f0d0f44b939297f06e850f368717350773f2d88fad547a19c"
     },
     "Kobon/Audit.lean": {
       "bytes": 945,
@@ -1382,6 +1386,14 @@
       "bytes": 1987,
       "sha256": "94bb4ee59e92d20305e688e0aeaf3403e60380f9b34d65a5fa9ed10ab8248220"
     },
+    "Kobon/FurediPalasti.lean": {
+      "bytes": 16563,
+      "sha256": "5475debd2925cd18618b97d3cee9c220527e6432edf38c7f92d7c13f246c02a2"
+    },
+    "Kobon/FurediPalastiCount.lean": {
+      "bytes": 7198,
+      "sha256": "22e4068005f0ee837fad59c9f45294c7adddb83b58111078939ddb2d1d6b364c"
+    },
     "Kobon/Geometry.lean": {
       "bytes": 5364,
       "sha256": "517220442ac15c648b9c03eac95904dfba22909ed7f84256a731669ddf547c02"
@@ -1719,8 +1731,8 @@
       "sha256": "00be9ce337ea91e97ad3544cc846d251bfae4a4caa8cacde7c1605b065dcddce"
     },
     "Kobon.lean": {
-      "bytes": 354,
-      "sha256": "d1ddffddd1418591d5968826a1e3d5e5f21bcc94b4e4724b26c20b5bda6d2b69"
+      "bytes": 430,
+      "sha256": "ece218adb58f833ffac3da8e29fb3040f9485ce4ca279900718ba51ae9034bb0"
     },
     "lake-manifest.json": {
       "bytes": 3676,
@@ -1735,8 +1747,20 @@
       "sha256": "465c68148dd061230368e3cbe5d1d2973069172b48b684c928ef1a665b627832"
     },
     "README.md": {
-      "bytes": 5895,
-      "sha256": "aa8fbf91565ced37463ec91ed3933d18df8d70cdf326a8fa4acdf1a2a932f6fb"
+      "bytes": 6335,
+      "sha256": "983ab92304f0cb92104e62a09e3c49d63a8e60440b907d41dc46772285e82ad2"
+    },
+    "research/all-n-formalization/exceptions.json": {
+      "bytes": 14339,
+      "sha256": "4a79b2d749c3bb0d0e98162c9adad0fa508ef9318ddc7c8e5396bae6e5ff07ba"
+    },
+    "research/all-n-formalization/exceptions.md": {
+      "bytes": 4746,
+      "sha256": "2cfc88b2111540ef5931c6c36e4503dae006d5796b0decc160b8378b19c19c5f"
+    },
+    "research/all-n-formalization/README.md": {
+      "bytes": 8670,
+      "sha256": "c5740615d51614e8a4599c636a8af8694fdb0a0521b767949d924cd783f75676"
     },
     "research/finite-table/classical-003.json": {
       "bytes": 552,
@@ -2523,16 +2547,16 @@
       "sha256": "9c9113c0c92557713354806ea1e1977974127c9f5a2d66fb7b4661a0b695a088"
     },
     "research/successor-formalization/README.md": {
-      "bytes": 9249,
-      "sha256": "d0e744d5289e72ef59f0268f4922dc54d92b15d90ddc8b5f78e56c2e2a076040"
+      "bytes": 9809,
+      "sha256": "7f674605ebae16a791695b2b04c9c21c8e6a0af9a7c306094ff1bf0c2e453077"
     },
     "RESEARCH_LEDGER.md": {
-      "bytes": 14255,
-      "sha256": "4a23b9b2ad8078bc6b0378cb18736ac7b9d3c2480993de8a5238d4ea0b5f1273"
+      "bytes": 15873,
+      "sha256": "97b71e5fca7275633f8a9871a1731b3a1fb51ccfff398c222314907e06c6292c"
     },
     "RESULTS.md": {
-      "bytes": 11324,
-      "sha256": "7ec400fa05ebc21f4ceb070f75d3ae9957a3b089b84d5774715b19f014b5d788"
+      "bytes": 11643,
+      "sha256": "93a2488917a5e009c2da3436e6e324bf435374a75dcf6dc74cd1a9db9c0ef4fe"
     },
     "scripts/audit_successor_chain.py": {
       "bytes": 3426,
@@ -2541,6 +2565,10 @@
     "scripts/evidence_manifest.py": {
       "bytes": 1763,
       "sha256": "e3170eae24296194c9ebb75ef6053813a7ebf7212de31c0684edfce77a172459"
+    },
+    "scripts/generate_all_n.py": {
+      "bytes": 6780,
+      "sha256": "fd9279e957f51343c5f0beb03a3b23438a8c47334a4d1dc9558e5f63948f5bce"
     },
     "scripts/generate_lean_certificates.py": {
       "bytes": 2921,
@@ -2555,12 +2583,12 @@
       "sha256": "b453046c4aaebe7c2c5486ec2437b69f07584bf7b53dea29222db15c2785474f"
     },
     "scripts/prepare_verification.py": {
-      "bytes": 3951,
-      "sha256": "240cc6a6377af7f2703c32a6e503c6c2d975b69bbb49928c930060c9216eb535"
+      "bytes": 4035,
+      "sha256": "3d241840d772a5621e37455fe887debe3cf72d6df4e2b328e6ab6df3ff1308b9"
     },
     "scripts/README.md": {
-      "bytes": 2380,
-      "sha256": "412bc3b895a898e16b16d2dbcd693acadd972307bf177912e6de0a5b55450a21"
+      "bytes": 2614,
+      "sha256": "76f55e41ae4d4c20f905119616d0fab05146306947bcfa02a83dd3e42dec7002"
     },
     "scripts/restore_experiments.py": {
       "bytes": 854,
@@ -2571,16 +2599,16 @@
       "sha256": "4bac04276bb07adafe8e41979dc4c6298f56d4f1741d045a7c28bb9212e09abb"
     },
     "scripts/verify_lean.py": {
-      "bytes": 4094,
-      "sha256": "99b76a08bcecc9195f84c6dff265c6313b4f013c126610b2fa19770664ea893a"
+      "bytes": 4253,
+      "sha256": "709cefcc566732529ab03c8d101f9bde11b1aaecf965ac3c5c6b3c1454f7c7ec"
     },
     "scripts/verify_seed_interval.py": {
       "bytes": 774,
       "sha256": "03458eb321b5775f17b2e0cbf40f582ae8fbb5f57cd30d69da9e87cb78e21e64"
     },
     "verification/build-targets.json": {
-      "bytes": 4661,
-      "sha256": "3ed9618724162a70d8431c5613988b74c3ef2496160257cfe5d9d739995c03d2"
+      "bytes": 4735,
+      "sha256": "40b3741df85ac947d6e239b409309471a8b14ccc9fb016a6b516dc8e25ee931a"
     },
     "verification/certificate-index.json": {
       "bytes": 52445,

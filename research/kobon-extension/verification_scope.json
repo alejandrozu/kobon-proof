@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-20",
+  "lean": "4.31.0",
+  "mathlib": "fabf563a7c95a166b8d7b6efca11c8b4dc9d911f",
+  "mathlib_checkout_clean": true,
+  "lean_compile_results": {
+    "BoundaryExtension.lean": 0,
+    "RationalExamples.lean": 0
+  },
+  "formalized_scope": "Finite cyclic counting, numerical corollaries, parity equivalence, and explicit rational examples",
+  "not_formalized": "The Euclidean boundary charging and exterior-addition reduction in manuscript Sections 2 and 3",
+  "full_uniform_gain_recurrence": "Unproved in this package",
+  "priority": "Not established",
+  "seed_source": "https://github.com/parpalak/triangle-maximal-18-series/blob/master/data/n19/lines.csv",
+  "seed_input_sha256": "f666167da596a4fad45e223823a76f8b830a747e42d4dfedab0c8fa7fca0b831"
+}

@@ -1,0 +1,54 @@
+{
+  "n": 9,
+  "triangle_count": 21,
+  "lines_frac": [
+    [
+      "2",
+      "6",
+      "33"
+    ],
+    [
+      "2",
+      "3",
+      "-21"
+    ],
+    [
+      "4",
+      "3",
+      "-12"
+    ],
+    [
+      "6",
+      "2",
+      "-81"
+    ],
+    [
+      "98",
+      "-3",
+      "-303"
+    ],
+    [
+      "5",
+      "-2",
+      "-39"
+    ],
+    [
+      "2",
+      "-2",
+      "11"
+    ],
+    [
+      "1",
+      "-2",
+      "-10"
+    ],
+    [
+      "0",
+      "3",
+      "-7"
+    ]
+  ],
+  "source": "gallery/data/9/9-1xw8b9ugsk55.json",
+  "construction": "Published gallery input; not our discovery",
+  "declared_parallel_pairs": []
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "file": "n011.json",
+    "n": 11,
+    "triangles": 32,
+    "pass_check": true,
+    "adjacency_count": 32,
+    "simple": true
+  },
+  {
+    "file": "n012.json",
+    "n": 12,
+    "triangles": 37,
+    "pass_check": true,
+    "adjacency_count": 37,
+    "simple": true,
+    "gain": 5,
+    "guaranteed_gain": 4,
+    "free_ray_wedges": 8,
+    "preserves_old_triangles": true
+  },
+  {
+    "file": "n021.json",
+    "n": 21,
+    "triangles": 132,
+    "pass_check": true,
+    "adjacency_count": 132,
+    "simple": true
+  },
+  {
+    "file": "n022.json",
+    "n": 22,
+    "triangles": 142,
+    "pass_check": true,
+    "adjacency_count": 142,
+    "simple": true,
+    "gain": 10,
+    "guaranteed_gain": 9,
+    "free_ray_wedges": 18,
+    "preserves_old_triangles": true
+  },
+  {
+    "file": "n041.json",
+    "n": 41,
+    "triangles": 532,
+    "pass_check": true,
+    "adjacency_count": 532,
+    "simple": true
+  },
+  {
+    "file": "n042.json",
+    "n": 42,
+    "triangles": 552,
+    "pass_check": true,
+    "adjacency_count": 552,
+    "simple": true,
+    "gain": 20,
+    "guaranteed_gain": 19,
+    "free_ray_wedges": 38,
+    "preserves_old_triangles": true
+  },
+  {
+    "file": "n081.json",
+    "n": 81,
+    "triangles": 2132,
+    "pass_check": true,
+    "adjacency_count": 2132,
+    "simple": true
+  },
+  {
+    "file": "n082.json",
+    "n": 82,
+    "triangles": 2172,
+    "pass_check": true,
+    "adjacency_count": 2172,
+    "simple": true,
+    "gain": 40,
+    "guaranteed_gain": 39,
+    "free_ray_wedges": 78,
+    "preserves_old_triangles": true
+  },
+  {
+    "file": "n161.json",
+    "n": 161,
+    "triangles": 8532,
+    "pass_check": true,
+    "adjacency_count": 8532,
+    "simple": true
+  },
+  {
+    "file": "n162.json",
+    "n": 162,
+    "triangles": 8612,
+    "pass_check": true,
+    "adjacency_count": 8612,
+    "simple": true,
+    "gain": 80,
+    "guaranteed_gain": 79,
+    "free_ray_wedges": 158,
+    "preserves_old_triangles": true
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-20",
+  "claim_status": "Derived corollary; novelty and record improvement not established",
+  "certificates": [
+    {
+      "file": "certificates/n051.json",
+      "n": 51,
+      "triangles": 817,
+      "sha256": "35b56f2a8044298d2e9ec6c68144ef19de439a84cad2704d45119cab035b31eb"
+    },
+    {
+      "file": "certificates/n099.json",
+      "n": 99,
+      "triangles": 3169,
+      "sha256": "889d7aeda15a42f66b6286779529b4b48656e743a0699a37f81842b451c2918f"
+    },
+    {
+      "file": "certificates/n195.json",
+      "n": 195,
+      "triangles": 12481,
+      "sha256": "2b35d89ff302b733c61649ae6e3719648f895b21ae0e8d54166dac26fea29d40"
+    }
+  ],
+  "source_snapshots": [
+    {
+      "url": "https://github.com/parpalak/kobon-even-draft/blob/master/8-14-26-even-series.md",
+      "local_read_sha256": "6484aa425ec0a4c0c8c27d8233e69b9bf5994864f57ab8db47fe0190eaf01fdb"
+    }
+  ],
+  "verification": "verification_results.json"
+}

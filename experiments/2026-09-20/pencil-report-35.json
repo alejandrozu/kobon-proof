@@ -1,0 +1,10 @@
+{
+  "n": 35,
+  "initial": 297,
+  "best": 363,
+  "proposals": 304301,
+  "accepted": 125,
+  "sweeps": 50,
+  "seconds": 90.04496335983276,
+  "seed": 19073
+}

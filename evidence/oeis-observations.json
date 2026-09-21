@@ -1,0 +1,311 @@
+{
+  "url": "https://oeis.org/A006066",
+  "observed_local_date": "2026-09-20",
+  "scope": "Explicit comment-table observations, not a complete literature catalogue. Null means omitted, not zero. The entry main sequence resolves n=8 as 15 even though the comment table reports upper 16.",
+  "credited_zarzuelo": [
+    {
+      "n": 28,
+      "lower": 238
+    },
+    {
+      "n": 30,
+      "lower": 275
+    },
+    {
+      "n": 34,
+      "lower": 357
+    }
+  ],
+  "rows": [
+    {
+      "n": 3,
+      "explicit_lower": 1,
+      "comment_table_upper": 1
+    },
+    {
+      "n": 4,
+      "explicit_lower": 2,
+      "comment_table_upper": 2
+    },
+    {
+      "n": 5,
+      "explicit_lower": 5,
+      "comment_table_upper": 5
+    },
+    {
+      "n": 6,
+      "explicit_lower": 7,
+      "comment_table_upper": 7
+    },
+    {
+      "n": 7,
+      "explicit_lower": 11,
+      "comment_table_upper": 11
+    },
+    {
+      "n": 8,
+      "explicit_lower": 15,
+      "comment_table_upper": 16
+    },
+    {
+      "n": 9,
+      "explicit_lower": 21,
+      "comment_table_upper": 21
+    },
+    {
+      "n": 10,
+      "explicit_lower": 25,
+      "comment_table_upper": 25
+    },
+    {
+      "n": 11,
+      "explicit_lower": 32,
+      "comment_table_upper": 32
+    },
+    {
+      "n": 12,
+      "explicit_lower": 38,
+      "comment_table_upper": 38
+    },
+    {
+      "n": 13,
+      "explicit_lower": 47,
+      "comment_table_upper": 47
+    },
+    {
+      "n": 14,
+      "explicit_lower": 54,
+      "comment_table_upper": 54
+    },
+    {
+      "n": 15,
+      "explicit_lower": 65,
+      "comment_table_upper": 65
+    },
+    {
+      "n": 16,
+      "explicit_lower": 72,
+      "comment_table_upper": 72
+    },
+    {
+      "n": 17,
+      "explicit_lower": 85,
+      "comment_table_upper": 85
+    },
+    {
+      "n": 18,
+      "explicit_lower": 93,
+      "comment_table_upper": 94
+    },
+    {
+      "n": 19,
+      "explicit_lower": 107,
+      "comment_table_upper": 107
+    },
+    {
+      "n": 20,
+      "explicit_lower": 117,
+      "comment_table_upper": 117
+    },
+    {
+      "n": 21,
+      "explicit_lower": 133,
+      "comment_table_upper": 133
+    },
+    {
+      "n": 22,
+      "explicit_lower": 143,
+      "comment_table_upper": 144
+    },
+    {
+      "n": 23,
+      "explicit_lower": 161,
+      "comment_table_upper": 161
+    },
+    {
+      "n": 24,
+      "explicit_lower": 172,
+      "comment_table_upper": 173
+    },
+    {
+      "n": 25,
+      "explicit_lower": 191,
+      "comment_table_upper": 191
+    },
+    {
+      "n": 26,
+      "explicit_lower": 204,
+      "comment_table_upper": 205
+    },
+    {
+      "n": 27,
+      "explicit_lower": 225,
+      "comment_table_upper": 225
+    },
+    {
+      "n": 28,
+      "explicit_lower": 238,
+      "comment_table_upper": 239
+    },
+    {
+      "n": 29,
+      "explicit_lower": 261,
+      "comment_table_upper": 261
+    },
+    {
+      "n": 30,
+      "explicit_lower": 275,
+      "comment_table_upper": 276
+    },
+    {
+      "n": 31,
+      "explicit_lower": 299,
+      "comment_table_upper": 299
+    },
+    {
+      "n": 32,
+      "explicit_lower": 315,
+      "comment_table_upper": 316
+    },
+    {
+      "n": 33,
+      "explicit_lower": 341,
+      "comment_table_upper": 341
+    },
+    {
+      "n": 34,
+      "explicit_lower": 357,
+      "comment_table_upper": 358
+    },
+    {
+      "n": 35,
+      "explicit_lower": 385,
+      "comment_table_upper": 385
+    },
+    {
+      "n": 36,
+      "explicit_lower": 402,
+      "comment_table_upper": 404
+    },
+    {
+      "n": 37,
+      "explicit_lower": 431,
+      "comment_table_upper": 431
+    },
+    {
+      "n": 38,
+      "explicit_lower": 450,
+      "comment_table_upper": 451
+    },
+    {
+      "n": 39,
+      "explicit_lower": null,
+      "comment_table_upper": null
+    },
+    {
+      "n": 40,
+      "explicit_lower": null,
+      "comment_table_upper": null
+    },
+    {
+      "n": 41,
+      "explicit_lower": 533,
+      "comment_table_upper": 533
+    },
+    {
+      "n": 42,
+      "explicit_lower": 553,
+      "comment_table_upper": 555
+    },
+    {
+      "n": 43,
+      "explicit_lower": 587,
+      "comment_table_upper": 587
+    },
+    {
+      "n": 44,
+      "explicit_lower": null,
+      "comment_table_upper": null
+    },
+    {
+      "n": 45,
+      "explicit_lower": 645,
+      "comment_table_upper": 645
+    },
+    {
+      "n": 46,
+      "explicit_lower": 667,
+      "comment_table_upper": 669
+    },
+    {
+      "n": 47,
+      "explicit_lower": null,
+      "comment_table_upper": null
+    },
+    {
+      "n": 48,
+      "explicit_lower": null,
+      "comment_table_upper": null
+    },
+    {
+      "n": 49,
+      "explicit_lower": 767,
+      "comment_table_upper": 767
+    },
+    {
+      "n": 50,
+      "explicit_lower": 792,
+      "comment_table_upper": 794
+    },
+    {
+      "n": 51,
+      "explicit_lower": null,
+      "comment_table_upper": null
+    },
+    {
+      "n": 52,
+      "explicit_lower": null,
+      "comment_table_upper": null
+    },
+    {
+      "n": 53,
+      "explicit_lower": null,
+      "comment_table_upper": null
+    },
+    {
+      "n": 54,
+      "explicit_lower": null,
+      "comment_table_upper": null
+    },
+    {
+      "n": 55,
+      "explicit_lower": null,
+      "comment_table_upper": null
+    },
+    {
+      "n": 56,
+      "explicit_lower": null,
+      "comment_table_upper": null
+    },
+    {
+      "n": 57,
+      "explicit_lower": null,
+      "comment_table_upper": null
+    },
+    {
+      "n": 58,
+      "explicit_lower": null,
+      "comment_table_upper": null
+    },
+    {
+      "n": 59,
+      "explicit_lower": null,
+      "comment_table_upper": null
+    },
+    {
+      "n": 60,
+      "explicit_lower": null,
+      "comment_table_upper": null
+    }
+  ]
+}

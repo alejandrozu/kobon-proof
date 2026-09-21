@@ -1,0 +1,1254 @@
+[
+  {
+    "n": 3,
+    "triangles": 1,
+    "simple": true,
+    "coordinate_sha256": "05c82de62571155def7f58cd6e051cb6db1e8ed96ecd216414d6d48b23d3f444",
+    "module": "Kobon.Certificates.N003T00001H05c82de6",
+    "theorem": "Kobon.Certificates.N003T00001H05c82de6.lower_bound",
+    "sources": [
+      "research/finite-table/classical-003.json",
+      "research/finite-table/simple-003.json"
+    ],
+    "lean_source": "Kobon/Certificates/N003T00001H05c82de6.lean",
+    "simple_theorem": "Kobon.Certificates.N003T00001H05c82de6.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N003T00001H05c82de6"
+  },
+  {
+    "n": 4,
+    "triangles": 2,
+    "simple": true,
+    "coordinate_sha256": "0e541bd5bbe7bee9e854896e6969ba67df09dc77586230588e13182cd413301f",
+    "module": "Kobon.Certificates.N004T00002H0e541bd5",
+    "theorem": "Kobon.Certificates.N004T00002H0e541bd5.lower_bound",
+    "sources": [
+      "research/finite-table/classical-004.json",
+      "research/finite-table/simple-004.json"
+    ],
+    "lean_source": "Kobon/Certificates/N004T00002H0e541bd5.lean",
+    "simple_theorem": "Kobon.Certificates.N004T00002H0e541bd5.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N004T00002H0e541bd5"
+  },
+  {
+    "n": 5,
+    "triangles": 5,
+    "simple": true,
+    "coordinate_sha256": "948a0bdf2dd3be698d8802d59993b2b35c707647cdd78ba4f3457247826154ca",
+    "module": "Kobon.Certificates.N005T00005H948a0bdf",
+    "theorem": "Kobon.Certificates.N005T00005H948a0bdf.lower_bound",
+    "sources": [
+      "research/finite-table/classical-005.json",
+      "research/finite-table/simple-005.json"
+    ],
+    "lean_source": "Kobon/Certificates/N005T00005H948a0bdf.lean",
+    "simple_theorem": "Kobon.Certificates.N005T00005H948a0bdf.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N005T00005H948a0bdf"
+  },
+  {
+    "n": 6,
+    "triangles": 7,
+    "simple": true,
+    "coordinate_sha256": "6ea9ebaa7bf29c8cb4e4cd4a732a1a4561ebfc20cda7e93cb89dc972c52241dd",
+    "module": "Kobon.Certificates.N006T00007H6ea9ebaa",
+    "theorem": "Kobon.Certificates.N006T00007H6ea9ebaa.lower_bound",
+    "sources": [
+      "research/finite-table/classical-006.json",
+      "research/finite-table/simple-006.json",
+      "research/kobon-extension/certificates/chain_6.json",
+      "research/kobon-own-results/certificates/n006.json"
+    ],
+    "lean_source": "Kobon/Certificates/N006T00007H6ea9ebaa.lean",
+    "simple_theorem": "Kobon.Certificates.N006T00007H6ea9ebaa.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N006T00007H6ea9ebaa"
+  },
+  {
+    "n": 7,
+    "triangles": 11,
+    "simple": true,
+    "coordinate_sha256": "e6b9a626a163e5280aa5e2702ef2627c0c32dfc4a33f6f3c17673fb07feb634c",
+    "module": "Kobon.Certificates.N007T00011He6b9a626",
+    "theorem": "Kobon.Certificates.N007T00011He6b9a626.lower_bound",
+    "sources": [
+      "research/finite-table/classical-007.json",
+      "research/finite-table/simple-007.json"
+    ],
+    "lean_source": "Kobon/Certificates/N007T00011He6b9a626.lean",
+    "simple_theorem": "Kobon.Certificates.N007T00011He6b9a626.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N007T00011He6b9a626"
+  },
+  {
+    "n": 8,
+    "triangles": 14,
+    "simple": true,
+    "coordinate_sha256": "2a63f4d9308d7a6d17944b213ddaf4539a8369d1a869d93c38c20878cc7ea6bb",
+    "module": "Kobon.Certificates.N008T00014H2a63f4d9",
+    "theorem": "Kobon.Certificates.N008T00014H2a63f4d9.lower_bound",
+    "sources": [
+      "research/finite-table/classical-008.json",
+      "research/finite-table/simple-008.json"
+    ],
+    "lean_source": "Kobon/Certificates/N008T00014H2a63f4d9.lean",
+    "simple_theorem": "Kobon.Certificates.N008T00014H2a63f4d9.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N008T00014H2a63f4d9"
+  },
+  {
+    "n": 9,
+    "triangles": 21,
+    "simple": true,
+    "coordinate_sha256": "6ebbed82d06399ea5d5a9e6ca39c452d4291a6a6103db9d0d722e8a0db533c73",
+    "module": "Kobon.Certificates.N009T00021H6ebbed82",
+    "theorem": "Kobon.Certificates.N009T00021H6ebbed82.lower_bound",
+    "sources": [
+      "research/finite-table/classical-009.json",
+      "research/finite-table/simple-009.json"
+    ],
+    "lean_source": "Kobon/Certificates/N009T00021H6ebbed82.lean",
+    "simple_theorem": "Kobon.Certificates.N009T00021H6ebbed82.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N009T00021H6ebbed82"
+  },
+  {
+    "n": 10,
+    "triangles": 25,
+    "simple": true,
+    "coordinate_sha256": "b767c427fa30087d8411ff1565f750dec9713e017f56d612a34a0f6b731af799",
+    "module": "Kobon.Certificates.N010T00025Hb767c427",
+    "theorem": "Kobon.Certificates.N010T00025Hb767c427.lower_bound",
+    "sources": [
+      "research/finite-table/classical-010.json",
+      "research/finite-table/simple-010.json"
+    ],
+    "lean_source": "Kobon/Certificates/N010T00025Hb767c427.lean",
+    "simple_theorem": "Kobon.Certificates.N010T00025Hb767c427.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N010T00025Hb767c427"
+  },
+  {
+    "n": 11,
+    "triangles": 32,
+    "simple": true,
+    "coordinate_sha256": "b955e7c9923ad0f90baf54be5a2d71386ead3aff29c176ff7ce40ef7abff8d2d",
+    "module": "Kobon.Certificates.N011T00032Hb955e7c9",
+    "theorem": "Kobon.Certificates.N011T00032Hb955e7c9.lower_bound",
+    "sources": [
+      "research/finite-table/classical-011.json",
+      "research/finite-table/simple-011.json",
+      "research/kobon-hybrid/certificates/n011.json",
+      "research/kobon-hybrid/seed-11-rational.json"
+    ],
+    "lean_source": "Kobon/Certificates/N011T00032Hb955e7c9.lean",
+    "simple_theorem": "Kobon.Certificates.N011T00032Hb955e7c9.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N011T00032Hb955e7c9"
+  },
+  {
+    "n": 12,
+    "triangles": 38,
+    "simple": false,
+    "coordinate_sha256": "38f69f38009707d847b2cce10fc705bb4b2988ada2a309d4236ad6bd08cff088",
+    "module": "Kobon.Certificates.N012T00038H38f69f38",
+    "theorem": "Kobon.Certificates.N012T00038H38f69f38.lower_bound",
+    "sources": [
+      "research/finite-table/classical-012.json"
+    ],
+    "lean_source": "Kobon/Certificates/N012T00038H38f69f38.lean"
+  },
+  {
+    "n": 13,
+    "triangles": 47,
+    "simple": true,
+    "coordinate_sha256": "ddec1f78855078d4a8631c4af9a3b641897fcf1fcbcdfb315417c006257bb30e",
+    "module": "Kobon.Certificates.N013T00047Hddec1f78",
+    "theorem": "Kobon.Certificates.N013T00047Hddec1f78.lower_bound",
+    "sources": [
+      "research/finite-table/classical-013.json",
+      "research/finite-table/simple-013.json"
+    ],
+    "lean_source": "Kobon/Certificates/N013T00047Hddec1f78.lean",
+    "simple_theorem": "Kobon.Certificates.N013T00047Hddec1f78.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N013T00047Hddec1f78"
+  },
+  {
+    "n": 14,
+    "triangles": 53,
+    "simple": true,
+    "coordinate_sha256": "45157b2f20fe49b1fc165c9ffd290e5648702f2bdcb9de80f14c453b73c3d7cb",
+    "module": "Kobon.Certificates.N014T00053H45157b2f",
+    "theorem": "Kobon.Certificates.N014T00053H45157b2f.lower_bound",
+    "sources": [
+      "research/finite-table/classical-014.json",
+      "research/finite-table/simple-014.json"
+    ],
+    "lean_source": "Kobon/Certificates/N014T00053H45157b2f.lean",
+    "simple_theorem": "Kobon.Certificates.N014T00053H45157b2f.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N014T00053H45157b2f"
+  },
+  {
+    "n": 15,
+    "triangles": 65,
+    "simple": true,
+    "coordinate_sha256": "4d3bf3b46db579eb36e70b747a11d09ed05b5dd864bda8fce4d1e79f57a3187d",
+    "module": "Kobon.Certificates.N015T00065H4d3bf3b4",
+    "theorem": "Kobon.Certificates.N015T00065H4d3bf3b4.lower_bound",
+    "sources": [
+      "research/finite-table/classical-015.json",
+      "research/finite-table/simple-015.json"
+    ],
+    "lean_source": "Kobon/Certificates/N015T00065H4d3bf3b4.lean",
+    "simple_theorem": "Kobon.Certificates.N015T00065H4d3bf3b4.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N015T00065H4d3bf3b4"
+  },
+  {
+    "n": 16,
+    "triangles": 72,
+    "simple": true,
+    "coordinate_sha256": "391cf79afe24317785d58f06c16cef51c439b18b084a1be6775d12773b5c28ae",
+    "module": "Kobon.Certificates.N016T00072H391cf79a",
+    "theorem": "Kobon.Certificates.N016T00072H391cf79a.lower_bound",
+    "sources": [
+      "research/finite-table/classical-016.json",
+      "research/finite-table/simple-016.json"
+    ],
+    "lean_source": "Kobon/Certificates/N016T00072H391cf79a.lean",
+    "simple_theorem": "Kobon.Certificates.N016T00072H391cf79a.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N016T00072H391cf79a"
+  },
+  {
+    "n": 17,
+    "triangles": 85,
+    "simple": true,
+    "coordinate_sha256": "7cf3c061a447ff3fc5b616100e0801fa7d796cb702c7f9d7f40024eff872c9de",
+    "module": "Kobon.Certificates.N017T00085H7cf3c061",
+    "theorem": "Kobon.Certificates.N017T00085H7cf3c061.lower_bound",
+    "sources": [
+      "research/finite-table/classical-017.json",
+      "research/finite-table/simple-017.json"
+    ],
+    "lean_source": "Kobon/Certificates/N017T00085H7cf3c061.lean",
+    "simple_theorem": "Kobon.Certificates.N017T00085H7cf3c061.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N017T00085H7cf3c061"
+  },
+  {
+    "n": 18,
+    "triangles": 93,
+    "simple": true,
+    "coordinate_sha256": "edb6246a6de7d9740b21b9a384cb37c509d0f80d1205707d312b39bc014e9ed7",
+    "module": "Kobon.Certificates.N018T00093Hedb6246a",
+    "theorem": "Kobon.Certificates.N018T00093Hedb6246a.lower_bound",
+    "sources": [
+      "research/finite-table/classical-018.json",
+      "research/finite-table/simple-018.json"
+    ],
+    "lean_source": "Kobon/Certificates/N018T00093Hedb6246a.lean",
+    "simple_theorem": "Kobon.Certificates.N018T00093Hedb6246a.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N018T00093Hedb6246a"
+  },
+  {
+    "n": 19,
+    "triangles": 107,
+    "simple": true,
+    "coordinate_sha256": "a2f32bdbcd1ea44231d95bacc65ad2ae2f23a641431be1a65c71de9bf6a32197",
+    "module": "Kobon.Certificates.N019T00107Ha2f32bdb",
+    "theorem": "Kobon.Certificates.N019T00107Ha2f32bdb.lower_bound",
+    "sources": [
+      "research/finite-table/classical-019.json",
+      "research/finite-table/simple-019.json"
+    ],
+    "lean_source": "Kobon/Certificates/N019T00107Ha2f32bdb.lean",
+    "simple_theorem": "Kobon.Certificates.N019T00107Ha2f32bdb.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N019T00107Ha2f32bdb"
+  },
+  {
+    "n": 20,
+    "triangles": 116,
+    "simple": true,
+    "coordinate_sha256": "adc03eed024d9f01279883a415ee6cb0172373f778bac5c1c48fcd77e2670312",
+    "module": "Kobon.Certificates.N020T00116Hadc03eed",
+    "theorem": "Kobon.Certificates.N020T00116Hadc03eed.lower_bound",
+    "sources": [
+      "research/finite-table/classical-020.json",
+      "research/finite-table/simple-020.json",
+      "research/kobon-extension/certificates/chain_20.json",
+      "research/kobon-own-results/certificates/n020.json"
+    ],
+    "lean_source": "Kobon/Certificates/N020T00116Hadc03eed.lean",
+    "simple_theorem": "Kobon.Certificates.N020T00116Hadc03eed.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N020T00116Hadc03eed"
+  },
+  {
+    "n": 21,
+    "triangles": 133,
+    "simple": true,
+    "coordinate_sha256": "36bae754f19804b040ba74da76bbfbcfda1aa0508a6fd047658ffb6747fddedc",
+    "module": "Kobon.Certificates.N021T00133H36bae754",
+    "theorem": "Kobon.Certificates.N021T00133H36bae754.lower_bound",
+    "sources": [
+      "research/finite-table/classical-021.json",
+      "research/finite-table/simple-021.json"
+    ],
+    "lean_source": "Kobon/Certificates/N021T00133H36bae754.lean",
+    "simple_theorem": "Kobon.Certificates.N021T00133H36bae754.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N021T00133H36bae754"
+  },
+  {
+    "n": 22,
+    "triangles": 143,
+    "simple": true,
+    "coordinate_sha256": "54396c646a7b60c189b109c9602423eb6c43206340a401e0f0be764355b454aa",
+    "module": "Kobon.Certificates.N022T00143H54396c64",
+    "theorem": "Kobon.Certificates.N022T00143H54396c64.lower_bound",
+    "sources": [
+      "research/finite-table/classical-022.json",
+      "research/finite-table/simple-022.json"
+    ],
+    "lean_source": "Kobon/Certificates/N022T00143H54396c64.lean",
+    "simple_theorem": "Kobon.Certificates.N022T00143H54396c64.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N022T00143H54396c64"
+  },
+  {
+    "n": 23,
+    "triangles": 161,
+    "simple": true,
+    "coordinate_sha256": "969ad7d3adaf5833adf85037b31ac48106415d6366f19123c5428f64af97b0aa",
+    "module": "Kobon.Certificates.N023T00161H969ad7d3",
+    "theorem": "Kobon.Certificates.N023T00161H969ad7d3.lower_bound",
+    "sources": [
+      "research/finite-table/classical-023.json",
+      "research/finite-table/simple-023.json"
+    ],
+    "lean_source": "Kobon/Certificates/N023T00161H969ad7d3.lean",
+    "simple_theorem": "Kobon.Certificates.N023T00161H969ad7d3.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N023T00161H969ad7d3"
+  },
+  {
+    "n": 24,
+    "triangles": 172,
+    "simple": true,
+    "coordinate_sha256": "e63e906b99030e8b2f364a569bdda21b04684ec8f7333463c88f1acbb0a2a00c",
+    "module": "Kobon.Certificates.N024T00172He63e906b",
+    "theorem": "Kobon.Certificates.N024T00172He63e906b.lower_bound",
+    "sources": [
+      "research/finite-table/classical-024.json",
+      "research/finite-table/simple-024.json"
+    ],
+    "lean_source": "Kobon/Certificates/N024T00172He63e906b.lean",
+    "simple_theorem": "Kobon.Certificates.N024T00172He63e906b.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N024T00172He63e906b"
+  },
+  {
+    "n": 25,
+    "triangles": 191,
+    "simple": true,
+    "coordinate_sha256": "b568bffb5a197067d5ae34d4a3df156f083e3aa07ec44f6ee7f6d90652379b39",
+    "module": "Kobon.Certificates.N025T00191Hb568bffb",
+    "theorem": "Kobon.Certificates.N025T00191Hb568bffb.lower_bound",
+    "sources": [
+      "research/finite-table/classical-025.json",
+      "research/finite-table/simple-025.json"
+    ],
+    "lean_source": "Kobon/Certificates/N025T00191Hb568bffb.lean",
+    "simple_theorem": "Kobon.Certificates.N025T00191Hb568bffb.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N025T00191Hb568bffb"
+  },
+  {
+    "n": 26,
+    "triangles": 203,
+    "simple": true,
+    "coordinate_sha256": "e61b423c7c3d7b55041f84adcf2c4aaf5567831fd824b3131c40d53fba334c2e",
+    "module": "Kobon.Certificates.N026T00203He61b423c",
+    "theorem": "Kobon.Certificates.N026T00203He61b423c.lower_bound",
+    "sources": [
+      "research/finite-table/classical-026.json",
+      "research/finite-table/simple-026.json"
+    ],
+    "lean_source": "Kobon/Certificates/N026T00203He61b423c.lean",
+    "simple_theorem": "Kobon.Certificates.N026T00203He61b423c.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N026T00203He61b423c"
+  },
+  {
+    "n": 27,
+    "triangles": 225,
+    "simple": true,
+    "coordinate_sha256": "7d6ae9a04c46543f9e306d004179c6c80420fe8d2e96543b278796e3617c182e",
+    "module": "Kobon.Certificates.N027T00225H7d6ae9a0",
+    "theorem": "Kobon.Certificates.N027T00225H7d6ae9a0.lower_bound",
+    "sources": [
+      "research/finite-table/classical-027.json",
+      "research/finite-table/simple-027.json"
+    ],
+    "lean_source": "Kobon/Certificates/N027T00225H7d6ae9a0.lean",
+    "simple_theorem": "Kobon.Certificates.N027T00225H7d6ae9a0.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N027T00225H7d6ae9a0"
+  },
+  {
+    "n": 28,
+    "triangles": 238,
+    "simple": true,
+    "coordinate_sha256": "56ef2acb9edd6a945d8cfd07eabb49fe61be81e6df9d6bb22857db4267edd49d",
+    "module": "Kobon.Certificates.N028T00238H56ef2acb",
+    "theorem": "Kobon.Certificates.N028T00238H56ef2acb.lower_bound",
+    "sources": [
+      "research/finite-table/classical-028.json",
+      "research/finite-table/simple-028.json"
+    ],
+    "lean_source": "Kobon/Certificates/N028T00238H56ef2acb.lean",
+    "simple_theorem": "Kobon.Certificates.N028T00238H56ef2acb.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N028T00238H56ef2acb"
+  },
+  {
+    "n": 29,
+    "triangles": 261,
+    "simple": true,
+    "coordinate_sha256": "d4805c25a121d33b8772463890f7ac4d88553104adc293cbb53af8fbefbb7ce4",
+    "module": "Kobon.Certificates.N029T00261Hd4805c25",
+    "theorem": "Kobon.Certificates.N029T00261Hd4805c25.lower_bound",
+    "sources": [
+      "research/finite-table/classical-029.json",
+      "research/finite-table/simple-029.json"
+    ],
+    "lean_source": "Kobon/Certificates/N029T00261Hd4805c25.lean",
+    "simple_theorem": "Kobon.Certificates.N029T00261Hd4805c25.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N029T00261Hd4805c25"
+  },
+  {
+    "n": 30,
+    "triangles": 275,
+    "simple": true,
+    "coordinate_sha256": "dcfe649a79cf71f0c07f44ee78b4da6f853b1e35533bcc4509b8dee9b3e3f5b1",
+    "module": "Kobon.Certificates.N030T00275Hdcfe649a",
+    "theorem": "Kobon.Certificates.N030T00275Hdcfe649a.lower_bound",
+    "sources": [
+      "research/finite-table/classical-030.json",
+      "research/finite-table/simple-030.json"
+    ],
+    "lean_source": "Kobon/Certificates/N030T00275Hdcfe649a.lean",
+    "simple_theorem": "Kobon.Certificates.N030T00275Hdcfe649a.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N030T00275Hdcfe649a"
+  },
+  {
+    "n": 31,
+    "triangles": 299,
+    "simple": true,
+    "coordinate_sha256": "70f23b9463cb77cb10ed3ead4e7c88033712294b1e8abfcb8e5104efadf9eb9f",
+    "module": "Kobon.Certificates.N031T00299H70f23b94",
+    "theorem": "Kobon.Certificates.N031T00299H70f23b94.lower_bound",
+    "sources": [
+      "research/finite-table/classical-031.json",
+      "research/finite-table/simple-031.json"
+    ],
+    "lean_source": "Kobon/Certificates/N031T00299H70f23b94.lean",
+    "simple_theorem": "Kobon.Certificates.N031T00299H70f23b94.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N031T00299H70f23b94"
+  },
+  {
+    "n": 32,
+    "triangles": 314,
+    "simple": true,
+    "coordinate_sha256": "9ab78b00c233bf920a76520793258be3b47ea463ff3af3ba141f70317bcec439",
+    "module": "Kobon.Certificates.N032T00314H9ab78b00",
+    "theorem": "Kobon.Certificates.N032T00314H9ab78b00.lower_bound",
+    "sources": [
+      "research/finite-table/classical-032.json",
+      "research/finite-table/simple-032.json"
+    ],
+    "lean_source": "Kobon/Certificates/N032T00314H9ab78b00.lean",
+    "simple_theorem": "Kobon.Certificates.N032T00314H9ab78b00.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N032T00314H9ab78b00"
+  },
+  {
+    "n": 33,
+    "triangles": 341,
+    "simple": true,
+    "coordinate_sha256": "95f3b770119e63014781d3f8d1820369f4485f724ee010c0ad20205bd8750d22",
+    "module": "Kobon.Certificates.N033T00341H95f3b770",
+    "theorem": "Kobon.Certificates.N033T00341H95f3b770.lower_bound",
+    "sources": [
+      "research/finite-table/classical-033.json",
+      "research/finite-table/simple-033.json"
+    ],
+    "lean_source": "Kobon/Certificates/N033T00341H95f3b770.lean",
+    "simple_theorem": "Kobon.Certificates.N033T00341H95f3b770.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N033T00341H95f3b770"
+  },
+  {
+    "n": 34,
+    "triangles": 357,
+    "simple": true,
+    "coordinate_sha256": "fbde0a760c6e9c212175161d8e33af1b26953f2cef7a93e161e7c13f5f4d6845",
+    "module": "Kobon.Certificates.N034T00357Hfbde0a76",
+    "theorem": "Kobon.Certificates.N034T00357Hfbde0a76.lower_bound",
+    "sources": [
+      "research/finite-table/classical-034.json",
+      "research/finite-table/simple-034.json"
+    ],
+    "lean_source": "Kobon/Certificates/N034T00357Hfbde0a76.lean",
+    "simple_theorem": "Kobon.Certificates.N034T00357Hfbde0a76.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N034T00357Hfbde0a76"
+  },
+  {
+    "n": 35,
+    "triangles": 385,
+    "simple": true,
+    "coordinate_sha256": "9ee99af6b980c0b9aa1b0e93eeb8a5b311d58eece57fa271b115ee1df530b038",
+    "module": "Kobon.Certificates.N035T00385H9ee99af6",
+    "theorem": "Kobon.Certificates.N035T00385H9ee99af6.lower_bound",
+    "sources": [
+      "research/finite-table/classical-035.json",
+      "research/finite-table/simple-035.json"
+    ],
+    "lean_source": "Kobon/Certificates/N035T00385H9ee99af6.lean",
+    "simple_theorem": "Kobon.Certificates.N035T00385H9ee99af6.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N035T00385H9ee99af6"
+  },
+  {
+    "n": 36,
+    "triangles": 402,
+    "simple": true,
+    "coordinate_sha256": "3fc01b7d2a1ce99e0d1fa1f71f4282ae7cef86fd992eb54f2a3fd80f6f8295d9",
+    "module": "Kobon.Certificates.N036T00402H3fc01b7d",
+    "theorem": "Kobon.Certificates.N036T00402H3fc01b7d.lower_bound",
+    "sources": [
+      "research/finite-table/classical-036.json",
+      "research/finite-table/simple-036.json"
+    ],
+    "lean_source": "Kobon/Certificates/N036T00402H3fc01b7d.lean",
+    "simple_theorem": "Kobon.Certificates.N036T00402H3fc01b7d.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N036T00402H3fc01b7d"
+  },
+  {
+    "n": 37,
+    "triangles": 431,
+    "simple": true,
+    "coordinate_sha256": "11f0bde7bac3eddff4a8cb2855079352740b8bb8237ef58c694a545cd9516481",
+    "module": "Kobon.Certificates.N037T00431H11f0bde7",
+    "theorem": "Kobon.Certificates.N037T00431H11f0bde7.lower_bound",
+    "sources": [
+      "research/finite-table/classical-037.json",
+      "research/finite-table/simple-037.json"
+    ],
+    "lean_source": "Kobon/Certificates/N037T00431H11f0bde7.lean",
+    "simple_theorem": "Kobon.Certificates.N037T00431H11f0bde7.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N037T00431H11f0bde7"
+  },
+  {
+    "n": 38,
+    "triangles": 449,
+    "simple": true,
+    "coordinate_sha256": "46ad5a32af834f7d10b0b36e439242fd0caadb6a7ac2daed13b181020d36fd08",
+    "module": "Kobon.Certificates.N038T00449H46ad5a32",
+    "theorem": "Kobon.Certificates.N038T00449H46ad5a32.lower_bound",
+    "sources": [
+      "research/finite-table/classical-038.json",
+      "research/finite-table/simple-038.json"
+    ],
+    "lean_source": "Kobon/Certificates/N038T00449H46ad5a32.lean",
+    "simple_theorem": "Kobon.Certificates.N038T00449H46ad5a32.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N038T00449H46ad5a32"
+  },
+  {
+    "n": 39,
+    "triangles": 469,
+    "simple": false,
+    "coordinate_sha256": "cf24d7d33c00f6e132930399062d3d8eb7b8578c2547ef54199a3c6d3843dce6",
+    "module": "Kobon.Certificates.N039T00469Hcf24d7d3",
+    "theorem": "Kobon.Certificates.N039T00469Hcf24d7d3.lower_bound",
+    "sources": [
+      "research/finite-table/classical-039.json",
+      "research/kobon-own-results/certificates/n039.json"
+    ],
+    "lean_source": "Kobon/Certificates/N039T00469Hcf24d7d3.lean"
+  },
+  {
+    "n": 40,
+    "triangles": 494,
+    "simple": true,
+    "coordinate_sha256": "785374ca691bcc56a6c524621bfa0c6136ce4014cdc853372902d9b72785c592",
+    "module": "Kobon.Certificates.N040T00494H785374ca",
+    "theorem": "Kobon.Certificates.N040T00494H785374ca.lower_bound",
+    "sources": [
+      "research/finite-table/classical-040.json",
+      "research/finite-table/simple-040.json"
+    ],
+    "lean_source": "Kobon/Certificates/N040T00494H785374ca.lean",
+    "simple_theorem": "Kobon.Certificates.N040T00494H785374ca.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N040T00494H785374ca"
+  },
+  {
+    "n": 41,
+    "triangles": 533,
+    "simple": true,
+    "coordinate_sha256": "01e2ef66f8fdeceb163269b05cb80336a3b9ecd4d658fbdeec4796ed9e826eab",
+    "module": "Kobon.Certificates.N041T00533H01e2ef66",
+    "theorem": "Kobon.Certificates.N041T00533H01e2ef66.lower_bound",
+    "sources": [
+      "research/finite-table/classical-041.json",
+      "research/finite-table/simple-041.json"
+    ],
+    "lean_source": "Kobon/Certificates/N041T00533H01e2ef66.lean",
+    "simple_theorem": "Kobon.Certificates.N041T00533H01e2ef66.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N041T00533H01e2ef66"
+  },
+  {
+    "n": 42,
+    "triangles": 553,
+    "simple": true,
+    "coordinate_sha256": "2bdc9d67365a3ec1ddac34e648d6dcf31ff160c8f8537961b3e01591fc264e5a",
+    "module": "Kobon.Certificates.N042T00553H2bdc9d67",
+    "theorem": "Kobon.Certificates.N042T00553H2bdc9d67.lower_bound",
+    "sources": [
+      "research/finite-table/classical-042.json",
+      "research/finite-table/simple-042.json"
+    ],
+    "lean_source": "Kobon/Certificates/N042T00553H2bdc9d67.lean",
+    "simple_theorem": "Kobon.Certificates.N042T00553H2bdc9d67.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N042T00553H2bdc9d67"
+  },
+  {
+    "n": 43,
+    "triangles": 587,
+    "simple": true,
+    "coordinate_sha256": "861d8be27deed6d3eeef25c419dcd8633471168d9a20b06e3e8578df3de729df",
+    "module": "Kobon.Certificates.N043T00587H861d8be2",
+    "theorem": "Kobon.Certificates.N043T00587H861d8be2.lower_bound",
+    "sources": [
+      "research/finite-table/classical-043.json",
+      "research/finite-table/simple-043.json"
+    ],
+    "lean_source": "Kobon/Certificates/N043T00587H861d8be2.lean",
+    "simple_theorem": "Kobon.Certificates.N043T00587H861d8be2.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N043T00587H861d8be2"
+  },
+  {
+    "n": 44,
+    "triangles": 608,
+    "simple": true,
+    "coordinate_sha256": "b5277675e356739fb109856b6550aeb3371f580f2bc30fc556d1c63c2ea99299",
+    "module": "Kobon.Certificates.N044T00608Hb5277675",
+    "theorem": "Kobon.Certificates.N044T00608Hb5277675.lower_bound",
+    "sources": [
+      "research/finite-table/classical-044.json",
+      "research/finite-table/simple-044.json",
+      "research/kobon-own-results/certificates/n044.json"
+    ],
+    "lean_source": "Kobon/Certificates/N044T00608Hb5277675.lean",
+    "simple_theorem": "Kobon.Certificates.N044T00608Hb5277675.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N044T00608Hb5277675"
+  },
+  {
+    "n": 45,
+    "triangles": 645,
+    "simple": true,
+    "coordinate_sha256": "3dc6e882e9b8372386ba2c3a71bc731728b9acc9f6d401dd73b56f007407d125",
+    "module": "Kobon.Certificates.N045T00645H3dc6e882",
+    "theorem": "Kobon.Certificates.N045T00645H3dc6e882.lower_bound",
+    "sources": [
+      "research/finite-table/classical-045.json",
+      "research/finite-table/simple-045.json"
+    ],
+    "lean_source": "Kobon/Certificates/N045T00645H3dc6e882.lean",
+    "simple_theorem": "Kobon.Certificates.N045T00645H3dc6e882.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N045T00645H3dc6e882"
+  },
+  {
+    "n": 46,
+    "triangles": 667,
+    "simple": true,
+    "coordinate_sha256": "32b8ca2f231ddf8380b7001d52166bc890c547be2aca1a2aa9d9c2e6a8a7f82c",
+    "module": "Kobon.Certificates.N046T00667H32b8ca2f",
+    "theorem": "Kobon.Certificates.N046T00667H32b8ca2f.lower_bound",
+    "sources": [
+      "research/finite-table/classical-046.json",
+      "research/finite-table/simple-046.json"
+    ],
+    "lean_source": "Kobon/Certificates/N046T00667H32b8ca2f.lean",
+    "simple_theorem": "Kobon.Certificates.N046T00667H32b8ca2f.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N046T00667H32b8ca2f"
+  },
+  {
+    "n": 47,
+    "triangles": 690,
+    "simple": true,
+    "coordinate_sha256": "d8af27fc13d18221242ac03d75916a97364a58b37dce1e186b545efab0b2aff7",
+    "module": "Kobon.Certificates.N047T00690Hd8af27fc",
+    "theorem": "Kobon.Certificates.N047T00690Hd8af27fc.lower_bound",
+    "sources": [
+      "research/finite-table/classical-047.json",
+      "research/finite-table/simple-047.json"
+    ],
+    "lean_source": "Kobon/Certificates/N047T00690Hd8af27fc.lean",
+    "simple_theorem": "Kobon.Certificates.N047T00690Hd8af27fc.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N047T00690Hd8af27fc"
+  },
+  {
+    "n": 48,
+    "triangles": 720,
+    "simple": true,
+    "coordinate_sha256": "5e9767e73b31c34cc536c047e27b579e1351a6bad1864c37b634a86b34abb928",
+    "module": "Kobon.Certificates.N048T00720H5e9767e7",
+    "theorem": "Kobon.Certificates.N048T00720H5e9767e7.lower_bound",
+    "sources": [
+      "research/finite-table/classical-048.json",
+      "research/finite-table/simple-048.json"
+    ],
+    "lean_source": "Kobon/Certificates/N048T00720H5e9767e7.lean",
+    "simple_theorem": "Kobon.Certificates.N048T00720H5e9767e7.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N048T00720H5e9767e7"
+  },
+  {
+    "n": 49,
+    "triangles": 767,
+    "simple": true,
+    "coordinate_sha256": "957e6f151a57c598f6fcbb2565babe78cc4fc9e36f1799c0b519e3214511877c",
+    "module": "Kobon.Certificates.N049T00767H957e6f15",
+    "theorem": "Kobon.Certificates.N049T00767H957e6f15.lower_bound",
+    "sources": [
+      "research/finite-table/classical-049.json",
+      "research/finite-table/simple-049.json"
+    ],
+    "lean_source": "Kobon/Certificates/N049T00767H957e6f15.lean",
+    "simple_theorem": "Kobon.Certificates.N049T00767H957e6f15.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N049T00767H957e6f15"
+  },
+  {
+    "n": 50,
+    "triangles": 791,
+    "simple": true,
+    "coordinate_sha256": "2ea22b558bf879c5893a3a2d383fe180e0d4ef4495ffca0abd93a7ec1dffed4b",
+    "module": "Kobon.Certificates.N050T00791H2ea22b55",
+    "theorem": "Kobon.Certificates.N050T00791H2ea22b55.lower_bound",
+    "sources": [
+      "research/finite-table/classical-050.json",
+      "research/finite-table/simple-050.json"
+    ],
+    "lean_source": "Kobon/Certificates/N050T00791H2ea22b55.lean",
+    "simple_theorem": "Kobon.Certificates.N050T00791H2ea22b55.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N050T00791H2ea22b55"
+  },
+  {
+    "n": 51,
+    "triangles": 817,
+    "simple": false,
+    "coordinate_sha256": "bd215f67ab1067d2971606fb7f599533352a9bb4ed7cf9f35a6d5f6c1ad79a7d",
+    "module": "Kobon.Certificates.N051T00817Hbd215f67",
+    "theorem": "Kobon.Certificates.N051T00817Hbd215f67.lower_bound",
+    "sources": [
+      "research/finite-table/classical-051.json",
+      "research/kobon-own-results/certificates/n051.json",
+      "research/kobon-research/certificates/n051.json"
+    ],
+    "lean_source": "Kobon/Certificates/N051T00817Hbd215f67.lean"
+  },
+  {
+    "n": 52,
+    "triangles": 850,
+    "simple": true,
+    "coordinate_sha256": "4b0d823a1fa89bb4269491c04298e517b40455b136854bc4aafb5e6bd36edddf",
+    "module": "Kobon.Certificates.N052T00850H4b0d823a",
+    "theorem": "Kobon.Certificates.N052T00850H4b0d823a.lower_bound",
+    "sources": [
+      "research/finite-table/classical-052.json",
+      "research/finite-table/simple-052.json"
+    ],
+    "lean_source": "Kobon/Certificates/N052T00850H4b0d823a.lean",
+    "simple_theorem": "Kobon.Certificates.N052T00850H4b0d823a.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N052T00850H4b0d823a"
+  },
+  {
+    "n": 53,
+    "triangles": 884,
+    "simple": true,
+    "coordinate_sha256": "723d7eff8d45b6dd3da060e09d3a4830802f355c67da0e14859d3dbdc7a808e7",
+    "module": "Kobon.Certificates.N053T00884H723d7eff",
+    "theorem": "Kobon.Certificates.N053T00884H723d7eff.lower_bound",
+    "sources": [
+      "research/finite-table/classical-053.json",
+      "research/finite-table/simple-053.json"
+    ],
+    "lean_source": "Kobon/Certificates/N053T00884H723d7eff.lean",
+    "simple_theorem": "Kobon.Certificates.N053T00884H723d7eff.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N053T00884H723d7eff"
+  },
+  {
+    "n": 54,
+    "triangles": 918,
+    "simple": true,
+    "coordinate_sha256": "915abb8ed17c12865b0522ac56485fac7634494875f4835e4a4b30a35235b7cd",
+    "module": "Kobon.Certificates.N054T00918H915abb8e",
+    "theorem": "Kobon.Certificates.N054T00918H915abb8e.lower_bound",
+    "sources": [
+      "research/finite-table/classical-054.json",
+      "research/finite-table/simple-054.json"
+    ],
+    "lean_source": "Kobon/Certificates/N054T00918H915abb8e.lean",
+    "simple_theorem": "Kobon.Certificates.N054T00918H915abb8e.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N054T00918H915abb8e"
+  },
+  {
+    "n": 55,
+    "triangles": 954,
+    "simple": true,
+    "coordinate_sha256": "ea7675d9b8a30ae0e7a813585994f0094927f9af212fce58e6c5361a277ac809",
+    "module": "Kobon.Certificates.N055T00954Hea7675d9",
+    "theorem": "Kobon.Certificates.N055T00954Hea7675d9.lower_bound",
+    "sources": [
+      "research/finite-table/classical-055.json",
+      "research/finite-table/simple-055.json"
+    ],
+    "lean_source": "Kobon/Certificates/N055T00954Hea7675d9.lean",
+    "simple_theorem": "Kobon.Certificates.N055T00954Hea7675d9.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N055T00954Hea7675d9"
+  },
+  {
+    "n": 56,
+    "triangles": 990,
+    "simple": true,
+    "coordinate_sha256": "de8a415c9b297a675a27d29ca24c626a2ffe90ae3e75dca08a0a5c63928b4ed4",
+    "module": "Kobon.Certificates.N056T00990Hde8a415c",
+    "theorem": "Kobon.Certificates.N056T00990Hde8a415c.lower_bound",
+    "sources": [
+      "research/finite-table/classical-056.json",
+      "research/finite-table/simple-056.json"
+    ],
+    "lean_source": "Kobon/Certificates/N056T00990Hde8a415c.lean",
+    "simple_theorem": "Kobon.Certificates.N056T00990Hde8a415c.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N056T00990Hde8a415c"
+  },
+  {
+    "n": 57,
+    "triangles": 1045,
+    "simple": true,
+    "coordinate_sha256": "9a1d337c75ba6de1f08108e67bdf437babfb7ad25c62bbf41c1a82c1492eeae9",
+    "module": "Kobon.Certificates.N057T01045H9a1d337c",
+    "theorem": "Kobon.Certificates.N057T01045H9a1d337c.lower_bound",
+    "sources": [
+      "research/finite-table/classical-057.json",
+      "research/finite-table/simple-057.json"
+    ],
+    "lean_source": "Kobon/Certificates/N057T01045H9a1d337c.lean",
+    "simple_theorem": "Kobon.Certificates.N057T01045H9a1d337c.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N057T01045H9a1d337c"
+  },
+  {
+    "n": 58,
+    "triangles": 1073,
+    "simple": true,
+    "coordinate_sha256": "d988db55253084b0d041a067202ab23e0b63b44d1318ff70b576b2feea7ebd3f",
+    "module": "Kobon.Certificates.N058T01073Hd988db55",
+    "theorem": "Kobon.Certificates.N058T01073Hd988db55.lower_bound",
+    "sources": [
+      "research/finite-table/classical-058.json",
+      "research/finite-table/simple-058.json"
+    ],
+    "lean_source": "Kobon/Certificates/N058T01073Hd988db55.lean",
+    "simple_theorem": "Kobon.Certificates.N058T01073Hd988db55.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N058T01073Hd988db55"
+  },
+  {
+    "n": 59,
+    "triangles": 1102,
+    "simple": true,
+    "coordinate_sha256": "fd3b4280376ea0f4d579a437099c5d2a4bf7afb86c857293562e16a1ce228c98",
+    "module": "Kobon.Certificates.N059T01102Hfd3b4280",
+    "theorem": "Kobon.Certificates.N059T01102Hfd3b4280.lower_bound",
+    "sources": [
+      "research/finite-table/classical-059.json",
+      "research/finite-table/simple-059.json"
+    ],
+    "lean_source": "Kobon/Certificates/N059T01102Hfd3b4280.lean",
+    "simple_theorem": "Kobon.Certificates.N059T01102Hfd3b4280.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N059T01102Hfd3b4280"
+  },
+  {
+    "n": 60,
+    "triangles": 1140,
+    "simple": true,
+    "coordinate_sha256": "16af6d0b260ee2bbbefa370581770a7313a63b4069241b5825f32fa56ed0c76e",
+    "module": "Kobon.Certificates.N060T01140H16af6d0b",
+    "theorem": "Kobon.Certificates.N060T01140H16af6d0b.lower_bound",
+    "sources": [
+      "research/finite-table/classical-060.json",
+      "research/finite-table/simple-060.json"
+    ],
+    "lean_source": "Kobon/Certificates/N060T01140H16af6d0b.lean",
+    "simple_theorem": "Kobon.Certificates.N060T01140H16af6d0b.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N060T01140H16af6d0b"
+  },
+  {
+    "n": 12,
+    "triangles": 37,
+    "simple": true,
+    "coordinate_sha256": "8c718a334b7bed0f02e503cfd10c84dd30e50b58043b0c3c62089e18a6736752",
+    "module": "Kobon.Certificates.N012T00037H8c718a33",
+    "theorem": "Kobon.Certificates.N012T00037H8c718a33.lower_bound",
+    "sources": [
+      "research/finite-table/simple-012.json",
+      "research/kobon-hybrid/certificates/n012.json"
+    ],
+    "lean_source": "Kobon/Certificates/N012T00037H8c718a33.lean",
+    "simple_theorem": "Kobon.Certificates.N012T00037H8c718a33.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N012T00037H8c718a33"
+  },
+  {
+    "n": 39,
+    "triangles": 468,
+    "simple": true,
+    "coordinate_sha256": "5c5b0b26ee2241d2b97d3e5179f44ee53b706e0c97418e53210c8d51c15ae75f",
+    "module": "Kobon.Certificates.N039T00468H5c5b0b26",
+    "theorem": "Kobon.Certificates.N039T00468H5c5b0b26.lower_bound",
+    "sources": [
+      "research/finite-table/simple-039.json"
+    ],
+    "lean_source": "Kobon/Certificates/N039T00468H5c5b0b26.lean",
+    "simple_theorem": "Kobon.Certificates.N039T00468H5c5b0b26.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N039T00468H5c5b0b26"
+  },
+  {
+    "n": 51,
+    "triangles": 816,
+    "simple": true,
+    "coordinate_sha256": "6fa6b7d91d28819b70721f5924fdafb88604ebd543753924cd49686da00b2a76",
+    "module": "Kobon.Certificates.N051T00816H6fa6b7d9",
+    "theorem": "Kobon.Certificates.N051T00816H6fa6b7d9.lower_bound",
+    "sources": [
+      "research/finite-table/simple-051.json"
+    ],
+    "lean_source": "Kobon/Certificates/N051T00816H6fa6b7d9.lean",
+    "simple_theorem": "Kobon.Certificates.N051T00816H6fa6b7d9.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N051T00816H6fa6b7d9"
+  },
+  {
+    "n": 5,
+    "triangles": 3,
+    "simple": true,
+    "coordinate_sha256": "6265d6a7c55761725fa1aa660d35a890abdf8690b1a03f4e05c635cb66c463b4",
+    "module": "Kobon.Certificates.N005T00003H6265d6a7",
+    "theorem": "Kobon.Certificates.N005T00003H6265d6a7.lower_bound",
+    "sources": [
+      "research/kobon-extension/certificates/alternation_5.json"
+    ],
+    "lean_source": "Kobon/Certificates/N005T00003H6265d6a7.lean",
+    "simple_theorem": "Kobon.Certificates.N005T00003H6265d6a7.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N005T00003H6265d6a7"
+  },
+  {
+    "n": 6,
+    "triangles": 4,
+    "simple": true,
+    "coordinate_sha256": "7e060e9a0ac15660d2409d712a2db6210ce6cc3e69ccf88a5d94fc596dee3bcd",
+    "module": "Kobon.Certificates.N006T00004H7e060e9a",
+    "theorem": "Kobon.Certificates.N006T00004H7e060e9a.lower_bound",
+    "sources": [
+      "research/kobon-extension/certificates/alternation_6.json"
+    ],
+    "lean_source": "Kobon/Certificates/N006T00004H7e060e9a.lean",
+    "simple_theorem": "Kobon.Certificates.N006T00004H7e060e9a.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N006T00004H7e060e9a"
+  },
+  {
+    "n": 19,
+    "triangles": 107,
+    "simple": true,
+    "coordinate_sha256": "5d2a7588c1e2ddfd3d524a8e3452d156f2025df6c22dea7d9a6a74033b380e03",
+    "module": "Kobon.Certificates.N019T00107H5d2a7588",
+    "theorem": "Kobon.Certificates.N019T00107H5d2a7588.lower_bound",
+    "sources": [
+      "research/kobon-extension/certificates/chain_19.json"
+    ],
+    "lean_source": "Kobon/Certificates/N019T00107H5d2a7588.lean",
+    "simple_theorem": "Kobon.Certificates.N019T00107H5d2a7588.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N019T00107H5d2a7588"
+  },
+  {
+    "n": 21,
+    "triangles": 126,
+    "simple": true,
+    "coordinate_sha256": "f18756b7279186169a24b7252daebb5e04c7d2852d934c6cfec6ce066da24aaa",
+    "module": "Kobon.Certificates.N021T00126Hf18756b7",
+    "theorem": "Kobon.Certificates.N021T00126Hf18756b7.lower_bound",
+    "sources": [
+      "research/kobon-extension/certificates/chain_21.json"
+    ],
+    "lean_source": "Kobon/Certificates/N021T00126Hf18756b7.lean",
+    "simple_theorem": "Kobon.Certificates.N021T00126Hf18756b7.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N021T00126Hf18756b7"
+  },
+  {
+    "n": 5,
+    "triangles": 5,
+    "simple": true,
+    "coordinate_sha256": "dd0748b7cdfb14f77da5d2b75071ebc40f51edcc5fa7ab927e37b2eed3900a4d",
+    "module": "Kobon.Certificates.N005T00005Hdd0748b7",
+    "theorem": "Kobon.Certificates.N005T00005Hdd0748b7.lower_bound",
+    "sources": [
+      "research/kobon-extension/certificates/chain_5.json",
+      "research/kobon-own-results/certificates/n005.json"
+    ],
+    "lean_source": "Kobon/Certificates/N005T00005Hdd0748b7.lean",
+    "simple_theorem": "Kobon.Certificates.N005T00005Hdd0748b7.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N005T00005Hdd0748b7"
+  },
+  {
+    "n": 7,
+    "triangles": 10,
+    "simple": true,
+    "coordinate_sha256": "4b5bb6e99d6224c48bc817d1950a63c619b3970f115739a9c30d5802a649b02e",
+    "module": "Kobon.Certificates.N007T00010H4b5bb6e9",
+    "theorem": "Kobon.Certificates.N007T00010H4b5bb6e9.lower_bound",
+    "sources": [
+      "research/kobon-extension/certificates/chain_7.json",
+      "research/kobon-own-results/certificates/n007.json"
+    ],
+    "lean_source": "Kobon/Certificates/N007T00010H4b5bb6e9.lean",
+    "simple_theorem": "Kobon.Certificates.N007T00010H4b5bb6e9.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N007T00010H4b5bb6e9"
+  },
+  {
+    "n": 21,
+    "triangles": 132,
+    "simple": true,
+    "coordinate_sha256": "3d8bae2fa7295d7446d3849947e91637fe412d960c0906e982b077b6d65b5caa",
+    "module": "Kobon.Certificates.N021T00132H3d8bae2f",
+    "theorem": "Kobon.Certificates.N021T00132H3d8bae2f.lower_bound",
+    "sources": [
+      "research/kobon-hybrid/certificates/n021.json"
+    ],
+    "lean_source": "Kobon/Certificates/N021T00132H3d8bae2f.lean",
+    "simple_theorem": "Kobon.Certificates.N021T00132H3d8bae2f.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N021T00132H3d8bae2f"
+  },
+  {
+    "n": 22,
+    "triangles": 142,
+    "simple": true,
+    "coordinate_sha256": "e683945e66cdf396b26cc5922e0ee19eeb20018f385c4cf7523738de95cdafd5",
+    "module": "Kobon.Certificates.N022T00142He683945e",
+    "theorem": "Kobon.Certificates.N022T00142He683945e.lower_bound",
+    "sources": [
+      "research/kobon-hybrid/certificates/n022.json"
+    ],
+    "lean_source": "Kobon/Certificates/N022T00142He683945e.lean",
+    "simple_theorem": "Kobon.Certificates.N022T00142He683945e.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N022T00142He683945e"
+  },
+  {
+    "n": 41,
+    "triangles": 532,
+    "simple": true,
+    "coordinate_sha256": "6d48a3411f413135d3a43b4e19362d6747c6ec524b78447cedbb359c5c154697",
+    "module": "Kobon.Certificates.N041T00532H6d48a341",
+    "theorem": "Kobon.Certificates.N041T00532H6d48a341.lower_bound",
+    "sources": [
+      "research/kobon-hybrid/certificates/n041.json"
+    ],
+    "lean_source": "Kobon/Certificates/N041T00532H6d48a341.lean",
+    "simple_theorem": "Kobon.Certificates.N041T00532H6d48a341.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N041T00532H6d48a341"
+  },
+  {
+    "n": 42,
+    "triangles": 552,
+    "simple": true,
+    "coordinate_sha256": "7b29a6bd1191f25d5d6c1f918c84de14a32c95a711e3ee62051483c1259c3cf8",
+    "module": "Kobon.Certificates.N042T00552H7b29a6bd",
+    "theorem": "Kobon.Certificates.N042T00552H7b29a6bd.lower_bound",
+    "sources": [
+      "research/kobon-hybrid/certificates/n042.json"
+    ],
+    "lean_source": "Kobon/Certificates/N042T00552H7b29a6bd.lean",
+    "simple_theorem": "Kobon.Certificates.N042T00552H7b29a6bd.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N042T00552H7b29a6bd"
+  },
+  {
+    "n": 81,
+    "triangles": 2132,
+    "simple": true,
+    "coordinate_sha256": "7bc6b303744fa7065430b5ef6ba6c1c7a664574015ebd1321ec963c6ad1ca89c",
+    "module": "Kobon.Certificates.N081T02132H7bc6b303",
+    "theorem": "Kobon.Certificates.N081T02132H7bc6b303.lower_bound",
+    "sources": [
+      "research/kobon-hybrid/certificates/n081.json"
+    ],
+    "lean_source": "Kobon/Certificates/N081T02132H7bc6b303.lean",
+    "simple_theorem": "Kobon.Certificates.N081T02132H7bc6b303.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N081T02132H7bc6b303"
+  },
+  {
+    "n": 82,
+    "triangles": 2172,
+    "simple": true,
+    "coordinate_sha256": "d75c9101c8a5c62b8a628c3f617ccce284cf1badeb4d2e24ccc30fc720c5ca05",
+    "module": "Kobon.Certificates.N082T02172Hd75c9101",
+    "theorem": "Kobon.Certificates.N082T02172Hd75c9101.lower_bound",
+    "sources": [
+      "research/kobon-hybrid/certificates/n082.json"
+    ],
+    "lean_source": "Kobon/Certificates/N082T02172Hd75c9101.lean",
+    "simple_theorem": "Kobon.Certificates.N082T02172Hd75c9101.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N082T02172Hd75c9101"
+  },
+  {
+    "n": 161,
+    "triangles": 8532,
+    "simple": true,
+    "coordinate_sha256": "230691d59eee84b4df762c975c9456b4557903110d73e934702ec464f19205c7",
+    "module": "Kobon.Certificates.N161T08532H230691d5",
+    "theorem": "Kobon.Certificates.N161T08532H230691d5.lower_bound",
+    "sources": [
+      "research/kobon-hybrid/certificates/n161.json"
+    ],
+    "lean_source": "Kobon/Certificates/N161T08532H230691d5.lean",
+    "simple_theorem": "Kobon.Certificates.N161T08532H230691d5.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N161T08532H230691d5"
+  },
+  {
+    "n": 162,
+    "triangles": 8612,
+    "simple": true,
+    "coordinate_sha256": "1512e69660740eaef96bd10b14f2af14990ead9babce13a0a80f4322580cce0c",
+    "module": "Kobon.Certificates.N162T08612H1512e696",
+    "theorem": "Kobon.Certificates.N162T08612H1512e696.lower_bound",
+    "sources": [
+      "research/kobon-hybrid/certificates/n162.json"
+    ],
+    "lean_source": "Kobon/Certificates/N162T08612H1512e696.lean",
+    "simple_theorem": "Kobon.Certificates.N162T08612H1512e696.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N162T08612H1512e696"
+  },
+  {
+    "n": 9,
+    "triangles": 19,
+    "simple": false,
+    "coordinate_sha256": "e16410b887ee5bb8bdfecfb3699c4c92c0726cd665a264bc79d71997665a040c",
+    "module": "Kobon.Certificates.N009T00019He16410b8",
+    "theorem": "Kobon.Certificates.N009T00019He16410b8.lower_bound",
+    "sources": [
+      "research/kobon-own-results/certificates/n009.json"
+    ],
+    "lean_source": "Kobon/Certificates/N009T00019He16410b8.lean"
+  },
+  {
+    "n": 15,
+    "triangles": 61,
+    "simple": false,
+    "coordinate_sha256": "7c38d54f9e52590b06789649db9345b0b86239f35e0d6044059da50c8c89f0ac",
+    "module": "Kobon.Certificates.N015T00061H7c38d54f",
+    "theorem": "Kobon.Certificates.N015T00061H7c38d54f.lower_bound",
+    "sources": [
+      "research/kobon-own-results/certificates/n015.json"
+    ],
+    "lean_source": "Kobon/Certificates/N015T00061H7c38d54f.lean"
+  },
+  {
+    "n": 21,
+    "triangles": 127,
+    "simple": false,
+    "coordinate_sha256": "b8dcff224cdbe59ba62ff5c9b7ac04bf3632b0bb31bab26328b5a4822a07e4be",
+    "module": "Kobon.Certificates.N021T00127Hb8dcff22",
+    "theorem": "Kobon.Certificates.N021T00127Hb8dcff22.lower_bound",
+    "sources": [
+      "research/kobon-own-results/certificates/n021.json"
+    ],
+    "lean_source": "Kobon/Certificates/N021T00127Hb8dcff22.lean"
+  },
+  {
+    "n": 27,
+    "triangles": 217,
+    "simple": false,
+    "coordinate_sha256": "6670a2b142843e2af9017be6c63e180bb1c9ded0b85ecd1a5e2c2bd4c297ef78",
+    "module": "Kobon.Certificates.N027T00217H6670a2b1",
+    "theorem": "Kobon.Certificates.N027T00217H6670a2b1.lower_bound",
+    "sources": [
+      "research/kobon-own-results/certificates/n027.json"
+    ],
+    "lean_source": "Kobon/Certificates/N027T00217H6670a2b1.lean"
+  },
+  {
+    "n": 33,
+    "triangles": 331,
+    "simple": false,
+    "coordinate_sha256": "25fd8f0c3311d01e14851279251ff67eda67fc70e2cd81c2315662a3f9fc06ca",
+    "module": "Kobon.Certificates.N033T00331H25fd8f0c",
+    "theorem": "Kobon.Certificates.N033T00331H25fd8f0c.lower_bound",
+    "sources": [
+      "research/kobon-own-results/certificates/n033.json"
+    ],
+    "lean_source": "Kobon/Certificates/N033T00331H25fd8f0c.lean"
+  },
+  {
+    "n": 48,
+    "triangles": 715,
+    "simple": false,
+    "coordinate_sha256": "ba6f5baae76d20ff3a603b29537cdcb888413f2ffadd1bf5454f087b8dd94c5a",
+    "module": "Kobon.Certificates.N048T00715Hba6f5baa",
+    "theorem": "Kobon.Certificates.N048T00715Hba6f5baa.lower_bound",
+    "sources": [
+      "research/kobon-own-results/certificates/n048.json"
+    ],
+    "lean_source": "Kobon/Certificates/N048T00715Hba6f5baa.lean"
+  },
+  {
+    "n": 99,
+    "triangles": 3169,
+    "simple": false,
+    "coordinate_sha256": "4fef38d87d0c5550339b559779c76bf0961a0d8179ae6ea6dbf6f7dc4034f997",
+    "module": "Kobon.Certificates.N099T03169H4fef38d8",
+    "theorem": "Kobon.Certificates.N099T03169H4fef38d8.lower_bound",
+    "sources": [
+      "research/kobon-own-results/certificates/n099.json",
+      "research/kobon-research/certificates/n099.json"
+    ],
+    "lean_source": "Kobon/Certificates/N099T03169H4fef38d8.lean"
+  },
+  {
+    "n": 195,
+    "triangles": 12481,
+    "simple": false,
+    "coordinate_sha256": "cd3497dbf8468a75156926d562fcf7b75a8da08a91c92af009b3988eff9e39ce",
+    "module": "Kobon.Certificates.N195T12481Hcd3497db",
+    "theorem": "Kobon.Certificates.N195T12481Hcd3497db.lower_bound",
+    "sources": [
+      "research/kobon-own-results/certificates/n195.json",
+      "research/kobon-research/certificates/n195.json"
+    ],
+    "lean_source": "Kobon/Certificates/N195T12481Hcd3497db.lean"
+  },
+  {
+    "n": 195,
+    "triangles": 12480,
+    "simple": true,
+    "coordinate_sha256": "1b9230fb738a2ca6cff046e0ce7f79d2055fd7f9315ec9e37a5bd6d5503ce4bf",
+    "module": "Kobon.Certificates.N195T12480H1b9230fb",
+    "theorem": "Kobon.Certificates.N195T12480H1b9230fb.lower_bound",
+    "sources": [
+      "research/kobon-own-results/comparison-certificates/fp-195.json"
+    ],
+    "lean_source": "Kobon/Certificates/N195T12480H1b9230fb.lean",
+    "simple_theorem": "Kobon.Certificates.N195T12480H1b9230fb.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N195T12480H1b9230fb"
+  },
+  {
+    "n": 44,
+    "triangles": 602,
+    "simple": true,
+    "coordinate_sha256": "0b0250bf6213b6aef51526d4c87516445b2c2faa97c1f898a4fc1633318e422a",
+    "module": "Kobon.Certificates.N044T00602H0b0250bf",
+    "theorem": "Kobon.Certificates.N044T00602H0b0250bf.lower_bound",
+    "sources": [
+      "research/kobon-own-results/comparison-certificates/fp-44.json"
+    ],
+    "lean_source": "Kobon/Certificates/N044T00602H0b0250bf.lean",
+    "simple_theorem": "Kobon.Certificates.N044T00602H0b0250bf.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N044T00602H0b0250bf"
+  },
+  {
+    "n": 99,
+    "triangles": 3168,
+    "simple": true,
+    "coordinate_sha256": "a0ea30825a737b92e0ff18a90cbea7a978812af4f4e4deed4ad2bfd140034d5f",
+    "module": "Kobon.Certificates.N099T03168Ha0ea3082",
+    "theorem": "Kobon.Certificates.N099T03168Ha0ea3082.lower_bound",
+    "sources": [
+      "research/kobon-own-results/comparison-certificates/fp-99.json"
+    ],
+    "lean_source": "Kobon/Certificates/N099T03168Ha0ea3082.lean",
+    "simple_theorem": "Kobon.Certificates.N099T03168Ha0ea3082.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N099T03168Ha0ea3082"
+  }
+]

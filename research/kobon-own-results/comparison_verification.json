@@ -1,0 +1,20 @@
+[
+  {
+    "file": "fp-44.json",
+    "n": 44,
+    "triangles": 602,
+    "pass_check": true
+  },
+  {
+    "file": "fp-99.json",
+    "n": 99,
+    "triangles": 3168,
+    "pass_check": true
+  },
+  {
+    "file": "fp-195.json",
+    "n": 195,
+    "triangles": 12480,
+    "pass_check": true
+  }
+]

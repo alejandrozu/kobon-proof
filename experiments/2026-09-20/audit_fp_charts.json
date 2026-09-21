@@ -1,0 +1,102 @@
+[
+  {
+    "n": 9,
+    "projective_triangles": 24,
+    "best_sampled_affine": 18,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "n": 13,
+    "projective_triangles": 48,
+    "best_sampled_affine": 44,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "n": 15,
+    "projective_triangles": 66,
+    "best_sampled_affine": 60,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "n": 27,
+    "projective_triangles": 222,
+    "best_sampled_affine": 216,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "n": 39,
+    "projective_triangles": 474,
+    "best_sampled_affine": 468,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "n": 44,
+    "projective_triangles": 606,
+    "best_sampled_affine": 602,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "n": 51,
+    "projective_triangles": 822,
+    "best_sampled_affine": 816,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "n": 58,
+    "projective_triangles": 1068,
+    "best_sampled_affine": 1064,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "n": 99,
+    "projective_triangles": 3174,
+    "best_sampled_affine": 3168,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "n": 195,
+    "projective_triangles": 12486,
+    "best_sampled_affine": 12480,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  }
+]

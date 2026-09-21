@@ -1,0 +1,98 @@
+{
+  "excluded_directories": [
+    "vendor",
+    "__pycache__"
+  ],
+  "files": [
+    {
+      "file": "work/kobon/archivara_metadata.json",
+      "bytes": 2513,
+      "sha256": "11611c6b9a452193c3b11b5a9444497593bfef3d2eaf7f66cfaf1c34ef71886f",
+      "reason": "Downloaded publication/media or already-preserved source/metadata; see source register and archive."
+    },
+    {
+      "file": "work/kobon/bbl-page-02.png",
+      "bytes": 352094,
+      "sha256": "8b75a4487b7ec57bbf8bec078f0bd22f9279e77f9dfc096bac25014df0e87283",
+      "reason": "Downloaded publication/media or already-preserved source/metadata; see source register and archive."
+    },
+    {
+      "file": "work/kobon/bbl-page-03.png",
+      "bytes": 344420,
+      "sha256": "256112ca2721fb48deaf0431940e9cfb7f9180fbf28e014ec98497112e36f98c",
+      "reason": "Downloaded publication/media or already-preserved source/metadata; see source register and archive."
+    },
+    {
+      "file": "work/kobon/bbl.pdf",
+      "bytes": 569768,
+      "sha256": "84f2f097afa99478451260f657a2d2d137c7fe43461b6a9356987a0e022424ed",
+      "reason": "Downloaded publication/media or already-preserved source/metadata; see source register and archive."
+    },
+    {
+      "file": "work/kobon/BoundaryExtension.lean",
+      "bytes": 4586,
+      "sha256": "8fd1ce274bf2d786591abc89039065c32949fc2b18e3c108a2e27a9f505314d1",
+      "reason": "Downloaded publication/media or already-preserved source/metadata; see source register and archive."
+    },
+    {
+      "file": "work/kobon/even-series.md",
+      "bytes": 93244,
+      "sha256": "6484aa425ec0a4c0c8c27d8233e69b9bf5994864f57ab8db47fe0190eaf01fdb",
+      "reason": "Downloaded publication/media or already-preserved source/metadata; see source register and archive."
+    },
+    {
+      "file": "work/kobon/gallery-readme.md",
+      "bytes": 613,
+      "sha256": "777bf12a5fd9559c3f15ad0f42d6f661d42946dd7f986e7add7a0c14e077e8f1",
+      "reason": "Downloaded publication/media or already-preserved source/metadata; see source register and archive."
+    },
+    {
+      "file": "work/kobon/KobonTriangles.lean",
+      "bytes": 17701,
+      "sha256": "3abdff303fdf1e8e3af99d9db05200cfd06218c3cc399606fa97752078855521",
+      "reason": "Downloaded publication/media or already-preserved source/metadata; see source register and archive."
+    },
+    {
+      "file": "work/kobon/RationalExamples.lean",
+      "bytes": 2663,
+      "sha256": "e00d23be484ea8a608a2ac73732ee5479a1390bfd1315c9e37e952dd938e8106",
+      "reason": "Downloaded publication/media or already-preserved source/metadata; see source register and archive."
+    },
+    {
+      "file": "work/kobon/series18-data.md",
+      "bytes": 407,
+      "sha256": "363ab44adf8fa54af42815b81d72b491689a8e16eb42f22adeea9691cf405873",
+      "reason": "Downloaded publication/media or already-preserved source/metadata; see source register and archive."
+    },
+    {
+      "file": "work/kobon/series18-readme.md",
+      "bytes": 1782,
+      "sha256": "f77578d429f2f547f8555e3aa7418dc169253261f307f421c12f4f9f984b7591",
+      "reason": "Downloaded publication/media or already-preserved source/metadata; see source register and archive."
+    },
+    {
+      "file": "work/kobon/zarzuelo-page-4.png",
+      "bytes": 299497,
+      "sha256": "736b211f1d643b24e41f91661041fd4b74bb72b419bd2b1d377d6ec7005e9e64",
+      "reason": "Downloaded publication/media or already-preserved source/metadata; see source register and archive."
+    },
+    {
+      "file": "work/kobon/zarzuelo-page-5.png",
+      "bytes": 341820,
+      "sha256": "2f380a7ebad8c983a5a0fc0fc23a0edec58e3405fd945e725b3582e852b40f43",
+      "reason": "Downloaded publication/media or already-preserved source/metadata; see source register and archive."
+    },
+    {
+      "file": "work/kobon/zarzuelo.pdf",
+      "bytes": 347712,
+      "sha256": "e83a202de3bda888f0c4d39860810e543c7c8cc7c58b6638aff2812d2c791b76",
+      "reason": "Downloaded publication/media or already-preserved source/metadata; see source register and archive."
+    },
+    {
+      "file": "work/kobon/zarzuelo.txt",
+      "bytes": 17920,
+      "sha256": "043b8aa9ba15b71b66cb885016f09c24eeccbbb693057e3f2c3629f6cd2b489f",
+      "reason": "Downloaded publication/media or already-preserved source/metadata; see source register and archive."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "source": "outputs/kobon-own-results/certificates/n044.json",
+  "n": 44,
+  "base": 587,
+  "best": 608,
+  "drop": 43,
+  "proposals": 370230,
+  "exact_candidates_checked": 0,
+  "approximate_false": 0,
+  "seconds": 13.283606767654419,
+  "scope": "All pairs of finite old vertices without a common input line",
+  "limitations": "Floating ranking may miss a better candidate. No global optimality or priority claim."
+}

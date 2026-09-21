@@ -1,0 +1,853 @@
+{
+  "scope": "Frozen research snapshot; not all items are promoted or verified claims.",
+  "files": [
+    {
+      "original": "work/kobon/analyze_hybrid_boundary.py",
+      "saved": "experiments/2026-09-20/analyze_hybrid_boundary.py"
+    },
+    {
+      "original": "work/kobon/audit_certify44.py",
+      "saved": "experiments/2026-09-20/audit_certify44.py"
+    },
+    {
+      "original": "work/kobon/audit_fp_charts.json",
+      "saved": "experiments/2026-09-20/audit_fp_charts.json"
+    },
+    {
+      "original": "work/kobon/audit_fp_charts.py",
+      "saved": "experiments/2026-09-20/audit_fp_charts.py"
+    },
+    {
+      "original": "work/kobon/audit_fp_nonsimple.json",
+      "saved": "experiments/2026-09-20/audit_fp_nonsimple.json"
+    },
+    {
+      "original": "work/kobon/audit_fp_nonsimple.py",
+      "saved": "experiments/2026-09-20/audit_fp_nonsimple.py"
+    },
+    {
+      "original": "work/kobon/boundary_probe.py",
+      "saved": "experiments/2026-09-20/boundary_probe.py"
+    },
+    {
+      "original": "work/kobon/bounds_table.json",
+      "saved": "experiments/2026-09-20/bounds_table.json"
+    },
+    {
+      "original": "work/kobon/bounds_table.py",
+      "saved": "experiments/2026-09-20/bounds_table.py"
+    },
+    {
+      "original": "work/kobon/build_examples.py",
+      "saved": "experiments/2026-09-20/build_examples.py"
+    },
+    {
+      "original": "work/kobon/certificate-20.json",
+      "saved": "experiments/2026-09-20/certificate-20.json"
+    },
+    {
+      "original": "work/kobon/certificate-26.json",
+      "saved": "experiments/2026-09-20/certificate-26.json"
+    },
+    {
+      "original": "work/kobon/certificate-32.json",
+      "saved": "experiments/2026-09-20/certificate-32.json"
+    },
+    {
+      "original": "work/kobon/certificate-38.json",
+      "saved": "experiments/2026-09-20/certificate-38.json"
+    },
+    {
+      "original": "work/kobon/certificate-50.json",
+      "saved": "experiments/2026-09-20/certificate-50.json"
+    },
+    {
+      "original": "work/kobon/chart_search.py",
+      "saved": "experiments/2026-09-20/chart_search.py"
+    },
+    {
+      "original": "work/kobon/check_boundary.py",
+      "saved": "experiments/2026-09-20/check_boundary.py"
+    },
+    {
+      "original": "work/kobon/collapse-best.json",
+      "saved": "experiments/2026-09-20/collapse-best.json"
+    },
+    {
+      "original": "work/kobon/collapse_search.py",
+      "saved": "experiments/2026-09-20/collapse_search.py"
+    },
+    {
+      "original": "work/kobon/decorated-27.json",
+      "saved": "experiments/2026-09-20/decorated-27.json"
+    },
+    {
+      "original": "work/kobon/decorated-9.json",
+      "saved": "experiments/2026-09-20/decorated-9.json"
+    },
+    {
+      "original": "work/kobon/decoration_search.py",
+      "saved": "experiments/2026-09-20/decoration_search.py"
+    },
+    {
+      "original": "work/kobon/deletion-26-2.json",
+      "saved": "experiments/2026-09-20/deletion-26-2.json"
+    },
+    {
+      "original": "work/kobon/deletion-41-2.json",
+      "saved": "experiments/2026-09-20/deletion-41-2.json"
+    },
+    {
+      "original": "work/kobon/deletion-45-1.json",
+      "saved": "experiments/2026-09-20/deletion-45-1.json"
+    },
+    {
+      "original": "work/kobon/deletion-50-2.json",
+      "saved": "experiments/2026-09-20/deletion-50-2.json"
+    },
+    {
+      "original": "work/kobon/deletion_search.py",
+      "saved": "experiments/2026-09-20/deletion_search.py"
+    },
+    {
+      "original": "work/kobon/doubled-105.json",
+      "saved": "experiments/2026-09-20/doubled-105.json"
+    },
+    {
+      "original": "work/kobon/doubled-137.json",
+      "saved": "experiments/2026-09-20/doubled-137.json"
+    },
+    {
+      "original": "work/kobon/doubled-21.json",
+      "saved": "experiments/2026-09-20/doubled-21.json"
+    },
+    {
+      "original": "work/kobon/doubled-37.json",
+      "saved": "experiments/2026-09-20/doubled-37.json"
+    },
+    {
+      "original": "work/kobon/doubled-41.json",
+      "saved": "experiments/2026-09-20/doubled-41.json"
+    },
+    {
+      "original": "work/kobon/doubled-45.json",
+      "saved": "experiments/2026-09-20/doubled-45.json"
+    },
+    {
+      "original": "work/kobon/doubled-53.json",
+      "saved": "experiments/2026-09-20/doubled-53.json"
+    },
+    {
+      "original": "work/kobon/doubled-69.json",
+      "saved": "experiments/2026-09-20/doubled-69.json"
+    },
+    {
+      "original": "work/kobon/doubled-81.json",
+      "saved": "experiments/2026-09-20/doubled-81.json"
+    },
+    {
+      "original": "work/kobon/doubled-89.json",
+      "saved": "experiments/2026-09-20/doubled-89.json"
+    },
+    {
+      "original": "work/kobon/earlier-gap-two-manuscript.md",
+      "saved": "experiments/2026-09-20/earlier-gap-two-manuscript.md"
+    },
+    {
+      "original": "work/kobon/earlier-gap-two-seed-21.json",
+      "saved": "experiments/2026-09-20/earlier-gap-two-seed-21.json"
+    },
+    {
+      "original": "work/kobon/even_family.py",
+      "saved": "experiments/2026-09-20/even_family.py"
+    },
+    {
+      "original": "work/kobon/extension-grid-3-0.json",
+      "saved": "experiments/2026-09-20/extension-grid-3-0.json"
+    },
+    {
+      "original": "work/kobon/extension-grid-3-1.json",
+      "saved": "experiments/2026-09-20/extension-grid-3-1.json"
+    },
+    {
+      "original": "work/kobon/extension-grid-3-2.json",
+      "saved": "experiments/2026-09-20/extension-grid-3-2.json"
+    },
+    {
+      "original": "work/kobon/extension-grid-3-3.json",
+      "saved": "experiments/2026-09-20/extension-grid-3-3.json"
+    },
+    {
+      "original": "work/kobon/extension-grid-3-4.json",
+      "saved": "experiments/2026-09-20/extension-grid-3-4.json"
+    },
+    {
+      "original": "work/kobon/extension-grid-4-0.json",
+      "saved": "experiments/2026-09-20/extension-grid-4-0.json"
+    },
+    {
+      "original": "work/kobon/extension-grid-4-1.json",
+      "saved": "experiments/2026-09-20/extension-grid-4-1.json"
+    },
+    {
+      "original": "work/kobon/extension-grid-4-2.json",
+      "saved": "experiments/2026-09-20/extension-grid-4-2.json"
+    },
+    {
+      "original": "work/kobon/extension-grid-4-3.json",
+      "saved": "experiments/2026-09-20/extension-grid-4-3.json"
+    },
+    {
+      "original": "work/kobon/extension-grid-4-4.json",
+      "saved": "experiments/2026-09-20/extension-grid-4-4.json"
+    },
+    {
+      "original": "work/kobon/extension-grid-5-0.json",
+      "saved": "experiments/2026-09-20/extension-grid-5-0.json"
+    },
+    {
+      "original": "work/kobon/extension-grid-5-1.json",
+      "saved": "experiments/2026-09-20/extension-grid-5-1.json"
+    },
+    {
+      "original": "work/kobon/extension-grid-5-2.json",
+      "saved": "experiments/2026-09-20/extension-grid-5-2.json"
+    },
+    {
+      "original": "work/kobon/extension-grid-5-3.json",
+      "saved": "experiments/2026-09-20/extension-grid-5-3.json"
+    },
+    {
+      "original": "work/kobon/extension-grid-5-4.json",
+      "saved": "experiments/2026-09-20/extension-grid-5-4.json"
+    },
+    {
+      "original": "work/kobon/extension-simple20.json",
+      "saved": "experiments/2026-09-20/extension-simple20.json"
+    },
+    {
+      "original": "work/kobon/extension_audit.py",
+      "saved": "experiments/2026-09-20/extension_audit.py"
+    },
+    {
+      "original": "work/kobon/extension_random.py",
+      "saved": "experiments/2026-09-20/extension_random.py"
+    },
+    {
+      "original": "work/kobon/extension_structured.py",
+      "saved": "experiments/2026-09-20/extension_structured.py"
+    },
+    {
+      "original": "work/kobon/far-21.json",
+      "saved": "experiments/2026-09-20/far-21.json"
+    },
+    {
+      "original": "work/kobon/far-27.json",
+      "saved": "experiments/2026-09-20/far-27.json"
+    },
+    {
+      "original": "work/kobon/far-33.json",
+      "saved": "experiments/2026-09-20/far-33.json"
+    },
+    {
+      "original": "work/kobon/far-39.json",
+      "saved": "experiments/2026-09-20/far-39.json"
+    },
+    {
+      "original": "work/kobon/far-51.json",
+      "saved": "experiments/2026-09-20/far-51.json"
+    },
+    {
+      "original": "work/kobon/finalize_extension.py",
+      "saved": "experiments/2026-09-20/finalize_extension.py"
+    },
+    {
+      "original": "work/kobon/finalize_novelty_audit.py",
+      "saved": "experiments/2026-09-20/finalize_novelty_audit.py"
+    },
+    {
+      "original": "work/kobon/fix_math.py",
+      "saved": "experiments/2026-09-20/fix_math.py"
+    },
+    {
+      "original": "work/kobon/fixed-cap-15.json",
+      "saved": "experiments/2026-09-20/fixed-cap-15.json"
+    },
+    {
+      "original": "work/kobon/fixed-cap-195.json",
+      "saved": "experiments/2026-09-20/fixed-cap-195.json"
+    },
+    {
+      "original": "work/kobon/fixed-cap-27.json",
+      "saved": "experiments/2026-09-20/fixed-cap-27.json"
+    },
+    {
+      "original": "work/kobon/fixed-cap-51.json",
+      "saved": "experiments/2026-09-20/fixed-cap-51.json"
+    },
+    {
+      "original": "work/kobon/fixed-cap-9.json",
+      "saved": "experiments/2026-09-20/fixed-cap-9.json"
+    },
+    {
+      "original": "work/kobon/fixed-cap-99.json",
+      "saved": "experiments/2026-09-20/fixed-cap-99.json"
+    },
+    {
+      "original": "work/kobon/gallery-11.json",
+      "saved": "experiments/2026-09-20/gallery-11.json"
+    },
+    {
+      "original": "work/kobon/gallery-12.json",
+      "saved": "experiments/2026-09-20/gallery-12.json"
+    },
+    {
+      "original": "work/kobon/gallery-13.json",
+      "saved": "experiments/2026-09-20/gallery-13.json"
+    },
+    {
+      "original": "work/kobon/gallery-15.json",
+      "saved": "experiments/2026-09-20/gallery-15.json"
+    },
+    {
+      "original": "work/kobon/gallery-17.json",
+      "saved": "experiments/2026-09-20/gallery-17.json"
+    },
+    {
+      "original": "work/kobon/gallery-19.json",
+      "saved": "experiments/2026-09-20/gallery-19.json"
+    },
+    {
+      "original": "work/kobon/gallery-21.json",
+      "saved": "experiments/2026-09-20/gallery-21.json"
+    },
+    {
+      "original": "work/kobon/gallery-23.json",
+      "saved": "experiments/2026-09-20/gallery-23.json"
+    },
+    {
+      "original": "work/kobon/gallery-25.json",
+      "saved": "experiments/2026-09-20/gallery-25.json"
+    },
+    {
+      "original": "work/kobon/gallery-27.json",
+      "saved": "experiments/2026-09-20/gallery-27.json"
+    },
+    {
+      "original": "work/kobon/gallery-29.json",
+      "saved": "experiments/2026-09-20/gallery-29.json"
+    },
+    {
+      "original": "work/kobon/gallery-31.json",
+      "saved": "experiments/2026-09-20/gallery-31.json"
+    },
+    {
+      "original": "work/kobon/gallery-33.json",
+      "saved": "experiments/2026-09-20/gallery-33.json"
+    },
+    {
+      "original": "work/kobon/gallery-35.json",
+      "saved": "experiments/2026-09-20/gallery-35.json"
+    },
+    {
+      "original": "work/kobon/gallery-37.json",
+      "saved": "experiments/2026-09-20/gallery-37.json"
+    },
+    {
+      "original": "work/kobon/gallery-41.json",
+      "saved": "experiments/2026-09-20/gallery-41.json"
+    },
+    {
+      "original": "work/kobon/gallery-43.json",
+      "saved": "experiments/2026-09-20/gallery-43.json"
+    },
+    {
+      "original": "work/kobon/gallery-45.json",
+      "saved": "experiments/2026-09-20/gallery-45.json"
+    },
+    {
+      "original": "work/kobon/gallery-46.json",
+      "saved": "experiments/2026-09-20/gallery-46.json"
+    },
+    {
+      "original": "work/kobon/gallery-5.json",
+      "saved": "experiments/2026-09-20/gallery-5.json"
+    },
+    {
+      "original": "work/kobon/gallery-7.json",
+      "saved": "experiments/2026-09-20/gallery-7.json"
+    },
+    {
+      "original": "work/kobon/gallery-9.json",
+      "saved": "experiments/2026-09-20/gallery-9.json"
+    },
+    {
+      "original": "work/kobon/gallery-tree.json",
+      "saved": "experiments/2026-09-20/gallery-tree.json"
+    },
+    {
+      "original": "work/kobon/grid-report-21.json",
+      "saved": "experiments/2026-09-20/grid-report-21.json"
+    },
+    {
+      "original": "work/kobon/grid-report-23.json",
+      "saved": "experiments/2026-09-20/grid-report-23.json"
+    },
+    {
+      "original": "work/kobon/grid-report-27.json",
+      "saved": "experiments/2026-09-20/grid-report-27.json"
+    },
+    {
+      "original": "work/kobon/grid-report-31.json",
+      "saved": "experiments/2026-09-20/grid-report-31.json"
+    },
+    {
+      "original": "work/kobon/grid-report-35.json",
+      "saved": "experiments/2026-09-20/grid-report-35.json"
+    },
+    {
+      "original": "work/kobon/grid-report-41.json",
+      "saved": "experiments/2026-09-20/grid-report-41.json"
+    },
+    {
+      "original": "work/kobon/grid-report-43.json",
+      "saved": "experiments/2026-09-20/grid-report-43.json"
+    },
+    {
+      "original": "work/kobon/grid-report-45.json",
+      "saved": "experiments/2026-09-20/grid-report-45.json"
+    },
+    {
+      "original": "work/kobon/grid-seed-11-y1.json",
+      "saved": "experiments/2026-09-20/grid-seed-11-y1.json"
+    },
+    {
+      "original": "work/kobon/grid-seed-19-y0.json",
+      "saved": "experiments/2026-09-20/grid-seed-19-y0.json"
+    },
+    {
+      "original": "work/kobon/hybrid-22.json",
+      "saved": "experiments/2026-09-20/hybrid-22.json"
+    },
+    {
+      "original": "work/kobon/hybrid-42.json",
+      "saved": "experiments/2026-09-20/hybrid-42.json"
+    },
+    {
+      "original": "work/kobon/hybrid-82.json",
+      "saved": "experiments/2026-09-20/hybrid-82.json"
+    },
+    {
+      "original": "work/kobon/hybrid-n039.json",
+      "saved": "experiments/2026-09-20/hybrid-n039.json"
+    },
+    {
+      "original": "work/kobon/hybrid-n039.json.search.json",
+      "saved": "experiments/2026-09-20/hybrid-n039.json.search.json"
+    },
+    {
+      "original": "work/kobon/hybrid-n044.json",
+      "saved": "experiments/2026-09-20/hybrid-n044.json"
+    },
+    {
+      "original": "work/kobon/hybrid-n044.json.search.json",
+      "saved": "experiments/2026-09-20/hybrid-n044.json.search.json"
+    },
+    {
+      "original": "work/kobon/hybrid-n051.json",
+      "saved": "experiments/2026-09-20/hybrid-n051.json"
+    },
+    {
+      "original": "work/kobon/hybrid-n051.json.search.json",
+      "saved": "experiments/2026-09-20/hybrid-n051.json.search.json"
+    },
+    {
+      "original": "work/kobon/hybrid_doubling.py",
+      "saved": "experiments/2026-09-20/hybrid_doubling.py"
+    },
+    {
+      "original": "work/kobon/hybrid_local.py",
+      "saved": "experiments/2026-09-20/hybrid_local.py"
+    },
+    {
+      "original": "work/kobon/hybrid_mutations.py",
+      "saved": "experiments/2026-09-20/hybrid_mutations.py"
+    },
+    {
+      "original": "work/kobon/hybrid_pencil.py",
+      "saved": "experiments/2026-09-20/hybrid_pencil.py"
+    },
+    {
+      "original": "work/kobon/hybrid_relaxed_seed.py",
+      "saved": "experiments/2026-09-20/hybrid_relaxed_seed.py"
+    },
+    {
+      "original": "work/kobon/hybrid_search.py",
+      "saved": "experiments/2026-09-20/hybrid_search.py"
+    },
+    {
+      "original": "work/kobon/local-n039.json",
+      "saved": "experiments/2026-09-20/local-n039.json"
+    },
+    {
+      "original": "work/kobon/local-n039.json.search.json",
+      "saved": "experiments/2026-09-20/local-n039.json.search.json"
+    },
+    {
+      "original": "work/kobon/local-n047.json",
+      "saved": "experiments/2026-09-20/local-n047.json"
+    },
+    {
+      "original": "work/kobon/local-n047.json.search.json",
+      "saved": "experiments/2026-09-20/local-n047.json.search.json"
+    },
+    {
+      "original": "work/kobon/local-n051.json",
+      "saved": "experiments/2026-09-20/local-n051.json"
+    },
+    {
+      "original": "work/kobon/local-n051.json.search.json",
+      "saved": "experiments/2026-09-20/local-n051.json.search.json"
+    },
+    {
+      "original": "work/kobon/mutation-lines-21.json",
+      "saved": "experiments/2026-09-20/mutation-lines-21.json"
+    },
+    {
+      "original": "work/kobon/mutation-lines-23.json",
+      "saved": "experiments/2026-09-20/mutation-lines-23.json"
+    },
+    {
+      "original": "work/kobon/mutation-lines-27.json",
+      "saved": "experiments/2026-09-20/mutation-lines-27.json"
+    },
+    {
+      "original": "work/kobon/mutation-lines-35.json",
+      "saved": "experiments/2026-09-20/mutation-lines-35.json"
+    },
+    {
+      "original": "work/kobon/mutation-report-11.json",
+      "saved": "experiments/2026-09-20/mutation-report-11.json"
+    },
+    {
+      "original": "work/kobon/mutation-report-21.json",
+      "saved": "experiments/2026-09-20/mutation-report-21.json"
+    },
+    {
+      "original": "work/kobon/mutation-report-23.json",
+      "saved": "experiments/2026-09-20/mutation-report-23.json"
+    },
+    {
+      "original": "work/kobon/mutation-report-27.json",
+      "saved": "experiments/2026-09-20/mutation-report-27.json"
+    },
+    {
+      "original": "work/kobon/mutation-report-35.json",
+      "saved": "experiments/2026-09-20/mutation-report-35.json"
+    },
+    {
+      "original": "work/kobon/mutation-seed-11.json",
+      "saved": "experiments/2026-09-20/mutation-seed-11.json"
+    },
+    {
+      "original": "work/kobon/mutation-seed-21.json",
+      "saved": "experiments/2026-09-20/mutation-seed-21.json"
+    },
+    {
+      "original": "work/kobon/mutation-seed-23.json",
+      "saved": "experiments/2026-09-20/mutation-seed-23.json"
+    },
+    {
+      "original": "work/kobon/mutation-seed-27.json",
+      "saved": "experiments/2026-09-20/mutation-seed-27.json"
+    },
+    {
+      "original": "work/kobon/mutation-seed-35.json",
+      "saved": "experiments/2026-09-20/mutation-seed-35.json"
+    },
+    {
+      "original": "work/kobon/normalize_search.py",
+      "saved": "experiments/2026-09-20/normalize_search.py"
+    },
+    {
+      "original": "work/kobon/own_results_inventory.py",
+      "saved": "experiments/2026-09-20/own_results_inventory.py"
+    },
+    {
+      "original": "work/kobon/package_extension.py",
+      "saved": "experiments/2026-09-20/package_extension.py"
+    },
+    {
+      "original": "work/kobon/package_hybrid.py",
+      "saved": "experiments/2026-09-20/package_hybrid.py"
+    },
+    {
+      "original": "work/kobon/pencil-lines-21.json",
+      "saved": "experiments/2026-09-20/pencil-lines-21.json"
+    },
+    {
+      "original": "work/kobon/pencil-lines-23.json",
+      "saved": "experiments/2026-09-20/pencil-lines-23.json"
+    },
+    {
+      "original": "work/kobon/pencil-lines-27.json",
+      "saved": "experiments/2026-09-20/pencil-lines-27.json"
+    },
+    {
+      "original": "work/kobon/pencil-lines-35.json",
+      "saved": "experiments/2026-09-20/pencil-lines-35.json"
+    },
+    {
+      "original": "work/kobon/pencil-report-11.json",
+      "saved": "experiments/2026-09-20/pencil-report-11.json"
+    },
+    {
+      "original": "work/kobon/pencil-report-21.json",
+      "saved": "experiments/2026-09-20/pencil-report-21.json"
+    },
+    {
+      "original": "work/kobon/pencil-report-23.json",
+      "saved": "experiments/2026-09-20/pencil-report-23.json"
+    },
+    {
+      "original": "work/kobon/pencil-report-27.json",
+      "saved": "experiments/2026-09-20/pencil-report-27.json"
+    },
+    {
+      "original": "work/kobon/pencil-report-35.json",
+      "saved": "experiments/2026-09-20/pencil-report-35.json"
+    },
+    {
+      "original": "work/kobon/pencil-seed-11.json",
+      "saved": "experiments/2026-09-20/pencil-seed-11.json"
+    },
+    {
+      "original": "work/kobon/pencil-seed-21.json",
+      "saved": "experiments/2026-09-20/pencil-seed-21.json"
+    },
+    {
+      "original": "work/kobon/pencil-seed-23.json",
+      "saved": "experiments/2026-09-20/pencil-seed-23.json"
+    },
+    {
+      "original": "work/kobon/pencil-seed-27.json",
+      "saved": "experiments/2026-09-20/pencil-seed-27.json"
+    },
+    {
+      "original": "work/kobon/pencil-seed-35.json",
+      "saved": "experiments/2026-09-20/pencil-seed-35.json"
+    },
+    {
+      "original": "work/kobon/positive-control-19.json",
+      "saved": "experiments/2026-09-20/positive-control-19.json"
+    },
+    {
+      "original": "work/kobon/pu-cap-27--1.json",
+      "saved": "experiments/2026-09-20/pu-cap-27--1.json"
+    },
+    {
+      "original": "work/kobon/pu-cap-51--1.json",
+      "saved": "experiments/2026-09-20/pu-cap-51--1.json"
+    },
+    {
+      "original": "work/kobon/pu-cap-99--1.json",
+      "saved": "experiments/2026-09-20/pu-cap-99--1.json"
+    },
+    {
+      "original": "work/kobon/pu-family-26.json",
+      "saved": "experiments/2026-09-20/pu-family-26.json"
+    },
+    {
+      "original": "work/kobon/pu-family-50.json",
+      "saved": "experiments/2026-09-20/pu-family-50.json"
+    },
+    {
+      "original": "work/kobon/pu-family-98.json",
+      "saved": "experiments/2026-09-20/pu-family-98.json"
+    },
+    {
+      "original": "work/kobon/pu-far-27.json",
+      "saved": "experiments/2026-09-20/pu-far-27.json"
+    },
+    {
+      "original": "work/kobon/pu-far-51.json",
+      "saved": "experiments/2026-09-20/pu-far-51.json"
+    },
+    {
+      "original": "work/kobon/pu-far-99.json",
+      "saved": "experiments/2026-09-20/pu-far-99.json"
+    },
+    {
+      "original": "work/kobon/relaxed-lines-11.json",
+      "saved": "experiments/2026-09-20/relaxed-lines-11.json"
+    },
+    {
+      "original": "work/kobon/relaxed-lines-21.json",
+      "saved": "experiments/2026-09-20/relaxed-lines-21.json"
+    },
+    {
+      "original": "work/kobon/relaxed-lines-23.json",
+      "saved": "experiments/2026-09-20/relaxed-lines-23.json"
+    },
+    {
+      "original": "work/kobon/relaxed-lines-27.json",
+      "saved": "experiments/2026-09-20/relaxed-lines-27.json"
+    },
+    {
+      "original": "work/kobon/relaxed-lines-35.json",
+      "saved": "experiments/2026-09-20/relaxed-lines-35.json"
+    },
+    {
+      "original": "work/kobon/relaxed-report-11.json",
+      "saved": "experiments/2026-09-20/relaxed-report-11.json"
+    },
+    {
+      "original": "work/kobon/relaxed-report-21.json",
+      "saved": "experiments/2026-09-20/relaxed-report-21.json"
+    },
+    {
+      "original": "work/kobon/relaxed-report-23.json",
+      "saved": "experiments/2026-09-20/relaxed-report-23.json"
+    },
+    {
+      "original": "work/kobon/relaxed-report-27.json",
+      "saved": "experiments/2026-09-20/relaxed-report-27.json"
+    },
+    {
+      "original": "work/kobon/relaxed-report-35.json",
+      "saved": "experiments/2026-09-20/relaxed-report-35.json"
+    },
+    {
+      "original": "work/kobon/relaxed-seed-11.json",
+      "saved": "experiments/2026-09-20/relaxed-seed-11.json"
+    },
+    {
+      "original": "work/kobon/relaxed-seed-21.json",
+      "saved": "experiments/2026-09-20/relaxed-seed-21.json"
+    },
+    {
+      "original": "work/kobon/relaxed-seed-23.json",
+      "saved": "experiments/2026-09-20/relaxed-seed-23.json"
+    },
+    {
+      "original": "work/kobon/relaxed-seed-27.json",
+      "saved": "experiments/2026-09-20/relaxed-seed-27.json"
+    },
+    {
+      "original": "work/kobon/relaxed-seed-35.json",
+      "saved": "experiments/2026-09-20/relaxed-seed-35.json"
+    },
+    {
+      "original": "work/kobon/reproduction-51.json",
+      "saved": "experiments/2026-09-20/reproduction-51.json"
+    },
+    {
+      "original": "work/kobon/research.py",
+      "saved": "experiments/2026-09-20/research.py"
+    },
+    {
+      "original": "work/kobon/savchuk-11.json",
+      "saved": "experiments/2026-09-20/savchuk-11.json"
+    },
+    {
+      "original": "work/kobon/seed_search.py",
+      "saved": "experiments/2026-09-20/seed_search.py"
+    },
+    {
+      "original": "work/kobon/series18-lines.csv",
+      "saved": "experiments/2026-09-20/series18-lines.csv"
+    },
+    {
+      "original": "work/kobon/simple21-extension.json",
+      "saved": "experiments/2026-09-20/simple21-extension.json"
+    },
+    {
+      "original": "work/kobon/small-both-parities.json",
+      "saved": "experiments/2026-09-20/small-both-parities.json"
+    },
+    {
+      "original": "work/kobon/stable-seed-11.json",
+      "saved": "experiments/2026-09-20/stable-seed-11.json"
+    },
+    {
+      "original": "work/kobon/stable-seed-21.json",
+      "saved": "experiments/2026-09-20/stable-seed-21.json"
+    },
+    {
+      "original": "work/kobon/table_baseline.json",
+      "saved": "experiments/2026-09-20/table_baseline.json"
+    },
+    {
+      "original": "work/kobon/table_baseline.py",
+      "saved": "experiments/2026-09-20/table_baseline.py"
+    },
+    {
+      "original": "work/kobon/table_baseline_verification.json",
+      "saved": "experiments/2026-09-20/table_baseline_verification.json"
+    },
+    {
+      "original": "work/kobon/two-cap-10.json",
+      "saved": "experiments/2026-09-20/two-cap-10.json"
+    },
+    {
+      "original": "work/kobon/two-cap-16.json",
+      "saved": "experiments/2026-09-20/two-cap-16.json"
+    },
+    {
+      "original": "work/kobon/two-cap-28.json",
+      "saved": "experiments/2026-09-20/two-cap-28.json"
+    },
+    {
+      "original": "work/kobon/verify_direct_exact.py",
+      "saved": "experiments/2026-09-20/verify_direct_exact.py"
+    },
+    {
+      "original": "work/kobon/table-certificates/fp-39.json",
+      "saved": "experiments/2026-09-20/table-certificates/fp-39.json"
+    },
+    {
+      "original": "work/kobon/table-certificates/fp-40.json",
+      "saved": "experiments/2026-09-20/table-certificates/fp-40.json"
+    },
+    {
+      "original": "work/kobon/table-certificates/fp-47.json",
+      "saved": "experiments/2026-09-20/table-certificates/fp-47.json"
+    },
+    {
+      "original": "work/kobon/table-certificates/fp-48.json",
+      "saved": "experiments/2026-09-20/table-certificates/fp-48.json"
+    },
+    {
+      "original": "work/kobon/table-certificates/fp-51.json",
+      "saved": "experiments/2026-09-20/table-certificates/fp-51.json"
+    },
+    {
+      "original": "work/kobon/table-certificates/fp-52.json",
+      "saved": "experiments/2026-09-20/table-certificates/fp-52.json"
+    },
+    {
+      "original": "work/kobon/table-certificates/fp-53.json",
+      "saved": "experiments/2026-09-20/table-certificates/fp-53.json"
+    },
+    {
+      "original": "work/kobon/table-certificates/fp-54.json",
+      "saved": "experiments/2026-09-20/table-certificates/fp-54.json"
+    },
+    {
+      "original": "work/kobon/table-certificates/fp-55.json",
+      "saved": "experiments/2026-09-20/table-certificates/fp-55.json"
+    },
+    {
+      "original": "work/kobon/table-certificates/fp-56.json",
+      "saved": "experiments/2026-09-20/table-certificates/fp-56.json"
+    },
+    {
+      "original": "work/kobon/table-certificates/fp-59.json",
+      "saved": "experiments/2026-09-20/table-certificates/fp-59.json"
+    },
+    {
+      "original": "work/kobon/table-certificates/fp-60.json",
+      "saved": "experiments/2026-09-20/table-certificates/fp-60.json"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "file": "n044.json",
+  "n": 44,
+  "triangles": 608,
+  "pass_check": true,
+  "adjacency_count": 608,
+  "simple": true,
+  "preserves_all_input_triangles": true,
+  "gain": 21
+}

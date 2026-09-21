@@ -1,0 +1,2 @@
+# Preserve evidence bytes and their SHA-256 hashes on every checkout platform.
+* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

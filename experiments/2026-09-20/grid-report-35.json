@@ -1,0 +1,212 @@
+[
+  {
+    "y": 0,
+    "margin": -0.0,
+    "seconds": 0.2094285488128662,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "y": 1,
+    "margin": -0.0,
+    "seconds": 0.20220613479614258,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "y": 2,
+    "margin": -0.0,
+    "seconds": 0.20937418937683105,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "y": 3,
+    "margin": -0.0,
+    "seconds": 0.22675442695617676,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "y": 4,
+    "margin": -0.0,
+    "seconds": 0.21141386032104492,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "y": 5,
+    "margin": -0.0,
+    "seconds": 0.19508576393127441,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "y": 6,
+    "margin": -0.0,
+    "seconds": 0.20006537437438965,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "y": 7,
+    "margin": -0.0,
+    "seconds": 0.1962881088256836,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "y": 8,
+    "margin": -0.0,
+    "seconds": 0.21541428565979004,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "y": 9,
+    "margin": -0.0,
+    "seconds": 0.19469237327575684,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "y": 10,
+    "margin": -0.0,
+    "seconds": 0.20366287231445312,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "y": 11,
+    "margin": -0.0,
+    "seconds": 0.20554041862487793,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "y": 12,
+    "margin": -0.0,
+    "seconds": 0.20202302932739258,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "y": 13,
+    "margin": -0.0,
+    "seconds": 0.22122859954833984,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "y": 14,
+    "margin": -0.0,
+    "seconds": 0.22095084190368652,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "y": 15,
+    "margin": -0.0,
+    "seconds": 0.2459278106689453,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "y": 16,
+    "margin": -0.0,
+    "seconds": 0.22214794158935547,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "y": 17,
+    "margin": -0.0,
+    "seconds": 0.19866609573364258,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "y": 18,
+    "margin": -0.0,
+    "seconds": 0.2083909511566162,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "y": 19,
+    "margin": -0.0,
+    "seconds": 0.19921231269836426,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "y": 20,
+    "margin": -0.0,
+    "seconds": 0.19833040237426758,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "y": 21,
+    "margin": -0.0,
+    "seconds": 0.20452165603637695,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "y": 22,
+    "margin": -0.0,
+    "seconds": 0.21488642692565918,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "y": 23,
+    "margin": -0.0,
+    "seconds": 0.20206689834594727,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "y": 24,
+    "margin": -0.0,
+    "seconds": 0.2037496566772461,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "y": 25,
+    "margin": -0.0,
+    "seconds": 0.20992541313171387,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "y": 26,
+    "margin": -0.0,
+    "seconds": 0.1988065242767334,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "y": 27,
+    "margin": -0.0,
+    "seconds": 0.18875551223754883,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "y": 28,
+    "margin": -0.0,
+    "seconds": 0.2050924301147461,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "y": 29,
+    "margin": 7.973774776897916e-17,
+    "seconds": 0.20417094230651855,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "y": 30,
+    "margin": -0.0,
+    "seconds": 0.1981980800628662,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "y": 31,
+    "margin": -0.0,
+    "seconds": 0.21040129661560059,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "y": 32,
+    "margin": -0.0,
+    "seconds": 0.20015382766723633,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "y": 33,
+    "margin": -0.0,
+    "seconds": 0.20760035514831543,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  },
+  {
+    "y": 34,
+    "margin": -0.0,
+    "seconds": 0.2127854824066162,
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+  }
+]

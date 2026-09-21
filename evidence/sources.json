@@ -1,0 +1,86 @@
+{
+  "accessed_local_date": "2026-09-20",
+  "note": "Git heads were checked during consolidation. Local data hashes, rather than mutable page contents, identify the actual saved inputs. No source is an assumption silently introduced into Lean.",
+  "sources": [
+    {
+      "id": "zarzuelo-2026",
+      "title": "New Lower Bounds for Even Kobon Numbers",
+      "authors": "Alejandro Zarzuelo Urdiales",
+      "url": "https://archivara.org/paper/48b411c9-0e03-4592-931e-179b9a1c2312",
+      "version": 1,
+      "role": "Original odd-to-even claim and historical paper; linked Lean source has eight placeholders.",
+      "local": "archive/2026-03-original"
+    },
+    {
+      "id": "oeis",
+      "title": "OEIS A006066",
+      "url": "https://oeis.org/A006066",
+      "role": "Explicit public table and attribution; omitted rows are not evidence of numerical novelty.",
+      "local": "evidence/oeis-observations.json"
+    },
+    {
+      "id": "bbl-2007",
+      "title": "On simple arrangements of lines and pseudo-lines in P^2 and R^2 with the maximum number of triangles",
+      "authors": "Nicolas Bartholdi, Jeremy Blanc, Sebastien Loisel",
+      "url": "https://arxiv.org/html/0706.0723v1",
+      "locator": "Proposition 3.1, Remark 3.2, Theorems 1.3 and 1.4; perfect-odd exterior extension after Theorem 1.1",
+      "role": "Geometric doubling and compatibility hypotheses; existing families and earlier numerical consequences. Corollary 3.3 alone supplies pseudolines, not arbitrary straight-line realizations."
+    },
+    {
+      "id": "blanc-2008",
+      "title": "The best polynomial bounds for the number of triangles in a simple arrangement of n pseudo-lines",
+      "authors": "Jeremy Blanc",
+      "url": "https://arxiv.org/html/0801.2845v2",
+      "locator": "Theorem 1; Sections 2 and 5",
+      "role": "Upper bounds for simple arrangements and unused-segment/exterior-line antecedents; not used as unrestricted classical upper bounds."
+    },
+    {
+      "id": "savchuk-2025",
+      "title": "Constructing Optimal Kobon Triangle Arrangements via Table Encoding, SAT Solving, and Heuristic Straightening",
+      "authors": "Pavlo Savchuk",
+      "url": "https://arxiv.org/html/2507.07951v1",
+      "locator": "Appendix A.4 and eleven-line computation",
+      "role": "Honma-based 11-line input and prior optimal 32 count; SAT/straightening context."
+    },
+    {
+      "id": "pu-2026",
+      "title": "The 18*2^t + 1 Triangle-Maximal Series of Straight Lines",
+      "authors": "Roman Parpalak and Denis Utkin",
+      "url": "https://arxiv.org/html/2604.22035v1",
+      "locator": "Sections 2 and 7",
+      "role": "Prior optimal straight-line family and geometric compatibility analysis."
+    },
+    {
+      "id": "pu-even",
+      "title": "8-14-26 even-series draft",
+      "authors": "Roman Parpalak and Denis Utkin",
+      "url": "https://github.com/parpalak/kobon-even-draft/blob/4da100acd30d9fb2c5b2a1fa3fb9ce848a2e52a5/8-14-26-even-series.md",
+      "revision": "4da100acd30d9fb2c5b2a1fa3fb9ce848a2e52a5",
+      "locator": "Main theorem, Lemmas 2–3, Appendix A",
+      "role": "Prior nonsimple even family used as input to the additional-line draft."
+    },
+    {
+      "id": "fp-1984",
+      "title": "Arrangements of Lines with a Large Number of Triangles",
+      "authors": "Zoltan Furedi and Ilona Palasti",
+      "url": "https://paperzz.com/doc/9476977/arrangements-of-lines-with-a-large-number-of-triangles",
+      "role": "Older construction reproduced for comparison; source text mirror of the original article, not a claim that these comparison bounds are new.",
+      "local": "data/prior-configurations/furedi-palasti-table.json"
+    },
+    {
+      "id": "ud1-gallery",
+      "title": "Kobon solutions: exact gallery certificates",
+      "url": "https://github.com/ud1/kobon-solutions/tree/07e57e602a32cf94aadddfff1c9db2f7ea3b1660/gallery/certificates",
+      "revision": "07e57e602a32cf94aadddfff1c9db2f7ea3b1660",
+      "role": "Attributed published finite inputs; source fields are retained.",
+      "local": "data/prior-configurations"
+    },
+    {
+      "id": "pu-gallery",
+      "title": "Triangle-maximal straight-line arrangements",
+      "url": "https://github.com/parpalak/triangle-maximal-18-series/tree/c34ddee9781fef4ccd742aee45edd925860602b6",
+      "revision": "c34ddee9781fef4ccd742aee45edd925860602b6",
+      "role": "Published 18-series data and gallery used during the comparison and fitting searches."
+    }
+  ]
+}

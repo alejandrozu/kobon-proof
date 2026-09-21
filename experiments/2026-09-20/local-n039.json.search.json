@@ -1,0 +1,14 @@
+{
+  "n": 39,
+  "source": "outputs/kobon-own-results/certificates/n039.json",
+  "initial": 469,
+  "best": 469,
+  "accepted": 198,
+  "proposals": 2593314,
+  "exact_checked": 198,
+  "incorrect_float_scores": 0,
+  "seconds": 180.89230370521545,
+  "seed": 20260920,
+  "plateau": true,
+  "scope": "Bounded heuristic search, not an optimality or priority proof"
+}

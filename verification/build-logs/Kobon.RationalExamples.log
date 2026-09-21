@@ -1,0 +1,5 @@
+ℹ [874/874] Replayed Kobon.RationalExamples
+info: Kobon/RationalExamples.lean:62:0: 'KobonExamples.bad6_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/RationalExamples.lean:63:0: 'KobonExamples.good7_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/RationalExamples.lean:64:0: 'KobonExamples.good7_simple' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (874 jobs).

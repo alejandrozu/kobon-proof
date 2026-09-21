@@ -1,0 +1,18 @@
+ℹ [776/779] Replayed Kobon.Geometry
+info: Kobon/Geometry.lean:144:0: 'Kobon.validate_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Geometry.lean:145:0: 'Kobon.orientedEval_affine' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [777/779] Replayed Kobon.Simple
+info: Kobon/Simple.lean:49:0: 'Kobon.validate_simple_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [778/779] Replayed Kobon.Certificates.N012T00037H8c718a33
+info: Kobon/Certificates/N012T00037H8c718a33.lean:68:0: 'Kobon.Certificates.N012T00037H8c718a33.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N012T00037H8c718a33.lean:69:0: 'Kobon.Certificates.N012T00037H8c718a33.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [779/779] Replayed Kobon.SimpleCertificates.N012T00037H8c718a33
+info: Kobon/SimpleCertificates/N012T00037H8c718a33.lean:13:0: 'Kobon.Certificates.N012T00037H8c718a33.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+Build completed successfully (779 jobs).

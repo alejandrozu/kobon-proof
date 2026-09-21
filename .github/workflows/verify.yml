@@ -1,0 +1,56 @@
+name: Verify Kobon results
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  proofs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      LEAN_NUM_THREADS: 2
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Install elan 4.2.4
+        shell: bash
+        run: |
+          curl --fail --location --retry 3 https://github.com/leanprover/elan/releases/download/v4.2.4/elan-x86_64-unknown-linux-gnu.tar.gz --output "$RUNNER_TEMP/elan.tar.gz"
+          tar -xzf "$RUNNER_TEMP/elan.tar.gz" -C "$RUNNER_TEMP"
+          "$RUNNER_TEMP/elan-init" -y --default-toolchain none
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
+      - uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830
+        with:
+          path: |
+            ~/.elan/toolchains
+            .lake/packages
+          key: ${{ runner.os }}-kobon-${{ hashFiles('lean-toolchain', 'lake-manifest.json') }}
+      - name: Fetch pinned dependencies and Mathlib build cache
+        run: lake exe cache get
+      - name: Check evidence hashes
+        run: python scripts/evidence_manifest.py --check
+      - name: Build all finite results and audit axioms
+        run: python scripts/verify_lean.py --jobs 2
+      - name: Check all finite coordinates independently
+        run: python scripts/verify_coordinates.py
+      - name: Recheck the separate rational interval argument
+        run: python scripts/verify_seed_interval.py
+      - name: Save verification records
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: verification-records
+          path: |
+            verification/build-logs/
+            verification/lean-summary.json
+            verification/coordinate-summary.json
+            verification/seed-interval-summary.json

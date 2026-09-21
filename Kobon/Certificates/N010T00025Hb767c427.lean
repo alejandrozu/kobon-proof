@@ -1,0 +1,57 @@
+import Kobon.Geometry
+
+namespace Kobon.Certificates.N010T00025Hb767c427
+
+set_option maxRecDepth 100000
+set_option maxHeartbeats 0
+
+def lines : Array (Line ℤ) := #[
+  ⟨2,6,33⟩,
+  ⟨2,3,-21⟩,
+  ⟨4,3,-12⟩,
+  ⟨6,2,-81⟩,
+  ⟨98,-3,-303⟩,
+  ⟨5,-2,-39⟩,
+  ⟨2,-2,11⟩,
+  ⟨1,-2,-10⟩,
+  ⟨0,3,-7⟩,
+  ⟨214,-642,17725⟩
+]
+
+def triangles : List Triple := [
+  ⟨0,1,3⟩,
+  ⟨0,2,3⟩,
+  ⟨0,2,5⟩,
+  ⟨0,4,5⟩,
+  ⟨0,4,7⟩,
+  ⟨0,6,7⟩,
+  ⟨0,6,8⟩,
+  ⟨0,8,9⟩,
+  ⟨1,2,6⟩,
+  ⟨1,2,9⟩,
+  ⟨1,3,7⟩,
+  ⟨1,4,6⟩,
+  ⟨1,4,8⟩,
+  ⟨1,5,7⟩,
+  ⟨1,5,8⟩,
+  ⟨2,4,7⟩,
+  ⟨2,4,8⟩,
+  ⟨2,5,7⟩,
+  ⟨2,6,8⟩,
+  ⟨3,4,6⟩,
+  ⟨3,4,9⟩,
+  ⟨3,5,6⟩,
+  ⟨3,5,8⟩,
+  ⟨3,7,8⟩,
+  ⟨5,6,9⟩
+]
+
+theorem checked : validate lines triangles 25 = true := by native_decide
+
+theorem lower_bound : LowerBound 10 25 :=
+  validate_sound lines triangles 25 checked
+
+#print axioms checked
+#print axioms lower_bound
+
+end Kobon.Certificates.N010T00025Hb767c427

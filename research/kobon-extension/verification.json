@@ -1,0 +1,448 @@
+{
+  "examples": [
+    {
+      "file": "alternation_5.json",
+      "n": 5,
+      "triangles": 3,
+      "direct_count": 3,
+      "adjacency_count": 3,
+      "simple": true
+    },
+    {
+      "file": "alternation_6.json",
+      "n": 6,
+      "triangles": 4,
+      "direct_count": 4,
+      "adjacency_count": 4,
+      "simple": true
+    },
+    {
+      "file": "chain_19.json",
+      "n": 19,
+      "triangles": 107,
+      "direct_count": 107,
+      "adjacency_count": 107,
+      "simple": true
+    },
+    {
+      "file": "chain_20.json",
+      "n": 20,
+      "triangles": 116,
+      "direct_count": 116,
+      "adjacency_count": 116,
+      "simple": true
+    },
+    {
+      "file": "chain_21.json",
+      "n": 21,
+      "triangles": 126,
+      "direct_count": 126,
+      "adjacency_count": 126,
+      "simple": true
+    },
+    {
+      "file": "chain_5.json",
+      "n": 5,
+      "triangles": 5,
+      "direct_count": 5,
+      "adjacency_count": 5,
+      "simple": true
+    },
+    {
+      "file": "chain_6.json",
+      "n": 6,
+      "triangles": 7,
+      "direct_count": 7,
+      "adjacency_count": 7,
+      "simple": true
+    },
+    {
+      "file": "chain_7.json",
+      "n": 7,
+      "triangles": 10,
+      "direct_count": 10,
+      "adjacency_count": 10,
+      "simple": true
+    }
+  ],
+  "boundary_profiles": {
+    "alternation_5": {
+      "n": 5,
+      "T": 3,
+      "d": 6,
+      "b": 3,
+      "guaranteed_gain": 2,
+      "actual_gain": 2,
+      "wedge_starts": [
+        0,
+        4,
+        8
+      ],
+      "profile": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1
+      ],
+      "added_line": [
+        12,
+        -5,
+        0
+      ]
+    },
+    "alternation_6": {
+      "n": 6,
+      "T": 4,
+      "d": 12,
+      "b": 3,
+      "guaranteed_gain": 2,
+      "actual_gain": 2,
+      "wedge_starts": [
+        6,
+        1,
+        10
+      ],
+      "profile": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2,
+        2,
+        1
+      ],
+      "added_line": [
+        12,
+        -5,
+        1393
+      ]
+    },
+    "chain_19": {
+      "n": 19,
+      "T": 107,
+      "d": 2,
+      "b": 17,
+      "guaranteed_gain": 9,
+      "actual_gain": 9,
+      "wedge_starts": [
+        18,
+        0,
+        36,
+        16,
+        34,
+        14,
+        32,
+        12,
+        30,
+        10,
+        28,
+        8,
+        26,
+        4,
+        22,
+        2,
+        20
+      ],
+      "profile": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        9,
+        9,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "added_line": [
+        41176272977130583947243653497196778608618474490000000,
+        -22709815202384592740846374940212500000000000000000000,
+        906243850582668125542832297965630945993019339798983123
+      ]
+    },
+    "chain_20": {
+      "n": 20,
+      "T": 116,
+      "d": 12,
+      "b": 10,
+      "guaranteed_gain": 4,
+      "actual_gain": 9,
+      "wedge_starts": [
+        19,
+        17,
+        15,
+        13,
+        11,
+        9,
+        27,
+        6,
+        23,
+        21
+      ],
+      "profile": [
+        6,
+        7,
+        7,
+        8,
+        8,
+        9,
+        9,
+        8,
+        8,
+        9,
+        8,
+        8,
+        7,
+        7,
+        6,
+        6,
+        5,
+        5,
+        4,
+        4,
+        3,
+        3,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        3,
+        3,
+        4,
+        4,
+        5,
+        5,
+        6
+      ],
+      "added_line": [
+        428112214913281521117673471782233689197388867010830445366544343199195122763292000000,
+        -490651881537005702211392930945532966761939340969555675250276192500000000000000000000,
+        -17628863253054622462564897197366253629796467009516476642281003443085422607878094533059
+      ]
+    },
+    "chain_21": {
+      "n": 21,
+      "T": 126,
+      "d": 21,
+      "b": 4,
+      "guaranteed_gain": 2,
+      "actual_gain": 2,
+      "wedge_starts": [
+        29,
+        7,
+        5,
+        25
+      ],
+      "profile": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "added_line": [
+        33468804310766399003978496055332042682752426696412510448058746510858445562011907500000,
+        -45923656246386336802198104037960442432093263735934868316524844125000000000000000000000,
+        3767656536565769906912477958616413965412461400883225825878029626137936233515418453048491
+      ]
+    },
+    "chain_5": {
+      "n": 5,
+      "T": 5,
+      "d": 0,
+      "b": 5,
+      "guaranteed_gain": 2,
+      "actual_gain": 2,
+      "wedge_starts": [
+        0,
+        4,
+        6,
+        8,
+        2
+      ],
+      "profile": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "added_line": [
+        28,
+        -19,
+        2
+      ]
+    },
+    "chain_6": {
+      "n": 6,
+      "T": 7,
+      "d": 3,
+      "b": 4,
+      "guaranteed_gain": 2,
+      "actual_gain": 3,
+      "wedge_starts": [
+        5,
+        7,
+        9,
+        2
+      ],
+      "profile": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "added_line": [
+        12,
+        -5,
+        -80
+      ]
+    },
+    "chain_7": {
+      "n": 7,
+      "T": 10,
+      "d": 5,
+      "b": 3,
+      "guaranteed_gain": 2,
+      "actual_gain": 2,
+      "wedge_starts": [
+        11,
+        5,
+        2
+      ],
+      "profile": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1
+      ],
+      "added_line": [
+        56,
+        -33,
+        224
+      ]
+    }
+  },
+  "preserved_triangle_chains": [
+    [
+      5,
+      6,
+      7
+    ],
+    [
+      19,
+      20,
+      21
+    ]
+  ],
+  "deterministic_regression_cases": 560,
+  "all_checks_passed": true,
+  "scope": "Exact finite checks; the infinite geometric proof is in manuscript.md"
+}

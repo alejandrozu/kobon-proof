@@ -1,0 +1,24 @@
+{
+  "n": 3,
+  "triangle_count": 1,
+  "lines_frac": [
+    [
+      "24999999999999997",
+      "43301270189221935",
+      "50000000000000000"
+    ],
+    [
+      "50000000000000000000000000000000",
+      "3061616997868383",
+      "-50000000000000000000000000000000"
+    ],
+    [
+      "24999999999999997",
+      "-43301270189221935",
+      "50000000000000000"
+    ]
+  ],
+  "source": "Furedi-Palasti (1984); rational reproduction",
+  "construction": "Previously generated comparison configuration",
+  "declared_parallel_pairs": []
+}

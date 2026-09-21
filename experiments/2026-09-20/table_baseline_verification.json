@@ -1,0 +1,74 @@
+[
+  {
+    "file": "fp-39.json",
+    "n": 39,
+    "triangles": 468,
+    "pass_check": true
+  },
+  {
+    "file": "fp-40.json",
+    "n": 40,
+    "triangles": 494,
+    "pass_check": true
+  },
+  {
+    "file": "fp-47.json",
+    "n": 47,
+    "triangles": 690,
+    "pass_check": true
+  },
+  {
+    "file": "fp-48.json",
+    "n": 48,
+    "triangles": 720,
+    "pass_check": true
+  },
+  {
+    "file": "fp-51.json",
+    "n": 51,
+    "triangles": 816,
+    "pass_check": true
+  },
+  {
+    "file": "fp-52.json",
+    "n": 52,
+    "triangles": 850,
+    "pass_check": true
+  },
+  {
+    "file": "fp-53.json",
+    "n": 53,
+    "triangles": 884,
+    "pass_check": true
+  },
+  {
+    "file": "fp-54.json",
+    "n": 54,
+    "triangles": 918,
+    "pass_check": true
+  },
+  {
+    "file": "fp-55.json",
+    "n": 55,
+    "triangles": 954,
+    "pass_check": true
+  },
+  {
+    "file": "fp-56.json",
+    "n": 56,
+    "triangles": 990,
+    "pass_check": true
+  },
+  {
+    "file": "fp-59.json",
+    "n": 59,
+    "triangles": 1102,
+    "pass_check": true
+  },
+  {
+    "file": "fp-60.json",
+    "n": 60,
+    "triangles": 1140,
+    "pass_check": true
+  }
+]

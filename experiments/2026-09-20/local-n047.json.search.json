@@ -1,0 +1,14 @@
+{
+  "n": 47,
+  "source": "work/kobon/table-certificates/fp-47.json",
+  "initial": 690,
+  "best": 690,
+  "accepted": 86,
+  "proposals": 1602018,
+  "exact_checked": 86,
+  "incorrect_float_scores": 0,
+  "seconds": 181.41951775550842,
+  "seed": 20260920,
+  "plateau": true,
+  "scope": "Bounded heuristic search, not an optimality or priority proof"
+}

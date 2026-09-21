@@ -1,0 +1,4 @@
+ℹ [834/834] Replayed Kobon.AffineLemmas
+info: Kobon/AffineLemmas.lean:40:0: 'Kobon.AffineLemmas.positive_between_endpoints' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/AffineLemmas.lean:41:0: 'Kobon.AffineLemmas.exterior_preserves_triangle' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (834 jobs).

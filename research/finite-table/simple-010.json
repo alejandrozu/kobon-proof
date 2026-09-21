@@ -1,0 +1,59 @@
+{
+  "n": 10,
+  "triangle_count": 25,
+  "lines_frac": [
+    [
+      "2",
+      "6",
+      "33"
+    ],
+    [
+      "2",
+      "3",
+      "-21"
+    ],
+    [
+      "4",
+      "3",
+      "-12"
+    ],
+    [
+      "6",
+      "2",
+      "-81"
+    ],
+    [
+      "98",
+      "-3",
+      "-303"
+    ],
+    [
+      "5",
+      "-2",
+      "-39"
+    ],
+    [
+      "2",
+      "-2",
+      "11"
+    ],
+    [
+      "1",
+      "-2",
+      "-10"
+    ],
+    [
+      "0",
+      "3",
+      "-7"
+    ],
+    [
+      "214",
+      "-642",
+      "17725"
+    ]
+  ],
+  "source": "finite-table/simple-009.json",
+  "construction": "Exact exterior extension of the retained simple witness",
+  "declared_parallel_pairs": []
+}

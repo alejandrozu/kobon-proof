@@ -1,0 +1,14 @@
+{
+  "title": "New Lower Bounds for Even Kobon Numbers",
+  "id": "48b411c9-0e03-4592-931e-179b9a1c2312",
+  "published_at": "2026-03-23T12:58:53.795958Z",
+  "version": 1,
+  "license": "CC-BY-4.0",
+  "pdf_url": "https://obbxyqnoefmxxjqsuuxm.supabase.co/storage/v1/object/public/Papers/papers/8e67dd76-5fb4-4765-afbd-a3e9f0b6cfac/76d4da45-a1e9-4f7d-990e-93178acea57b.pdf?",
+  "pdf_hash": "e83a202de3bda888f0c4d39860810e543c7c8cc7c58b6638aff2812d2c791b76",
+  "code_url": "https://github.com/alejandrozu/kobon-proof",
+  "authors": [
+    "Alejandro Zarzuelo Urdiales"
+  ],
+  "scope": "Bibliographic subset of public metadata; original proof-status assertion is not accepted by this audit."
+}

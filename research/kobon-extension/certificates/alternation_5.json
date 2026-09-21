@@ -1,0 +1,32 @@
+{
+  "n": 5,
+  "triangle_count": 3,
+  "source": "Parabolic tangent arrangement used to test the original alternating-segment lemma",
+  "lines_frac": [
+    [
+      "0",
+      "1",
+      "0"
+    ],
+    [
+      "1",
+      "-1",
+      "-1"
+    ],
+    [
+      "2",
+      "-1",
+      "-4"
+    ],
+    [
+      "3",
+      "-1",
+      "-9"
+    ],
+    [
+      "4",
+      "-1",
+      "-16"
+    ]
+  ]
+}

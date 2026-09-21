@@ -1,0 +1,10 @@
+.lake/
+__pycache__/
+*.pyc
+.venv/
+*.olean
+*.ilean
+*.c
+*.o
+.DS_Store
+work/

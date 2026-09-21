@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-20",
+  "arithmetic": "Exact integer and rational arithmetic; no tolerances in verification",
+  "methods": [
+    "Consecutive-vertex adjacency on all three sides",
+    "All-line open-interior sign test, optimized with sign bitsets"
+  ],
+  "results": [
+    {
+      "file": "certificates/n051.json",
+      "n": 51,
+      "expected": 817,
+      "adjacency_count": 817,
+      "direct_count": 817,
+      "passed": true,
+      "sha256": "35b56f2a8044298d2e9ec6c68144ef19de439a84cad2704d45119cab035b31eb"
+    },
+    {
+      "file": "certificates/n099.json",
+      "n": 99,
+      "expected": 3169,
+      "adjacency_count": 3169,
+      "direct_count": 3169,
+      "passed": true,
+      "sha256": "889d7aeda15a42f66b6286779529b4b48656e743a0699a37f81842b451c2918f"
+    },
+    {
+      "file": "certificates/n195.json",
+      "n": 195,
+      "expected": 12481,
+      "adjacency_count": 12481,
+      "direct_count": 12481,
+      "passed": true,
+      "sha256": "2b35d89ff302b733c61649ae6e3719648f895b21ae0e8d54166dac26fea29d40"
+    }
+  ]
+}

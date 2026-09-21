@@ -1,0 +1,238 @@
+[
+  {
+    "n": 4,
+    "triangles": 2
+  },
+  {
+    "n": 5,
+    "triangles": 4
+  },
+  {
+    "n": 6,
+    "triangles": 6
+  },
+  {
+    "n": 7,
+    "triangles": 10
+  },
+  {
+    "n": 8,
+    "triangles": 14
+  },
+  {
+    "n": 9,
+    "triangles": 18
+  },
+  {
+    "n": 10,
+    "triangles": 24
+  },
+  {
+    "n": 11,
+    "triangles": 30
+  },
+  {
+    "n": 12,
+    "triangles": 36
+  },
+  {
+    "n": 13,
+    "triangles": 44
+  },
+  {
+    "n": 14,
+    "triangles": 52
+  },
+  {
+    "n": 15,
+    "triangles": 60
+  },
+  {
+    "n": 16,
+    "triangles": 70
+  },
+  {
+    "n": 17,
+    "triangles": 80
+  },
+  {
+    "n": 18,
+    "triangles": 90
+  },
+  {
+    "n": 19,
+    "triangles": 102
+  },
+  {
+    "n": 20,
+    "triangles": 114
+  },
+  {
+    "n": 21,
+    "triangles": 126
+  },
+  {
+    "n": 22,
+    "triangles": 140
+  },
+  {
+    "n": 23,
+    "triangles": 154
+  },
+  {
+    "n": 24,
+    "triangles": 168
+  },
+  {
+    "n": 25,
+    "triangles": 184
+  },
+  {
+    "n": 26,
+    "triangles": 200
+  },
+  {
+    "n": 27,
+    "triangles": 216
+  },
+  {
+    "n": 28,
+    "triangles": 234
+  },
+  {
+    "n": 29,
+    "triangles": 252
+  },
+  {
+    "n": 30,
+    "triangles": 270
+  },
+  {
+    "n": 31,
+    "triangles": 290
+  },
+  {
+    "n": 32,
+    "triangles": 310
+  },
+  {
+    "n": 33,
+    "triangles": 330
+  },
+  {
+    "n": 34,
+    "triangles": 352
+  },
+  {
+    "n": 35,
+    "triangles": 374
+  },
+  {
+    "n": 36,
+    "triangles": 396
+  },
+  {
+    "n": 37,
+    "triangles": 420
+  },
+  {
+    "n": 38,
+    "triangles": 444
+  },
+  {
+    "n": 39,
+    "triangles": 468
+  },
+  {
+    "n": 40,
+    "triangles": 494
+  },
+  {
+    "n": 41,
+    "triangles": 520
+  },
+  {
+    "n": 42,
+    "triangles": 546
+  },
+  {
+    "n": 43,
+    "triangles": 574
+  },
+  {
+    "n": 44,
+    "triangles": 602
+  },
+  {
+    "n": 45,
+    "triangles": 630
+  },
+  {
+    "n": 46,
+    "triangles": 660
+  },
+  {
+    "n": 47,
+    "triangles": 690
+  },
+  {
+    "n": 48,
+    "triangles": 720
+  },
+  {
+    "n": 49,
+    "triangles": 752
+  },
+  {
+    "n": 50,
+    "triangles": 784
+  },
+  {
+    "n": 51,
+    "triangles": 816
+  },
+  {
+    "n": 52,
+    "triangles": 850
+  },
+  {
+    "n": 53,
+    "triangles": 884
+  },
+  {
+    "n": 54,
+    "triangles": 918
+  },
+  {
+    "n": 55,
+    "triangles": 954
+  },
+  {
+    "n": 56,
+    "triangles": 990
+  },
+  {
+    "n": 57,
+    "triangles": 1026
+  },
+  {
+    "n": 58,
+    "triangles": 1064
+  },
+  {
+    "n": 59,
+    "triangles": 1102
+  },
+  {
+    "n": 60,
+    "triangles": 1140
+  },
+  {
+    "n": 99,
+    "triangles": 3168
+  },
+  {
+    "n": 195,
+    "triangles": 12480
+  }
+]

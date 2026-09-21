@@ -1,0 +1,39 @@
+{
+  "n": 6,
+  "triangle_count": 7,
+  "lines_frac": [
+    [
+      "0",
+      "1",
+      "0"
+    ],
+    [
+      "1",
+      "-1",
+      "-1"
+    ],
+    [
+      "2",
+      "-1",
+      "-4"
+    ],
+    [
+      "3",
+      "-1",
+      "-9"
+    ],
+    [
+      "7",
+      "-6",
+      "-15"
+    ],
+    [
+      "28",
+      "-19",
+      "2"
+    ]
+  ],
+  "source": "research/kobon-extension/certificates/chain_6.json",
+  "construction": "Existing research witness",
+  "declared_parallel_pairs": []
+}

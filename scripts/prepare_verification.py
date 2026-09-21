@@ -58,7 +58,9 @@ body += '\nend Kobon.Results\n'
 (ROOT/'Kobon/Results.lean').write_text(body,encoding='utf-8')
 
 core = ['Kobon.Geometry','Kobon.Simple','Kobon.Euclidean','Kobon.BoundaryExtension',
-        'Kobon.RationalExamples','Kobon.Families','Kobon.AffineLemmas']
+        'Kobon.RationalExamples','Kobon.Families','Kobon.AffineLemmas',
+        'Kobon.Parametric','Kobon.TangentBounds','Kobon.SeedFamily',
+        'Kobon.Exterior','Kobon.Iteration','Kobon.Iteration49']
 (ROOT/'Kobon.lean').write_text(''.join('import '+m+'\n' for m in core+['Kobon.Results']),encoding='utf-8')
 (ROOT/'verification/certificate-index.json').write_text(json.dumps(records,indent=2)+'\n')
 (ROOT/'verification/build-targets.json').write_text(json.dumps(core+targets+['Kobon','Kobon.Audit'],indent=2)+'\n')

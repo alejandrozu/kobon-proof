@@ -38,12 +38,17 @@ jobs:
         run: lake exe cache get
       - name: Check evidence hashes
         run: python scripts/evidence_manifest.py --check
-      - name: Build all finite results and audit axioms
+      - name: Build all results and audit axioms
         run: python scripts/verify_lean.py --jobs 2
       - name: Check all finite coordinates independently
         run: python scripts/verify_coordinates.py
       - name: Recheck the separate rational interval argument
         run: python scripts/verify_seed_interval.py
+      - name: Reproduce the parameterized seed and successor experiment
+        run: |
+          python scripts/generate_seed_family.py
+          python scripts/audit_successor_chain.py
+          python scripts/evidence_manifest.py --check
       - name: Save verification records
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02

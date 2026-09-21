@@ -2,13 +2,14 @@
 
 Research repository of **Alejandro Zarzuelo Urdiales**. This revision consolidates the March 2026 paper and the subsequent extension, comparison, and hybrid-construction work.
 
-**The complete geometric theory is not yet formalized in Lean.** The active library verifies explicit finite lower bounds, simplicity where claimed, the cyclic counting argument, and family arithmetic. The general Euclidean extension and the infinite geometric existence proofs still have the obligations listed in [FORMALIZATION.md](FORMALIZATION.md). The old claim that everything was already formalized is superseded.
+**The complete geometric theory is not yet formalized in Lean.** The active library verifies explicit finite lower bounds, a real parameterized trigonometric seed, geometric exterior addition from visible-pair certificates, cyclic counting, and family arithmetic. The unrestricted quantitative recurrence and infinite growing-order existence proofs still have the obligations listed in [FORMALIZATION.md](FORMALIZATION.md). The old claim that everything was already formalized is superseded.
 
 Start with:
 
 - [RESEARCH_LEDGER.md](RESEARCH_LEDGER.md): evidence, research history, failed approaches, corrections, and the next research tasks.
 - [RESULTS.md](RESULTS.md): coordinate witnesses and their Lean theorem names, including the earlier 28:238, 30:275, and 34:357 bounds.
 - [FORMALIZATION.md](FORMALIZATION.md): precisely what each proof establishes and which assumptions remain outside Lean.
+- [Successor formalization](research/successor-formalization/README.md): the requested recurrence, its conditional formula, the new geometric Lean proof, and the obstruction to repeating exterior full-gain steps.
 - [evidence/sources.json](evidence/sources.json): source URLs, roles, versions, and provenance.
 - [verification/lean-summary.json](verification/lean-summary.json): build outcomes and source hashes; [coordinate-summary.json](verification/coordinate-summary.json): independent exact counts.
 
@@ -40,6 +41,9 @@ Finite certificates use Lean's `native_decide`: this is placeholder-free but tru
 | `Kobon/Certificates/`, `SimpleCertificates/` | Explicit coordinates, triangle lists, finite lower bounds, simplicity checks |
 | `Kobon/Results.lean` | Named 3–60 table results and every earlier numerical inventory claim |
 | `Kobon/BoundaryExtension.lean` | Cyclic counting and conditional numerical extension consequences |
+| `Kobon/Exterior.lean` | Real exterior construction and triangle creation/counting from visible old pairs, for either parity |
+| `Kobon/Parametric.lean`, `TangentBounds.lean`, `SeedFamily.lean` | Real parameter family, exact tangent enclosures, and arbitrarily small valid eleven-line seeds |
+| `Kobon/Iteration.lean`, `Iteration49.lean` | Conditional full-recurrence formula, resource-budget obstruction, and finite profile checks |
 | `Kobon/Families.lean`, `AffineLemmas.lean` | Arithmetic identities and endpoint/convexity lemmas |
 | `research/kobon-extension/` | Both-parity boundary-defect manuscript, algorithms, and examples |
 | `research/kobon-hybrid/` | Stable eleven-line seed, interval proof, BBL-based manuscript, finite family |

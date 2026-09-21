@@ -1,0 +1,28 @@
+ℹ [1190/1219] Replayed Kobon.BoundaryExtension
+info: Kobon/BoundaryExtension.lean:122:0: 'KobonBoundary.cap_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BoundaryExtension.lean:123:0: 'KobonBoundary.exists_average' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BoundaryExtension.lean:124:0: 'KobonBoundary.odd_full_gain' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BoundaryExtension.lean:125:0: 'KobonBoundary.even_full_gain' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BoundaryExtension.lean:126:0: 'KobonBoundary.charging_bound' depends on axioms: [propext, Quot.sound]
+info: Kobon/BoundaryExtension.lean:127:0: 'KobonBoundary.defect_extension_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BoundaryExtension.lean:128:0: 'KobonBoundary.near_perfect_odd_extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BoundaryExtension.lean:129:0: 'KobonBoundary.full_step_iff_both_parities' depends on axioms: [propext, Quot.sound]
+info: Kobon/BoundaryExtension.lean:140:0: 'KobonBoundary.seven_profile_limited' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1211/1219] Replayed Kobon.Geometry
+info: Kobon/Geometry.lean:144:0: 'Kobon.validate_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Geometry.lean:145:0: 'Kobon.orientedEval_affine' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1216/1219] Replayed Kobon.Euclidean
+info: Kobon/Euclidean.lean:147:0: 'Kobon.supporting_triangle_nondegenerate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Euclidean.lean:148:0: 'Kobon.same_halfplane_barycenter' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Euclidean.lean:149:0: 'Kobon.triangle_interior_uncut' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1217/1219] Replayed Kobon.Simple
+info: Kobon/Simple.lean:49:0: 'Kobon.validate_simple_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1218/1219] Replayed Kobon.Exterior
+info: Kobon/Exterior.lean:207:0: 'Kobon.Exterior.extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Exterior.lean:208:0: 'Kobon.Exterior.safeHeight_beyond' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1219/1219] Built Kobon.Iteration (17s)
+info: Kobon/Iteration.lean:125:0: 'Kobon.Iteration.gainPrefix_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Iteration.lean:126:0: 'Kobon.Iteration.full_step_iteration' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Iteration.lean:127:0: 'Kobon.Iteration.from_49_conditional' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Iteration.lean:128:0: 'Kobon.Iteration.no_infinite_full_gain_budget' depends on axioms: [propext, Quot.sound]
+Build completed successfully (1219 jobs).

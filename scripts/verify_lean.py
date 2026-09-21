@@ -69,7 +69,7 @@ def main():
     summary=dict(checked_at_utc=datetime.now(timezone.utc).isoformat(),
         lean_toolchain=(ROOT/'lean-toolchain').read_text().strip(),
         complete=len(results)==len(targets) and all(r['passed'] for r in results),
-        scope='Finite coordinate lower bounds, simplicity, counting core, and family arithmetic. General Euclidean extension and infinite geometric existence are not yet formalized.',
+        scope='Finite coordinate lower bounds, real parameterized seed, geometric exterior addition from visible-pair certificates, counting core, and family arithmetic. Universal quantitative extension and infinite growing-order existence are not yet formalized.',
         native_evaluation='Finite certificate checks use native_decide and trust Lean native evaluation; audit explicitly allows and lists those generated axioms.',
         results=results,source_sha256=sources)
     (ROOT/'verification/lean-summary.json').write_text(json.dumps(summary,indent=2)+'\n')

@@ -7,8 +7,8 @@
       "sha256": "20965459e6e640ad14629653942f0ee20c234f3ab662ca17112567c3e320609c"
     },
     ".github/workflows/verify.yml": {
-      "bytes": 2053,
-      "sha256": "80c37562f43439a39fa369f70f05dea96fbc1f7d7ec6dc89a31f168c12ab87e6"
+      "bytes": 2286,
+      "sha256": "f4ff3161bda29a9c5826c45f73ee864f4fa7a0d29b0de2ae5de4903a32eb0a14"
     },
     "archive/2026-03-original/kobon_complete.py": {
       "bytes": 11407,
@@ -147,8 +147,8 @@
       "sha256": "268a884066319c91474da3cf2aa88be5564922db99a9ed8bf6fcd68c668868d3"
     },
     "evidence/sources.json": {
-      "bytes": 4552,
-      "sha256": "d53ef80d8ff643b9939717b25019e859a7af57f70548fd5b573f06a5febb5fc4"
+      "bytes": 5003,
+      "sha256": "ae9d62d49d1f2e624b726feb3961fed49ab338f66d5236a7b6e137e7c1a44c12"
     },
     "experiments/2026-09-20/analyze_hybrid_boundary.py": {
       "bytes": 933,
@@ -922,6 +922,10 @@
       "bytes": 1100,
       "sha256": "66f5c158041f3061049ac7927b61382ae39b1726c71f055b9633638d02c27912"
     },
+    "experiments/2026-09-20/successor-49/chain.json": {
+      "bytes": 375515,
+      "sha256": "afbcf50891ea33228f201d77dde687ca1ac082534856bf5b64299059be7446a8"
+    },
     "experiments/2026-09-20/table-certificates/fp-39.json": {
       "bytes": 2345,
       "sha256": "bcaa9cd80f62b9096f03afc865cc37ba4d5d51e98bf48ec946fb0e5e47534dd3"
@@ -1007,8 +1011,8 @@
       "sha256": "867aefaee740f673a92fe765b5ab1bbbfbe8cada79707c19065a032fb88ebf99"
     },
     "FORMALIZATION.md": {
-      "bytes": 6695,
-      "sha256": "548b9d27b6e135d0a7efef9be61a8658fb375352cc0eba64ecda70162b617d23"
+      "bytes": 8023,
+      "sha256": "338579cffa0dc8dbdb7567b02b640661a944f5845d5b42c55249095e8d30e69d"
     },
     "Kobon/AffineLemmas.lean": {
       "bytes": 1568,
@@ -1370,6 +1374,10 @@
       "bytes": 5958,
       "sha256": "972e375e0703cb4ee5c06f28a4f4a16ff21cda226658a9aea3d6c0d9bd19cdbf"
     },
+    "Kobon/Exterior.lean": {
+      "bytes": 9972,
+      "sha256": "d7c5ddac70dd7699e2bcfd3a4143269413fae5ee08e85de00ff0fefbea3ec844"
+    },
     "Kobon/Families.lean": {
       "bytes": 1987,
       "sha256": "94bb4ee59e92d20305e688e0aeaf3403e60380f9b34d65a5fa9ed10ab8248220"
@@ -1378,6 +1386,18 @@
       "bytes": 5364,
       "sha256": "517220442ac15c648b9c03eac95904dfba22909ed7f84256a731669ddf547c02"
     },
+    "Kobon/Iteration.lean": {
+      "bytes": 4767,
+      "sha256": "141903ab93abaca6a36a334775454230cea223e65c9a66116c016001b6cc0a3c"
+    },
+    "Kobon/Iteration49.lean": {
+      "bytes": 1817,
+      "sha256": "9ece37f84c8ba9cde4a1cd94f55281861bc7aa1375b4dd91b61ae66b21554724"
+    },
+    "Kobon/Parametric.lean": {
+      "bytes": 7926,
+      "sha256": "651d8ea3863485596b5badb638648b0600246e365bd94653b517c23a54e88ad5"
+    },
     "Kobon/RationalExamples.lean": {
       "bytes": 2663,
       "sha256": "e00d23be484ea8a608a2ac73732ee5479a1390bfd1315c9e37e952dd938e8106"
@@ -1385,6 +1405,10 @@
     "Kobon/Results.lean": {
       "bytes": 23207,
       "sha256": "0f78b67c7b5a0cc683fa0c1d8511c2ebe5518c8e93d4a1b495355e98328bc353"
+    },
+    "Kobon/SeedFamily.lean": {
+      "bytes": 5318,
+      "sha256": "54174ea39adae4734dbcc95150f3bd87925cffb4ef4da925fb17c38bff1dedbd"
     },
     "Kobon/Simple.lean": {
       "bytes": 1990,
@@ -1690,9 +1714,13 @@
       "bytes": 470,
       "sha256": "dc83ef33e35f1236f8229985c290c43f3c2c97ba69b42fbbf3081101591349bc"
     },
+    "Kobon/TangentBounds.lean": {
+      "bytes": 3776,
+      "sha256": "00be9ce337ea91e97ad3544cc846d251bfae4a4caa8cacde7c1605b065dcddce"
+    },
     "Kobon.lean": {
-      "bytes": 203,
-      "sha256": "8d1fd95981974f62c0a43e129847ec78bf63bdd72223ea513431911694129e05"
+      "bytes": 354,
+      "sha256": "d1ddffddd1418591d5968826a1e3d5e5f21bcc94b4e4724b26c20b5bda6d2b69"
     },
     "lake-manifest.json": {
       "bytes": 3676,
@@ -1707,8 +1735,8 @@
       "sha256": "465c68148dd061230368e3cbe5d1d2973069172b48b684c928ef1a665b627832"
     },
     "README.md": {
-      "bytes": 5176,
-      "sha256": "95f7e62213389677d14ff2b54192890165df86293a7b13342bab2248823b8b88"
+      "bytes": 5895,
+      "sha256": "aa8fbf91565ced37463ec91ed3933d18df8d70cdf326a8fa4acdf1a2a932f6fb"
     },
     "research/finite-table/classical-003.json": {
       "bytes": 552,
@@ -2494,13 +2522,21 @@
       "bytes": 3340,
       "sha256": "9c9113c0c92557713354806ea1e1977974127c9f5a2d66fb7b4661a0b695a088"
     },
+    "research/successor-formalization/README.md": {
+      "bytes": 9249,
+      "sha256": "d0e744d5289e72ef59f0268f4922dc54d92b15d90ddc8b5f78e56c2e2a076040"
+    },
     "RESEARCH_LEDGER.md": {
-      "bytes": 12878,
-      "sha256": "c63e81b73e9ccfeb110250fc8d85af26d0827b80fd6c4e70a0094aef2a39ca77"
+      "bytes": 14255,
+      "sha256": "4a23b9b2ad8078bc6b0378cb18736ac7b9d3c2480993de8a5238d4ea0b5f1273"
     },
     "RESULTS.md": {
       "bytes": 11324,
       "sha256": "7ec400fa05ebc21f4ceb070f75d3ae9957a3b089b84d5774715b19f014b5d788"
+    },
+    "scripts/audit_successor_chain.py": {
+      "bytes": 3426,
+      "sha256": "d530190df50f008a4c6da13badb7fec64b782a02d9f3212cb08e840fa95897f4"
     },
     "scripts/evidence_manifest.py": {
       "bytes": 1763,
@@ -2510,17 +2546,21 @@
       "bytes": 2921,
       "sha256": "055e13b586f9404d9453612457a418fa886f8fb2601e500149e218a1e53c8473"
     },
+    "scripts/generate_seed_family.py": {
+      "bytes": 6737,
+      "sha256": "517dc76b6de6893c826292effb0141dd817099c7660b1b52166fcad263bb1718"
+    },
     "scripts/materialize_table.py": {
       "bytes": 4190,
       "sha256": "b453046c4aaebe7c2c5486ec2437b69f07584bf7b53dea29222db15c2785474f"
     },
     "scripts/prepare_verification.py": {
-      "bytes": 3818,
-      "sha256": "9ee5367fa0b829c8fcd58dfc11a4db32090ebb6d15e2dc084f88151e2c6dd858"
+      "bytes": 3951,
+      "sha256": "240cc6a6377af7f2703c32a6e503c6c2d975b69bbb49928c930060c9216eb535"
     },
     "scripts/README.md": {
-      "bytes": 2021,
-      "sha256": "440a5a680f8495e203f212ce6c70e7f5b9204dc58c77083d30f5e8e34b5d738d"
+      "bytes": 2380,
+      "sha256": "412bc3b895a898e16b16d2dbcd693acadd972307bf177912e6de0a5b55450a21"
     },
     "scripts/restore_experiments.py": {
       "bytes": 854,
@@ -2531,16 +2571,16 @@
       "sha256": "4bac04276bb07adafe8e41979dc4c6298f56d4f1741d045a7c28bb9212e09abb"
     },
     "scripts/verify_lean.py": {
-      "bytes": 4012,
-      "sha256": "32e65bbe16a616ea707478be6f342f4e78240517e858ae60da6dcf5af4eaaab6"
+      "bytes": 4094,
+      "sha256": "99b76a08bcecc9195f84c6dff265c6313b4f013c126610b2fa19770664ea893a"
     },
     "scripts/verify_seed_interval.py": {
       "bytes": 774,
       "sha256": "03458eb321b5775f17b2e0cbf40f582ae8fbb5f57cd30d69da9e87cb78e21e64"
     },
     "verification/build-targets.json": {
-      "bytes": 4522,
-      "sha256": "cf22ccf6a0237c4459f15956cb2bded7d545b69ae39407766ede32a780184600"
+      "bytes": 4661,
+      "sha256": "3ed9618724162a70d8431c5613988b74c3ef2496160257cfe5d9d739995c03d2"
     },
     "verification/certificate-index.json": {
       "bytes": 52445,

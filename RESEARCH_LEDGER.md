@@ -40,6 +40,8 @@ The source register identifies the relevant original works: Füredi–Palásti, 
 
 ## Current hybrid seed and claim
 
+**Successor-formalization update.** The actual real trigonometric seed is now proved in Lean for every positive epsilon at most `1/100000`, with arbitrarily small choices. `Exterior.extension` also proves real geometric addition from visible-pair certificates for either parity. The unrestricted full-gain recurrence remains unproved. Its closed formula is proved only under that explicit premise. An exact exterior chain from 49 gives `767 -> 791 -> 814 -> 816 -> 818`; the intermediate 50-line input has maximum exterior gain 23, below 25. The wedge budget `b_next + gain <= b + 2` obstructs indefinite exterior full-gain iteration. Read [the successor report](research/successor-formalization/README.md) before resuming this direction; all coordinates and profiles are saved under `experiments/2026-09-20/successor-49/`.
+
 Use `Y0: y=0` and `Li: x-vi*y=ai`, with ordered reciprocal slopes
 
 `v = (15,-2,14,1,4,-4,5,-3,12,-5)/10`.
@@ -48,7 +50,7 @@ The ordered intercepts are
 
 `(-tan(4*pi/10), -tan(3*pi/10), -tan(2*pi/10), -tan(pi/10), -epsilon, epsilon, tan(pi/10), tan(2*pi/10), tan(3*pi/10), tan(4*pi/10))`.
 
-For `0 < epsilon <= 1/100000`, the interval verifier checks the same simple 32-triangle type, with all nine bounded segments of `Y0` used. It checks 120 determinants at two endpoints; every interval is more than 0.034 from zero. The determinants not involving `Y0` are affine in epsilon. The zero endpoint supplies limits only and is not asserted to be a simple arrangement. Machin's identity and Taylor remainders provide rational bounds on the tangent constants; the separate real-analysis formalization is still needed.
+For `0 < epsilon <= 1/100000`, the original interval verifier checks the same simple 32-triangle type, with all nine bounded segments of `Y0` used. It checks 120 determinants at two endpoints; every interval is more than 0.034 from zero. The zero endpoint supplies limits only. The new `SeedFamily.lean` independently proves simplicity, at least 32 triangles, and the nine distinguished triples for every such real epsilon. Its proof uses a rational parameter box and algebraic trigonometric identities, so the older Machin/Taylor Python argument is no longer an unformalized prerequisite for these particular seed conclusions. BBL geometric doubling remains to be formalized.
 
 The manuscript combines this input with the published geometric iteration to obtain
 
@@ -80,9 +82,11 @@ The 3–60 materialization does not attempt to include every externally known cl
 
 ## Next tasks, in order
 
+For the user's stronger successive recurrence, seek an interior/reconstruction step or a different arrangement family. Do not attempt to maintain full exterior gain indefinitely: the wedge resource budget obstructs it. The conditional target from 49 is `floor((n-1)^2/4)+191`, not a newly proved all-order bound.
+
 1. Finish the Euclidean-to-cyclic proof obligations in [FORMALIZATION.md](FORMALIZATION.md), including a formal cell/empty-triple bridge. Preserve the present theorem statements and do not replace missing geometry by assumptions bearing the same conclusion.
-2. Formalize the actual seed interval theorem and geometric BBL iteration; connect them to `Families.lean`. This is required for a self-contained infinite-family Lean claim.
-3. Analyze the fixed exterior normal `(10,-13)` observed to attain the full finite gain at the checked hybrid stages. Derive an all-stage boundary invariant or find a counterexample. Record any normalization needed before comparing normals.
+2. Formalize geometric BBL iteration and connect the now-proved `SeedFamily.arbitrarily_small` theorem to `Families.lean`. This is required for a self-contained growing-order infinite-family claim.
+3. Analyze the fixed exterior normal `(10,-13)` observed to attain the full finite gain at the checked hybrid stages. This concerns one extension of each doubled odd arrangement, not an indefinite chain consisting only of exterior additions. Derive the appropriate invariant or find a counterexample.
 4. Seek a compatible seed/type that eliminates the last odd-family triangle, or prove an obstruction for this type. The current finite 81/161 bounds have a one-triangle gap in the working catalogue; this is a research target, not an established impossibility.
 5. Formalize the second additional-line family and prove or correct its parameter range.
 6. Extend the independent priority review to implicit consequences of earlier constructions. Check both simple and nonsimple variants. Only after this review should a first-discovery or OEIS update claim be drafted.

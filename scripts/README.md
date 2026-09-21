@@ -7,6 +7,8 @@ Run from the repository root, with Python 3.10+ and the pinned Lean toolchain.
 | `python scripts/verify_lean.py --jobs 2` | Build all active results and reject unapproved proof dependencies; write full logs and source hashes. |
 | `python scripts/verify_coordinates.py` | Independently count every distinct promoted arrangement by two exact methods and check simplicity. |
 | `python scripts/verify_seed_interval.py` | Reproduce the rational interval argument in a scratch directory and compare it to the saved evidence; this is not a Lean proof. |
+| `python scripts/generate_seed_family.py` | Reproduce rational parameter-box data for the real trigonometric seed. Lean independently checks the generated data and real theorem. |
+| `python scripts/audit_successor_chain.py` | Reproduce the exact 49-line exterior chain, save every coordinate/profile, and regenerate kernel-checked finite profile theorems. |
 | `python scripts/evidence_manifest.py --check` | Check the stable evidence files against their recorded hashes. |
 | `python scripts/restore_experiments.py --dest work/experiment-resume` | Recreate historical search paths without modifying the promoted packages. |
 

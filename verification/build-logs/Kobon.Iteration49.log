@@ -1,0 +1,14 @@
+ℹ [1190/1191] Replayed Kobon.BoundaryExtension
+info: Kobon/BoundaryExtension.lean:122:0: 'KobonBoundary.cap_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BoundaryExtension.lean:123:0: 'KobonBoundary.exists_average' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BoundaryExtension.lean:124:0: 'KobonBoundary.odd_full_gain' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BoundaryExtension.lean:125:0: 'KobonBoundary.even_full_gain' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BoundaryExtension.lean:126:0: 'KobonBoundary.charging_bound' depends on axioms: [propext, Quot.sound]
+info: Kobon/BoundaryExtension.lean:127:0: 'KobonBoundary.defect_extension_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BoundaryExtension.lean:128:0: 'KobonBoundary.near_perfect_odd_extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BoundaryExtension.lean:129:0: 'KobonBoundary.full_step_iff_both_parities' depends on axioms: [propext, Quot.sound]
+info: Kobon/BoundaryExtension.lean:140:0: 'KobonBoundary.seven_profile_limited' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1191/1191] Replayed Kobon.Iteration49
+info: Kobon/Iteration49.lean:51:0: 'Kobon.Iteration49.profile_bound_50' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Iteration49.lean:52:0: 'Kobon.Iteration49.profile_attains_50' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (1191 jobs).

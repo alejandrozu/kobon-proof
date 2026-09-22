@@ -1,0 +1,129 @@
+\section{Literature, provenance, and the scope of comparison}
+\label{lit:review}
+
+\subsection{Four distinctions that affect every comparison}
+
+The literature studies several related extremal functions. Their numerical tables cannot be combined without retaining their hypotheses. Throughout this paper, $\K(n)$ concerns straight lines in the real affine plane and permits multiple intersections and parallel pairs, whereas $\Ks(n)$ restricts to pairwise nonparallel lines with no three concurrent. Only bounded triangular cells are counted. A pseudoline arrangement is a topological relaxation; a lower bound obtained there becomes a straight-line lower bound only after realizability has been established. Finally, projective triangular faces need not remain bounded after an affine chart is chosen.
+
+\begin{table}[htbp]
+\centering\small
+\begin{tabularx}{\textwidth}{@{}lXX@{}}
+\toprule
+Distinction & What transfers immediately & What requires another argument\\
+\midrule
+Simple / unrestricted & A simple example is an unrestricted example. & A simple upper bound need not bound a configuration with concurrent lines.\\
+Straight / pseudoline & Every straight arrangement is a pseudoline arrangement. & A pseudoline construction requires a straight realization.\\
+Affine / projective & Projective transformations preserve incidence and projective faces. & Boundedness depends on the line chosen as infinity.\\
+Finite / infinite & A certified configuration proves its individual lower bound. & Iteration requires the next configuration to satisfy every input invariant.\\
+\bottomrule
+\end{tabularx}
+\caption{Logical distinctions used throughout the source audit.}
+\label{lit:scope-table}
+\end{table}
+
+There are also two different projective-to-affine operations. Choosing a new line at infinity outside an $n$-line arrangement keeps $n$ lines, but may lose triangular faces to infinity. Making one of the arrangement's own lines the line at infinity and removing it produces an $(n-1)$-line affine arrangement. The latter operation underlies several optimal subsequences; the former is central to the uniform construction formalized here.
+
+\subsection{From the puzzle to arrangement theory}
+
+Fujimura's puzzle reached English readers through \emph{The Tokyo Puzzles}, edited by Gardner and translated by Adachi~\citep{fujimura1978}; Gardner also discussed it in his collected mathematical recreations~\citep{gardner1983}. The broader theory of line and pseudoline arrangements is developed in Gr\"unbaum's monograph~\citep{grunbaum1972}. The papers of Strommer and Purdy document an established extremal-triangle literature preceding the construction used in this paper~\citep{strommer1977,purdy1979,purdy1980}. We cite those early papers as historical context rather than silently identifying all their projective or non-simple questions with the affine function $\K$.
+
+The familiar comparison polynomial is
+\begin{equation}
+ U_{\mathrm T}(n)=\left\lfloor\frac{n(n-2)}3\right\rfloor.
+ \label{lit:tamura}
+\end{equation}
+The attribution to Saburo Tamura is transmitted in the Cl\'ement--Bader draft~\citep{clementbader2007}; an original publication by Tamura was not located in this audit. We therefore do not manufacture an independent bibliographic item for that attribution. Cl\'ement and Bader report the stronger classical envelope $U_{\mathrm T}(n)-1$ for $n\equiv0,2\pmod6$. Section~\ref{upper:scope} explains both the scope of this reported result and a local proof-reading issue. A source-reported upper bound and an upper bound proved in our Lean development are different kinds of evidence.
+
+\subsection{The F\"uredi--Pal\'asti all-order construction}
+
+F\"uredi and Pal\'asti gave highly triangular straight-line arrangements using trigonometric coordinates~\citep{furedipalasti1984}. Their projective Table~1 has a residue-dependent constant term. The familiar affine consequence is commonly written
+\begin{equation}
+ \B(n)=\left\lceil\frac{n(n-3)}3\right\rceil\qquad(n\ge3).
+ \label{lit:baseline}
+\end{equation}
+Erickson states this formula explicitly in Section~7.2 while using arrangements in a computational-geometric lower-bound argument~\citep{erickson1999}. Felsner and Kriegel place the construction in the study of Euclidean triangular cells~\citep{felsnerkriegel1999}. A later discussion by Dam\'asdi, Mart\'inez-Sandoval, Nagy and Nagy quotes the slightly weaker floor version while studying triangle areas~\citep{damasdi2020}. Thus a general lower bound valid at every order existed well before the present work.
+
+Our completed formula is
+\begin{equation}
+ \G(n)=\left\lfloor\frac{n(n-3)}3\right\rfloor+1+(n\bmod2),
+ \qquad n\ge4.
+ \label{lit:our-formula}
+\end{equation}
+The constructions in later sections prove this for actual simple affine lines. Table~\ref{lit:residue-comparison} separates its arithmetic improvement over~\eqref{lit:baseline} from the projective count in the original paper. Here $P_{\mathrm{FP}}(n)$ denotes the latter construction's projective count, not the projective maximum.
+
+\begin{table}[htbp]
+\centering\small
+\begin{tabular}{@{}cclc@{}}
+\toprule
+$n\bmod6$ & $\G-\B$ & $P_{\mathrm{FP}}(n)$, $n\ge5$ & $P_{\mathrm{FP}}-\G$\\
+\midrule
+0 & 1 & $n(n-3)/3$ & $-1$\\
+1 & 1 & $(n^2-3n+5)/3$ & $0$\\
+2 & 0 & $(n^2-3n+8)/3$ & $2$\\
+3 & 2 & $(n^2-3n+9)/3$ & $1$\\
+4 & 0 & $(n^2-3n+8)/3$ & $2$\\
+5 & 1 & $(n^2-3n+5)/3$ & $0$\\
+\bottomrule
+\end{tabular}
+\caption{Exact comparison with the quoted affine baseline and with the original projective construction's face counts. A projective surplus does not itself supply additional bounded affine triangles.}
+\label{lit:residue-comparison}
+\end{table}
+
+The numerical gain is bounded by two. In particular, the quadratic coefficient $1/3$ and linear coefficient $-1$ remain unchanged. What the completed proof adds is a phase refinement, a controlled choice of affine chart for odd orders, and an end-to-end geometric formalization. The audited sources do not provide an explicit statement of~\eqref{lit:our-formula} with this affine proof. That observation is not an exhaustive numerical-priority theorem: old projective constructions contain related counts, and an unnoticed affine-chart argument could have been available earlier. The defensible claim is the proved improvement over the explicitly quoted formula~\eqref{lit:baseline}, together with the formal construction; a claim of first numerical discovery is withheld.
+
+\subsection{Optimal subsequences and the straightening problem}
+
+Harborth and Roudneff developed constructions and extremal results for pseudolines~\citep{harborth1985,roudneff1996}. Their scope matters because topological realizability does not imply straight realizability. Forge and Ram\'irez Alfons\'in constructed a projective straight-line family at orders $2\cdot2^t+2$\citep{forge1998}. Removing a distinguished line at infinity gives optimal affine orders $2\cdot2^t+1$; in particular, this is the relevant older source for the $33$-line order.
+
+Bartholdi, Blanc and Loisel's preprint appeared in 2007 and its proceedings publication in 2008~\citep{bbl2008}. Their compatible doubling step takes $q+1$ lines to $2q+1$ and adds $q^2$ triangles. It requires a prescribed tangent grid and a fully used distinguished line. Their straight-line optimal series include $14\cdot2^t+1$ and $6\cdot2^t+1$; their $18\cdot2^t+1$ series was then a pseudoline result. The general numerical recurrence is therefore prior work, not a new theorem of this project. Our contribution to that step is the verified real-coordinate specialization and its explicitly recorded hypotheses.
+
+Parpalak and Utkin supplied a compatible straight $19$-line seed and established the straight-line series $n=18\cdot2^t+1$\citep{parpalakutkin2026}. Its triangle count is $108\cdot4^t-1$. Substitution into our formula gives the exact comparison
+\begin{equation}
+ \bigl(108\cdot4^t-1\bigr)-\G(18\cdot2^t+1)=6\cdot2^t-2.
+ \label{lit:pu-gap}
+\end{equation}
+Thus their series is stronger at these orders: the comparisons begin $107>103$ at $19$, $431>421$ at $37$, and $1727>1705$ at $73$. Their separate even-series draft is also relevant prior construction evidence~\citep{parpalakutkinEven2026}. Its numerical families are not replaced by a weaker universal formula.
+
+It would consequently be misleading to call $\G$ the strongest numerical lower bound for every $n$, or an unqualified state of the art among all possible all-order formulas. Taking a maximum with known special constructions already improves it. Padding a configuration by lines sufficiently far away preserves its bounded triangles and extends each special construction to later orders. The retained function in the repository likewise takes a maximum with its finite certificate catalogue. The purpose of $\G$ is a compact uniform guarantee with a complete formal proof, not the suppression of stronger special cases.
+
+\subsection{Upper-bound refinements retain their simplicity assumptions}
+
+The even-order bound
+\[
+ \left\lfloor\frac{n(n-7/3)}3\right\rfloor
+\]
+in Bartholdi--Blanc--Loisel applies to \emph{simple affine pseudoline} arrangements. Blanc subsequently proved the sharper common even-order polynomial
+\begin{equation}
+ \Ks(n)\le\left\lfloor\frac{n(n-5/2)}3\right\rfloor,
+ \qquad n\text{ even},
+ \label{lit:blanc-even}
+\end{equation}
+also in the simple pseudoline setting~\citep{blanc2011}. The latter work was posted in 2008 and published in 2011. Its parity argument is the starting point for our clean-line accounting outside a multiple-point core.
+
+The distinction is concrete. Formula~\eqref{lit:blanc-even} equals $53$ at $n=14$, whereas a nonsimple configuration with $54$ triangles exists. Applying a simple upper theorem to that configuration would be invalid. Our upper-bound work therefore counts shared sides and multiple incidences explicitly rather than treating a small perturbation to general position as automatically harmless.
+
+\subsection{Recent computational constructions and versioned claims}
+
+Savchuk's 2025 work combines arrangement tables, SAT search, and heuristic straightening~\citep{savchuk2025}. It reports optimal $23$- and $27$-line configurations and an exclusion of a perfect $33$-triangle arrangement at order $11$. Its Appendix~A.4 records the earlier Honma-based $11$-line construction. For our purposes, an arrangement table, a floating-point fit, an exact straight-line certificate, and an exhaustive upper-bound exclusion are four different outputs. The present work independently verifies the coordinate lower bounds it imports; it does not thereby replay the external SAT exclusions.
+
+Maiorana released fifteen exact $14$-line, $54$-triangle configurations~\citep{maiorana2026}. We preserve their attribution and the source's CC BY 4.0 license. The current Parpalak--Utkin gallery supplies further exact constructions, including nonsimple even-order examples~\citep{parpalakutkinGallery2026}. The $8$-line construction has earlier provenance; citing its current host does not transfer its invention to the host authors. Each retained dataset is tied to a source revision, checked independently, and distinguished from any stronger optimality language used in its original repository.
+
+Versioning also matters for exclusions. The fourth version of Liang, Liu and Zhang's preprint concerns symmetry restrictions for simple $28$-line configurations~\citep{liangliuZhang2026}. It is not treated here as a proof of an unrestricted exact value, and its displayed numerical comparison is not substituted for Blanc's simple upper theorem. The ProofAtlas research page similarly reports restricted upper results while keeping the unrestricted problem open~\citep{proofatlas2026}. We record these as current research sources, not as independently reproduced proofs.
+
+\subsection{The March result, later verification, and attribution}
+
+The author's March manuscript proposed an even-order extension and recorded the values $238$, $275$, and $357$ at orders $28$, $30$, and $34$\citep{zarzuelo2026}. These values are now supported in this project by exact simple-line certificates. The associated original Lean file, however, contained placeholders, including the general extension lemma. The later successful formalizations do not retroactively turn that unfinished universal argument into a proof.
+
+OEIS A006066 indexes numerical data, references, and named contributions~\citep{oeisA006066}. It is not a complete priority database. In particular, the 2007 Bartholdi--Blanc--Loisel table already contains a bold, hence straight-realizable, $30{:}275$ entry. The $34{:}357$ value follows from the older perfect $33$-line family and its exterior extension. At $28$ lines, Savchuk describes the analogous extension of the $27$-line solution. These overlaps require a distinction between an independently supplied construction, a new exact or formal certificate, and the first known numerical lower bound. We retain the author's recorded contribution without claiming first numerical priority solely from the OEIS attribution.
+
+The recurrence reproduced by HandWiki~\citep{handwiki2026} is likewise a record of the proposed claim rather than a substitute for its proof. The unrestricted statement
+\[
+ \K(n+1)\ge\K(n)+\left\lfloor n/2\right\rfloor
+\]
+has not been established by the work reported here. What has been established includes a geometric exterior extension under explicit visibility hypotheses, finite successful successor steps, and a separate unconditional all-order construction. Their logical roles remain distinct.
+
+\subsection{What formal verification contributes}
+
+The proof infrastructure uses Lean~4~\citep{lean4} and mathlib~\citep{mathlib}. For the universal result, it connects analytic line equations, determinant signs, triangular cells, affine-chart control, and finite counting, rather than checking the final arithmetic formula in isolation. For finite results, it turns attributed coordinates into explicit certificates. For the upper-bound investigation, it proves local geometric and combinatorial lemmas while leaving the global arrangement extraction visibly unfinished.
+
+The accompanying repository~\citep{zarzueloRepository} records source revisions, negative searches, axiom reports, and the boundary between proved statements and proposed research. This separation is part of the result: a complete formal proof of a modest uniform improvement is stronger evidence than an ambitious recurrence with an unproved geometric step. It does not by itself confer numerical priority or solve the unrestricted Kobon problem.

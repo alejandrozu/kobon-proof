@@ -1,0 +1,48 @@
+{
+  "source": "research/six-hour-2026-09-21/general-bounds/shared-fan-six-lines.json",
+  "source_sha256": "46c17dabbc39e44756250c4549bca349520c91910cdde153dd6508129372d9ce",
+  "n": 6,
+  "triangle_count": 6,
+  "triangles": [
+    [
+      0,
+      3,
+      5
+    ],
+    [
+      1,
+      3,
+      4
+    ],
+    [
+      0,
+      4,
+      5
+    ],
+    [
+      2,
+      3,
+      4
+    ],
+    [
+      1,
+      4,
+      5
+    ],
+    [
+      2,
+      3,
+      5
+    ]
+  ],
+  "render_affine_map": {
+    "center": [
+      1.5,
+      1.5
+    ],
+    "diagonal_scale": [
+      3.0,
+      3.0
+    ]
+  }
+}

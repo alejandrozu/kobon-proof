@@ -2,6 +2,8 @@
 
 Research repository of **Alejandro Zarzuelo Urdiales**. This revision consolidates the March 2026 paper and the subsequent extension, comparison, and hybrid-construction work.
 
+**Comprehensive manuscript:** [Kobon Triangle Constructions (PDF)](paper/Kobon_triangle_constructions.pdf), with [LaTeX source and reproduction instructions](paper/README.md). The 60-page paper includes 29 references, 16 original vector figures, the 3–60 table, and the complete 138-certificate catalog. It distinguishes completed proofs from conditional families and unfinished claims.
+
 **A stronger explicit lower bound for every natural order is now proved in Lean.** For `n >= 4`, `Kobon.Universal.baseline_sound` constructs a simple real-line arrangement with at least
 
 `G(n) = floor(n(n-3)/3) + 1 + (n mod 2)`

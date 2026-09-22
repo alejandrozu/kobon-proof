@@ -1,0 +1,73 @@
+\section{Introduction and scope of the results}\label{sec:introduction}
+
+An arrangement of $n$ straight lines divides the real plane into bounded and unbounded cells. The Kobon problem asks how many of the bounded cells can be triangles. The difficulty is not creating many triples of intersecting lines: there are $\binom n3$ candidate triples. The difficulty is ensuring that their triangles are not cut by any of the remaining lines and that their interiors do not overlap. The distinction between an attractive picture and a valid arrangement is therefore central to both construction and verification.
+
+Let $\K(n)$ denote the classical maximum, allowing multiple intersections and parallel lines, and let $\Ks(n)$ denote the maximum over simple arrangements: no parallel pair and no three concurrent lines. All lower-bound witnesses constructed by the universal theorem below are simple, so they establish lower bounds for both quantities. Some of the strongest retained finite certificates are nonsimple. We never use an upper bound restricted to $\Ks$ as an upper bound for $\K$ without an additional argument.
+
+This paper consolidates the author's March 2026 extension proposal and the subsequent program of exact construction, comparison with the literature, and formal proof. The purpose is both mathematical and documentary: to state the strongest completed results, to make their proofs and provenance inspectable, and to preserve the failed approaches that determine the next research questions. The original general extension claim is reported as an unresolved claim rather than silently promoted to a theorem.
+
+\subsection{The main completed all-order theorem}
+
+Define $\B(n)=\ceil{n(n-3)/3}$ for $n\ge3$, and set $\B(n)=0$ for $n<3$. The familiar F\"uredi--Pal\'asti construction supplies this affine baseline; the underlying construction and its historical priority belong to the earlier literature~\cite{furedipalasti1984,erickson1999}. Our principal completed theorem is the following refinement.
+
+\begin{theorem}[Universal affine refinement]\label{thm:main}
+For every $n\in\N$, there is a simple arrangement of $n$ real straight lines with at least $\G(n)$ bounded triangular cells, where
+\begin{equation}\label{eq:G}
+\G(n)=\begin{cases}
+0,&0\le n<3,\\
+1,&n=3,\\
+\floor{n(n-3)/3}+1+(n\bmod2),&n\ge4.
+\end{cases}
+\end{equation}
+Consequently $\K(n)\ge\Ks(n)\ge\G(n)$.
+\end{theorem}
+
+The proof, developed in Section~\ref{sec:universal}, combines a shifted trigonometric arrangement with one- and two-cap changes of affine chart. The Lean declaration \lean{Kobon.Universal.baseline_sound} proves the geometric existence statement for arbitrary $n$. It has no assumed extension theorem and no dependence on finite experimental verification. Its dependencies are the standard logical axioms used by Lean and Mathlib.
+
+For $n\ge4$, the gains over $\B(n)$ are $1,1,0,2,0,1$ in residue classes $0,1,2,3,4,5$ modulo six. Thus the refinement is strict at every odd order at least five and every positive multiple of six. Both formulas have leading behavior $n^2/3-n+O(1)$: this is a constant-term refinement, not an improved quadratic or linear asymptotic coefficient. The original F\"uredi--Pal\'asti projective count table already contains related constants. The present source audit does not establish first numerical priority for the affine formula.
+
+\begin{figure}[tbp]
+\centering\includegraphics[width=0.94\linewidth]{bounds-growth.pdf}
+\caption{Growth of the classical general baseline, the proved affine refinement, and the classical polynomial upper benchmark. The close overlap on a quadratic scale is mathematically meaningful: the new uniform gain is bounded. Residue and deficit plots below resolve the smaller differences. This figure is computed from the formulas, not copied from earlier publications.}\label{fig:growth}
+\end{figure}
+
+\subsection{Finite enhancements and other completed components}
+
+The universal construction is supplemented by exact coordinates. Let $C(n)$ be the largest triangle count among the finite certificates in the release at order $n$, with $C(n)=0$ when no such certificate is saved. Then
+\begin{equation}\label{eq:envelope}
+\Lbound(n)=\max\{\G(n),C(n)\},\qquad \K(n)\ge\Lbound(n)
+\end{equation}
+is proved for all natural orders. This elementary maximum operation retains published constructions and the author's earlier values without altering their attribution. It is not a claim that $\Lbound$ is the largest lower bound obtainable from all published constructions by every possible interpolation or extension.
+
+The finite catalog contains 138 distinct coordinate certificates, including 104 simple witnesses. A separate generated table has 64 orders at which a saved finite certificate strictly improves the older baseline $\B$; some of these improvements are already supplied by $\G$. The catalog includes weaker checkpoints and independent reproductions. Its size is not a count of original discoveries.
+
+The other completed components are an actual exterior-line construction from certified visible pairs; a finite boundary-resource obstruction to repeatedly obtaining the full proposed successor gain; a geometric BBL doubling step under specified seed hypotheses; and local geometric lemmas about fans at multiple intersections. Their scope is summarized in Table~\ref{tab:claims}. The distinction between a proved local step and a recursively closed infinite family is maintained throughout.
+
+\begin{table}[tbp]
+\centering\small
+\begin{tabularx}{\linewidth}{@{}P{0.28\linewidth}XP{0.21\linewidth}@{}}
+\toprule
+Result & Mathematical content & Release status\\
+\midrule
+Universal $\G$ & Simple real-line witnesses at every order & General Lean proof\\
+Envelope $\Lbound$ & Maximum with all saved finite witnesses & Lean; finite native checks\\
+28:238, 30:275, 34:357 & Earlier attributed finite inequalities & Exact Lean certificates\\
+Exterior extension & New line and gain from a visible-pair list & General Lean proof\\
+Full successor recurrence & $\K(n+1)\ge\K(n)+\floor{n/2}$ & Unproved\\
+49-seed numerical target & Lower function obtained by summing the proposed recurrence & Independently proved\\
+One-step BBL doubling & $(q+1,T)\mapsto(2q+1,T+q^2)$ for compatible seeds & General Lean proof\\
+Infinite hybrid iteration & Preservation and repeated use of the seed invariant & Incomplete Lean integration\\
+Local fan structure & Incidence, antipodal and run-length restrictions & General Lean proofs\\
+Global multiplicity consequences & Upper-budget inequalities from geometric charging & Paper-level; bridge open\\
+\bottomrule
+\end{tabularx}
+\caption{Claim status in the frozen mathematical release. ``General Lean proof'' does not imply that every proposed application has been formalized. Published construction inputs retain their original authorship.}\label{tab:claims}
+\end{table}
+
+\subsection{History, attribution, and the structure of the paper}
+
+The March archive records a proposed extension from odd to even orders, associated finite bounds, and an incomplete Lean file. That file contains eight proof placeholders, including its central extension step. Later exact certificates establish the finite inequalities independently, while the current all-order proof uses a different construction. Accordingly, a corrected account must separate the survival of numerical conclusions from the validity of the original proof strategy.
+
+The September work broadened the program to both parities, exterior visibility, boundary-defect estimates, compatible doubling seeds, exact rational realization, and multiplicity-sensitive upper arguments. Several plausible routes failed: direct repetition of exterior gains lost the necessary boundary resources; small perturbations of nonsimple records sometimes reduced the triangle count; and large local searches failed to improve their chosen seeds. These negative findings are recorded with their exact scope rather than converted into impossibility theorems.
+
+Section~\ref{sec:geometry} states the geometric definitions and the certificate-to-cell bridge. Section~\ref{sec:universal} proves the uniform refinement; Section~\ref{sec:finite} records finite cases and provenance. The following sections develop extension and family results, local upper-bound ingredients, and computational searches. The final sections describe the formal trust boundary and future obligations. The appendices contain the complete finite tables and a map from mathematical claims to proof sources. The code and evidence are available at \repo~\cite{zarzueloRepository}.

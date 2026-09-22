@@ -3,7 +3,7 @@ from pathlib import Path
 import argparse,hashlib,json
 ROOT=Path(__file__).resolve().parents[1]
 MANIFEST=ROOT/'evidence/file-manifest.json'
-DIRS=['Kobon','research','data','experiments','archive','scripts','evidence','.github']
+DIRS=['Kobon','research','data','experiments','archive','scripts','evidence','.github','paper']
 EXCLUDED={'evidence/file-manifest.json'}
 def records():
     paths=[p for directory in DIRS for p in (ROOT/directory).rglob('*') if p.is_file()]
@@ -13,6 +13,7 @@ def records():
     for p in sorted(set(paths)):
         rel=p.relative_to(ROOT).as_posix()
         if rel in EXCLUDED or '__pycache__' in p.parts or p.suffix=='.pyc':continue
+        if rel.startswith('paper/build/'):continue
         result[rel]=dict(bytes=p.stat().st_size,sha256=hashlib.sha256(p.read_bytes()).hexdigest())
     return result
 if __name__=='__main__':

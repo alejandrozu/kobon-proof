@@ -1,0 +1,34 @@
+\section{Consequences, limitations, and directions for further work}\label{sec:discussion}
+
+\subsection{What the program has established}
+
+The strongest completed uniform construction in this project is Theorem~\ref{thm:main}, supplemented by the finite maximum in Proposition~\ref{prop:envelope}. Its significance is an explicit improvement over a standard all-order affine baseline together with a complete proof of real straight-line geometry, including the passage from local sign certificates to nonoverlapping cells. The original projective family and its mathematical antecedents remain attributed to F\"uredi and Pal\'asti.
+
+The earlier finite bounds survive independently of the incomplete March extension proof. The exterior construction now has a genuine geometric Lean theorem, and the failed repeated-exterior sequence explains why the proposed large gain cannot be obtained indefinitely by that method alone. The BBL work has progressed from counting and seed experiments to an actual one-step geometric theorem. Local fan geometry provides checked components for upper-bound arguments in the presence of multiple intersections.
+
+The numerical refinement is small: it changes the constant term, while the benchmark deficit remains linear. Several published special families are stronger at their orders, and taking their maximum with any universal baseline produces another all-order function. Accordingly, neither ``valid for every $n$'' nor ``missing from an explicit table'' is sufficient evidence of a state-of-the-art numerical claim. The most defensible completed contribution is a formal and explicit affine refinement, supported by a reusable geometric library and an attributed certificate catalog.
+
+\subsection{Complete the recursive geometric invariant}
+
+The next BBL theorem should return more than an existential lower bound. It should return sorted slopes, a nonduplicate triangle list, simplicity, saturation of the distinguished line, and the central orientation condition. These are the data required to feed the construction into itself. Their preservation cannot be recovered merely from the number $T+q^2$ of triangles.
+
+The exact integration tasks are identified: general support-permutation transport, conversion of the 21-line seed's grouped labels to the tangent-grid order, retention of the central triangle independently of whether it appears in the chosen count list, and induction with a positive parameter threshold for each finite depth. A fixed positive perturbation parameter is not asserted to work at infinitely many depths. The stronger even companion additionally requires the quantitative visibility invariant. These tasks are geometric proof obligations, not missing numerical experiments.
+
+\subsection{Strengthen the nonsimple upper argument}
+
+The local multiplicity coefficients make triple and quadruple points the difficult cases. Large multiplicities already carry a favorable penalty in the proposed budget. The next formal step is a global extraction from an arbitrary arrangement into the checked local fans and a clean-line charging argument with all finite and unbounded incidences accounted for. A later improvement would need a sharper global interaction inequality for low multiplicities.
+
+The exact local-resolution counterexamples rule out a blanket reduction to simple arrangements by triangle-preserving perturbation. A useful upper argument must therefore either retain singularities explicitly or prove a substantially more specific transformation theorem. The restricted consequences in the upper-bound section should guide that work without being advertised as a completed upper bound for the full classical problem.
+
+\subsection{Search beyond the tested neighborhoods}
+
+Large numbers of unsuccessful local proposals are useful when they identify which moves preserve the same obstruction. They are not an optimality certificate. The evidence favors testing singular configurations, different projective types, and more structured realization constraints instead of repeating the same smooth perturbations. Linear programming can help realize a fixed order type; oriented-matroid enumeration can organize combinatorial alternatives; exact arithmetic is then required to certify a proposed arrangement. The separate exactness boundaries of these tools should remain visible in subsequent work.
+
+\subsection{Resolve the remaining priority questions}
+
+Before claiming first numerical priority for $\G$, a broader audit should inspect the relevant monograph chapters and follow-up literature on affine charts of the F\"uredi--Pal\'asti arrangements. The original projective counts already explain why the constants are plausible. A complete formalization claim is supported by the checked development; a first-discovery claim requires a different kind of evidence.
+
+For the finite cases, future comparisons should record not only explicit tables but also implicit consequences of published infinite constructions and elementary extensions. The author's early attribution, a newly materialized exact witness, and the first appearance of a numerical inequality need not have the same date or source. Maintaining those distinctions allows the program to be continued without losing either its valid results or its research history.
+
+\paragraph{Data and code availability.}
+The LaTeX manuscript, bibliography, original vector figures, figure-generation scripts, proof-to-claim correspondence, exact coordinate catalog, negative experiments, and verification records accompany the public repository~\cite{zarzueloRepository}. Publication of this manuscript is not an assertion of external peer review. The proved results and the remaining conjectures are distinguished at their statements.

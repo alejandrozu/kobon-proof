@@ -1,0 +1,237 @@
+\section{Exact certificates, external reproduction, and unsuccessful searches}
+\label{exp:section}
+
+The experimental program serves two purposes: producing concrete coordinate
+witnesses for lower bounds, and identifying which proposed general arguments
+survive exact checks. These purposes require different standards of evidence.
+A successful coordinate witness proves an existential lower bound at its
+specified order. A failed search ordinarily proves neither an upper bound nor
+the nonexistence of a better construction. This section records both positive
+and negative outcomes without merging their logical scopes.
+
+\subsection{From a numerical proposal to an exact geometric witness}
+
+The stored coordinates use the convention $a_ix+b_iy=c_i$, with rational or
+integer coefficients. Each line is normalized to a primitive integer triple.
+Pair intersections are computed as homogeneous integer triples, normalized
+with a positive final coordinate. Consequently, collinearity, concurrence,
+parallelism, and comparisons along a supporting line can all be tested without
+floating-point tolerances.
+
+Two independently implemented counters are used. The first sorts the distinct
+intersection vertices on each line and constructs the graph of elementary
+bounded segments; a three-cycle supported by three different lines is a
+triangular cell. The second enumerates support triples and tests whether every
+other line has a common weak sign at their three vertices. Nonzero area and
+the distinction between open interiors and boundaries are checked explicitly.
+Where a complete independent verification is reported, both counters agree on
+the triangle set, not merely on a rounded area or a visual estimate. The Lean
+geometric soundness theorem provides a third, logically separate link from
+accepted coordinate predicates to real affine triangles.
+
+Numerical optimization is used only to propose coordinates or rank candidate
+chambers. A proposal is rationalized and recounted before promotion. In the
+phase/chart experiments, progressively finer integer scales were accepted only
+when the entire exact triangle set and simplicity were retained. Such a finite
+acceptance does not prove that an arbitrary rounding of an irrational
+construction is valid. The real all-order theorem for $\G$ has its own
+determinant, trigonometric, and counting proof.
+
+The released catalog contains 138 distinct promoted coordinate identities.
+Several identities can occur at the same order and triangle count, and an
+identity may have several repository source paths. Thus 138 is a catalog size,
+not a count of new records or independent discoveries. The complete catalog
+in Table~\ref{exp:catalog} includes simple versus nonsimple status, provenance
+collections, and coordinate-hash prefixes; its machine-readable companion
+records full hashes, source paths, and theorem modules. The finite Lean
+certificates use native evaluation where indicated. This trust boundary is
+broader than that of the universal construction, whose proof uses only Lean's
+standard logical axioms.
+
+\subsection{Finite improvements relative to the retained collection}
+
+The phase and affine-chart work raised the preceding saved values at eleven
+orders:
+\[
+\begin{array}{c|rrrrrrrrrrr}
+n&39&47&48&51&53&54&55&59&60&99&195\\\hline
+\text{previous}&469&690&720&817&884&918&954&1102&1140&3169&12481\\
+\text{current}&470&691&721&818&885&919&955&1103&1141&3170&12482
+\end{array}
+\]
+Each row is an improvement over the project's preceding retained coordinate
+catalog. The underlying trigonometric family is due to
+F\"uredi--Pal\'asti~\cite{furedipalasti1984}; these comparisons do not establish
+numerical first priority. The general formula $\G$ now explains all eleven
+displayed counts. The first projective search reached $47:691$ after 11,264
+proposals; the subsequent exposed-cap description replaced that search by a
+direct construction and an all-order proof.
+
+The earlier OEIS-attributed values $28:238$, $30:275$, and $34:357$ remain
+independently certified~\cite{oeisA006066,zarzuelo2026}. The drawings in this
+paper render the currently retained exact witnesses, obtained by exterior
+extension of retained odd-order inputs. They are not asserted to be literal
+reproductions of the March diagrams. Likewise, the historical inventory in
+Table~\ref{exp:historical} preserves earlier outputs without upgrading every
+original derivation to a completed general theorem.
+
+The current strongest saved simple and classical coordinate counts for every
+$3\leq n\leq60$ appear in Table~\ref{exp:finite-table}. An absent entry in the
+explicit OEIS table is recorded as a dash. Absence from that table is not
+evidence that a value is absent from the literature; conversely, a coordinate
+certificate does not establish optimality without an upper theorem covering
+the same arrangement class.
+
+\subsection{Independent reproduction of external constructions}
+
+The current Parpalak--Utkin coordinate gallery~\cite{parpalakutkin2026} supplied
+exact witnesses at
+\[
+\begin{gathered}
+8:15,\quad14:54,\quad20:117,\quad26:204,\quad32:315,\\
+36:402,\quad38:450,\quad42:553,\quad46:667,\quad50:792.
+\end{gathered}
+\]
+Both independent counters reproduced their triangle sets. These witnesses
+retain their source attribution; in particular, the eight-line numerical
+value has older discovery priority than the coordinate gallery. Their addition
+to this repository improves its verified coverage, not the discoverer's
+claim to the numbers. The inspected gallery snapshot is commit
+\texttt{feae4f5571a988a3ed45bd26a36259ebb7d7d3d2}.
+
+All fifteen of Andrea Maiorana's published $14:54$ coordinate
+configurations~\cite{maiorana2026} were also independently checked. Fourteen
+have exactly two triple points, and one has four; none has a parallel pair.
+The source snapshot is commit
+\texttt{e47c7cfd9661e54d29befb83118bf83d5f804028}. Its CC BY 4.0 licence,
+original coordinate files, and source attribution are retained. Added wrappers
+record counts and verification metadata. This reproduction imports no claim
+that a simple-arrangement upper theorem applies to these nonsimple witnesses.
+
+These examples also expose a concrete limitation of smoothing. In Maiorana's
+first example, the triple supports are $\{0,4,10\}$ and $\{0,11,12\}$.
+Independently shifting the offsets of lines 4 and 11 by $\pm1/1000$ realizes all
+four local resolution choices while preserving every originally nonzero
+determinant sign. The resulting triangle counts are $52,52,53,52$, all below
+54. Thus the proposed nondecreasing local smoothing strategy fails even when
+the local sign choices are independently realizable by straight lines. The
+argument identifying these sign choices with all sufficiently small local
+resolutions is an ordinary finite sign-stability argument, not a completed
+Lean theorem.
+
+For the gallery's collinear-core examples at orders
+$8,14,20,26,32,38,50$, all 132 recorded local resolutions were realized by
+exact private-line offsets. Their respective best simple counts were
+$14,51,114,203,313,448,791$. In particular, a universal claim that resolving
+such a core loses at most one triangle is also false. Figure~\ref{fig:external-comparison}
+separates these finite obstructions from any general upper-bound assertion.
+
+\begin{figure}[tbp]
+  \centering
+  \includegraphics[width=\textwidth]{figures/external-comparison.pdf}
+  \caption{Exact local-resolution tests on attributed external constructions.
+  Left: Parpalak--Utkin gallery witnesses and their best tested simple local
+  resolutions, measured relative to Blanc's even simple-arrangement polynomial;
+  the eight-line value has older priority. Right: all four local resolutions of
+  Maiorana's two-triple-point $14:54$ example. The original arrangements are
+  nonsimple, so exceeding the simple polynomial is consistent. These are
+  smoothing obstructions, not upper bounds for the classical problem.}
+  \label{fig:external-comparison}
+\end{figure}
+
+\subsection{Projective charts, algebraic curves, and chamber searches}
+
+Projective geometry provides a useful global neighborhood: changing the line
+at infinity moves all lines together and may bound formerly unbounded
+triangular faces. It can also lose bounded cells. For the exact saved
+$81:2132$ and $161:8532$ hybrid arrangements, the projective triangular-face
+census already equals their bounded-cell count; a chart change alone cannot
+increase those particular counts.
+
+Exact rational linear-arithmetic searches give sharper restrictions for some
+fixed configurations. The nine-line half-phase rational arrangement has 21
+projective triangular faces, but the recorded QF\_LRA solver result rules out a
+chart retaining all 21. Similar fixed-seed tests find no gain for the tested
+half-phase arrangements at $14,20,26,44$, and no chart retaining all 471
+projective triangles of the saved $39:470$ witness. For a nonuniform cubic
+48-line seed with 724 projective triangles, 2,903 exact linear-arithmetic checks
+rule out 722 bounded triangles within the tested chart-retention formulation.
+These are exact-solver results about specified rational seeds. Their UNSAT
+certificates have not been independently checked in Lean, and they are not
+global upper bounds at those orders.
+
+The algebraic-curve direction tested both nodal-cubic angle perturbations and
+torsion cosets on real elliptic curves. A larger projective face count did not
+automatically produce a better affine construction. For the better two-real-
+component elliptic examples, the projective, original affine, and best found
+affine counts were respectively
+\[
+\begin{array}{c|rrrr}
+n&42&48&54&60\\\hline
+\text{projective}&550&724&922&1144\\
+\text{original affine}&538&710&907&1127\\
+\text{best found affine}&539&712&908&1129
+\end{array}
+\]
+All fall below the corresponding retained affine bounds. The chart scans at
+54 and 60 had 90-second limits. Numerical ranking and bounded running time
+preclude a global nonexistence inference.
+
+Oriented-matroid mutations and kinetic chamber sweeps addressed a different
+limitation: moving inside a fixed projective type cannot create new
+projective triangular faces. The mutation searches changed determinant signs,
+using linear-programming realization where appropriate. Kinetic sweeps varied
+many offsets, or both slopes and offsets, and visited concurrency events along
+selected rays. Their event counts are not counts of all realizable order
+types, and unsuccessful floating rays were discarded. Figure~\ref{fig:negative-searches}
+records effort without treating heterogeneous search units as comparable
+coverage measures.
+
+\begin{figure}[tbp]
+  \centering
+  \includegraphics[width=\textwidth]{figures/negative-searches.pdf}
+  \caption{Selected unsuccessful searches, with their recorded units.
+  Proposal, chamber, and candidate-edge totals describe different search
+  neighborhoods. They do not measure exhaustive coverage, justify an upper
+  bound, or rank the mathematical promise of the methods. All proposed
+  improvements would require subsequent exact geometric verification.}
+  \label{fig:negative-searches}
+\end{figure}
+
+The final 39-line projective beam examined 2,122,270 candidate edges through
+4,559 states without exceeding 470 affine or 471 projective triangles, even
+at its combinatorial scoring stage. The 48-line LP walk accepted 471 mutations
+out of 511 attempts and retained 721 affine and 724 projective triangles.
+At 44 lines, singular-boundary searches included 35,352 paired collapses;
+the retained beam checkpoint had 771 states and 446,422 candidate edges,
+without exceeding 608. An unfinished round was discarded. These results
+motivate a change of neighborhood or a structural argument rather than
+repeating the same local searches.
+
+Other bounded approaches included Fourier deformations (2,687,600 proposals
+in one 39-line run), partial deletions from BBL constructions, and constrained
+tangent-grid transfer by LP/MILP. The tested optimal 23-line chart transfers
+did not admit a positive-margin realization on the desired grid; a constrained
+near-optimal search gave 144 triangles, below a separately known compatible
+145. None of these observations proves nonexistence of another compatible
+seed or a different successful deletion pattern.
+
+\subsection{Reproduction and presentation audit}
+
+The research registers preserve source snapshots, experiment scripts, seeds,
+parameters, checkpoints, and exactness limits~\cite{zarzueloRepository}. The
+paper's figures are original vector renderings, not copied source figures.
+The generator \texttt{paper/scripts/generate\_figures.py} reads the research
+data without modifying it and exports PDF figures, PNG previews, LaTeX tables,
+and machine-readable rendering data. The figure manifest records input-file
+hashes and the mathematical status of each caption. Geometric views recompute
+their exact triangle lists before converting coordinates to floating point
+for display. Cropped detail panels and independent affine axis rescaling are
+explicitly labeled; lengths and angles are not inferred from those views.
+
+The appropriate experimental conclusion is therefore selective. Exact
+coordinates have strengthened the retained lower-bound envelope and revealed
+specific failed construction rules. The successful universal advance comes
+from replacing a numerical chart search by a geometric exposure proof and an
+all-order count. The remaining negative searches narrow useful next steps,
+but they do not solve the general optimization problem.

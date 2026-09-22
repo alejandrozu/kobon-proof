@@ -1,0 +1,410 @@
+{
+  "generator": "paper/scripts/generate_figures.py",
+  "figure_count": 16,
+  "certificate_count": 138,
+  "matplotlib_version": "3.10.8",
+  "numpy_version": "2.4.3",
+  "figures": [
+    {
+      "name": "bounds-growth",
+      "sources": [
+        {
+          "path": "Kobon/Universal.lean",
+          "sha256": "2c011d2414f8d5dba756689673d54061c6ea7e10a32f9d79245d5d5e24467fd2"
+        },
+        {
+          "path": "Kobon/AllN.lean",
+          "sha256": "6bda538e8a3ce8ffa6fceb5ce98e8b787031ebdb940e530213a85659fff384ed"
+        }
+      ],
+      "caption": "The proved affine refinement G and the classical Füredi–Palásti formula B share the same leading and linear terms. The dashed Tamura polynomial is an external comparison bound, not a new upper theorem.",
+      "status": "General proved lower formulas; attributed external upper benchmark.",
+      "details": {}
+    },
+    {
+      "name": "residue-gains",
+      "sources": [
+        {
+          "path": "Kobon/Universal.lean",
+          "sha256": "2c011d2414f8d5dba756689673d54061c6ea7e10a32f9d79245d5d5e24467fd2"
+        }
+      ],
+      "caption": "Exact constant gain G(n)-B(n) in the six residue classes, as proved by Universal.baseline_improvement. The small order n=3 is handled separately.",
+      "status": "General Lean theorem, standard axioms.",
+      "details": {}
+    },
+    {
+      "name": "normalized-gap",
+      "sources": [
+        {
+          "path": "Kobon/Universal.lean",
+          "sha256": "2c011d2414f8d5dba756689673d54061c6ea7e10a32f9d79245d5d5e24467fd2"
+        }
+      ],
+      "caption": "Absolute distance to Tamura's polynomial and the improvement normalized by n squared. The refinement changes only constant terms; it neither closes the general linear gap nor changes asymptotic density.",
+      "status": "Exact arithmetic comparison of proved formulas; no new upper claim.",
+      "details": {}
+    },
+    {
+      "name": "finite-envelope",
+      "sources": [
+        {
+          "path": "verification/certificate-index.json",
+          "sha256": "a7890fc6717c6069ffd5b68d25a29da6a871e26ef2ad104d2a95180c54e02a1b"
+        },
+        {
+          "path": "evidence/oeis-observations.json",
+          "sha256": "cbd0e3a074b570bd90df16ff74b9079effcc687ca02ca9be6d270555b59b9086"
+        },
+        {
+          "path": "Kobon/Universal.lean",
+          "sha256": "2c011d2414f8d5dba756689673d54061c6ea7e10a32f9d79245d5d5e24467fd2"
+        }
+      ],
+      "caption": "Best saved classical coordinate counts for 3–60, with the unconditional formula G and the explicit OEIS lower-table snapshot of 20 September 2026. Missing OEIS markers mean omitted entries, not unknown bounds or numerical novelty. Existing constructions retain their authors' attribution.",
+      "status": "Finite Lean certificates and proved formula; dated external table snapshot.",
+      "details": {}
+    },
+    {
+      "name": "historical-28",
+      "sources": [
+        {
+          "path": "research/finite-table/classical-028.json",
+          "sha256": "a7f87b45d6f73478585052b860a951e1773c3bebab24fe9cd22e6d4232f11de2"
+        }
+      ],
+      "caption": "Exact saved simple witness for 28:238, independently certifying a lower value attributed to Alejandro Zarzuelo Urdiales in OEIS. The current witness is an exterior extension of a retained published odd-order input; it is not asserted to reproduce the precise March drawing. All 238 cells are shaded. Historical source attribution is preserved in the coordinate provenance.",
+      "status": "Exact rational coordinate enumeration; finite certificate or local theorem as captioned.",
+      "details": {
+        "count": 238,
+        "render_transform": {
+          "center": [
+            -697.4820541147018,
+            -439.15316905778263
+          ],
+          "diagonal_scale": [
+            2272.7260936889006,
+            1239.6687783757638
+          ],
+          "zoom": {
+            "center": [
+              -1.1541647568522753,
+              -0.30696519107928744
+            ],
+            "diagonal_scale": [
+              7.607645343193554,
+              10.64528882470615
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "historical-30",
+      "sources": [
+        {
+          "path": "research/finite-table/classical-030.json",
+          "sha256": "38b91ccc3796b9a932f13a089d193ee2d92e739e91426ffa66b43b9d8613e137"
+        }
+      ],
+      "caption": "Exact saved simple witness for 30:275, independently certifying a lower value attributed to Alejandro Zarzuelo Urdiales in OEIS. The current witness is an exterior extension of a retained published odd-order input; it is not asserted to reproduce the precise March drawing. All 275 cells are shaded. Historical source attribution is preserved in the coordinate provenance.",
+      "status": "Exact rational coordinate enumeration; finite certificate or local theorem as captioned.",
+      "details": {
+        "count": 275,
+        "render_transform": {
+          "center": [
+            1397.5274509803921,
+            158.79705882352943
+          ],
+          "diagonal_scale": [
+            3408.9764705882353,
+            568.1627450980392
+          ],
+          "zoom": {
+            "center": [
+              2.706124915932313,
+              -1.2744077275599928
+            ],
+            "diagonal_scale": [
+              13.551596613242038,
+              13.270200587660764
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "historical-34",
+      "sources": [
+        {
+          "path": "research/finite-table/classical-034.json",
+          "sha256": "de2b0c7a24225101477c7051509f889dab67c2300751493941dd1b05e7558b57"
+        }
+      ],
+      "caption": "Exact saved simple witness for 34:357, independently certifying a lower value attributed to Alejandro Zarzuelo Urdiales in OEIS. The current witness is an exterior extension of a retained published odd-order input; it is not asserted to reproduce the precise March drawing. All 357 cells are shaded. Historical source attribution is preserved in the coordinate provenance.",
+      "status": "Exact rational coordinate enumeration; finite certificate or local theorem as captioned.",
+      "details": {
+        "count": 357,
+        "render_transform": {
+          "center": [
+            -22246.624674636485,
+            456.9877971751702
+          ],
+          "diagonal_scale": [
+            45143.415074437624,
+            954.8834859055349
+          ],
+          "zoom": {
+            "center": [
+              -2.5936849511526225,
+              0.45365987358741977
+            ],
+            "diagonal_scale": [
+              6.567619204287147,
+              5.5363632464502475
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "phase-family",
+      "sources": [
+        {
+          "path": "Kobon/FurediPalasti.lean",
+          "sha256": "5475debd2925cd18618b97d3cee9c220527e6432edf38c7f92d7c13f246c02a2"
+        },
+        {
+          "path": "Kobon/ShiftedFurediPalasti.lean",
+          "sha256": "0889d32a07f0cae10bd8040618138462afac694af57b16c5d339bcfb323cd051"
+        }
+      ],
+      "caption": "Twelve-line rational renderings of the Füredi–Palásti trigonometric family at phases one half and one sixth. Exact enumeration of these rational proxies gives 36 and 37 cells; the general irrational construction is proved separately in Lean. Independent affine axis rescaling is used in each panel.",
+      "status": "Exact finite illustrations of an attributed classical family and its formally proved phase refinement.",
+      "details": {
+        "proxy_file": "paper/generated/phase-family-proxies.json"
+      }
+    },
+    {
+      "name": "affine-chart",
+      "sources": [
+        {
+          "path": "Kobon/FurediPalastiTwoCaps.lean",
+          "sha256": "b35214aec9e92aa75002a1b7a7ccdee8ef0cf025e653fd033b907dce880bef35"
+        },
+        {
+          "path": "Kobon/Projective.lean",
+          "sha256": "428f25470aa9c2071637a0bdb9d1da47140b44e855b752fd2c43a6aa7b9a642d"
+        }
+      ],
+      "caption": "An exactly checked nine-line rational proxy of the two-cap change of affine chart. All eighteen old support triples remain triangular cells and two additional triples become bounded. This realizes G(9)=20, below the independently known optimum 21. Coordinates are rescaled separately in the two panels; this picture is not a metric comparison.",
+      "status": "Exact finite illustration; all-order geometric theorem separately formalized.",
+      "details": {
+        "proxy_file": "paper/generated/affine-chart-proxy.json",
+        "added_triangles": [
+          [
+            1,
+            5,
+            6
+          ],
+          [
+            2,
+            3,
+            7
+          ]
+        ]
+      }
+    },
+    {
+      "name": "successor-49-resource",
+      "sources": [
+        {
+          "path": "experiments/2026-09-20/successor-49/chain.json",
+          "sha256": "afbcf50891ea33228f201d77dde687ca1ac082534856bf5b64299059be7446a8"
+        }
+      ],
+      "caption": "Exact finite exterior-extension chain from the saved 49:767 seed, with the recorded lexicographic tie break. The available maximal gains fall from 24 to 23 and then 2. Failure of this route does not refute a recurrence for maxima or a method that reconstructs the arrangement.",
+      "status": "Exact finite experiment; not a universal obstruction or recurrence proof.",
+      "details": {}
+    },
+    {
+      "name": "family-deficits",
+      "sources": [
+        {
+          "path": "research/kobon-hybrid/manuscript.md",
+          "sha256": "1ba3be182d9fdde58bbde4a7b66022d9f804193ce3eb4de8f0d42ac5e4cc84d2"
+        },
+        {
+          "path": "research/six-hour-2026-09-21/hybrid-family/README.md",
+          "sha256": "39c8ed7780760358c2ea3bd150b0b648219e88e12c888fc1ecc1db129e17beb7"
+        },
+        {
+          "path": "experiments/2026-09-21/hybrid-family/larger-members-verification.json",
+          "sha256": "62f07dc3c3374bf4f692f84bbbf9288c41a82935a4d12327f47900a3cb5ce92b"
+        }
+      ],
+      "caption": "For q=10·2^t, the manuscript odd family has (q²−4)/3 triangles, one below Tamura's polynomial. The paper-supported weaker even guarantee adds q/2−1, leaving simple-polynomial gap two; the stronger target adds q/2 and requires the recorded boundary invariant, leaving gap one. Infinite iteration and the full invariant are not end-to-end Lean theorems. Filled even markers are saved finite Lean certificates through 162; 322 passed two exact counters; 642 lacks its second completed check. The BBL doubling method retains Bartholdi–Blanc–Loisel attribution.",
+      "status": "General formula comparison with explicit published-theorem/manuscript dependencies; finite verification levels separated.",
+      "details": {}
+    },
+    {
+      "name": "external-comparison",
+      "sources": [
+        {
+          "path": "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/all-local-resolutions.json",
+          "sha256": "6c097463ed525dadacceb907ab05398704a9c3717f57b55874574c1e9d66c313"
+        },
+        {
+          "path": "research/six-hour-2026-09-21/general-bounds/maiorana14/resolutions.json",
+          "sha256": "1fc1a71f50dcef68dd1a3230b03d85943bb1b0aaf95b9bf7d503dc7fba08e76d"
+        },
+        {
+          "path": "research/six-hour-2026-09-21/general-bounds/upper-scope-table.json",
+          "sha256": "78c9a1126f20beb50d44bbb692d7856de96a35019a47299b994fc288ca05c176"
+        }
+      ],
+      "caption": "Exact local-resolution checks of published nonsimple inputs. Left: Parpalak–Utkin gallery coordinates (the eight-line value has older discovery priority), compared with their best local simple resolutions and the simple-arrangement upper polynomial. Right: all four local resolutions of Andrea Maiorana's two-triple-point 14:54 example give 52,52,53,52. Neither a nondecreasing smoothing rule nor a loss-at-most-one rule holds for all these examples. This does not provide classical upper bounds.",
+      "status": "Independent exact finite computations on attributed external constructions.",
+      "details": {}
+    },
+    {
+      "name": "negative-searches",
+      "sources": [
+        {
+          "path": "research/six-hour-2026-09-21/RESEARCH_REVIEW.md",
+          "sha256": "44e5a6ffe0d9c58d346d6f3e0ba86cb5d773a94943a7475efa9646d19525d62a"
+        },
+        {
+          "path": "research/six-hour-2026-09-21/construction-search/README.md",
+          "sha256": "fdc679716e11385d9fe645b2ad3a2d214fe46553630a1f396313e29e5fe4b5bb"
+        }
+      ],
+      "caption": "Recorded sizes of selected unsuccessful searches. The units differ across methods; these bars measure recorded search effort, not exhaustive coverage or comparative algorithm quality. Floating search stages and exact finite verification are separate. No bar constitutes an upper bound or impossibility theorem.",
+      "status": "Bounded experimental outcomes; heterogeneous units explicitly distinguished.",
+      "details": {
+        "labels": [
+          "One-line local proposals (earlier)",
+          "Vertex-chord insertions (earlier)",
+          "Offset chambers: n=39",
+          "Joint chambers: n=39",
+          "Joint chambers: n=40",
+          "Joint chambers: n=48",
+          "Projective beam edges: n=39",
+          "Paired singular collapses: n=44"
+        ],
+        "counts": [
+          5867928,
+          1274096,
+          21488140,
+          9712359,
+          24634918,
+          24427315,
+          2122270,
+          35352
+        ]
+      }
+    },
+    {
+      "name": "shared-fan",
+      "sources": [
+        {
+          "path": "research/six-hour-2026-09-21/general-bounds/shared-fan-six-lines.json",
+          "sha256": "46c17dabbc39e44756250c4549bca349520c91910cdde153dd6508129372d9ce"
+        }
+      ],
+      "caption": "Six exact triangular cells formed by a triangle and its three medians. The central triple point is incident to six shared radial segments, highlighted in orange. This refutes a literal local count of at most two incident shared-side pairs, not the final Clément–Bader upper theorem. The local geometry is separately formalized in SharedFan.",
+      "status": "Exact rational coordinate enumeration; finite certificate or local theorem as captioned.",
+      "details": {
+        "count": 6,
+        "render_transform": {
+          "center": [
+            1.5,
+            1.5
+          ],
+          "diagonal_scale": [
+            3.0,
+            3.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "seed-11",
+      "sources": [
+        {
+          "path": "research/kobon-hybrid/seed-11-rational.json",
+          "sha256": "82896cab51ed9f7d776958d544ad38a92e0ba42770b4bfebaac6491d4cb0158d"
+        }
+      ],
+      "caption": "Exact rational reference of the tangent-grid-compatible eleven-line seed. The orange line is the distinguished horizontal support. The known count 32 is not a numerical discovery claim; SeedFamily proves compatibility for a true trigonometric parameter family. BBL supplies the classical doubling framework.",
+      "status": "Exact rational coordinate enumeration; finite certificate or local theorem as captioned.",
+      "details": {
+        "count": 32,
+        "render_transform": {
+          "center": [
+            9.93937372583606,
+            11.755705045849462
+          ],
+          "diagonal_scale": [
+            44.50011574907415,
+            38.04206065180614
+          ],
+          "zoom": {
+            "center": [
+              0.0,
+              1.0
+            ],
+            "diagonal_scale": [
+              7.0,
+              6.0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "seed-21",
+      "sources": [
+        {
+          "path": "experiments/2026-09-21/hybrid-family/seed21-reference.json",
+          "sha256": "574689d8c518dfa99b8015c779ccfb17fd286af9cb844d0253ca29e46b006c62"
+        }
+      ],
+      "caption": "Exact rational reference used in the verified twenty-one-line tangent-grid family. Its 132 cells are one below the separately retained 21:133 construction. The distinguished horizontal line is orange. Axis rescaling makes the very small pencil scale visible; it does not change incidence.",
+      "status": "Exact rational coordinate enumeration; finite certificate or local theorem as captioned.",
+      "details": {
+        "count": 132,
+        "render_transform": {
+          "center": [
+            0.0,
+            11.755705045849462
+          ],
+          "diagonal_scale": [
+            1618033.9887498948,
+            38.04206065180614
+          ],
+          "macroscopic_zoom": {
+            "center": [
+              0.0,
+              2.0
+            ],
+            "diagonal_scale": [
+              8.0,
+              8.0
+            ]
+          },
+          "pencil_zoom": {
+            "center": [
+              0.0,
+              -9.999999999999999e-11
+            ],
+            "diagonal_scale": [
+              8.0,
+              4e-10
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

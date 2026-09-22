@@ -1,0 +1,74 @@
+\section{Formal verification and reproducibility}\label{sec:formalization}
+
+\subsection{The verified snapshot}
+
+The mathematical snapshot used by this paper is repository commit
+\nolinkurl{99fdc8ec1ef8b1fb22c3da32b011b7361762e958}. It pins Lean 4.31.0 and Mathlib commit
+\nolinkurl{fabf563a7c95a166b8d7b6efca11c8b4dc9d911f}. The local release audit completed on 22 September 2026, and the independent GitHub Actions run 35699093671 subsequently passed. These are reproducibility statements about a particular collection of declarations and coordinates, not an assertion that every conjecture discussed in this paper has been formalized.
+
+The audit built 220 targets and recorded hashes for all 325 active Lean source files. It inspected 4,227 theorem declarations: 3,412 use only the accepted standard logical axioms, while 815 also depend on explicitly recorded native evaluation. These are counts of theorem declarations, including auxiliary and generated declarations, not counts of independent mathematical contributions. The coordinate audit checked 138 distinct coordinate identities with two exact counters; 104 of the identities also satisfy the simplicity check.
+
+\subsection{Three proof and computation boundaries}
+
+\paragraph{General symbolic proofs.}
+The arbitrary-order construction, the actual geometric BBL step, and the local fan geometry use the usual Lean axioms \lean{propext}, \lean{Classical.choice}, and \lean{Quot.sound}. No unproved geometric construction is installed as an axiom. Their conclusions are not inferred from a finite range of successful tests. Lean and Mathlib provide the real analysis, finite combinatorics, and algebra used in these proofs~\cite{lean4,mathlib}.
+
+\paragraph{Finite certificates.}
+Large coordinate checks use \lean{native_decide}, which trusts Lean's native compiler and runtime in addition to the ordinary logical kernel interface. The general certificate soundness theorem is proved symbolically; native evaluation verifies the finite integer sign conditions and list properties. The audit reports these dependencies rather than describing all certificate computation as kernel reduction. Small examples and many formula comparisons also have direct kernel-reduction proofs.
+
+\paragraph{Computational and paper-level evidence.}
+Exact rational searches, interval calculations, ordinary geometric arguments, and the experimental large witnesses are retained with separate status. They are not imported as axioms into the all-order theorem. In particular, the incomplete 642-line recount and the uncompiled real-parameter 33-line draft are not active certificate results. The ordinary upper-budget derivation is distinguished from the already checked local fan lemmas.
+
+\subsection{What the audit rejects}
+
+The active-source scan strips comments and strings and rejects proof placeholders, admissions, custom axiom declarations, and unsafe definitions. The additional Lean audit recursively collects the axioms used by every theorem in the \lean{Kobon} namespace and rejects unapproved dependencies. It permits and records the standard logical axioms and the generated native-evaluation dependencies just described.
+
+The archived March file is deliberately outside the active library. Preserving it is evidence of the development history, not a way to conceal its eight placeholders inside an otherwise successful build. Likewise, an unfinished draft is kept under the research directory with an explicit status note rather than omitted silently from an allegedly complete theorem library.
+
+\subsection{Theorem-level correspondence}
+
+Table~\ref{tab:proof-map} gives the principal correspondence between the paper and the Lean development. The public repository contains more detailed logs and dependency information; the table is intended to make each major mathematical claim traceable without requiring a reader to inspect thousands of auxiliary declarations.
+
+\begin{longtable}{@{}p{0.39\linewidth}p{0.56\linewidth}@{}}
+\caption{Principal mathematical claims and formal sources. Names refer to the frozen mathematical snapshot.}\label{tab:proof-map}\\
+\toprule Mathematical claim & Formal source\\\midrule\endfirsthead
+\toprule Mathematical claim & Formal source\\\midrule\endhead
+\bottomrule\endfoot
+Exact certificate soundness & \lean{Geometry.validate_sound}; \lean{Simple.validate_simple_sound}\\
+Certificates are nonoverlapping cells & \lean{Cells.interior_eq_signCell}; \lean{Cells.distinct_interiors_disjoint}\\
+Classical affine construction & \lean{FurediPalasti.lower_bound}; \lean{FurediPalastiCount.ordered_bound}\\
+Shifted repeated-index gain & \lean{ShiftedCount.ordered_bound_plus}; \lean{ShiftedFurediPalasti.simple_lower_bound}\\
+Actual projective transformation & \lean{Projective.oriented_transform}; \lean{Projective.triangle_preserved}\\
+One exposed cap & \lean{FurediPalastiWrap.one_cap_simple_lower_bound}\\
+Two exposed caps & \lean{FurediPalastiTwoCaps.two_cap_simple_lower_bound}\\
+Universal $\G$ and exact gain & \lean{Universal.baseline_sound}; \lean{Universal.baseline_improvement}\\
+Finite-enhanced all-order bound & \lean{Universal.all_n}; \lean{AllN.dominates_every_saved_certificate}\\
+Unconditional 49-seed target & \lean{AllN.from_49_unconditional}; \lean{Universal.dominates_49_target}\\
+Exterior addition from visible pairs & \lean{Exterior.extension}\\
+Real compatible seed family & \lean{SeedFamily}; \lean{Parametric}; \lean{TangentBounds}\\
+Geometric one-step BBL doubling & \lean{BBLDoubling.doubling}\\
+Next-grid saturation component & \lean{BBLNextSaturation.next_saturated}\\
+Local fan geometry and budgets & \lean{SharedFan}; \lean{FanGeometry}; \lean{FanCount}; \lean{CyclicFan}; \lean{CleanLineBudget}\\
+Preserved historical finite bounds & \lean{Results.earlier_NNN}; \lean{Results.best_classical_NNN}; \lean{Results.best_simple_NNN}\\
+\end{longtable}
+
+The exterior theorem assumes a valid visible-pair list, not an unproved assertion that enough visible pairs always exist. The BBL theorem assumes the stated tangent-grid and saturation conditions, not its own desired conclusion. Conversely, the upper-budget arithmetic deliberately accepts global incidence inequalities as hypotheses where the arrangement-to-budget bridge is unfinished. Inspecting hypotheses is as important as inspecting the absence of placeholders.
+
+\subsection{Reproducing proofs, coordinates, and figures}
+
+After cloning the repository and installing the pinned Lean toolchain, the principal checks are:
+\begin{lstlisting}
+lake exe cache get
+python scripts/verify_lean.py --jobs 2
+python scripts/verify_coordinates.py
+python scripts/verify_seed_interval.py
+python scripts/evidence_manifest.py --check
+\end{lstlisting}
+The finite envelope can be regenerated from the certificate index using \lean{scripts/generate_all_n.py}. This generator emits theorem references; Lean checks the resulting proposition independently of the script's intentions. The generated source is not a trusted oracle for geometry.
+
+All sixteen scientific figures in the initial manuscript are generated by \lean{paper/scripts/generate_figures.py}. The script reads the saved formulas, coordinates, and experiment records. For geometric renderings it fixes the triangle combinatorics using exact rational arithmetic before converting coordinates to floating point for plotting. Vector PDF is the publication format; PNG images are previews. Rational proxies of the trigonometric examples are explicitly identified as finite illustrations, not substituted for the symbolic theorem.
+
+The files \lean{paper/figure_audit.md} and \lean{paper/generated/figure-manifest.json} record data sources, hashes, and figure-specific claim status. The finite tables are generated from the same coordinate index used by verification. This makes a plot an inspectable derivative of evidence rather than an unsupported visual argument. The paper-specific build instructions accompany the LaTeX source.
+
+\paragraph{Computer and AI assistance.}
+The development and preparation of this manuscript used computer algebra, exact arithmetic, automated search, Lean, and AI assistance for research, code, and drafting. AI-generated assertions are not treated as mathematical evidence. The reported conclusions are tied to explicit proofs, exact witnesses, or separately scoped computational records. Alejandro Zarzuelo Urdiales is the sole named author of this manuscript; cited construction authors retain their mathematical attribution.

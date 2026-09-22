@@ -1,0 +1,75 @@
+\section{Real-line geometry and exact certificates}\label{sec:geometry}
+
+\subsection{The two extremal problems}
+\begin{definition}
+An affine line is a set $\{(x,y)\in\R^2:ax+by=c\}$ with $(a,b)\ne(0,0)$. An arrangement is a finite set of distinct lines. A triangular cell is a bounded connected component of the complement whose closure is a nondegenerate triangle. The maximum number of such cells among arrangements of $n$ lines is $\K(n)$. The maximum among simple arrangements, with neither parallel lines nor triple concurrence, is $\Ks(n)$.
+\end{definition}
+
+The classical problem permits degeneracies that the simple problem excludes. Consequently $\Ks(n)\le\K(n)$, and a simple lower-bound construction is valid for both problems. The reverse use of an upper bound is invalid without a separate reduction. Our coordinate validator permits several lines through a triangular vertex, but excludes every line that cuts the triangle's interior.
+
+The formal lower-bound predicate uses witnesses with no parallel pairs. This is a sufficient class of witnesses, not a claim that every maximizer of the classical problem has that property. For nontrivial orders, pairwise nonzero determinants also imply that every line is valid and that no two supporting lines coincide. The cases with fewer than three lines are handled separately.
+
+\subsection{A polynomial sign certificate}
+
+Represent a line $\ell$ by $(a_\ell,b_\ell,c_\ell)$, with affine evaluation $f_\ell(x,y)=a_\ell x+b_\ell y-c_\ell$. For two lines set
+\begin{align}
+D(\ell,m)&=a_\ell b_m-b_\ell a_m,\label{eq:det}\\
+V(\ell,m)&=(X_{\ell m},Y_{\ell m},D(\ell,m))\\
+&=(c_\ell b_m-b_\ell c_m,\ a_\ell c_m-c_\ell a_m,\ D(\ell,m)).\notag
+\end{align}
+When $D(\ell,m)\ne0$, their actual affine intersection is
+$p_{\ell m}=(X_{\ell m}/D(\ell,m),Y_{\ell m}/D(\ell,m))$. For a third line $r$ define
+\begin{align}
+E(r;\ell,m)&=a_rX_{\ell m}+b_rY_{\ell m}-c_rD(\ell,m),\\
+O(r;\ell,m)&=E(r;\ell,m)D(\ell,m).
+\end{align}
+The useful identity is
+\begin{equation}\label{eq:oriented-affine}
+O(r;\ell,m)=f_r(p_{\ell m})D(\ell,m)^2.
+\end{equation}
+Thus $O$ has the sign of the affine evaluation without requiring division in the certificate. All operations are polynomial over integer or rational coordinates.
+
+\begin{definition}[Certified supporting triple]\label{def:certificate}
+For a pairwise nonparallel arrangement $(\ell_0,\ldots,\ell_{n-1})$, an increasing triple $i<j<k<n$ is certified if
+\begin{enumerate}
+\item $E(\ell_k;\ell_i,\ell_j)\ne0$;
+\item for each line $r$ of the arrangement, the three numbers
+\[
+O(r;\ell_i,\ell_j),\quad O(r;\ell_i,\ell_k),\quad O(r;\ell_j,\ell_k)
+\]
+are either all nonnegative or all nonpositive.
+\end{enumerate}
+The first condition excludes concurrence of the three supports; the second permits zeros at vertices but forbids a strict sign change.
+\end{definition}
+
+\begin{theorem}[From a sign certificate to a triangular cell]\label{thm:certificate-cell}
+Every certified supporting triple determines a nondegenerate bounded triangular cell. Its interior is nonempty. Two distinct increasing certified triples determine disjoint interiors.
+\end{theorem}
+\begin{proof}
+The three pair intersections exist because their denominators in~\eqref{eq:det} are nonzero. The nonvanishing evaluation excludes concurrence and gives three noncollinear points. Their positive barycentric combinations form a nonempty open triangle $\Delta$.
+
+By~\eqref{eq:oriented-affine}, each arrangement line has a common weak sign at the three vertices. Affine linearity gives the same sign throughout the closed triangle. It is strict in $\Delta$: otherwise all three vertex evaluations would be zero, forcing a valid line to contain three noncollinear points. Hence no arrangement line enters $\Delta$.
+
+Fix an interior point $z$. Its strict sign cell is
+\[
+S_z=\{x\in\R^2:f_r(x)f_r(z)>0\text{ for every arrangement line }r\}.
+\]
+The preceding argument gives $\Delta\subseteq S_z$. Conversely, the three support inequalities alone force all three barycentric coordinates of $x$ to be positive, so $S_z\subseteq\Delta$. The sign cell is an intersection of open half-planes and is convex; it is exactly a component of the complement. It is bounded by the three finite segments of the triangle.
+
+If two certified interiors meet, they have the same strict sign vector and hence the same sign cell. Its three supporting lines are determined by its three open sides. Since distinct arrangement lines cannot share an open side, the sets of supports agree, and sorting their indices makes the triples equal. The contrapositive proves disjointness.
+\end{proof}
+
+The modules \lean{Kobon.Euclidean} and \lean{Kobon.Cells} prove the sign-cell and nonoverlap content through \lean{interior_nonempty}, \lean{interior_eq_signCell}, and \lean{distinct_interiors_disjoint}. The connected-component interpretation is the elementary convexity argument above; it is not separately encoded through a topological component API. Thus the certificates have an explicit interpretation as actual Kobon cells.
+
+\subsection{What a finite lower-bound certificate establishes}
+
+\begin{proposition}[Soundness of exact finite validation]\label{prop:finite-sound}
+Let $A$ be an array of $n$ integer line coefficients, and let $\mathcal T$ be a list of at least $T$ certified increasing triples with no duplicates. If all pair determinants are nonzero, then $\K(n)\ge T$. If all increasing triples of lines additionally have nonzero concurrence determinant, then $\Ks(n)\ge T$.
+\end{proposition}
+\begin{proof}
+The coefficient inclusion $\Z\hookrightarrow\R$ preserves polynomial equalities, strict inequalities, and weak signs. The resulting real arrangement therefore satisfies Definition~\ref{def:certificate}. Apply Theorem~\ref{thm:certificate-cell} to the distinct triples. The additional concurrence test is exactly the simplicity condition.
+\end{proof}
+
+Rational coordinates are cleared of denominators line by line before the integer check. The mathematical lower bound needs only a list of $T$ valid triangles; it need not prove that no further triangle exists in the same arrangement. For the catalog, however, two independent exact counters also enumerate the triangle count. One works from consecutive intersections along each line, while the other directly tests triples against the arrangement. Agreement is an independent check on extraction and counting, not a substitute for the general soundness theorem.
+
+These distinctions explain the three evidential levels used later. A proved symbolic theorem applies at arbitrary order. A finite Lean certificate establishes its listed order. An exact experimental count outside the catalog remains a computationally verified witness until promoted through the same formal pipeline. No finite list, however large, proves an infinite family.

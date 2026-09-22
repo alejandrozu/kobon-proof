@@ -1,0 +1,96 @@
+\section{Individual cases, finite enhancements, and provenance}\label{sec:finite}
+
+\subsection{The March values and their present verification}
+
+The three finite inequalities associated with the author's early extension work are
+\begin{equation}\label{eq:march-three}
+\K(28)\ge238,\qquad \K(30)\ge275,\qquad \K(34)\ge357.
+\end{equation}
+Each now has an exact simple-arrangement certificate, so the same inequalities hold for $\Ks$. Their present validity is independent of the unproved recurrence in the original March manuscript. The certificates give actual lines and complete checked triangle lists, not only numerical consequences of an extension hypothesis.
+
+The current OEIS table associates the name Zarzuelo with these entries~\cite{oeisA006066,zarzuelo2026}. Attribution in an index and first discovery are different questions. The earlier literature already contains matching constructions or consequences for some of these counts; the literature review records these overlaps. The claims made here are the documented attribution trail, the independently verified witnesses, and their place in the author's extension program. No new priority claim is inferred from the absence of a value from a particular online table.
+
+\begin{figure}[tbp]
+\centering\includegraphics[width=0.96\linewidth]{historical-28.pdf}
+\caption{The retained exact 28-line witness with 238 certified triangles. This is a new rendering of the saved coordinates associated with the earlier extension program. The marked zoom, where present, is an enlargement of the same arrangement; it does not add or remove lines from the certificate. The picture illustrates a lower bound, while the exact sign tests establish it.}\label{fig:historical28}
+\end{figure}
+\begin{figure}[tbp]
+\centering\includegraphics[width=0.96\linewidth]{historical-30.pdf}
+\caption{The retained 30-line witness with 275 certified triangles, rendered from its exact coordinates. The count has prior literature overlap and is not asserted to be a new numerical record. The complete witness remains in the catalog even though the historical general extension proof was incomplete.}\label{fig:historical30}
+\end{figure}
+\begin{figure}[tbp]
+\centering\includegraphics[width=0.96\linewidth]{historical-34.pdf}
+\caption{The retained 34-line witness with 357 certified triangles. Original plotting of the certificate makes the finite conclusion inspectable independently of the claimed universal extension. The construction input and earlier matching literature are credited separately.}\label{fig:historical34}
+\end{figure}
+
+The original inventory also listed outputs for every order from 3 through 60, together with larger cases at 99 and 195. Some were direct certificates, some were numerical consequences of a boundary-defect argument, and many were weaker than an already available construction. Appendix~\ref{app:historical} preserves that inventory as history. The current certificate aliases independently retain its numerical inequalities; a label inherited from the old table is not used as a present formal-proof status.
+
+\subsection{Materialized improvements from the phase and chart construction}
+
+Table~\ref{tab:finite-refinement} records simple rational witnesses promoted during the last construction phase. Each listed new count is supplied by the universal theorem and also realized by an independently checked finite coordinate file. This double presentation is useful: the theorem proves all orders, while the coordinates support visualization and further exact searches.
+
+\begin{table}[tbp]
+\centering
+\begin{tabular}{@{}rrrr@{}}
+\toprule
+$n$ & Earlier retained count & Current simple count & Increase\\
+\midrule
+39&469&470&1\\
+47&690&691&1\\
+48&720&721&1\\
+51&817&818&1\\
+53&884&885&1\\
+54&918&919&1\\
+55&954&955&1\\
+59&1102&1103&1\\
+60&1140&1141&1\\
+99&3169&3170&1\\
+195&12481&12482&1\\
+\bottomrule
+\end{tabular}
+\caption{Changes relative to this project's previous retained witnesses, not a table of first discoveries or global record improvements. ``Simple'' is certified for every current coordinate witness in this table.}\label{tab:finite-refinement}
+\end{table}
+
+In particular, the earlier additional-line values $39:469$, $51:817$, $99:3169$ and $195:12481$ are now exceeded by $\G$ itself. Their finite correctness survives, but those numbers are not distinctive of the additional-line family. Historical evidence is retained rather than deleted when a stronger construction is found.
+
+\subsection{The 44-line simple case}
+
+The exact exterior extension of the retained 43-line arrangement creates 21 triangles while preserving its 587 old triangles. Both exact counters and the Lean certificate give a simple 44-line arrangement with 608 triangles. The published simple upper bound of Blanc at this order is also 608~\cite{blanc2011}. Thus, using that external upper theorem,
+\begin{equation}\label{eq:44-simple}
+\Ks(44)=608.
+\end{equation}
+The repository proves the lower inequality. It does not formally prove Blanc's theorem, and~\eqref{eq:44-simple} does not establish $\K(44)=608$ in the unrestricted classical problem. Nor does materializing this consequence establish first discovery of the numerical value.
+
+This example shows why upper-bound scope belongs next to the numerical statement. A simple witness can establish a classical lower bound, but a simple upper theorem cannot by itself close the classical problem.
+
+\subsection{External records and independently checked inputs}
+
+The updated catalog incorporates exact gallery witnesses from Parpalak and Utkin at
+\[
+8:15,\ 14:54,\ 20:117,\ 26:204,\ 32:315,\ 36:402,\ 38:450,\ 42:553,\ 46:667,\ 50:792.
+\]
+These are constructions or coordinate sources of the cited researchers, not newly discovered values in this project. The eight-line value has older priority; the modern gallery is the source of the checked coordinates. The public source snapshot and the formal certificate index preserve the provenance~\cite{parpalakutkin2026,oeisA006066}.
+
+All fifteen of Maiorana's supplied 14-line arrangements with 54 triangles were independently checked and promoted as finite certificates~\cite{maiorana2026}. Fourteen have two triple points and one has four. Their source license and immutable commit are retained. These witnesses are a particularly useful warning against conflating simple and nonsimple arrangements: removing a multiple intersection by a small perturbation need not preserve the full triangle count. Section~\ref{exp:section} reports the exact resolution experiments.
+
+The two source snapshots used for these imports are Maiorana commit
+\nolinkurl{e47c7cfd9661e54d29befb83118bf83d5f804028} and gallery commit
+\nolinkurl{feae4f5571a988a3ed45bd26a36259ebb7d7d3d2}. Their mathematical attribution is attached to each source record even when a new Lean wrapper or new figure is generated here.
+
+\subsection{The finite envelope and the complete tables}
+
+\begin{proposition}[Retained all-order envelope]\label{prop:envelope}
+Let $C(n)$ be the maximum count in the finite catalog at order $n$, or zero if that order is absent. Then $\K(n)\ge\Lbound(n)=\max\{\G(n),C(n)\}$ for every $n$. In the frozen release, $\Lbound(n)=\G(n)$ for every $n>195$.
+\end{proposition}
+\begin{proof}
+When $C(n)\le\G(n)$, use Theorem~\ref{thm:main}. Otherwise choose a certificate attaining the finite maximum and apply Proposition~\ref{prop:finite-sound}. No coordinate certificate in this release has order greater than 195. Larger computational witnesses discussed later have not been silently added to the Lean catalog.
+\end{proof}
+
+The formal definition is \lean{Universal.bound = max Universal.baseline AllN.bound}. Since $\G\ge\B$, it equals the expression in Proposition~\ref{prop:envelope}; the older \lean{AllN} layer preserves the previous finite-envelope theorem. This makes comparisons reproducible without rewriting the historical construction history.
+
+\begin{figure}[tbp]
+\centering\includegraphics[width=0.96\linewidth]{finite-envelope.pdf}
+\caption{The strongest saved simple and classical coordinate counts, compared with the uniform formula and the polynomial upper benchmark. External witnesses retain their attribution. A marker above $\G$ is a finite enhancement of the general formula, not automatically an original record.}\label{fig:finite-envelope}
+\end{figure}
+
+Appendix~\ref{app:finite-table} gives the best saved simple and classical values from 3 through 60. Appendix~\ref{app:catalog} lists all 138 certificate identities, including repeated orders and weaker checkpoints. Appendix~\ref{app:historical} gives the older author-output inventory. Together these tables prevent three common confusions: a retained output is not necessarily the best available value; a missing OEIS row is not proof of novelty; and an exact count for one arrangement is not automatically the extremal value $\K(n)$.

@@ -4,7 +4,24 @@ Owner: Alejandro Zarzuelo Urdiales. Research session: 20 September 2026 (America
 
 Read this file before resuming. It records what was retained, what failed, where the evidence lives, and what still needs proof. [FORMALIZATION.md](FORMALIZATION.md) is the authoritative Lean scope statement; [RESULTS.md](RESULTS.md) maps concrete claims to files.
 
-## Latest session on 21 September 2026
+## Comprehensive manuscript on 22 September 2026
+
+The [LaTeX manuscript](paper/README.md) consolidates the March history and the
+completed three-hour research release under the sole authorship of Alejandro
+Zarzuelo Urdiales. It includes 16 original vector figures, 29 references, all
+3–60 saved values, and the 138-coordinate catalog. The underlying Lean sources
+remain identical to verified commit `99fdc8ec1ef8b1fb22c3da32b011b7361762e958`.
+
+The [literature audit](paper/literature_audit.md) corrects the published dates
+of BBL and Blanc, credits the perfect 33-line input to Forge–Ramírez Alfonsín,
+and distinguishes earlier 30:275 and 34:357 consequences from later recorded
+attribution. The [family audit](paper/family_claim_audit.md) identifies the
+exact missing recursive invariant. The upper-bound section contains ordinary
+geometric proofs for pairwise-nonparallel even arrangements, including the
+at-most-two-multiple-point estimate; global extraction into Lean is still open.
+No unrestricted numerical record or first-priority claim is added by the paper.
+
+## Latest research session on 21 September 2026
 
 The user shortened the new research session to three hours, ending 22 September
 at 07:36:37 UTC. Start with the [cumulative review](research/six-hour-2026-09-21/RESEARCH_REVIEW.md),

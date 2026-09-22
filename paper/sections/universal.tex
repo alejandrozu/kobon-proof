@@ -1,0 +1,177 @@
+\section{A parity-sensitive all-order construction}\label{sec:universal}
+
+This section gives the mathematical ingredients of Theorem~\ref{thm:main}. The underlying trigonometric family is a version of the classical F\"uredi--Pal\'asti family. Its attribution is independent of the present formalization and choice of affine chart.
+
+\subsection{Trigonometric geometry and the classical count}
+
+For $0<\theta<\pi$, define
+\begin{equation}\label{eq:trig-line}
+\ell(\theta):\quad \sin\theta\,x+\cos\theta\,y=\sin(3\theta).
+\end{equation}
+The normal has length one. Direct trigonometric expansion gives
+\begin{align}
+D(\ell(x),\ell(y))&=\sin(x-y),\label{eq:trig-det}\\
+E(\ell(z);\ell(x),\ell(y))
+&=4\sin(x-y)\sin(z-y)\sin(z-x)\sin(x+y+z).\label{eq:trig-eval}
+\end{align}
+In particular, distinct angles in $(0,\pi)$ give nonparallel lines. Multiplying~\eqref{eq:trig-eval} by~\eqref{eq:trig-det} yields
+\begin{equation}\label{eq:trig-oriented}
+O(\ell(z);\ell(x),\ell(y))=
+4\sin^2(x-y)\sin(z-y)\sin(z-x)\sin(x+y+z).
+\end{equation}
+Only three factors determine the sign on the right.
+
+For the half-phase choice $\theta_i=(i+1/2)\pi/n$, select increasing triples with
+\begin{equation}\label{eq:halfphase-triples}
+i+j+k\equiv n-1\ \text{or}\ n-2\pmod n.
+\end{equation}
+For the shifted choice $\theta_i=(i+1/6)\pi/n$, select instead
+\begin{equation}\label{eq:shifted-triples}
+i+j+k\equiv0\ \text{or}\ n-1\pmod n.
+\end{equation}
+
+\begin{lemma}[Triangle selection]\label{lem:trig-triangles}
+For $n\ge3$, the triples in~\eqref{eq:halfphase-triples} certify triangles of the half-phase arrangement. The triples in~\eqref{eq:shifted-triples} certify triangles of the shifted arrangement. Both arrangements are simple.
+\end{lemma}
+\begin{proof}[Sign proof]
+The angle sum of any three lines is $(i+j+k+3/2)\pi/n$ in the first arrangement and $(i+j+k+1/2)\pi/n$ in the second. It is never an integer multiple of $\pi$, which, together with~\eqref{eq:trig-eval}, excludes triple concurrence.
+
+For a selected $i<j<k$, fix a fourth index $r$. The factors $\sin(\theta_r-\theta_j)$ and $\sin(\theta_r-\theta_i)$ change sign only when $r$ passes the corresponding support index. For each of the pairs $(i,j),(i,k),(j,k)$, the remaining factor is
+$\sin((i+j+r+3a)\pi/n)$ with $a=1/2$ or $1/6$. Substituting the selected residue of $i+j+k$ fixes on which side of the next multiple of $\pi$ this sum lies when $r<k$ and when $r>k$. Splitting the index range at $i,j,k$ shows that the three expressions in~\eqref{eq:trig-oriented} have one weak sign in each range. At a support index the appropriate evaluations are zero. Their common sign need not be the same for different $r$; that is precisely the permitted sign choice in Definition~\ref{def:certificate}.
+
+Equivalently, this check uses only the sign of $\sin t$ on consecutive intervals $(s\pi,(s+1)\pi)$ and the inequalities $0\le r<n$. No numerical trigonometric approximation is used. The complete index splits are proved in \lean{FurediPalasti.lean} and \lean{ShiftedFurediPalasti.lean}. Definition~\ref{def:certificate} and Theorem~\ref{thm:certificate-cell} then give the claimed cells.
+\end{proof}
+
+For any residue $b\in\Z/n\Z$, the equation $i+j+k=b$ has exactly $n^2$ ordered solutions. At most $3n$ have a repeated index, because each of $i=j$, $j=k$ and $i=k$ leaves at most $n$ choices. Two distinct residue classes therefore give at least $2n^2-6n$ ordered distinct-index triples. Each increasing triple accounts for six permutations, so the half-phase arrangement has at least
+\begin{equation}\label{eq:classical-count}
+\ceil{\frac{2n^2-6n}{6}}=\B(n)
+\end{equation}
+certified triangles. This is the classical all-order estimate, now proved directly in the real-coordinate formalization.
+
+\subsection{The repeated-index correction}
+
+\begin{lemma}[Shifted count]\label{lem:shifted-count}
+For every $n\ge3$, the shifted arrangement has at least
+\[
+\floor{\frac{n(n-3)}3}+1
+\]
+certified triangular cells.
+\end{lemma}
+\begin{proof}
+Use the two residues $0$ and $n-1$ in~\eqref{eq:shifted-triples}. In the zero residue, the three repeated-index sets all contain $(0,0,0)$. Their union therefore has at most $3n-2$ members, not merely $3n$. In the other residue retain the bound $3n$. The number of ordered distinct-index solutions is at least $2n^2-6n+2$. If $T$ is the number of increasing selected triples, then
+\[
+6T\ge2n^2-6n+2,
+\qquad
+T\ge\ceil{\frac{n(n-3)+1}{3}}
+=\floor{\frac{n(n-3)}3}+1.
+\]
+Lemma~\ref{lem:trig-triangles} supplies their actual geometry. This argument uses the overlap of bad-index sets, not a numerical rounding conjecture.
+\end{proof}
+
+\begin{figure}[tbp]
+\centering\includegraphics[width=0.9\linewidth]{phase-family.pdf}
+\caption{New rational-coordinate illustrations at $n=12$, obtained from the half-phase and shifted trigonometric families. Two independent exact counters certify 36 and 37 triangles in these rational proxies. The axes of each panel are rescaled independently. The real-coordinate universal theorem follows from the symbolic sign and modular arguments, independently of this illustration. The underlying family is attributed to F\"uredi and Pal\'asti.}\label{fig:phase}
+\end{figure}
+
+\subsection{Projective changes of affine chart}
+
+The shifted count is enough for the even part of~\eqref{eq:G}. To obtain the additional odd-order gain we use exposed vertices of the half-phase arrangement. The exact coordinate map is
+\begin{equation}\label{eq:projective-map}
+(x,y)\longmapsto \left(\frac{x}{h-x},\frac{y}{h-x}\right),\qquad h\ne0.
+\end{equation}
+It replaces the line $x=h$ by the line at infinity. The transformed coefficients of $ax+by=c$ are
+\begin{equation}\label{eq:line-transform}
+\Phi_h(a,b,c)=(ha-c,hb,c).
+\end{equation}
+Unlike an affine transformation, this change can alter which projective triangular faces appear bounded. Thus counting triangles before and after the change requires an explicit sign argument.
+
+\begin{lemma}[Exact covariance]\label{lem:projective-covariance}
+If $D(\ell,m)\ne0$, then
+\begin{align}
+D(\Phi_h\ell,\Phi_hm)&=hD(\ell,m)(h-x_{\ell m}),\\
+E(\Phi_hr;\Phi_h\ell,\Phi_hm)&=h^2E(r;\ell,m),\\
+O(\Phi_hr;\Phi_h\ell,\Phi_hm)&=h^3(h-x_{\ell m})O(r;\ell,m),\label{eq:projective-sign}
+\end{align}
+where $x_{\ell m}$ is the abscissa of the old intersection. If the cut avoids every old vertex, the transformed arrangement has no parallel pairs. Triple nonconcurrence is preserved.
+\end{lemma}
+\begin{proof}
+Substitute~\eqref{eq:line-transform} into the polynomial expressions in Section~\ref{sec:geometry}, expand, and cancel. Nonzero $h$ and avoidance of all $x_{\ell m}$ give the pair determinant claim, while multiplication by $h^2$ preserves a nonzero triple evaluation.
+\end{proof}
+
+The sign multiplier in~\eqref{eq:projective-sign} also gives a direct triangle-preservation rule. If $h>0$ and all vertices of a certified triangle lie to the left of $x=h$, all three multipliers are positive. If $h<0$ and its vertices lie to the right, they are again positive. At selected exposed vertices on the opposite side, the sign reverses. Carefully choosing which vertices are separated by the cut creates the extra triangles.
+
+\begin{lemma}[One exposed vertex]\label{lem:one-cap}
+For odd $n=2m+1\ge3$, a change of affine chart of the half-phase arrangement has at least $\B(n)+1$ bounded triangles.
+\end{lemma}
+\begin{proof}
+The intersection of $\ell(x)$ and $\ell(y)$ has abscissa
+\begin{equation}\label{eq:vertex-x}
+X(x,y)=\cos(2x)+\cos(2y)+\cos(2x+2y).
+\end{equation}
+For the half-phase angles, the vertex of lines $0,n-1$ is uniquely rightmost, with abscissa $c_n=1+2\cos(\pi/n)>0$. Indeed, each of the first two cosine terms in~\eqref{eq:vertex-x} is at most $\cos(\pi/n)$ and the last is at most one; if the pair is not $(0,n-1)$, at least one necessary inequality is strict. Choose $h>0$ between all other abscissae and $c_n$.
+
+No selected triangle of~\eqref{eq:halfphase-triples} uses the pair $(0,n-1)$: such a triple would require its middle index to be $0$ or $n-1$ modulo $n$. Hence all counted triangles are preserved by the positive multiplier rule. The additional triple $(0,m,2m)$ has, for each test line, nonnegative evaluation at the exposed vertex and nonpositive evaluations at its other two vertices before the transformation. The cut reverses exactly the exposed-vertex sign, so the transformed triple satisfies the certificate. These signs follow from~\eqref{eq:trig-oriented} by splitting the test index at $m$. The triple is absent from the old selected list, and Lemma~\ref{lem:projective-covariance} preserves simplicity. This gives one additional bounded triangle.
+\end{proof}
+
+\begin{lemma}[Two exposed vertices]\label{lem:two-caps}
+For $n=6k+3$ with $k\ge1$, a change of affine chart of the half-phase arrangement has at least $\B(n)+2$ bounded triangles.
+\end{lemma}
+\begin{proof}
+Write $n=3m$, where $m=2k+1$. The two intersections supported by $(m-1,m)$ and $(2m-1,2m)$ have common abscissa $-c_n/2$. Every other intersection has strictly larger abscissa. To verify the latter assertion, rewrite~\eqref{eq:vertex-x} as
+\[
+X(u,v)=2zw+2z^2-1,
+\qquad z=\cos(u+v),\quad w=\cos(u-v).
+\]
+For nonadjacent angle indices, the cosine bounds on the discrete grid, together with completing the square in $z$, give $X>-c_n/2$. For adjacent indices, $w=\cos(\pi/n)$ and the same quadratic attains equality precisely at $u+v=2\pi/3$ or $4\pi/3$, giving the two listed pairs. The exceptional wrapping pair $(0,n-1)$ is the rightmost vertex. These exposure inequalities are proved uniformly in \lean{FurediPalastiCaps.lean}.
+
+Choose $h<0$ strictly above $-c_n/2$ and below all other abscissae. The modular conditions~\eqref{eq:halfphase-triples} show that no counted triangle uses either exposed pair. Its vertices are therefore all to the right of the cut and its signs are preserved. The two additional support triples are
+\[
+(2k,2k+1,5k+2),\qquad (k,4k+1,4k+2).
+\]
+For each test index, substitution into~\eqref{eq:trig-oriented} gives one sign at the exposed pair and its opposite weak sign at the other two vertices. The negative cut reverses exactly the exposed-vertex multiplier in each case, establishing the transformed certificates. The two triples are distinct and neither satisfies the old selection residues. Simplicity follows from Lemma~\ref{lem:projective-covariance}. Appending both triples to the retained list proves the claim.
+\end{proof}
+
+\begin{figure}[tbp]
+\centering\includegraphics[width=0.95\linewidth]{affine-chart.pdf}
+\caption{New exact rational illustration at $n=9$: the change of affine chart retains all 18 old triangular cells and creates two more. The resulting 20 is below the known optimum 21; this figure illustrates the uniform mechanism. Panels are rescaled independently. Both counts are checked exactly. The general proof tracks the determinant multiplier at every vertex, independently of the drawing.}\label{fig:chart}
+\end{figure}
+
+\subsection{Assembly, exact gain, and asymptotic scale}
+
+\begin{proof}[Proof of Theorem~\ref{thm:main}]
+Use Lemma~\ref{lem:shifted-count} for even $n\ge4$. For odd $n$ not divisible by three, $n(n-3)\equiv1\pmod3$, so
+$\B(n)+1=\floor{n(n-3)/3}+2$; apply Lemma~\ref{lem:one-cap}. For odd multiples of three at least nine, $\B(n)=n(n-3)/3$ and Lemma~\ref{lem:two-caps} gives the same target. Three nonconcurrent lines give $\G(3)=1$, while the smaller cases have zero triangles. Each construction used is simple.
+\end{proof}
+
+\begin{corollary}[Exact improvement over the quoted baseline]\label{cor:gain}
+For $n\ge4$,
+\[
+\G(n)-\B(n)=
+\begin{cases}
+1+(n\bmod2),&3\mid n,\\
+n\bmod2,&3\nmid n.
+\end{cases}
+\]
+The gains in classes $0,1,2,3,4,5\pmod6$ are respectively $1,1,0,2,0,1$.
+\end{corollary}
+\begin{proof}
+The product $n(n-3)$ is zero modulo three when $3\mid n$, and one modulo three otherwise. Substitute these remainders in the floor and ceiling formulas.
+\end{proof}
+
+\begin{figure}[tbp]
+\centering\includegraphics[width=0.88\linewidth]{residue-gains.pdf}
+\caption{The exact proved gain $\G-\B$, resolved by residue class modulo six. The gain is strict on four classes; the universal statement includes arbitrarily large orders in each class.}\label{fig:residue}
+\end{figure}
+
+For comparison with the classical polynomial benchmark $\U(n)=\floor{n(n-2)/3}$, direct integer arithmetic gives, for $n\ge4$,
+\begin{equation}\label{eq:gap}
+\U(n)-\G(n)=\floor{\frac n3}+\mathbf1_{n\equiv2\ (3)}-1-(n\bmod2).
+\end{equation}
+This comparison does not formalize the published upper-bound theorem. It quantifies the scale of the remaining gap to that benchmark. It is still of order $n$, and stronger upper bounds or special constructions apply at some orders.
+
+\begin{figure}[tbp]
+\centering\includegraphics[width=0.94\linewidth]{normalized-gap.pdf}
+\caption{Deficit and normalized growth computed from the proved formulas. The constant improvement is visible in the deficit, while both general lower formulas have the same leading quadratic and linear terms. The polynomial used in the deficit is a literature benchmark, not a new upper theorem of this paper.}\label{fig:normalized}
+\end{figure}
+
+The outcome is an unconditional affine theorem, stronger than the quoted baseline at infinitely many orders. Its numerical first priority remains a separate literature question. The construction gives a witness for each $n$; it does not provide an operation that adds one line to every preceding optimal witness.

@@ -1,0 +1,8 @@
+{
+  "pdf_sha256": "b1d9c6dbfa71a7ef4fd1ffa30b700c7296afdd02cda148185bfcc6505a9a0caf",
+  "pages": 60,
+  "method": "Every page rendered with Poppler at 105 dpi and inspected as an image; all 16 vector figure previews inspected separately.",
+  "page_assignments": ["1-10", "11-20 and 40-45", "21-39 and 46-50", "51-60"],
+  "final_corrections": "Title/contents separation, table spacing, safe-height index, Forge attribution, citation spacing, and formalization-scope wording were re-rendered and inspected.",
+  "result": "No clipping, overflowing boxes, unresolved references, missing figures, or illegible tables found."
+}

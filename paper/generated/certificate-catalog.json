@@ -1,0 +1,3355 @@
+[
+  {
+    "id": 1,
+    "n": 3,
+    "triangles": 1,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-003.json",
+      "research/finite-table/simple-003.json"
+    ],
+    "coordinate_sha256": "05c82de62571155def7f58cd6e051cb6db1e8ed96ecd216414d6d48b23d3f444",
+    "module": "Kobon.Certificates.N003T00001H05c82de6",
+    "source_file_sha256": {
+      "research/finite-table/classical-003.json": "cdde0a86ed14512814f552970e5567093fe17916fe9eacc81c7b69710bb43db7",
+      "research/finite-table/simple-003.json": "cdde0a86ed14512814f552970e5567093fe17916fe9eacc81c7b69710bb43db7"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-003.json": {
+        "source": "Furedi-Palasti (1984); rational reproduction",
+        "construction": "Previously generated comparison configuration"
+      },
+      "research/finite-table/simple-003.json": {
+        "source": "Furedi-Palasti (1984); rational reproduction",
+        "construction": "Previously generated comparison configuration"
+      }
+    }
+  },
+  {
+    "id": 2,
+    "n": 4,
+    "triangles": 2,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-004.json",
+      "research/finite-table/simple-004.json"
+    ],
+    "coordinate_sha256": "0e541bd5bbe7bee9e854896e6969ba67df09dc77586230588e13182cd413301f",
+    "module": "Kobon.Certificates.N004T00002H0e541bd5",
+    "source_file_sha256": {
+      "research/finite-table/classical-004.json": "79854faaf7786265749bfd4ec079b8bbea2834ce2b2c8055bf1c6b5f1ad393bc",
+      "research/finite-table/simple-004.json": "79854faaf7786265749bfd4ec079b8bbea2834ce2b2c8055bf1c6b5f1ad393bc"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-004.json": {
+        "source": "Furedi-Palasti (1984); rational reproduction",
+        "construction": "Previously generated comparison configuration"
+      },
+      "research/finite-table/simple-004.json": {
+        "source": "Furedi-Palasti (1984); rational reproduction",
+        "construction": "Previously generated comparison configuration"
+      }
+    }
+  },
+  {
+    "id": 3,
+    "n": 5,
+    "triangles": 5,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-005.json",
+      "research/finite-table/simple-005.json"
+    ],
+    "coordinate_sha256": "948a0bdf2dd3be698d8802d59993b2b35c707647cdd78ba4f3457247826154ca",
+    "module": "Kobon.Certificates.N005T00005H948a0bdf",
+    "source_file_sha256": {
+      "research/finite-table/classical-005.json": "14ee68d983fed319844e4aba0ddc20291385f358c85f4e90ec2a364492ad37f2",
+      "research/finite-table/simple-005.json": "14ee68d983fed319844e4aba0ddc20291385f358c85f4e90ec2a364492ad37f2"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-005.json": {
+        "source": "gallery/data/5/5-p2fbz3b9cxet.json",
+        "construction": "Published gallery input; not our discovery"
+      },
+      "research/finite-table/simple-005.json": {
+        "source": "gallery/data/5/5-p2fbz3b9cxet.json",
+        "construction": "Published gallery input; not our discovery"
+      }
+    }
+  },
+  {
+    "id": 4,
+    "n": 6,
+    "triangles": 7,
+    "simple": true,
+    "source_codes": "FT,EX,HI",
+    "sources": [
+      "research/finite-table/classical-006.json",
+      "research/finite-table/simple-006.json",
+      "research/kobon-extension/certificates/chain_6.json",
+      "research/kobon-own-results/certificates/n006.json"
+    ],
+    "coordinate_sha256": "6ea9ebaa7bf29c8cb4e4cd4a732a1a4561ebfc20cda7e93cb89dc972c52241dd",
+    "module": "Kobon.Certificates.N006T00007H6ea9ebaa",
+    "source_file_sha256": {
+      "research/finite-table/classical-006.json": "42df8734bec5262a4b6d1584c8bbdd20587104012b0057a1d92fce77a210c6b8",
+      "research/finite-table/simple-006.json": "42df8734bec5262a4b6d1584c8bbdd20587104012b0057a1d92fce77a210c6b8",
+      "research/kobon-extension/certificates/chain_6.json": "f442b4083e03a3183b127235f42335e09eb43a6a843f957199fac5935a18eb7d",
+      "research/kobon-own-results/certificates/n006.json": "f442b4083e03a3183b127235f42335e09eb43a6a843f957199fac5935a18eb7d"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-006.json": {
+        "source": "research/kobon-extension/certificates/chain_6.json",
+        "construction": "Existing research witness"
+      },
+      "research/finite-table/simple-006.json": {
+        "source": "research/kobon-extension/certificates/chain_6.json",
+        "construction": "Existing research witness"
+      },
+      "research/kobon-extension/certificates/chain_6.json": {
+        "source": "Explicit example from the extension manuscript; not a record claim"
+      },
+      "research/kobon-own-results/certificates/n006.json": {
+        "source": "Explicit example from the extension manuscript; not a record claim"
+      }
+    }
+  },
+  {
+    "id": 5,
+    "n": 7,
+    "triangles": 11,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-007.json",
+      "research/finite-table/simple-007.json"
+    ],
+    "coordinate_sha256": "e6b9a626a163e5280aa5e2702ef2627c0c32dfc4a33f6f3c17673fb07feb634c",
+    "module": "Kobon.Certificates.N007T00011He6b9a626",
+    "source_file_sha256": {
+      "research/finite-table/classical-007.json": "021ada3f1bf8f5206d88e92f0a9bac16c722aabe40ae18da7c9b06242189f7a0",
+      "research/finite-table/simple-007.json": "021ada3f1bf8f5206d88e92f0a9bac16c722aabe40ae18da7c9b06242189f7a0"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-007.json": {
+        "source": "gallery/data/7/7-1xi1hu47otg9n.json",
+        "construction": "Published gallery input; not our discovery"
+      },
+      "research/finite-table/simple-007.json": {
+        "source": "gallery/data/7/7-1xi1hu47otg9n.json",
+        "construction": "Published gallery input; not our discovery"
+      }
+    }
+  },
+  {
+    "id": 6,
+    "n": 8,
+    "triangles": 14,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-008.json",
+      "research/finite-table/simple-008.json"
+    ],
+    "coordinate_sha256": "2a63f4d9308d7a6d17944b213ddaf4539a8369d1a869d93c38c20878cc7ea6bb",
+    "module": "Kobon.Certificates.N008T00014H2a63f4d9",
+    "source_file_sha256": {
+      "research/finite-table/classical-008.json": "36cda4951fc6b28d81f132457bcb3fe4c4c10e70cb48ac3aed8dc3a7272ca452",
+      "research/finite-table/simple-008.json": "36cda4951fc6b28d81f132457bcb3fe4c4c10e70cb48ac3aed8dc3a7272ca452"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-008.json": {
+        "source": "Furedi-Palasti (1984); rational reproduction",
+        "construction": "Previously generated comparison configuration"
+      },
+      "research/finite-table/simple-008.json": {
+        "source": "Furedi-Palasti (1984); rational reproduction",
+        "construction": "Previously generated comparison configuration"
+      }
+    }
+  },
+  {
+    "id": 7,
+    "n": 9,
+    "triangles": 21,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-009.json",
+      "research/finite-table/simple-009.json"
+    ],
+    "coordinate_sha256": "6ebbed82d06399ea5d5a9e6ca39c452d4291a6a6103db9d0d722e8a0db533c73",
+    "module": "Kobon.Certificates.N009T00021H6ebbed82",
+    "source_file_sha256": {
+      "research/finite-table/classical-009.json": "1bdcbc98ca7107e042ba08c66d3ae9b538fbb37cefa052c79ed242c11a884e62",
+      "research/finite-table/simple-009.json": "1bdcbc98ca7107e042ba08c66d3ae9b538fbb37cefa052c79ed242c11a884e62"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-009.json": {
+        "source": "gallery/data/9/9-1xw8b9ugsk55.json",
+        "construction": "Published gallery input; not our discovery"
+      },
+      "research/finite-table/simple-009.json": {
+        "source": "gallery/data/9/9-1xw8b9ugsk55.json",
+        "construction": "Published gallery input; not our discovery"
+      }
+    }
+  },
+  {
+    "id": 8,
+    "n": 10,
+    "triangles": 25,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-010.json",
+      "research/finite-table/simple-010.json"
+    ],
+    "coordinate_sha256": "b767c427fa30087d8411ff1565f750dec9713e017f56d612a34a0f6b731af799",
+    "module": "Kobon.Certificates.N010T00025Hb767c427",
+    "source_file_sha256": {
+      "research/finite-table/classical-010.json": "a2b56c9b0da8b6c8e2a8d322a526e4f3f5bba4f67ba548de11aa493eb7da39ee",
+      "research/finite-table/simple-010.json": "a2b56c9b0da8b6c8e2a8d322a526e4f3f5bba4f67ba548de11aa493eb7da39ee"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-010.json": {
+        "source": "finite-table/simple-009.json",
+        "construction": "Exact exterior extension of the retained simple witness"
+      },
+      "research/finite-table/simple-010.json": {
+        "source": "finite-table/simple-009.json",
+        "construction": "Exact exterior extension of the retained simple witness"
+      }
+    }
+  },
+  {
+    "id": 9,
+    "n": 11,
+    "triangles": 32,
+    "simple": true,
+    "source_codes": "FT,HY",
+    "sources": [
+      "research/finite-table/classical-011.json",
+      "research/finite-table/simple-011.json",
+      "research/kobon-hybrid/certificates/n011.json",
+      "research/kobon-hybrid/seed-11-rational.json"
+    ],
+    "coordinate_sha256": "b955e7c9923ad0f90baf54be5a2d71386ead3aff29c176ff7ce40ef7abff8d2d",
+    "module": "Kobon.Certificates.N011T00032Hb955e7c9",
+    "source_file_sha256": {
+      "research/finite-table/classical-011.json": "e973c2941008f49c472b634653097d37e87e6b8a1630898eff912442b361baa7",
+      "research/finite-table/simple-011.json": "e973c2941008f49c472b634653097d37e87e6b8a1630898eff912442b361baa7",
+      "research/kobon-hybrid/certificates/n011.json": "a6225f71b0169b68952b51da9dfaf98781fc20801acfe482e4d0dd63efc3f14e",
+      "research/kobon-hybrid/seed-11-rational.json": "82896cab51ed9f7d776958d544ad38a92e0ba42770b4bfebaac6491d4cb0158d"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-011.json": {
+        "source": "research/kobon-hybrid/certificates/n011.json",
+        "construction": "Existing research witness"
+      },
+      "research/finite-table/simple-011.json": {
+        "source": "research/kobon-hybrid/certificates/n011.json",
+        "construction": "Existing research witness"
+      },
+      "research/kobon-hybrid/certificates/n011.json": {
+        "construction": "Certified 11-line seed plus BBL doubling",
+        "priority_status": "Not established; validity is certified independently of priority"
+      },
+      "research/kobon-hybrid/seed-11-rational.json": {
+        "construction": "Rational midpoint witness for the certified tangent-grid seed"
+      }
+    }
+  },
+  {
+    "id": 10,
+    "n": 12,
+    "triangles": 38,
+    "simple": false,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-012.json"
+    ],
+    "coordinate_sha256": "38f69f38009707d847b2cce10fc705bb4b2988ada2a309d4236ad6bd08cff088",
+    "module": "Kobon.Certificates.N012T00038H38f69f38",
+    "source_file_sha256": {
+      "research/finite-table/classical-012.json": "b5ddb08500b0ccc3acda99549087011013f9aeef501a945ef247128898d42f89"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-012.json": {
+        "source": "gallery/data/12/12-1nyrv6ox6dfnt.json",
+        "construction": "Published gallery input; not our discovery"
+      }
+    }
+  },
+  {
+    "id": 11,
+    "n": 13,
+    "triangles": 47,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-013.json",
+      "research/finite-table/simple-013.json"
+    ],
+    "coordinate_sha256": "ddec1f78855078d4a8631c4af9a3b641897fcf1fcbcdfb315417c006257bb30e",
+    "module": "Kobon.Certificates.N013T00047Hddec1f78",
+    "source_file_sha256": {
+      "research/finite-table/classical-013.json": "eed7850a95f77715338a4f991622fa174f6bb6e30f1f5a2d70f258f2924e5dab",
+      "research/finite-table/simple-013.json": "eed7850a95f77715338a4f991622fa174f6bb6e30f1f5a2d70f258f2924e5dab"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-013.json": {
+        "source": "https://arxiv.org/html/0706.0723v1",
+        "construction": "Published BBL family; finite rational reproduction"
+      },
+      "research/finite-table/simple-013.json": {
+        "source": "https://arxiv.org/html/0706.0723v1",
+        "construction": "Published BBL family; finite rational reproduction"
+      }
+    }
+  },
+  {
+    "id": 12,
+    "n": 14,
+    "triangles": 53,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-014.json",
+      "research/finite-table/simple-014.json"
+    ],
+    "coordinate_sha256": "45157b2f20fe49b1fc165c9ffd290e5648702f2bdcb9de80f14c453b73c3d7cb",
+    "module": "Kobon.Certificates.N014T00053H45157b2f",
+    "source_file_sha256": {
+      "research/finite-table/classical-014.json": "7702f9d2848710eb7433dcbc0b2c0be96d820622861fb22bc7e9539440b9cbb1",
+      "research/finite-table/simple-014.json": "7702f9d2848710eb7433dcbc0b2c0be96d820622861fb22bc7e9539440b9cbb1"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-014.json": {
+        "source": "finite-table/simple-013.json",
+        "construction": "Exact exterior extension of the retained simple witness"
+      },
+      "research/finite-table/simple-014.json": {
+        "source": "finite-table/simple-013.json",
+        "construction": "Exact exterior extension of the retained simple witness"
+      }
+    }
+  },
+  {
+    "id": 13,
+    "n": 15,
+    "triangles": 65,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-015.json",
+      "research/finite-table/simple-015.json"
+    ],
+    "coordinate_sha256": "4d3bf3b46db579eb36e70b747a11d09ed05b5dd864bda8fce4d1e79f57a3187d",
+    "module": "Kobon.Certificates.N015T00065H4d3bf3b4",
+    "source_file_sha256": {
+      "research/finite-table/classical-015.json": "7a6e85f268eb2634863dfea6665f08eb42aa3d65fcc37d40a6f469eb74725f63",
+      "research/finite-table/simple-015.json": "7a6e85f268eb2634863dfea6665f08eb42aa3d65fcc37d40a6f469eb74725f63"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-015.json": {
+        "source": "gallery/data/15/15-13stqcxe05vfr.json",
+        "construction": "Published gallery input; not our discovery"
+      },
+      "research/finite-table/simple-015.json": {
+        "source": "gallery/data/15/15-13stqcxe05vfr.json",
+        "construction": "Published gallery input; not our discovery"
+      }
+    }
+  },
+  {
+    "id": 14,
+    "n": 16,
+    "triangles": 72,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-016.json",
+      "research/finite-table/simple-016.json"
+    ],
+    "coordinate_sha256": "391cf79afe24317785d58f06c16cef51c439b18b084a1be6775d12773b5c28ae",
+    "module": "Kobon.Certificates.N016T00072H391cf79a",
+    "source_file_sha256": {
+      "research/finite-table/classical-016.json": "c53b560abcb16ee436064c5c28746a0cbef6f9135c56e900cba670f581dd81b6",
+      "research/finite-table/simple-016.json": "c53b560abcb16ee436064c5c28746a0cbef6f9135c56e900cba670f581dd81b6"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-016.json": {
+        "source": "finite-table/simple-015.json",
+        "construction": "Exact exterior extension of the retained simple witness"
+      },
+      "research/finite-table/simple-016.json": {
+        "source": "finite-table/simple-015.json",
+        "construction": "Exact exterior extension of the retained simple witness"
+      }
+    }
+  },
+  {
+    "id": 15,
+    "n": 17,
+    "triangles": 85,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-017.json",
+      "research/finite-table/simple-017.json"
+    ],
+    "coordinate_sha256": "7cf3c061a447ff3fc5b616100e0801fa7d796cb702c7f9d7f40024eff872c9de",
+    "module": "Kobon.Certificates.N017T00085H7cf3c061",
+    "source_file_sha256": {
+      "research/finite-table/classical-017.json": "cddf6d0a08a0d87c998cecf2d476bb9fb8466048944c31349e001b07f910fb21",
+      "research/finite-table/simple-017.json": "cddf6d0a08a0d87c998cecf2d476bb9fb8466048944c31349e001b07f910fb21"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-017.json": {
+        "source": "gallery/data/17/17-2h50m3l0ii46t.json",
+        "construction": "Published gallery input; not our discovery"
+      },
+      "research/finite-table/simple-017.json": {
+        "source": "gallery/data/17/17-2h50m3l0ii46t.json",
+        "construction": "Published gallery input; not our discovery"
+      }
+    }
+  },
+  {
+    "id": 16,
+    "n": 18,
+    "triangles": 93,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-018.json",
+      "research/finite-table/simple-018.json"
+    ],
+    "coordinate_sha256": "edb6246a6de7d9740b21b9a384cb37c509d0f80d1205707d312b39bc014e9ed7",
+    "module": "Kobon.Certificates.N018T00093Hedb6246a",
+    "source_file_sha256": {
+      "research/finite-table/classical-018.json": "eac87667f45aefa1ae2513670121a156e37fe82fc4c4e8142e7c343b3689e914",
+      "research/finite-table/simple-018.json": "eac87667f45aefa1ae2513670121a156e37fe82fc4c4e8142e7c343b3689e914"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-018.json": {
+        "source": "finite-table/simple-017.json",
+        "construction": "Exact exterior extension of the retained simple witness"
+      },
+      "research/finite-table/simple-018.json": {
+        "source": "finite-table/simple-017.json",
+        "construction": "Exact exterior extension of the retained simple witness"
+      }
+    }
+  },
+  {
+    "id": 17,
+    "n": 19,
+    "triangles": 107,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-019.json",
+      "research/finite-table/simple-019.json"
+    ],
+    "coordinate_sha256": "a2f32bdbcd1ea44231d95bacc65ad2ae2f23a641431be1a65c71de9bf6a32197",
+    "module": "Kobon.Certificates.N019T00107Ha2f32bdb",
+    "source_file_sha256": {
+      "research/finite-table/classical-019.json": "b0e202a22efe409ac3cf105549ef14b522047e40baa6131f3b9f5ada4a6cfbd8",
+      "research/finite-table/simple-019.json": "b0e202a22efe409ac3cf105549ef14b522047e40baa6131f3b9f5ada4a6cfbd8"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-019.json": {
+        "source": "gallery/data/19/P19-2u760nbnioskv.json",
+        "construction": "Published gallery input; not our discovery"
+      },
+      "research/finite-table/simple-019.json": {
+        "source": "gallery/data/19/P19-2u760nbnioskv.json",
+        "construction": "Published gallery input; not our discovery"
+      }
+    }
+  },
+  {
+    "id": 18,
+    "n": 20,
+    "triangles": 116,
+    "simple": true,
+    "source_codes": "FT,EX,HI",
+    "sources": [
+      "research/finite-table/classical-020.json",
+      "research/finite-table/simple-020.json",
+      "research/kobon-extension/certificates/chain_20.json",
+      "research/kobon-own-results/certificates/n020.json"
+    ],
+    "coordinate_sha256": "adc03eed024d9f01279883a415ee6cb0172373f778bac5c1c48fcd77e2670312",
+    "module": "Kobon.Certificates.N020T00116Hadc03eed",
+    "source_file_sha256": {
+      "research/finite-table/classical-020.json": "205e585090c9282dcd56312347486f5968d295202a111d7ff2199b7e08799f47",
+      "research/finite-table/simple-020.json": "205e585090c9282dcd56312347486f5968d295202a111d7ff2199b7e08799f47",
+      "research/kobon-extension/certificates/chain_20.json": "72331e3deaaf2351a2a45ff50e977581ae4b9636a0f5741eafc5015518a68887",
+      "research/kobon-own-results/certificates/n020.json": "72331e3deaaf2351a2a45ff50e977581ae4b9636a0f5741eafc5015518a68887"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-020.json": {
+        "source": "research/kobon-extension/certificates/chain_20.json",
+        "construction": "Existing research witness"
+      },
+      "research/finite-table/simple-020.json": {
+        "source": "research/kobon-extension/certificates/chain_20.json",
+        "construction": "Existing research witness"
+      },
+      "research/kobon-extension/certificates/chain_20.json": {
+        "source": "Parpalak-Utkin published 19-line seed, followed by the explicitly certified exterior and interior additions; https://github.com/parpalak/triangle-maximal-18-series"
+      },
+      "research/kobon-own-results/certificates/n020.json": {
+        "source": "Parpalak-Utkin published 19-line seed, followed by the explicitly certified exterior and interior additions; https://github.com/parpalak/triangle-maximal-18-series"
+      }
+    }
+  },
+  {
+    "id": 19,
+    "n": 21,
+    "triangles": 133,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-021.json",
+      "research/finite-table/simple-021.json"
+    ],
+    "coordinate_sha256": "36bae754f19804b040ba74da76bbfbcfda1aa0508a6fd047658ffb6747fddedc",
+    "module": "Kobon.Certificates.N021T00133H36bae754",
+    "source_file_sha256": {
+      "research/finite-table/classical-021.json": "f371f6cffb3f29c98b043bf037ac65e7baf76891012d421177addde9365b346a",
+      "research/finite-table/simple-021.json": "f371f6cffb3f29c98b043bf037ac65e7baf76891012d421177addde9365b346a"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-021.json": {
+        "source": "gallery/data/21/P21-2wdhca8g2cjbp.json",
+        "construction": "Published gallery input; not our discovery"
+      },
+      "research/finite-table/simple-021.json": {
+        "source": "gallery/data/21/P21-2wdhca8g2cjbp.json",
+        "construction": "Published gallery input; not our discovery"
+      }
+    }
+  },
+  {
+    "id": 20,
+    "n": 22,
+    "triangles": 143,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-022.json",
+      "research/finite-table/simple-022.json"
+    ],
+    "coordinate_sha256": "54396c646a7b60c189b109c9602423eb6c43206340a401e0f0be764355b454aa",
+    "module": "Kobon.Certificates.N022T00143H54396c64",
+    "source_file_sha256": {
+      "research/finite-table/classical-022.json": "fd97adbe67521361c63b93c8f34c169e523693d8823ac8a7322a97913ecf5611",
+      "research/finite-table/simple-022.json": "fd97adbe67521361c63b93c8f34c169e523693d8823ac8a7322a97913ecf5611"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-022.json": {
+        "source": "finite-table/simple-021.json",
+        "construction": "Exact exterior extension of the retained simple witness"
+      },
+      "research/finite-table/simple-022.json": {
+        "source": "finite-table/simple-021.json",
+        "construction": "Exact exterior extension of the retained simple witness"
+      }
+    }
+  },
+  {
+    "id": 21,
+    "n": 23,
+    "triangles": 161,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-023.json",
+      "research/finite-table/simple-023.json"
+    ],
+    "coordinate_sha256": "969ad7d3adaf5833adf85037b31ac48106415d6366f19123c5428f64af97b0aa",
+    "module": "Kobon.Certificates.N023T00161H969ad7d3",
+    "source_file_sha256": {
+      "research/finite-table/classical-023.json": "fbcf28b874ddccc27ca8aecb51989c1da3cc138b5e0bbcadadc05ad7a4b27327",
+      "research/finite-table/simple-023.json": "fbcf28b874ddccc27ca8aecb51989c1da3cc138b5e0bbcadadc05ad7a4b27327"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-023.json": {
+        "source": "gallery/data/23/P23-23kpm7pjzyn1v.json",
+        "construction": "Published gallery input; not our discovery"
+      },
+      "research/finite-table/simple-023.json": {
+        "source": "gallery/data/23/P23-23kpm7pjzyn1v.json",
+        "construction": "Published gallery input; not our discovery"
+      }
+    }
+  },
+  {
+    "id": 22,
+    "n": 24,
+    "triangles": 172,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-024.json",
+      "research/finite-table/simple-024.json"
+    ],
+    "coordinate_sha256": "e63e906b99030e8b2f364a569bdda21b04684ec8f7333463c88f1acbb0a2a00c",
+    "module": "Kobon.Certificates.N024T00172He63e906b",
+    "source_file_sha256": {
+      "research/finite-table/classical-024.json": "793a7677193a396bfb4e53079d6747d91f1910e5071daa2ffef307b3a4311d0a",
+      "research/finite-table/simple-024.json": "793a7677193a396bfb4e53079d6747d91f1910e5071daa2ffef307b3a4311d0a"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-024.json": {
+        "source": "finite-table/simple-023.json",
+        "construction": "Exact exterior extension of the retained simple witness"
+      },
+      "research/finite-table/simple-024.json": {
+        "source": "finite-table/simple-023.json",
+        "construction": "Exact exterior extension of the retained simple witness"
+      }
+    }
+  },
+  {
+    "id": 23,
+    "n": 25,
+    "triangles": 191,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-025.json",
+      "research/finite-table/simple-025.json"
+    ],
+    "coordinate_sha256": "b568bffb5a197067d5ae34d4a3df156f083e3aa07ec44f6ee7f6d90652379b39",
+    "module": "Kobon.Certificates.N025T00191Hb568bffb",
+    "source_file_sha256": {
+      "research/finite-table/classical-025.json": "4c111c727cbe7a629d335adcb019d8cac9c77f394e51b1b306fa654330d375e7",
+      "research/finite-table/simple-025.json": "4c111c727cbe7a629d335adcb019d8cac9c77f394e51b1b306fa654330d375e7"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-025.json": {
+        "source": "gallery/data/25/25-2963u6b63svqx.json",
+        "construction": "Published gallery input; not our discovery"
+      },
+      "research/finite-table/simple-025.json": {
+        "source": "gallery/data/25/25-2963u6b63svqx.json",
+        "construction": "Published gallery input; not our discovery"
+      }
+    }
+  },
+  {
+    "id": 24,
+    "n": 26,
+    "triangles": 203,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-026.json",
+      "research/finite-table/simple-026.json"
+    ],
+    "coordinate_sha256": "e61b423c7c3d7b55041f84adcf2c4aaf5567831fd824b3131c40d53fba334c2e",
+    "module": "Kobon.Certificates.N026T00203He61b423c",
+    "source_file_sha256": {
+      "research/finite-table/classical-026.json": "14b43ed5f259ef17dab77a98f27114c71fcd36eade48fbd57d96ac8235bcff1c",
+      "research/finite-table/simple-026.json": "14b43ed5f259ef17dab77a98f27114c71fcd36eade48fbd57d96ac8235bcff1c"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-026.json": {
+        "source": "finite-table/simple-025.json",
+        "construction": "Exact exterior extension of the retained simple witness"
+      },
+      "research/finite-table/simple-026.json": {
+        "source": "finite-table/simple-025.json",
+        "construction": "Exact exterior extension of the retained simple witness"
+      }
+    }
+  },
+  {
+    "id": 25,
+    "n": 27,
+    "triangles": 225,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-027.json",
+      "research/finite-table/simple-027.json"
+    ],
+    "coordinate_sha256": "7d6ae9a04c46543f9e306d004179c6c80420fe8d2e96543b278796e3617c182e",
+    "module": "Kobon.Certificates.N027T00225H7d6ae9a0",
+    "source_file_sha256": {
+      "research/finite-table/classical-027.json": "b264c8581f5d5829f74a9769a473bd5ee650717d2cdcda38b36dca53e1e3a844",
+      "research/finite-table/simple-027.json": "b264c8581f5d5829f74a9769a473bd5ee650717d2cdcda38b36dca53e1e3a844"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-027.json": {
+        "source": "gallery/data/27/P27-1y2kzdbo2qiob.json",
+        "construction": "Published gallery input; not our discovery"
+      },
+      "research/finite-table/simple-027.json": {
+        "source": "gallery/data/27/P27-1y2kzdbo2qiob.json",
+        "construction": "Published gallery input; not our discovery"
+      }
+    }
+  },
+  {
+    "id": 26,
+    "n": 28,
+    "triangles": 238,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-028.json",
+      "research/finite-table/simple-028.json"
+    ],
+    "coordinate_sha256": "56ef2acb9edd6a945d8cfd07eabb49fe61be81e6df9d6bb22857db4267edd49d",
+    "module": "Kobon.Certificates.N028T00238H56ef2acb",
+    "source_file_sha256": {
+      "research/finite-table/classical-028.json": "a7f87b45d6f73478585052b860a951e1773c3bebab24fe9cd22e6d4232f11de2",
+      "research/finite-table/simple-028.json": "a7f87b45d6f73478585052b860a951e1773c3bebab24fe9cd22e6d4232f11de2"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-028.json": {
+        "source": "finite-table/simple-027.json",
+        "construction": "Exact exterior extension of the retained simple witness"
+      },
+      "research/finite-table/simple-028.json": {
+        "source": "finite-table/simple-027.json",
+        "construction": "Exact exterior extension of the retained simple witness"
+      }
+    }
+  },
+  {
+    "id": 27,
+    "n": 29,
+    "triangles": 261,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-029.json",
+      "research/finite-table/simple-029.json"
+    ],
+    "coordinate_sha256": "d4805c25a121d33b8772463890f7ac4d88553104adc293cbb53af8fbefbb7ce4",
+    "module": "Kobon.Certificates.N029T00261Hd4805c25",
+    "source_file_sha256": {
+      "research/finite-table/classical-029.json": "3015b38be8edc56ce11e2672078a79e2586fee47d9a4907a343e187c554a4d24",
+      "research/finite-table/simple-029.json": "3015b38be8edc56ce11e2672078a79e2586fee47d9a4907a343e187c554a4d24"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-029.json": {
+        "source": "gallery/data/29/29-27tr3e5wf6l1.json",
+        "construction": "Published gallery input; not our discovery"
+      },
+      "research/finite-table/simple-029.json": {
+        "source": "gallery/data/29/29-27tr3e5wf6l1.json",
+        "construction": "Published gallery input; not our discovery"
+      }
+    }
+  },
+  {
+    "id": 28,
+    "n": 30,
+    "triangles": 275,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-030.json",
+      "research/finite-table/simple-030.json"
+    ],
+    "coordinate_sha256": "dcfe649a79cf71f0c07f44ee78b4da6f853b1e35533bcc4509b8dee9b3e3f5b1",
+    "module": "Kobon.Certificates.N030T00275Hdcfe649a",
+    "source_file_sha256": {
+      "research/finite-table/classical-030.json": "38b91ccc3796b9a932f13a089d193ee2d92e739e91426ffa66b43b9d8613e137",
+      "research/finite-table/simple-030.json": "38b91ccc3796b9a932f13a089d193ee2d92e739e91426ffa66b43b9d8613e137"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-030.json": {
+        "source": "finite-table/simple-029.json",
+        "construction": "Exact exterior extension of the retained simple witness"
+      },
+      "research/finite-table/simple-030.json": {
+        "source": "finite-table/simple-029.json",
+        "construction": "Exact exterior extension of the retained simple witness"
+      }
+    }
+  },
+  {
+    "id": 29,
+    "n": 31,
+    "triangles": 299,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-031.json",
+      "research/finite-table/simple-031.json"
+    ],
+    "coordinate_sha256": "70f23b9463cb77cb10ed3ead4e7c88033712294b1e8abfcb8e5104efadf9eb9f",
+    "module": "Kobon.Certificates.N031T00299H70f23b94",
+    "source_file_sha256": {
+      "research/finite-table/classical-031.json": "7cbdb38b24acd67ee5e99ca2997596875dc4368b18e833ae9c6341000a0959b4",
+      "research/finite-table/simple-031.json": "7cbdb38b24acd67ee5e99ca2997596875dc4368b18e833ae9c6341000a0959b4"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-031.json": {
+        "source": "gallery/data/31/E31-2ih9z0t7rxqt7.json",
+        "construction": "Published gallery input; not our discovery"
+      },
+      "research/finite-table/simple-031.json": {
+        "source": "gallery/data/31/E31-2ih9z0t7rxqt7.json",
+        "construction": "Published gallery input; not our discovery"
+      }
+    }
+  },
+  {
+    "id": 30,
+    "n": 32,
+    "triangles": 314,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-032.json",
+      "research/finite-table/simple-032.json"
+    ],
+    "coordinate_sha256": "9ab78b00c233bf920a76520793258be3b47ea463ff3af3ba141f70317bcec439",
+    "module": "Kobon.Certificates.N032T00314H9ab78b00",
+    "source_file_sha256": {
+      "research/finite-table/classical-032.json": "e7ff3adab497dce2bab3c2d6cb172c375f198ec77ccf90868a70bc22d794644b",
+      "research/finite-table/simple-032.json": "e7ff3adab497dce2bab3c2d6cb172c375f198ec77ccf90868a70bc22d794644b"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-032.json": {
+        "source": "finite-table/simple-031.json",
+        "construction": "Exact exterior extension of the retained simple witness"
+      },
+      "research/finite-table/simple-032.json": {
+        "source": "finite-table/simple-031.json",
+        "construction": "Exact exterior extension of the retained simple witness"
+      }
+    }
+  },
+  {
+    "id": 31,
+    "n": 33,
+    "triangles": 341,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-033.json",
+      "research/finite-table/simple-033.json"
+    ],
+    "coordinate_sha256": "95f3b770119e63014781d3f8d1820369f4485f724ee010c0ad20205bd8750d22",
+    "module": "Kobon.Certificates.N033T00341H95f3b770",
+    "source_file_sha256": {
+      "research/finite-table/classical-033.json": "7eb066be88b6467e6456a0afb6a6ec8f1ed1f0270b9b4fca3d219fa124ebe686",
+      "research/finite-table/simple-033.json": "7eb066be88b6467e6456a0afb6a6ec8f1ed1f0270b9b4fca3d219fa124ebe686"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-033.json": {
+        "source": "gallery/data/33/33-350guh8o9ptx.json",
+        "construction": "Published gallery input; not our discovery"
+      },
+      "research/finite-table/simple-033.json": {
+        "source": "gallery/data/33/33-350guh8o9ptx.json",
+        "construction": "Published gallery input; not our discovery"
+      }
+    }
+  },
+  {
+    "id": 32,
+    "n": 34,
+    "triangles": 357,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-034.json",
+      "research/finite-table/simple-034.json"
+    ],
+    "coordinate_sha256": "fbde0a760c6e9c212175161d8e33af1b26953f2cef7a93e161e7c13f5f4d6845",
+    "module": "Kobon.Certificates.N034T00357Hfbde0a76",
+    "source_file_sha256": {
+      "research/finite-table/classical-034.json": "de2b0c7a24225101477c7051509f889dab67c2300751493941dd1b05e7558b57",
+      "research/finite-table/simple-034.json": "de2b0c7a24225101477c7051509f889dab67c2300751493941dd1b05e7558b57"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-034.json": {
+        "source": "finite-table/simple-033.json",
+        "construction": "Exact exterior extension of the retained simple witness"
+      },
+      "research/finite-table/simple-034.json": {
+        "source": "finite-table/simple-033.json",
+        "construction": "Exact exterior extension of the retained simple witness"
+      }
+    }
+  },
+  {
+    "id": 33,
+    "n": 35,
+    "triangles": 385,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-035.json",
+      "research/finite-table/simple-035.json"
+    ],
+    "coordinate_sha256": "9ee99af6b980c0b9aa1b0e93eeb8a5b311d58eece57fa271b115ee1df530b038",
+    "module": "Kobon.Certificates.N035T00385H9ee99af6",
+    "source_file_sha256": {
+      "research/finite-table/classical-035.json": "a5dcc8c8986b5a330982a74a10dcf8c58d5314d6114183ec9d38772871d322d0",
+      "research/finite-table/simple-035.json": "a5dcc8c8986b5a330982a74a10dcf8c58d5314d6114183ec9d38772871d322d0"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-035.json": {
+        "source": "gallery/data/35/35-3bfir97k3kfqb.json",
+        "construction": "Published gallery input; not our discovery"
+      },
+      "research/finite-table/simple-035.json": {
+        "source": "gallery/data/35/35-3bfir97k3kfqb.json",
+        "construction": "Published gallery input; not our discovery"
+      }
+    }
+  },
+  {
+    "id": 34,
+    "n": 36,
+    "triangles": 402,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-036.json",
+      "research/finite-table/simple-036.json"
+    ],
+    "coordinate_sha256": "3fc01b7d2a1ce99e0d1fa1f71f4282ae7cef86fd992eb54f2a3fd80f6f8295d9",
+    "module": "Kobon.Certificates.N036T00402H3fc01b7d",
+    "source_file_sha256": {
+      "research/finite-table/classical-036.json": "5d33f3ebfc550f5284577fe2444c227ad3c5c5c8c8135923603011a0b21e90bf",
+      "research/finite-table/simple-036.json": "5d33f3ebfc550f5284577fe2444c227ad3c5c5c8c8135923603011a0b21e90bf"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-036.json": {
+        "source": "finite-table/simple-035.json",
+        "construction": "Exact exterior extension of the retained simple witness"
+      },
+      "research/finite-table/simple-036.json": {
+        "source": "finite-table/simple-035.json",
+        "construction": "Exact exterior extension of the retained simple witness"
+      }
+    }
+  },
+  {
+    "id": 35,
+    "n": 37,
+    "triangles": 431,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-037.json",
+      "research/finite-table/simple-037.json"
+    ],
+    "coordinate_sha256": "11f0bde7bac3eddff4a8cb2855079352740b8bb8237ef58c694a545cd9516481",
+    "module": "Kobon.Certificates.N037T00431H11f0bde7",
+    "source_file_sha256": {
+      "research/finite-table/classical-037.json": "959f36397628a60456e531079322c6a753e49ed347bde03c5a63df6c8ac8e5e9",
+      "research/finite-table/simple-037.json": "959f36397628a60456e531079322c6a753e49ed347bde03c5a63df6c8ac8e5e9"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-037.json": {
+        "source": "gallery/data/37/37-121wmmd8qs6lx.json",
+        "construction": "Published gallery input; not our discovery"
+      },
+      "research/finite-table/simple-037.json": {
+        "source": "gallery/data/37/37-121wmmd8qs6lx.json",
+        "construction": "Published gallery input; not our discovery"
+      }
+    }
+  },
+  {
+    "id": 36,
+    "n": 38,
+    "triangles": 449,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-038.json",
+      "research/finite-table/simple-038.json"
+    ],
+    "coordinate_sha256": "46ad5a32af834f7d10b0b36e439242fd0caadb6a7ac2daed13b181020d36fd08",
+    "module": "Kobon.Certificates.N038T00449H46ad5a32",
+    "source_file_sha256": {
+      "research/finite-table/classical-038.json": "9cc1a4b97a69af4a5642dafe89b35e47abe9ee2121d7c70fadde070bcf4e441c",
+      "research/finite-table/simple-038.json": "9cc1a4b97a69af4a5642dafe89b35e47abe9ee2121d7c70fadde070bcf4e441c"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-038.json": {
+        "source": "finite-table/simple-037.json",
+        "construction": "Exact exterior extension of the retained simple witness"
+      },
+      "research/finite-table/simple-038.json": {
+        "source": "finite-table/simple-037.json",
+        "construction": "Exact exterior extension of the retained simple witness"
+      }
+    }
+  },
+  {
+    "id": 37,
+    "n": 39,
+    "triangles": 469,
+    "simple": false,
+    "source_codes": "FT,HI",
+    "sources": [
+      "research/finite-table/classical-039.json",
+      "research/kobon-own-results/certificates/n039.json"
+    ],
+    "coordinate_sha256": "cf24d7d33c00f6e132930399062d3d8eb7b8578c2547ef54199a3c6d3843dce6",
+    "module": "Kobon.Certificates.N039T00469Hcf24d7d3",
+    "source_file_sha256": {
+      "research/finite-table/classical-039.json": "d1dd065f33b7893c1248cae5ff7767741f488d2a5d437ead10bc0be7b55e1ad4",
+      "research/kobon-own-results/certificates/n039.json": "b737a9c3acd6e303b28636ebbcdd2d3b781816f96da502b6aa53a1bb9e59ebab"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-039.json": {
+        "source": "research/kobon-own-results/certificates/n039.json",
+        "construction": "Existing research witness"
+      },
+      "research/kobon-own-results/certificates/n039.json": {}
+    }
+  },
+  {
+    "id": 38,
+    "n": 40,
+    "triangles": 494,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-040.json",
+      "research/finite-table/simple-040.json"
+    ],
+    "coordinate_sha256": "785374ca691bcc56a6c524621bfa0c6136ce4014cdc853372902d9b72785c592",
+    "module": "Kobon.Certificates.N040T00494H785374ca",
+    "source_file_sha256": {
+      "research/finite-table/classical-040.json": "388099a74f0fc68167e0e5d364d314dd004c2a675a3bc4ea17ad87148b4259c5",
+      "research/finite-table/simple-040.json": "388099a74f0fc68167e0e5d364d314dd004c2a675a3bc4ea17ad87148b4259c5"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-040.json": {
+        "source": "Furedi-Palasti (1984); rational reproduction",
+        "construction": "Previously generated comparison configuration"
+      },
+      "research/finite-table/simple-040.json": {
+        "source": "Furedi-Palasti (1984); rational reproduction",
+        "construction": "Previously generated comparison configuration"
+      }
+    }
+  },
+  {
+    "id": 39,
+    "n": 41,
+    "triangles": 533,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-041.json",
+      "research/finite-table/simple-041.json"
+    ],
+    "coordinate_sha256": "01e2ef66f8fdeceb163269b05cb80336a3b9ecd4d658fbdeec4796ed9e826eab",
+    "module": "Kobon.Certificates.N041T00533H01e2ef66",
+    "source_file_sha256": {
+      "research/finite-table/classical-041.json": "11951746ecf08e761e9d33f5d77aa1e7aadeeebb5fe82c021093787fa47512a8",
+      "research/finite-table/simple-041.json": "11951746ecf08e761e9d33f5d77aa1e7aadeeebb5fe82c021093787fa47512a8"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-041.json": {
+        "source": "gallery/data/41/41-2efd1i95r9uad.json",
+        "construction": "Published gallery input; not our discovery"
+      },
+      "research/finite-table/simple-041.json": {
+        "source": "gallery/data/41/41-2efd1i95r9uad.json",
+        "construction": "Published gallery input; not our discovery"
+      }
+    }
+  },
+  {
+    "id": 40,
+    "n": 42,
+    "triangles": 553,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-042.json",
+      "research/finite-table/simple-042.json"
+    ],
+    "coordinate_sha256": "2bdc9d67365a3ec1ddac34e648d6dcf31ff160c8f8537961b3e01591fc264e5a",
+    "module": "Kobon.Certificates.N042T00553H2bdc9d67",
+    "source_file_sha256": {
+      "research/finite-table/classical-042.json": "fbf305e3748ae65d9b16cc4e695fd41dd099b615dff7354e02ebcb74837eeefe",
+      "research/finite-table/simple-042.json": "fbf305e3748ae65d9b16cc4e695fd41dd099b615dff7354e02ebcb74837eeefe"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-042.json": {
+        "source": "finite-table/simple-041.json",
+        "construction": "Exact exterior extension of the retained simple witness"
+      },
+      "research/finite-table/simple-042.json": {
+        "source": "finite-table/simple-041.json",
+        "construction": "Exact exterior extension of the retained simple witness"
+      }
+    }
+  },
+  {
+    "id": 41,
+    "n": 43,
+    "triangles": 587,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-043.json",
+      "research/finite-table/simple-043.json"
+    ],
+    "coordinate_sha256": "861d8be27deed6d3eeef25c419dcd8633471168d9a20b06e3e8578df3de729df",
+    "module": "Kobon.Certificates.N043T00587H861d8be2",
+    "source_file_sha256": {
+      "research/finite-table/classical-043.json": "df5ae4ee667e4e988cb44227b51445f8602cf091779b83c4f84ebc4178574e18",
+      "research/finite-table/simple-043.json": "df5ae4ee667e4e988cb44227b51445f8602cf091779b83c4f84ebc4178574e18"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-043.json": {
+        "source": "gallery/data/43/43-25yi08ayzo963.json",
+        "construction": "Published gallery input; not our discovery"
+      },
+      "research/finite-table/simple-043.json": {
+        "source": "gallery/data/43/43-25yi08ayzo963.json",
+        "construction": "Published gallery input; not our discovery"
+      }
+    }
+  },
+  {
+    "id": 42,
+    "n": 44,
+    "triangles": 608,
+    "simple": true,
+    "source_codes": "FT,HI",
+    "sources": [
+      "research/finite-table/classical-044.json",
+      "research/finite-table/simple-044.json",
+      "research/kobon-own-results/certificates/n044.json"
+    ],
+    "coordinate_sha256": "b5277675e356739fb109856b6550aeb3371f580f2bc30fc556d1c63c2ea99299",
+    "module": "Kobon.Certificates.N044T00608Hb5277675",
+    "source_file_sha256": {
+      "research/finite-table/classical-044.json": "8c7590cb488b824eb17151091e1867bee9b124e07b4f22abb993bf50a1efbdab",
+      "research/finite-table/simple-044.json": "8c7590cb488b824eb17151091e1867bee9b124e07b4f22abb993bf50a1efbdab",
+      "research/kobon-own-results/certificates/n044.json": "a1f971a4483a07fec138e4018cc40857b3b0f6280137d980bd49168917208b1a"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-044.json": {
+        "source": "research/kobon-own-results/certificates/n044.json",
+        "construction": "Existing research witness"
+      },
+      "research/finite-table/simple-044.json": {
+        "source": "research/kobon-own-results/certificates/n044.json",
+        "construction": "Existing research witness"
+      },
+      "research/kobon-own-results/certificates/n044.json": {
+        "priority_status": "Not established. Exact finite validity does not establish originality."
+      }
+    }
+  },
+  {
+    "id": 43,
+    "n": 45,
+    "triangles": 645,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-045.json",
+      "research/finite-table/simple-045.json"
+    ],
+    "coordinate_sha256": "3dc6e882e9b8372386ba2c3a71bc731728b9acc9f6d401dd73b56f007407d125",
+    "module": "Kobon.Certificates.N045T00645H3dc6e882",
+    "source_file_sha256": {
+      "research/finite-table/classical-045.json": "7e1726f20f14c31b0651f76cbe2a4407096078314856d70a97083f3e8caa4f6e",
+      "research/finite-table/simple-045.json": "7e1726f20f14c31b0651f76cbe2a4407096078314856d70a97083f3e8caa4f6e"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-045.json": {
+        "source": "gallery/data/45/45-1ag30qt2bdlql.json",
+        "construction": "Published gallery input; not our discovery"
+      },
+      "research/finite-table/simple-045.json": {
+        "source": "gallery/data/45/45-1ag30qt2bdlql.json",
+        "construction": "Published gallery input; not our discovery"
+      }
+    }
+  },
+  {
+    "id": 44,
+    "n": 46,
+    "triangles": 667,
+    "simple": true,
+    "source_codes": "FT,PU",
+    "sources": [
+      "research/finite-table/classical-046.json",
+      "research/finite-table/simple-046.json",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-046.json",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-046.json"
+    ],
+    "coordinate_sha256": "32b8ca2f231ddf8380b7001d52166bc890c547be2aca1a2aa9d9c2e6a8a7f82c",
+    "module": "Kobon.Certificates.N046T00667H32b8ca2f",
+    "source_file_sha256": {
+      "research/finite-table/classical-046.json": "ab3d6aff0b029e89b4652ef7685eda4b99c17ffd59dc64bce998c3055bf78f6c",
+      "research/finite-table/simple-046.json": "ab3d6aff0b029e89b4652ef7685eda4b99c17ffd59dc64bce998c3055bf78f6c",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-046.json": "b7708979cb80b2b6fcd9611738a38e1c38a6e631bade981a44c5ddbcdb90332e",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-046.json": "b866dd81045042a3714d028665c5c60e268016f6b140ef5881acb76048bea774"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-046.json": {
+        "source": "gallery/data/46/46-357oftdeaclwg.json",
+        "construction": "Published gallery input; not our discovery"
+      },
+      "research/finite-table/simple-046.json": {
+        "source": "gallery/data/46/46-357oftdeaclwg.json",
+        "construction": "Published gallery input; not our discovery"
+      },
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-046.json": {
+        "source": "gallery/data/46/46-357oftdeaclwg.json",
+        "attribution": "Published gallery of Roman Parpalak and Denis Utkin; original discovery attribution as recorded by OEIS and gallery",
+        "upstream_commit": "feae4f5571a988a3ed45bd26a36259ebb7d7d3d2",
+        "upstream_url": "https://github.com/ud1/kobon-solutions/blob/feae4f5571a988a3ed45bd26a36259ebb7d7d3d2/gallery/certificates/46/46-357oftdeaclwg.json"
+      },
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-046.json": {
+        "source": "gallery/data/46/46-357oftdeaclwg.json"
+      }
+    }
+  },
+  {
+    "id": 45,
+    "n": 47,
+    "triangles": 690,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-047.json",
+      "research/finite-table/simple-047.json"
+    ],
+    "coordinate_sha256": "d8af27fc13d18221242ac03d75916a97364a58b37dce1e186b545efab0b2aff7",
+    "module": "Kobon.Certificates.N047T00690Hd8af27fc",
+    "source_file_sha256": {
+      "research/finite-table/classical-047.json": "a5f6a519064b7e8a1d3228a23de2a49f80e1c13aa78f0dd0c2d3e4c9d4c538f2",
+      "research/finite-table/simple-047.json": "a5f6a519064b7e8a1d3228a23de2a49f80e1c13aa78f0dd0c2d3e4c9d4c538f2"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-047.json": {
+        "source": "Furedi-Palasti (1984); rational reproduction",
+        "construction": "Previously generated comparison configuration"
+      },
+      "research/finite-table/simple-047.json": {
+        "source": "Furedi-Palasti (1984); rational reproduction",
+        "construction": "Previously generated comparison configuration"
+      }
+    }
+  },
+  {
+    "id": 46,
+    "n": 48,
+    "triangles": 720,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-048.json",
+      "research/finite-table/simple-048.json"
+    ],
+    "coordinate_sha256": "5e9767e73b31c34cc536c047e27b579e1351a6bad1864c37b634a86b34abb928",
+    "module": "Kobon.Certificates.N048T00720H5e9767e7",
+    "source_file_sha256": {
+      "research/finite-table/classical-048.json": "d7c2374e075cc181e96ffd2183da8038c401016af3cac5b58398d2de765e95a2",
+      "research/finite-table/simple-048.json": "d7c2374e075cc181e96ffd2183da8038c401016af3cac5b58398d2de765e95a2"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-048.json": {
+        "source": "Furedi-Palasti (1984); rational reproduction",
+        "construction": "Previously generated comparison configuration"
+      },
+      "research/finite-table/simple-048.json": {
+        "source": "Furedi-Palasti (1984); rational reproduction",
+        "construction": "Previously generated comparison configuration"
+      }
+    }
+  },
+  {
+    "id": 47,
+    "n": 49,
+    "triangles": 767,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-049.json",
+      "research/finite-table/simple-049.json"
+    ],
+    "coordinate_sha256": "957e6f151a57c598f6fcbb2565babe78cc4fc9e36f1799c0b519e3214511877c",
+    "module": "Kobon.Certificates.N049T00767H957e6f15",
+    "source_file_sha256": {
+      "research/finite-table/classical-049.json": "1191f0ffb37ec01c48fbf04ce7bc458b1b9f9beeebc92d9d86233e3d1237e973",
+      "research/finite-table/simple-049.json": "1191f0ffb37ec01c48fbf04ce7bc458b1b9f9beeebc92d9d86233e3d1237e973"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-049.json": {
+        "source": "https://arxiv.org/html/0706.0723v1",
+        "construction": "Published BBL family; finite rational reproduction"
+      },
+      "research/finite-table/simple-049.json": {
+        "source": "https://arxiv.org/html/0706.0723v1",
+        "construction": "Published BBL family; finite rational reproduction"
+      }
+    }
+  },
+  {
+    "id": 48,
+    "n": 50,
+    "triangles": 791,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-050.json",
+      "research/finite-table/simple-050.json"
+    ],
+    "coordinate_sha256": "2ea22b558bf879c5893a3a2d383fe180e0d4ef4495ffca0abd93a7ec1dffed4b",
+    "module": "Kobon.Certificates.N050T00791H2ea22b55",
+    "source_file_sha256": {
+      "research/finite-table/classical-050.json": "ea2f14be288c1fa1829f96720c88772e009a96fa9cb1fd2009fa34d19d6fa411",
+      "research/finite-table/simple-050.json": "ea2f14be288c1fa1829f96720c88772e009a96fa9cb1fd2009fa34d19d6fa411"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-050.json": {
+        "source": "finite-table/simple-049.json",
+        "construction": "Exact exterior extension of the retained simple witness"
+      },
+      "research/finite-table/simple-050.json": {
+        "source": "finite-table/simple-049.json",
+        "construction": "Exact exterior extension of the retained simple witness"
+      }
+    }
+  },
+  {
+    "id": 49,
+    "n": 51,
+    "triangles": 817,
+    "simple": false,
+    "source_codes": "FT,HI,KR",
+    "sources": [
+      "research/finite-table/classical-051.json",
+      "research/kobon-own-results/certificates/n051.json",
+      "research/kobon-research/certificates/n051.json"
+    ],
+    "coordinate_sha256": "bd215f67ab1067d2971606fb7f599533352a9bb4ed7cf9f35a6d5f6c1ad79a7d",
+    "module": "Kobon.Certificates.N051T00817Hbd215f67",
+    "source_file_sha256": {
+      "research/finite-table/classical-051.json": "6bc92c6e7063651d6e39d09d04ccb939c5c795112da7e32e9207eec3ef26e145",
+      "research/kobon-own-results/certificates/n051.json": "35b56f2a8044298d2e9ec6c68144ef19de439a84cad2704d45119cab035b31eb",
+      "research/kobon-research/certificates/n051.json": "35b56f2a8044298d2e9ec6c68144ef19de439a84cad2704d45119cab035b31eb"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-051.json": {
+        "source": "research/kobon-own-results/certificates/n051.json",
+        "construction": "Existing research witness"
+      },
+      "research/kobon-own-results/certificates/n051.json": {},
+      "research/kobon-research/certificates/n051.json": {}
+    }
+  },
+  {
+    "id": 50,
+    "n": 52,
+    "triangles": 850,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-052.json",
+      "research/finite-table/simple-052.json"
+    ],
+    "coordinate_sha256": "4b0d823a1fa89bb4269491c04298e517b40455b136854bc4aafb5e6bd36edddf",
+    "module": "Kobon.Certificates.N052T00850H4b0d823a",
+    "source_file_sha256": {
+      "research/finite-table/classical-052.json": "13efabdc3af81cdb91d84b151c41a94445683e934f069afeab8d07b94d060b9d",
+      "research/finite-table/simple-052.json": "13efabdc3af81cdb91d84b151c41a94445683e934f069afeab8d07b94d060b9d"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-052.json": {
+        "source": "Furedi-Palasti (1984); rational reproduction",
+        "construction": "Previously generated comparison configuration"
+      },
+      "research/finite-table/simple-052.json": {
+        "source": "Furedi-Palasti (1984); rational reproduction",
+        "construction": "Previously generated comparison configuration"
+      }
+    }
+  },
+  {
+    "id": 51,
+    "n": 53,
+    "triangles": 884,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-053.json",
+      "research/finite-table/simple-053.json"
+    ],
+    "coordinate_sha256": "723d7eff8d45b6dd3da060e09d3a4830802f355c67da0e14859d3dbdc7a808e7",
+    "module": "Kobon.Certificates.N053T00884H723d7eff",
+    "source_file_sha256": {
+      "research/finite-table/classical-053.json": "1f6610c524b7a3e24ec1cb96c8512b3fd2e4e4c1cfa0473c15394cffa78e3ef2",
+      "research/finite-table/simple-053.json": "1f6610c524b7a3e24ec1cb96c8512b3fd2e4e4c1cfa0473c15394cffa78e3ef2"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-053.json": {
+        "source": "Furedi-Palasti (1984); rational reproduction",
+        "construction": "Previously generated comparison configuration"
+      },
+      "research/finite-table/simple-053.json": {
+        "source": "Furedi-Palasti (1984); rational reproduction",
+        "construction": "Previously generated comparison configuration"
+      }
+    }
+  },
+  {
+    "id": 52,
+    "n": 54,
+    "triangles": 918,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-054.json",
+      "research/finite-table/simple-054.json"
+    ],
+    "coordinate_sha256": "915abb8ed17c12865b0522ac56485fac7634494875f4835e4a4b30a35235b7cd",
+    "module": "Kobon.Certificates.N054T00918H915abb8e",
+    "source_file_sha256": {
+      "research/finite-table/classical-054.json": "576644093b3e4ec16940685496d5dd86d89ccbbff99009079b7430222b297ca2",
+      "research/finite-table/simple-054.json": "576644093b3e4ec16940685496d5dd86d89ccbbff99009079b7430222b297ca2"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-054.json": {
+        "source": "Furedi-Palasti (1984); rational reproduction",
+        "construction": "Previously generated comparison configuration"
+      },
+      "research/finite-table/simple-054.json": {
+        "source": "Furedi-Palasti (1984); rational reproduction",
+        "construction": "Previously generated comparison configuration"
+      }
+    }
+  },
+  {
+    "id": 53,
+    "n": 55,
+    "triangles": 954,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-055.json",
+      "research/finite-table/simple-055.json"
+    ],
+    "coordinate_sha256": "ea7675d9b8a30ae0e7a813585994f0094927f9af212fce58e6c5361a277ac809",
+    "module": "Kobon.Certificates.N055T00954Hea7675d9",
+    "source_file_sha256": {
+      "research/finite-table/classical-055.json": "d112629da4ada3e4da9ef1257cb28a11aabdbceeea2adf731fb6b37fdadfdac6",
+      "research/finite-table/simple-055.json": "d112629da4ada3e4da9ef1257cb28a11aabdbceeea2adf731fb6b37fdadfdac6"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-055.json": {
+        "source": "Furedi-Palasti (1984); rational reproduction",
+        "construction": "Previously generated comparison configuration"
+      },
+      "research/finite-table/simple-055.json": {
+        "source": "Furedi-Palasti (1984); rational reproduction",
+        "construction": "Previously generated comparison configuration"
+      }
+    }
+  },
+  {
+    "id": 54,
+    "n": 56,
+    "triangles": 990,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-056.json",
+      "research/finite-table/simple-056.json"
+    ],
+    "coordinate_sha256": "de8a415c9b297a675a27d29ca24c626a2ffe90ae3e75dca08a0a5c63928b4ed4",
+    "module": "Kobon.Certificates.N056T00990Hde8a415c",
+    "source_file_sha256": {
+      "research/finite-table/classical-056.json": "bfbb56a6d4cedb8bd9c09f2ce0f6f355fa983f9935c0ba5a4cfaa55b670445f7",
+      "research/finite-table/simple-056.json": "bfbb56a6d4cedb8bd9c09f2ce0f6f355fa983f9935c0ba5a4cfaa55b670445f7"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-056.json": {
+        "source": "Furedi-Palasti (1984); rational reproduction",
+        "construction": "Previously generated comparison configuration"
+      },
+      "research/finite-table/simple-056.json": {
+        "source": "Furedi-Palasti (1984); rational reproduction",
+        "construction": "Previously generated comparison configuration"
+      }
+    }
+  },
+  {
+    "id": 55,
+    "n": 57,
+    "triangles": 1045,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-057.json",
+      "research/finite-table/simple-057.json"
+    ],
+    "coordinate_sha256": "9a1d337c75ba6de1f08108e67bdf437babfb7ad25c62bbf41c1a82c1492eeae9",
+    "module": "Kobon.Certificates.N057T01045H9a1d337c",
+    "source_file_sha256": {
+      "research/finite-table/classical-057.json": "f34fad1a3e84f39822ab048dcc13b9ee71b476acb05c94adfdb59587a1ce4188",
+      "research/finite-table/simple-057.json": "f34fad1a3e84f39822ab048dcc13b9ee71b476acb05c94adfdb59587a1ce4188"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-057.json": {
+        "source": "https://arxiv.org/html/0706.0723v1",
+        "construction": "Published BBL family; finite rational reproduction"
+      },
+      "research/finite-table/simple-057.json": {
+        "source": "https://arxiv.org/html/0706.0723v1",
+        "construction": "Published BBL family; finite rational reproduction"
+      }
+    }
+  },
+  {
+    "id": 56,
+    "n": 58,
+    "triangles": 1073,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-058.json",
+      "research/finite-table/simple-058.json"
+    ],
+    "coordinate_sha256": "d988db55253084b0d041a067202ab23e0b63b44d1318ff70b576b2feea7ebd3f",
+    "module": "Kobon.Certificates.N058T01073Hd988db55",
+    "source_file_sha256": {
+      "research/finite-table/classical-058.json": "b4ceea54cbc2e7ba88a87290d9ac94189fd576143d2fd759f5a95f86e827f86d",
+      "research/finite-table/simple-058.json": "b4ceea54cbc2e7ba88a87290d9ac94189fd576143d2fd759f5a95f86e827f86d"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-058.json": {
+        "source": "finite-table/simple-057.json",
+        "construction": "Exact exterior extension of the retained simple witness"
+      },
+      "research/finite-table/simple-058.json": {
+        "source": "finite-table/simple-057.json",
+        "construction": "Exact exterior extension of the retained simple witness"
+      }
+    }
+  },
+  {
+    "id": 57,
+    "n": 59,
+    "triangles": 1102,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-059.json",
+      "research/finite-table/simple-059.json"
+    ],
+    "coordinate_sha256": "fd3b4280376ea0f4d579a437099c5d2a4bf7afb86c857293562e16a1ce228c98",
+    "module": "Kobon.Certificates.N059T01102Hfd3b4280",
+    "source_file_sha256": {
+      "research/finite-table/classical-059.json": "e4c51b254a64a9f31ceb6e887daecca49712e5844a5e148ac9faa9afd52e203e",
+      "research/finite-table/simple-059.json": "e4c51b254a64a9f31ceb6e887daecca49712e5844a5e148ac9faa9afd52e203e"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-059.json": {
+        "source": "Furedi-Palasti (1984); rational reproduction",
+        "construction": "Previously generated comparison configuration"
+      },
+      "research/finite-table/simple-059.json": {
+        "source": "Furedi-Palasti (1984); rational reproduction",
+        "construction": "Previously generated comparison configuration"
+      }
+    }
+  },
+  {
+    "id": 58,
+    "n": 60,
+    "triangles": 1140,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/classical-060.json",
+      "research/finite-table/simple-060.json"
+    ],
+    "coordinate_sha256": "16af6d0b260ee2bbbefa370581770a7313a63b4069241b5825f32fa56ed0c76e",
+    "module": "Kobon.Certificates.N060T01140H16af6d0b",
+    "source_file_sha256": {
+      "research/finite-table/classical-060.json": "708a7a9e13d95116781575f09d4daec8fe85da460803d18dd7fd94d6a829db1a",
+      "research/finite-table/simple-060.json": "708a7a9e13d95116781575f09d4daec8fe85da460803d18dd7fd94d6a829db1a"
+    },
+    "source_metadata": {
+      "research/finite-table/classical-060.json": {
+        "source": "Furedi-Palasti (1984); rational reproduction",
+        "construction": "Previously generated comparison configuration"
+      },
+      "research/finite-table/simple-060.json": {
+        "source": "Furedi-Palasti (1984); rational reproduction",
+        "construction": "Previously generated comparison configuration"
+      }
+    }
+  },
+  {
+    "id": 59,
+    "n": 12,
+    "triangles": 37,
+    "simple": true,
+    "source_codes": "FT,HY",
+    "sources": [
+      "research/finite-table/simple-012.json",
+      "research/kobon-hybrid/certificates/n012.json"
+    ],
+    "coordinate_sha256": "8c718a334b7bed0f02e503cfd10c84dd30e50b58043b0c3c62089e18a6736752",
+    "module": "Kobon.Certificates.N012T00037H8c718a33",
+    "source_file_sha256": {
+      "research/finite-table/simple-012.json": "0a66c66a1eddd0deaa8034f26e2fcb7775a8c3db757d6d3cb848863358640e07",
+      "research/kobon-hybrid/certificates/n012.json": "6961dca54012676adc622926988ce3c8c0126caccdeee8daf87d21b8d44c9e25"
+    },
+    "source_metadata": {
+      "research/finite-table/simple-012.json": {
+        "source": "research/kobon-hybrid/certificates/n012.json",
+        "construction": "Existing research witness"
+      },
+      "research/kobon-hybrid/certificates/n012.json": {
+        "construction": "BBL family followed by an optimal exterior extension",
+        "priority_status": "Not established; validity is certified independently of priority"
+      }
+    }
+  },
+  {
+    "id": 60,
+    "n": 39,
+    "triangles": 468,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/simple-039.json"
+    ],
+    "coordinate_sha256": "5c5b0b26ee2241d2b97d3e5179f44ee53b706e0c97418e53210c8d51c15ae75f",
+    "module": "Kobon.Certificates.N039T00468H5c5b0b26",
+    "source_file_sha256": {
+      "research/finite-table/simple-039.json": "38ff2be96570334b6fc8e1b3926a971709b84f26acbc9656116f266e12f83fba"
+    },
+    "source_metadata": {
+      "research/finite-table/simple-039.json": {
+        "source": "Furedi-Palasti (1984); rational reproduction",
+        "construction": "Previously generated comparison configuration"
+      }
+    }
+  },
+  {
+    "id": 61,
+    "n": 51,
+    "triangles": 816,
+    "simple": true,
+    "source_codes": "FT",
+    "sources": [
+      "research/finite-table/simple-051.json"
+    ],
+    "coordinate_sha256": "6fa6b7d91d28819b70721f5924fdafb88604ebd543753924cd49686da00b2a76",
+    "module": "Kobon.Certificates.N051T00816H6fa6b7d9",
+    "source_file_sha256": {
+      "research/finite-table/simple-051.json": "7a5dc47c19683791f2b155bdc7de53e7a7e5728ca2f63f74a0360180b9bbcb3b"
+    },
+    "source_metadata": {
+      "research/finite-table/simple-051.json": {
+        "source": "Furedi-Palasti (1984); rational reproduction",
+        "construction": "Previously generated comparison configuration"
+      }
+    }
+  },
+  {
+    "id": 62,
+    "n": 5,
+    "triangles": 3,
+    "simple": true,
+    "source_codes": "EX",
+    "sources": [
+      "research/kobon-extension/certificates/alternation_5.json"
+    ],
+    "coordinate_sha256": "6265d6a7c55761725fa1aa660d35a890abdf8690b1a03f4e05c635cb66c463b4",
+    "module": "Kobon.Certificates.N005T00003H6265d6a7",
+    "source_file_sha256": {
+      "research/kobon-extension/certificates/alternation_5.json": "f97d669a3bfaa75f8ae905cbee03a508f3a3fc7beb12803802fb19b2717f4e48"
+    },
+    "source_metadata": {
+      "research/kobon-extension/certificates/alternation_5.json": {
+        "source": "Parabolic tangent arrangement used to test the original alternating-segment lemma"
+      }
+    }
+  },
+  {
+    "id": 63,
+    "n": 6,
+    "triangles": 4,
+    "simple": true,
+    "source_codes": "EX",
+    "sources": [
+      "research/kobon-extension/certificates/alternation_6.json"
+    ],
+    "coordinate_sha256": "7e060e9a0ac15660d2409d712a2db6210ce6cc3e69ccf88a5d94fc596dee3bcd",
+    "module": "Kobon.Certificates.N006T00004H7e060e9a",
+    "source_file_sha256": {
+      "research/kobon-extension/certificates/alternation_6.json": "c4f696ab145171f5fc1a46daad544175fa9c85ddf5b032d40d835cae4d0371b4"
+    },
+    "source_metadata": {
+      "research/kobon-extension/certificates/alternation_6.json": {
+        "source": "Previous five lines plus y=x/2+100; gain one rather than two"
+      }
+    }
+  },
+  {
+    "id": 64,
+    "n": 19,
+    "triangles": 107,
+    "simple": true,
+    "source_codes": "EX",
+    "sources": [
+      "research/kobon-extension/certificates/chain_19.json"
+    ],
+    "coordinate_sha256": "5d2a7588c1e2ddfd3d524a8e3452d156f2025df6c22dea7d9a6a74033b380e03",
+    "module": "Kobon.Certificates.N019T00107H5d2a7588",
+    "source_file_sha256": {
+      "research/kobon-extension/certificates/chain_19.json": "46f1a8d4c3ac5be84a01a4d175e7bd14267d11904099d913a5ed45a090f8c3a7"
+    },
+    "source_metadata": {
+      "research/kobon-extension/certificates/chain_19.json": {
+        "source": "Parpalak-Utkin published 19-line seed, followed by the explicitly certified exterior and interior additions; https://github.com/parpalak/triangle-maximal-18-series"
+      }
+    }
+  },
+  {
+    "id": 65,
+    "n": 21,
+    "triangles": 126,
+    "simple": true,
+    "source_codes": "EX",
+    "sources": [
+      "research/kobon-extension/certificates/chain_21.json"
+    ],
+    "coordinate_sha256": "f18756b7279186169a24b7252daebb5e04c7d2852d934c6cfec6ce066da24aaa",
+    "module": "Kobon.Certificates.N021T00126Hf18756b7",
+    "source_file_sha256": {
+      "research/kobon-extension/certificates/chain_21.json": "c99c64e77698da38b9bf4a9a77b50a9fb588efb8ce740ccd5419b2cfbbd286f7"
+    },
+    "source_metadata": {
+      "research/kobon-extension/certificates/chain_21.json": {
+        "source": "Parpalak-Utkin published 19-line seed, followed by the explicitly certified exterior and interior additions; https://github.com/parpalak/triangle-maximal-18-series"
+      }
+    }
+  },
+  {
+    "id": 66,
+    "n": 5,
+    "triangles": 5,
+    "simple": true,
+    "source_codes": "EX,HI",
+    "sources": [
+      "research/kobon-extension/certificates/chain_5.json",
+      "research/kobon-own-results/certificates/n005.json"
+    ],
+    "coordinate_sha256": "dd0748b7cdfb14f77da5d2b75071ebc40f51edcc5fa7ab927e37b2eed3900a4d",
+    "module": "Kobon.Certificates.N005T00005Hdd0748b7",
+    "source_file_sha256": {
+      "research/kobon-extension/certificates/chain_5.json": "1f9892f14c776efdceda32f1feb5f173b68302804302f01753bf72879bb417d1",
+      "research/kobon-own-results/certificates/n005.json": "1f9892f14c776efdceda32f1feb5f173b68302804302f01753bf72879bb417d1"
+    },
+    "source_metadata": {
+      "research/kobon-extension/certificates/chain_5.json": {
+        "source": "Explicit example from the extension manuscript; not a record claim"
+      },
+      "research/kobon-own-results/certificates/n005.json": {
+        "source": "Explicit example from the extension manuscript; not a record claim"
+      }
+    }
+  },
+  {
+    "id": 67,
+    "n": 7,
+    "triangles": 10,
+    "simple": true,
+    "source_codes": "EX,HI",
+    "sources": [
+      "research/kobon-extension/certificates/chain_7.json",
+      "research/kobon-own-results/certificates/n007.json"
+    ],
+    "coordinate_sha256": "4b5bb6e99d6224c48bc817d1950a63c619b3970f115739a9c30d5802a649b02e",
+    "module": "Kobon.Certificates.N007T00010H4b5bb6e9",
+    "source_file_sha256": {
+      "research/kobon-extension/certificates/chain_7.json": "962269a8f9126509b35823694c3661714681d117d31f4ef9ce6c3fe7bff3c65f",
+      "research/kobon-own-results/certificates/n007.json": "962269a8f9126509b35823694c3661714681d117d31f4ef9ce6c3fe7bff3c65f"
+    },
+    "source_metadata": {
+      "research/kobon-extension/certificates/chain_7.json": {
+        "source": "Explicit example from the extension manuscript; not a record claim"
+      },
+      "research/kobon-own-results/certificates/n007.json": {
+        "source": "Explicit example from the extension manuscript; not a record claim"
+      }
+    }
+  },
+  {
+    "id": 68,
+    "n": 21,
+    "triangles": 132,
+    "simple": true,
+    "source_codes": "HY",
+    "sources": [
+      "research/kobon-hybrid/certificates/n021.json"
+    ],
+    "coordinate_sha256": "3d8bae2fa7295d7446d3849947e91637fe412d960c0906e982b077b6d65b5caa",
+    "module": "Kobon.Certificates.N021T00132H3d8bae2f",
+    "source_file_sha256": {
+      "research/kobon-hybrid/certificates/n021.json": "f5507d9223b7430603741cd44d5226924f573b0f0e3f8f704d92c611a2200a72"
+    },
+    "source_metadata": {
+      "research/kobon-hybrid/certificates/n021.json": {
+        "construction": "Certified 11-line seed plus BBL doubling",
+        "priority_status": "Not established; validity is certified independently of priority"
+      }
+    }
+  },
+  {
+    "id": 69,
+    "n": 22,
+    "triangles": 142,
+    "simple": true,
+    "source_codes": "HY",
+    "sources": [
+      "research/kobon-hybrid/certificates/n022.json"
+    ],
+    "coordinate_sha256": "e683945e66cdf396b26cc5922e0ee19eeb20018f385c4cf7523738de95cdafd5",
+    "module": "Kobon.Certificates.N022T00142He683945e",
+    "source_file_sha256": {
+      "research/kobon-hybrid/certificates/n022.json": "55cc46bc34a8f2bd586183165b860406e71b44bea9e0c929b8b36ee6edc90bf7"
+    },
+    "source_metadata": {
+      "research/kobon-hybrid/certificates/n022.json": {
+        "construction": "BBL family followed by an optimal exterior extension",
+        "priority_status": "Not established; validity is certified independently of priority"
+      }
+    }
+  },
+  {
+    "id": 70,
+    "n": 41,
+    "triangles": 532,
+    "simple": true,
+    "source_codes": "HY",
+    "sources": [
+      "research/kobon-hybrid/certificates/n041.json"
+    ],
+    "coordinate_sha256": "6d48a3411f413135d3a43b4e19362d6747c6ec524b78447cedbb359c5c154697",
+    "module": "Kobon.Certificates.N041T00532H6d48a341",
+    "source_file_sha256": {
+      "research/kobon-hybrid/certificates/n041.json": "40397b2f093267a932235f90ddf3166f562dbc55bb6dcb78ee315a31f874e07e"
+    },
+    "source_metadata": {
+      "research/kobon-hybrid/certificates/n041.json": {
+        "construction": "Certified 11-line seed plus BBL doubling",
+        "priority_status": "Not established; validity is certified independently of priority"
+      }
+    }
+  },
+  {
+    "id": 71,
+    "n": 42,
+    "triangles": 552,
+    "simple": true,
+    "source_codes": "HY",
+    "sources": [
+      "research/kobon-hybrid/certificates/n042.json"
+    ],
+    "coordinate_sha256": "7b29a6bd1191f25d5d6c1f918c84de14a32c95a711e3ee62051483c1259c3cf8",
+    "module": "Kobon.Certificates.N042T00552H7b29a6bd",
+    "source_file_sha256": {
+      "research/kobon-hybrid/certificates/n042.json": "ee02474a749a31e0a9e336c5df7cb64b1cc494e471cdc20ed3dc7811411b30e1"
+    },
+    "source_metadata": {
+      "research/kobon-hybrid/certificates/n042.json": {
+        "construction": "BBL family followed by an optimal exterior extension",
+        "priority_status": "Not established; validity is certified independently of priority"
+      }
+    }
+  },
+  {
+    "id": 72,
+    "n": 81,
+    "triangles": 2132,
+    "simple": true,
+    "source_codes": "HY",
+    "sources": [
+      "research/kobon-hybrid/certificates/n081.json"
+    ],
+    "coordinate_sha256": "7bc6b303744fa7065430b5ef6ba6c1c7a664574015ebd1321ec963c6ad1ca89c",
+    "module": "Kobon.Certificates.N081T02132H7bc6b303",
+    "source_file_sha256": {
+      "research/kobon-hybrid/certificates/n081.json": "40d04a9f0b5fa7153db6b09a45828e25861e5fd942c4392309ca66ee147f8edb"
+    },
+    "source_metadata": {
+      "research/kobon-hybrid/certificates/n081.json": {
+        "construction": "Certified 11-line seed plus BBL doubling",
+        "priority_status": "Not established; validity is certified independently of priority"
+      }
+    }
+  },
+  {
+    "id": 73,
+    "n": 82,
+    "triangles": 2172,
+    "simple": true,
+    "source_codes": "HY",
+    "sources": [
+      "research/kobon-hybrid/certificates/n082.json"
+    ],
+    "coordinate_sha256": "d75c9101c8a5c62b8a628c3f617ccce284cf1badeb4d2e24ccc30fc720c5ca05",
+    "module": "Kobon.Certificates.N082T02172Hd75c9101",
+    "source_file_sha256": {
+      "research/kobon-hybrid/certificates/n082.json": "dcaa1f306e4369ab031900601e58574d53f5d413a92760ba1bb5910a0aec249d"
+    },
+    "source_metadata": {
+      "research/kobon-hybrid/certificates/n082.json": {
+        "construction": "BBL family followed by an optimal exterior extension",
+        "priority_status": "Not established; validity is certified independently of priority"
+      }
+    }
+  },
+  {
+    "id": 74,
+    "n": 161,
+    "triangles": 8532,
+    "simple": true,
+    "source_codes": "HY",
+    "sources": [
+      "research/kobon-hybrid/certificates/n161.json"
+    ],
+    "coordinate_sha256": "230691d59eee84b4df762c975c9456b4557903110d73e934702ec464f19205c7",
+    "module": "Kobon.Certificates.N161T08532H230691d5",
+    "source_file_sha256": {
+      "research/kobon-hybrid/certificates/n161.json": "91b1bffce02e8e8a4a14906fae107ad8c37560c1ced22843c2b99458b60c0d9d"
+    },
+    "source_metadata": {
+      "research/kobon-hybrid/certificates/n161.json": {
+        "construction": "Certified 11-line seed plus BBL doubling",
+        "priority_status": "Not established; validity is certified independently of priority"
+      }
+    }
+  },
+  {
+    "id": 75,
+    "n": 162,
+    "triangles": 8612,
+    "simple": true,
+    "source_codes": "HY",
+    "sources": [
+      "research/kobon-hybrid/certificates/n162.json"
+    ],
+    "coordinate_sha256": "1512e69660740eaef96bd10b14f2af14990ead9babce13a0a80f4322580cce0c",
+    "module": "Kobon.Certificates.N162T08612H1512e696",
+    "source_file_sha256": {
+      "research/kobon-hybrid/certificates/n162.json": "48f74c75455de55e843b06a05c76e5268d1166db82d7e13059cd47c8e0d23712"
+    },
+    "source_metadata": {
+      "research/kobon-hybrid/certificates/n162.json": {
+        "construction": "BBL family followed by an optimal exterior extension",
+        "priority_status": "Not established; validity is certified independently of priority"
+      }
+    }
+  },
+  {
+    "id": 76,
+    "n": 9,
+    "triangles": 19,
+    "simple": false,
+    "source_codes": "HI",
+    "sources": [
+      "research/kobon-own-results/certificates/n009.json"
+    ],
+    "coordinate_sha256": "e16410b887ee5bb8bdfecfb3699c4c92c0726cd665a264bc79d71997665a040c",
+    "module": "Kobon.Certificates.N009T00019He16410b8",
+    "source_file_sha256": {
+      "research/kobon-own-results/certificates/n009.json": "d5a73c0344fb01538018a899a19afcb14ca2cfda167bc95511de930f88f56539"
+    },
+    "source_metadata": {
+      "research/kobon-own-results/certificates/n009.json": {}
+    }
+  },
+  {
+    "id": 77,
+    "n": 15,
+    "triangles": 61,
+    "simple": false,
+    "source_codes": "HI",
+    "sources": [
+      "research/kobon-own-results/certificates/n015.json"
+    ],
+    "coordinate_sha256": "7c38d54f9e52590b06789649db9345b0b86239f35e0d6044059da50c8c89f0ac",
+    "module": "Kobon.Certificates.N015T00061H7c38d54f",
+    "source_file_sha256": {
+      "research/kobon-own-results/certificates/n015.json": "9e2be1854b18736a2b97204d6397e2d0929d5b4d87d659e5b91ecd87388d3ed8"
+    },
+    "source_metadata": {
+      "research/kobon-own-results/certificates/n015.json": {}
+    }
+  },
+  {
+    "id": 78,
+    "n": 21,
+    "triangles": 127,
+    "simple": false,
+    "source_codes": "HI",
+    "sources": [
+      "research/kobon-own-results/certificates/n021.json"
+    ],
+    "coordinate_sha256": "b8dcff224cdbe59ba62ff5c9b7ac04bf3632b0bb31bab26328b5a4822a07e4be",
+    "module": "Kobon.Certificates.N021T00127Hb8dcff22",
+    "source_file_sha256": {
+      "research/kobon-own-results/certificates/n021.json": "221c7ee0a704bb079129946f57faee228e20c286db7b72e879cb285eb9c10700"
+    },
+    "source_metadata": {
+      "research/kobon-own-results/certificates/n021.json": {}
+    }
+  },
+  {
+    "id": 79,
+    "n": 27,
+    "triangles": 217,
+    "simple": false,
+    "source_codes": "HI",
+    "sources": [
+      "research/kobon-own-results/certificates/n027.json"
+    ],
+    "coordinate_sha256": "6670a2b142843e2af9017be6c63e180bb1c9ded0b85ecd1a5e2c2bd4c297ef78",
+    "module": "Kobon.Certificates.N027T00217H6670a2b1",
+    "source_file_sha256": {
+      "research/kobon-own-results/certificates/n027.json": "0b973f6fe17287c743b1c49292225603fc31828d6e4db4b22cb67b49a111ff40"
+    },
+    "source_metadata": {
+      "research/kobon-own-results/certificates/n027.json": {}
+    }
+  },
+  {
+    "id": 80,
+    "n": 33,
+    "triangles": 331,
+    "simple": false,
+    "source_codes": "HI",
+    "sources": [
+      "research/kobon-own-results/certificates/n033.json"
+    ],
+    "coordinate_sha256": "25fd8f0c3311d01e14851279251ff67eda67fc70e2cd81c2315662a3f9fc06ca",
+    "module": "Kobon.Certificates.N033T00331H25fd8f0c",
+    "source_file_sha256": {
+      "research/kobon-own-results/certificates/n033.json": "f83e8da8d25ee8463c47b62153fd94113443018628ed2f2db31ebeaf3429fead"
+    },
+    "source_metadata": {
+      "research/kobon-own-results/certificates/n033.json": {}
+    }
+  },
+  {
+    "id": 81,
+    "n": 48,
+    "triangles": 715,
+    "simple": false,
+    "source_codes": "HI",
+    "sources": [
+      "research/kobon-own-results/certificates/n048.json"
+    ],
+    "coordinate_sha256": "ba6f5baae76d20ff3a603b29537cdcb888413f2ffadd1bf5454f087b8dd94c5a",
+    "module": "Kobon.Certificates.N048T00715Hba6f5baa",
+    "source_file_sha256": {
+      "research/kobon-own-results/certificates/n048.json": "f05ac8c377abdb6f96fe62372f7ea8b1b12e6cbf2adc70151b1e22b2cdc9c2be"
+    },
+    "source_metadata": {
+      "research/kobon-own-results/certificates/n048.json": {
+        "source": "work/kobon/certificate-50.json"
+      }
+    }
+  },
+  {
+    "id": 82,
+    "n": 99,
+    "triangles": 3169,
+    "simple": false,
+    "source_codes": "HI,KR",
+    "sources": [
+      "research/kobon-own-results/certificates/n099.json",
+      "research/kobon-research/certificates/n099.json"
+    ],
+    "coordinate_sha256": "4fef38d87d0c5550339b559779c76bf0961a0d8179ae6ea6dbf6f7dc4034f997",
+    "module": "Kobon.Certificates.N099T03169H4fef38d8",
+    "source_file_sha256": {
+      "research/kobon-own-results/certificates/n099.json": "889d7aeda15a42f66b6286779529b4b48656e743a0699a37f81842b451c2918f",
+      "research/kobon-research/certificates/n099.json": "889d7aeda15a42f66b6286779529b4b48656e743a0699a37f81842b451c2918f"
+    },
+    "source_metadata": {
+      "research/kobon-own-results/certificates/n099.json": {},
+      "research/kobon-research/certificates/n099.json": {}
+    }
+  },
+  {
+    "id": 83,
+    "n": 195,
+    "triangles": 12481,
+    "simple": false,
+    "source_codes": "HI,KR",
+    "sources": [
+      "research/kobon-own-results/certificates/n195.json",
+      "research/kobon-research/certificates/n195.json"
+    ],
+    "coordinate_sha256": "cd3497dbf8468a75156926d562fcf7b75a8da08a91c92af009b3988eff9e39ce",
+    "module": "Kobon.Certificates.N195T12481Hcd3497db",
+    "source_file_sha256": {
+      "research/kobon-own-results/certificates/n195.json": "2b35d89ff302b733c61649ae6e3719648f895b21ae0e8d54166dac26fea29d40",
+      "research/kobon-research/certificates/n195.json": "2b35d89ff302b733c61649ae6e3719648f895b21ae0e8d54166dac26fea29d40"
+    },
+    "source_metadata": {
+      "research/kobon-own-results/certificates/n195.json": {},
+      "research/kobon-research/certificates/n195.json": {}
+    }
+  },
+  {
+    "id": 84,
+    "n": 195,
+    "triangles": 12480,
+    "simple": true,
+    "source_codes": "HI",
+    "sources": [
+      "research/kobon-own-results/comparison-certificates/fp-195.json"
+    ],
+    "coordinate_sha256": "1b9230fb738a2ca6cff046e0ce7f79d2055fd7f9315ec9e37a5bd6d5503ce4bf",
+    "module": "Kobon.Certificates.N195T12480H1b9230fb",
+    "source_file_sha256": {
+      "research/kobon-own-results/comparison-certificates/fp-195.json": "e32e72bdb156732a02f7f0784239e604b2d3a74260d5d61ae663fe147ed5c8e5"
+    },
+    "source_metadata": {
+      "research/kobon-own-results/comparison-certificates/fp-195.json": {
+        "attribution": "Rational approximation to Furedi-Palasti Example 1. Reproduction of prior construction, not an original construction claim."
+      }
+    }
+  },
+  {
+    "id": 85,
+    "n": 44,
+    "triangles": 602,
+    "simple": true,
+    "source_codes": "HI",
+    "sources": [
+      "research/kobon-own-results/comparison-certificates/fp-44.json"
+    ],
+    "coordinate_sha256": "0b0250bf6213b6aef51526d4c87516445b2c2faa97c1f898a4fc1633318e422a",
+    "module": "Kobon.Certificates.N044T00602H0b0250bf",
+    "source_file_sha256": {
+      "research/kobon-own-results/comparison-certificates/fp-44.json": "93f30d836a4c4611f14148c8df65c16486c4f4cbd616ad60b3a406e95fce97ce"
+    },
+    "source_metadata": {
+      "research/kobon-own-results/comparison-certificates/fp-44.json": {
+        "attribution": "Rational approximation to Furedi-Palasti Example 1. Reproduction of prior construction, not an original construction claim."
+      }
+    }
+  },
+  {
+    "id": 86,
+    "n": 99,
+    "triangles": 3168,
+    "simple": true,
+    "source_codes": "HI",
+    "sources": [
+      "research/kobon-own-results/comparison-certificates/fp-99.json"
+    ],
+    "coordinate_sha256": "a0ea30825a737b92e0ff18a90cbea7a978812af4f4e4deed4ad2bfd140034d5f",
+    "module": "Kobon.Certificates.N099T03168Ha0ea3082",
+    "source_file_sha256": {
+      "research/kobon-own-results/comparison-certificates/fp-99.json": "a9de3afddd06bcdfb979d2be44dd2fced331d5a906e98d33b043d7185ffbb11b"
+    },
+    "source_metadata": {
+      "research/kobon-own-results/comparison-certificates/fp-99.json": {
+        "attribution": "Rational approximation to Furedi-Palasti Example 1. Reproduction of prior construction, not an original construction claim."
+      }
+    }
+  },
+  {
+    "id": 87,
+    "n": 39,
+    "triangles": 470,
+    "simple": true,
+    "source_codes": "SC",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n039.json"
+    ],
+    "coordinate_sha256": "30caa6f7f89472aa42a878ce56ab30d626e378aa3232224197fe7abd75b5a224",
+    "module": "Kobon.Certificates.N039T00470H30caa6f7",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/certificates/n039.json": "e699f2468504a8a528d05241c5ea57a0a2f075da8310afb16ed5122a335c4cf9"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/certificates/n039.json": {
+        "source": "Classical Furedi-Palasti trigonometric family",
+        "priority_status": "Unestablished; search output, not a claim of a new world record."
+      }
+    }
+  },
+  {
+    "id": 88,
+    "n": 47,
+    "triangles": 691,
+    "simple": true,
+    "source_codes": "SC",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n047.json"
+    ],
+    "coordinate_sha256": "fac44af18c558b7a18e997b3b31559b1949287af88c3d4d10f24bf9990f1f7e2",
+    "module": "Kobon.Certificates.N047T00691Hfac44af1",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/certificates/n047.json": "0b6aaee4916cf13f04f004c001abc6262ee80123d1335e877c4e7fc18bc03e83"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/certificates/n047.json": {
+        "source": "Classical Furedi-Palasti trigonometric family",
+        "priority_status": "Unestablished; search output, not a claim of a new world record."
+      }
+    }
+  },
+  {
+    "id": 89,
+    "n": 48,
+    "triangles": 721,
+    "simple": true,
+    "source_codes": "SC",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n048.json"
+    ],
+    "coordinate_sha256": "2fb5ef0df4cf6a939d3aff5ab6bda9c069d2edc34bc4c2b4e8e8656fde68a110",
+    "module": "Kobon.Certificates.N048T00721H2fb5ef0d",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/certificates/n048.json": "f5fc29a351681ea3529dc50aaed62eec4f77f6dd702dc2a2d90eba4cd517be78"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/certificates/n048.json": {
+        "source": "Classical Furedi-Palasti trigonometric family",
+        "priority_status": "Unestablished; search output, not a claim of a new world record."
+      }
+    }
+  },
+  {
+    "id": 90,
+    "n": 51,
+    "triangles": 818,
+    "simple": true,
+    "source_codes": "SC",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n051.json"
+    ],
+    "coordinate_sha256": "c18e1baf25f509000b8973cf8f2320ab8d20b3b498238a59d1e0f213e7e3b435",
+    "module": "Kobon.Certificates.N051T00818Hc18e1baf",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/certificates/n051.json": "8d86eeee48fff63e9e3f99e08fb8f298bcdf4bd347025a6f1462a3df51c8787e"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/certificates/n051.json": {
+        "source": "Classical Furedi-Palasti trigonometric family",
+        "priority_status": "Unestablished; search output, not a claim of a new world record."
+      }
+    }
+  },
+  {
+    "id": 91,
+    "n": 53,
+    "triangles": 885,
+    "simple": true,
+    "source_codes": "SC",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n053.json"
+    ],
+    "coordinate_sha256": "6bc5b14d0b68627ca16e68369dbe792fb437272827bdaecf85a986a2da516923",
+    "module": "Kobon.Certificates.N053T00885H6bc5b14d",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/certificates/n053.json": "9b4cf2a897f74712aba9fe8b9a2cddf627711fd0b9ef4f28879ba5dc3ab291b5"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/certificates/n053.json": {
+        "source": "Classical Furedi-Palasti trigonometric family",
+        "priority_status": "Unestablished; search output, not a claim of a new world record."
+      }
+    }
+  },
+  {
+    "id": 92,
+    "n": 54,
+    "triangles": 919,
+    "simple": true,
+    "source_codes": "SC",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n054.json"
+    ],
+    "coordinate_sha256": "a254c1b4f05b17a1235e978bdc2741f494a9b39749c4ddc3192301179251d9dc",
+    "module": "Kobon.Certificates.N054T00919Ha254c1b4",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/certificates/n054.json": "b503ae799e6bbf6a927e463f3d0655be994162e32e48152e2b4d7323338d5353"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/certificates/n054.json": {
+        "source": "Classical Furedi-Palasti trigonometric family",
+        "priority_status": "Unestablished; search output, not a claim of a new world record."
+      }
+    }
+  },
+  {
+    "id": 93,
+    "n": 55,
+    "triangles": 955,
+    "simple": true,
+    "source_codes": "SC",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n055.json"
+    ],
+    "coordinate_sha256": "202625a3908524c7863bd7cd51e9647c0d25a1df93cd3de307356e71a55245cb",
+    "module": "Kobon.Certificates.N055T00955H202625a3",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/certificates/n055.json": "cb1b49f32bae0fb6a562e9c24a3a6546b15570583d5e2eefa908e863444be4b1"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/certificates/n055.json": {
+        "source": "Classical Furedi-Palasti trigonometric family",
+        "priority_status": "Unestablished; search output, not a claim of a new world record."
+      }
+    }
+  },
+  {
+    "id": 94,
+    "n": 59,
+    "triangles": 1103,
+    "simple": true,
+    "source_codes": "SC",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n059.json"
+    ],
+    "coordinate_sha256": "ba482375103b9e1416b643f64923a3bfb0a6f780d2962f0383720229818b1df8",
+    "module": "Kobon.Certificates.N059T01103Hba482375",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/certificates/n059.json": "ebcfb1d8b58d80eb9748dccdcd96c5f0cb62675cbabc27b82b12c876f15a639f"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/certificates/n059.json": {
+        "source": "Classical Furedi-Palasti trigonometric family",
+        "priority_status": "Unestablished; search output, not a claim of a new world record."
+      }
+    }
+  },
+  {
+    "id": 95,
+    "n": 60,
+    "triangles": 1141,
+    "simple": true,
+    "source_codes": "SC",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n060.json"
+    ],
+    "coordinate_sha256": "9bc5096cc3fd10a05f1f41ba4765cfe362efba9f992624c4ce9b18a9578b5074",
+    "module": "Kobon.Certificates.N060T01141H9bc5096c",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/certificates/n060.json": "afe1c89ff9b3e3f2be0c3f3f13e4c48456027d022c10e2f0341ba2c8be95a434"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/certificates/n060.json": {
+        "source": "Classical Furedi-Palasti trigonometric family",
+        "priority_status": "Unestablished; search output, not a claim of a new world record."
+      }
+    }
+  },
+  {
+    "id": 96,
+    "n": 65,
+    "triangles": 1365,
+    "simple": true,
+    "source_codes": "SC",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n065.json"
+    ],
+    "coordinate_sha256": "b1dcbeb4ff39eb3b5d1ea245470a279aef0f254f522216e9a14329684b154596",
+    "module": "Kobon.Certificates.N065T01365Hb1dcbeb4",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/certificates/n065.json": "a0c7f942100e69820641e9b132b660a8b09af40f551fbc1f12fbe2bd994f0dec"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/certificates/n065.json": {
+        "construction": "Classical dyadic Tamura/BBL construction from a rational compatible5-line seed",
+        "priority_status": "Classical Tamura/BBL family and independently checked exterior extension; no numerical priority claim"
+      }
+    }
+  },
+  {
+    "id": 97,
+    "n": 66,
+    "triangles": 1397,
+    "simple": true,
+    "source_codes": "SC",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n066.json"
+    ],
+    "coordinate_sha256": "327ecbb9b7bafefe3a1ea2c5a6a8219e48932e2edb09a2c79a8c131bb918401e",
+    "module": "Kobon.Certificates.N066T01397H327ecbb9",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/certificates/n066.json": "b8897df03fad5e2e66531bb1efcc5dadb37a78c760d70b928c22037a689c60b9"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/certificates/n066.json": {
+        "construction": "Classical dyadic odd family followed by a certified exterior addition",
+        "priority_status": "Classical Tamura/BBL family and independently checked exterior extension; no numerical priority claim"
+      }
+    }
+  },
+  {
+    "id": 98,
+    "n": 99,
+    "triangles": 3170,
+    "simple": true,
+    "source_codes": "SC",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n099.json"
+    ],
+    "coordinate_sha256": "ea507e2de1372dd8eb56071a3b642b02f9423e04957755d95efe00815fb368ba",
+    "module": "Kobon.Certificates.N099T03170Hea507e2d",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/certificates/n099.json": "344bce37bfc133feece9995777baade6ac9532f40aead48d15246de3cd13473c"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/certificates/n099.json": {
+        "source": "Classical Furedi-Palasti trigonometric family",
+        "priority_status": "Unestablished; search output, not a claim of a new world record."
+      }
+    }
+  },
+  {
+    "id": 99,
+    "n": 129,
+    "triangles": 5461,
+    "simple": true,
+    "source_codes": "SC",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n129.json"
+    ],
+    "coordinate_sha256": "6dae0012aa49d5cf8d27b9982a3a0830101cd8736c97b9d71bb93950c077595c",
+    "module": "Kobon.Certificates.N129T05461H6dae0012",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/certificates/n129.json": "16ad8c7615dd858201112edbf913bc1ce74939f89282d4a0cf7ba0bc488acc2c"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/certificates/n129.json": {
+        "construction": "Classical dyadic Tamura/BBL construction from a rational compatible5-line seed",
+        "priority_status": "Classical Tamura/BBL family and independently checked exterior extension; no numerical priority claim"
+      }
+    }
+  },
+  {
+    "id": 100,
+    "n": 130,
+    "triangles": 5525,
+    "simple": true,
+    "source_codes": "SC",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n130.json"
+    ],
+    "coordinate_sha256": "e0559b54aee5366e0f2e081f7185e1b2269fc2912c9894902f06825edfcbad56",
+    "module": "Kobon.Certificates.N130T05525He0559b54",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/certificates/n130.json": "754d6d923147b978ab838850ca5f829bfb0072dd465c86bff5f204278f1c2b37"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/certificates/n130.json": {
+        "construction": "Classical dyadic odd family followed by a certified exterior addition",
+        "priority_status": "Classical Tamura/BBL family and independently checked exterior extension; no numerical priority claim"
+      }
+    }
+  },
+  {
+    "id": 101,
+    "n": 195,
+    "triangles": 12482,
+    "simple": true,
+    "source_codes": "SC",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n195.json"
+    ],
+    "coordinate_sha256": "5413dd7b60ee64bf0c310f7ab001ed46b923c1521248e857a6dbe379b7582af3",
+    "module": "Kobon.Certificates.N195T12482H5413dd7b",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/certificates/n195.json": "6604a5f3f6b6a20168ce7db8443a4cedf8eba1bf3dcf45e3453e74bcb1229921"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/certificates/n195.json": {
+        "source": "Classical Furedi-Palasti trigonometric family",
+        "priority_status": "Unestablished; search output, not a claim of a new world record."
+      }
+    }
+  },
+  {
+    "id": 102,
+    "n": 14,
+    "triangles": 54,
+    "simple": false,
+    "source_codes": "MA",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-01.json"
+    ],
+    "coordinate_sha256": "d47aea63afc1398523319993bfd98d4472bae73779251d52cbeb12d47edd3a2b",
+    "module": "Kobon.Certificates.N014T00054Hd47aea63",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-01.json": "1a825dcd7922c3907fff1ffeaf512d410f44518df2b5654782f7811386643e9b"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-01.json": {
+        "attribution": "Andrea Maiorana, August 11-12 2026, CC BY 4.0",
+        "upstream_url": "https://github.com/rufio72/kobon_triangles_k14/blob/e47c7cfd9661e54d29befb83118bf83d5f804028/sol1/lines_rational.json",
+        "upstream_commit": "e47c7cfd9661e54d29befb83118bf83d5f804028"
+      }
+    }
+  },
+  {
+    "id": 103,
+    "n": 14,
+    "triangles": 54,
+    "simple": false,
+    "source_codes": "MA",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-02.json"
+    ],
+    "coordinate_sha256": "18bbcff4f43351df8803c60d231011d448c9d8c673ce458706c77adced02c9a6",
+    "module": "Kobon.Certificates.N014T00054H18bbcff4",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-02.json": "ff6f78e984ce20cc3c0bead4827d036e312a3074b944bf3c32c17063b85653ed"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-02.json": {
+        "attribution": "Andrea Maiorana, August 11-12 2026, CC BY 4.0",
+        "upstream_url": "https://github.com/rufio72/kobon_triangles_k14/blob/e47c7cfd9661e54d29befb83118bf83d5f804028/sol2/lines_rational.json",
+        "upstream_commit": "e47c7cfd9661e54d29befb83118bf83d5f804028"
+      }
+    }
+  },
+  {
+    "id": 104,
+    "n": 14,
+    "triangles": 54,
+    "simple": false,
+    "source_codes": "MA",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-03.json"
+    ],
+    "coordinate_sha256": "78f750c071a5610ec9fb463d8fc95b58e5bde8e0c8af3fbbd965e06663d011b0",
+    "module": "Kobon.Certificates.N014T00054H78f750c0",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-03.json": "b3b53381c3f14debd0513c5b21dfd956e8cf650b11adfcc1f7951efdb2980bb3"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-03.json": {
+        "attribution": "Andrea Maiorana, August 11-12 2026, CC BY 4.0",
+        "upstream_url": "https://github.com/rufio72/kobon_triangles_k14/blob/e47c7cfd9661e54d29befb83118bf83d5f804028/sol3/lines_rational.json",
+        "upstream_commit": "e47c7cfd9661e54d29befb83118bf83d5f804028"
+      }
+    }
+  },
+  {
+    "id": 105,
+    "n": 14,
+    "triangles": 54,
+    "simple": false,
+    "source_codes": "MA",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-04.json"
+    ],
+    "coordinate_sha256": "912da8ec9bc76efd4728584194b9cb0ec38637408c40ee5d42ceff3426b57450",
+    "module": "Kobon.Certificates.N014T00054H912da8ec",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-04.json": "b37243e314b972a1574b73a2b80a4f2aa140d383445361c1dc3012212b4121ad"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-04.json": {
+        "attribution": "Andrea Maiorana, August 11-12 2026, CC BY 4.0",
+        "upstream_url": "https://github.com/rufio72/kobon_triangles_k14/blob/e47c7cfd9661e54d29befb83118bf83d5f804028/sol4/lines_rational.json",
+        "upstream_commit": "e47c7cfd9661e54d29befb83118bf83d5f804028"
+      }
+    }
+  },
+  {
+    "id": 106,
+    "n": 14,
+    "triangles": 54,
+    "simple": false,
+    "source_codes": "MA",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-05.json"
+    ],
+    "coordinate_sha256": "9134999072a9cae047e8be5ec8c9ffb9df63a0458cd12b3c70ff085babeec94f",
+    "module": "Kobon.Certificates.N014T00054H91349990",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-05.json": "34984c33e66a993207d693c28eb465727154140f118b2a017cfd67ddb7213412"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-05.json": {
+        "attribution": "Andrea Maiorana, August 11-12 2026, CC BY 4.0",
+        "upstream_url": "https://github.com/rufio72/kobon_triangles_k14/blob/e47c7cfd9661e54d29befb83118bf83d5f804028/sol5/lines_rational.json",
+        "upstream_commit": "e47c7cfd9661e54d29befb83118bf83d5f804028"
+      }
+    }
+  },
+  {
+    "id": 107,
+    "n": 14,
+    "triangles": 54,
+    "simple": false,
+    "source_codes": "MA",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-06.json"
+    ],
+    "coordinate_sha256": "9c871e103a465b86969cc2bc46384229cab69a813f816582d7d4c055a4839f03",
+    "module": "Kobon.Certificates.N014T00054H9c871e10",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-06.json": "11b6dcd2762de1560520b6136ec57b615a7c5b6852bc1d7648e70dabda7e6f95"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-06.json": {
+        "attribution": "Andrea Maiorana, August 11-12 2026, CC BY 4.0",
+        "upstream_url": "https://github.com/rufio72/kobon_triangles_k14/blob/e47c7cfd9661e54d29befb83118bf83d5f804028/sol6/lines_rational.json",
+        "upstream_commit": "e47c7cfd9661e54d29befb83118bf83d5f804028"
+      }
+    }
+  },
+  {
+    "id": 108,
+    "n": 14,
+    "triangles": 54,
+    "simple": false,
+    "source_codes": "MA",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-07.json"
+    ],
+    "coordinate_sha256": "b3dcae0bc1d84132845644579de36c30439fe5ef3a4c00aedcb68a9110c34675",
+    "module": "Kobon.Certificates.N014T00054Hb3dcae0b",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-07.json": "9e9814c5794fc0892b0d6370e21b4e89af20434553a1b99bee55d04412a8b02d"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-07.json": {
+        "attribution": "Andrea Maiorana, August 11-12 2026, CC BY 4.0",
+        "upstream_url": "https://github.com/rufio72/kobon_triangles_k14/blob/e47c7cfd9661e54d29befb83118bf83d5f804028/sol7/lines_rational.json",
+        "upstream_commit": "e47c7cfd9661e54d29befb83118bf83d5f804028"
+      }
+    }
+  },
+  {
+    "id": 109,
+    "n": 14,
+    "triangles": 54,
+    "simple": false,
+    "source_codes": "MA",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-08.json"
+    ],
+    "coordinate_sha256": "9219cdaa6f90ac3b066eafc8a48216bebab05a47a10db96745d477a58e031e86",
+    "module": "Kobon.Certificates.N014T00054H9219cdaa",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-08.json": "4992332b4043d34b9b72c504bb05a26a456dda5a3df165b63432251494073204"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-08.json": {
+        "attribution": "Andrea Maiorana, August 11-12 2026, CC BY 4.0",
+        "upstream_url": "https://github.com/rufio72/kobon_triangles_k14/blob/e47c7cfd9661e54d29befb83118bf83d5f804028/sol8/lines_rational.json",
+        "upstream_commit": "e47c7cfd9661e54d29befb83118bf83d5f804028"
+      }
+    }
+  },
+  {
+    "id": 110,
+    "n": 14,
+    "triangles": 54,
+    "simple": false,
+    "source_codes": "MA",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-09.json"
+    ],
+    "coordinate_sha256": "d2babc1b9431b2fb6106b61fbdffc0d6f19b528d4bb48ed9ca5f115a7af6f7fc",
+    "module": "Kobon.Certificates.N014T00054Hd2babc1b",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-09.json": "645082797298ea32ce9968313be1597482bb45aff874b75c8f14963f665d5cd3"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-09.json": {
+        "attribution": "Andrea Maiorana, August 11-12 2026, CC BY 4.0",
+        "upstream_url": "https://github.com/rufio72/kobon_triangles_k14/blob/e47c7cfd9661e54d29befb83118bf83d5f804028/sol9/lines_rational.json",
+        "upstream_commit": "e47c7cfd9661e54d29befb83118bf83d5f804028"
+      }
+    }
+  },
+  {
+    "id": 111,
+    "n": 14,
+    "triangles": 54,
+    "simple": false,
+    "source_codes": "MA",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-10.json"
+    ],
+    "coordinate_sha256": "2b34ca22dc8980b3b65a8178993fa6099813fe660251e0cdc19b59f1a5507e7c",
+    "module": "Kobon.Certificates.N014T00054H2b34ca22",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-10.json": "90debf2e8ca4b28294949850d94ad6b07bf741822b42d68337ac15692d5c1905"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-10.json": {
+        "attribution": "Andrea Maiorana, August 11-12 2026, CC BY 4.0",
+        "upstream_url": "https://github.com/rufio72/kobon_triangles_k14/blob/e47c7cfd9661e54d29befb83118bf83d5f804028/sol10/lines_rational.json",
+        "upstream_commit": "e47c7cfd9661e54d29befb83118bf83d5f804028"
+      }
+    }
+  },
+  {
+    "id": 112,
+    "n": 14,
+    "triangles": 54,
+    "simple": false,
+    "source_codes": "MA",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-11.json"
+    ],
+    "coordinate_sha256": "fa427b3d27ef501ffb7e369a08ee155b24bfa6220103f998dcb5e2bbcfd0c055",
+    "module": "Kobon.Certificates.N014T00054Hfa427b3d",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-11.json": "40920c1eb75400abce27dab36ec52de510a22dcfa08921e28db135511800f52d"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-11.json": {
+        "attribution": "Andrea Maiorana, August 11-12 2026, CC BY 4.0",
+        "upstream_url": "https://github.com/rufio72/kobon_triangles_k14/blob/e47c7cfd9661e54d29befb83118bf83d5f804028/sol11/lines_rational.json",
+        "upstream_commit": "e47c7cfd9661e54d29befb83118bf83d5f804028"
+      }
+    }
+  },
+  {
+    "id": 113,
+    "n": 14,
+    "triangles": 54,
+    "simple": false,
+    "source_codes": "MA",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-12.json"
+    ],
+    "coordinate_sha256": "1ec1fd5cb2ee863ca834ae663319f60e3f6d33d1c7c68e336e342ee2d10e543c",
+    "module": "Kobon.Certificates.N014T00054H1ec1fd5c",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-12.json": "6f3eca4646948a84cb469cbbd97509eeab621913ff70dfb4229d49374312f1ba"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-12.json": {
+        "attribution": "Andrea Maiorana, August 11-12 2026, CC BY 4.0",
+        "upstream_url": "https://github.com/rufio72/kobon_triangles_k14/blob/e47c7cfd9661e54d29befb83118bf83d5f804028/sol12/lines_rational.json",
+        "upstream_commit": "e47c7cfd9661e54d29befb83118bf83d5f804028"
+      }
+    }
+  },
+  {
+    "id": 114,
+    "n": 14,
+    "triangles": 54,
+    "simple": false,
+    "source_codes": "MA",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-13.json"
+    ],
+    "coordinate_sha256": "3e5d182f84085aaea5b0d6c27f3dba94cd0f4c4c5a3eb7635e87351eecb129bb",
+    "module": "Kobon.Certificates.N014T00054H3e5d182f",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-13.json": "f52ab8eebe8a8dcac516cb5412a0173445c72faa4dba83821df568976e83ec64"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-13.json": {
+        "attribution": "Andrea Maiorana, August 11-12 2026, CC BY 4.0",
+        "upstream_url": "https://github.com/rufio72/kobon_triangles_k14/blob/e47c7cfd9661e54d29befb83118bf83d5f804028/sol13/lines_rational.json",
+        "upstream_commit": "e47c7cfd9661e54d29befb83118bf83d5f804028"
+      }
+    }
+  },
+  {
+    "id": 115,
+    "n": 14,
+    "triangles": 54,
+    "simple": false,
+    "source_codes": "MA",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-14.json"
+    ],
+    "coordinate_sha256": "17f8c0524eb16e50bfb021e99f2c37fabc211d51dd1e654729748852b00aacc7",
+    "module": "Kobon.Certificates.N014T00054H17f8c052",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-14.json": "b7999911ee610231f1df90eddc0aaf99ed5568daba8fc0999d24cd57adf03810"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-14.json": {
+        "attribution": "Andrea Maiorana, August 11-12 2026, CC BY 4.0",
+        "upstream_url": "https://github.com/rufio72/kobon_triangles_k14/blob/e47c7cfd9661e54d29befb83118bf83d5f804028/sol14/lines_rational.json",
+        "upstream_commit": "e47c7cfd9661e54d29befb83118bf83d5f804028"
+      }
+    }
+  },
+  {
+    "id": 116,
+    "n": 14,
+    "triangles": 54,
+    "simple": false,
+    "source_codes": "MA",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-15.json"
+    ],
+    "coordinate_sha256": "c472f97237f10e5e698c85c7fa6f4fbee95c3a007f722c8113470d541a12910e",
+    "module": "Kobon.Certificates.N014T00054Hc472f972",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-15.json": "cc7fedecb84adbf3baf571d099c68adf2de9706a28f792eff3c805c501099ae6"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-15.json": {
+        "attribution": "Andrea Maiorana, August 11-12 2026, CC BY 4.0",
+        "upstream_url": "https://github.com/rufio72/kobon_triangles_k14/blob/e47c7cfd9661e54d29befb83118bf83d5f804028/sol15/lines_rational.json",
+        "upstream_commit": "e47c7cfd9661e54d29befb83118bf83d5f804028"
+      }
+    }
+  },
+  {
+    "id": 117,
+    "n": 14,
+    "triangles": 52,
+    "simple": true,
+    "source_codes": "MA",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/resolution-+1-+1.json"
+    ],
+    "coordinate_sha256": "2eb83dc242a1a60612920b377d6cfe2397b815bb99ec4a38cf7b6f039504a1b6",
+    "module": "Kobon.Certificates.N014T00052H2eb83dc2",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/resolution-+1-+1.json": "1789d9cc7468953b9f21eb7ee0c7d76e3a070f7b96c372655cd864939a0d80dd"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/resolution-+1-+1.json": {
+        "attribution": "Andrea Maiorana, August 11-12 2026, CC BY 4.0",
+        "source": "Exact small offset perturbation of Maiorana solution1"
+      }
+    }
+  },
+  {
+    "id": 118,
+    "n": 14,
+    "triangles": 53,
+    "simple": true,
+    "source_codes": "MA",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/resolution-+1--1.json"
+    ],
+    "coordinate_sha256": "5e6068f5003e0ecda91c8f772ad2889a5e6f3b4ee6bdecd599c6d17b0a185858",
+    "module": "Kobon.Certificates.N014T00053H5e6068f5",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/resolution-+1--1.json": "fe77034c4d08736a55fb8144580fed136aeee61f52743ba8887c6872ef726413"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/resolution-+1--1.json": {
+        "attribution": "Andrea Maiorana, August 11-12 2026, CC BY 4.0",
+        "source": "Exact small offset perturbation of Maiorana solution1"
+      }
+    }
+  },
+  {
+    "id": 119,
+    "n": 14,
+    "triangles": 52,
+    "simple": true,
+    "source_codes": "MA",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/resolution--1-+1.json"
+    ],
+    "coordinate_sha256": "b3f4749f6dee6452d15d6f054fb045f201f13da740f9c04f0451922590da6e6d",
+    "module": "Kobon.Certificates.N014T00052Hb3f4749f",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/resolution--1-+1.json": "439f957063c21e397ae68f87002372e735c38bbb71446e851df452a540676df1"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/resolution--1-+1.json": {
+        "attribution": "Andrea Maiorana, August 11-12 2026, CC BY 4.0",
+        "source": "Exact small offset perturbation of Maiorana solution1"
+      }
+    }
+  },
+  {
+    "id": 120,
+    "n": 14,
+    "triangles": 52,
+    "simple": true,
+    "source_codes": "MA",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/resolution--1--1.json"
+    ],
+    "coordinate_sha256": "c6615430ae3d4cc41346fccf3d4f2beb057e870f02a783f980cfa8695e09f96f",
+    "module": "Kobon.Certificates.N014T00052Hc6615430",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/resolution--1--1.json": "b216769d9551d0f9608157bec5208c35ea66fb440e5956ad8be68c05968eb81a"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/resolution--1--1.json": {
+        "attribution": "Andrea Maiorana, August 11-12 2026, CC BY 4.0",
+        "source": "Exact small offset perturbation of Maiorana solution1"
+      }
+    }
+  },
+  {
+    "id": 121,
+    "n": 8,
+    "triangles": 14,
+    "simple": true,
+    "source_codes": "PU",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/best-simple-resolution-008.json"
+    ],
+    "coordinate_sha256": "ebff58687458ee11c5a8aa6bc29df55cf2c260b9e81bde31f586a930ba692c2d",
+    "module": "Kobon.Certificates.N008T00014Hebff5868",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/best-simple-resolution-008.json": "6cd7512950a21b824f1c1d69b4c0fbe1b3c417ce0dbf6bf0ba5263ca26c33c2a"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/best-simple-resolution-008.json": {
+        "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-008.json",
+        "construction": "Exact independent offset resolution of all collinear triple points"
+      }
+    }
+  },
+  {
+    "id": 122,
+    "n": 14,
+    "triangles": 51,
+    "simple": true,
+    "source_codes": "PU",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/best-simple-resolution-014.json"
+    ],
+    "coordinate_sha256": "d67e7a6b3b089546f5fe4ec4dcf91d4125d77009f0d680d33058fd78b0b57d45",
+    "module": "Kobon.Certificates.N014T00051Hd67e7a6b",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/best-simple-resolution-014.json": "a62124ee231af4b3ab69d144564f6251621e02ad7469e173003c84a2f84e2e59"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/best-simple-resolution-014.json": {
+        "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-014.json",
+        "construction": "Exact independent offset resolution of all collinear triple points"
+      }
+    }
+  },
+  {
+    "id": 123,
+    "n": 20,
+    "triangles": 114,
+    "simple": true,
+    "source_codes": "PU",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/best-simple-resolution-020.json"
+    ],
+    "coordinate_sha256": "bc312fc85ea5d6aac6c5ecf18a7b4b79601309bba67560f121a64e7e8c1961e0",
+    "module": "Kobon.Certificates.N020T00114Hbc312fc8",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/best-simple-resolution-020.json": "ebfeaad23936bce0d6d56a637f1c7725f7e61fddcc9eada5e8daa0931dde6783"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/best-simple-resolution-020.json": {
+        "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-020.json",
+        "construction": "Exact independent offset resolution of all collinear triple points"
+      }
+    }
+  },
+  {
+    "id": 124,
+    "n": 26,
+    "triangles": 203,
+    "simple": true,
+    "source_codes": "PU",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/best-simple-resolution-026.json"
+    ],
+    "coordinate_sha256": "5452b4ffa1a9f082a2a93bdfd7feb382a6a7fa78134e8f042038ab4c7bb15249",
+    "module": "Kobon.Certificates.N026T00203H5452b4ff",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/best-simple-resolution-026.json": "6755e216917ca02d0b4018c945e7689d49a421015c6071d2f36c4c178fad41cd"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/best-simple-resolution-026.json": {
+        "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-026.json",
+        "construction": "Exact independent offset resolution of all collinear triple points"
+      }
+    }
+  },
+  {
+    "id": 125,
+    "n": 32,
+    "triangles": 313,
+    "simple": true,
+    "source_codes": "PU",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/best-simple-resolution-032.json"
+    ],
+    "coordinate_sha256": "018f9fc6b73f13a75d9e2c911f7b40481ede5d7afbc57adbdf7d996113321274",
+    "module": "Kobon.Certificates.N032T00313H018f9fc6",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/best-simple-resolution-032.json": "0552fb5690ba44693501f214dfacc09064c4026377814c8414ee3a15c8f4f2af"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/best-simple-resolution-032.json": {
+        "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-032.json",
+        "construction": "Exact independent offset resolution of all collinear triple points"
+      }
+    }
+  },
+  {
+    "id": 126,
+    "n": 38,
+    "triangles": 448,
+    "simple": true,
+    "source_codes": "PU",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/best-simple-resolution-038.json"
+    ],
+    "coordinate_sha256": "7d59f504aba872af311386c7963c2b4e01aa4e68559ab6129992d9c848b2ce01",
+    "module": "Kobon.Certificates.N038T00448H7d59f504",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/best-simple-resolution-038.json": "435a01f710a59fcebe83f4455820f01556b71e0885343d8844433077075d0a48"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/best-simple-resolution-038.json": {
+        "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-038.json",
+        "construction": "Exact independent offset resolution of all collinear triple points"
+      }
+    }
+  },
+  {
+    "id": 127,
+    "n": 50,
+    "triangles": 791,
+    "simple": true,
+    "source_codes": "PU",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/best-simple-resolution-050.json"
+    ],
+    "coordinate_sha256": "6bde86a3dcbdd30aafff41ee22b4173b6c03a67821f6d34e9bf668b5e8b28176",
+    "module": "Kobon.Certificates.N050T00791H6bde86a3",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/best-simple-resolution-050.json": "6025194cedafdb610af2dd918129a760840914582c625409f9e6d6bd9938dfd9"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/best-simple-resolution-050.json": {
+        "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-050.json",
+        "construction": "Exact independent offset resolution of all collinear triple points"
+      }
+    }
+  },
+  {
+    "id": 128,
+    "n": 8,
+    "triangles": 15,
+    "simple": false,
+    "source_codes": "PU",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-008.json",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-008.json"
+    ],
+    "coordinate_sha256": "a138081033c3b25764627f090fd50961ce5cba7c22767f0cbc104ae052634e65",
+    "module": "Kobon.Certificates.N008T00015Ha1380810",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-008.json": "75e5f63e1ee2f5a7b3613b461f4309e8ef429d5a9c1810463cc66638370bbeda",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-008.json": "ebc7581f47db4b01d50738a96b8cd8faa9c9cab1194d69de543942b2068a3b08"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-008.json": {
+        "source": "gallery/data/8/8-1yvz24guzamh9.json",
+        "attribution": "Published gallery of Roman Parpalak and Denis Utkin; original discovery attribution as recorded by OEIS and gallery",
+        "upstream_commit": "feae4f5571a988a3ed45bd26a36259ebb7d7d3d2",
+        "upstream_url": "https://github.com/ud1/kobon-solutions/blob/feae4f5571a988a3ed45bd26a36259ebb7d7d3d2/gallery/certificates/8/8-1yvz24guzamh9.json"
+      },
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-008.json": {
+        "source": "gallery/data/8/8-1yvz24guzamh9.json"
+      }
+    }
+  },
+  {
+    "id": 129,
+    "n": 14,
+    "triangles": 54,
+    "simple": false,
+    "source_codes": "PU",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-014.json",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-014.json"
+    ],
+    "coordinate_sha256": "105765145381c27d0c600592182496efdcba9a303b08f6ce4e0be8292abb8e38",
+    "module": "Kobon.Certificates.N014T00054H10576514",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-014.json": "925d382339320a92edaae1cfbada5afd3b5c31fe0bf46629b45611e7a4346913",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-014.json": "bad8e0cc6fa70f4b03432774fa0e61ab9cda0379746295499cafd6ab7bae3c4d"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-014.json": {
+        "source": "gallery/data/14/14-1jc3dhxbbh727.json",
+        "attribution": "Published gallery of Roman Parpalak and Denis Utkin; original discovery attribution as recorded by OEIS and gallery",
+        "upstream_commit": "feae4f5571a988a3ed45bd26a36259ebb7d7d3d2",
+        "upstream_url": "https://github.com/ud1/kobon-solutions/blob/feae4f5571a988a3ed45bd26a36259ebb7d7d3d2/gallery/certificates/14/14-1jc3dhxbbh727.json"
+      },
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-014.json": {
+        "source": "gallery/data/14/14-1jc3dhxbbh727.json"
+      }
+    }
+  },
+  {
+    "id": 130,
+    "n": 20,
+    "triangles": 117,
+    "simple": false,
+    "source_codes": "PU",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-020.json",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-020.json"
+    ],
+    "coordinate_sha256": "382171ac62ccad67d113920f4637fd2b5d6b76c0091dcd0ba9ee8d08ad843a4e",
+    "module": "Kobon.Certificates.N020T00117H382171ac",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-020.json": "c6f61c8296f59a3de7460c17629b4c702cfc222cf7bc794127fc0013d45aec31",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-020.json": "27af3c68ddc416efb2509df45a1e4061170b2f742777e215e5080b4b1f7a87fd"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-020.json": {
+        "source": "gallery/data/20/20-2dlmjzueiap0b.json",
+        "attribution": "Published gallery of Roman Parpalak and Denis Utkin; original discovery attribution as recorded by OEIS and gallery",
+        "upstream_commit": "feae4f5571a988a3ed45bd26a36259ebb7d7d3d2",
+        "upstream_url": "https://github.com/ud1/kobon-solutions/blob/feae4f5571a988a3ed45bd26a36259ebb7d7d3d2/gallery/certificates/20/20-2dlmjzueiap0b.json"
+      },
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-020.json": {
+        "source": "gallery/data/20/20-2dlmjzueiap0b.json"
+      }
+    }
+  },
+  {
+    "id": 131,
+    "n": 26,
+    "triangles": 204,
+    "simple": false,
+    "source_codes": "PU",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-026.json",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-026.json"
+    ],
+    "coordinate_sha256": "f71379c4db0380d0b14b84c8fe09fc8a4f2ffecfe4249202701297f4e03f76a0",
+    "module": "Kobon.Certificates.N026T00204Hf71379c4",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-026.json": "beccb0580c2c01a9ccb8a22e68427aff368c0c445de4f97fc949ebf15ebd5de6",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-026.json": "a397c41701acefd38132c022571d3c91c6e233db0aa812a3fa36e11f35961436"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-026.json": {
+        "source": "gallery/data/26/26-3ib8pjphuw1a0.json",
+        "attribution": "Published gallery of Roman Parpalak and Denis Utkin; original discovery attribution as recorded by OEIS and gallery",
+        "upstream_commit": "feae4f5571a988a3ed45bd26a36259ebb7d7d3d2",
+        "upstream_url": "https://github.com/ud1/kobon-solutions/blob/feae4f5571a988a3ed45bd26a36259ebb7d7d3d2/gallery/certificates/26/26-3ib8pjphuw1a0.json"
+      },
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-026.json": {
+        "source": "gallery/data/26/26-3ib8pjphuw1a0.json"
+      }
+    }
+  },
+  {
+    "id": 132,
+    "n": 32,
+    "triangles": 315,
+    "simple": false,
+    "source_codes": "PU",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-032.json",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-032.json"
+    ],
+    "coordinate_sha256": "5914f2bb88d115cee38e83be59e8833ca0dbc6beaad35530b44337a08a985095",
+    "module": "Kobon.Certificates.N032T00315H5914f2bb",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-032.json": "adeef7632d456b449949203ad47518ae5a1fcd6c67c5aaa3e5070a11c0b7c4e5",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-032.json": "1ee4b3b24bb181fd983cd642eb131161c8f0d8ebe91dbec384948500a3c7aa76"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-032.json": {
+        "source": "gallery/data/32/32-1mggmvl5bkz4v.json",
+        "attribution": "Published gallery of Roman Parpalak and Denis Utkin; original discovery attribution as recorded by OEIS and gallery",
+        "upstream_commit": "feae4f5571a988a3ed45bd26a36259ebb7d7d3d2",
+        "upstream_url": "https://github.com/ud1/kobon-solutions/blob/feae4f5571a988a3ed45bd26a36259ebb7d7d3d2/gallery/certificates/32/32-1mggmvl5bkz4v.json"
+      },
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-032.json": {
+        "source": "gallery/data/32/32-1mggmvl5bkz4v.json"
+      }
+    }
+  },
+  {
+    "id": 133,
+    "n": 36,
+    "triangles": 402,
+    "simple": true,
+    "source_codes": "PU",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-036.json",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-036.json"
+    ],
+    "coordinate_sha256": "ce43a1077597aac1f716bd8a1dec499a3b2bfa2829229f72d430169bce89ed27",
+    "module": "Kobon.Certificates.N036T00402Hce43a107",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-036.json": "49ffcb5aa9d8cf2454619e744c8d67ef8114e09b68b5b1e609b652596a2067f2",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-036.json": "4e009e1ceae968b583443271ed4a27c13b721cdeee4edc713a4ef70acb725b96"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-036.json": {
+        "source": "gallery/data/36/36-3o15h1qwq5uh1.json",
+        "attribution": "Published gallery of Roman Parpalak and Denis Utkin; original discovery attribution as recorded by OEIS and gallery",
+        "upstream_commit": "feae4f5571a988a3ed45bd26a36259ebb7d7d3d2",
+        "upstream_url": "https://github.com/ud1/kobon-solutions/blob/feae4f5571a988a3ed45bd26a36259ebb7d7d3d2/gallery/certificates/36/36-3o15h1qwq5uh1.json"
+      },
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-036.json": {
+        "source": "gallery/data/36/36-3o15h1qwq5uh1.json"
+      }
+    }
+  },
+  {
+    "id": 134,
+    "n": 38,
+    "triangles": 450,
+    "simple": false,
+    "source_codes": "PU",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-038.json",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-038.json"
+    ],
+    "coordinate_sha256": "8ba2bdb14e85b408ea05435433c42474bfb371915dc874fcfe77c2e9b75305d5",
+    "module": "Kobon.Certificates.N038T00450H8ba2bdb1",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-038.json": "fae5bdd0b65a08a6192e451654f478450ec1cc139bc7997c1354b15746951cf3",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-038.json": "74d8b68c1e998ba35b33235faf6f90fa832a8901d4d65796a2fe14f9a5ac78ff"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-038.json": {
+        "source": "gallery/data/38/38-1l8x1qx7on4je.json",
+        "attribution": "Published gallery of Roman Parpalak and Denis Utkin; original discovery attribution as recorded by OEIS and gallery",
+        "upstream_commit": "feae4f5571a988a3ed45bd26a36259ebb7d7d3d2",
+        "upstream_url": "https://github.com/ud1/kobon-solutions/blob/feae4f5571a988a3ed45bd26a36259ebb7d7d3d2/gallery/certificates/38/38-1l8x1qx7on4je.json"
+      },
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-038.json": {
+        "source": "gallery/data/38/38-1l8x1qx7on4je.json"
+      }
+    }
+  },
+  {
+    "id": 135,
+    "n": 42,
+    "triangles": 553,
+    "simple": true,
+    "source_codes": "PU",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-042.json",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-042.json"
+    ],
+    "coordinate_sha256": "9849e255d5da63f00fc8d2046c75bc79c75585b624db6fb729a49a8da99d5d51",
+    "module": "Kobon.Certificates.N042T00553H9849e255",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-042.json": "6bf1a274c55562b379ba81e60f8145ce1c965255b96738c7e72a7729c96b45f9",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-042.json": "31a0473538b047a20479a4027fbab6a4696ca236d32e97097beea9cbb4ad9230"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-042.json": {
+        "source": "gallery/data/42/42-1i7to1kxtzfu4.json",
+        "attribution": "Published gallery of Roman Parpalak and Denis Utkin; original discovery attribution as recorded by OEIS and gallery",
+        "upstream_commit": "feae4f5571a988a3ed45bd26a36259ebb7d7d3d2",
+        "upstream_url": "https://github.com/ud1/kobon-solutions/blob/feae4f5571a988a3ed45bd26a36259ebb7d7d3d2/gallery/certificates/42/42-1i7to1kxtzfu4.json"
+      },
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-042.json": {
+        "source": "gallery/data/42/42-1i7to1kxtzfu4.json"
+      }
+    }
+  },
+  {
+    "id": 136,
+    "n": 50,
+    "triangles": 792,
+    "simple": false,
+    "source_codes": "PU",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-050.json",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-050.json"
+    ],
+    "coordinate_sha256": "3d40cb58261638e64b83bad097730eaa1f5e1cb484851571ec31a18cb396c5c0",
+    "module": "Kobon.Certificates.N050T00792H3d40cb58",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-050.json": "6198fcf9814e359c0aaaba293f5e63bba593b5fa312ec04c20424cbe5ae7b5b6",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-050.json": "6cd22e6771d36fe4f6cc1f340cbd3df5e0f2abaf4dc53b7cd464f9aac5c7ae52"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-050.json": {
+        "source": "gallery/data/50/50-1ca8a076ws55c.json",
+        "attribution": "Published gallery of Roman Parpalak and Denis Utkin; original discovery attribution as recorded by OEIS and gallery",
+        "upstream_commit": "feae4f5571a988a3ed45bd26a36259ebb7d7d3d2",
+        "upstream_url": "https://github.com/ud1/kobon-solutions/blob/feae4f5571a988a3ed45bd26a36259ebb7d7d3d2/gallery/certificates/50/50-1ca8a076ws55c.json"
+      },
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-050.json": {
+        "source": "gallery/data/50/50-1ca8a076ws55c.json"
+      }
+    }
+  },
+  {
+    "id": 137,
+    "n": 19,
+    "triangles": 107,
+    "simple": true,
+    "source_codes": "OT",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/prior-seed19-rational.json"
+    ],
+    "coordinate_sha256": "6e8ca6f56a85d29de4ca67f2e9043b70300c7c48921b6ce04bdc25a61814921a",
+    "module": "Kobon.Certificates.N019T00107H6e8ca6f5",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/general-bounds/prior-seed19-rational.json": "c1b29d42f6fcef99dd6b847aa719b47cd0bc18f57dc8c22bc0627dc96eb0d4c2"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/general-bounds/prior-seed19-rational.json": {
+        "source": "Existing 2026-09-20 Parpalak--Utkin positive-control grid fit; no numerical novelty claim."
+      }
+    }
+  },
+  {
+    "id": 138,
+    "n": 6,
+    "triangles": 6,
+    "simple": false,
+    "source_codes": "OT",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/shared-fan-six-lines.json"
+    ],
+    "coordinate_sha256": "af8f599eb8a15e6d3daf63304c8c6688a6684be27749438fde977e4616eef916",
+    "module": "Kobon.Certificates.N006T00006Haf8f599e",
+    "source_file_sha256": {
+      "research/six-hour-2026-09-21/general-bounds/shared-fan-six-lines.json": "46c17dabbc39e44756250c4549bca349520c91910cdde153dd6508129372d9ce"
+    },
+    "source_metadata": {
+      "research/six-hour-2026-09-21/general-bounds/shared-fan-six-lines.json": {
+        "source": "Triangle with vertices (0,0),(3,0),(0,3), together with its three medians."
+      }
+    }
+  }
+]

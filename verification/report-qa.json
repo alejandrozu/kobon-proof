@@ -1,0 +1,21 @@
+{
+  "checked_at_utc": "2026-09-22T07:14:21.1952539Z",
+  "artifact": "research/six-hour-2026-09-21/Kobon_Research_Review.docx",
+  "artifact_sha256": "23d003517bf22c3a1448e0d660fa8940206a0e8032468c6a9cfc781451ddfe5e",
+  "source": "research/six-hour-2026-09-21/RESEARCH_REVIEW.md",
+  "source_sha256": "44e5a6ffe0d9c58d346d6f3e0ba86cb5d773a94943a7475efa9646d19525d62a",
+  "rendered_pages": 9,
+  "visually_inspected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "passed": true,
+  "method": "Canonical render_docx.py with LibreOffice. Every final page visually inspected; unchanged rerendered pages matched already-inspected PNG hashes. Equations are editable native Word mathematics."
+}

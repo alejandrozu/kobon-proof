@@ -34,54 +34,66 @@ def enhancement : ℕ → ℕ
   | 5 => 5
   | 6 => 7
   | 7 => 11
+  | 8 => 15
   | 9 => 21
   | 10 => 25
   | 11 => 32
   | 12 => 38
   | 13 => 47
-  | 14 => 53
+  | 14 => 54
   | 15 => 65
   | 16 => 72
   | 17 => 85
   | 18 => 93
   | 19 => 107
-  | 20 => 116
+  | 20 => 117
   | 21 => 133
   | 22 => 143
   | 23 => 161
   | 24 => 172
   | 25 => 191
-  | 26 => 203
+  | 26 => 204
   | 27 => 225
   | 28 => 238
   | 29 => 261
   | 30 => 275
   | 31 => 299
-  | 32 => 314
+  | 32 => 315
   | 33 => 341
   | 34 => 357
   | 35 => 385
   | 36 => 402
   | 37 => 431
-  | 38 => 449
-  | 39 => 469
+  | 38 => 450
+  | 39 => 470
   | 41 => 533
   | 42 => 553
   | 43 => 587
   | 44 => 608
   | 45 => 645
   | 46 => 667
+  | 47 => 691
+  | 48 => 721
   | 49 => 767
-  | 50 => 791
-  | 51 => 817
+  | 50 => 792
+  | 51 => 818
+  | 53 => 885
+  | 54 => 919
+  | 55 => 955
   | 57 => 1045
   | 58 => 1073
+  | 59 => 1103
+  | 60 => 1141
+  | 65 => 1365
+  | 66 => 1397
   | 81 => 2132
   | 82 => 2172
-  | 99 => 3169
+  | 99 => 3170
+  | 129 => 5461
+  | 130 => 5525
   | 161 => 8532
   | 162 => 8612
-  | 195 => 12481
+  | 195 => 12482
   | _ => 0
 
 theorem enhancement_sound (n : ℕ) : LowerBound n (enhancement n) := by
@@ -91,54 +103,66 @@ theorem enhancement_sound (n : ℕ) : LowerBound n (enhancement n) := by
   · exact Kobon.Certificates.N005T00005H948a0bdf.lower_bound
   · exact Kobon.Certificates.N006T00007H6ea9ebaa.lower_bound
   · exact Kobon.Certificates.N007T00011He6b9a626.lower_bound
+  · exact Kobon.Certificates.N008T00015Ha1380810.lower_bound
   · exact Kobon.Certificates.N009T00021H6ebbed82.lower_bound
   · exact Kobon.Certificates.N010T00025Hb767c427.lower_bound
   · exact Kobon.Certificates.N011T00032Hb955e7c9.lower_bound
   · exact Kobon.Certificates.N012T00038H38f69f38.lower_bound
   · exact Kobon.Certificates.N013T00047Hddec1f78.lower_bound
-  · exact Kobon.Certificates.N014T00053H45157b2f.lower_bound
+  · exact Kobon.Certificates.N014T00054Hd47aea63.lower_bound
   · exact Kobon.Certificates.N015T00065H4d3bf3b4.lower_bound
   · exact Kobon.Certificates.N016T00072H391cf79a.lower_bound
   · exact Kobon.Certificates.N017T00085H7cf3c061.lower_bound
   · exact Kobon.Certificates.N018T00093Hedb6246a.lower_bound
   · exact Kobon.Certificates.N019T00107Ha2f32bdb.lower_bound
-  · exact Kobon.Certificates.N020T00116Hadc03eed.lower_bound
+  · exact Kobon.Certificates.N020T00117H382171ac.lower_bound
   · exact Kobon.Certificates.N021T00133H36bae754.lower_bound
   · exact Kobon.Certificates.N022T00143H54396c64.lower_bound
   · exact Kobon.Certificates.N023T00161H969ad7d3.lower_bound
   · exact Kobon.Certificates.N024T00172He63e906b.lower_bound
   · exact Kobon.Certificates.N025T00191Hb568bffb.lower_bound
-  · exact Kobon.Certificates.N026T00203He61b423c.lower_bound
+  · exact Kobon.Certificates.N026T00204Hf71379c4.lower_bound
   · exact Kobon.Certificates.N027T00225H7d6ae9a0.lower_bound
   · exact Kobon.Certificates.N028T00238H56ef2acb.lower_bound
   · exact Kobon.Certificates.N029T00261Hd4805c25.lower_bound
   · exact Kobon.Certificates.N030T00275Hdcfe649a.lower_bound
   · exact Kobon.Certificates.N031T00299H70f23b94.lower_bound
-  · exact Kobon.Certificates.N032T00314H9ab78b00.lower_bound
+  · exact Kobon.Certificates.N032T00315H5914f2bb.lower_bound
   · exact Kobon.Certificates.N033T00341H95f3b770.lower_bound
   · exact Kobon.Certificates.N034T00357Hfbde0a76.lower_bound
   · exact Kobon.Certificates.N035T00385H9ee99af6.lower_bound
   · exact Kobon.Certificates.N036T00402H3fc01b7d.lower_bound
   · exact Kobon.Certificates.N037T00431H11f0bde7.lower_bound
-  · exact Kobon.Certificates.N038T00449H46ad5a32.lower_bound
-  · exact Kobon.Certificates.N039T00469Hcf24d7d3.lower_bound
+  · exact Kobon.Certificates.N038T00450H8ba2bdb1.lower_bound
+  · exact Kobon.Certificates.N039T00470H30caa6f7.lower_bound
   · exact Kobon.Certificates.N041T00533H01e2ef66.lower_bound
   · exact Kobon.Certificates.N042T00553H2bdc9d67.lower_bound
   · exact Kobon.Certificates.N043T00587H861d8be2.lower_bound
   · exact Kobon.Certificates.N044T00608Hb5277675.lower_bound
   · exact Kobon.Certificates.N045T00645H3dc6e882.lower_bound
   · exact Kobon.Certificates.N046T00667H32b8ca2f.lower_bound
+  · exact Kobon.Certificates.N047T00691Hfac44af1.lower_bound
+  · exact Kobon.Certificates.N048T00721H2fb5ef0d.lower_bound
   · exact Kobon.Certificates.N049T00767H957e6f15.lower_bound
-  · exact Kobon.Certificates.N050T00791H2ea22b55.lower_bound
-  · exact Kobon.Certificates.N051T00817Hbd215f67.lower_bound
+  · exact Kobon.Certificates.N050T00792H3d40cb58.lower_bound
+  · exact Kobon.Certificates.N051T00818Hc18e1baf.lower_bound
+  · exact Kobon.Certificates.N053T00885H6bc5b14d.lower_bound
+  · exact Kobon.Certificates.N054T00919Ha254c1b4.lower_bound
+  · exact Kobon.Certificates.N055T00955H202625a3.lower_bound
   · exact Kobon.Certificates.N057T01045H9a1d337c.lower_bound
   · exact Kobon.Certificates.N058T01073Hd988db55.lower_bound
+  · exact Kobon.Certificates.N059T01103Hba482375.lower_bound
+  · exact Kobon.Certificates.N060T01141H9bc5096c.lower_bound
+  · exact Kobon.Certificates.N065T01365Hb1dcbeb4.lower_bound
+  · exact Kobon.Certificates.N066T01397H327ecbb9.lower_bound
   · exact Kobon.Certificates.N081T02132H7bc6b303.lower_bound
   · exact Kobon.Certificates.N082T02172Hd75c9101.lower_bound
-  · exact Kobon.Certificates.N099T03169H4fef38d8.lower_bound
+  · exact Kobon.Certificates.N099T03170Hea507e2d.lower_bound
+  · exact Kobon.Certificates.N129T05461H6dae0012.lower_bound
+  · exact Kobon.Certificates.N130T05525He0559b54.lower_bound
   · exact Kobon.Certificates.N161T08532H230691d5.lower_bound
   · exact Kobon.Certificates.N162T08612H1512e696.lower_bound
-  · exact Kobon.Certificates.N195T12481Hcd3497db.lower_bound
+  · exact Kobon.Certificates.N195T12482H5413dd7b.lower_bound
   · exact zero_lower_bound n
 
 def bound (n : ℕ) : ℕ := max (baseline n) (enhancement n)
@@ -165,54 +189,66 @@ theorem exact_exception_values :
     bound 5=5 ∧
     bound 6=7 ∧
     bound 7=11 ∧
+    bound 8=15 ∧
     bound 9=21 ∧
     bound 10=25 ∧
     bound 11=32 ∧
     bound 12=38 ∧
     bound 13=47 ∧
-    bound 14=53 ∧
+    bound 14=54 ∧
     bound 15=65 ∧
     bound 16=72 ∧
     bound 17=85 ∧
     bound 18=93 ∧
     bound 19=107 ∧
-    bound 20=116 ∧
+    bound 20=117 ∧
     bound 21=133 ∧
     bound 22=143 ∧
     bound 23=161 ∧
     bound 24=172 ∧
     bound 25=191 ∧
-    bound 26=203 ∧
+    bound 26=204 ∧
     bound 27=225 ∧
     bound 28=238 ∧
     bound 29=261 ∧
     bound 30=275 ∧
     bound 31=299 ∧
-    bound 32=314 ∧
+    bound 32=315 ∧
     bound 33=341 ∧
     bound 34=357 ∧
     bound 35=385 ∧
     bound 36=402 ∧
     bound 37=431 ∧
-    bound 38=449 ∧
-    bound 39=469 ∧
+    bound 38=450 ∧
+    bound 39=470 ∧
     bound 41=533 ∧
     bound 42=553 ∧
     bound 43=587 ∧
     bound 44=608 ∧
     bound 45=645 ∧
     bound 46=667 ∧
+    bound 47=691 ∧
+    bound 48=721 ∧
     bound 49=767 ∧
-    bound 50=791 ∧
-    bound 51=817 ∧
+    bound 50=792 ∧
+    bound 51=818 ∧
+    bound 53=885 ∧
+    bound 54=919 ∧
+    bound 55=955 ∧
     bound 57=1045 ∧
     bound 58=1073 ∧
+    bound 59=1103 ∧
+    bound 60=1141 ∧
+    bound 65=1365 ∧
+    bound 66=1397 ∧
     bound 81=2132 ∧
     bound 82=2172 ∧
-    bound 99=3169 ∧
+    bound 99=3170 ∧
+    bound 129=5461 ∧
+    bound 130=5525 ∧
     bound 161=8532 ∧
     bound 162=8612 ∧
-    bound 195=12481 := by
+    bound 195=12482 := by
   repeat' apply And.intro
   all_goals decide +kernel
 
@@ -302,7 +338,59 @@ theorem dominates_every_saved_certificate :
     12481 ≤ bound 195 ∧
     12480 ≤ bound 195 ∧
     602 ≤ bound 44 ∧
-    3168 ≤ bound 99 := by
+    3168 ≤ bound 99 ∧
+    470 ≤ bound 39 ∧
+    691 ≤ bound 47 ∧
+    721 ≤ bound 48 ∧
+    818 ≤ bound 51 ∧
+    885 ≤ bound 53 ∧
+    919 ≤ bound 54 ∧
+    955 ≤ bound 55 ∧
+    1103 ≤ bound 59 ∧
+    1141 ≤ bound 60 ∧
+    1365 ≤ bound 65 ∧
+    1397 ≤ bound 66 ∧
+    3170 ≤ bound 99 ∧
+    5461 ≤ bound 129 ∧
+    5525 ≤ bound 130 ∧
+    12482 ≤ bound 195 ∧
+    54 ≤ bound 14 ∧
+    54 ≤ bound 14 ∧
+    54 ≤ bound 14 ∧
+    54 ≤ bound 14 ∧
+    54 ≤ bound 14 ∧
+    54 ≤ bound 14 ∧
+    54 ≤ bound 14 ∧
+    54 ≤ bound 14 ∧
+    54 ≤ bound 14 ∧
+    54 ≤ bound 14 ∧
+    54 ≤ bound 14 ∧
+    54 ≤ bound 14 ∧
+    54 ≤ bound 14 ∧
+    54 ≤ bound 14 ∧
+    54 ≤ bound 14 ∧
+    52 ≤ bound 14 ∧
+    53 ≤ bound 14 ∧
+    52 ≤ bound 14 ∧
+    52 ≤ bound 14 ∧
+    14 ≤ bound 8 ∧
+    51 ≤ bound 14 ∧
+    114 ≤ bound 20 ∧
+    203 ≤ bound 26 ∧
+    313 ≤ bound 32 ∧
+    448 ≤ bound 38 ∧
+    791 ≤ bound 50 ∧
+    15 ≤ bound 8 ∧
+    54 ≤ bound 14 ∧
+    117 ≤ bound 20 ∧
+    204 ≤ bound 26 ∧
+    315 ≤ bound 32 ∧
+    402 ≤ bound 36 ∧
+    450 ≤ bound 38 ∧
+    553 ≤ bound 42 ∧
+    792 ≤ bound 50 ∧
+    107 ≤ bound 19 ∧
+    6 ≤ bound 6 := by
   repeat' apply And.intro
   all_goals decide +kernel
 
@@ -311,6 +399,7 @@ theorem strict_improvements :
     baseline 5 < bound 5 ∧
     baseline 6 < bound 6 ∧
     baseline 7 < bound 7 ∧
+    baseline 8 < bound 8 ∧
     baseline 9 < bound 9 ∧
     baseline 10 < bound 10 ∧
     baseline 11 < bound 11 ∧
@@ -348,14 +437,25 @@ theorem strict_improvements :
     baseline 44 < bound 44 ∧
     baseline 45 < bound 45 ∧
     baseline 46 < bound 46 ∧
+    baseline 47 < bound 47 ∧
+    baseline 48 < bound 48 ∧
     baseline 49 < bound 49 ∧
     baseline 50 < bound 50 ∧
     baseline 51 < bound 51 ∧
+    baseline 53 < bound 53 ∧
+    baseline 54 < bound 54 ∧
+    baseline 55 < bound 55 ∧
     baseline 57 < bound 57 ∧
     baseline 58 < bound 58 ∧
+    baseline 59 < bound 59 ∧
+    baseline 60 < bound 60 ∧
+    baseline 65 < bound 65 ∧
+    baseline 66 < bound 66 ∧
     baseline 81 < bound 81 ∧
     baseline 82 < bound 82 ∧
     baseline 99 < bound 99 ∧
+    baseline 129 < bound 129 ∧
+    baseline 130 < bound 130 ∧
     baseline 161 < bound 161 ∧
     baseline 162 < bound 162 ∧
     baseline 195 < bound 195 := by

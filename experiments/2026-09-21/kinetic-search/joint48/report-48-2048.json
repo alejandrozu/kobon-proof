@@ -1,0 +1,17 @@
+{
+  "n": 48,
+  "seed": 2048,
+  "input": "research\\six-hour-2026-09-21\\certificates\\n048.json",
+  "initial": 721,
+  "best": 721,
+  "seconds": 1200.9850000000442,
+  "rays": 1349,
+  "chambers": 24427315,
+  "arithmetic_failures": 291,
+  "tied_event_rebuilds": 1226,
+  "independent_sweep_checkpoints": 808,
+  "exact_improvements": 0,
+  "history": [],
+  "plateau_or_annealing_walks": 958,
+  "limitations": "Bounded numerical proposals; no exhaustive optimality or priority claim"
+}

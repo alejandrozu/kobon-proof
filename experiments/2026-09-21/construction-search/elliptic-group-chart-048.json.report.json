@@ -1,0 +1,48 @@
+{
+  "n": 48,
+  "source": "experiments\\2026-09-21\\general-bounds\\elliptic-groups\\n048.json",
+  "initial": 710,
+  "best": 712,
+  "projective_triangles": 724,
+  "vertices": 1128,
+  "proposals": 2542512,
+  "exact_candidates": 2,
+  "false_positives": 0,
+  "seconds": 72.34327459335327,
+  "seed": 221,
+  "improvements": [
+    {
+      "triangles": 711,
+      "pair": [
+        444,
+        840
+      ],
+      "chart": [
+        "278480274079291853731580415398547095411991578651590156800",
+        "-21206143275790567136886979481502036524541870286426668515",
+        "-622016027780708626432330396932096656901396733158486760448"
+      ],
+      "projective_triangles": 724,
+      "seconds": 1.2352197170257568,
+      "seed": 221,
+      "proposals": 128
+    },
+    {
+      "triangles": 712,
+      "pair": [
+        12,
+        959
+      ],
+      "chart": [
+        "26528505964796696030328282593958893709763487098713733182450",
+        "466650986514772598776101555928170890652911657013340906757250",
+        "-191803262896429886505002871116565551785659667198408127490971"
+      ],
+      "projective_triangles": 724,
+      "seconds": 1.3144853115081787,
+      "seed": 221,
+      "proposals": 1664
+    }
+  ],
+  "limitations": "Floating candidate ranking is heuristic; no exhaustive optimality claim."
+}

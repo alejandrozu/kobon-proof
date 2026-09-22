@@ -1,0 +1,816 @@
+[
+  {
+    "n": 5,
+    "phase": "1/6",
+    "initial": 4,
+    "best": 5,
+    "projective": 5,
+    "parameters": [
+      0,
+      -2.25,
+      6.25
+    ],
+    "seconds": 0.042150020599365234,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-sixth\\fp-005-phase-1-6.json"
+  },
+  {
+    "n": 6,
+    "phase": "1/6",
+    "initial": 7,
+    "best": 7,
+    "projective": 10,
+    "parameters": null,
+    "seconds": 0.04522991180419922
+  },
+  {
+    "n": 7,
+    "phase": "1/6",
+    "initial": 10,
+    "best": 11,
+    "projective": 11,
+    "parameters": [
+      0,
+      -2.25,
+      -1.0
+    ],
+    "seconds": 0.046109914779663086,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-sixth\\fp-007-phase-1-6.json"
+  },
+  {
+    "n": 8,
+    "phase": "1/6",
+    "initial": 14,
+    "best": 14,
+    "projective": 16,
+    "parameters": null,
+    "seconds": 0.058745622634887695
+  },
+  {
+    "n": 9,
+    "phase": "1/6",
+    "initial": 19,
+    "best": 19,
+    "projective": 19,
+    "parameters": null,
+    "seconds": 0.04981708526611328
+  },
+  {
+    "n": 10,
+    "phase": "1/6",
+    "initial": 24,
+    "best": 24,
+    "projective": 26,
+    "parameters": null,
+    "seconds": 0.0432283878326416
+  },
+  {
+    "n": 11,
+    "phase": "1/6",
+    "initial": 30,
+    "best": 31,
+    "projective": 31,
+    "parameters": [
+      1,
+      0.5,
+      1.25
+    ],
+    "seconds": 0.053835153579711914,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-sixth\\fp-011-phase-1-6.json"
+  },
+  {
+    "n": 12,
+    "phase": "1/6",
+    "initial": 37,
+    "best": 37,
+    "projective": 40,
+    "parameters": null,
+    "seconds": 0.0428309440612793
+  },
+  {
+    "n": 13,
+    "phase": "1/6",
+    "initial": 44,
+    "best": 45,
+    "projective": 45,
+    "parameters": [
+      0,
+      -2.25,
+      -1.0
+    ],
+    "seconds": 0.04918360710144043,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-sixth\\fp-013-phase-1-6.json"
+  },
+  {
+    "n": 14,
+    "phase": "1/6",
+    "initial": 52,
+    "best": 52,
+    "projective": 54,
+    "parameters": null,
+    "seconds": 0.0377810001373291
+  },
+  {
+    "n": 15,
+    "phase": "1/6",
+    "initial": 61,
+    "best": 61,
+    "projective": 61,
+    "parameters": null,
+    "seconds": 0.05165362358093262
+  },
+  {
+    "n": 16,
+    "phase": "1/6",
+    "initial": 70,
+    "best": 70,
+    "projective": 72,
+    "parameters": null,
+    "seconds": 0.056694984436035156
+  },
+  {
+    "n": 17,
+    "phase": "1/6",
+    "initial": 80,
+    "best": 81,
+    "projective": 81,
+    "parameters": [
+      1,
+      0.5,
+      1.25
+    ],
+    "seconds": 0.07171058654785156,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-sixth\\fp-017-phase-1-6.json"
+  },
+  {
+    "n": 18,
+    "phase": "1/6",
+    "initial": 91,
+    "best": 91,
+    "projective": 94,
+    "parameters": null,
+    "seconds": 0.050319671630859375
+  },
+  {
+    "n": 19,
+    "phase": "1/6",
+    "initial": 102,
+    "best": 103,
+    "projective": 103,
+    "parameters": [
+      0,
+      -2.25,
+      -1.0
+    ],
+    "seconds": 0.05509757995605469,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-sixth\\fp-019-phase-1-6.json"
+  },
+  {
+    "n": 20,
+    "phase": "1/6",
+    "initial": 114,
+    "best": 114,
+    "projective": 116,
+    "parameters": null,
+    "seconds": 0.0548248291015625
+  },
+  {
+    "n": 21,
+    "phase": "1/6",
+    "initial": 127,
+    "best": 127,
+    "projective": 127,
+    "parameters": null,
+    "seconds": 0.04992985725402832
+  },
+  {
+    "n": 22,
+    "phase": "1/6",
+    "initial": 140,
+    "best": 140,
+    "projective": 142,
+    "parameters": null,
+    "seconds": 0.06196260452270508
+  },
+  {
+    "n": 23,
+    "phase": "1/6",
+    "initial": 154,
+    "best": 155,
+    "projective": 155,
+    "parameters": [
+      1,
+      0.5,
+      1.25
+    ],
+    "seconds": 0.06413054466247559,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-sixth\\fp-023-phase-1-6.json"
+  },
+  {
+    "n": 24,
+    "phase": "1/6",
+    "initial": 169,
+    "best": 169,
+    "projective": 172,
+    "parameters": null,
+    "seconds": 0.0634145736694336
+  },
+  {
+    "n": 25,
+    "phase": "1/6",
+    "initial": 184,
+    "best": 185,
+    "projective": 185,
+    "parameters": [
+      0,
+      -2.25,
+      -1.0
+    ],
+    "seconds": 0.08141088485717773,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-sixth\\fp-025-phase-1-6.json"
+  },
+  {
+    "n": 26,
+    "phase": "1/6",
+    "initial": 200,
+    "best": 200,
+    "projective": 202,
+    "parameters": null,
+    "seconds": 0.07272148132324219
+  },
+  {
+    "n": 27,
+    "phase": "1/6",
+    "initial": 217,
+    "best": 217,
+    "projective": 217,
+    "parameters": null,
+    "seconds": 0.05650186538696289
+  },
+  {
+    "n": 28,
+    "phase": "1/6",
+    "initial": 234,
+    "best": 234,
+    "projective": 236,
+    "parameters": null,
+    "seconds": 0.10858345031738281
+  },
+  {
+    "n": 29,
+    "phase": "1/6",
+    "initial": 252,
+    "best": 253,
+    "projective": 253,
+    "parameters": [
+      1,
+      0.5,
+      1.25
+    ],
+    "seconds": 0.10373091697692871,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-sixth\\fp-029-phase-1-6.json"
+  },
+  {
+    "n": 30,
+    "phase": "1/6",
+    "initial": 271,
+    "best": 271,
+    "projective": 274,
+    "parameters": null,
+    "seconds": 0.08519482612609863
+  },
+  {
+    "n": 31,
+    "phase": "1/6",
+    "initial": 290,
+    "best": 291,
+    "projective": 291,
+    "parameters": [
+      0,
+      -2.25,
+      -1.0
+    ],
+    "seconds": 0.09465980529785156,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-sixth\\fp-031-phase-1-6.json"
+  },
+  {
+    "n": 32,
+    "phase": "1/6",
+    "initial": 310,
+    "best": 310,
+    "projective": 312,
+    "parameters": null,
+    "seconds": 0.09869909286499023
+  },
+  {
+    "n": 33,
+    "phase": "1/6",
+    "initial": 331,
+    "best": 331,
+    "projective": 331,
+    "parameters": null,
+    "seconds": 0.06842637062072754
+  },
+  {
+    "n": 34,
+    "phase": "1/6",
+    "initial": 352,
+    "best": 352,
+    "projective": 354,
+    "parameters": null,
+    "seconds": 0.10297226905822754
+  },
+  {
+    "n": 35,
+    "phase": "1/6",
+    "initial": 374,
+    "best": 375,
+    "projective": 375,
+    "parameters": [
+      1,
+      0.5,
+      1.25
+    ],
+    "seconds": 0.12254452705383301,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-sixth\\fp-035-phase-1-6.json"
+  },
+  {
+    "n": 36,
+    "phase": "1/6",
+    "initial": 397,
+    "best": 397,
+    "projective": 400,
+    "parameters": null,
+    "seconds": 0.12166738510131836
+  },
+  {
+    "n": 37,
+    "phase": "1/6",
+    "initial": 420,
+    "best": 421,
+    "projective": 421,
+    "parameters": [
+      0,
+      -2.25,
+      -1.0
+    ],
+    "seconds": 0.11584734916687012,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-sixth\\fp-037-phase-1-6.json"
+  },
+  {
+    "n": 38,
+    "phase": "1/6",
+    "initial": 444,
+    "best": 444,
+    "projective": 446,
+    "parameters": null,
+    "seconds": 0.13082385063171387
+  },
+  {
+    "n": 39,
+    "phase": "1/6",
+    "initial": 469,
+    "best": 469,
+    "projective": 469,
+    "parameters": null,
+    "seconds": 0.10225105285644531
+  },
+  {
+    "n": 40,
+    "phase": "1/6",
+    "initial": 494,
+    "best": 494,
+    "projective": 496,
+    "parameters": null,
+    "seconds": 0.1414937973022461
+  },
+  {
+    "n": 41,
+    "phase": "1/6",
+    "initial": 520,
+    "best": 521,
+    "projective": 521,
+    "parameters": [
+      1,
+      0.5,
+      1.25
+    ],
+    "seconds": 0.18172049522399902,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-sixth\\fp-041-phase-1-6.json"
+  },
+  {
+    "n": 42,
+    "phase": "1/6",
+    "initial": 547,
+    "best": 547,
+    "projective": 550,
+    "parameters": null,
+    "seconds": 0.16203618049621582
+  },
+  {
+    "n": 43,
+    "phase": "1/6",
+    "initial": 574,
+    "best": 575,
+    "projective": 575,
+    "parameters": [
+      0,
+      -2.25,
+      -1.0
+    ],
+    "seconds": 0.1502676010131836,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-sixth\\fp-043-phase-1-6.json"
+  },
+  {
+    "n": 44,
+    "phase": "1/6",
+    "initial": 602,
+    "best": 602,
+    "projective": 604,
+    "parameters": null,
+    "seconds": 0.2088768482208252
+  },
+  {
+    "n": 45,
+    "phase": "1/6",
+    "initial": 631,
+    "best": 631,
+    "projective": 631,
+    "parameters": null,
+    "seconds": 0.14156341552734375
+  },
+  {
+    "n": 46,
+    "phase": "1/6",
+    "initial": 660,
+    "best": 660,
+    "projective": 662,
+    "parameters": null,
+    "seconds": 0.2554292678833008
+  },
+  {
+    "n": 47,
+    "phase": "1/6",
+    "initial": 690,
+    "best": 691,
+    "projective": 691,
+    "parameters": [
+      1,
+      0.5,
+      1.25
+    ],
+    "seconds": 0.25994873046875,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-sixth\\fp-047-phase-1-6.json"
+  },
+  {
+    "n": 48,
+    "phase": "1/6",
+    "initial": 721,
+    "best": 721,
+    "projective": 724,
+    "parameters": null,
+    "seconds": 0.26019716262817383
+  },
+  {
+    "n": 49,
+    "phase": "1/6",
+    "initial": 752,
+    "best": 753,
+    "projective": 753,
+    "parameters": [
+      0,
+      -2.25,
+      -1.0
+    ],
+    "seconds": 0.2379462718963623,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-sixth\\fp-049-phase-1-6.json"
+  },
+  {
+    "n": 50,
+    "phase": "1/6",
+    "initial": 784,
+    "best": 784,
+    "projective": 786,
+    "parameters": null,
+    "seconds": 0.2940065860748291
+  },
+  {
+    "n": 51,
+    "phase": "1/6",
+    "initial": 817,
+    "best": 817,
+    "projective": 817,
+    "parameters": null,
+    "seconds": 0.16041994094848633
+  },
+  {
+    "n": 52,
+    "phase": "1/6",
+    "initial": 850,
+    "best": 850,
+    "projective": 852,
+    "parameters": null,
+    "seconds": 0.26218080520629883
+  },
+  {
+    "n": 53,
+    "phase": "1/6",
+    "initial": 884,
+    "best": 885,
+    "projective": 885,
+    "parameters": [
+      1,
+      0.5,
+      1.25
+    ],
+    "seconds": 0.3144495487213135,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-sixth\\fp-053-phase-1-6.json"
+  },
+  {
+    "n": 54,
+    "phase": "1/6",
+    "initial": 919,
+    "best": 919,
+    "projective": 922,
+    "parameters": null,
+    "seconds": 0.676182746887207
+  },
+  {
+    "n": 55,
+    "phase": "1/6",
+    "initial": 954,
+    "best": 955,
+    "projective": 955,
+    "parameters": [
+      0,
+      -2.25,
+      -1.0
+    ],
+    "seconds": 0.30013465881347656,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-sixth\\fp-055-phase-1-6.json"
+  },
+  {
+    "n": 56,
+    "phase": "1/6",
+    "initial": 990,
+    "best": 990,
+    "projective": 992,
+    "parameters": null,
+    "seconds": 0.26812028884887695
+  },
+  {
+    "n": 57,
+    "phase": "1/6",
+    "initial": 1027,
+    "best": 1027,
+    "projective": 1027,
+    "parameters": null,
+    "seconds": 0.1707015037536621
+  },
+  {
+    "n": 58,
+    "phase": "1/6",
+    "initial": 1064,
+    "best": 1064,
+    "projective": 1066,
+    "parameters": null,
+    "seconds": 0.2795581817626953
+  },
+  {
+    "n": 59,
+    "phase": "1/6",
+    "initial": 1102,
+    "best": 1103,
+    "projective": 1103,
+    "parameters": [
+      1,
+      0.5,
+      1.25
+    ],
+    "seconds": 0.28670597076416016,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-sixth\\fp-059-phase-1-6.json"
+  },
+  {
+    "n": 60,
+    "phase": "1/6",
+    "initial": 1141,
+    "best": 1141,
+    "projective": 1144,
+    "parameters": null,
+    "seconds": 0.2659604549407959
+  },
+  {
+    "n": 61,
+    "phase": "1/6",
+    "initial": 1180,
+    "best": 1181,
+    "projective": 1181,
+    "parameters": [
+      0,
+      -2.25,
+      -1.0
+    ],
+    "seconds": 0.28342485427856445,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-sixth\\fp-061-phase-1-6.json"
+  },
+  {
+    "n": 62,
+    "phase": "1/6",
+    "initial": 1220,
+    "best": 1220,
+    "projective": 1222,
+    "parameters": null,
+    "seconds": 0.3250133991241455
+  },
+  {
+    "n": 63,
+    "phase": "1/6",
+    "initial": 1261,
+    "best": 1261,
+    "projective": 1261,
+    "parameters": null,
+    "seconds": 0.18010473251342773
+  },
+  {
+    "n": 64,
+    "phase": "1/6",
+    "initial": 1302,
+    "best": 1302,
+    "projective": 1304,
+    "parameters": null,
+    "seconds": 0.30258965492248535
+  },
+  {
+    "n": 65,
+    "phase": "1/6",
+    "initial": 1344,
+    "best": 1345,
+    "projective": 1345,
+    "parameters": [
+      1,
+      0.5,
+      1.25
+    ],
+    "seconds": 0.3752768039703369,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-sixth\\fp-065-phase-1-6.json"
+  },
+  {
+    "n": 66,
+    "phase": "1/6",
+    "initial": 1387,
+    "best": 1387,
+    "projective": 1390,
+    "parameters": null,
+    "seconds": 0.3269944190979004
+  },
+  {
+    "n": 67,
+    "phase": "1/6",
+    "initial": 1430,
+    "best": 1431,
+    "projective": 1431,
+    "parameters": [
+      0,
+      -2.25,
+      -1.0
+    ],
+    "seconds": 0.26828718185424805,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-sixth\\fp-067-phase-1-6.json"
+  },
+  {
+    "n": 68,
+    "phase": "1/6",
+    "initial": 1474,
+    "best": 1474,
+    "projective": 1476,
+    "parameters": null,
+    "seconds": 0.3690013885498047
+  },
+  {
+    "n": 69,
+    "phase": "1/6",
+    "initial": 1519,
+    "best": 1519,
+    "projective": 1519,
+    "parameters": null,
+    "seconds": 0.21472930908203125
+  },
+  {
+    "n": 70,
+    "phase": "1/6",
+    "initial": 1564,
+    "best": 1564,
+    "projective": 1566,
+    "parameters": null,
+    "seconds": 0.3500843048095703
+  },
+  {
+    "n": 71,
+    "phase": "1/6",
+    "initial": 1610,
+    "best": 1611,
+    "projective": 1611,
+    "parameters": [
+      1,
+      0.5,
+      1.25
+    ],
+    "seconds": 0.4011960029602051,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-sixth\\fp-071-phase-1-6.json"
+  },
+  {
+    "n": 72,
+    "phase": "1/6",
+    "initial": 1657,
+    "best": 1657,
+    "projective": 1660,
+    "parameters": null,
+    "seconds": 0.35474276542663574
+  },
+  {
+    "n": 73,
+    "phase": "1/6",
+    "initial": 1704,
+    "best": 1705,
+    "projective": 1705,
+    "parameters": [
+      0,
+      -2.25,
+      -1.0
+    ],
+    "seconds": 0.36203742027282715,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-sixth\\fp-073-phase-1-6.json"
+  },
+  {
+    "n": 74,
+    "phase": "1/6",
+    "initial": 1752,
+    "best": 1752,
+    "projective": 1754,
+    "parameters": null,
+    "seconds": 0.38950014114379883
+  },
+  {
+    "n": 75,
+    "phase": "1/6",
+    "initial": 1801,
+    "best": 1801,
+    "projective": 1801,
+    "parameters": null,
+    "seconds": 0.2258913516998291
+  },
+  {
+    "n": 76,
+    "phase": "1/6",
+    "initial": 1850,
+    "best": 1850,
+    "projective": 1852,
+    "parameters": null,
+    "seconds": 0.6163825988769531
+  },
+  {
+    "n": 77,
+    "phase": "1/6",
+    "initial": 1900,
+    "best": 1901,
+    "projective": 1901,
+    "parameters": [
+      1,
+      0.5,
+      1.25
+    ],
+    "seconds": 0.5621538162231445,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-sixth\\fp-077-phase-1-6.json"
+  },
+  {
+    "n": 78,
+    "phase": "1/6",
+    "initial": 1951,
+    "best": 1951,
+    "projective": 1954,
+    "parameters": null,
+    "seconds": 0.441486120223999
+  },
+  {
+    "n": 79,
+    "phase": "1/6",
+    "initial": 2002,
+    "best": 2003,
+    "projective": 2003,
+    "parameters": [
+      0,
+      -2.25,
+      -1.0
+    ],
+    "seconds": 0.3859286308288574,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-sixth\\fp-079-phase-1-6.json"
+  },
+  {
+    "n": 80,
+    "phase": "1/6",
+    "initial": 2054,
+    "best": 2054,
+    "projective": 2056,
+    "parameters": null,
+    "seconds": 0.4529857635498047
+  }
+]

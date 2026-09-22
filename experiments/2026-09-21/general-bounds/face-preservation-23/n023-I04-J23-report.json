@@ -1,0 +1,19 @@
+{
+  "n": 23,
+  "I": 4,
+  "J": 23,
+  "K": 0,
+  "sourceT": 161,
+  "source_caps": 21,
+  "seconds": 300.25,
+  "status": 1,
+  "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+  "margin": 0.0001,
+  "mip_gap": 0.15178571428571108,
+  "preserved_upper": 150.0,
+  "limitations": "Bounded floating MILP; no infeasibility/optimality proof for real arrangements; exact finite counts only.",
+  "exact_triangles": 144,
+  "exact_caps": 21,
+  "preserved_selected": 133,
+  "simple": true
+}

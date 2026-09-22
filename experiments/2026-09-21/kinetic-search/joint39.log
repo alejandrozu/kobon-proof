@@ -1,0 +1,46 @@
+C:\Users\Propietario\Documents\Codex\2026-09-20\lo-2\work\kobon-repository\experiments\2026-09-21\kinetic-search\kinetic_lines.py:26: RuntimeWarning: invalid value encountered in divide
+  xs=(c[:,None]-c[None,:])/den
+{"failed_ray": 1, "error": "('checkpoint mismatch', 4606, 284, 282)"}
+{"failed_ray": 3, "error": "('checkpoint mismatch', 0, 254, 256)"}
+{"failed_ray": 7, "error": "('checkpoint mismatch', 0, 263, 262)"}
+{"failed_ray": 11, "error": "('maximum mismatch', 4, 264, 263)"}
+{"failed_ray": 15, "error": "('maximum mismatch', 36, 247, 245)"}
+{"failed_ray": 23, "error": "('maximum mismatch', 1, 264, 265)"}
+{"rays": 25, "chambers": 234490, "best": 470, "current": 466, "seconds": 14.31}
+{"failed_ray": 39, "error": "('maximum mismatch', 2, 236, 237)"}
+{"failed_ray": 43, "error": "('maximum mismatch', 0, 247, 245)"}
+{"failed_ray": 47, "error": "('maximum mismatch', 0, 267, 266)"}
+{"rays": 50, "chambers": 516520, "best": 470, "current": 466, "seconds": 27.74}
+{"failed_ray": 51, "error": "('maximum mismatch', 3, 234, 233)"}
+C:\Users\Propietario\Documents\Codex\2026-09-20\lo-2\work\kobon-repository\experiments\2026-09-21\kinetic-search\kinetic_lines.py:26: RuntimeWarning: divide by zero encountered in divide
+  xs=(c[:,None]-c[None,:])/den
+{"rays": 100, "chambers": 1014374, "best": 470, "current": 468, "seconds": 56.25}
+{"rays": 125, "chambers": 1290718, "best": 470, "current": 466, "seconds": 76.92}
+{"rays": 150, "chambers": 1518070, "best": 470, "current": 467, "seconds": 90.84}
+{"rays": 200, "chambers": 2040394, "best": 470, "current": 467, "seconds": 123.45}
+{"rays": 225, "chambers": 2282361, "best": 470, "current": 467, "seconds": 137.92}
+{"rays": 250, "chambers": 2504042, "best": 470, "current": 466, "seconds": 152.56}
+{"rays": 300, "chambers": 3012490, "best": 470, "current": 467, "seconds": 197.33}
+{"rays": 325, "chambers": 3269759, "best": 470, "current": 470, "seconds": 225.38}
+{"rays": 350, "chambers": 3520633, "best": 470, "current": 467, "seconds": 259.81}
+{"rays": 375, "chambers": 3772041, "best": 470, "current": 466, "seconds": 274.88}
+{"rays": 400, "chambers": 3998569, "best": 470, "current": 466, "seconds": 287.8}
+{"rays": 425, "chambers": 4230594, "best": 470, "current": 470, "seconds": 302.88}
+{"rays": 450, "chambers": 4478366, "best": 470, "current": 467, "seconds": 331.78}
+{"rays": 500, "chambers": 4962200, "best": 470, "current": 467, "seconds": 372.08}
+{"rays": 525, "chambers": 5179878, "best": 470, "current": 466, "seconds": 385.52}
+{"rays": 550, "chambers": 5431705, "best": 470, "current": 466, "seconds": 413.69}
+{"rays": 600, "chambers": 5933705, "best": 470, "current": 466, "seconds": 493.31}
+{"rays": 625, "chambers": 6176539, "best": 470, "current": 466, "seconds": 512.95}
+{"rays": 650, "chambers": 6446647, "best": 470, "current": 469, "seconds": 555.67}
+{"rays": 675, "chambers": 6712774, "best": 470, "current": 466, "seconds": 583.0}
+{"rays": 700, "chambers": 6955747, "best": 470, "current": 470, "seconds": 600.47}
+{"rays": 725, "chambers": 7201204, "best": 470, "current": 468, "seconds": 631.17}
+{"rays": 750, "chambers": 7447063, "best": 470, "current": 467, "seconds": 680.95}
+{"rays": 800, "chambers": 7935552, "best": 470, "current": 470, "seconds": 747.2}
+{"rays": 825, "chambers": 8211707, "best": 470, "current": 466, "seconds": 789.66}
+{"rays": 850, "chambers": 8458587, "best": 470, "current": 466, "seconds": 817.06}
+{"rays": 900, "chambers": 8950910, "best": 470, "current": 470, "seconds": 851.86}
+{"rays": 925, "chambers": 9188648, "best": 470, "current": 467, "seconds": 867.02}
+{"rays": 950, "chambers": 9426791, "best": 470, "current": 467, "seconds": 883.75}
+{"n": 39, "seed": 1730, "input": "experiments\\2026-09-21\\construction-search\\exposed-cap-certificates\\n039.json", "initial": 470, "best": 470, "seconds": 900.5630000000237, "rays": 982, "chambers": 9712359, "arithmetic_failures": 196, "tied_event_rebuilds": 12054, "independent_sweep_checkpoints": 707, "exact_improvements": 0, "history": [], "plateau_or_annealing_walks": 710, "limitations": "Bounded numerical proposals; no exhaustive optimality or priority claim"}

@@ -1,0 +1,21 @@
+{
+  "source": "experiments/2026-09-21/construction-search/exposed-cap-certificates/n039.json",
+  "source_sha256": "e699f2468504a8a528d05241c5ea57a0a2f075da8310afb16ed5122a335c4cf9",
+  "n": 39,
+  "initial": 470,
+  "initial_projective": 471,
+  "realized_best": 470,
+  "combinatorial_best": 470,
+  "combinatorial_projective_best": 471,
+  "rounds": 33,
+  "nodes": 4559,
+  "edges": 2122270,
+  "lp_attempts": 0,
+  "events": [],
+  "width": 20,
+  "depth": 10,
+  "drop": 3,
+  "seed": 20260925,
+  "seconds": 900.1370136737823,
+  "limitations": "Bounded search; combinatorial states are not claimed realizable. No upper-bound conclusion."
+}

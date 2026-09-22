@@ -1,0 +1,79 @@
+[
+  {
+    "n": 8,
+    "T": 15,
+    "q": 2,
+    "common": [
+      6
+    ],
+    "deleted_count": 11,
+    "gain": 4,
+    "deleted_simple": true
+  },
+  {
+    "n": 14,
+    "T": 54,
+    "q": 5,
+    "common": [
+      4
+    ],
+    "deleted_count": 47,
+    "gain": 7,
+    "deleted_simple": true
+  },
+  {
+    "n": 20,
+    "T": 117,
+    "q": 6,
+    "common": [
+      3
+    ],
+    "deleted_count": 107,
+    "gain": 10,
+    "deleted_simple": true
+  },
+  {
+    "n": 26,
+    "T": 204,
+    "q": 2,
+    "common": [
+      10
+    ],
+    "deleted_count": 182,
+    "gain": 22,
+    "deleted_simple": true
+  },
+  {
+    "n": 32,
+    "T": 315,
+    "q": 4,
+    "common": [
+      6
+    ],
+    "deleted_count": 299,
+    "gain": 16,
+    "deleted_simple": true
+  },
+  {
+    "n": 38,
+    "T": 450,
+    "q": 3,
+    "common": [
+      20
+    ],
+    "deleted_count": 417,
+    "gain": 33,
+    "deleted_simple": true
+  },
+  {
+    "n": 50,
+    "T": 792,
+    "q": 2,
+    "common": [
+      22
+    ],
+    "deleted_count": 746,
+    "gain": 46,
+    "deleted_simple": true
+  }
+]

@@ -1,0 +1,1303 @@
+[
+  {
+    "n": 5,
+    "trials": 876,
+    "best_projective_float": 5,
+    "fp_projective": 5,
+    "winner": {
+      "na": 1,
+      "nb": 4,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 3
+  },
+  {
+    "n": 6,
+    "trials": 888,
+    "best_projective_float": 10,
+    "fp_projective": 6,
+    "winner": {
+      "na": 3,
+      "nb": 3,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 7
+  },
+  {
+    "n": 7,
+    "trials": 936,
+    "best_projective_float": 11,
+    "fp_projective": 11,
+    "winner": {
+      "na": 3,
+      "nb": 4,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 9
+  },
+  {
+    "n": 8,
+    "trials": 1200,
+    "best_projective_float": 16,
+    "fp_projective": 16,
+    "winner": {
+      "na": 4,
+      "nb": 4,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 14
+  },
+  {
+    "n": 9,
+    "trials": 1200,
+    "best_projective_float": 21,
+    "fp_projective": 21,
+    "winner": {
+      "na": 4,
+      "nb": 5,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.4166666666666667
+    },
+    "exact_affine_count": 17
+  },
+  {
+    "n": 10,
+    "trials": 1188,
+    "best_projective_float": 26,
+    "fp_projective": 26,
+    "winner": {
+      "na": 5,
+      "nb": 5,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 23
+  },
+  {
+    "n": 11,
+    "trials": 1488,
+    "best_projective_float": 31,
+    "fp_projective": 31,
+    "winner": {
+      "na": 5,
+      "nb": 6,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 27
+  },
+  {
+    "n": 12,
+    "trials": 1488,
+    "best_projective_float": 40,
+    "fp_projective": 36,
+    "winner": {
+      "na": 6,
+      "nb": 6,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 35
+  },
+  {
+    "n": 13,
+    "trials": 1524,
+    "best_projective_float": 45,
+    "fp_projective": 45,
+    "winner": {
+      "na": 6,
+      "nb": 7,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 41
+  },
+  {
+    "n": 14,
+    "trials": 1536,
+    "best_projective_float": 54,
+    "fp_projective": 54,
+    "winner": {
+      "na": 7,
+      "nb": 7,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 50
+  },
+  {
+    "n": 15,
+    "trials": 1524,
+    "best_projective_float": 62,
+    "fp_projective": 63,
+    "winner": {
+      "na": 7,
+      "nb": 8,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.4166666666666667
+    }
+  },
+  {
+    "n": 16,
+    "trials": 1500,
+    "best_projective_float": 72,
+    "fp_projective": 72,
+    "winner": {
+      "na": 8,
+      "nb": 8,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 68
+  },
+  {
+    "n": 17,
+    "trials": 1428,
+    "best_projective_float": 80,
+    "fp_projective": 81,
+    "winner": {
+      "na": 8,
+      "nb": 9,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    }
+  },
+  {
+    "n": 18,
+    "trials": 1500,
+    "best_projective_float": 94,
+    "fp_projective": 90,
+    "winner": {
+      "na": 9,
+      "nb": 9,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 88
+  },
+  {
+    "n": 19,
+    "trials": 1560,
+    "best_projective_float": 102,
+    "fp_projective": 103,
+    "winner": {
+      "na": 9,
+      "nb": 10,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    }
+  },
+  {
+    "n": 20,
+    "trials": 1500,
+    "best_projective_float": 116,
+    "fp_projective": 116,
+    "winner": {
+      "na": 10,
+      "nb": 10,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 110
+  },
+  {
+    "n": 21,
+    "trials": 1464,
+    "best_projective_float": 127,
+    "fp_projective": 129,
+    "winner": {
+      "na": 10,
+      "nb": 11,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.4166666666666667
+    }
+  },
+  {
+    "n": 22,
+    "trials": 1476,
+    "best_projective_float": 142,
+    "fp_projective": 142,
+    "winner": {
+      "na": 11,
+      "nb": 11,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 136
+  },
+  {
+    "n": 23,
+    "trials": 1512,
+    "best_projective_float": 154,
+    "fp_projective": 155,
+    "winner": {
+      "na": 11,
+      "nb": 12,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    }
+  },
+  {
+    "n": 24,
+    "trials": 1488,
+    "best_projective_float": 172,
+    "fp_projective": 168,
+    "winner": {
+      "na": 12,
+      "nb": 12,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 164
+  },
+  {
+    "n": 25,
+    "trials": 1524,
+    "best_projective_float": 183,
+    "fp_projective": 185,
+    "winner": {
+      "na": 12,
+      "nb": 13,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    }
+  },
+  {
+    "n": 26,
+    "trials": 1512,
+    "best_projective_float": 202,
+    "fp_projective": 202,
+    "winner": {
+      "na": 13,
+      "nb": 13,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 195
+  },
+  {
+    "n": 27,
+    "trials": 1500,
+    "best_projective_float": 215,
+    "fp_projective": 219,
+    "winner": {
+      "na": 13,
+      "nb": 14,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.16666666666666666
+    }
+  },
+  {
+    "n": 28,
+    "trials": 1500,
+    "best_projective_float": 236,
+    "fp_projective": 236,
+    "winner": {
+      "na": 14,
+      "nb": 14,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 228
+  },
+  {
+    "n": 29,
+    "trials": 1428,
+    "best_projective_float": 251,
+    "fp_projective": 253,
+    "winner": {
+      "na": 14,
+      "nb": 15,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    }
+  },
+  {
+    "n": 30,
+    "trials": 1500,
+    "best_projective_float": 274,
+    "fp_projective": 270,
+    "winner": {
+      "na": 15,
+      "nb": 15,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 265
+  },
+  {
+    "n": 31,
+    "trials": 1584,
+    "best_projective_float": 288,
+    "fp_projective": 291,
+    "winner": {
+      "na": 15,
+      "nb": 16,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    }
+  },
+  {
+    "n": 32,
+    "trials": 1500,
+    "best_projective_float": 312,
+    "fp_projective": 312,
+    "winner": {
+      "na": 16,
+      "nb": 16,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 303
+  },
+  {
+    "n": 33,
+    "trials": 1464,
+    "best_projective_float": 329,
+    "fp_projective": 333,
+    "winner": {
+      "na": 16,
+      "nb": 17,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.4166666666666667
+    }
+  },
+  {
+    "n": 34,
+    "trials": 1476,
+    "best_projective_float": 354,
+    "fp_projective": 354,
+    "winner": {
+      "na": 17,
+      "nb": 17,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 345
+  },
+  {
+    "n": 35,
+    "trials": 1488,
+    "best_projective_float": 372,
+    "fp_projective": 375,
+    "winner": {
+      "na": 17,
+      "nb": 18,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    }
+  },
+  {
+    "n": 36,
+    "trials": 1488,
+    "best_projective_float": 400,
+    "fp_projective": 396,
+    "winner": {
+      "na": 18,
+      "nb": 18,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 389
+  },
+  {
+    "n": 37,
+    "trials": 1524,
+    "best_projective_float": 417,
+    "fp_projective": 421,
+    "winner": {
+      "na": 18,
+      "nb": 19,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    }
+  },
+  {
+    "n": 38,
+    "trials": 1512,
+    "best_projective_float": 446,
+    "fp_projective": 446,
+    "winner": {
+      "na": 19,
+      "nb": 19,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 436
+  },
+  {
+    "n": 39,
+    "trials": 1524,
+    "best_projective_float": 466,
+    "fp_projective": 471,
+    "winner": {
+      "na": 19,
+      "nb": 20,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.4166666666666667
+    }
+  },
+  {
+    "n": 40,
+    "trials": 1500,
+    "best_projective_float": 496,
+    "fp_projective": 496,
+    "winner": {
+      "na": 20,
+      "nb": 20,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 485
+  },
+  {
+    "n": 41,
+    "trials": 1428,
+    "best_projective_float": 517,
+    "fp_projective": 521,
+    "winner": {
+      "na": 20,
+      "nb": 21,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    }
+  },
+  {
+    "n": 42,
+    "trials": 1476,
+    "best_projective_float": 550,
+    "fp_projective": 546,
+    "winner": {
+      "na": 21,
+      "nb": 21,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 538
+  },
+  {
+    "n": 43,
+    "trials": 1560,
+    "best_projective_float": 570,
+    "fp_projective": 575,
+    "winner": {
+      "na": 21,
+      "nb": 22,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    }
+  },
+  {
+    "n": 44,
+    "trials": 1500,
+    "best_projective_float": 604,
+    "fp_projective": 604,
+    "winner": {
+      "na": 22,
+      "nb": 22,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 592
+  },
+  {
+    "n": 45,
+    "trials": 1464,
+    "best_projective_float": 627,
+    "fp_projective": 633,
+    "winner": {
+      "na": 22,
+      "nb": 23,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.4166666666666667
+    }
+  },
+  {
+    "n": 46,
+    "trials": 1500,
+    "best_projective_float": 662,
+    "fp_projective": 662,
+    "winner": {
+      "na": 23,
+      "nb": 23,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 650
+  },
+  {
+    "n": 47,
+    "trials": 1512,
+    "best_projective_float": 686,
+    "fp_projective": 691,
+    "winner": {
+      "na": 23,
+      "nb": 24,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    }
+  },
+  {
+    "n": 48,
+    "trials": 1488,
+    "best_projective_float": 724,
+    "fp_projective": 720,
+    "winner": {
+      "na": 24,
+      "nb": 24,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 710
+  },
+  {
+    "n": 49,
+    "trials": 1524,
+    "best_projective_float": 747,
+    "fp_projective": 753,
+    "winner": {
+      "na": 24,
+      "nb": 25,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    }
+  },
+  {
+    "n": 50,
+    "trials": 1536,
+    "best_projective_float": 786,
+    "fp_projective": 786,
+    "winner": {
+      "na": 25,
+      "nb": 25,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 773
+  },
+  {
+    "n": 51,
+    "trials": 1500,
+    "best_projective_float": 811,
+    "fp_projective": 819,
+    "winner": {
+      "na": 25,
+      "nb": 26,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.16666666666666666
+    }
+  },
+  {
+    "n": 52,
+    "trials": 1500,
+    "best_projective_float": 852,
+    "fp_projective": 852,
+    "winner": {
+      "na": 26,
+      "nb": 26,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 838
+  },
+  {
+    "n": 53,
+    "trials": 1428,
+    "best_projective_float": 879,
+    "fp_projective": 885,
+    "winner": {
+      "na": 26,
+      "nb": 27,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    }
+  },
+  {
+    "n": 54,
+    "trials": 1476,
+    "best_projective_float": 922,
+    "fp_projective": 918,
+    "winner": {
+      "na": 27,
+      "nb": 27,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 907
+  },
+  {
+    "n": 55,
+    "trials": 1584,
+    "best_projective_float": 948,
+    "fp_projective": 955,
+    "winner": {
+      "na": 27,
+      "nb": 28,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    }
+  },
+  {
+    "n": 56,
+    "trials": 1500,
+    "best_projective_float": 992,
+    "fp_projective": 992,
+    "winner": {
+      "na": 28,
+      "nb": 28,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 977
+  },
+  {
+    "n": 57,
+    "trials": 1464,
+    "best_projective_float": 1021,
+    "fp_projective": 1029,
+    "winner": {
+      "na": 28,
+      "nb": 29,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.4166666666666667
+    }
+  },
+  {
+    "n": 58,
+    "trials": 1452,
+    "best_projective_float": 1066,
+    "fp_projective": 1066,
+    "winner": {
+      "na": 29,
+      "nb": 29,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 1051
+  },
+  {
+    "n": 59,
+    "trials": 1488,
+    "best_projective_float": 1096,
+    "fp_projective": 1103,
+    "winner": {
+      "na": 29,
+      "nb": 30,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    }
+  },
+  {
+    "n": 60,
+    "trials": 1488,
+    "best_projective_float": 1144,
+    "fp_projective": 1140,
+    "winner": {
+      "na": 30,
+      "nb": 30,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 1127
+  },
+  {
+    "n": 61,
+    "trials": 1524,
+    "best_projective_float": 1173,
+    "fp_projective": 1181,
+    "winner": {
+      "na": 30,
+      "nb": 31,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    }
+  },
+  {
+    "n": 62,
+    "trials": 1536,
+    "best_projective_float": 1222,
+    "fp_projective": 1222,
+    "winner": {
+      "na": 31,
+      "nb": 31,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 1206
+  },
+  {
+    "n": 63,
+    "trials": 1524,
+    "best_projective_float": 1254,
+    "fp_projective": 1263,
+    "winner": {
+      "na": 31,
+      "nb": 32,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.4166666666666667
+    }
+  },
+  {
+    "n": 64,
+    "trials": 1500,
+    "best_projective_float": 1304,
+    "fp_projective": 1304,
+    "winner": {
+      "na": 32,
+      "nb": 32,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 1287
+  },
+  {
+    "n": 65,
+    "trials": 1428,
+    "best_projective_float": 1337,
+    "fp_projective": 1345,
+    "winner": {
+      "na": 32,
+      "nb": 33,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    }
+  },
+  {
+    "n": 66,
+    "trials": 1500,
+    "best_projective_float": 1390,
+    "fp_projective": 1386,
+    "winner": {
+      "na": 33,
+      "nb": 33,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 1372
+  },
+  {
+    "n": 67,
+    "trials": 1560,
+    "best_projective_float": 1422,
+    "fp_projective": 1431,
+    "winner": {
+      "na": 33,
+      "nb": 34,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    }
+  },
+  {
+    "n": 68,
+    "trials": 1500,
+    "best_projective_float": 1476,
+    "fp_projective": 1476,
+    "winner": {
+      "na": 34,
+      "nb": 34,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 1458
+  },
+  {
+    "n": 69,
+    "trials": 1464,
+    "best_projective_float": 1511,
+    "fp_projective": 1521,
+    "winner": {
+      "na": 34,
+      "nb": 35,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.4166666666666667
+    }
+  },
+  {
+    "n": 70,
+    "trials": 1476,
+    "best_projective_float": 1566,
+    "fp_projective": 1566,
+    "winner": {
+      "na": 35,
+      "nb": 35,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 1548
+  },
+  {
+    "n": 71,
+    "trials": 1512,
+    "best_projective_float": 1602,
+    "fp_projective": 1611,
+    "winner": {
+      "na": 35,
+      "nb": 36,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    }
+  },
+  {
+    "n": 72,
+    "trials": 1488,
+    "best_projective_float": 1660,
+    "fp_projective": 1656,
+    "winner": {
+      "na": 36,
+      "nb": 36,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 1640
+  },
+  {
+    "n": 73,
+    "trials": 1524,
+    "best_projective_float": 1695,
+    "fp_projective": 1705,
+    "winner": {
+      "na": 36,
+      "nb": 37,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    }
+  },
+  {
+    "n": 74,
+    "trials": 1512,
+    "best_projective_float": 1754,
+    "fp_projective": 1754,
+    "winner": {
+      "na": 37,
+      "nb": 37,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 1735
+  },
+  {
+    "n": 75,
+    "trials": 1500,
+    "best_projective_float": 1791,
+    "fp_projective": 1803,
+    "winner": {
+      "na": 37,
+      "nb": 38,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.16666666666666666
+    }
+  },
+  {
+    "n": 76,
+    "trials": 1500,
+    "best_projective_float": 1852,
+    "fp_projective": 1852,
+    "winner": {
+      "na": 38,
+      "nb": 38,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 1832
+  },
+  {
+    "n": 77,
+    "trials": 1428,
+    "best_projective_float": 1891,
+    "fp_projective": 1901,
+    "winner": {
+      "na": 38,
+      "nb": 39,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    }
+  },
+  {
+    "n": 78,
+    "trials": 1500,
+    "best_projective_float": 1954,
+    "fp_projective": 1950,
+    "winner": {
+      "na": 39,
+      "nb": 39,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 1933
+  },
+  {
+    "n": 79,
+    "trials": 1584,
+    "best_projective_float": 1992,
+    "fp_projective": 2003,
+    "winner": {
+      "na": 39,
+      "nb": 40,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    }
+  },
+  {
+    "n": 80,
+    "trials": 1500,
+    "best_projective_float": 2056,
+    "fp_projective": 2056,
+    "winner": {
+      "na": 40,
+      "nb": 40,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 2035
+  },
+  {
+    "n": 81,
+    "trials": 1464,
+    "best_projective_float": 2097,
+    "fp_projective": 2109,
+    "winner": {
+      "na": 40,
+      "nb": 41,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.4166666666666667
+    }
+  },
+  {
+    "n": 82,
+    "trials": 1476,
+    "best_projective_float": 2162,
+    "fp_projective": 2162,
+    "winner": {
+      "na": 41,
+      "nb": 41,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 2141
+  },
+  {
+    "n": 83,
+    "trials": 1488,
+    "best_projective_float": 2204,
+    "fp_projective": 2215,
+    "winner": {
+      "na": 41,
+      "nb": 42,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    }
+  },
+  {
+    "n": 84,
+    "trials": 1488,
+    "best_projective_float": 2272,
+    "fp_projective": 2268,
+    "winner": {
+      "na": 42,
+      "nb": 42,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 2249
+  },
+  {
+    "n": 85,
+    "trials": 1524,
+    "best_projective_float": 2313,
+    "fp_projective": 2325,
+    "winner": {
+      "na": 42,
+      "nb": 43,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    }
+  },
+  {
+    "n": 86,
+    "trials": 1512,
+    "best_projective_float": 2382,
+    "fp_projective": 2382,
+    "winner": {
+      "na": 43,
+      "nb": 43,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 2360
+  },
+  {
+    "n": 87,
+    "trials": 1524,
+    "best_projective_float": 2426,
+    "fp_projective": 2439,
+    "winner": {
+      "na": 43,
+      "nb": 44,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.4166666666666667
+    }
+  },
+  {
+    "n": 88,
+    "trials": 1500,
+    "best_projective_float": 2496,
+    "fp_projective": 2496,
+    "winner": {
+      "na": 44,
+      "nb": 44,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 2473
+  },
+  {
+    "n": 89,
+    "trials": 1428,
+    "best_projective_float": 2541,
+    "fp_projective": 2553,
+    "winner": {
+      "na": 44,
+      "nb": 45,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    }
+  },
+  {
+    "n": 90,
+    "trials": 1476,
+    "best_projective_float": 2614,
+    "fp_projective": 2610,
+    "winner": {
+      "na": 45,
+      "nb": 45,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 2589
+  },
+  {
+    "n": 91,
+    "trials": 1560,
+    "best_projective_float": 2658,
+    "fp_projective": 2671,
+    "winner": {
+      "na": 45,
+      "nb": 46,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    }
+  },
+  {
+    "n": 92,
+    "trials": 1500,
+    "best_projective_float": 2732,
+    "fp_projective": 2732,
+    "winner": {
+      "na": 46,
+      "nb": 46,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 2708
+  },
+  {
+    "n": 93,
+    "trials": 1464,
+    "best_projective_float": 2779,
+    "fp_projective": 2793,
+    "winner": {
+      "na": 46,
+      "nb": 47,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.4166666666666667
+    }
+  },
+  {
+    "n": 94,
+    "trials": 1500,
+    "best_projective_float": 2854,
+    "fp_projective": 2854,
+    "winner": {
+      "na": 47,
+      "nb": 47,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 2830
+  },
+  {
+    "n": 95,
+    "trials": 1512,
+    "best_projective_float": 2902,
+    "fp_projective": 2915,
+    "winner": {
+      "na": 47,
+      "nb": 48,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    }
+  },
+  {
+    "n": 96,
+    "trials": 1488,
+    "best_projective_float": 2980,
+    "fp_projective": 2976,
+    "winner": {
+      "na": 48,
+      "nb": 48,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 2954
+  },
+  {
+    "n": 97,
+    "trials": 1524,
+    "best_projective_float": 3027,
+    "fp_projective": 3041,
+    "winner": {
+      "na": 48,
+      "nb": 49,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    }
+  },
+  {
+    "n": 98,
+    "trials": 1536,
+    "best_projective_float": 3106,
+    "fp_projective": 3106,
+    "winner": {
+      "na": 49,
+      "nb": 49,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 3080
+  },
+  {
+    "n": 99,
+    "trials": 1500,
+    "best_projective_float": 3155,
+    "fp_projective": 3171,
+    "winner": {
+      "na": 49,
+      "nb": 50,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.16666666666666666
+    }
+  },
+  {
+    "n": 100,
+    "trials": 1500,
+    "best_projective_float": 3236,
+    "fp_projective": 3236,
+    "winner": {
+      "na": 50,
+      "nb": 50,
+      "modulus": 0.03,
+      "phasea": 0.08333333333333333,
+      "phaseb": 0.08333333333333333
+    },
+    "exact_affine_count": 3210
+  }
+]

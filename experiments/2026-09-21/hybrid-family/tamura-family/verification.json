@@ -1,0 +1,110 @@
+[
+  {
+    "file": "n005.json",
+    "n": 5,
+    "triangles": 5,
+    "pass_check": true,
+    "adjacency_count": 5,
+    "simple": true,
+    "seconds": 0.015
+  },
+  {
+    "file": "n006.json",
+    "n": 6,
+    "triangles": 7,
+    "pass_check": true,
+    "adjacency_count": 7,
+    "simple": true,
+    "seconds": 0.0
+  },
+  {
+    "file": "n009.json",
+    "n": 9,
+    "triangles": 21,
+    "pass_check": true,
+    "adjacency_count": 21,
+    "simple": true,
+    "seconds": 0.015
+  },
+  {
+    "file": "n010.json",
+    "n": 10,
+    "triangles": 25,
+    "pass_check": true,
+    "adjacency_count": 25,
+    "simple": true,
+    "seconds": 0.015
+  },
+  {
+    "file": "n017.json",
+    "n": 17,
+    "triangles": 85,
+    "pass_check": true,
+    "adjacency_count": 85,
+    "simple": true,
+    "seconds": 0.047
+  },
+  {
+    "file": "n018.json",
+    "n": 18,
+    "triangles": 93,
+    "pass_check": true,
+    "adjacency_count": 93,
+    "simple": true,
+    "seconds": 0.063
+  },
+  {
+    "file": "n033.json",
+    "n": 33,
+    "triangles": 341,
+    "pass_check": true,
+    "adjacency_count": 341,
+    "simple": true,
+    "seconds": 0.39
+  },
+  {
+    "file": "n034.json",
+    "n": 34,
+    "triangles": 357,
+    "pass_check": true,
+    "adjacency_count": 357,
+    "simple": true,
+    "seconds": 0.391
+  },
+  {
+    "file": "n065.json",
+    "n": 65,
+    "triangles": 1365,
+    "pass_check": true,
+    "adjacency_count": 1365,
+    "simple": true,
+    "seconds": 3.421
+  },
+  {
+    "file": "n066.json",
+    "n": 66,
+    "triangles": 1397,
+    "pass_check": true,
+    "adjacency_count": 1397,
+    "simple": true,
+    "seconds": 3.531
+  },
+  {
+    "file": "n129.json",
+    "n": 129,
+    "triangles": 5461,
+    "pass_check": true,
+    "adjacency_count": 5461,
+    "simple": true,
+    "seconds": 35.672
+  },
+  {
+    "file": "n130.json",
+    "n": 130,
+    "triangles": 5525,
+    "pass_check": true,
+    "adjacency_count": 5525,
+    "simple": true,
+    "seconds": 34.25
+  }
+]

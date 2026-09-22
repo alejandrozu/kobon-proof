@@ -1,0 +1,131 @@
+ℹ [775/916] Replayed Kobon.Geometry
+info: Kobon/Geometry.lean:144:0: 'Kobon.validate_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Geometry.lean:145:0: 'Kobon.orientedEval_affine' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [856/916] Replayed Kobon.Euclidean
+info: Kobon/Euclidean.lean:147:0: 'Kobon.supporting_triangle_nondegenerate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Euclidean.lean:148:0: 'Kobon.same_halfplane_barycenter' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Euclidean.lean:149:0: 'Kobon.triangle_interior_uncut' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [857/916] Replayed Kobon.Simple
+info: Kobon/Simple.lean:49:0: 'Kobon.validate_simple_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [955/1050] Replayed Kobon.Exterior
+info: Kobon/Exterior.lean:207:0: 'Kobon.Exterior.extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Exterior.lean:208:0: 'Kobon.Exterior.safeHeight_beyond' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [981/1050] Replayed Kobon.Parametric
+info: Kobon/Parametric.lean:183:0: 'Kobon.Parametric.triangle_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Parametric.lean:184:0: 'Kobon.Parametric.simple_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1921/2003] Replayed Kobon.TangentBounds
+info: Kobon/TangentBounds.lean:95:0: 'Kobon.TangentBounds.tan_tenth_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/TangentBounds.lean:96:0: 'Kobon.TangentBounds.tan_two_fifths_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1922/2003] Replayed Kobon.SeedFamily
+info: Kobon/SeedFamily.lean:133:0: 'Kobon.SeedFamily.arbitrarily_small' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/SeedFamily.lean:134:0: 'Kobon.SeedFamily.simple_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1925/2003] Replayed Kobon.HybridBoundary
+info: Kobon/HybridBoundary.lean:164:0: 'Kobon.HybridBoundary.seed_exterior' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1926/2003] Replayed Kobon.BBLExtrema
+info: Kobon/BBLExtrema.lean:205:0: 'Kobon.BBLExtrema.extremal_visible' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BBLExtrema.lean:206:0: 'Kobon.BBLExtrema.extremal_preserved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BBLExtrema.lean:207:0: 'Kobon.BBLExtrema.visible_extremal_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1927/2003] Replayed Kobon.BBLTriangles
+info: Kobon/BBLTriangles.lean:128:0: 'Kobon.BBLTriangles.triangle_of_two_sides' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BBLTriangles.lean:194:0: 'Kobon.BBLTriangles.triangle_of_last_two_sides' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [1928/2003] Replayed Kobon.BBLRowOrder
+warning: Kobon/BBLRowOrder.lean:32:34: Variable name `hne` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Kobon/BBLRowOrder.lean:50:34: Variable name `hik` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Kobon/BBLRowOrder.lean:51:34: Variable name `hil` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Kobon/BBLRowOrder.lean:60:34: Variable name `hik` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Kobon/BBLRowOrder.lean:61:34: Variable name `hil` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Kobon/BBLRowOrder.lean:70:48: Variable name `hjl` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: Kobon/BBLRowOrder.lean:78:0: 'Kobon.BBLRowOrder.newKey_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BBLRowOrder.lean:79:0: 'Kobon.BBLRowOrder.auxiliary_outside_of_close' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [1929/2003] Replayed Kobon.BBLLiftedKeys
+warning: Kobon/BBLLiftedKeys.lean:20:5: Variable name `hi` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Kobon/BBLLiftedKeys.lean:20:18: Variable name `hk` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Kobon/BBLLiftedKeys.lean:27:5: Variable name `hi` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Kobon/BBLLiftedKeys.lean:27:18: Variable name `hk` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Kobon/BBLLiftedKeys.lean:28:34: Variable name `hil` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Kobon/BBLLiftedKeys.lean:69:31: Variable name `hj` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Kobon/BBLLiftedKeys.lean:78:31: Variable name `hj` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: Kobon/BBLLiftedKeys.lean:86:0: 'Kobon.BBLLiftedKeys.lifted_new_le_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BBLLiftedKeys.lean:87:0: 'Kobon.BBLLiftedKeys.lifted_old_le_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BBLLiftedKeys.lean:88:0: 'Kobon.BBLLiftedKeys.lifted_le_old_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BBLLiftedKeys.lean:109:0: 'Kobon.BBLLiftedKeys.lifted_anchor' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [2978/2980] Replayed Kobon.BBLCount
+warning: Kobon/BBLCount.lean:50:12: This simp argument is unused:
+  hdne
+
+Hint: Omit it from the simp argument list.
+  simp [̵h̵e̵q̵,̵h̵d̵n̵e̵,̵o̵u̵t̵s̵i̵d̵e̵,̵h̵l̵,̵h̵h̵]̵[̲h̲e̲q̲,̲ ̲o̲u̲t̲s̲i̲d̲e̲,̲ ̲h̲l̲,̲ ̲h̲h̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Kobon/BBLCount.lean:153:33: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Kobon/BBLCount.lean:210:32: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Kobon/BBLCount.lean:210:46: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: Kobon/BBLCount.lean:226:0: 'Kobon.BBLCount.mixed_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [2979/2980] Replayed Kobon.BBLRowGeometry
+warning: Kobon/BBLRowGeometry.lean:50:12: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: Kobon/BBLRowGeometry.lean:112:0: 'Kobon.BBLRowGeometry.mixed_triangle' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BBLRowGeometry.lean:113:0: 'Kobon.BBLRowGeometry.mixed_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2980/2980] Replayed Kobon.BBLLiftedRows
+info: Kobon/BBLLiftedRows.lean:53:0: 'Kobon.BBLLiftedRows.liftedCrossKey_le_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BBLLiftedRows.lean:54:0: 'Kobon.BBLLiftedRows.liftedCrossKey_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (2980 jobs).

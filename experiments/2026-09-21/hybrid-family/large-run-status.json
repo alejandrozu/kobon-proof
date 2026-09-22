@@ -1,0 +1,7 @@
+{
+  "stopped_at_utc": "2026-09-22 06:45",
+  "reason": "User shortened the research session to three hours; stopped the optional large exact counter to prioritize complete formal proofs and release verification.",
+  "verified_orders": [321, 322, 641],
+  "uncompleted_orders": [642],
+  "claim": "Orders321,322,641 completed both exact counters. Order641 has136532 triangles and took4786.156seconds. Order642 passed the adjacency counter and simplicity checks before writing its coordinates, but its independent direct counter was interrupted; it is not promoted as a completed dual-counter certificate."
+}

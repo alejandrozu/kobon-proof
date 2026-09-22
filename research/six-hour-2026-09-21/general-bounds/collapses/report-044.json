@@ -1,0 +1,13 @@
+{
+  "n": 44,
+  "source": "research/finite-table/classical-044.json",
+  "base_triangles": 608,
+  "boundary_histogram": {
+    "single--1": 608,
+    "pair--2": 35168,
+    "pair--1": 184
+  },
+  "candidates": 0,
+  "attempts": [],
+  "seconds": 35.90599999995902
+}

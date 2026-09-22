@@ -1,0 +1,33 @@
+{
+  "n": 14,
+  "source": "experiments/2026-09-21/construction-search/half-phase-14.json",
+  "initial": 52,
+  "projective": 54,
+  "minimum": 53,
+  "result": "unsat",
+  "seconds": 0.4572162628173828,
+  "checks": 18,
+  "method": "unsat-core branching",
+  "scope": "Fixed projective arrangement only; UNSAT is solver evidence, not Lean-verified.",
+  "cores": [
+    [
+      3,
+      4,
+      9,
+      10,
+      17,
+      18,
+      25,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      43,
+      49,
+      51,
+      52
+    ]
+  ]
+}

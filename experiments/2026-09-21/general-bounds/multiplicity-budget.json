@@ -1,0 +1,1307 @@
+{
+  "records": [
+    {
+      "source": "research\\finite-table\\classical-003.json",
+      "n": 3,
+      "triangles": 1,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 3
+      },
+      "bounded_segments": 3,
+      "unused_segments": 0,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 0,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-004.json",
+      "n": 4,
+      "triangles": 2,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 6
+      },
+      "bounded_segments": 8,
+      "unused_segments": 2,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 2,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-005.json",
+      "n": 5,
+      "triangles": 5,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 10
+      },
+      "bounded_segments": 15,
+      "unused_segments": 0,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 0,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-006.json",
+      "n": 6,
+      "triangles": 7,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 15
+      },
+      "bounded_segments": 24,
+      "unused_segments": 3,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 3,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-007.json",
+      "n": 7,
+      "triangles": 11,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 21
+      },
+      "bounded_segments": 35,
+      "unused_segments": 2,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 2,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-008.json",
+      "n": 8,
+      "triangles": 14,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 28
+      },
+      "bounded_segments": 48,
+      "unused_segments": 6,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 6,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-009.json",
+      "n": 9,
+      "triangles": 21,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 36
+      },
+      "bounded_segments": 63,
+      "unused_segments": 0,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 0,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-010.json",
+      "n": 10,
+      "triangles": 25,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 45
+      },
+      "bounded_segments": 80,
+      "unused_segments": 5,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 5,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-011.json",
+      "n": 11,
+      "triangles": 32,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 55
+      },
+      "bounded_segments": 99,
+      "unused_segments": 3,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 3,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-012.json",
+      "n": 12,
+      "triangles": 38,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 54,
+        "3": 4
+      },
+      "bounded_segments": 108,
+      "unused_segments": 2,
+      "double_used_segments": 8,
+      "concurrency_segment_penalty": 12,
+      "defect": 6,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-013.json",
+      "n": 13,
+      "triangles": 47,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 78
+      },
+      "bounded_segments": 143,
+      "unused_segments": 2,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 2,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-014.json",
+      "n": 14,
+      "triangles": 53,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 91
+      },
+      "bounded_segments": 168,
+      "unused_segments": 9,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 9,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-015.json",
+      "n": 15,
+      "triangles": 65,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 105
+      },
+      "bounded_segments": 195,
+      "unused_segments": 0,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 0,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-016.json",
+      "n": 16,
+      "triangles": 72,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 120
+      },
+      "bounded_segments": 224,
+      "unused_segments": 8,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 8,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-017.json",
+      "n": 17,
+      "triangles": 85,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 136
+      },
+      "bounded_segments": 255,
+      "unused_segments": 0,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 0,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-018.json",
+      "n": 18,
+      "triangles": 93,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 153
+      },
+      "bounded_segments": 288,
+      "unused_segments": 9,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 9,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-019.json",
+      "n": 19,
+      "triangles": 107,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 171
+      },
+      "bounded_segments": 323,
+      "unused_segments": 2,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 2,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-020.json",
+      "n": 20,
+      "triangles": 116,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 190
+      },
+      "bounded_segments": 360,
+      "unused_segments": 12,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 12,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-021.json",
+      "n": 21,
+      "triangles": 133,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 210
+      },
+      "bounded_segments": 399,
+      "unused_segments": 0,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 0,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-022.json",
+      "n": 22,
+      "triangles": 143,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 231
+      },
+      "bounded_segments": 440,
+      "unused_segments": 11,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 11,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-023.json",
+      "n": 23,
+      "triangles": 161,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 253
+      },
+      "bounded_segments": 483,
+      "unused_segments": 0,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 0,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-024.json",
+      "n": 24,
+      "triangles": 172,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 276
+      },
+      "bounded_segments": 528,
+      "unused_segments": 12,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 12,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-025.json",
+      "n": 25,
+      "triangles": 191,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 300
+      },
+      "bounded_segments": 575,
+      "unused_segments": 2,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 2,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-026.json",
+      "n": 26,
+      "triangles": 203,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 325
+      },
+      "bounded_segments": 624,
+      "unused_segments": 15,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 15,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-027.json",
+      "n": 27,
+      "triangles": 225,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 351
+      },
+      "bounded_segments": 675,
+      "unused_segments": 0,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 0,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-028.json",
+      "n": 28,
+      "triangles": 238,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 378
+      },
+      "bounded_segments": 728,
+      "unused_segments": 14,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 14,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-029.json",
+      "n": 29,
+      "triangles": 261,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 406
+      },
+      "bounded_segments": 783,
+      "unused_segments": 0,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 0,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-030.json",
+      "n": 30,
+      "triangles": 275,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 435
+      },
+      "bounded_segments": 840,
+      "unused_segments": 15,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 15,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-031.json",
+      "n": 31,
+      "triangles": 299,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 465
+      },
+      "bounded_segments": 899,
+      "unused_segments": 2,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 2,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-032.json",
+      "n": 32,
+      "triangles": 314,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 496
+      },
+      "bounded_segments": 960,
+      "unused_segments": 18,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 18,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-033.json",
+      "n": 33,
+      "triangles": 341,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 528
+      },
+      "bounded_segments": 1023,
+      "unused_segments": 0,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 0,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-034.json",
+      "n": 34,
+      "triangles": 357,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 561
+      },
+      "bounded_segments": 1088,
+      "unused_segments": 17,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 17,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-035.json",
+      "n": 35,
+      "triangles": 385,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 595
+      },
+      "bounded_segments": 1155,
+      "unused_segments": 0,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 0,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-036.json",
+      "n": 36,
+      "triangles": 402,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 630
+      },
+      "bounded_segments": 1224,
+      "unused_segments": 18,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 18,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-037.json",
+      "n": 37,
+      "triangles": 431,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 666
+      },
+      "bounded_segments": 1295,
+      "unused_segments": 2,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 2,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-038.json",
+      "n": 38,
+      "triangles": 449,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 703
+      },
+      "bounded_segments": 1368,
+      "unused_segments": 21,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 21,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-039.json",
+      "n": 39,
+      "triangles": 469,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 732,
+        "3": 3
+      },
+      "bounded_segments": 1434,
+      "unused_segments": 33,
+      "double_used_segments": 6,
+      "concurrency_segment_penalty": 9,
+      "defect": 36,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-040.json",
+      "n": 40,
+      "triangles": 494,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 780
+      },
+      "bounded_segments": 1520,
+      "unused_segments": 38,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 38,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-041.json",
+      "n": 41,
+      "triangles": 533,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 820
+      },
+      "bounded_segments": 1599,
+      "unused_segments": 0,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 0,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-042.json",
+      "n": 42,
+      "triangles": 553,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 861
+      },
+      "bounded_segments": 1680,
+      "unused_segments": 21,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 21,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-043.json",
+      "n": 43,
+      "triangles": 587,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 903
+      },
+      "bounded_segments": 1763,
+      "unused_segments": 2,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 2,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-044.json",
+      "n": 44,
+      "triangles": 608,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 946
+      },
+      "bounded_segments": 1848,
+      "unused_segments": 24,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 24,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-045.json",
+      "n": 45,
+      "triangles": 645,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 990
+      },
+      "bounded_segments": 1935,
+      "unused_segments": 0,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 0,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-046.json",
+      "n": 46,
+      "triangles": 667,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 1035
+      },
+      "bounded_segments": 2024,
+      "unused_segments": 23,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 23,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-047.json",
+      "n": 47,
+      "triangles": 690,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 1081
+      },
+      "bounded_segments": 2115,
+      "unused_segments": 45,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 45,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-048.json",
+      "n": 48,
+      "triangles": 720,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 1128
+      },
+      "bounded_segments": 2208,
+      "unused_segments": 48,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 48,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-049.json",
+      "n": 49,
+      "triangles": 767,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 1176
+      },
+      "bounded_segments": 2303,
+      "unused_segments": 2,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 2,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-050.json",
+      "n": 50,
+      "triangles": 791,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 1225
+      },
+      "bounded_segments": 2400,
+      "unused_segments": 27,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 27,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-051.json",
+      "n": 51,
+      "triangles": 817,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 1269,
+        "3": 2
+      },
+      "bounded_segments": 2493,
+      "unused_segments": 46,
+      "double_used_segments": 4,
+      "concurrency_segment_penalty": 6,
+      "defect": 48,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-052.json",
+      "n": 52,
+      "triangles": 850,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 1326
+      },
+      "bounded_segments": 2600,
+      "unused_segments": 50,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 50,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-053.json",
+      "n": 53,
+      "triangles": 884,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 1378
+      },
+      "bounded_segments": 2703,
+      "unused_segments": 51,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 51,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-054.json",
+      "n": 54,
+      "triangles": 918,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 1431
+      },
+      "bounded_segments": 2808,
+      "unused_segments": 54,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 54,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-055.json",
+      "n": 55,
+      "triangles": 954,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 1485
+      },
+      "bounded_segments": 2915,
+      "unused_segments": 53,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 53,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-056.json",
+      "n": 56,
+      "triangles": 990,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 1540
+      },
+      "bounded_segments": 3024,
+      "unused_segments": 54,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 54,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-057.json",
+      "n": 57,
+      "triangles": 1045,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 1596
+      },
+      "bounded_segments": 3135,
+      "unused_segments": 0,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 0,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-058.json",
+      "n": 58,
+      "triangles": 1073,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 1653
+      },
+      "bounded_segments": 3248,
+      "unused_segments": 29,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 29,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-059.json",
+      "n": 59,
+      "triangles": 1102,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 1711
+      },
+      "bounded_segments": 3363,
+      "unused_segments": 57,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 57,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\classical-060.json",
+      "n": 60,
+      "triangles": 1140,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 1770
+      },
+      "bounded_segments": 3480,
+      "unused_segments": 60,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 60,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\simple-012.json",
+      "n": 12,
+      "triangles": 37,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 66
+      },
+      "bounded_segments": 120,
+      "unused_segments": 9,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 9,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\simple-039.json",
+      "n": 39,
+      "triangles": 468,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 741
+      },
+      "bounded_segments": 1443,
+      "unused_segments": 39,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 39,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\finite-table\\simple-051.json",
+      "n": 51,
+      "triangles": 816,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 1275
+      },
+      "bounded_segments": 2499,
+      "unused_segments": 51,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 51,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\kobon-extension\\certificates\\alternation_5.json",
+      "n": 5,
+      "triangles": 3,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 10
+      },
+      "bounded_segments": 15,
+      "unused_segments": 6,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 6,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\kobon-extension\\certificates\\alternation_6.json",
+      "n": 6,
+      "triangles": 4,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 15
+      },
+      "bounded_segments": 24,
+      "unused_segments": 12,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 12,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\kobon-extension\\certificates\\chain_19.json",
+      "n": 19,
+      "triangles": 107,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 171
+      },
+      "bounded_segments": 323,
+      "unused_segments": 2,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 2,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\kobon-extension\\certificates\\chain_21.json",
+      "n": 21,
+      "triangles": 126,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 210
+      },
+      "bounded_segments": 399,
+      "unused_segments": 21,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 21,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\kobon-extension\\certificates\\chain_5.json",
+      "n": 5,
+      "triangles": 5,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 10
+      },
+      "bounded_segments": 15,
+      "unused_segments": 0,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 0,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\kobon-extension\\certificates\\chain_7.json",
+      "n": 7,
+      "triangles": 10,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 21
+      },
+      "bounded_segments": 35,
+      "unused_segments": 5,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 5,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\kobon-hybrid\\certificates\\n021.json",
+      "n": 21,
+      "triangles": 132,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 210
+      },
+      "bounded_segments": 399,
+      "unused_segments": 3,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 3,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\kobon-hybrid\\certificates\\n022.json",
+      "n": 22,
+      "triangles": 142,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 231
+      },
+      "bounded_segments": 440,
+      "unused_segments": 14,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 14,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\kobon-hybrid\\certificates\\n041.json",
+      "n": 41,
+      "triangles": 532,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 820
+      },
+      "bounded_segments": 1599,
+      "unused_segments": 3,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 3,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\kobon-hybrid\\certificates\\n042.json",
+      "n": 42,
+      "triangles": 552,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 861
+      },
+      "bounded_segments": 1680,
+      "unused_segments": 24,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 24,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\kobon-hybrid\\certificates\\n081.json",
+      "n": 81,
+      "triangles": 2132,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 3240
+      },
+      "bounded_segments": 6399,
+      "unused_segments": 3,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 3,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\kobon-hybrid\\certificates\\n082.json",
+      "n": 82,
+      "triangles": 2172,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 3321
+      },
+      "bounded_segments": 6560,
+      "unused_segments": 44,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 44,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\kobon-hybrid\\certificates\\n161.json",
+      "n": 161,
+      "triangles": 8532,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 12880
+      },
+      "bounded_segments": 25599,
+      "unused_segments": 3,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 3,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\kobon-hybrid\\certificates\\n162.json",
+      "n": 162,
+      "triangles": 8612,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 13041
+      },
+      "bounded_segments": 25920,
+      "unused_segments": 84,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 84,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\kobon-own-results\\certificates\\n009.json",
+      "n": 9,
+      "triangles": 19,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 30,
+        "3": 2
+      },
+      "bounded_segments": 57,
+      "unused_segments": 4,
+      "double_used_segments": 4,
+      "concurrency_segment_penalty": 6,
+      "defect": 6,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\kobon-own-results\\certificates\\n015.json",
+      "n": 15,
+      "triangles": 61,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 99,
+        "3": 2
+      },
+      "bounded_segments": 189,
+      "unused_segments": 10,
+      "double_used_segments": 4,
+      "concurrency_segment_penalty": 6,
+      "defect": 12,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\kobon-own-results\\certificates\\n021.json",
+      "n": 21,
+      "triangles": 127,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 192,
+        "3": 6
+      },
+      "bounded_segments": 381,
+      "unused_segments": 12,
+      "double_used_segments": 12,
+      "concurrency_segment_penalty": 18,
+      "defect": 18,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\kobon-own-results\\certificates\\n027.json",
+      "n": 27,
+      "triangles": 217,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 345,
+        "3": 2
+      },
+      "bounded_segments": 669,
+      "unused_segments": 22,
+      "double_used_segments": 4,
+      "concurrency_segment_penalty": 6,
+      "defect": 24,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\kobon-own-results\\certificates\\n033.json",
+      "n": 33,
+      "triangles": 331,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 516,
+        "3": 4
+      },
+      "bounded_segments": 1011,
+      "unused_segments": 26,
+      "double_used_segments": 8,
+      "concurrency_segment_penalty": 12,
+      "defect": 30,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\kobon-own-results\\certificates\\n048.json",
+      "n": 48,
+      "triangles": 715,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 1122,
+        "3": 2
+      },
+      "bounded_segments": 2202,
+      "unused_segments": 61,
+      "double_used_segments": 4,
+      "concurrency_segment_penalty": 6,
+      "defect": 63,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\kobon-own-results\\certificates\\n099.json",
+      "n": 99,
+      "triangles": 3169,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 4845,
+        "3": 2
+      },
+      "bounded_segments": 9597,
+      "unused_segments": 94,
+      "double_used_segments": 4,
+      "concurrency_segment_penalty": 6,
+      "defect": 96,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\kobon-own-results\\certificates\\n195.json",
+      "n": 195,
+      "triangles": 12481,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 18909,
+        "3": 2
+      },
+      "bounded_segments": 37629,
+      "unused_segments": 190,
+      "double_used_segments": 4,
+      "concurrency_segment_penalty": 6,
+      "defect": 192,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\kobon-own-results\\comparison-certificates\\fp-195.json",
+      "n": 195,
+      "triangles": 12480,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 18915
+      },
+      "bounded_segments": 37635,
+      "unused_segments": 195,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 195,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\kobon-own-results\\comparison-certificates\\fp-44.json",
+      "n": 44,
+      "triangles": 602,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 946
+      },
+      "bounded_segments": 1848,
+      "unused_segments": 42,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 42,
+      "exact_identity_verified": true
+    },
+    {
+      "source": "research\\kobon-own-results\\comparison-certificates\\fp-99.json",
+      "n": 99,
+      "triangles": 3168,
+      "parallel_pairs": 0,
+      "intersection_multiplicities": {
+        "2": 4851
+      },
+      "bounded_segments": 9603,
+      "unused_segments": 99,
+      "double_used_segments": 0,
+      "concurrency_segment_penalty": 0,
+      "defect": 99,
+      "exact_identity_verified": true
+    }
+  ],
+  "seconds": 32.31300000002375,
+  "formula": "n(n-2)-3T = 2P + sum_r r(r-2)t_r + q-n + U-D"
+}

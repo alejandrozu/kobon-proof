@@ -1,0 +1,578 @@
+[
+  {
+    "n": 7,
+    "initial_affine": 10,
+    "projective_triangles": 14,
+    "best_float": 10,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "minimum_order_gap": 0.3765101981412663,
+    "proposals": 220,
+    "history": [],
+    "seconds": 0.031000000017229468,
+    "status": "floating proposal, exact modular concurrency grouping; not a proof"
+  },
+  {
+    "n": 8,
+    "initial_affine": 14,
+    "projective_triangles": 18,
+    "best_float": 14,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "minimum_order_gap": 0.2928932188134523,
+    "proposals": 364,
+    "history": [],
+    "seconds": 0.0,
+    "status": "floating proposal, exact modular concurrency grouping; not a proof"
+  },
+  {
+    "n": 10,
+    "initial_affine": 24,
+    "projective_triangles": 28,
+    "best_float": 24,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "minimum_order_gap": 0.19098300562505244,
+    "proposals": 840,
+    "history": [],
+    "seconds": 0.0,
+    "status": "floating proposal, exact modular concurrency grouping; not a proof"
+  },
+  {
+    "n": 11,
+    "initial_affine": 30,
+    "projective_triangles": 34,
+    "best_float": 30,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "minimum_order_gap": 0.15874646716881846,
+    "proposals": 1200,
+    "history": [],
+    "seconds": 0.0,
+    "status": "floating proposal, exact modular concurrency grouping; not a proof"
+  },
+  {
+    "n": 13,
+    "initial_affine": 44,
+    "projective_triangles": 48,
+    "best_float": 44,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "minimum_order_gap": 0.11454397434678976,
+    "proposals": 2244,
+    "history": [],
+    "seconds": 0.015000000013969839,
+    "status": "floating proposal, exact modular concurrency grouping; not a proof"
+  },
+  {
+    "n": 14,
+    "initial_affine": 52,
+    "projective_triangles": 56,
+    "best_float": 52,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "minimum_order_gap": 0.09903113209758041,
+    "proposals": 2964,
+    "history": [],
+    "seconds": 0.01600000000325963,
+    "status": "floating proposal, exact modular concurrency grouping; not a proof"
+  },
+  {
+    "n": 16,
+    "initial_affine": 70,
+    "projective_triangles": 74,
+    "best_float": 70,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "minimum_order_gap": 0.07612046748871293,
+    "proposals": 4900,
+    "history": [],
+    "seconds": 0.01600000000325963,
+    "status": "floating proposal, exact modular concurrency grouping; not a proof"
+  },
+  {
+    "n": 17,
+    "initial_affine": 80,
+    "projective_triangles": 84,
+    "best_float": 80,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "minimum_order_gap": 0.06752777059564374,
+    "proposals": 6160,
+    "history": [],
+    "seconds": 0.031000000017229468,
+    "status": "floating proposal, exact modular concurrency grouping; not a proof"
+  },
+  {
+    "n": 19,
+    "initial_affine": 102,
+    "projective_triangles": 106,
+    "best_float": 102,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "minimum_order_gap": 0.05418275829936492,
+    "proposals": 9384,
+    "history": [],
+    "seconds": 0.0470000000204891,
+    "status": "floating proposal, exact modular concurrency grouping; not a proof"
+  },
+  {
+    "n": 20,
+    "initial_affine": 114,
+    "projective_triangles": 118,
+    "best_float": 114,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "minimum_order_gap": 0.04894348370484625,
+    "proposals": 11400,
+    "history": [],
+    "seconds": 0.061999999976251274,
+    "status": "floating proposal, exact modular concurrency grouping; not a proof"
+  },
+  {
+    "n": 22,
+    "initial_affine": 140,
+    "projective_triangles": 144,
+    "best_float": 140,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "minimum_order_gap": 0.04050702638550241,
+    "proposals": 16380,
+    "history": [],
+    "seconds": 0.09399999998277053,
+    "status": "floating proposal, exact modular concurrency grouping; not a proof"
+  },
+  {
+    "n": 23,
+    "initial_affine": 154,
+    "projective_triangles": 158,
+    "best_float": 154,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "minimum_order_gap": 0.03708271265220031,
+    "proposals": 19404,
+    "history": [],
+    "seconds": 0.10899999999674037,
+    "status": "floating proposal, exact modular concurrency grouping; not a proof"
+  },
+  {
+    "n": 25,
+    "initial_affine": 184,
+    "projective_triangles": 188,
+    "best_float": 184,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "minimum_order_gap": 0.0314168388713687,
+    "proposals": 26680,
+    "history": [],
+    "seconds": 0.1720000000204891,
+    "status": "floating proposal, exact modular concurrency grouping; not a proof"
+  },
+  {
+    "n": 26,
+    "initial_affine": 200,
+    "projective_triangles": 204,
+    "best_float": 200,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "minimum_order_gap": 0.029058182573947655,
+    "proposals": 31000,
+    "history": [],
+    "seconds": 0.2029999999795109,
+    "status": "floating proposal, exact modular concurrency grouping; not a proof"
+  },
+  {
+    "n": 28,
+    "initial_affine": 234,
+    "projective_triangles": 238,
+    "best_float": 234,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "minimum_order_gap": 0.02507208781817616,
+    "proposals": 41184,
+    "history": [],
+    "seconds": 0.2970000000204891,
+    "status": "floating proposal, exact modular concurrency grouping; not a proof"
+  },
+  {
+    "n": 29,
+    "initial_affine": 252,
+    "projective_triangles": 256,
+    "best_float": 252,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "minimum_order_gap": 0.02337944428991312,
+    "proposals": 47124,
+    "history": [],
+    "seconds": 0.375,
+    "status": "floating proposal, exact modular concurrency grouping; not a proof"
+  },
+  {
+    "n": 31,
+    "initial_affine": 290,
+    "projective_triangles": 294,
+    "best_float": 290,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "minimum_order_gap": 0.020470058747505293,
+    "proposals": 60900,
+    "history": [],
+    "seconds": 0.48399999999674037,
+    "status": "floating proposal, exact modular concurrency grouping; not a proof"
+  },
+  {
+    "n": 32,
+    "initial_affine": 310,
+    "projective_triangles": 314,
+    "best_float": 310,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "minimum_order_gap": 0.019214719596769347,
+    "proposals": 68820,
+    "history": [],
+    "seconds": 0.625,
+    "status": "floating proposal, exact modular concurrency grouping; not a proof"
+  },
+  {
+    "n": 34,
+    "initial_affine": 352,
+    "projective_triangles": 356,
+    "best_float": 352,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "minimum_order_gap": 0.017026900316098104,
+    "proposals": 86944,
+    "history": [],
+    "seconds": 1.0,
+    "status": "floating proposal, exact modular concurrency grouping; not a proof"
+  },
+  {
+    "n": 35,
+    "initial_affine": 374,
+    "projective_triangles": 378,
+    "best_float": 374,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "minimum_order_gap": 0.016070411401370333,
+    "proposals": 97240,
+    "history": [],
+    "seconds": 1.047000000020489,
+    "status": "floating proposal, exact modular concurrency grouping; not a proof"
+  },
+  {
+    "n": 37,
+    "initial_affine": 420,
+    "projective_triangles": 424,
+    "best_float": 420,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "minimum_order_gap": 0.014384089652291432,
+    "proposals": 120540,
+    "history": [],
+    "seconds": 1.1559999999590218,
+    "status": "floating proposal, exact modular concurrency grouping; not a proof"
+  },
+  {
+    "n": 38,
+    "initial_affine": 444,
+    "projective_triangles": 448,
+    "best_float": 444,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "minimum_order_gap": 0.013638696597277566,
+    "proposals": 133644,
+    "history": [],
+    "seconds": 1.5310000000172295,
+    "status": "floating proposal, exact modular concurrency grouping; not a proof"
+  },
+  {
+    "n": 40,
+    "initial_affine": 494,
+    "projective_triangles": 498,
+    "best_float": 494,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "minimum_order_gap": 0.012311659404862119,
+    "proposals": 163020,
+    "history": [],
+    "seconds": 2.077999999979511,
+    "status": "floating proposal, exact modular concurrency grouping; not a proof"
+  },
+  {
+    "n": 41,
+    "initial_affine": 520,
+    "projective_triangles": 524,
+    "best_float": 520,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "minimum_order_gap": 0.011719576219651362,
+    "proposals": 179400,
+    "history": [],
+    "seconds": 2.6880000000237487,
+    "status": "floating proposal, exact modular concurrency grouping; not a proof"
+  },
+  {
+    "n": 43,
+    "initial_affine": 574,
+    "projective_triangles": 578,
+    "best_float": 574,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "minimum_order_gap": 0.010656631924889637,
+    "proposals": 215824,
+    "history": [],
+    "seconds": 2.7339999999967404,
+    "status": "floating proposal, exact modular concurrency grouping; not a proof"
+  },
+  {
+    "n": 44,
+    "initial_affine": 602,
+    "projective_triangles": 606,
+    "best_float": 602,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "minimum_order_gap": 0.010178558119067094,
+    "proposals": 235984,
+    "history": [],
+    "seconds": 2.8439999999827705,
+    "status": "floating proposal, exact modular concurrency grouping; not a proof"
+  },
+  {
+    "n": 46,
+    "initial_affine": 660,
+    "projective_triangles": 664,
+    "best_float": 660,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "minimum_order_gap": 0.009314053963669133,
+    "proposals": 280500,
+    "history": [],
+    "seconds": 3.422000000020489,
+    "status": "floating proposal, exact modular concurrency grouping; not a proof"
+  },
+  {
+    "n": 47,
+    "initial_affine": 690,
+    "projective_triangles": 694,
+    "best_float": 690,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "minimum_order_gap": 0.00892251184521975,
+    "proposals": 304980,
+    "history": [],
+    "seconds": 4.2189999999827705,
+    "status": "floating proposal, exact modular concurrency grouping; not a proof"
+  },
+  {
+    "n": 49,
+    "initial_affine": 752,
+    "projective_triangles": 756,
+    "best_float": 752,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "minimum_order_gap": 0.008209986176753725,
+    "proposals": 358704,
+    "history": [],
+    "seconds": 5.6560000000172295,
+    "status": "floating proposal, exact modular concurrency grouping; not a proof"
+  },
+  {
+    "n": 50,
+    "initial_affine": 784,
+    "projective_triangles": 788,
+    "best_float": 784,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "minimum_order_gap": 0.007885298685522013,
+    "proposals": 388080,
+    "history": [],
+    "seconds": 7.125,
+    "status": "floating proposal, exact modular concurrency grouping; not a proof"
+  },
+  {
+    "n": 52,
+    "initial_affine": 850,
+    "projective_triangles": 854,
+    "best_float": 850,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "minimum_order_gap": 0.007291125901945916,
+    "proposals": 452200,
+    "history": [],
+    "seconds": 8.0,
+    "status": "floating proposal, exact modular concurrency grouping; not a proof"
+  },
+  {
+    "n": 53,
+    "initial_affine": 884,
+    "projective_triangles": 888,
+    "best_float": 884,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "minimum_order_gap": 0.007018903986482972,
+    "proposals": 487084,
+    "history": [],
+    "seconds": 7.5939999999827705,
+    "status": "floating proposal, exact modular concurrency grouping; not a proof"
+  },
+  {
+    "n": 55,
+    "initial_affine": 954,
+    "projective_triangles": 958,
+    "best_float": 954,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "minimum_order_gap": 0.006518264651449668,
+    "proposals": 562860,
+    "history": [],
+    "seconds": 9.71899999998277,
+    "status": "floating proposal, exact modular concurrency grouping; not a proof"
+  },
+  {
+    "n": 56,
+    "initial_affine": 990,
+    "projective_triangles": 994,
+    "best_float": 990,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "minimum_order_gap": 0.006287790106757285,
+    "proposals": 603900,
+    "history": [],
+    "seconds": 13.48399999999674,
+    "status": "floating proposal, exact modular concurrency grouping; not a proof"
+  },
+  {
+    "n": 58,
+    "initial_affine": 1064,
+    "projective_triangles": 1068,
+    "best_float": 1064,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "minimum_order_gap": 0.005862042845640181,
+    "proposals": 692664,
+    "history": [],
+    "seconds": 17.17200000002049,
+    "status": "floating proposal, exact modular concurrency grouping; not a proof"
+  },
+  {
+    "n": 59,
+    "initial_affine": 1102,
+    "projective_triangles": 1106,
+    "best_float": 1102,
+    "chart": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "minimum_order_gap": 0.005665199789862796,
+    "proposals": 740544,
+    "history": [],
+    "seconds": 25.64100000000326,
+    "status": "floating proposal, exact modular concurrency grouping; not a proof"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "n": 48,
+  "source": "experiments/2026-09-21/general-bounds/cubic-projective-local/n048.json",
+  "initial": 721,
+  "best": 721,
+  "projective_triangles": 724,
+  "vertices": 1128,
+  "proposals": 1841152,
+  "exact_candidates": 0,
+  "false_positives": 0,
+  "seconds": 180.17023611068726,
+  "seed": 221,
+  "improvements": [],
+  "limitations": "Floating candidate ranking is heuristic; no exhaustive optimality claim."
+}

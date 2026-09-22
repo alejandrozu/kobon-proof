@@ -1,5 +1,6 @@
 {
   "accessed_local_date": "2026-09-20",
+  "updated_local_date": "2026-09-21",
   "note": "Git heads were checked during consolidation. Local data hashes, rather than mutable page contents, identify the actual saved inputs. No source is an assumption silently introduced into Lean.",
   "sources": [
     {
@@ -66,8 +67,10 @@
       "url": "https://paperzz.com/doc/9476977/arrangements-of-lines-with-a-large-number-of-triangles",
       "role": "Older construction reproduced for comparison; source text mirror of the original article, not a claim that these comparison bounds are new.",
       "local": "data/prior-configurations/furedi-palasti-table.json",
-      "formalization_update": "The all-order affine ceiling baseline is now proved geometrically in Kobon/FurediPalasti.lean and Kobon/FurediPalastiCount.lean, rather than assumed from this source.",
-      "doi": "10.1090/S0002-9939-1984-0760946-2"
+      "formalization_update": "The ceiling baseline is proved geometrically in FurediPalasti and FurediPalastiCount. Universal.baseline_sound now proves the stronger affine formula floor(n(n-3)/3)+1+(n mod 2) for n>=4 via shifted phase and projective caps. The underlying family remains attributed to this source; first numerical priority for the affine refinement is unestablished.",
+      "doi": "10.1090/S0002-9939-1984-0760946-2",
+      "alternate_doi": "10.2307/2045427",
+      "metadata_check": "Both DOI records were checked directly against Crossref on 2026-09-22 UTC and identify the same 1984 paper."
     },
     {
       "id": "ud1-gallery",
@@ -91,6 +94,120 @@
       "accessed": "2026-09-20",
       "role": "User-identified statement of the target recurrence, attributed there to the March paper; not independent proof of its universal or iterative validity.",
       "local": "research/successor-formalization/README.md"
+    },
+    {
+      "id": "ud1-gallery-current-2026-09-21",
+      "title": "Kobon solutions: current exact gallery certificates",
+      "authors": "Roman Parpalak and Denis Utkin; original discovery credits retained by the gallery",
+      "url": "https://github.com/ud1/kobon-solutions/tree/feae4f5571a988a3ed45bd26a36259ebb7d7d3d2",
+      "revision": "feae4f5571a988a3ed45bd26a36259ebb7d7d3d2",
+      "commit_date_utc": "2026-09-21T18:24:03Z",
+      "role": "External exact coordinates independently recounted at 8:15,14:54,20:117,26:204,32:315,36:402,38:450,42:553,46:667,50:792. These are reproduced constructions, not new records of this project; the eight-line result has earlier discovery priority.",
+      "local": "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current",
+      "license": null,
+      "license_note": "No LICENSE, COPYING or NOTICE file was identified in the immutable repository tree checked on 2026-09-22 UTC. Mathematical coordinate data are retained with source attribution; no upstream program was copied or executed by this verification workstream, and no relicensing assertion is made.",
+      "verification": "verification.json records original paths and SHA256 hashes; two independent exact counters agreed on each complete triangle set."
+    },
+    {
+      "id": "maiorana-14-2026",
+      "title": "Exact fourteen-line Kobon configurations with 54 triangles",
+      "authors": "Andrea Maiorana",
+      "url": "https://github.com/rufio72/kobon_triangles_k14/tree/e47c7cfd9661e54d29befb83118bf83d5f804028",
+      "revision": "e47c7cfd9661e54d29befb83118bf83d5f804028",
+      "commit_date_utc": "2026-08-12T13:28:03Z",
+      "role": "Fifteen externally discovered 14:54 configurations, each independently verified by two exact counters. The lower bound is attributed to Maiorana; source assertions of unrestricted optimality are not imported as proof.",
+      "local": "research/six-hour-2026-09-21/general-bounds/maiorana14",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_local": "research/six-hour-2026-09-21/general-bounds/maiorana14/LICENSE",
+      "changes": "Original coordinate files, README and licence are preserved; certificate wrappers add independently enumerated triangles and provenance metadata. No upstream verification program was executed."
+    },
+    {
+      "id": "erickson-1999",
+      "title": "New Lower Bounds for Convex Hull Problems in Odd Dimensions",
+      "authors": "Jeff Erickson",
+      "url": "https://jeffe.cs.illinois.edu/pubs/pdf/convex.pdf",
+      "locator": "Section 7.2",
+      "role": "Primary statement of the classical all-n affine FP ceiling bound. Its three-angle perturbation is a decision-tree argument, not a universal Kobon one-line extension.",
+      "local": "research/six-hour-2026-09-21/general-bounds/lower-bound-priority-audit.md"
+    },
+    {
+      "id": "felsner-kriegel-1999",
+      "title": "Triangles in Euclidean Arrangements",
+      "authors": "Stefan Felsner and Klaus Kriegel",
+      "url": "https://page.math.tu-berlin.de/~felsner/Paper/tri.pdf",
+      "doi": "10.1007/PL00009471",
+      "role": "Historical straight-line lower-bound context and the distinction between line and pseudoline realizability.",
+      "local": "research/six-hour-2026-09-21/general-bounds/lower-bound-priority-audit.md"
+    },
+    {
+      "id": "clement-bader-2007",
+      "title": "Clément–Bader 2007 Kobon upper-bound draft",
+      "authors": "Clément and Bader",
+      "url": "https://oeis.org/A006066/a006066.pdf",
+      "locator": "Lemma 1, Theorem 1 and equation (2)",
+      "role": "Reported classical envelope distinguished from BBL and Blanc simple-arrangement bounds. A literal local reading of Lemma 1's shared-pair wording has a certified counterexample; this does not refute the final upper theorem.",
+      "local": "research/six-hour-2026-09-21/general-bounds/upper-bound-scope-audit.md"
+    },
+    {
+      "id": "forge-ramirez-1998",
+      "title": "Straight Line Arrangements in the Real Projective Plane",
+      "authors": "David Forge and Jorge Luis Ramírez Alfonsín",
+      "url": "https://doi.org/10.1007/PL00009373",
+      "doi": "10.1007/PL00009373",
+      "role": "Earlier extremal projective straight-line infinite families; an affine chart and interpolation argument is still required before asserting an all-n affine improvement.",
+      "local": "research/six-hour-2026-09-21/general-bounds/lower-bound-priority-audit.md"
+    },
+    {
+      "id": "harborth-1985",
+      "title": "Some simple arrangements of pseudolines with a maximum number of triangles",
+      "authors": "Heiko Harborth",
+      "url": "https://doi.org/10.1111/j.1749-6632.1985.tb14536.x",
+      "doi": "10.1111/j.1749-6632.1985.tb14536.x",
+      "role": "Historical pseudoline constructions; not treated as straight-line realizations without a separate stretchability proof.",
+      "local": "research/six-hour-2026-09-21/general-bounds/lower-bound-priority-audit.md"
+    },
+    {
+      "id": "triangle-areas-2020",
+      "title": "Triangle areas in line arrangements",
+      "authors": "Gábor Damásdi, Leonardo Martínez-Sandoval, Dániel T. Nagy and Zoltán Lóránt Nagy",
+      "url": "https://real.mtak.hu/114794/7/1-s2.0-S0012365X20302910-main.pdf",
+      "doi": "10.1016/j.disc.2020.112105",
+      "license": "CC-BY-4.0",
+      "locator": "Section 3",
+      "role": "Modern primary-paper summary crediting the general Kobon lower construction to Füredi–Palásti. Its other triangle-area objectives are distinct from maximizing all Kobon triangles.",
+      "local": "research/six-hour-2026-09-21/general-bounds/lower-bound-priority-audit.md"
+    },
+    {
+      "id": "affine-envelope-2026",
+      "title": "The Exact Maximum Complexity of the Affine Envelope of a Line Arrangement",
+      "url": "https://zenodo.org/records/22135470",
+      "related_version": "https://zenodo.org/records/22117877",
+      "role": "Current adjacent research identified during the priority audit. Its envelope objective is not the Kobon maximum; the newest proof was not independently verified, and no theorem from it is used as a Lean premise.",
+      "local": "research/six-hour-2026-09-21/general-bounds/lower-bound-priority-audit.md"
+    },
+    {
+      "id": "proofatlas-kobon-2026",
+      "title": "Kobon triangle problem collaboration",
+      "url": "https://www.proofatlas.ai/collaboration/kobon-triangle-problem/",
+      "role": "Public research status and restricted multiple-point-core upper results. Its research summary is not an independently replayed proof and leaves the unrestricted problem open.",
+      "local": "research/six-hour-2026-09-21/general-bounds/upper-bound-scope-audit.md"
+    },
+    {
+      "id": "openai-math-advisory-2026",
+      "title": "OpenAI mathematics and AI advisory group announcement",
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai/",
+      "role": "Official context for the user's report of internally solved problems. The announcement does not identify or provide a Kobon proof; no unpublished result is assumed by this project.",
+      "local": "research/six-hour-2026-09-21/RESEARCH_REVIEW.md"
+    },
+    {
+      "id": "kobon-symmetry-zenodo-v4",
+      "title": "Zenodo record 21181834, version 4",
+      "url": "https://zenodo.org/records/21181834",
+      "version": 4,
+      "published_date": "2026-07-03",
+      "role": "Supersedes earlier stronger exact 22/28 claims with symmetry-restricted conclusions; the version-4 statement Kcell(28) in {238,239} is not used as a proof of unrestricted exactness.",
+      "local": "research/six-hour-2026-09-21/RESEARCH_REVIEW.md"
     }
   ]
 }

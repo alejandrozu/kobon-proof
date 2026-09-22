@@ -1,0 +1,36 @@
+{
+  "n": 12,
+  "local": true,
+  "seed": 1213,
+  "projective_float": 40,
+  "proposals": 1381600,
+  "accepted": 823690,
+  "restarts": 1152,
+  "history": [
+    {
+      "event": "improvement",
+      "n": 12,
+      "projective": 37,
+      "affine": 34,
+      "seconds": 0.01600000000325963,
+      "proposals": 9
+    },
+    {
+      "event": "improvement",
+      "n": 12,
+      "projective": 38,
+      "affine": 35,
+      "seconds": 0.031000000017229468,
+      "proposals": 13
+    },
+    {
+      "event": "improvement",
+      "n": 12,
+      "projective": 40,
+      "affine": 37,
+      "seconds": 0.031000000017229468,
+      "proposals": 18
+    }
+  ],
+  "seconds": 600.0310000000172
+}

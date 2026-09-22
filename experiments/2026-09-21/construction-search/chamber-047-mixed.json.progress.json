@@ -1,0 +1,6628 @@
+{
+  "initial": 691,
+  "best": 691,
+  "events": [
+    {
+      "step": 1,
+      "triangle": [
+        30,
+        31,
+        32
+      ],
+      "gain": -1,
+      "score": 690,
+      "mode": "offset",
+      "margin": 0.0012539283051103047,
+      "seconds": 2.013536214828491,
+      "attempts": 1
+    },
+    {
+      "step": 2,
+      "triangle": [
+        29,
+        31,
+        33
+      ],
+      "gain": -1,
+      "score": 689,
+      "mode": "normal",
+      "margin": 0.0009585653475253565,
+      "seconds": 4.253066301345825,
+      "attempts": 2
+    },
+    {
+      "step": 3,
+      "triangle": [
+        28,
+        32,
+        33
+      ],
+      "gain": 0,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.0009396926457869966,
+      "seconds": 4.587468862533569,
+      "attempts": 3
+    },
+    {
+      "step": 4,
+      "triangle": [
+        9,
+        18,
+        19
+      ],
+      "gain": -2,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0009374087758993452,
+      "seconds": 4.942540407180786,
+      "attempts": 4
+    },
+    {
+      "step": 5,
+      "triangle": [
+        28,
+        32,
+        33
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0010784413512573531,
+      "seconds": 5.261858224868774,
+      "attempts": 5
+    },
+    {
+      "step": 6,
+      "triangle": [
+        29,
+        31,
+        33
+      ],
+      "gain": 1,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0011334317709478037,
+      "seconds": 5.594468593597412,
+      "attempts": 6
+    },
+    {
+      "step": 7,
+      "triangle": [
+        30,
+        31,
+        32
+      ],
+      "gain": 1,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.0011308234103334079,
+      "seconds": 5.998898983001709,
+      "attempts": 7
+    },
+    {
+      "step": 8,
+      "triangle": [
+        10,
+        11,
+        25
+      ],
+      "gain": -2,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0011346121727742586,
+      "seconds": 6.383000612258911,
+      "attempts": 8
+    },
+    {
+      "step": 9,
+      "triangle": [
+        9,
+        18,
+        19
+      ],
+      "gain": 2,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.0012557550016129766,
+      "seconds": 6.824221611022949,
+      "attempts": 9
+    },
+    {
+      "step": 10,
+      "triangle": [
+        9,
+        11,
+        26
+      ],
+      "gain": -1,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.001255498609734029,
+      "seconds": 7.256826162338257,
+      "attempts": 10
+    },
+    {
+      "step": 11,
+      "triangle": [
+        10,
+        11,
+        25
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.00041236308329833303,
+      "seconds": 7.6418890953063965,
+      "attempts": 11
+    },
+    {
+      "step": 12,
+      "triangle": [
+        23,
+        34,
+        35
+      ],
+      "gain": -2,
+      "score": 686,
+      "mode": "normal",
+      "margin": 0.0007681202264524095,
+      "seconds": 10.577509880065918,
+      "attempts": 12
+    },
+    {
+      "step": 13,
+      "triangle": [
+        9,
+        11,
+        26
+      ],
+      "gain": 3,
+      "score": 689,
+      "mode": "normal",
+      "margin": 0.0010732101768542374,
+      "seconds": 13.637228012084961,
+      "attempts": 13
+    },
+    {
+      "step": 14,
+      "triangle": [
+        30,
+        31,
+        32
+      ],
+      "gain": -1,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.001321408869177702,
+      "seconds": 13.942837476730347,
+      "attempts": 14
+    },
+    {
+      "step": 15,
+      "triangle": [
+        29,
+        30,
+        33
+      ],
+      "gain": -1,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0008671679580645899,
+      "seconds": 14.222415685653687,
+      "attempts": 15
+    },
+    {
+      "step": 16,
+      "triangle": [
+        23,
+        34,
+        35
+      ],
+      "gain": 2,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.0008578190530732473,
+      "seconds": 14.495244026184082,
+      "attempts": 16
+    },
+    {
+      "step": 17,
+      "triangle": [
+        29,
+        30,
+        31
+      ],
+      "gain": 0,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.0008015966953581137,
+      "seconds": 14.77472734451294,
+      "attempts": 17
+    },
+    {
+      "step": 18,
+      "triangle": [
+        29,
+        30,
+        32
+      ],
+      "gain": 0,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.0011664977683561843,
+      "seconds": 15.059810400009155,
+      "attempts": 18
+    },
+    {
+      "step": 19,
+      "triangle": [
+        30,
+        31,
+        33
+      ],
+      "gain": 0,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.0013177149408286116,
+      "seconds": 15.388210535049438,
+      "attempts": 19
+    },
+    {
+      "step": 20,
+      "triangle": [
+        28,
+        32,
+        33
+      ],
+      "gain": 0,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.0009472280785699097,
+      "seconds": 15.736960411071777,
+      "attempts": 20
+    },
+    {
+      "step": 21,
+      "triangle": [
+        28,
+        30,
+        34
+      ],
+      "gain": -1,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0009394752919394793,
+      "seconds": 16.03446912765503,
+      "attempts": 21
+    },
+    {
+      "step": 22,
+      "triangle": [
+        28,
+        32,
+        33
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0013461858647315084,
+      "seconds": 16.346399545669556,
+      "attempts": 22
+    },
+    {
+      "step": 23,
+      "triangle": [
+        28,
+        30,
+        31
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0011334464226084755,
+      "seconds": 16.653443574905396,
+      "attempts": 23
+    },
+    {
+      "step": 24,
+      "triangle": [
+        28,
+        30,
+        33
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0008357417543116012,
+      "seconds": 16.957180500030518,
+      "attempts": 24
+    },
+    {
+      "step": 25,
+      "triangle": [
+        28,
+        29,
+        35
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0008357417543096001,
+      "seconds": 17.296547889709473,
+      "attempts": 25
+    },
+    {
+      "step": 26,
+      "triangle": [
+        28,
+        30,
+        33
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0007132485312352623,
+      "seconds": 17.634947538375854,
+      "attempts": 26
+    },
+    {
+      "step": 27,
+      "triangle": [
+        28,
+        30,
+        31
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0008052052679329786,
+      "seconds": 17.98510432243347,
+      "attempts": 27
+    },
+    {
+      "step": 28,
+      "triangle": [
+        28,
+        32,
+        33
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "normal",
+      "margin": 0.0004891956893213525,
+      "seconds": 20.403360605239868,
+      "attempts": 28
+    },
+    {
+      "step": 29,
+      "triangle": [
+        28,
+        30,
+        31
+      ],
+      "gain": -1,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0003515012925049489,
+      "seconds": 20.708710432052612,
+      "attempts": 29
+    },
+    {
+      "step": 30,
+      "triangle": [
+        28,
+        29,
+        35
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0006600022540042825,
+      "seconds": 23.319153308868408,
+      "attempts": 30
+    },
+    {
+      "step": 31,
+      "triangle": [
+        3,
+        4,
+        38
+      ],
+      "gain": -2,
+      "score": 685,
+      "mode": "offset",
+      "margin": 0.000717266500855398,
+      "seconds": 23.638649463653564,
+      "attempts": 31
+    },
+    {
+      "step": 32,
+      "triangle": [
+        28,
+        32,
+        33
+      ],
+      "gain": 1,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0011266381892267381,
+      "seconds": 23.942111492156982,
+      "attempts": 32
+    },
+    {
+      "step": 33,
+      "triangle": [
+        28,
+        30,
+        33
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "normal",
+      "margin": 0.0008830464990033111,
+      "seconds": 26.2297785282135,
+      "attempts": 33
+    },
+    {
+      "step": 34,
+      "triangle": [
+        28,
+        29,
+        35
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0009905829844093022,
+      "seconds": 26.568262815475464,
+      "attempts": 34
+    },
+    {
+      "step": 35,
+      "triangle": [
+        30,
+        31,
+        34
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0006368271768363843,
+      "seconds": 26.866384983062744,
+      "attempts": 35
+    },
+    {
+      "step": 36,
+      "triangle": [
+        3,
+        4,
+        38
+      ],
+      "gain": 2,
+      "score": 688,
+      "mode": "normal",
+      "margin": 0.0006102510881183455,
+      "seconds": 29.19817566871643,
+      "attempts": 36
+    },
+    {
+      "step": 37,
+      "triangle": [
+        28,
+        29,
+        35
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0010320285428147091,
+      "seconds": 29.522981882095337,
+      "attempts": 37
+    },
+    {
+      "step": 38,
+      "triangle": [
+        14,
+        15,
+        16
+      ],
+      "gain": -1,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0010354262916816067,
+      "seconds": 29.884876012802124,
+      "attempts": 38
+    },
+    {
+      "step": 39,
+      "triangle": [
+        28,
+        29,
+        35
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0006734578009126082,
+      "seconds": 30.239845991134644,
+      "attempts": 39
+    },
+    {
+      "step": 40,
+      "triangle": [
+        30,
+        31,
+        34
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0009175469740254156,
+      "seconds": 32.84147047996521,
+      "attempts": 40
+    },
+    {
+      "step": 41,
+      "triangle": [
+        28,
+        29,
+        35
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.001050407494076643,
+      "seconds": 33.172144651412964,
+      "attempts": 41
+    },
+    {
+      "step": 42,
+      "triangle": [
+        28,
+        30,
+        33
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.001168890382944616,
+      "seconds": 33.59776973724365,
+      "attempts": 42
+    },
+    {
+      "step": 43,
+      "triangle": [
+        28,
+        29,
+        35
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.000890135683896711,
+      "seconds": 34.01049780845642,
+      "attempts": 43
+    },
+    {
+      "step": 44,
+      "triangle": [
+        14,
+        39,
+        40
+      ],
+      "gain": -2,
+      "score": 685,
+      "mode": "offset",
+      "margin": 0.0008901356838982204,
+      "seconds": 34.41859483718872,
+      "attempts": 44
+    },
+    {
+      "step": 45,
+      "triangle": [
+        28,
+        30,
+        31
+      ],
+      "gain": 0,
+      "score": 685,
+      "mode": "offset",
+      "margin": 0.001000083957088663,
+      "seconds": 34.81446957588196,
+      "attempts": 45
+    },
+    {
+      "step": 46,
+      "triangle": [
+        14,
+        39,
+        40
+      ],
+      "gain": 2,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0009018397596164992,
+      "seconds": 37.845094442367554,
+      "attempts": 46
+    },
+    {
+      "step": 47,
+      "triangle": [
+        28,
+        32,
+        33
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0006692999561608089,
+      "seconds": 38.33104944229126,
+      "attempts": 47
+    },
+    {
+      "step": 48,
+      "triangle": [
+        28,
+        29,
+        35
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0009448822084334162,
+      "seconds": 41.75668978691101,
+      "attempts": 48
+    },
+    {
+      "step": 49,
+      "triangle": [
+        28,
+        30,
+        34
+      ],
+      "gain": 1,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0010886749325907856,
+      "seconds": 42.09230422973633,
+      "attempts": 49
+    },
+    {
+      "step": 50,
+      "triangle": [
+        28,
+        32,
+        33
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "normal",
+      "margin": 0.000940390691511358,
+      "seconds": 45.05432987213135,
+      "attempts": 50
+    },
+    {
+      "step": 51,
+      "triangle": [
+        30,
+        31,
+        33
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.001141579410352657,
+      "seconds": 45.465259075164795,
+      "attempts": 51
+    },
+    {
+      "step": 52,
+      "triangle": [
+        29,
+        31,
+        32
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.000945506052729735,
+      "seconds": 45.932268142700195,
+      "attempts": 52
+    },
+    {
+      "step": 53,
+      "triangle": [
+        14,
+        15,
+        16
+      ],
+      "gain": 1,
+      "score": 689,
+      "mode": "normal",
+      "margin": 0.0008577890563736172,
+      "seconds": 48.79889225959778,
+      "attempts": 53
+    },
+    {
+      "step": 54,
+      "triangle": [
+        4,
+        44,
+        45
+      ],
+      "gain": -2,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.000921949486836773,
+      "seconds": 49.14696431159973,
+      "attempts": 54
+    },
+    {
+      "step": 55,
+      "triangle": [
+        29,
+        31,
+        32
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0010042525138517992,
+      "seconds": 49.454047441482544,
+      "attempts": 55
+    },
+    {
+      "step": 56,
+      "triangle": [
+        30,
+        31,
+        33
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.001006088389423122,
+      "seconds": 49.782230854034424,
+      "attempts": 56
+    },
+    {
+      "step": 57,
+      "triangle": [
+        28,
+        32,
+        33
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0008881782500281064,
+      "seconds": 52.607197761535645,
+      "attempts": 57
+    },
+    {
+      "step": 58,
+      "triangle": [
+        3,
+        44,
+        46
+      ],
+      "gain": -2,
+      "score": 685,
+      "mode": "offset",
+      "margin": 0.001112463733441591,
+      "seconds": 53.015000343322754,
+      "attempts": 58
+    },
+    {
+      "step": 59,
+      "triangle": [
+        2,
+        45,
+        46
+      ],
+      "gain": 0,
+      "score": 685,
+      "mode": "offset",
+      "margin": 0.0010605605733182298,
+      "seconds": 53.44086980819702,
+      "attempts": 59
+    },
+    {
+      "step": 60,
+      "triangle": [
+        4,
+        44,
+        45
+      ],
+      "gain": 1,
+      "score": 686,
+      "mode": "normal",
+      "margin": 0.0010131823633187814,
+      "seconds": 56.34910202026367,
+      "attempts": 60
+    },
+    {
+      "step": 61,
+      "triangle": [
+        3,
+        44,
+        46
+      ],
+      "gain": 1,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0007934583777634453,
+      "seconds": 58.96379828453064,
+      "attempts": 61
+    },
+    {
+      "step": 62,
+      "triangle": [
+        28,
+        32,
+        33
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0011245171535615136,
+      "seconds": 59.258443117141724,
+      "attempts": 62
+    },
+    {
+      "step": 63,
+      "triangle": [
+        30,
+        31,
+        33
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.001124985365330014,
+      "seconds": 59.5454626083374,
+      "attempts": 63
+    },
+    {
+      "step": 64,
+      "triangle": [
+        29,
+        31,
+        32
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0010409844847806774,
+      "seconds": 59.813695669174194,
+      "attempts": 64
+    },
+    {
+      "step": 65,
+      "triangle": [
+        30,
+        31,
+        32
+      ],
+      "gain": -1,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0011229642817609103,
+      "seconds": 60.081313371658325,
+      "attempts": 65
+    },
+    {
+      "step": 66,
+      "triangle": [
+        2,
+        45,
+        46
+      ],
+      "gain": 2,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.001123033155370626,
+      "seconds": 60.37387657165527,
+      "attempts": 66
+    },
+    {
+      "step": 67,
+      "triangle": [
+        29,
+        30,
+        31
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0010172370977953513,
+      "seconds": 60.655832290649414,
+      "attempts": 67
+    },
+    {
+      "step": 68,
+      "triangle": [
+        29,
+        30,
+        32
+      ],
+      "gain": 1,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.0011169684036065023,
+      "seconds": 60.94291543960571,
+      "attempts": 68
+    },
+    {
+      "step": 69,
+      "triangle": [
+        29,
+        30,
+        33
+      ],
+      "gain": 0,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.0011296805277091055,
+      "seconds": 61.240922689437866,
+      "attempts": 69
+    },
+    {
+      "step": 70,
+      "triangle": [
+        5,
+        6,
+        35
+      ],
+      "gain": -2,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0011260902019140993,
+      "seconds": 61.569910287857056,
+      "attempts": 70
+    },
+    {
+      "step": 71,
+      "triangle": [
+        29,
+        31,
+        32
+      ],
+      "gain": 2,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.0011284540455605186,
+      "seconds": 61.84494471549988,
+      "attempts": 71
+    },
+    {
+      "step": 72,
+      "triangle": [
+        24,
+        34,
+        35
+      ],
+      "gain": -2,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0011282941586645413,
+      "seconds": 62.15600824356079,
+      "attempts": 72
+    },
+    {
+      "step": 73,
+      "triangle": [
+        5,
+        6,
+        35
+      ],
+      "gain": 2,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.001132070030519571,
+      "seconds": 62.53126573562622,
+      "attempts": 73
+    },
+    {
+      "step": 74,
+      "triangle": [
+        25,
+        33,
+        35
+      ],
+      "gain": -1,
+      "score": 688,
+      "mode": "normal",
+      "margin": 0.0009329080478801601,
+      "seconds": 64.96981859207153,
+      "attempts": 74
+    },
+    {
+      "step": 75,
+      "triangle": [
+        24,
+        34,
+        35
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.00010428740248487472,
+      "seconds": 65.38151693344116,
+      "attempts": 75
+    },
+    {
+      "step": 76,
+      "triangle": [
+        26,
+        33,
+        34
+      ],
+      "gain": -1,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0010987724620277932,
+      "seconds": 65.77494764328003,
+      "attempts": 76
+    },
+    {
+      "step": 77,
+      "triangle": [
+        25,
+        33,
+        35
+      ],
+      "gain": 2,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.001139478352141221,
+      "seconds": 66.14848947525024,
+      "attempts": 77
+    },
+    {
+      "step": 78,
+      "triangle": [
+        28,
+        29,
+        35
+      ],
+      "gain": -2,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0008421945745344288,
+      "seconds": 68.99016094207764,
+      "attempts": 78
+    },
+    {
+      "step": 79,
+      "triangle": [
+        26,
+        33,
+        34
+      ],
+      "gain": 2,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.0011081333898227198,
+      "seconds": 69.32982802391052,
+      "attempts": 79
+    },
+    {
+      "step": 80,
+      "triangle": [
+        30,
+        31,
+        32
+      ],
+      "gain": -1,
+      "score": 688,
+      "mode": "normal",
+      "margin": 0.0009714572592223436,
+      "seconds": 71.98365020751953,
+      "attempts": 80
+    },
+    {
+      "step": 81,
+      "triangle": [
+        29,
+        30,
+        34
+      ],
+      "gain": -1,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0010218429168363677,
+      "seconds": 72.29529070854187,
+      "attempts": 81
+    },
+    {
+      "step": 82,
+      "triangle": [
+        28,
+        29,
+        35
+      ],
+      "gain": 1,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0011452424036097104,
+      "seconds": 72.61884999275208,
+      "attempts": 82
+    },
+    {
+      "step": 83,
+      "triangle": [
+        30,
+        31,
+        32
+      ],
+      "gain": 1,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.001154956854200806,
+      "seconds": 72.92923736572266,
+      "attempts": 83
+    },
+    {
+      "step": 84,
+      "triangle": [
+        28,
+        29,
+        35
+      ],
+      "gain": -1,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0011408125749920552,
+      "seconds": 73.24438548088074,
+      "attempts": 84
+    },
+    {
+      "step": 85,
+      "triangle": [
+        28,
+        29,
+        30
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0011350757260176088,
+      "seconds": 73.54098439216614,
+      "attempts": 85
+    },
+    {
+      "step": 86,
+      "triangle": [
+        29,
+        30,
+        35
+      ],
+      "gain": -1,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.001131727411428783,
+      "seconds": 73.88010263442993,
+      "attempts": 86
+    },
+    {
+      "step": 87,
+      "triangle": [
+        28,
+        30,
+        35
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0011232250650007162,
+      "seconds": 74.27697491645813,
+      "attempts": 87
+    },
+    {
+      "step": 88,
+      "triangle": [
+        9,
+        18,
+        19
+      ],
+      "gain": -2,
+      "score": 685,
+      "mode": "normal",
+      "margin": 0.0009175471209018018,
+      "seconds": 78.18044352531433,
+      "attempts": 88
+    },
+    {
+      "step": 89,
+      "triangle": [
+        28,
+        30,
+        35
+      ],
+      "gain": 0,
+      "score": 685,
+      "mode": "offset",
+      "margin": 0.001000306621037172,
+      "seconds": 78.61843705177307,
+      "attempts": 89
+    },
+    {
+      "step": 90,
+      "triangle": [
+        29,
+        30,
+        35
+      ],
+      "gain": 1,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0010011879980441568,
+      "seconds": 79.12633943557739,
+      "attempts": 90
+    },
+    {
+      "step": 91,
+      "triangle": [
+        28,
+        29,
+        30
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0010050951389688478,
+      "seconds": 79.79438090324402,
+      "attempts": 91
+    },
+    {
+      "step": 92,
+      "triangle": [
+        28,
+        29,
+        35
+      ],
+      "gain": 1,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0009499958904071251,
+      "seconds": 84.94636344909668,
+      "attempts": 92
+    },
+    {
+      "step": 93,
+      "triangle": [
+        10,
+        17,
+        18
+      ],
+      "gain": -1,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0011049346375681388,
+      "seconds": 85.59845113754272,
+      "attempts": 94
+    },
+    {
+      "step": 94,
+      "triangle": [
+        29,
+        30,
+        34
+      ],
+      "gain": 2,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.001101193576036204,
+      "seconds": 86.02303004264832,
+      "attempts": 95
+    },
+    {
+      "step": 95,
+      "triangle": [
+        9,
+        18,
+        19
+      ],
+      "gain": 1,
+      "score": 689,
+      "mode": "normal",
+      "margin": 0.0008771241219072603,
+      "seconds": 90.15298795700073,
+      "attempts": 96
+    },
+    {
+      "step": 96,
+      "triangle": [
+        9,
+        17,
+        19
+      ],
+      "gain": -1,
+      "score": 688,
+      "mode": "normal",
+      "margin": 0.0008713541041695162,
+      "seconds": 93.64142107963562,
+      "attempts": 97
+    },
+    {
+      "step": 97,
+      "triangle": [
+        10,
+        17,
+        18
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0011261625814243293,
+      "seconds": 94.0436327457428,
+      "attempts": 98
+    },
+    {
+      "step": 98,
+      "triangle": [
+        14,
+        15,
+        16
+      ],
+      "gain": -1,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0012008797171057756,
+      "seconds": 94.42386603355408,
+      "attempts": 99
+    },
+    {
+      "step": 99,
+      "triangle": [
+        9,
+        17,
+        19
+      ],
+      "gain": 3,
+      "score": 690,
+      "mode": "offset",
+      "margin": 0.0013152395369815432,
+      "seconds": 94.8114116191864,
+      "attempts": 100
+    },
+    {
+      "step": 100,
+      "triangle": [
+        13,
+        15,
+        17
+      ],
+      "gain": -1,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.000960071678689233,
+      "seconds": 95.17930746078491,
+      "attempts": 101
+    },
+    {
+      "step": 101,
+      "triangle": [
+        13,
+        14,
+        18
+      ],
+      "gain": 0,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.0008146916927625163,
+      "seconds": 95.57643795013428,
+      "attempts": 102
+    },
+    {
+      "step": 102,
+      "triangle": [
+        14,
+        15,
+        16
+      ],
+      "gain": -1,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0006686473399247743,
+      "seconds": 95.97029232978821,
+      "attempts": 103
+    },
+    {
+      "step": 103,
+      "triangle": [
+        13,
+        15,
+        17
+      ],
+      "gain": 1,
+      "score": 689,
+      "mode": "normal",
+      "margin": 0.0007179433775671087,
+      "seconds": 99.89680647850037,
+      "attempts": 104
+    },
+    {
+      "step": 104,
+      "triangle": [
+        3,
+        44,
+        45
+      ],
+      "gain": -2,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0005412032120902966,
+      "seconds": 104.27948260307312,
+      "attempts": 105
+    },
+    {
+      "step": 105,
+      "triangle": [
+        13,
+        14,
+        18
+      ],
+      "gain": 2,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.00115326659637229,
+      "seconds": 104.68580770492554,
+      "attempts": 106
+    },
+    {
+      "step": 106,
+      "triangle": [
+        30,
+        31,
+        32
+      ],
+      "gain": -1,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0011626824918378282,
+      "seconds": 105.12998819351196,
+      "attempts": 107
+    },
+    {
+      "step": 107,
+      "triangle": [
+        29,
+        30,
+        33
+      ],
+      "gain": -1,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0010997000646963513,
+      "seconds": 105.58847832679749,
+      "attempts": 108
+    },
+    {
+      "step": 108,
+      "triangle": [
+        30,
+        31,
+        32
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0007691220430833065,
+      "seconds": 106.021728515625,
+      "attempts": 109
+    },
+    {
+      "step": 109,
+      "triangle": [
+        3,
+        44,
+        45
+      ],
+      "gain": 2,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.0007649167141263673,
+      "seconds": 106.49129438400269,
+      "attempts": 110
+    },
+    {
+      "step": 110,
+      "triangle": [
+        25,
+        26,
+        42
+      ],
+      "gain": -2,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0007677860817820412,
+      "seconds": 106.89195322990417,
+      "attempts": 111
+    },
+    {
+      "step": 111,
+      "triangle": [
+        29,
+        30,
+        33
+      ],
+      "gain": 2,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.0011373403226362488,
+      "seconds": 107.30896949768066,
+      "attempts": 112
+    },
+    {
+      "step": 112,
+      "triangle": [
+        24,
+        25,
+        43
+      ],
+      "gain": -1,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.00109056315264067,
+      "seconds": 107.65536308288574,
+      "attempts": 113
+    },
+    {
+      "step": 113,
+      "triangle": [
+        25,
+        26,
+        42
+      ],
+      "gain": 1,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.001085697915041539,
+      "seconds": 107.9761254787445,
+      "attempts": 114
+    },
+    {
+      "step": 114,
+      "triangle": [
+        14,
+        15,
+        16
+      ],
+      "gain": -1,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.001246609657321518,
+      "seconds": 108.30365204811096,
+      "attempts": 115
+    },
+    {
+      "step": 115,
+      "triangle": [
+        22,
+        35,
+        36
+      ],
+      "gain": -2,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0012411892973974176,
+      "seconds": 108.64720225334167,
+      "attempts": 116
+    },
+    {
+      "step": 116,
+      "triangle": [
+        24,
+        25,
+        43
+      ],
+      "gain": 2,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0012541737921611383,
+      "seconds": 108.9784665107727,
+      "attempts": 117
+    },
+    {
+      "step": 117,
+      "triangle": [
+        14,
+        15,
+        16
+      ],
+      "gain": 1,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.001131863216211289,
+      "seconds": 109.35067629814148,
+      "attempts": 118
+    },
+    {
+      "step": 118,
+      "triangle": [
+        9,
+        10,
+        27
+      ],
+      "gain": -2,
+      "score": 687,
+      "mode": "normal",
+      "margin": 4.03018779645128e-06,
+      "seconds": 112.45403337478638,
+      "attempts": 119
+    },
+    {
+      "step": 119,
+      "triangle": [
+        22,
+        35,
+        36
+      ],
+      "gain": 2,
+      "score": 689,
+      "mode": "offset",
+      "margin": 6.886988823140924e-05,
+      "seconds": 112.71983122825623,
+      "attempts": 120
+    },
+    {
+      "step": 120,
+      "triangle": [
+        3,
+        4,
+        38
+      ],
+      "gain": -2,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.00016381836888909422,
+      "seconds": 115.25019669532776,
+      "attempts": 121
+    },
+    {
+      "step": 121,
+      "triangle": [
+        9,
+        10,
+        27
+      ],
+      "gain": 2,
+      "score": 689,
+      "mode": "normal",
+      "margin": 0.000915285383589574,
+      "seconds": 117.72056198120117,
+      "attempts": 122
+    },
+    {
+      "step": 122,
+      "triangle": [
+        4,
+        5,
+        37
+      ],
+      "gain": -1,
+      "score": 688,
+      "mode": "normal",
+      "margin": 0.0008327932106849679,
+      "seconds": 120.05519676208496,
+      "attempts": 123
+    },
+    {
+      "step": 123,
+      "triangle": [
+        3,
+        4,
+        38
+      ],
+      "gain": 1,
+      "score": 689,
+      "mode": "normal",
+      "margin": 0.0008328272667470622,
+      "seconds": 122.62018752098083,
+      "attempts": 124
+    },
+    {
+      "step": 124,
+      "triangle": [
+        30,
+        31,
+        32
+      ],
+      "gain": -1,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0011365796363888624,
+      "seconds": 123.00568318367004,
+      "attempts": 125
+    },
+    {
+      "step": 125,
+      "triangle": [
+        29,
+        30,
+        33
+      ],
+      "gain": -1,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0011350566908006291,
+      "seconds": 123.39987754821777,
+      "attempts": 126
+    },
+    {
+      "step": 126,
+      "triangle": [
+        30,
+        31,
+        32
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0007988709150694439,
+      "seconds": 123.80407404899597,
+      "attempts": 127
+    },
+    {
+      "step": 127,
+      "triangle": [
+        29,
+        31,
+        32
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0009297693288154987,
+      "seconds": 127.03854513168335,
+      "attempts": 128
+    },
+    {
+      "step": 128,
+      "triangle": [
+        29,
+        30,
+        33
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0011169862194416159,
+      "seconds": 127.51420259475708,
+      "attempts": 129
+    },
+    {
+      "step": 129,
+      "triangle": [
+        28,
+        32,
+        33
+      ],
+      "gain": -1,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.001107828043449918,
+      "seconds": 127.90825867652893,
+      "attempts": 130
+    },
+    {
+      "step": 130,
+      "triangle": [
+        4,
+        5,
+        37
+      ],
+      "gain": 2,
+      "score": 688,
+      "mode": "normal",
+      "margin": 0.0010199340917641238,
+      "seconds": 130.2533347606659,
+      "attempts": 131
+    },
+    {
+      "step": 131,
+      "triangle": [
+        29,
+        31,
+        32
+      ],
+      "gain": 1,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.0011089181608395977,
+      "seconds": 130.5741708278656,
+      "attempts": 132
+    },
+    {
+      "step": 132,
+      "triangle": [
+        30,
+        31,
+        32
+      ],
+      "gain": -1,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0007925456093741852,
+      "seconds": 130.95373678207397,
+      "attempts": 133
+    },
+    {
+      "step": 133,
+      "triangle": [
+        4,
+        20,
+        21
+      ],
+      "gain": -2,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0007900561031549333,
+      "seconds": 131.3645215034485,
+      "attempts": 134
+    },
+    {
+      "step": 134,
+      "triangle": [
+        28,
+        32,
+        33
+      ],
+      "gain": 2,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.001158744475176507,
+      "seconds": 131.8286964893341,
+      "attempts": 135
+    },
+    {
+      "step": 135,
+      "triangle": [
+        30,
+        31,
+        32
+      ],
+      "gain": 1,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.0011467837509809694,
+      "seconds": 132.15476727485657,
+      "attempts": 136
+    },
+    {
+      "step": 136,
+      "triangle": [
+        6,
+        7,
+        32
+      ],
+      "gain": -2,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0011245191109875898,
+      "seconds": 132.5031087398529,
+      "attempts": 137
+    },
+    {
+      "step": 137,
+      "triangle": [
+        4,
+        20,
+        21
+      ],
+      "gain": 2,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.0011216065684654193,
+      "seconds": 132.8308141231537,
+      "attempts": 138
+    },
+    {
+      "step": 138,
+      "triangle": [
+        30,
+        31,
+        32
+      ],
+      "gain": -1,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0011367859133119985,
+      "seconds": 133.14102268218994,
+      "attempts": 139
+    },
+    {
+      "step": 139,
+      "triangle": [
+        14,
+        15,
+        16
+      ],
+      "gain": -1,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0012414512836252146,
+      "seconds": 133.46693801879883,
+      "attempts": 140
+    },
+    {
+      "step": 140,
+      "triangle": [
+        6,
+        7,
+        32
+      ],
+      "gain": 2,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.001273326995155466,
+      "seconds": 133.80044627189636,
+      "attempts": 141
+    },
+    {
+      "step": 141,
+      "triangle": [
+        13,
+        15,
+        17
+      ],
+      "gain": -1,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0009299111785392439,
+      "seconds": 134.18800377845764,
+      "attempts": 142
+    },
+    {
+      "step": 142,
+      "triangle": [
+        13,
+        14,
+        18
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0007711577006681545,
+      "seconds": 134.58164858818054,
+      "attempts": 143
+    },
+    {
+      "step": 143,
+      "triangle": [
+        12,
+        16,
+        17
+      ],
+      "gain": -1,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0008217854316599743,
+      "seconds": 134.9844241142273,
+      "attempts": 144
+    },
+    {
+      "step": 144,
+      "triangle": [
+        30,
+        31,
+        32
+      ],
+      "gain": 1,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0008198505460220423,
+      "seconds": 135.37166547775269,
+      "attempts": 145
+    },
+    {
+      "step": 145,
+      "triangle": [
+        13,
+        14,
+        18
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0015323388287593392,
+      "seconds": 135.73114013671875,
+      "attempts": 146
+    },
+    {
+      "step": 146,
+      "triangle": [
+        13,
+        15,
+        17
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0008543825374048046,
+      "seconds": 136.1316204071045,
+      "attempts": 147
+    },
+    {
+      "step": 147,
+      "triangle": [
+        14,
+        15,
+        16
+      ],
+      "gain": 1,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.0015248142417923969,
+      "seconds": 136.49931573867798,
+      "attempts": 148
+    },
+    {
+      "step": 148,
+      "triangle": [
+        26,
+        27,
+        39
+      ],
+      "gain": -2,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0010970957949019442,
+      "seconds": 139.4524347782135,
+      "attempts": 149
+    },
+    {
+      "step": 149,
+      "triangle": [
+        12,
+        16,
+        17
+      ],
+      "gain": 2,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.0011196337294215235,
+      "seconds": 139.8471758365631,
+      "attempts": 150
+    },
+    {
+      "step": 150,
+      "triangle": [
+        27,
+        28,
+        38
+      ],
+      "gain": -1,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.001121289963008271,
+      "seconds": 140.251695394516,
+      "attempts": 151
+    },
+    {
+      "step": 151,
+      "triangle": [
+        26,
+        27,
+        39
+      ],
+      "gain": 1,
+      "score": 689,
+      "mode": "normal",
+      "margin": 0.0009665527756797405,
+      "seconds": 143.31231927871704,
+      "attempts": 152
+    },
+    {
+      "step": 152,
+      "triangle": [
+        30,
+        31,
+        32
+      ],
+      "gain": -1,
+      "score": 688,
+      "mode": "normal",
+      "margin": 0.0009668733192056783,
+      "seconds": 147.45780849456787,
+      "attempts": 153
+    },
+    {
+      "step": 153,
+      "triangle": [
+        26,
+        27,
+        39
+      ],
+      "gain": -1,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0011513237397549805,
+      "seconds": 147.93430042266846,
+      "attempts": 154
+    },
+    {
+      "step": 154,
+      "triangle": [
+        27,
+        28,
+        38
+      ],
+      "gain": 1,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.001146928323926884,
+      "seconds": 148.39818954467773,
+      "attempts": 155
+    },
+    {
+      "step": 155,
+      "triangle": [
+        14,
+        15,
+        16
+      ],
+      "gain": -1,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0012716622149049235,
+      "seconds": 148.80880641937256,
+      "attempts": 156
+    },
+    {
+      "step": 156,
+      "triangle": [
+        30,
+        31,
+        32
+      ],
+      "gain": 1,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.001245518536428273,
+      "seconds": 149.31270933151245,
+      "attempts": 157
+    },
+    {
+      "step": 157,
+      "triangle": [
+        13,
+        16,
+        17
+      ],
+      "gain": -1,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0007022272922873826,
+      "seconds": 153.18682718276978,
+      "attempts": 158
+    },
+    {
+      "step": 158,
+      "triangle": [
+        26,
+        27,
+        39
+      ],
+      "gain": 2,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.0008582116138915743,
+      "seconds": 153.69879841804504,
+      "attempts": 159
+    },
+    {
+      "step": 159,
+      "triangle": [
+        15,
+        16,
+        17
+      ],
+      "gain": 0,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.0008061447088235404,
+      "seconds": 154.26098942756653,
+      "attempts": 160
+    },
+    {
+      "step": 160,
+      "triangle": [
+        14,
+        16,
+        17
+      ],
+      "gain": 0,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.001161748462484917,
+      "seconds": 154.8187074661255,
+      "attempts": 161
+    },
+    {
+      "step": 161,
+      "triangle": [
+        13,
+        15,
+        16
+      ],
+      "gain": 0,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.0011411477229828684,
+      "seconds": 155.32066249847412,
+      "attempts": 162
+    },
+    {
+      "step": 162,
+      "triangle": [
+        13,
+        14,
+        18
+      ],
+      "gain": 0,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.0007681119038943961,
+      "seconds": 155.7907691001892,
+      "attempts": 163
+    },
+    {
+      "step": 163,
+      "triangle": [
+        12,
+        16,
+        18
+      ],
+      "gain": -1,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0007681119038943584,
+      "seconds": 156.34976959228516,
+      "attempts": 164
+    },
+    {
+      "step": 164,
+      "triangle": [
+        13,
+        14,
+        18
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0013432943337179934,
+      "seconds": 156.84398126602173,
+      "attempts": 165
+    },
+    {
+      "step": 165,
+      "triangle": [
+        11,
+        17,
+        18
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.00087839843630343,
+      "seconds": 157.37874150276184,
+      "attempts": 166
+    },
+    {
+      "step": 166,
+      "triangle": [
+        10,
+        17,
+        19
+      ],
+      "gain": -2,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.00030040944803780143,
+      "seconds": 157.85967302322388,
+      "attempts": 167
+    },
+    {
+      "step": 167,
+      "triangle": [
+        15,
+        16,
+        18
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.00026217250666858846,
+      "seconds": 158.35415935516357,
+      "attempts": 168
+    },
+    {
+      "step": 168,
+      "triangle": [
+        10,
+        17,
+        19
+      ],
+      "gain": 2,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0008475844190583692,
+      "seconds": 158.88854122161865,
+      "attempts": 169
+    },
+    {
+      "step": 169,
+      "triangle": [
+        13,
+        16,
+        18
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0011018902503107978,
+      "seconds": 159.41275024414062,
+      "attempts": 170
+    },
+    {
+      "step": 170,
+      "triangle": [
+        11,
+        17,
+        18
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0011018902503089514,
+      "seconds": 159.9301815032959,
+      "attempts": 171
+    },
+    {
+      "step": 171,
+      "triangle": [
+        12,
+        15,
+        16
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.001100659341646559,
+      "seconds": 160.50651836395264,
+      "attempts": 172
+    },
+    {
+      "step": 172,
+      "triangle": [
+        11,
+        17,
+        18
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0007540643198228886,
+      "seconds": 161.06870579719543,
+      "attempts": 173
+    },
+    {
+      "step": 173,
+      "triangle": [
+        28,
+        29,
+        36
+      ],
+      "gain": -2,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0007548662182446069,
+      "seconds": 161.63872456550598,
+      "attempts": 174
+    },
+    {
+      "step": 174,
+      "triangle": [
+        12,
+        15,
+        16
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0011051744961817047,
+      "seconds": 162.20317816734314,
+      "attempts": 175
+    },
+    {
+      "step": 175,
+      "triangle": [
+        13,
+        16,
+        18
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0008486805731929189,
+      "seconds": 162.72960209846497,
+      "attempts": 176
+    },
+    {
+      "step": 176,
+      "triangle": [
+        11,
+        17,
+        18
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "normal",
+      "margin": 0.0011587407725646931,
+      "seconds": 166.72638082504272,
+      "attempts": 177
+    },
+    {
+      "step": 177,
+      "triangle": [
+        28,
+        29,
+        36
+      ],
+      "gain": 2,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0013419836923769975,
+      "seconds": 167.29026675224304,
+      "attempts": 178
+    },
+    {
+      "step": 178,
+      "triangle": [
+        12,
+        15,
+        16
+      ],
+      "gain": -1,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0010926473957953125,
+      "seconds": 168.1920416355133,
+      "attempts": 180
+    },
+    {
+      "step": 179,
+      "triangle": [
+        12,
+        15,
+        18
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0007152972630475866,
+      "seconds": 173.56335473060608,
+      "attempts": 181
+    },
+    {
+      "step": 180,
+      "triangle": [
+        13,
+        15,
+        17
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0011464402296536664,
+      "seconds": 177.34944367408752,
+      "attempts": 182
+    },
+    {
+      "step": 181,
+      "triangle": [
+        14,
+        16,
+        17
+      ],
+      "gain": 1,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0008548955532442607,
+      "seconds": 177.7777726650238,
+      "attempts": 183
+    },
+    {
+      "step": 182,
+      "triangle": [
+        3,
+        44,
+        45
+      ],
+      "gain": -2,
+      "score": 686,
+      "mode": "normal",
+      "margin": 0.0006093921375637702,
+      "seconds": 181.3295340538025,
+      "attempts": 185
+    },
+    {
+      "step": 183,
+      "triangle": [
+        11,
+        16,
+        19
+      ],
+      "gain": -1,
+      "score": 685,
+      "mode": "normal",
+      "margin": 0.0005181269089053543,
+      "seconds": 185.34262657165527,
+      "attempts": 186
+    },
+    {
+      "step": 184,
+      "triangle": [
+        3,
+        44,
+        45
+      ],
+      "gain": 2,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0005993893299539243,
+      "seconds": 185.74347710609436,
+      "attempts": 187
+    },
+    {
+      "step": 185,
+      "triangle": [
+        14,
+        16,
+        17
+      ],
+      "gain": -1,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0014674811572496262,
+      "seconds": 186.35625886917114,
+      "attempts": 189
+    },
+    {
+      "step": 186,
+      "triangle": [
+        15,
+        16,
+        19
+      ],
+      "gain": 1,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.001119316495877761,
+      "seconds": 186.7012722492218,
+      "attempts": 190
+    },
+    {
+      "step": 187,
+      "triangle": [
+        11,
+        17,
+        18
+      ],
+      "gain": -1,
+      "score": 686,
+      "mode": "normal",
+      "margin": 0.0006626243921975993,
+      "seconds": 189.9056417942047,
+      "attempts": 193
+    },
+    {
+      "step": 188,
+      "triangle": [
+        14,
+        16,
+        17
+      ],
+      "gain": 1,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.00010544272721589141,
+      "seconds": 192.77977323532104,
+      "attempts": 194
+    },
+    {
+      "step": 189,
+      "triangle": [
+        10,
+        17,
+        19
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "normal",
+      "margin": 9.96702884591912e-05,
+      "seconds": 195.88294959068298,
+      "attempts": 196
+    },
+    {
+      "step": 190,
+      "triangle": [
+        9,
+        18,
+        19
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.00033653795470158773,
+      "seconds": 196.22278547286987,
+      "attempts": 197
+    },
+    {
+      "step": 191,
+      "triangle": [
+        11,
+        17,
+        18
+      ],
+      "gain": -1,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0002089267422046525,
+      "seconds": 196.57461047172546,
+      "attempts": 198
+    },
+    {
+      "step": 192,
+      "triangle": [
+        10,
+        17,
+        19
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.000121338860612906,
+      "seconds": 196.94935989379883,
+      "attempts": 199
+    },
+    {
+      "step": 193,
+      "triangle": [
+        6,
+        43,
+        44
+      ],
+      "gain": -2,
+      "score": 684,
+      "mode": "normal",
+      "margin": 0.00011150090128525353,
+      "seconds": 199.85635018348694,
+      "attempts": 201
+    },
+    {
+      "step": 194,
+      "triangle": [
+        15,
+        16,
+        19
+      ],
+      "gain": -1,
+      "score": 683,
+      "mode": "offset",
+      "margin": 0.0007326477075414599,
+      "seconds": 200.46024894714355,
+      "attempts": 203
+    },
+    {
+      "step": 195,
+      "triangle": [
+        9,
+        18,
+        19
+      ],
+      "gain": 2,
+      "score": 685,
+      "mode": "normal",
+      "margin": 0.0005976310665549618,
+      "seconds": 203.2944052219391,
+      "attempts": 204
+    },
+    {
+      "step": 196,
+      "triangle": [
+        11,
+        16,
+        19
+      ],
+      "gain": 1,
+      "score": 686,
+      "mode": "normal",
+      "margin": 0.0008335850257380049,
+      "seconds": 206.29481148719788,
+      "attempts": 206
+    },
+    {
+      "step": 197,
+      "triangle": [
+        12,
+        15,
+        18
+      ],
+      "gain": -1,
+      "score": 685,
+      "mode": "offset",
+      "margin": 0.0007195218759747592,
+      "seconds": 206.62357640266418,
+      "attempts": 207
+    },
+    {
+      "step": 198,
+      "triangle": [
+        6,
+        43,
+        44
+      ],
+      "gain": 2,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.00071595268599837,
+      "seconds": 206.9714000225067,
+      "attempts": 208
+    },
+    {
+      "step": 199,
+      "triangle": [
+        12,
+        15,
+        16
+      ],
+      "gain": 1,
+      "score": 688,
+      "mode": "normal",
+      "margin": 0.0006194523652941066,
+      "seconds": 209.7207818031311,
+      "attempts": 209
+    },
+    {
+      "step": 200,
+      "triangle": [
+        11,
+        17,
+        18
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0011121738713234098,
+      "seconds": 210.04620957374573,
+      "attempts": 210
+    },
+    {
+      "step": 201,
+      "triangle": [
+        12,
+        17,
+        18
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "normal",
+      "margin": 0.000683703247094095,
+      "seconds": 212.8328034877777,
+      "attempts": 211
+    },
+    {
+      "step": 202,
+      "triangle": [
+        30,
+        31,
+        32
+      ],
+      "gain": -1,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0008220369595890795,
+      "seconds": 213.22618889808655,
+      "attempts": 212
+    },
+    {
+      "step": 203,
+      "triangle": [
+        12,
+        17,
+        18
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0011175482330137096,
+      "seconds": 213.58929777145386,
+      "attempts": 213
+    },
+    {
+      "step": 204,
+      "triangle": [
+        11,
+        17,
+        18
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0007291615568010384,
+      "seconds": 213.96969270706177,
+      "attempts": 214
+    },
+    {
+      "step": 205,
+      "triangle": [
+        29,
+        31,
+        33
+      ],
+      "gain": -1,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0007291048794934045,
+      "seconds": 214.3536639213562,
+      "attempts": 215
+    },
+    {
+      "step": 206,
+      "triangle": [
+        4,
+        44,
+        45
+      ],
+      "gain": -2,
+      "score": 684,
+      "mode": "offset",
+      "margin": 0.0007209850929337217,
+      "seconds": 214.70922183990479,
+      "attempts": 216
+    },
+    {
+      "step": 207,
+      "triangle": [
+        29,
+        31,
+        33
+      ],
+      "gain": 1,
+      "score": 685,
+      "mode": "offset",
+      "margin": 0.0007212400144150657,
+      "seconds": 215.05729055404663,
+      "attempts": 217
+    },
+    {
+      "step": 208,
+      "triangle": [
+        30,
+        31,
+        32
+      ],
+      "gain": 1,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0007212256089675526,
+      "seconds": 215.4527723789215,
+      "attempts": 218
+    },
+    {
+      "step": 209,
+      "triangle": [
+        11,
+        17,
+        18
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0010952772338300566,
+      "seconds": 215.84433794021606,
+      "attempts": 219
+    },
+    {
+      "step": 210,
+      "triangle": [
+        12,
+        17,
+        18
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0008113482917990205,
+      "seconds": 216.25269603729248,
+      "attempts": 220
+    },
+    {
+      "step": 211,
+      "triangle": [
+        5,
+        43,
+        44
+      ],
+      "gain": -1,
+      "score": 685,
+      "mode": "offset",
+      "margin": 0.0007856311765894214,
+      "seconds": 216.62144136428833,
+      "attempts": 221
+    },
+    {
+      "step": 212,
+      "triangle": [
+        4,
+        44,
+        45
+      ],
+      "gain": 1,
+      "score": 686,
+      "mode": "normal",
+      "margin": 0.0006712231523540531,
+      "seconds": 219.50886273384094,
+      "attempts": 222
+    },
+    {
+      "step": 213,
+      "triangle": [
+        12,
+        17,
+        18
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0010695667504157904,
+      "seconds": 219.81060528755188,
+      "attempts": 223
+    },
+    {
+      "step": 214,
+      "triangle": [
+        11,
+        17,
+        18
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "normal",
+      "margin": 0.0006233936313260466,
+      "seconds": 222.09192752838135,
+      "attempts": 224
+    },
+    {
+      "step": 215,
+      "triangle": [
+        13,
+        15,
+        17
+      ],
+      "gain": -1,
+      "score": 685,
+      "mode": "offset",
+      "margin": 4.877468164097411e-05,
+      "seconds": 222.41712498664856,
+      "attempts": 225
+    },
+    {
+      "step": 216,
+      "triangle": [
+        5,
+        43,
+        44
+      ],
+      "gain": 2,
+      "score": 687,
+      "mode": "offset",
+      "margin": 4.972580021095082e-05,
+      "seconds": 222.72469520568848,
+      "attempts": 226
+    },
+    {
+      "step": 217,
+      "triangle": [
+        11,
+        17,
+        18
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0003917574322092074,
+      "seconds": 223.06424140930176,
+      "attempts": 227
+    },
+    {
+      "step": 218,
+      "triangle": [
+        15,
+        16,
+        18
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.000600236326964056,
+      "seconds": 225.95922684669495,
+      "attempts": 228
+    },
+    {
+      "step": 219,
+      "triangle": [
+        11,
+        17,
+        18
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0007477932808186977,
+      "seconds": 226.33536505699158,
+      "attempts": 229
+    },
+    {
+      "step": 220,
+      "triangle": [
+        12,
+        16,
+        18
+      ],
+      "gain": 1,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0008254877349947596,
+      "seconds": 226.70168042182922,
+      "attempts": 230
+    },
+    {
+      "step": 221,
+      "triangle": [
+        13,
+        15,
+        17
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0013932742313480038,
+      "seconds": 227.0684938430786,
+      "attempts": 231
+    },
+    {
+      "step": 222,
+      "triangle": [
+        30,
+        31,
+        32
+      ],
+      "gain": -1,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0011138190391255687,
+      "seconds": 229.88882613182068,
+      "attempts": 232
+    },
+    {
+      "step": 223,
+      "triangle": [
+        13,
+        15,
+        17
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0008016433695033418,
+      "seconds": 230.25259470939636,
+      "attempts": 233
+    },
+    {
+      "step": 224,
+      "triangle": [
+        13,
+        15,
+        16
+      ],
+      "gain": 1,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0009633676674502367,
+      "seconds": 230.58869910240173,
+      "attempts": 234
+    },
+    {
+      "step": 225,
+      "triangle": [
+        15,
+        16,
+        17
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "normal",
+      "margin": 0.0008717106311032258,
+      "seconds": 233.4152545928955,
+      "attempts": 235
+    },
+    {
+      "step": 226,
+      "triangle": [
+        14,
+        15,
+        16
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0006663520647851443,
+      "seconds": 233.78034949302673,
+      "attempts": 236
+    },
+    {
+      "step": 227,
+      "triangle": [
+        30,
+        31,
+        32
+      ],
+      "gain": 1,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.0006657916168661595,
+      "seconds": 234.17988395690918,
+      "attempts": 237
+    },
+    {
+      "step": 228,
+      "triangle": [
+        14,
+        15,
+        17
+      ],
+      "gain": 0,
+      "score": 689,
+      "mode": "normal",
+      "margin": 0.0008996328025542775,
+      "seconds": 237.02146434783936,
+      "attempts": 238
+    },
+    {
+      "step": 229,
+      "triangle": [
+        13,
+        16,
+        17
+      ],
+      "gain": 0,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.0014020835097775883,
+      "seconds": 237.3768584728241,
+      "attempts": 239
+    },
+    {
+      "step": 230,
+      "triangle": [
+        16,
+        38,
+        39
+      ],
+      "gain": -2,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0014020835097773032,
+      "seconds": 237.710693359375,
+      "attempts": 240
+    },
+    {
+      "step": 231,
+      "triangle": [
+        14,
+        15,
+        17
+      ],
+      "gain": 2,
+      "score": 689,
+      "mode": "normal",
+      "margin": 0.0010517978596348415,
+      "seconds": 240.40192794799805,
+      "attempts": 241
+    },
+    {
+      "step": 232,
+      "triangle": [
+        14,
+        15,
+        16
+      ],
+      "gain": -1,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0014091483652757168,
+      "seconds": 240.78722405433655,
+      "attempts": 242
+    },
+    {
+      "step": 233,
+      "triangle": [
+        4,
+        20,
+        21
+      ],
+      "gain": -2,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0014091715624082724,
+      "seconds": 241.1911723613739,
+      "attempts": 243
+    },
+    {
+      "step": 234,
+      "triangle": [
+        16,
+        38,
+        39
+      ],
+      "gain": 2,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0014091715624085079,
+      "seconds": 241.58126211166382,
+      "attempts": 244
+    },
+    {
+      "step": 235,
+      "triangle": [
+        3,
+        20,
+        22
+      ],
+      "gain": -1,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0014091715624090521,
+      "seconds": 241.97832655906677,
+      "attempts": 245
+    },
+    {
+      "step": 236,
+      "triangle": [
+        14,
+        15,
+        16
+      ],
+      "gain": 1,
+      "score": 688,
+      "mode": "normal",
+      "margin": 0.0010921719095363868,
+      "seconds": 245.66179943084717,
+      "attempts": 246
+    },
+    {
+      "step": 237,
+      "triangle": [
+        4,
+        20,
+        21
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0006924898911310968,
+      "seconds": 246.22752356529236,
+      "attempts": 247
+    },
+    {
+      "step": 238,
+      "triangle": [
+        30,
+        31,
+        32
+      ],
+      "gain": -1,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0006933032891301105,
+      "seconds": 246.92775440216064,
+      "attempts": 248
+    },
+    {
+      "step": 239,
+      "triangle": [
+        4,
+        20,
+        21
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0010482641245583475,
+      "seconds": 251.3156180381775,
+      "attempts": 249
+    },
+    {
+      "step": 240,
+      "triangle": [
+        27,
+        32,
+        33
+      ],
+      "gain": -2,
+      "score": 685,
+      "mode": "offset",
+      "margin": 0.0014984891261850435,
+      "seconds": 251.77274465560913,
+      "attempts": 250
+    },
+    {
+      "step": 241,
+      "triangle": [
+        30,
+        31,
+        32
+      ],
+      "gain": 1,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0014158024814224376,
+      "seconds": 252.30345392227173,
+      "attempts": 251
+    },
+    {
+      "step": 242,
+      "triangle": [
+        3,
+        20,
+        22
+      ],
+      "gain": 1,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.001421244304840211,
+      "seconds": 252.88054180145264,
+      "attempts": 252
+    },
+    {
+      "step": 243,
+      "triangle": [
+        4,
+        20,
+        21
+      ],
+      "gain": 2,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.0014251652400242574,
+      "seconds": 253.5106327533722,
+      "attempts": 253
+    },
+    {
+      "step": 244,
+      "triangle": [
+        27,
+        31,
+        34
+      ],
+      "gain": -2,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0004601132865987812,
+      "seconds": 254.1548309326172,
+      "attempts": 254
+    },
+    {
+      "step": 245,
+      "triangle": [
+        27,
+        32,
+        33
+      ],
+      "gain": 1,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.00044232599233258896,
+      "seconds": 254.92952370643616,
+      "attempts": 255
+    },
+    {
+      "step": 246,
+      "triangle": [
+        2,
+        45,
+        46
+      ],
+      "gain": -2,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0004423259923325066,
+      "seconds": 255.62376928329468,
+      "attempts": 256
+    },
+    {
+      "step": 247,
+      "triangle": [
+        27,
+        31,
+        34
+      ],
+      "gain": 3,
+      "score": 689,
+      "mode": "normal",
+      "margin": 0.0010692589300255251,
+      "seconds": 259.6101562976837,
+      "attempts": 257
+    },
+    {
+      "step": 248,
+      "triangle": [
+        3,
+        44,
+        46
+      ],
+      "gain": -1,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0014269288620654332,
+      "seconds": 260.01827359199524,
+      "attempts": 258
+    },
+    {
+      "step": 249,
+      "triangle": [
+        4,
+        44,
+        45
+      ],
+      "gain": -1,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0013590220340773287,
+      "seconds": 260.7115681171417,
+      "attempts": 260
+    },
+    {
+      "step": 250,
+      "triangle": [
+        3,
+        44,
+        46
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.001359192491193362,
+      "seconds": 261.35616636276245,
+      "attempts": 262
+    },
+    {
+      "step": 251,
+      "triangle": [
+        2,
+        45,
+        46
+      ],
+      "gain": 2,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.001359192491193229,
+      "seconds": 261.78716564178467,
+      "attempts": 263
+    },
+    {
+      "step": 252,
+      "triangle": [
+        13,
+        14,
+        19
+      ],
+      "gain": -2,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0012773840587526725,
+      "seconds": 262.22649002075195,
+      "attempts": 264
+    },
+    {
+      "step": 253,
+      "triangle": [
+        4,
+        44,
+        45
+      ],
+      "gain": 2,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.0013942992961551149,
+      "seconds": 262.63260531425476,
+      "attempts": 265
+    },
+    {
+      "step": 254,
+      "triangle": [
+        12,
+        14,
+        20
+      ],
+      "gain": -1,
+      "score": 688,
+      "mode": "normal",
+      "margin": 0.0011109387163249968,
+      "seconds": 266.3063669204712,
+      "attempts": 266
+    },
+    {
+      "step": 255,
+      "triangle": [
+        13,
+        14,
+        19
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "normal",
+      "margin": 0.0009503445332562357,
+      "seconds": 270.14260840415955,
+      "attempts": 267
+    },
+    {
+      "step": 256,
+      "triangle": [
+        14,
+        15,
+        16
+      ],
+      "gain": -1,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.001034128655016229,
+      "seconds": 270.70272946357727,
+      "attempts": 268
+    },
+    {
+      "step": 257,
+      "triangle": [
+        30,
+        31,
+        32
+      ],
+      "gain": -1,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.001034143913907889,
+      "seconds": 271.22042083740234,
+      "attempts": 269
+    },
+    {
+      "step": 258,
+      "triangle": [
+        14,
+        15,
+        16
+      ],
+      "gain": 1,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.001034143913907883,
+      "seconds": 271.74650406837463,
+      "attempts": 270
+    },
+    {
+      "step": 259,
+      "triangle": [
+        13,
+        14,
+        19
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0014591566556532147,
+      "seconds": 272.1825633049011,
+      "attempts": 271
+    },
+    {
+      "step": 260,
+      "triangle": [
+        12,
+        14,
+        20
+      ],
+      "gain": 1,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.001316358257387596,
+      "seconds": 272.59382820129395,
+      "attempts": 272
+    },
+    {
+      "step": 261,
+      "triangle": [
+        21,
+        35,
+        36
+      ],
+      "gain": -2,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0013158216176433301,
+      "seconds": 273.017329454422,
+      "attempts": 273
+    },
+    {
+      "step": 262,
+      "triangle": [
+        13,
+        14,
+        19
+      ],
+      "gain": 2,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0014463308952330266,
+      "seconds": 273.43625807762146,
+      "attempts": 274
+    },
+    {
+      "step": 263,
+      "triangle": [
+        30,
+        31,
+        32
+      ],
+      "gain": 1,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.0013944031888074681,
+      "seconds": 273.8713676929474,
+      "attempts": 275
+    },
+    {
+      "step": 264,
+      "triangle": [
+        20,
+        36,
+        37
+      ],
+      "gain": -1,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.001392493293866474,
+      "seconds": 274.4173958301544,
+      "attempts": 276
+    },
+    {
+      "step": 265,
+      "triangle": [
+        21,
+        35,
+        36
+      ],
+      "gain": 1,
+      "score": 689,
+      "mode": "normal",
+      "margin": 0.0009867493241137444,
+      "seconds": 279.2125344276428,
+      "attempts": 277
+    },
+    {
+      "step": 266,
+      "triangle": [
+        28,
+        29,
+        36
+      ],
+      "gain": -2,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0013336149395197791,
+      "seconds": 279.689120054245,
+      "attempts": 278
+    },
+    {
+      "step": 267,
+      "triangle": [
+        20,
+        36,
+        37
+      ],
+      "gain": 2,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.001334132765651257,
+      "seconds": 280.1727571487427,
+      "attempts": 279
+    },
+    {
+      "step": 268,
+      "triangle": [
+        11,
+        17,
+        18
+      ],
+      "gain": -2,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0012326549553046985,
+      "seconds": 280.6931850910187,
+      "attempts": 280
+    },
+    {
+      "step": 269,
+      "triangle": [
+        28,
+        29,
+        36
+      ],
+      "gain": 2,
+      "score": 689,
+      "mode": "normal",
+      "margin": 0.0008736211642906435,
+      "seconds": 285.4430751800537,
+      "attempts": 281
+    },
+    {
+      "step": 270,
+      "triangle": [
+        0,
+        1,
+        44
+      ],
+      "gain": -2,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.001226048129505034,
+      "seconds": 286.1154866218567,
+      "attempts": 282
+    },
+    {
+      "step": 271,
+      "triangle": [
+        11,
+        17,
+        18
+      ],
+      "gain": 2,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.0013035034964449903,
+      "seconds": 286.7157940864563,
+      "attempts": 283
+    },
+    {
+      "step": 272,
+      "triangle": [
+        1,
+        2,
+        43
+      ],
+      "gain": -1,
+      "score": 688,
+      "mode": "normal",
+      "margin": 0.0005785246676253212,
+      "seconds": 290.37569665908813,
+      "attempts": 284
+    },
+    {
+      "step": 273,
+      "triangle": [
+        0,
+        1,
+        44
+      ],
+      "gain": 1,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.0013149404782435029,
+      "seconds": 290.8255364894867,
+      "attempts": 285
+    },
+    {
+      "step": 274,
+      "triangle": [
+        30,
+        31,
+        32
+      ],
+      "gain": -1,
+      "score": 688,
+      "mode": "normal",
+      "margin": 0.000531553950246318,
+      "seconds": 294.0337915420532,
+      "attempts": 286
+    },
+    {
+      "step": 275,
+      "triangle": [
+        29,
+        31,
+        33
+      ],
+      "gain": -1,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0005314838227829733,
+      "seconds": 297.6795771121979,
+      "attempts": 287
+    },
+    {
+      "step": 276,
+      "triangle": [
+        28,
+        32,
+        33
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0005310757143330389,
+      "seconds": 301.0434410572052,
+      "attempts": 288
+    },
+    {
+      "step": 277,
+      "triangle": [
+        30,
+        31,
+        32
+      ],
+      "gain": -1,
+      "score": 686,
+      "mode": "normal",
+      "margin": 0.0005306063924344745,
+      "seconds": 304.47173380851746,
+      "attempts": 289
+    },
+    {
+      "step": 278,
+      "triangle": [
+        1,
+        2,
+        43
+      ],
+      "gain": 2,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0007388758604770237,
+      "seconds": 304.9359254837036,
+      "attempts": 290
+    },
+    {
+      "step": 279,
+      "triangle": [
+        28,
+        32,
+        33
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.00038275101211473887,
+      "seconds": 305.46972703933716,
+      "attempts": 291
+    },
+    {
+      "step": 280,
+      "triangle": [
+        3,
+        44,
+        45
+      ],
+      "gain": -2,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0003754355350099662,
+      "seconds": 305.9567325115204,
+      "attempts": 292
+    },
+    {
+      "step": 281,
+      "triangle": [
+        30,
+        31,
+        32
+      ],
+      "gain": 1,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0010139087216108674,
+      "seconds": 306.40948843955994,
+      "attempts": 293
+    },
+    {
+      "step": 282,
+      "triangle": [
+        28,
+        32,
+        33
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0008632816500439416,
+      "seconds": 306.98477363586426,
+      "attempts": 294
+    },
+    {
+      "step": 283,
+      "triangle": [
+        14,
+        15,
+        16
+      ],
+      "gain": -1,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0008569013145156873,
+      "seconds": 307.5333149433136,
+      "attempts": 295
+    },
+    {
+      "step": 284,
+      "triangle": [
+        3,
+        44,
+        45
+      ],
+      "gain": 2,
+      "score": 688,
+      "mode": "normal",
+      "margin": 0.0008822960333152524,
+      "seconds": 312.27504420280457,
+      "attempts": 296
+    },
+    {
+      "step": 285,
+      "triangle": [
+        28,
+        32,
+        33
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "normal",
+      "margin": 0.000883013101472932,
+      "seconds": 316.17742395401,
+      "attempts": 297
+    },
+    {
+      "step": 286,
+      "triangle": [
+        29,
+        30,
+        34
+      ],
+      "gain": -1,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.001509133291907167,
+      "seconds": 316.6007969379425,
+      "attempts": 298
+    },
+    {
+      "step": 287,
+      "triangle": [
+        14,
+        15,
+        16
+      ],
+      "gain": 1,
+      "score": 688,
+      "mode": "normal",
+      "margin": 0.0010572422270239885,
+      "seconds": 319.99875497817993,
+      "attempts": 299
+    },
+    {
+      "step": 288,
+      "triangle": [
+        28,
+        32,
+        33
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0010066522098378377,
+      "seconds": 320.5005989074707,
+      "attempts": 300
+    },
+    {
+      "step": 289,
+      "triangle": [
+        28,
+        31,
+        34
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0011117876194202698,
+      "seconds": 320.9386463165283,
+      "attempts": 301
+    },
+    {
+      "step": 290,
+      "triangle": [
+        27,
+        32,
+        34
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0010644110241973166,
+      "seconds": 321.3470079898834,
+      "attempts": 302
+    },
+    {
+      "step": 291,
+      "triangle": [
+        6,
+        43,
+        44
+      ],
+      "gain": -2,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0010633428925531738,
+      "seconds": 321.8393144607544,
+      "attempts": 303
+    },
+    {
+      "step": 292,
+      "triangle": [
+        27,
+        32,
+        34
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "normal",
+      "margin": 0.0010246314227705857,
+      "seconds": 325.96731543540955,
+      "attempts": 304
+    },
+    {
+      "step": 293,
+      "triangle": [
+        7,
+        42,
+        43
+      ],
+      "gain": -1,
+      "score": 685,
+      "mode": "normal",
+      "margin": 0.0009636223329637893,
+      "seconds": 329.40572023391724,
+      "attempts": 305
+    },
+    {
+      "step": 294,
+      "triangle": [
+        6,
+        43,
+        44
+      ],
+      "gain": 1,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.001128064955908784,
+      "seconds": 329.83624172210693,
+      "attempts": 306
+    },
+    {
+      "step": 295,
+      "triangle": [
+        27,
+        32,
+        34
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "normal",
+      "margin": 0.0008917737010537485,
+      "seconds": 334.386212348938,
+      "attempts": 307
+    },
+    {
+      "step": 296,
+      "triangle": [
+        26,
+        33,
+        34
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0010118776464322187,
+      "seconds": 335.0851876735687,
+      "attempts": 308
+    },
+    {
+      "step": 297,
+      "triangle": [
+        7,
+        42,
+        43
+      ],
+      "gain": 2,
+      "score": 688,
+      "mode": "normal",
+      "margin": 0.0009262398858627025,
+      "seconds": 341.25402784347534,
+      "attempts": 309
+    },
+    {
+      "step": 298,
+      "triangle": [
+        0,
+        1,
+        45
+      ],
+      "gain": -2,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0010184500569961727,
+      "seconds": 342.18486642837524,
+      "attempts": 310
+    },
+    {
+      "step": 299,
+      "triangle": [
+        26,
+        33,
+        34
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0010782546003270926,
+      "seconds": 343.03678584098816,
+      "attempts": 311
+    },
+    {
+      "step": 300,
+      "triangle": [
+        27,
+        32,
+        34
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.001124733042318719,
+      "seconds": 343.9342942237854,
+      "attempts": 312
+    },
+    {
+      "step": 301,
+      "triangle": [
+        28,
+        32,
+        33
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0013884209228900628,
+      "seconds": 344.9499931335449,
+      "attempts": 313
+    },
+    {
+      "step": 302,
+      "triangle": [
+        0,
+        1,
+        45
+      ],
+      "gain": 2,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0013918808756362745,
+      "seconds": 345.5617296695709,
+      "attempts": 314
+    },
+    {
+      "step": 303,
+      "triangle": [
+        28,
+        29,
+        35
+      ],
+      "gain": -1,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.001082101659288795,
+      "seconds": 346.126752614975,
+      "attempts": 315
+    },
+    {
+      "step": 304,
+      "triangle": [
+        28,
+        31,
+        34
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0013879252802071313,
+      "seconds": 346.70627784729004,
+      "attempts": 316
+    },
+    {
+      "step": 305,
+      "triangle": [
+        28,
+        32,
+        33
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0009851840374787999,
+      "seconds": 347.4734025001526,
+      "attempts": 317
+    },
+    {
+      "step": 306,
+      "triangle": [
+        28,
+        31,
+        34
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0009101493123825325,
+      "seconds": 348.11140608787537,
+      "attempts": 318
+    },
+    {
+      "step": 307,
+      "triangle": [
+        27,
+        32,
+        34
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0009426350732074843,
+      "seconds": 348.9635064601898,
+      "attempts": 319
+    },
+    {
+      "step": 308,
+      "triangle": [
+        26,
+        33,
+        34
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0007994160924283795,
+      "seconds": 355.52498722076416,
+      "attempts": 320
+    },
+    {
+      "step": 309,
+      "triangle": [
+        1,
+        2,
+        43
+      ],
+      "gain": -2,
+      "score": 685,
+      "mode": "offset",
+      "margin": 0.0009011152584773015,
+      "seconds": 356.127872467041,
+      "attempts": 321
+    },
+    {
+      "step": 310,
+      "triangle": [
+        28,
+        29,
+        35
+      ],
+      "gain": 1,
+      "score": 686,
+      "mode": "normal",
+      "margin": 0.0006810792459575181,
+      "seconds": 360.73770809173584,
+      "attempts": 322
+    },
+    {
+      "step": 311,
+      "triangle": [
+        26,
+        33,
+        34
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0010922578076398622,
+      "seconds": 361.2811360359192,
+      "attempts": 323
+    },
+    {
+      "step": 312,
+      "triangle": [
+        27,
+        32,
+        34
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0011099968360699165,
+      "seconds": 361.90131545066833,
+      "attempts": 324
+    },
+    {
+      "step": 313,
+      "triangle": [
+        28,
+        31,
+        34
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "normal",
+      "margin": 0.0006290164565935643,
+      "seconds": 366.7067756652832,
+      "attempts": 325
+    },
+    {
+      "step": 314,
+      "triangle": [
+        28,
+        32,
+        33
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "normal",
+      "margin": 0.000629016733304164,
+      "seconds": 372.0022795200348,
+      "attempts": 326
+    },
+    {
+      "step": 315,
+      "triangle": [
+        28,
+        31,
+        34
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "normal",
+      "margin": 0.0006290167334761872,
+      "seconds": 377.0149004459381,
+      "attempts": 327
+    },
+    {
+      "step": 316,
+      "triangle": [
+        14,
+        15,
+        16
+      ],
+      "gain": -1,
+      "score": 685,
+      "mode": "offset",
+      "margin": 0.0014992225304742068,
+      "seconds": 378.1396827697754,
+      "attempts": 328
+    },
+    {
+      "step": 317,
+      "triangle": [
+        1,
+        2,
+        43
+      ],
+      "gain": 2,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0010718553955447005,
+      "seconds": 383.8757758140564,
+      "attempts": 329
+    },
+    {
+      "step": 318,
+      "triangle": [
+        28,
+        32,
+        33
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0011334730873986492,
+      "seconds": 384.4273011684418,
+      "attempts": 330
+    },
+    {
+      "step": 319,
+      "triangle": [
+        28,
+        31,
+        34
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0009104675386341008,
+      "seconds": 389.3777177333832,
+      "attempts": 331
+    },
+    {
+      "step": 320,
+      "triangle": [
+        28,
+        30,
+        35
+      ],
+      "gain": -1,
+      "score": 686,
+      "mode": "normal",
+      "margin": 0.0008559733901494165,
+      "seconds": 394.1038191318512,
+      "attempts": 332
+    },
+    {
+      "step": 321,
+      "triangle": [
+        14,
+        15,
+        16
+      ],
+      "gain": 1,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.000935156516966127,
+      "seconds": 394.63259267807007,
+      "attempts": 333
+    },
+    {
+      "step": 322,
+      "triangle": [
+        28,
+        31,
+        34
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0013758773564054468,
+      "seconds": 395.1671974658966,
+      "attempts": 334
+    },
+    {
+      "step": 323,
+      "triangle": [
+        27,
+        31,
+        35
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0012141745437380747,
+      "seconds": 395.6997354030609,
+      "attempts": 335
+    },
+    {
+      "step": 324,
+      "triangle": [
+        28,
+        32,
+        33
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0014156988845439727,
+      "seconds": 396.27381229400635,
+      "attempts": 336
+    },
+    {
+      "step": 325,
+      "triangle": [
+        27,
+        31,
+        35
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0014167565260131188,
+      "seconds": 396.84024310112,
+      "attempts": 337
+    },
+    {
+      "step": 326,
+      "triangle": [
+        28,
+        31,
+        34
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.001407443104556963,
+      "seconds": 397.3902065753937,
+      "attempts": 338
+    },
+    {
+      "step": 327,
+      "triangle": [
+        29,
+        30,
+        35
+      ],
+      "gain": -1,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.001264321441509738,
+      "seconds": 397.98653388023376,
+      "attempts": 339
+    },
+    {
+      "step": 328,
+      "triangle": [
+        28,
+        31,
+        34
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0013869869863044615,
+      "seconds": 398.5304937362671,
+      "attempts": 340
+    },
+    {
+      "step": 329,
+      "triangle": [
+        28,
+        32,
+        33
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.001372901332994207,
+      "seconds": 399.05315685272217,
+      "attempts": 341
+    },
+    {
+      "step": 330,
+      "triangle": [
+        28,
+        31,
+        34
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "normal",
+      "margin": 0.0006707851648943451,
+      "seconds": 403.6575994491577,
+      "attempts": 342
+    },
+    {
+      "step": 331,
+      "triangle": [
+        27,
+        31,
+        35
+      ],
+      "gain": -2,
+      "score": 684,
+      "mode": "normal",
+      "margin": 0.0006993988893285394,
+      "seconds": 408.7482259273529,
+      "attempts": 343
+    },
+    {
+      "step": 332,
+      "triangle": [
+        28,
+        31,
+        34
+      ],
+      "gain": 2,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.001219089531388912,
+      "seconds": 409.32084608078003,
+      "attempts": 344
+    },
+    {
+      "step": 333,
+      "triangle": [
+        27,
+        32,
+        34
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0012048877282615953,
+      "seconds": 409.88298320770264,
+      "attempts": 345
+    },
+    {
+      "step": 334,
+      "triangle": [
+        29,
+        30,
+        35
+      ],
+      "gain": 1,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0012190292595522882,
+      "seconds": 410.4268615245819,
+      "attempts": 346
+    },
+    {
+      "step": 335,
+      "triangle": [
+        26,
+        33,
+        34
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.000956851873135676,
+      "seconds": 415.92665243148804,
+      "attempts": 347
+    },
+    {
+      "step": 336,
+      "triangle": [
+        26,
+        32,
+        35
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0011120832970273056,
+      "seconds": 416.4562830924988,
+      "attempts": 348
+    },
+    {
+      "step": 337,
+      "triangle": [
+        25,
+        33,
+        35
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0008312332625865269,
+      "seconds": 421.41076946258545,
+      "attempts": 349
+    },
+    {
+      "step": 338,
+      "triangle": [
+        24,
+        34,
+        35
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.001062722419494525,
+      "seconds": 421.918221950531,
+      "attempts": 350
+    },
+    {
+      "step": 339,
+      "triangle": [
+        26,
+        32,
+        35
+      ],
+      "gain": -2,
+      "score": 685,
+      "mode": "offset",
+      "margin": 0.0004354781575151517,
+      "seconds": 422.7460012435913,
+      "attempts": 351
+    },
+    {
+      "step": 340,
+      "triangle": [
+        25,
+        33,
+        35
+      ],
+      "gain": 0,
+      "score": 685,
+      "mode": "offset",
+      "margin": 0.0005915425584204036,
+      "seconds": 423.32026195526123,
+      "attempts": 352
+    },
+    {
+      "step": 341,
+      "triangle": [
+        26,
+        33,
+        34
+      ],
+      "gain": 0,
+      "score": 685,
+      "mode": "offset",
+      "margin": 0.0011003189614468404,
+      "seconds": 423.82274436950684,
+      "attempts": 353
+    },
+    {
+      "step": 342,
+      "triangle": [
+        27,
+        31,
+        35
+      ],
+      "gain": 0,
+      "score": 685,
+      "mode": "offset",
+      "margin": 0.0005079911469207534,
+      "seconds": 424.3664150238037,
+      "attempts": 354
+    },
+    {
+      "step": 343,
+      "triangle": [
+        24,
+        34,
+        35
+      ],
+      "gain": 2,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0012422152133932407,
+      "seconds": 424.88279700279236,
+      "attempts": 355
+    },
+    {
+      "step": 344,
+      "triangle": [
+        26,
+        33,
+        34
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0012420569598908834,
+      "seconds": 425.41619849205017,
+      "attempts": 356
+    },
+    {
+      "step": 345,
+      "triangle": [
+        30,
+        31,
+        32
+      ],
+      "gain": -1,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0013328606510944043,
+      "seconds": 425.9451389312744,
+      "attempts": 357
+    },
+    {
+      "step": 346,
+      "triangle": [
+        28,
+        30,
+        35
+      ],
+      "gain": 1,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0012329670960631834,
+      "seconds": 426.4891595840454,
+      "attempts": 358
+    },
+    {
+      "step": 347,
+      "triangle": [
+        26,
+        33,
+        34
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0010971236815825799,
+      "seconds": 427.134948015213,
+      "attempts": 359
+    },
+    {
+      "step": 348,
+      "triangle": [
+        27,
+        32,
+        34
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0005673797556871943,
+      "seconds": 427.77945470809937,
+      "attempts": 360
+    },
+    {
+      "step": 349,
+      "triangle": [
+        28,
+        31,
+        34
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0008373551523993851,
+      "seconds": 435.21174693107605,
+      "attempts": 361
+    },
+    {
+      "step": 350,
+      "triangle": [
+        28,
+        32,
+        33
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0009913696662271739,
+      "seconds": 435.9569025039673,
+      "attempts": 362
+    },
+    {
+      "step": 351,
+      "triangle": [
+        28,
+        31,
+        34
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0006072987692623514,
+      "seconds": 441.4624226093292,
+      "attempts": 363
+    },
+    {
+      "step": 352,
+      "triangle": [
+        14,
+        15,
+        16
+      ],
+      "gain": -1,
+      "score": 686,
+      "mode": "normal",
+      "margin": 0.0006117154736067696,
+      "seconds": 447.1866924762726,
+      "attempts": 364
+    },
+    {
+      "step": 353,
+      "triangle": [
+        28,
+        32,
+        33
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "normal",
+      "margin": 0.0006022993493280817,
+      "seconds": 454.18022084236145,
+      "attempts": 365
+    },
+    {
+      "step": 354,
+      "triangle": [
+        27,
+        32,
+        34
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0011485341342879734,
+      "seconds": 454.9763696193695,
+      "attempts": 366
+    },
+    {
+      "step": 355,
+      "triangle": [
+        30,
+        31,
+        32
+      ],
+      "gain": 1,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0008875178898107712,
+      "seconds": 462.21990156173706,
+      "attempts": 367
+    },
+    {
+      "step": 356,
+      "triangle": [
+        26,
+        33,
+        34
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0010385824586004735,
+      "seconds": 463.1541314125061,
+      "attempts": 368
+    },
+    {
+      "step": 357,
+      "triangle": [
+        1,
+        2,
+        42
+      ],
+      "gain": -2,
+      "score": 685,
+      "mode": "offset",
+      "margin": 0.0010385824586004629,
+      "seconds": 464.0650951862335,
+      "attempts": 369
+    },
+    {
+      "step": 358,
+      "triangle": [
+        14,
+        15,
+        16
+      ],
+      "gain": 1,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0010382457684916272,
+      "seconds": 464.95066022872925,
+      "attempts": 370
+    },
+    {
+      "step": 359,
+      "triangle": [
+        26,
+        33,
+        34
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.001126796936168337,
+      "seconds": 465.7160155773163,
+      "attempts": 371
+    },
+    {
+      "step": 360,
+      "triangle": [
+        27,
+        32,
+        34
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0010673271504572828,
+      "seconds": 466.4701781272888,
+      "attempts": 372
+    },
+    {
+      "step": 361,
+      "triangle": [
+        28,
+        31,
+        34
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.001008048039248777,
+      "seconds": 467.2512891292572,
+      "attempts": 373
+    },
+    {
+      "step": 362,
+      "triangle": [
+        29,
+        30,
+        34
+      ],
+      "gain": 1,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0009431707374468092,
+      "seconds": 468.0837297439575,
+      "attempts": 374
+    },
+    {
+      "step": 363,
+      "triangle": [
+        30,
+        31,
+        32
+      ],
+      "gain": -1,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0005819336711324094,
+      "seconds": 468.81747126579285,
+      "attempts": 375
+    },
+    {
+      "step": 364,
+      "triangle": [
+        29,
+        31,
+        33
+      ],
+      "gain": 1,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0008433314746149425,
+      "seconds": 476.43309783935547,
+      "attempts": 376
+    },
+    {
+      "step": 365,
+      "triangle": [
+        28,
+        32,
+        33
+      ],
+      "gain": 2,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.0013223998473288312,
+      "seconds": 477.5347509384155,
+      "attempts": 377
+    },
+    {
+      "step": 366,
+      "triangle": [
+        1,
+        3,
+        41
+      ],
+      "gain": -1,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0013190548255965758,
+      "seconds": 478.42287945747375,
+      "attempts": 378
+    },
+    {
+      "step": 367,
+      "triangle": [
+        1,
+        2,
+        42
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.00017499214263715082,
+      "seconds": 479.44619846343994,
+      "attempts": 379
+    },
+    {
+      "step": 368,
+      "triangle": [
+        30,
+        31,
+        32
+      ],
+      "gain": -1,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0002247579516962777,
+      "seconds": 487.9259386062622,
+      "attempts": 380
+    },
+    {
+      "step": 369,
+      "triangle": [
+        1,
+        2,
+        42
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.001367434656121086,
+      "seconds": 488.97208404541016,
+      "attempts": 381
+    },
+    {
+      "step": 370,
+      "triangle": [
+        1,
+        3,
+        41
+      ],
+      "gain": 1,
+      "score": 688,
+      "mode": "normal",
+      "margin": 0.00100739628535454,
+      "seconds": 496.9889326095581,
+      "attempts": 382
+    },
+    {
+      "step": 371,
+      "triangle": [
+        6,
+        7,
+        33
+      ],
+      "gain": -2,
+      "score": 686,
+      "mode": "normal",
+      "margin": 0.000872842110095232,
+      "seconds": 509.0224516391754,
+      "attempts": 383
+    },
+    {
+      "step": 372,
+      "triangle": [
+        1,
+        2,
+        42
+      ],
+      "gain": 2,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.001445802372506288,
+      "seconds": 510.1999876499176,
+      "attempts": 384
+    },
+    {
+      "step": 373,
+      "triangle": [
+        30,
+        31,
+        32
+      ],
+      "gain": 1,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.0012715678941052865,
+      "seconds": 511.3865239620209,
+      "attempts": 385
+    },
+    {
+      "step": 374,
+      "triangle": [
+        14,
+        15,
+        16
+      ],
+      "gain": -1,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0012995468034510277,
+      "seconds": 512.4048302173615,
+      "attempts": 386
+    },
+    {
+      "step": 375,
+      "triangle": [
+        13,
+        16,
+        17
+      ],
+      "gain": -1,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0008696972755489851,
+      "seconds": 523.9771618843079,
+      "attempts": 387
+    },
+    {
+      "step": 376,
+      "triangle": [
+        15,
+        16,
+        17
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.001072642462178947,
+      "seconds": 525.370997428894,
+      "attempts": 388
+    },
+    {
+      "step": 377,
+      "triangle": [
+        14,
+        16,
+        17
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0008804808650437438,
+      "seconds": 534.7718932628632,
+      "attempts": 389
+    },
+    {
+      "step": 378,
+      "triangle": [
+        13,
+        15,
+        16
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0008808714523637243,
+      "seconds": 546.1337239742279,
+      "attempts": 390
+    },
+    {
+      "step": 379,
+      "triangle": [
+        13,
+        14,
+        18
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0008783480937134545,
+      "seconds": 554.202953338623,
+      "attempts": 391
+    },
+    {
+      "step": 380,
+      "triangle": [
+        12,
+        16,
+        18
+      ],
+      "gain": -1,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0009067503625872757,
+      "seconds": 554.9638452529907,
+      "attempts": 392
+    },
+    {
+      "step": 381,
+      "triangle": [
+        5,
+        6,
+        34
+      ],
+      "gain": -1,
+      "score": 685,
+      "mode": "normal",
+      "margin": 0.0009220530868463882,
+      "seconds": 565.5355670452118,
+      "attempts": 393
+    },
+    {
+      "step": 382,
+      "triangle": [
+        12,
+        16,
+        18
+      ],
+      "gain": 1,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0011376283613835064,
+      "seconds": 566.838977098465,
+      "attempts": 394
+    },
+    {
+      "step": 383,
+      "triangle": [
+        6,
+        7,
+        33
+      ],
+      "gain": 1,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0011359275896927487,
+      "seconds": 568.1077370643616,
+      "attempts": 395
+    },
+    {
+      "step": 384,
+      "triangle": [
+        13,
+        14,
+        18
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0010123727926986163,
+      "seconds": 577.3536849021912,
+      "attempts": 396
+    },
+    {
+      "step": 385,
+      "triangle": [
+        13,
+        15,
+        16
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0010123804477237676,
+      "seconds": 587.5955667495728,
+      "attempts": 397
+    },
+    {
+      "step": 386,
+      "triangle": [
+        14,
+        16,
+        17
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.001190754001190824,
+      "seconds": 589.5725264549255,
+      "attempts": 398
+    },
+    {
+      "step": 387,
+      "triangle": [
+        15,
+        16,
+        17
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.001271079378173027,
+      "seconds": 591.4283454418182,
+      "attempts": 399
+    },
+    {
+      "step": 388,
+      "triangle": [
+        13,
+        16,
+        17
+      ],
+      "gain": 1,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0013181509484350477,
+      "seconds": 593.1537430286407,
+      "attempts": 400
+    },
+    {
+      "step": 389,
+      "triangle": [
+        14,
+        15,
+        16
+      ],
+      "gain": 1,
+      "score": 689,
+      "mode": "normal",
+      "margin": 0.0010132820443112928,
+      "seconds": 599.7726147174835,
+      "attempts": 401
+    },
+    {
+      "step": 390,
+      "triangle": [
+        23,
+        24,
+        45
+      ],
+      "gain": -2,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0013652682223331747,
+      "seconds": 600.2942662239075,
+      "attempts": 402
+    },
+    {
+      "step": 391,
+      "triangle": [
+        5,
+        6,
+        34
+      ],
+      "gain": 2,
+      "score": 689,
+      "mode": "normal",
+      "margin": 0.0009048325675648382,
+      "seconds": 607.5208156108856,
+      "attempts": 403
+    },
+    {
+      "step": 392,
+      "triangle": [
+        10,
+        41,
+        42
+      ],
+      "gain": -2,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0012590421626679706,
+      "seconds": 608.7667369842529,
+      "attempts": 404
+    },
+    {
+      "step": 393,
+      "triangle": [
+        23,
+        24,
+        45
+      ],
+      "gain": 2,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.0012604499032747131,
+      "seconds": 609.9732966423035,
+      "attempts": 405
+    },
+    {
+      "step": 394,
+      "triangle": [
+        9,
+        18,
+        19
+      ],
+      "gain": -2,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0011803171178465552,
+      "seconds": 611.4445958137512,
+      "attempts": 406
+    },
+    {
+      "step": 395,
+      "triangle": [
+        4,
+        5,
+        37
+      ],
+      "gain": -2,
+      "score": 685,
+      "mode": "offset",
+      "margin": 0.0007963658099685359,
+      "seconds": 612.6723551750183,
+      "attempts": 407
+    },
+    {
+      "step": 396,
+      "triangle": [
+        10,
+        41,
+        42
+      ],
+      "gain": 2,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0009059583136722921,
+      "seconds": 624.4368524551392,
+      "attempts": 408
+    },
+    {
+      "step": 397,
+      "triangle": [
+        10,
+        17,
+        18
+      ],
+      "gain": -1,
+      "score": 686,
+      "mode": "normal",
+      "margin": 0.0009061398812580705,
+      "seconds": 637.2842495441437,
+      "attempts": 410
+    },
+    {
+      "step": 398,
+      "triangle": [
+        9,
+        18,
+        19
+      ],
+      "gain": 1,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0013320882750372126,
+      "seconds": 638.8106882572174,
+      "attempts": 411
+    },
+    {
+      "step": 399,
+      "triangle": [
+        3,
+        5,
+        38
+      ],
+      "gain": -1,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.00018811066352285327,
+      "seconds": 640.3057165145874,
+      "attempts": 412
+    },
+    {
+      "step": 400,
+      "triangle": [
+        10,
+        17,
+        18
+      ],
+      "gain": 2,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0001881106635236844,
+      "seconds": 643.1231164932251,
+      "attempts": 413
+    },
+    {
+      "step": 401,
+      "triangle": [
+        4,
+        5,
+        37
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.00017117205626624902,
+      "seconds": 644.6001915931702,
+      "attempts": 414
+    },
+    {
+      "step": 402,
+      "triangle": [
+        3,
+        4,
+        39
+      ],
+      "gain": -1,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.00018811066352589074,
+      "seconds": 646.1666600704193,
+      "attempts": 415
+    },
+    {
+      "step": 403,
+      "triangle": [
+        3,
+        5,
+        38
+      ],
+      "gain": 2,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.0012920993937151762,
+      "seconds": 647.7399241924286,
+      "attempts": 416
+    },
+    {
+      "step": 404,
+      "triangle": [
+        14,
+        15,
+        16
+      ],
+      "gain": -1,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0012914089399995038,
+      "seconds": 648.9243505001068,
+      "attempts": 417
+    },
+    {
+      "step": 405,
+      "triangle": [
+        13,
+        15,
+        17
+      ],
+      "gain": -1,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0012464390942744574,
+      "seconds": 650.422765493393,
+      "attempts": 418
+    },
+    {
+      "step": 406,
+      "triangle": [
+        13,
+        14,
+        18
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0009117892377252685,
+      "seconds": 656.3267328739166,
+      "attempts": 419
+    },
+    {
+      "step": 407,
+      "triangle": [
+        12,
+        16,
+        17
+      ],
+      "gain": -1,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0010820183547435107,
+      "seconds": 656.9435451030731,
+      "attempts": 420
+    },
+    {
+      "step": 408,
+      "triangle": [
+        11,
+        17,
+        18
+      ],
+      "gain": -1,
+      "score": 685,
+      "mode": "normal",
+      "margin": 0.000942872119560054,
+      "seconds": 661.7737257480621,
+      "attempts": 421
+    },
+    {
+      "step": 409,
+      "triangle": [
+        3,
+        4,
+        39
+      ],
+      "gain": 2,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0011067764012801106,
+      "seconds": 662.3326408863068,
+      "attempts": 422
+    },
+    {
+      "step": 410,
+      "triangle": [
+        12,
+        15,
+        18
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0009469583402378516,
+      "seconds": 667.5475525856018,
+      "attempts": 423
+    },
+    {
+      "step": 411,
+      "triangle": [
+        11,
+        17,
+        18
+      ],
+      "gain": 1,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0012677804222823736,
+      "seconds": 668.2049646377563,
+      "attempts": 424
+    },
+    {
+      "step": 412,
+      "triangle": [
+        12,
+        14,
+        19
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0012677804222822604,
+      "seconds": 668.8153977394104,
+      "attempts": 425
+    },
+    {
+      "step": 413,
+      "triangle": [
+        23,
+        24,
+        45
+      ],
+      "gain": -2,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0012665189063526998,
+      "seconds": 669.3877992630005,
+      "attempts": 426
+    },
+    {
+      "step": 414,
+      "triangle": [
+        12,
+        13,
+        20
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "normal",
+      "margin": 0.0009731383135149432,
+      "seconds": 674.2567732334137,
+      "attempts": 427
+    },
+    {
+      "step": 415,
+      "triangle": [
+        23,
+        24,
+        45
+      ],
+      "gain": 2,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.001259034057207551,
+      "seconds": 674.8114309310913,
+      "attempts": 428
+    },
+    {
+      "step": 416,
+      "triangle": [
+        1,
+        22,
+        23
+      ],
+      "gain": -2,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0012468929880070584,
+      "seconds": 675.5230376720428,
+      "attempts": 429
+    },
+    {
+      "step": 417,
+      "triangle": [
+        12,
+        13,
+        20
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "normal",
+      "margin": 0.0011075157494377112,
+      "seconds": 681.6907343864441,
+      "attempts": 430
+    },
+    {
+      "step": 418,
+      "triangle": [
+        12,
+        14,
+        19
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "normal",
+      "margin": 0.0011084217606031007,
+      "seconds": 688.5637736320496,
+      "attempts": 431
+    },
+    {
+      "step": 419,
+      "triangle": [
+        12,
+        15,
+        18
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "normal",
+      "margin": 0.0010019072081587069,
+      "seconds": 696.2083094120026,
+      "attempts": 432
+    },
+    {
+      "step": 420,
+      "triangle": [
+        12,
+        16,
+        17
+      ],
+      "gain": 1,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.001209979326649085,
+      "seconds": 697.889349937439,
+      "attempts": 433
+    },
+    {
+      "step": 421,
+      "triangle": [
+        2,
+        21,
+        22
+      ],
+      "gain": -1,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0011945238776258102,
+      "seconds": 699.7608022689819,
+      "attempts": 434
+    },
+    {
+      "step": 422,
+      "triangle": [
+        1,
+        22,
+        23
+      ],
+      "gain": 1,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.00101571401818397,
+      "seconds": 705.7610490322113,
+      "attempts": 435
+    },
+    {
+      "step": 423,
+      "triangle": [
+        13,
+        14,
+        18
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.001270979405445334,
+      "seconds": 706.4635422229767,
+      "attempts": 436
+    },
+    {
+      "step": 424,
+      "triangle": [
+        13,
+        15,
+        17
+      ],
+      "gain": 1,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0012709794054452598,
+      "seconds": 707.1966812610626,
+      "attempts": 437
+    },
+    {
+      "step": 425,
+      "triangle": [
+        14,
+        15,
+        16
+      ],
+      "gain": 1,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.0012709794054463284,
+      "seconds": 708.1667327880859,
+      "attempts": 438
+    },
+    {
+      "step": 426,
+      "triangle": [
+        13,
+        16,
+        17
+      ],
+      "gain": -2,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0009554739483028256,
+      "seconds": 709.7128169536591,
+      "attempts": 439
+    },
+    {
+      "step": 427,
+      "triangle": [
+        14,
+        15,
+        16
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0012695801950703919,
+      "seconds": 711.7000098228455,
+      "attempts": 440
+    },
+    {
+      "step": 428,
+      "triangle": [
+        15,
+        16,
+        17
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.001265936905233095,
+      "seconds": 714.0470242500305,
+      "attempts": 441
+    },
+    {
+      "step": 429,
+      "triangle": [
+        30,
+        31,
+        32
+      ],
+      "gain": -1,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0013871607964704728,
+      "seconds": 715.6999554634094,
+      "attempts": 442
+    },
+    {
+      "step": 430,
+      "triangle": [
+        14,
+        16,
+        17
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.001834214740796491,
+      "seconds": 718.0440747737885,
+      "attempts": 443
+    },
+    {
+      "step": 431,
+      "triangle": [
+        2,
+        21,
+        22
+      ],
+      "gain": 2,
+      "score": 688,
+      "mode": "normal",
+      "margin": 0.0010886487001192044,
+      "seconds": 732.1958038806915,
+      "attempts": 444
+    },
+    {
+      "step": 432,
+      "triangle": [
+        13,
+        15,
+        16
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0018479375548043362,
+      "seconds": 733.9333109855652,
+      "attempts": 445
+    },
+    {
+      "step": 433,
+      "triangle": [
+        13,
+        14,
+        18
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0013793716904048137,
+      "seconds": 735.7576208114624,
+      "attempts": 446
+    },
+    {
+      "step": 434,
+      "triangle": [
+        12,
+        13,
+        21
+      ],
+      "gain": -2,
+      "score": 686,
+      "mode": "normal",
+      "margin": 0.0010609020609297242,
+      "seconds": 751.015885591507,
+      "attempts": 447
+    },
+    {
+      "step": 435,
+      "triangle": [
+        30,
+        31,
+        32
+      ],
+      "gain": 1,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.001055240551174105,
+      "seconds": 760.64852643013,
+      "attempts": 448
+    },
+    {
+      "step": 436,
+      "triangle": [
+        13,
+        14,
+        18
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0010558190147069285,
+      "seconds": 777.3228585720062,
+      "attempts": 449
+    },
+    {
+      "step": 437,
+      "triangle": [
+        13,
+        15,
+        16
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0013047717396700899,
+      "seconds": 779.6470007896423,
+      "attempts": 450
+    },
+    {
+      "step": 438,
+      "triangle": [
+        14,
+        15,
+        17
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.001015344951403692,
+      "seconds": 782.0782084465027,
+      "attempts": 451
+    },
+    {
+      "step": 439,
+      "triangle": [
+        12,
+        13,
+        21
+      ],
+      "gain": 2,
+      "score": 689,
+      "mode": "offset",
+      "margin": 0.0012603565798766853,
+      "seconds": 784.1027636528015,
+      "attempts": 452
+    },
+    {
+      "step": 440,
+      "triangle": [
+        30,
+        31,
+        32
+      ],
+      "gain": -1,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.00136459571791245,
+      "seconds": 786.5643312931061,
+      "attempts": 453
+    },
+    {
+      "step": 441,
+      "triangle": [
+        9,
+        41,
+        42
+      ],
+      "gain": -2,
+      "score": 686,
+      "mode": "offset",
+      "margin": 4.563707624714397e-05,
+      "seconds": 789.0901992321014,
+      "attempts": 454
+    },
+    {
+      "step": 442,
+      "triangle": [
+        30,
+        31,
+        32
+      ],
+      "gain": 1,
+      "score": 687,
+      "mode": "offset",
+      "margin": 1.4166070253171893e-05,
+      "seconds": 790.9503998756409,
+      "attempts": 455
+    },
+    {
+      "step": 443,
+      "triangle": [
+        14,
+        15,
+        17
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 1.4247007334075771e-05,
+      "seconds": 793.2807667255402,
+      "attempts": 456
+    },
+    {
+      "step": 444,
+      "triangle": [
+        13,
+        15,
+        16
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 7.420827798497545e-06,
+      "seconds": 795.0974802970886,
+      "attempts": 457
+    },
+    {
+      "step": 445,
+      "triangle": [
+        13,
+        14,
+        18
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0009227893892400538,
+      "seconds": 802.8208737373352,
+      "attempts": 458
+    },
+    {
+      "step": 446,
+      "triangle": [
+        12,
+        15,
+        18
+      ],
+      "gain": -1,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0008249215480974725,
+      "seconds": 803.4303388595581,
+      "attempts": 459
+    },
+    {
+      "step": 447,
+      "triangle": [
+        9,
+        41,
+        42
+      ],
+      "gain": 2,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0008762998555522087,
+      "seconds": 804.0319709777832,
+      "attempts": 460
+    },
+    {
+      "step": 448,
+      "triangle": [
+        13,
+        14,
+        18
+      ],
+      "gain": 0,
+      "score": 688,
+      "mode": "offset",
+      "margin": 0.0012979780236674547,
+      "seconds": 804.6772978305817,
+      "attempts": 461
+    },
+    {
+      "step": 449,
+      "triangle": [
+        24,
+        25,
+        43
+      ],
+      "gain": -2,
+      "score": 686,
+      "mode": "normal",
+      "margin": 0.0009142926005451024,
+      "seconds": 809.6073098182678,
+      "attempts": 462
+    },
+    {
+      "step": 450,
+      "triangle": [
+        12,
+        15,
+        18
+      ],
+      "gain": 1,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0009146164887391054,
+      "seconds": 815.0627183914185,
+      "attempts": 463
+    },
+    {
+      "step": 451,
+      "triangle": [
+        13,
+        15,
+        16
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0012950865564390127,
+      "seconds": 815.6849141120911,
+      "attempts": 464
+    },
+    {
+      "step": 452,
+      "triangle": [
+        14,
+        15,
+        17
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0012871037388021416,
+      "seconds": 816.2561469078064,
+      "attempts": 465
+    },
+    {
+      "step": 453,
+      "triangle": [
+        11,
+        12,
+        23
+      ],
+      "gain": -2,
+      "score": 685,
+      "mode": "offset",
+      "margin": 0.0012870205931533034,
+      "seconds": 816.9348499774933,
+      "attempts": 466
+    },
+    {
+      "step": 454,
+      "triangle": [
+        24,
+        25,
+        43
+      ],
+      "gain": 2,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0009535178768924142,
+      "seconds": 823.346893787384,
+      "attempts": 467
+    },
+    {
+      "step": 455,
+      "triangle": [
+        14,
+        15,
+        17
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0013221722797485212,
+      "seconds": 823.8853809833527,
+      "attempts": 468
+    },
+    {
+      "step": 456,
+      "triangle": [
+        5,
+        6,
+        35
+      ],
+      "gain": -2,
+      "score": 685,
+      "mode": "normal",
+      "margin": 0.0008877743408474453,
+      "seconds": 831.0152990818024,
+      "attempts": 469
+    },
+    {
+      "step": 457,
+      "triangle": [
+        11,
+        12,
+        23
+      ],
+      "gain": 2,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0013471953859096142,
+      "seconds": 832.3029243946075,
+      "attempts": 470
+    },
+    {
+      "step": 458,
+      "triangle": [
+        13,
+        15,
+        16
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0008551693836863309,
+      "seconds": 846.3685221672058,
+      "attempts": 471
+    },
+    {
+      "step": 459,
+      "triangle": [
+        13,
+        14,
+        18
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0013089438037375352,
+      "seconds": 848.3362398147583,
+      "attempts": 472
+    },
+    {
+      "step": 460,
+      "triangle": [
+        4,
+        5,
+        36
+      ],
+      "gain": -1,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.001308943803737532,
+      "seconds": 849.7273647785187,
+      "attempts": 473
+    },
+    {
+      "step": 461,
+      "triangle": [
+        5,
+        6,
+        35
+      ],
+      "gain": 1,
+      "score": 687,
+      "mode": "normal",
+      "margin": 0.0009197532061502194,
+      "seconds": 855.4621286392212,
+      "attempts": 474
+    },
+    {
+      "step": 462,
+      "triangle": [
+        13,
+        14,
+        18
+      ],
+      "gain": 0,
+      "score": 687,
+      "mode": "offset",
+      "margin": 0.0013470380880056248,
+      "seconds": 857.2513892650604,
+      "attempts": 475
+    },
+    {
+      "step": 463,
+      "triangle": [
+        4,
+        6,
+        35
+      ],
+      "gain": -1,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0013559550158966248,
+      "seconds": 859.6803443431854,
+      "attempts": 476
+    },
+    {
+      "step": 464,
+      "triangle": [
+        13,
+        14,
+        18
+      ],
+      "gain": 0,
+      "score": 686,
+      "mode": "offset",
+      "margin": 0.0013159181312847729,
+      "seconds": 861.5802209377289,
+      "attempts": 477
+    },
+    {
+      "step": 465,
+      "triangle": [
+        5,
+        6,
+        34
+      ],
+      "gain": -1,
+      "score": 685,
+      "mode": "normal",
+      "margin": 0.0008295945208358191,
+      "seconds": 867.4757676124573,
+      "attempts": 478
+    },
+    {
+      "step": 466,
+      "triangle": [
+        5,
+        7,
+        33
+      ],
+      "gain": -1,
+      "score": 684,
+      "mode": "normal",
+      "margin": 0.0008296143452230624,
+      "seconds": 880.4536049365997,
+      "attempts": 479
+    },
+    {
+      "step": 467,
+      "triangle": [
+        13,
+        14,
+        18
+      ],
+      "gain": 0,
+      "score": 684,
+      "mode": "normal",
+      "margin": 0.0008303993306991351,
+      "seconds": 885.9465880393982,
+      "attempts": 480
+    },
+    {
+      "step": 468,
+      "triangle": [
+        5,
+        7,
+        33
+      ],
+      "gain": 1,
+      "score": 685,
+      "mode": "offset",
+      "margin": 0.0013048091828424119,
+      "seconds": 886.4624102115631,
+      "attempts": 481
+    },
+    {
+      "step": 469,
+      "triangle": [
+        4,
+        7,
+        34
+      ],
+      "gain": 0,
+      "score": 685,
+      "mode": "offset",
+      "margin": 0.001255805968634145,
+      "seconds": 886.9852690696716,
+      "attempts": 482
+    },
+    {
+      "step": 470,
+      "triangle": [
+        13,
+        14,
+        18
+      ],
+      "gain": 0,
+      "score": 685,
+      "mode": "offset",
+      "margin": 0.0012294959071242767,
+      "seconds": 887.5742762088776,
+      "attempts": 483
+    },
+    {
+      "step": 471,
+      "triangle": [
+        12,
+        15,
+        18
+      ],
+      "gain": -1,
+      "score": 684,
+      "mode": "normal",
+      "margin": 0.000669176371990521,
+      "seconds": 895.3665046691895,
+      "attempts": 485
+    },
+    {
+      "step": 472,
+      "triangle": [
+        12,
+        14,
+        19
+      ],
+      "gain": 0,
+      "score": 684,
+      "mode": "offset",
+      "margin": 0.00126776107354116,
+      "seconds": 896.9679036140442,
+      "attempts": 486
+    },
+    {
+      "step": 473,
+      "triangle": [
+        4,
+        7,
+        34
+      ],
+      "gain": 0,
+      "score": 684,
+      "mode": "normal",
+      "margin": 0.0008939909029583422,
+      "seconds": 904.8594853878021,
+      "attempts": 487
+    }
+  ]
+}

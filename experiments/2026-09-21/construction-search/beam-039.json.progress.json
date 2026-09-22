@@ -1,0 +1,10 @@
+{
+  "events": [],
+  "rounds": 33,
+  "nodes": 4559,
+  "edges": 2122270,
+  "lp": 0,
+  "realized_best": 470,
+  "combinatorial_best": 470,
+  "projective_best": 471
+}

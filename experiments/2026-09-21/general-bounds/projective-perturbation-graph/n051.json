@@ -1,0 +1,30 @@
+{
+  "n": 51,
+  "projective_old_triangles": 822,
+  "triple_points": 409,
+  "conflict_edges": 2325,
+  "independent_size": 3,
+  "perturbation_relaxed_lower": 412,
+  "independent_upper": 408.0,
+  "milp_status": 1,
+  "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+  "seconds": 137.09299999999348,
+  "selected_faces": [
+    [
+      191,
+      207,
+      208
+    ],
+    [
+      215,
+      230,
+      239
+    ],
+    [
+      275,
+      285,
+      286
+    ]
+  ],
+  "limitations": "floating face order/colors and external MILP solver; no straight-line realization or exact upper proof"
+}

@@ -52,7 +52,7 @@ def main():
                     seconds=round(time.monotonic()-start,3),log=log.relative_to(ROOT).as_posix())
         print(('PASS' if passed else 'FAIL'),target,result['seconds'],flush=True)
         return result
-    core=[t for t in targets if 'Certificates.' not in t and t not in ('Kobon.AllN','Kobon','Kobon.Audit')]
+    core=[t for t in targets if 'Certificates.' not in t and t not in ('Kobon.AllN','Kobon.Universal','Kobon','Kobon.Audit')]
     for t in core:
         r=build(t);results.append(r)
         if not r['passed']:break
@@ -61,7 +61,7 @@ def main():
             futures=[pool.submit(build,t) for t in targets if 'Certificates.' in t]
             for f in as_completed(futures):results.append(f.result())
     if all(r['passed'] for r in results):
-        for t in ('Kobon.AllN','Kobon','Kobon.Audit'):
+        for t in ('Kobon.AllN','Kobon.Universal','Kobon','Kobon.Audit'):
             r=build(t);results.append(r)
             if not r['passed']:break
     sources={p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdigest()
@@ -69,7 +69,7 @@ def main():
     summary=dict(checked_at_utc=datetime.now(timezone.utc).isoformat(),
         lean_toolchain=(ROOT/'lean-toolchain').read_text().strip(),
         complete=len(results)==len(targets) and all(r['passed'] for r in results),
-        scope='Unconditional all-natural-order Furedi-Palasti construction and finite-certificate envelope; unconditional 49-seed numerical target; finite coordinate lower bounds, real parameterized seed, geometric exterior addition from visible pairs, counting core, and family arithmetic. Universal quantitative extension and the separate BBL-based infinite-family geometry remain unformalized.',
+        scope='Unconditional parity-sensitive all-natural-order construction, projective cap gains and finite-certificate envelope; actual triangle/sign-cell geometry; unconditional 49-seed numerical target; finite coordinate lower bounds, real parameterized seeds, geometric exterior addition from visible pairs; complete one-step BBL doubling from a saturated compatible tangent-grid seed for q=4r>=20; local fan geometry and explicitly conditional global upper-budget arithmetic. Universal quantitative successor extension and end-to-end infinite BBL iteration remain separate proof obligations.',
         native_evaluation='Finite certificate checks use native_decide and trust Lean native evaluation; audit explicitly allows and lists those generated axioms.',
         results=results,source_sha256=sources)
     (ROOT/'verification/lean-summary.json').write_text(json.dumps(summary,indent=2)+'\n')

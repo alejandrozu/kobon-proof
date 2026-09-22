@@ -1,0 +1,10 @@
+{
+  "steps": 11371724,
+  "accepted": 2392814,
+  "current": 112,
+  "best": 132,
+  "pool": 250,
+  "seconds": 3570.078,
+  "exact_checks": 0,
+  "scope": "Floating search only; exact checks recorded separately"
+}

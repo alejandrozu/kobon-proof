@@ -1,0 +1,60 @@
+{
+  "n": 9,
+  "projective_old_triangles": 24,
+  "triple_points": 10,
+  "conflict_edges": 57,
+  "independent_size": 9,
+  "perturbation_relaxed_lower": 19,
+  "independent_upper": 9.0,
+  "milp_status": 0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "seconds": 0.10899999999674037,
+  "selected_faces": [
+    [
+      3,
+      5,
+      6
+    ],
+    [
+      2,
+      11,
+      12
+    ],
+    [
+      1,
+      10,
+      11
+    ],
+    [
+      0,
+      1,
+      7
+    ],
+    [
+      0,
+      3,
+      15
+    ],
+    [
+      5,
+      8,
+      9
+    ],
+    [
+      4,
+      9,
+      14
+    ],
+    [
+      8,
+      11,
+      13
+    ],
+    [
+      12,
+      13,
+      14
+    ]
+  ],
+  "limitations": "floating face order/colors and external MILP solver; no straight-line realization or exact upper proof"
+}

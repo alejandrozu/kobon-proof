@@ -1,0 +1,24 @@
+ℹ [775/929] Replayed Kobon.Geometry
+info: Kobon/Geometry.lean:144:0: 'Kobon.validate_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Geometry.lean:145:0: 'Kobon.orientedEval_affine' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [856/929] Replayed Kobon.Euclidean
+info: Kobon/Euclidean.lean:147:0: 'Kobon.supporting_triangle_nondegenerate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Euclidean.lean:148:0: 'Kobon.same_halfplane_barycenter' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Euclidean.lean:149:0: 'Kobon.triangle_interior_uncut' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [857/929] Replayed Kobon.Simple
+info: Kobon/Simple.lean:49:0: 'Kobon.validate_simple_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [955/1064] Replayed Kobon.Exterior
+info: Kobon/Exterior.lean:207:0: 'Kobon.Exterior.extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Exterior.lean:208:0: 'Kobon.Exterior.safeHeight_beyond' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [981/1064] Replayed Kobon.Parametric
+info: Kobon/Parametric.lean:183:0: 'Kobon.Parametric.triangle_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Parametric.lean:184:0: 'Kobon.Parametric.simple_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1922/1926] Replayed Kobon.TangentBounds
+info: Kobon/TangentBounds.lean:95:0: 'Kobon.TangentBounds.tan_tenth_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/TangentBounds.lean:96:0: 'Kobon.TangentBounds.tan_two_fifths_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1923/1926] Replayed Kobon.SeedFamily
+info: Kobon/SeedFamily.lean:133:0: 'Kobon.SeedFamily.arbitrarily_small' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/SeedFamily.lean:134:0: 'Kobon.SeedFamily.simple_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1926/1926] Replayed Kobon.HybridBoundary
+info: Kobon/HybridBoundary.lean:164:0: 'Kobon.HybridBoundary.seed_exterior' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (1926 jobs).

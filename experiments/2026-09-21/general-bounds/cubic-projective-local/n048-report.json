@@ -1,0 +1,20 @@
+{
+  "n": 48,
+  "local": true,
+  "seed": 4813,
+  "projective_float": 724,
+  "proposals": 216200,
+  "accepted": 110390,
+  "restarts": 46,
+  "history": [
+    {
+      "event": "improvement",
+      "n": 48,
+      "projective": 724,
+      "affine": 721,
+      "seconds": 0.5310000000172295,
+      "proposals": 401
+    }
+  ],
+  "seconds": 300.15600000001723
+}

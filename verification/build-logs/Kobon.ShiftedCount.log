@@ -1,0 +1,3 @@
+ℹ [2967/2967] Replayed Kobon.ShiftedCount
+info: Kobon/ShiftedCount.lean:67:0: 'Kobon.ShiftedCount.ordered_bound_plus' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (2967 jobs).

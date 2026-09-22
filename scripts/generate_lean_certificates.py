@@ -15,7 +15,7 @@ def prepare():
     catalog={}
     for p in sorted((ROOT/'research').rglob('*.json')):
         d=json.loads(p.read_text(encoding='utf-8-sig'))
-        if not isinstance(d,dict) or 'lines_frac' not in d:continue
+        if not isinstance(d,dict) or not {'lines_frac','n','triangle_count'} <= d.keys():continue
         n=d['n'];T=d['triangle_count']
         lines=[primitive(x) for x in d['lines_frac']]
         identity=hashlib.sha256(json.dumps(lines,separators=(',',':')).encode()).hexdigest()

@@ -1,0 +1,28 @@
+ℹ [775/782] Replayed Kobon.Geometry
+info: Kobon/Geometry.lean:144:0: 'Kobon.validate_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Geometry.lean:145:0: 'Kobon.orientedEval_affine' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [856/900] Replayed Kobon.Euclidean
+info: Kobon/Euclidean.lean:147:0: 'Kobon.supporting_triangle_nondegenerate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Euclidean.lean:148:0: 'Kobon.same_halfplane_barycenter' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Euclidean.lean:149:0: 'Kobon.triangle_interior_uncut' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [913/1014] Replayed Kobon.Cells
+info: Kobon/Cells.lean:510:0: 'Kobon.Cells.overlap_forces_same_triple' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Cells.lean:511:0: 'Kobon.Cells.distinct_interiors_disjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Cells.lean:512:0: 'Kobon.Cells.interior_eq_signCell' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [916/1014] Replayed Kobon.SharedFan
+info: Kobon/SharedFan.lean:121:0: 'Kobon.SharedFan.six_shared_sides' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/SharedFan.lean:122:0: 'Kobon.SharedFan.center_is_triple' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/SharedFan.lean:123:0: 'Kobon.SharedFan.interiors_disjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/SharedFan.lean:124:0: 'Kobon.SharedFan.radial_segments_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/SharedFan.lean:125:0: 'Kobon.SharedFan.radial_elementary' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [918/1014] Replayed Kobon.FanGeometry
+info: Kobon/FanGeometry.lean:171:0: 'Kobon.FanGeometry.ordinary_nonradial_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/FanGeometry.lean:172:0: 'Kobon.FanGeometry.FanStrip.all_opposites_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/FanGeometry.lean:173:0: 'Kobon.FanGeometry.FanStrip.center_not_affine_combination' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/FanGeometry.lean:174:0: 'Kobon.FanGeometry.no_opposite_end_fan' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1216/1217] Replayed Kobon.FanCount
+info: Kobon/FanCount.lean:71:0: 'Kobon.FanCount.ordinary_shared_ray_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1217/1217] Replayed Kobon.CyclicFan
+info: Kobon/CyclicFan.lean:108:0: 'Kobon.CyclicFan.Geometry.no_long_run' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/CyclicFan.lean:109:0: 'Kobon.CyclicFan.Geometry.selected_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (1217 jobs).

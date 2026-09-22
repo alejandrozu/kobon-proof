@@ -1,0 +1,1652 @@
+ℹ [775/791] Replayed Kobon.Geometry
+info: Kobon/Geometry.lean:144:0: 'Kobon.validate_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Geometry.lean:145:0: 'Kobon.orientedEval_affine' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [776/791] Replayed Kobon.Simple
+info: Kobon/Simple.lean:49:0: 'Kobon.validate_simple_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2968/3106] Replayed Kobon.FurediPalasti
+info: Kobon/FurediPalasti.lean:345:0: 'Kobon.FurediPalasti.lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2969/3106] Replayed Kobon.ShiftedCount
+info: Kobon/ShiftedCount.lean:67:0: 'Kobon.ShiftedCount.ordered_bound_plus' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2970/3106] Replayed Kobon.ShiftedFurediPalasti
+info: Kobon/ShiftedFurediPalasti.lean:321:0: 'Kobon.ShiftedFurediPalasti.simple_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/ShiftedFurediPalasti.lean:322:0: 'Kobon.ShiftedFurediPalasti.lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2971/3106] Replayed Kobon.Euclidean
+info: Kobon/Euclidean.lean:147:0: 'Kobon.supporting_triangle_nondegenerate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Euclidean.lean:148:0: 'Kobon.same_halfplane_barycenter' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Euclidean.lean:149:0: 'Kobon.triangle_interior_uncut' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2972/3106] Replayed Kobon.Projective
+info: Kobon/Projective.lean:165:0: 'Kobon.Projective.triangle_preserved' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [2973/3106] Replayed Kobon.FurediPalastiChart
+warning: Kobon/FurediPalastiChart.lean:31:65: This simp argument is unused:
+  add_left_comm
+
+Hint: Omit it from the simp argument list.
+  simp [̵v̵e̵r̵t̵e̵x̵X̵,̵a̵d̵d̵_̵c̵o̵m̵m̵,̵a̵d̵d̵_̵l̵e̵f̵t̵_̵c̵o̵m̵m̵]̵[̲v̲e̲r̲t̲e̲x̲X̲,̲ ̲a̲d̲d̲_̲c̲o̲m̲m̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Kobon/FurediPalastiChart.lean:32:65: This simp argument is unused:
+  add_left_comm
+
+Hint: Omit it from the simp argument list.
+  simp [̵v̵e̵r̵t̵e̵x̵Y̵,̵a̵d̵d̵_̵c̵o̵m̵m̵,̵a̵d̵d̵_̵l̵e̵f̵t̵_̵c̵o̵m̵m̵]̵[̲v̲e̲r̲t̲e̲x̲Y̲,̲ ̲a̲d̲d̲_̲c̲o̲m̲m̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [2974/3106] Replayed Kobon.FurediPalastiCaps
+warning: Kobon/FurediPalastiCaps.lean:113:47: Variable name `ha'` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Kobon/FurediPalastiCaps.lean:275:71: This simp argument is unused:
+  LeftCaps
+
+Hint: Omit it from the simp argument list.
+  simp_all ̵[̵L̵e̵f̵t̵C̵a̵p̵s̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: Kobon/FurediPalastiCaps.lean:332:0: 'Kobon.FurediPalastiCaps.above_left_caps' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/FurediPalastiCaps.lean:333:0: 'Kobon.FurediPalastiCaps.exists_left_cut' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2975/3106] Replayed Kobon.FurediPalastiWrap
+info: Kobon/FurediPalastiWrap.lean:235:0: 'Kobon.FurediPalastiWrap.wrap_triangle' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/FurediPalastiWrap.lean:236:0: 'Kobon.FurediPalastiWrap.one_cap_simple_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2976/3106] Replayed Kobon.FurediPalastiTwoCaps
+info: Kobon/FurediPalastiTwoCaps.lean:345:0: 'Kobon.FurediPalastiTwoCaps.upper_triangle' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/FurediPalastiTwoCaps.lean:346:0: 'Kobon.FurediPalastiTwoCaps.lower_triangle' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/FurediPalastiTwoCaps.lean:347:0: 'Kobon.FurediPalastiTwoCaps.two_cap_simple_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2977/3106] Replayed Kobon.Certificates.N003T00001H05c82de6
+info: Kobon/Certificates/N003T00001H05c82de6.lean:23:0: 'Kobon.Certificates.N003T00001H05c82de6.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N003T00001H05c82de6.lean:24:0: 'Kobon.Certificates.N003T00001H05c82de6.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [2978/3106] Replayed Kobon.SimpleCertificates.N003T00001H05c82de6
+info: Kobon/SimpleCertificates/N003T00001H05c82de6.lean:13:0: 'Kobon.Certificates.N003T00001H05c82de6.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [2979/3106] Replayed Kobon.Certificates.N004T00002H0e541bd5
+info: Kobon/Certificates/N004T00002H0e541bd5.lean:25:0: 'Kobon.Certificates.N004T00002H0e541bd5.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N004T00002H0e541bd5.lean:26:0: 'Kobon.Certificates.N004T00002H0e541bd5.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [2980/3106] Replayed Kobon.SimpleCertificates.N004T00002H0e541bd5
+info: Kobon/SimpleCertificates/N004T00002H0e541bd5.lean:13:0: 'Kobon.Certificates.N004T00002H0e541bd5.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [2981/3106] Replayed Kobon.Certificates.N005T00005H948a0bdf
+info: Kobon/Certificates/N005T00005H948a0bdf.lean:29:0: 'Kobon.Certificates.N005T00005H948a0bdf.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N005T00005H948a0bdf.lean:30:0: 'Kobon.Certificates.N005T00005H948a0bdf.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [2982/3106] Replayed Kobon.SimpleCertificates.N005T00005H948a0bdf
+info: Kobon/SimpleCertificates/N005T00005H948a0bdf.lean:13:0: 'Kobon.Certificates.N005T00005H948a0bdf.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [2983/3106] Replayed Kobon.Certificates.N006T00007H6ea9ebaa
+info: Kobon/Certificates/N006T00007H6ea9ebaa.lean:32:0: 'Kobon.Certificates.N006T00007H6ea9ebaa.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N006T00007H6ea9ebaa.lean:33:0: 'Kobon.Certificates.N006T00007H6ea9ebaa.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [2984/3106] Replayed Kobon.SimpleCertificates.N006T00007H6ea9ebaa
+info: Kobon/SimpleCertificates/N006T00007H6ea9ebaa.lean:13:0: 'Kobon.Certificates.N006T00007H6ea9ebaa.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [2985/3106] Replayed Kobon.Certificates.N007T00011He6b9a626
+info: Kobon/Certificates/N007T00011He6b9a626.lean:37:0: 'Kobon.Certificates.N007T00011He6b9a626.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N007T00011He6b9a626.lean:38:0: 'Kobon.Certificates.N007T00011He6b9a626.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [2986/3106] Replayed Kobon.SimpleCertificates.N007T00011He6b9a626
+info: Kobon/SimpleCertificates/N007T00011He6b9a626.lean:13:0: 'Kobon.Certificates.N007T00011He6b9a626.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [2987/3106] Replayed Kobon.Certificates.N008T00014H2a63f4d9
+info: Kobon/Certificates/N008T00014H2a63f4d9.lean:41:0: 'Kobon.Certificates.N008T00014H2a63f4d9.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N008T00014H2a63f4d9.lean:42:0: 'Kobon.Certificates.N008T00014H2a63f4d9.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [2988/3106] Replayed Kobon.SimpleCertificates.N008T00014H2a63f4d9
+info: Kobon/SimpleCertificates/N008T00014H2a63f4d9.lean:13:0: 'Kobon.Certificates.N008T00014H2a63f4d9.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [2989/3106] Replayed Kobon.Certificates.N009T00021H6ebbed82
+info: Kobon/Certificates/N009T00021H6ebbed82.lean:49:0: 'Kobon.Certificates.N009T00021H6ebbed82.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N009T00021H6ebbed82.lean:50:0: 'Kobon.Certificates.N009T00021H6ebbed82.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [2990/3106] Replayed Kobon.SimpleCertificates.N009T00021H6ebbed82
+info: Kobon/SimpleCertificates/N009T00021H6ebbed82.lean:13:0: 'Kobon.Certificates.N009T00021H6ebbed82.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [2991/3106] Replayed Kobon.Certificates.N010T00025Hb767c427
+info: Kobon/Certificates/N010T00025Hb767c427.lean:54:0: 'Kobon.Certificates.N010T00025Hb767c427.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N010T00025Hb767c427.lean:55:0: 'Kobon.Certificates.N010T00025Hb767c427.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [2992/3106] Replayed Kobon.SimpleCertificates.N010T00025Hb767c427
+info: Kobon/SimpleCertificates/N010T00025Hb767c427.lean:13:0: 'Kobon.Certificates.N010T00025Hb767c427.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [2993/3106] Replayed Kobon.Certificates.N011T00032Hb955e7c9
+info: Kobon/Certificates/N011T00032Hb955e7c9.lean:62:0: 'Kobon.Certificates.N011T00032Hb955e7c9.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N011T00032Hb955e7c9.lean:63:0: 'Kobon.Certificates.N011T00032Hb955e7c9.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [2994/3106] Replayed Kobon.SimpleCertificates.N011T00032Hb955e7c9
+info: Kobon/SimpleCertificates/N011T00032Hb955e7c9.lean:13:0: 'Kobon.Certificates.N011T00032Hb955e7c9.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [2995/3106] Replayed Kobon.Certificates.N012T00038H38f69f38
+info: Kobon/Certificates/N012T00038H38f69f38.lean:69:0: 'Kobon.Certificates.N012T00038H38f69f38.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N012T00038H38f69f38.lean:70:0: 'Kobon.Certificates.N012T00038H38f69f38.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [2996/3106] Replayed Kobon.Certificates.N013T00047Hddec1f78
+info: Kobon/Certificates/N013T00047Hddec1f78.lean:79:0: 'Kobon.Certificates.N013T00047Hddec1f78.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N013T00047Hddec1f78.lean:80:0: 'Kobon.Certificates.N013T00047Hddec1f78.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [2997/3106] Replayed Kobon.SimpleCertificates.N013T00047Hddec1f78
+info: Kobon/SimpleCertificates/N013T00047Hddec1f78.lean:13:0: 'Kobon.Certificates.N013T00047Hddec1f78.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [2998/3106] Replayed Kobon.Certificates.N014T00053H45157b2f
+info: Kobon/Certificates/N014T00053H45157b2f.lean:86:0: 'Kobon.Certificates.N014T00053H45157b2f.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N014T00053H45157b2f.lean:87:0: 'Kobon.Certificates.N014T00053H45157b2f.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [2999/3106] Replayed Kobon.SimpleCertificates.N014T00053H45157b2f
+info: Kobon/SimpleCertificates/N014T00053H45157b2f.lean:13:0: 'Kobon.Certificates.N014T00053H45157b2f.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3000/3106] Replayed Kobon.Certificates.N015T00065H4d3bf3b4
+info: Kobon/Certificates/N015T00065H4d3bf3b4.lean:99:0: 'Kobon.Certificates.N015T00065H4d3bf3b4.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N015T00065H4d3bf3b4.lean:100:0: 'Kobon.Certificates.N015T00065H4d3bf3b4.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3001/3106] Replayed Kobon.SimpleCertificates.N015T00065H4d3bf3b4
+info: Kobon/SimpleCertificates/N015T00065H4d3bf3b4.lean:13:0: 'Kobon.Certificates.N015T00065H4d3bf3b4.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3002/3106] Replayed Kobon.Certificates.N016T00072H391cf79a
+info: Kobon/Certificates/N016T00072H391cf79a.lean:107:0: 'Kobon.Certificates.N016T00072H391cf79a.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N016T00072H391cf79a.lean:108:0: 'Kobon.Certificates.N016T00072H391cf79a.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3003/3106] Replayed Kobon.SimpleCertificates.N016T00072H391cf79a
+info: Kobon/SimpleCertificates/N016T00072H391cf79a.lean:13:0: 'Kobon.Certificates.N016T00072H391cf79a.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3004/3106] Replayed Kobon.Certificates.N017T00085H7cf3c061
+info: Kobon/Certificates/N017T00085H7cf3c061.lean:121:0: 'Kobon.Certificates.N017T00085H7cf3c061.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N017T00085H7cf3c061.lean:122:0: 'Kobon.Certificates.N017T00085H7cf3c061.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3005/3106] Replayed Kobon.SimpleCertificates.N017T00085H7cf3c061
+info: Kobon/SimpleCertificates/N017T00085H7cf3c061.lean:13:0: 'Kobon.Certificates.N017T00085H7cf3c061.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3006/3106] Replayed Kobon.Certificates.N018T00093Hedb6246a
+info: Kobon/Certificates/N018T00093Hedb6246a.lean:130:0: 'Kobon.Certificates.N018T00093Hedb6246a.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N018T00093Hedb6246a.lean:131:0: 'Kobon.Certificates.N018T00093Hedb6246a.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3007/3106] Replayed Kobon.SimpleCertificates.N018T00093Hedb6246a
+info: Kobon/SimpleCertificates/N018T00093Hedb6246a.lean:13:0: 'Kobon.Certificates.N018T00093Hedb6246a.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3008/3106] Replayed Kobon.Certificates.N019T00107Ha2f32bdb
+info: Kobon/Certificates/N019T00107Ha2f32bdb.lean:145:0: 'Kobon.Certificates.N019T00107Ha2f32bdb.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N019T00107Ha2f32bdb.lean:146:0: 'Kobon.Certificates.N019T00107Ha2f32bdb.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3009/3106] Replayed Kobon.SimpleCertificates.N019T00107Ha2f32bdb
+info: Kobon/SimpleCertificates/N019T00107Ha2f32bdb.lean:13:0: 'Kobon.Certificates.N019T00107Ha2f32bdb.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3010/3106] Replayed Kobon.Certificates.N020T00116Hadc03eed
+info: Kobon/Certificates/N020T00116Hadc03eed.lean:155:0: 'Kobon.Certificates.N020T00116Hadc03eed.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N020T00116Hadc03eed.lean:156:0: 'Kobon.Certificates.N020T00116Hadc03eed.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3011/3106] Replayed Kobon.SimpleCertificates.N020T00116Hadc03eed
+info: Kobon/SimpleCertificates/N020T00116Hadc03eed.lean:13:0: 'Kobon.Certificates.N020T00116Hadc03eed.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3012/3106] Replayed Kobon.Certificates.N021T00133H36bae754
+info: Kobon/Certificates/N021T00133H36bae754.lean:173:0: 'Kobon.Certificates.N021T00133H36bae754.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N021T00133H36bae754.lean:174:0: 'Kobon.Certificates.N021T00133H36bae754.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3013/3106] Replayed Kobon.SimpleCertificates.N021T00133H36bae754
+info: Kobon/SimpleCertificates/N021T00133H36bae754.lean:13:0: 'Kobon.Certificates.N021T00133H36bae754.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3014/3106] Replayed Kobon.Certificates.N022T00143H54396c64
+info: Kobon/Certificates/N022T00143H54396c64.lean:184:0: 'Kobon.Certificates.N022T00143H54396c64.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N022T00143H54396c64.lean:185:0: 'Kobon.Certificates.N022T00143H54396c64.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3015/3106] Replayed Kobon.SimpleCertificates.N022T00143H54396c64
+info: Kobon/SimpleCertificates/N022T00143H54396c64.lean:13:0: 'Kobon.Certificates.N022T00143H54396c64.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3016/3106] Replayed Kobon.Certificates.N023T00161H969ad7d3
+info: Kobon/Certificates/N023T00161H969ad7d3.lean:203:0: 'Kobon.Certificates.N023T00161H969ad7d3.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N023T00161H969ad7d3.lean:204:0: 'Kobon.Certificates.N023T00161H969ad7d3.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3017/3106] Replayed Kobon.SimpleCertificates.N023T00161H969ad7d3
+info: Kobon/SimpleCertificates/N023T00161H969ad7d3.lean:13:0: 'Kobon.Certificates.N023T00161H969ad7d3.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3018/3106] Replayed Kobon.Certificates.N024T00172He63e906b
+info: Kobon/Certificates/N024T00172He63e906b.lean:215:0: 'Kobon.Certificates.N024T00172He63e906b.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N024T00172He63e906b.lean:216:0: 'Kobon.Certificates.N024T00172He63e906b.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3019/3106] Replayed Kobon.SimpleCertificates.N024T00172He63e906b
+info: Kobon/SimpleCertificates/N024T00172He63e906b.lean:13:0: 'Kobon.Certificates.N024T00172He63e906b.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3020/3106] Replayed Kobon.Certificates.N025T00191Hb568bffb
+info: Kobon/Certificates/N025T00191Hb568bffb.lean:235:0: 'Kobon.Certificates.N025T00191Hb568bffb.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N025T00191Hb568bffb.lean:236:0: 'Kobon.Certificates.N025T00191Hb568bffb.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3021/3106] Replayed Kobon.SimpleCertificates.N025T00191Hb568bffb
+info: Kobon/SimpleCertificates/N025T00191Hb568bffb.lean:13:0: 'Kobon.Certificates.N025T00191Hb568bffb.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3022/3106] Replayed Kobon.Certificates.N026T00203He61b423c
+info: Kobon/Certificates/N026T00203He61b423c.lean:248:0: 'Kobon.Certificates.N026T00203He61b423c.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N026T00203He61b423c.lean:249:0: 'Kobon.Certificates.N026T00203He61b423c.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3023/3106] Replayed Kobon.SimpleCertificates.N026T00203He61b423c
+info: Kobon/SimpleCertificates/N026T00203He61b423c.lean:13:0: 'Kobon.Certificates.N026T00203He61b423c.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3024/3106] Replayed Kobon.Certificates.N027T00225H7d6ae9a0
+info: Kobon/Certificates/N027T00225H7d6ae9a0.lean:271:0: 'Kobon.Certificates.N027T00225H7d6ae9a0.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N027T00225H7d6ae9a0.lean:272:0: 'Kobon.Certificates.N027T00225H7d6ae9a0.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3025/3106] Replayed Kobon.SimpleCertificates.N027T00225H7d6ae9a0
+info: Kobon/SimpleCertificates/N027T00225H7d6ae9a0.lean:13:0: 'Kobon.Certificates.N027T00225H7d6ae9a0.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3026/3106] Replayed Kobon.Certificates.N028T00238H56ef2acb
+info: Kobon/Certificates/N028T00238H56ef2acb.lean:285:0: 'Kobon.Certificates.N028T00238H56ef2acb.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N028T00238H56ef2acb.lean:286:0: 'Kobon.Certificates.N028T00238H56ef2acb.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3027/3106] Replayed Kobon.SimpleCertificates.N028T00238H56ef2acb
+info: Kobon/SimpleCertificates/N028T00238H56ef2acb.lean:13:0: 'Kobon.Certificates.N028T00238H56ef2acb.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3028/3106] Replayed Kobon.Certificates.N029T00261Hd4805c25
+info: Kobon/Certificates/N029T00261Hd4805c25.lean:309:0: 'Kobon.Certificates.N029T00261Hd4805c25.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N029T00261Hd4805c25.lean:310:0: 'Kobon.Certificates.N029T00261Hd4805c25.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3029/3106] Replayed Kobon.SimpleCertificates.N029T00261Hd4805c25
+info: Kobon/SimpleCertificates/N029T00261Hd4805c25.lean:13:0: 'Kobon.Certificates.N029T00261Hd4805c25.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3030/3106] Replayed Kobon.Certificates.N030T00275Hdcfe649a
+info: Kobon/Certificates/N030T00275Hdcfe649a.lean:324:0: 'Kobon.Certificates.N030T00275Hdcfe649a.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N030T00275Hdcfe649a.lean:325:0: 'Kobon.Certificates.N030T00275Hdcfe649a.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3031/3106] Replayed Kobon.SimpleCertificates.N030T00275Hdcfe649a
+info: Kobon/SimpleCertificates/N030T00275Hdcfe649a.lean:13:0: 'Kobon.Certificates.N030T00275Hdcfe649a.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3032/3106] Replayed Kobon.Certificates.N031T00299H70f23b94
+info: Kobon/Certificates/N031T00299H70f23b94.lean:349:0: 'Kobon.Certificates.N031T00299H70f23b94.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N031T00299H70f23b94.lean:350:0: 'Kobon.Certificates.N031T00299H70f23b94.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3033/3106] Replayed Kobon.SimpleCertificates.N031T00299H70f23b94
+info: Kobon/SimpleCertificates/N031T00299H70f23b94.lean:13:0: 'Kobon.Certificates.N031T00299H70f23b94.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3034/3106] Replayed Kobon.Certificates.N032T00314H9ab78b00
+info: Kobon/Certificates/N032T00314H9ab78b00.lean:365:0: 'Kobon.Certificates.N032T00314H9ab78b00.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N032T00314H9ab78b00.lean:366:0: 'Kobon.Certificates.N032T00314H9ab78b00.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3035/3106] Replayed Kobon.SimpleCertificates.N032T00314H9ab78b00
+info: Kobon/SimpleCertificates/N032T00314H9ab78b00.lean:13:0: 'Kobon.Certificates.N032T00314H9ab78b00.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3036/3106] Replayed Kobon.Certificates.N033T00341H95f3b770
+info: Kobon/Certificates/N033T00341H95f3b770.lean:393:0: 'Kobon.Certificates.N033T00341H95f3b770.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N033T00341H95f3b770.lean:394:0: 'Kobon.Certificates.N033T00341H95f3b770.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3037/3106] Replayed Kobon.SimpleCertificates.N033T00341H95f3b770
+info: Kobon/SimpleCertificates/N033T00341H95f3b770.lean:13:0: 'Kobon.Certificates.N033T00341H95f3b770.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3038/3106] Replayed Kobon.Certificates.N034T00357Hfbde0a76
+info: Kobon/Certificates/N034T00357Hfbde0a76.lean:410:0: 'Kobon.Certificates.N034T00357Hfbde0a76.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N034T00357Hfbde0a76.lean:411:0: 'Kobon.Certificates.N034T00357Hfbde0a76.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3039/3106] Replayed Kobon.SimpleCertificates.N034T00357Hfbde0a76
+info: Kobon/SimpleCertificates/N034T00357Hfbde0a76.lean:13:0: 'Kobon.Certificates.N034T00357Hfbde0a76.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3040/3106] Replayed Kobon.Certificates.N035T00385H9ee99af6
+info: Kobon/Certificates/N035T00385H9ee99af6.lean:439:0: 'Kobon.Certificates.N035T00385H9ee99af6.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N035T00385H9ee99af6.lean:440:0: 'Kobon.Certificates.N035T00385H9ee99af6.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3041/3106] Replayed Kobon.SimpleCertificates.N035T00385H9ee99af6
+info: Kobon/SimpleCertificates/N035T00385H9ee99af6.lean:13:0: 'Kobon.Certificates.N035T00385H9ee99af6.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3042/3106] Replayed Kobon.Certificates.N036T00402H3fc01b7d
+info: Kobon/Certificates/N036T00402H3fc01b7d.lean:457:0: 'Kobon.Certificates.N036T00402H3fc01b7d.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N036T00402H3fc01b7d.lean:458:0: 'Kobon.Certificates.N036T00402H3fc01b7d.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3043/3106] Replayed Kobon.SimpleCertificates.N036T00402H3fc01b7d
+info: Kobon/SimpleCertificates/N036T00402H3fc01b7d.lean:13:0: 'Kobon.Certificates.N036T00402H3fc01b7d.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3044/3106] Replayed Kobon.Certificates.N037T00431H11f0bde7
+info: Kobon/Certificates/N037T00431H11f0bde7.lean:487:0: 'Kobon.Certificates.N037T00431H11f0bde7.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N037T00431H11f0bde7.lean:488:0: 'Kobon.Certificates.N037T00431H11f0bde7.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3045/3106] Replayed Kobon.SimpleCertificates.N037T00431H11f0bde7
+info: Kobon/SimpleCertificates/N037T00431H11f0bde7.lean:13:0: 'Kobon.Certificates.N037T00431H11f0bde7.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3046/3106] Replayed Kobon.Certificates.N038T00449H46ad5a32
+info: Kobon/Certificates/N038T00449H46ad5a32.lean:506:0: 'Kobon.Certificates.N038T00449H46ad5a32.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N038T00449H46ad5a32.lean:507:0: 'Kobon.Certificates.N038T00449H46ad5a32.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3047/3106] Replayed Kobon.SimpleCertificates.N038T00449H46ad5a32
+info: Kobon/SimpleCertificates/N038T00449H46ad5a32.lean:13:0: 'Kobon.Certificates.N038T00449H46ad5a32.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3048/3106] Replayed Kobon.Certificates.N039T00469Hcf24d7d3
+info: Kobon/Certificates/N039T00469Hcf24d7d3.lean:527:0: 'Kobon.Certificates.N039T00469Hcf24d7d3.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N039T00469Hcf24d7d3.lean:528:0: 'Kobon.Certificates.N039T00469Hcf24d7d3.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3049/3106] Replayed Kobon.Certificates.N040T00494H785374ca
+info: Kobon/Certificates/N040T00494H785374ca.lean:553:0: 'Kobon.Certificates.N040T00494H785374ca.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N040T00494H785374ca.lean:554:0: 'Kobon.Certificates.N040T00494H785374ca.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3050/3106] Replayed Kobon.SimpleCertificates.N040T00494H785374ca
+info: Kobon/SimpleCertificates/N040T00494H785374ca.lean:13:0: 'Kobon.Certificates.N040T00494H785374ca.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3051/3106] Replayed Kobon.Certificates.N041T00533H01e2ef66
+info: Kobon/Certificates/N041T00533H01e2ef66.lean:593:0: 'Kobon.Certificates.N041T00533H01e2ef66.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N041T00533H01e2ef66.lean:594:0: 'Kobon.Certificates.N041T00533H01e2ef66.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3052/3106] Replayed Kobon.SimpleCertificates.N041T00533H01e2ef66
+info: Kobon/SimpleCertificates/N041T00533H01e2ef66.lean:13:0: 'Kobon.Certificates.N041T00533H01e2ef66.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3053/3106] Replayed Kobon.Certificates.N042T00553H2bdc9d67
+info: Kobon/Certificates/N042T00553H2bdc9d67.lean:614:0: 'Kobon.Certificates.N042T00553H2bdc9d67.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N042T00553H2bdc9d67.lean:615:0: 'Kobon.Certificates.N042T00553H2bdc9d67.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3054/3106] Replayed Kobon.SimpleCertificates.N042T00553H2bdc9d67
+info: Kobon/SimpleCertificates/N042T00553H2bdc9d67.lean:13:0: 'Kobon.Certificates.N042T00553H2bdc9d67.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3055/3106] Replayed Kobon.Certificates.N043T00587H861d8be2
+info: Kobon/Certificates/N043T00587H861d8be2.lean:649:0: 'Kobon.Certificates.N043T00587H861d8be2.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N043T00587H861d8be2.lean:650:0: 'Kobon.Certificates.N043T00587H861d8be2.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3056/3106] Replayed Kobon.SimpleCertificates.N043T00587H861d8be2
+info: Kobon/SimpleCertificates/N043T00587H861d8be2.lean:13:0: 'Kobon.Certificates.N043T00587H861d8be2.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3057/3106] Replayed Kobon.Certificates.N044T00608Hb5277675
+info: Kobon/Certificates/N044T00608Hb5277675.lean:671:0: 'Kobon.Certificates.N044T00608Hb5277675.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N044T00608Hb5277675.lean:672:0: 'Kobon.Certificates.N044T00608Hb5277675.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3058/3106] Replayed Kobon.SimpleCertificates.N044T00608Hb5277675
+info: Kobon/SimpleCertificates/N044T00608Hb5277675.lean:13:0: 'Kobon.Certificates.N044T00608Hb5277675.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3059/3106] Replayed Kobon.Certificates.N045T00645H3dc6e882
+info: Kobon/Certificates/N045T00645H3dc6e882.lean:709:0: 'Kobon.Certificates.N045T00645H3dc6e882.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N045T00645H3dc6e882.lean:710:0: 'Kobon.Certificates.N045T00645H3dc6e882.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3060/3106] Replayed Kobon.SimpleCertificates.N045T00645H3dc6e882
+info: Kobon/SimpleCertificates/N045T00645H3dc6e882.lean:13:0: 'Kobon.Certificates.N045T00645H3dc6e882.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3061/3106] Replayed Kobon.Certificates.N046T00667H32b8ca2f
+info: Kobon/Certificates/N046T00667H32b8ca2f.lean:732:0: 'Kobon.Certificates.N046T00667H32b8ca2f.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N046T00667H32b8ca2f.lean:733:0: 'Kobon.Certificates.N046T00667H32b8ca2f.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3062/3106] Replayed Kobon.SimpleCertificates.N046T00667H32b8ca2f
+info: Kobon/SimpleCertificates/N046T00667H32b8ca2f.lean:13:0: 'Kobon.Certificates.N046T00667H32b8ca2f.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3063/3106] Replayed Kobon.Certificates.N047T00690Hd8af27fc
+info: Kobon/Certificates/N047T00690Hd8af27fc.lean:756:0: 'Kobon.Certificates.N047T00690Hd8af27fc.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N047T00690Hd8af27fc.lean:757:0: 'Kobon.Certificates.N047T00690Hd8af27fc.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3064/3106] Replayed Kobon.SimpleCertificates.N047T00690Hd8af27fc
+info: Kobon/SimpleCertificates/N047T00690Hd8af27fc.lean:13:0: 'Kobon.Certificates.N047T00690Hd8af27fc.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3065/3106] Replayed Kobon.Certificates.N048T00720H5e9767e7
+info: Kobon/Certificates/N048T00720H5e9767e7.lean:787:0: 'Kobon.Certificates.N048T00720H5e9767e7.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N048T00720H5e9767e7.lean:788:0: 'Kobon.Certificates.N048T00720H5e9767e7.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3066/3106] Replayed Kobon.SimpleCertificates.N048T00720H5e9767e7
+info: Kobon/SimpleCertificates/N048T00720H5e9767e7.lean:13:0: 'Kobon.Certificates.N048T00720H5e9767e7.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3067/3106] Replayed Kobon.Certificates.N049T00767H957e6f15
+info: Kobon/Certificates/N049T00767H957e6f15.lean:835:0: 'Kobon.Certificates.N049T00767H957e6f15.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N049T00767H957e6f15.lean:836:0: 'Kobon.Certificates.N049T00767H957e6f15.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3068/3106] Replayed Kobon.SimpleCertificates.N049T00767H957e6f15
+info: Kobon/SimpleCertificates/N049T00767H957e6f15.lean:13:0: 'Kobon.Certificates.N049T00767H957e6f15.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3069/3106] Replayed Kobon.Certificates.N050T00791H2ea22b55
+info: Kobon/Certificates/N050T00791H2ea22b55.lean:860:0: 'Kobon.Certificates.N050T00791H2ea22b55.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N050T00791H2ea22b55.lean:861:0: 'Kobon.Certificates.N050T00791H2ea22b55.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3070/3106] Replayed Kobon.SimpleCertificates.N050T00791H2ea22b55
+info: Kobon/SimpleCertificates/N050T00791H2ea22b55.lean:13:0: 'Kobon.Certificates.N050T00791H2ea22b55.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3071/3106] Replayed Kobon.Certificates.N051T00817Hbd215f67
+info: Kobon/Certificates/N051T00817Hbd215f67.lean:887:0: 'Kobon.Certificates.N051T00817Hbd215f67.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N051T00817Hbd215f67.lean:888:0: 'Kobon.Certificates.N051T00817Hbd215f67.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3072/3106] Replayed Kobon.Certificates.N052T00850H4b0d823a
+info: Kobon/Certificates/N052T00850H4b0d823a.lean:921:0: 'Kobon.Certificates.N052T00850H4b0d823a.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N052T00850H4b0d823a.lean:922:0: 'Kobon.Certificates.N052T00850H4b0d823a.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3073/3106] Replayed Kobon.SimpleCertificates.N052T00850H4b0d823a
+info: Kobon/SimpleCertificates/N052T00850H4b0d823a.lean:13:0: 'Kobon.Certificates.N052T00850H4b0d823a.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3074/3106] Replayed Kobon.Certificates.N053T00884H723d7eff
+info: Kobon/Certificates/N053T00884H723d7eff.lean:956:0: 'Kobon.Certificates.N053T00884H723d7eff.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N053T00884H723d7eff.lean:957:0: 'Kobon.Certificates.N053T00884H723d7eff.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3075/3106] Replayed Kobon.SimpleCertificates.N053T00884H723d7eff
+info: Kobon/SimpleCertificates/N053T00884H723d7eff.lean:13:0: 'Kobon.Certificates.N053T00884H723d7eff.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3076/3106] Replayed Kobon.Certificates.N054T00918H915abb8e
+info: Kobon/Certificates/N054T00918H915abb8e.lean:991:0: 'Kobon.Certificates.N054T00918H915abb8e.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N054T00918H915abb8e.lean:992:0: 'Kobon.Certificates.N054T00918H915abb8e.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3077/3106] Replayed Kobon.SimpleCertificates.N054T00918H915abb8e
+info: Kobon/SimpleCertificates/N054T00918H915abb8e.lean:13:0: 'Kobon.Certificates.N054T00918H915abb8e.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3078/3106] Replayed Kobon.Certificates.N055T00954Hea7675d9
+info: Kobon/Certificates/N055T00954Hea7675d9.lean:1028:0: 'Kobon.Certificates.N055T00954Hea7675d9.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N055T00954Hea7675d9.lean:1029:0: 'Kobon.Certificates.N055T00954Hea7675d9.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3079/3106] Replayed Kobon.SimpleCertificates.N055T00954Hea7675d9
+info: Kobon/SimpleCertificates/N055T00954Hea7675d9.lean:13:0: 'Kobon.Certificates.N055T00954Hea7675d9.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3080/3106] Replayed Kobon.Certificates.N056T00990Hde8a415c
+info: Kobon/Certificates/N056T00990Hde8a415c.lean:1065:0: 'Kobon.Certificates.N056T00990Hde8a415c.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N056T00990Hde8a415c.lean:1066:0: 'Kobon.Certificates.N056T00990Hde8a415c.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3081/3106] Replayed Kobon.SimpleCertificates.N056T00990Hde8a415c
+info: Kobon/SimpleCertificates/N056T00990Hde8a415c.lean:13:0: 'Kobon.Certificates.N056T00990Hde8a415c.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3082/3106] Replayed Kobon.Certificates.N057T01045H9a1d337c
+info: Kobon/Certificates/N057T01045H9a1d337c.lean:1121:0: 'Kobon.Certificates.N057T01045H9a1d337c.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N057T01045H9a1d337c.lean:1122:0: 'Kobon.Certificates.N057T01045H9a1d337c.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3083/3106] Replayed Kobon.SimpleCertificates.N057T01045H9a1d337c
+info: Kobon/SimpleCertificates/N057T01045H9a1d337c.lean:13:0: 'Kobon.Certificates.N057T01045H9a1d337c.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3084/3106] Replayed Kobon.Certificates.N058T01073Hd988db55
+info: Kobon/Certificates/N058T01073Hd988db55.lean:1150:0: 'Kobon.Certificates.N058T01073Hd988db55.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N058T01073Hd988db55.lean:1151:0: 'Kobon.Certificates.N058T01073Hd988db55.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3085/3106] Replayed Kobon.SimpleCertificates.N058T01073Hd988db55
+info: Kobon/SimpleCertificates/N058T01073Hd988db55.lean:13:0: 'Kobon.Certificates.N058T01073Hd988db55.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3086/3106] Replayed Kobon.Certificates.N059T01102Hfd3b4280
+info: Kobon/Certificates/N059T01102Hfd3b4280.lean:1180:0: 'Kobon.Certificates.N059T01102Hfd3b4280.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N059T01102Hfd3b4280.lean:1181:0: 'Kobon.Certificates.N059T01102Hfd3b4280.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3087/3106] Replayed Kobon.SimpleCertificates.N059T01102Hfd3b4280
+info: Kobon/SimpleCertificates/N059T01102Hfd3b4280.lean:13:0: 'Kobon.Certificates.N059T01102Hfd3b4280.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3088/3106] Replayed Kobon.Certificates.N060T01140H16af6d0b
+info: Kobon/Certificates/N060T01140H16af6d0b.lean:1219:0: 'Kobon.Certificates.N060T01140H16af6d0b.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N060T01140H16af6d0b.lean:1220:0: 'Kobon.Certificates.N060T01140H16af6d0b.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3089/3106] Replayed Kobon.SimpleCertificates.N060T01140H16af6d0b
+info: Kobon/SimpleCertificates/N060T01140H16af6d0b.lean:13:0: 'Kobon.Certificates.N060T01140H16af6d0b.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3090/3106] Replayed Kobon.Certificates.N012T00037H8c718a33
+info: Kobon/Certificates/N012T00037H8c718a33.lean:68:0: 'Kobon.Certificates.N012T00037H8c718a33.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N012T00037H8c718a33.lean:69:0: 'Kobon.Certificates.N012T00037H8c718a33.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3091/3106] Replayed Kobon.SimpleCertificates.N012T00037H8c718a33
+info: Kobon/SimpleCertificates/N012T00037H8c718a33.lean:13:0: 'Kobon.Certificates.N012T00037H8c718a33.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3092/3106] Replayed Kobon.Certificates.N039T00468H5c5b0b26
+info: Kobon/Certificates/N039T00468H5c5b0b26.lean:526:0: 'Kobon.Certificates.N039T00468H5c5b0b26.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N039T00468H5c5b0b26.lean:527:0: 'Kobon.Certificates.N039T00468H5c5b0b26.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3093/3106] Replayed Kobon.SimpleCertificates.N039T00468H5c5b0b26
+info: Kobon/SimpleCertificates/N039T00468H5c5b0b26.lean:13:0: 'Kobon.Certificates.N039T00468H5c5b0b26.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3094/3106] Replayed Kobon.Certificates.N051T00816H6fa6b7d9
+info: Kobon/Certificates/N051T00816H6fa6b7d9.lean:886:0: 'Kobon.Certificates.N051T00816H6fa6b7d9.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N051T00816H6fa6b7d9.lean:887:0: 'Kobon.Certificates.N051T00816H6fa6b7d9.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3095/3106] Replayed Kobon.SimpleCertificates.N051T00816H6fa6b7d9
+info: Kobon/SimpleCertificates/N051T00816H6fa6b7d9.lean:13:0: 'Kobon.Certificates.N051T00816H6fa6b7d9.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3096/3106] Replayed Kobon.Certificates.N005T00003H6265d6a7
+info: Kobon/Certificates/N005T00003H6265d6a7.lean:27:0: 'Kobon.Certificates.N005T00003H6265d6a7.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N005T00003H6265d6a7.lean:28:0: 'Kobon.Certificates.N005T00003H6265d6a7.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3097/3106] Replayed Kobon.SimpleCertificates.N005T00003H6265d6a7
+info: Kobon/SimpleCertificates/N005T00003H6265d6a7.lean:13:0: 'Kobon.Certificates.N005T00003H6265d6a7.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3098/3106] Replayed Kobon.Certificates.N006T00004H7e060e9a
+info: Kobon/Certificates/N006T00004H7e060e9a.lean:29:0: 'Kobon.Certificates.N006T00004H7e060e9a.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N006T00004H7e060e9a.lean:30:0: 'Kobon.Certificates.N006T00004H7e060e9a.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3099/3106] Replayed Kobon.SimpleCertificates.N006T00004H7e060e9a
+info: Kobon/SimpleCertificates/N006T00004H7e060e9a.lean:13:0: 'Kobon.Certificates.N006T00004H7e060e9a.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3100/3106] Replayed Kobon.Certificates.N019T00107H5d2a7588
+info: Kobon/Certificates/N019T00107H5d2a7588.lean:145:0: 'Kobon.Certificates.N019T00107H5d2a7588.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N019T00107H5d2a7588.lean:146:0: 'Kobon.Certificates.N019T00107H5d2a7588.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3101/3106] Replayed Kobon.SimpleCertificates.N019T00107H5d2a7588
+info: Kobon/SimpleCertificates/N019T00107H5d2a7588.lean:13:0: 'Kobon.Certificates.N019T00107H5d2a7588.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3102/3106] Replayed Kobon.Certificates.N021T00126Hf18756b7
+info: Kobon/Certificates/N021T00126Hf18756b7.lean:166:0: 'Kobon.Certificates.N021T00126Hf18756b7.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N021T00126Hf18756b7.lean:167:0: 'Kobon.Certificates.N021T00126Hf18756b7.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3103/3106] Replayed Kobon.Certificates.N005T00005Hdd0748b7
+info: Kobon/Certificates/N005T00005Hdd0748b7.lean:29:0: 'Kobon.Certificates.N005T00005Hdd0748b7.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N005T00005Hdd0748b7.lean:30:0: 'Kobon.Certificates.N005T00005Hdd0748b7.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3104/3212] Replayed Kobon.SimpleCertificates.N021T00126Hf18756b7
+info: Kobon/SimpleCertificates/N021T00126Hf18756b7.lean:13:0: 'Kobon.Certificates.N021T00126Hf18756b7.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3105/3212] Replayed Kobon.SimpleCertificates.N005T00005Hdd0748b7
+info: Kobon/SimpleCertificates/N005T00005Hdd0748b7.lean:13:0: 'Kobon.Certificates.N005T00005Hdd0748b7.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3106/3212] Replayed Kobon.Certificates.N007T00010H4b5bb6e9
+info: Kobon/Certificates/N007T00010H4b5bb6e9.lean:36:0: 'Kobon.Certificates.N007T00010H4b5bb6e9.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N007T00010H4b5bb6e9.lean:37:0: 'Kobon.Certificates.N007T00010H4b5bb6e9.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3107/3212] Replayed Kobon.SimpleCertificates.N007T00010H4b5bb6e9
+info: Kobon/SimpleCertificates/N007T00010H4b5bb6e9.lean:13:0: 'Kobon.Certificates.N007T00010H4b5bb6e9.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3108/3212] Replayed Kobon.Certificates.N021T00132H3d8bae2f
+info: Kobon/Certificates/N021T00132H3d8bae2f.lean:172:0: 'Kobon.Certificates.N021T00132H3d8bae2f.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N021T00132H3d8bae2f.lean:173:0: 'Kobon.Certificates.N021T00132H3d8bae2f.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3109/3212] Replayed Kobon.SimpleCertificates.N021T00132H3d8bae2f
+info: Kobon/SimpleCertificates/N021T00132H3d8bae2f.lean:13:0: 'Kobon.Certificates.N021T00132H3d8bae2f.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3110/3212] Replayed Kobon.Certificates.N022T00142He683945e
+info: Kobon/Certificates/N022T00142He683945e.lean:183:0: 'Kobon.Certificates.N022T00142He683945e.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N022T00142He683945e.lean:184:0: 'Kobon.Certificates.N022T00142He683945e.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3111/3212] Replayed Kobon.SimpleCertificates.N022T00142He683945e
+info: Kobon/SimpleCertificates/N022T00142He683945e.lean:13:0: 'Kobon.Certificates.N022T00142He683945e.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3112/3212] Replayed Kobon.Certificates.N041T00532H6d48a341
+info: Kobon/Certificates/N041T00532H6d48a341.lean:592:0: 'Kobon.Certificates.N041T00532H6d48a341.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N041T00532H6d48a341.lean:593:0: 'Kobon.Certificates.N041T00532H6d48a341.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3113/3212] Replayed Kobon.SimpleCertificates.N041T00532H6d48a341
+info: Kobon/SimpleCertificates/N041T00532H6d48a341.lean:13:0: 'Kobon.Certificates.N041T00532H6d48a341.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3114/3212] Replayed Kobon.Certificates.N042T00552H7b29a6bd
+info: Kobon/Certificates/N042T00552H7b29a6bd.lean:613:0: 'Kobon.Certificates.N042T00552H7b29a6bd.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N042T00552H7b29a6bd.lean:614:0: 'Kobon.Certificates.N042T00552H7b29a6bd.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3115/3212] Replayed Kobon.SimpleCertificates.N042T00552H7b29a6bd
+info: Kobon/SimpleCertificates/N042T00552H7b29a6bd.lean:13:0: 'Kobon.Certificates.N042T00552H7b29a6bd.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3116/3212] Replayed Kobon.Certificates.N081T02132H7bc6b303
+info: Kobon/Certificates/N081T02132H7bc6b303.lean:2232:0: 'Kobon.Certificates.N081T02132H7bc6b303.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N081T02132H7bc6b303.lean:2233:0: 'Kobon.Certificates.N081T02132H7bc6b303.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3117/3212] Replayed Kobon.SimpleCertificates.N081T02132H7bc6b303
+info: Kobon/SimpleCertificates/N081T02132H7bc6b303.lean:13:0: 'Kobon.Certificates.N081T02132H7bc6b303.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3118/3212] Replayed Kobon.Certificates.N082T02172Hd75c9101
+info: Kobon/Certificates/N082T02172Hd75c9101.lean:2273:0: 'Kobon.Certificates.N082T02172Hd75c9101.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N082T02172Hd75c9101.lean:2274:0: 'Kobon.Certificates.N082T02172Hd75c9101.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3119/3212] Replayed Kobon.SimpleCertificates.N082T02172Hd75c9101
+info: Kobon/SimpleCertificates/N082T02172Hd75c9101.lean:13:0: 'Kobon.Certificates.N082T02172Hd75c9101.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3120/3212] Replayed Kobon.Certificates.N161T08532H230691d5
+info: Kobon/Certificates/N161T08532H230691d5.lean:8712:0: 'Kobon.Certificates.N161T08532H230691d5.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N161T08532H230691d5.lean:8713:0: 'Kobon.Certificates.N161T08532H230691d5.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3121/3212] Replayed Kobon.SimpleCertificates.N161T08532H230691d5
+info: Kobon/SimpleCertificates/N161T08532H230691d5.lean:13:0: 'Kobon.Certificates.N161T08532H230691d5.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3122/3212] Replayed Kobon.Certificates.N162T08612H1512e696
+info: Kobon/Certificates/N162T08612H1512e696.lean:8793:0: 'Kobon.Certificates.N162T08612H1512e696.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N162T08612H1512e696.lean:8794:0: 'Kobon.Certificates.N162T08612H1512e696.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3123/3212] Replayed Kobon.SimpleCertificates.N162T08612H1512e696
+info: Kobon/SimpleCertificates/N162T08612H1512e696.lean:13:0: 'Kobon.Certificates.N162T08612H1512e696.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3124/3212] Replayed Kobon.Certificates.N009T00019He16410b8
+info: Kobon/Certificates/N009T00019He16410b8.lean:47:0: 'Kobon.Certificates.N009T00019He16410b8.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N009T00019He16410b8.lean:48:0: 'Kobon.Certificates.N009T00019He16410b8.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3125/3212] Replayed Kobon.Certificates.N015T00061H7c38d54f
+info: Kobon/Certificates/N015T00061H7c38d54f.lean:95:0: 'Kobon.Certificates.N015T00061H7c38d54f.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N015T00061H7c38d54f.lean:96:0: 'Kobon.Certificates.N015T00061H7c38d54f.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3126/3212] Replayed Kobon.Certificates.N021T00127Hb8dcff22
+info: Kobon/Certificates/N021T00127Hb8dcff22.lean:167:0: 'Kobon.Certificates.N021T00127Hb8dcff22.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N021T00127Hb8dcff22.lean:168:0: 'Kobon.Certificates.N021T00127Hb8dcff22.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3127/3212] Replayed Kobon.Certificates.N027T00217H6670a2b1
+info: Kobon/Certificates/N027T00217H6670a2b1.lean:263:0: 'Kobon.Certificates.N027T00217H6670a2b1.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N027T00217H6670a2b1.lean:264:0: 'Kobon.Certificates.N027T00217H6670a2b1.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3128/3212] Replayed Kobon.Certificates.N033T00331H25fd8f0c
+info: Kobon/Certificates/N033T00331H25fd8f0c.lean:383:0: 'Kobon.Certificates.N033T00331H25fd8f0c.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N033T00331H25fd8f0c.lean:384:0: 'Kobon.Certificates.N033T00331H25fd8f0c.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3129/3212] Replayed Kobon.Certificates.N048T00715Hba6f5baa
+info: Kobon/Certificates/N048T00715Hba6f5baa.lean:782:0: 'Kobon.Certificates.N048T00715Hba6f5baa.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N048T00715Hba6f5baa.lean:783:0: 'Kobon.Certificates.N048T00715Hba6f5baa.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3130/3212] Replayed Kobon.Certificates.N099T03169H4fef38d8
+info: Kobon/Certificates/N099T03169H4fef38d8.lean:3287:0: 'Kobon.Certificates.N099T03169H4fef38d8.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N099T03169H4fef38d8.lean:3288:0: 'Kobon.Certificates.N099T03169H4fef38d8.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3131/3212] Replayed Kobon.Certificates.N195T12481Hcd3497db
+info: Kobon/Certificates/N195T12481Hcd3497db.lean:12695:0: 'Kobon.Certificates.N195T12481Hcd3497db.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N195T12481Hcd3497db.lean:12696:0: 'Kobon.Certificates.N195T12481Hcd3497db.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3132/3212] Replayed Kobon.Certificates.N195T12480H1b9230fb
+info: Kobon/Certificates/N195T12480H1b9230fb.lean:12694:0: 'Kobon.Certificates.N195T12480H1b9230fb.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N195T12480H1b9230fb.lean:12695:0: 'Kobon.Certificates.N195T12480H1b9230fb.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3133/3212] Replayed Kobon.SimpleCertificates.N195T12480H1b9230fb
+info: Kobon/SimpleCertificates/N195T12480H1b9230fb.lean:13:0: 'Kobon.Certificates.N195T12480H1b9230fb.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3134/3212] Replayed Kobon.Certificates.N044T00602H0b0250bf
+info: Kobon/Certificates/N044T00602H0b0250bf.lean:665:0: 'Kobon.Certificates.N044T00602H0b0250bf.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N044T00602H0b0250bf.lean:666:0: 'Kobon.Certificates.N044T00602H0b0250bf.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3135/3212] Replayed Kobon.SimpleCertificates.N044T00602H0b0250bf
+info: Kobon/SimpleCertificates/N044T00602H0b0250bf.lean:13:0: 'Kobon.Certificates.N044T00602H0b0250bf.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3136/3212] Replayed Kobon.Certificates.N099T03168Ha0ea3082
+info: Kobon/Certificates/N099T03168Ha0ea3082.lean:3286:0: 'Kobon.Certificates.N099T03168Ha0ea3082.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N099T03168Ha0ea3082.lean:3287:0: 'Kobon.Certificates.N099T03168Ha0ea3082.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3137/3212] Replayed Kobon.SimpleCertificates.N099T03168Ha0ea3082
+info: Kobon/SimpleCertificates/N099T03168Ha0ea3082.lean:13:0: 'Kobon.Certificates.N099T03168Ha0ea3082.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3138/3212] Replayed Kobon.Certificates.N039T00470H30caa6f7
+info: Kobon/Certificates/N039T00470H30caa6f7.lean:528:0: 'Kobon.Certificates.N039T00470H30caa6f7.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N039T00470H30caa6f7.lean:529:0: 'Kobon.Certificates.N039T00470H30caa6f7.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3139/3212] Replayed Kobon.SimpleCertificates.N039T00470H30caa6f7
+info: Kobon/SimpleCertificates/N039T00470H30caa6f7.lean:13:0: 'Kobon.Certificates.N039T00470H30caa6f7.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3140/3212] Replayed Kobon.Certificates.N047T00691Hfac44af1
+info: Kobon/Certificates/N047T00691Hfac44af1.lean:757:0: 'Kobon.Certificates.N047T00691Hfac44af1.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N047T00691Hfac44af1.lean:758:0: 'Kobon.Certificates.N047T00691Hfac44af1.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3141/3212] Replayed Kobon.SimpleCertificates.N047T00691Hfac44af1
+info: Kobon/SimpleCertificates/N047T00691Hfac44af1.lean:13:0: 'Kobon.Certificates.N047T00691Hfac44af1.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3142/3212] Replayed Kobon.Certificates.N048T00721H2fb5ef0d
+info: Kobon/Certificates/N048T00721H2fb5ef0d.lean:788:0: 'Kobon.Certificates.N048T00721H2fb5ef0d.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N048T00721H2fb5ef0d.lean:789:0: 'Kobon.Certificates.N048T00721H2fb5ef0d.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3143/3212] Replayed Kobon.SimpleCertificates.N048T00721H2fb5ef0d
+info: Kobon/SimpleCertificates/N048T00721H2fb5ef0d.lean:13:0: 'Kobon.Certificates.N048T00721H2fb5ef0d.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3144/3212] Replayed Kobon.Certificates.N051T00818Hc18e1baf
+info: Kobon/Certificates/N051T00818Hc18e1baf.lean:888:0: 'Kobon.Certificates.N051T00818Hc18e1baf.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N051T00818Hc18e1baf.lean:889:0: 'Kobon.Certificates.N051T00818Hc18e1baf.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3145/3212] Replayed Kobon.SimpleCertificates.N051T00818Hc18e1baf
+info: Kobon/SimpleCertificates/N051T00818Hc18e1baf.lean:13:0: 'Kobon.Certificates.N051T00818Hc18e1baf.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3146/3212] Replayed Kobon.Certificates.N053T00885H6bc5b14d
+info: Kobon/Certificates/N053T00885H6bc5b14d.lean:957:0: 'Kobon.Certificates.N053T00885H6bc5b14d.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N053T00885H6bc5b14d.lean:958:0: 'Kobon.Certificates.N053T00885H6bc5b14d.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3147/3212] Replayed Kobon.SimpleCertificates.N053T00885H6bc5b14d
+info: Kobon/SimpleCertificates/N053T00885H6bc5b14d.lean:13:0: 'Kobon.Certificates.N053T00885H6bc5b14d.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3148/3212] Replayed Kobon.Certificates.N054T00919Ha254c1b4
+info: Kobon/Certificates/N054T00919Ha254c1b4.lean:992:0: 'Kobon.Certificates.N054T00919Ha254c1b4.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N054T00919Ha254c1b4.lean:993:0: 'Kobon.Certificates.N054T00919Ha254c1b4.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3149/3212] Replayed Kobon.SimpleCertificates.N054T00919Ha254c1b4
+info: Kobon/SimpleCertificates/N054T00919Ha254c1b4.lean:13:0: 'Kobon.Certificates.N054T00919Ha254c1b4.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3150/3212] Replayed Kobon.Certificates.N055T00955H202625a3
+info: Kobon/Certificates/N055T00955H202625a3.lean:1029:0: 'Kobon.Certificates.N055T00955H202625a3.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N055T00955H202625a3.lean:1030:0: 'Kobon.Certificates.N055T00955H202625a3.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3151/3212] Replayed Kobon.SimpleCertificates.N055T00955H202625a3
+info: Kobon/SimpleCertificates/N055T00955H202625a3.lean:13:0: 'Kobon.Certificates.N055T00955H202625a3.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3152/3212] Replayed Kobon.Certificates.N059T01103Hba482375
+info: Kobon/Certificates/N059T01103Hba482375.lean:1181:0: 'Kobon.Certificates.N059T01103Hba482375.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N059T01103Hba482375.lean:1182:0: 'Kobon.Certificates.N059T01103Hba482375.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3153/3212] Replayed Kobon.SimpleCertificates.N059T01103Hba482375
+info: Kobon/SimpleCertificates/N059T01103Hba482375.lean:13:0: 'Kobon.Certificates.N059T01103Hba482375.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3154/3212] Replayed Kobon.Certificates.N060T01141H9bc5096c
+info: Kobon/Certificates/N060T01141H9bc5096c.lean:1220:0: 'Kobon.Certificates.N060T01141H9bc5096c.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N060T01141H9bc5096c.lean:1221:0: 'Kobon.Certificates.N060T01141H9bc5096c.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3155/3212] Replayed Kobon.SimpleCertificates.N060T01141H9bc5096c
+info: Kobon/SimpleCertificates/N060T01141H9bc5096c.lean:13:0: 'Kobon.Certificates.N060T01141H9bc5096c.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3156/3212] Replayed Kobon.Certificates.N065T01365Hb1dcbeb4
+info: Kobon/Certificates/N065T01365Hb1dcbeb4.lean:1449:0: 'Kobon.Certificates.N065T01365Hb1dcbeb4.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N065T01365Hb1dcbeb4.lean:1450:0: 'Kobon.Certificates.N065T01365Hb1dcbeb4.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3157/3212] Replayed Kobon.SimpleCertificates.N065T01365Hb1dcbeb4
+info: Kobon/SimpleCertificates/N065T01365Hb1dcbeb4.lean:13:0: 'Kobon.Certificates.N065T01365Hb1dcbeb4.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3158/3212] Replayed Kobon.Certificates.N066T01397H327ecbb9
+info: Kobon/Certificates/N066T01397H327ecbb9.lean:1482:0: 'Kobon.Certificates.N066T01397H327ecbb9.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N066T01397H327ecbb9.lean:1483:0: 'Kobon.Certificates.N066T01397H327ecbb9.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3159/3212] Replayed Kobon.SimpleCertificates.N066T01397H327ecbb9
+info: Kobon/SimpleCertificates/N066T01397H327ecbb9.lean:13:0: 'Kobon.Certificates.N066T01397H327ecbb9.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3160/3212] Replayed Kobon.Certificates.N099T03170Hea507e2d
+info: Kobon/Certificates/N099T03170Hea507e2d.lean:3288:0: 'Kobon.Certificates.N099T03170Hea507e2d.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N099T03170Hea507e2d.lean:3289:0: 'Kobon.Certificates.N099T03170Hea507e2d.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3161/3212] Replayed Kobon.SimpleCertificates.N099T03170Hea507e2d
+info: Kobon/SimpleCertificates/N099T03170Hea507e2d.lean:13:0: 'Kobon.Certificates.N099T03170Hea507e2d.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3162/3212] Replayed Kobon.Certificates.N129T05461H6dae0012
+info: Kobon/Certificates/N129T05461H6dae0012.lean:5609:0: 'Kobon.Certificates.N129T05461H6dae0012.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N129T05461H6dae0012.lean:5610:0: 'Kobon.Certificates.N129T05461H6dae0012.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3163/3212] Replayed Kobon.SimpleCertificates.N129T05461H6dae0012
+info: Kobon/SimpleCertificates/N129T05461H6dae0012.lean:13:0: 'Kobon.Certificates.N129T05461H6dae0012.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3164/3212] Replayed Kobon.Certificates.N130T05525He0559b54
+info: Kobon/Certificates/N130T05525He0559b54.lean:5674:0: 'Kobon.Certificates.N130T05525He0559b54.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N130T05525He0559b54.lean:5675:0: 'Kobon.Certificates.N130T05525He0559b54.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3165/3212] Replayed Kobon.SimpleCertificates.N130T05525He0559b54
+info: Kobon/SimpleCertificates/N130T05525He0559b54.lean:13:0: 'Kobon.Certificates.N130T05525He0559b54.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3166/3212] Replayed Kobon.Certificates.N195T12482H5413dd7b
+info: Kobon/Certificates/N195T12482H5413dd7b.lean:12696:0: 'Kobon.Certificates.N195T12482H5413dd7b.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N195T12482H5413dd7b.lean:12697:0: 'Kobon.Certificates.N195T12482H5413dd7b.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3167/3212] Replayed Kobon.SimpleCertificates.N195T12482H5413dd7b
+info: Kobon/SimpleCertificates/N195T12482H5413dd7b.lean:13:0: 'Kobon.Certificates.N195T12482H5413dd7b.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3168/3212] Replayed Kobon.Certificates.N014T00054Hd47aea63
+info: Kobon/Certificates/N014T00054Hd47aea63.lean:87:0: 'Kobon.Certificates.N014T00054Hd47aea63.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N014T00054Hd47aea63.lean:88:0: 'Kobon.Certificates.N014T00054Hd47aea63.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3169/3212] Replayed Kobon.Certificates.N014T00054H18bbcff4
+info: Kobon/Certificates/N014T00054H18bbcff4.lean:87:0: 'Kobon.Certificates.N014T00054H18bbcff4.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N014T00054H18bbcff4.lean:88:0: 'Kobon.Certificates.N014T00054H18bbcff4.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3170/3212] Replayed Kobon.Certificates.N014T00054H78f750c0
+info: Kobon/Certificates/N014T00054H78f750c0.lean:87:0: 'Kobon.Certificates.N014T00054H78f750c0.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N014T00054H78f750c0.lean:88:0: 'Kobon.Certificates.N014T00054H78f750c0.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3171/3212] Replayed Kobon.Certificates.N014T00054H912da8ec
+info: Kobon/Certificates/N014T00054H912da8ec.lean:87:0: 'Kobon.Certificates.N014T00054H912da8ec.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N014T00054H912da8ec.lean:88:0: 'Kobon.Certificates.N014T00054H912da8ec.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3172/3212] Replayed Kobon.Certificates.N014T00054H91349990
+info: Kobon/Certificates/N014T00054H91349990.lean:87:0: 'Kobon.Certificates.N014T00054H91349990.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N014T00054H91349990.lean:88:0: 'Kobon.Certificates.N014T00054H91349990.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3173/3212] Replayed Kobon.Certificates.N014T00054H9c871e10
+info: Kobon/Certificates/N014T00054H9c871e10.lean:87:0: 'Kobon.Certificates.N014T00054H9c871e10.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N014T00054H9c871e10.lean:88:0: 'Kobon.Certificates.N014T00054H9c871e10.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3174/3212] Replayed Kobon.Certificates.N014T00054Hb3dcae0b
+info: Kobon/Certificates/N014T00054Hb3dcae0b.lean:87:0: 'Kobon.Certificates.N014T00054Hb3dcae0b.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N014T00054Hb3dcae0b.lean:88:0: 'Kobon.Certificates.N014T00054Hb3dcae0b.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3175/3212] Replayed Kobon.Certificates.N014T00054H9219cdaa
+info: Kobon/Certificates/N014T00054H9219cdaa.lean:87:0: 'Kobon.Certificates.N014T00054H9219cdaa.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N014T00054H9219cdaa.lean:88:0: 'Kobon.Certificates.N014T00054H9219cdaa.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3176/3212] Replayed Kobon.Certificates.N014T00054Hd2babc1b
+info: Kobon/Certificates/N014T00054Hd2babc1b.lean:87:0: 'Kobon.Certificates.N014T00054Hd2babc1b.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N014T00054Hd2babc1b.lean:88:0: 'Kobon.Certificates.N014T00054Hd2babc1b.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3177/3212] Replayed Kobon.Certificates.N014T00054H2b34ca22
+info: Kobon/Certificates/N014T00054H2b34ca22.lean:87:0: 'Kobon.Certificates.N014T00054H2b34ca22.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N014T00054H2b34ca22.lean:88:0: 'Kobon.Certificates.N014T00054H2b34ca22.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3178/3212] Replayed Kobon.Certificates.N014T00054Hfa427b3d
+info: Kobon/Certificates/N014T00054Hfa427b3d.lean:87:0: 'Kobon.Certificates.N014T00054Hfa427b3d.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N014T00054Hfa427b3d.lean:88:0: 'Kobon.Certificates.N014T00054Hfa427b3d.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3179/3212] Replayed Kobon.Certificates.N014T00054H1ec1fd5c
+info: Kobon/Certificates/N014T00054H1ec1fd5c.lean:87:0: 'Kobon.Certificates.N014T00054H1ec1fd5c.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N014T00054H1ec1fd5c.lean:88:0: 'Kobon.Certificates.N014T00054H1ec1fd5c.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3180/3212] Replayed Kobon.Certificates.N014T00054H3e5d182f
+info: Kobon/Certificates/N014T00054H3e5d182f.lean:87:0: 'Kobon.Certificates.N014T00054H3e5d182f.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N014T00054H3e5d182f.lean:88:0: 'Kobon.Certificates.N014T00054H3e5d182f.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3181/3212] Replayed Kobon.Certificates.N014T00054H17f8c052
+info: Kobon/Certificates/N014T00054H17f8c052.lean:87:0: 'Kobon.Certificates.N014T00054H17f8c052.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N014T00054H17f8c052.lean:88:0: 'Kobon.Certificates.N014T00054H17f8c052.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3182/3212] Replayed Kobon.Certificates.N014T00054Hc472f972
+info: Kobon/Certificates/N014T00054Hc472f972.lean:87:0: 'Kobon.Certificates.N014T00054Hc472f972.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N014T00054Hc472f972.lean:88:0: 'Kobon.Certificates.N014T00054Hc472f972.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3183/3212] Replayed Kobon.Certificates.N014T00052H2eb83dc2
+info: Kobon/Certificates/N014T00052H2eb83dc2.lean:85:0: 'Kobon.Certificates.N014T00052H2eb83dc2.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N014T00052H2eb83dc2.lean:86:0: 'Kobon.Certificates.N014T00052H2eb83dc2.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3184/3212] Replayed Kobon.SimpleCertificates.N014T00052H2eb83dc2
+info: Kobon/SimpleCertificates/N014T00052H2eb83dc2.lean:13:0: 'Kobon.Certificates.N014T00052H2eb83dc2.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3185/3212] Replayed Kobon.Certificates.N014T00053H5e6068f5
+info: Kobon/Certificates/N014T00053H5e6068f5.lean:86:0: 'Kobon.Certificates.N014T00053H5e6068f5.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N014T00053H5e6068f5.lean:87:0: 'Kobon.Certificates.N014T00053H5e6068f5.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3186/3212] Replayed Kobon.SimpleCertificates.N014T00053H5e6068f5
+info: Kobon/SimpleCertificates/N014T00053H5e6068f5.lean:13:0: 'Kobon.Certificates.N014T00053H5e6068f5.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3187/3212] Replayed Kobon.Certificates.N014T00052Hb3f4749f
+info: Kobon/Certificates/N014T00052Hb3f4749f.lean:85:0: 'Kobon.Certificates.N014T00052Hb3f4749f.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N014T00052Hb3f4749f.lean:86:0: 'Kobon.Certificates.N014T00052Hb3f4749f.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3188/3212] Replayed Kobon.SimpleCertificates.N014T00052Hb3f4749f
+info: Kobon/SimpleCertificates/N014T00052Hb3f4749f.lean:13:0: 'Kobon.Certificates.N014T00052Hb3f4749f.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3189/3212] Replayed Kobon.Certificates.N014T00052Hc6615430
+info: Kobon/Certificates/N014T00052Hc6615430.lean:85:0: 'Kobon.Certificates.N014T00052Hc6615430.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N014T00052Hc6615430.lean:86:0: 'Kobon.Certificates.N014T00052Hc6615430.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3190/3212] Replayed Kobon.SimpleCertificates.N014T00052Hc6615430
+info: Kobon/SimpleCertificates/N014T00052Hc6615430.lean:13:0: 'Kobon.Certificates.N014T00052Hc6615430.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3191/3212] Replayed Kobon.Certificates.N008T00014Hebff5868
+info: Kobon/Certificates/N008T00014Hebff5868.lean:41:0: 'Kobon.Certificates.N008T00014Hebff5868.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N008T00014Hebff5868.lean:42:0: 'Kobon.Certificates.N008T00014Hebff5868.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3192/3212] Replayed Kobon.SimpleCertificates.N008T00014Hebff5868
+info: Kobon/SimpleCertificates/N008T00014Hebff5868.lean:13:0: 'Kobon.Certificates.N008T00014Hebff5868.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3193/3212] Replayed Kobon.Certificates.N014T00051Hd67e7a6b
+info: Kobon/Certificates/N014T00051Hd67e7a6b.lean:84:0: 'Kobon.Certificates.N014T00051Hd67e7a6b.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N014T00051Hd67e7a6b.lean:85:0: 'Kobon.Certificates.N014T00051Hd67e7a6b.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3194/3212] Replayed Kobon.SimpleCertificates.N014T00051Hd67e7a6b
+info: Kobon/SimpleCertificates/N014T00051Hd67e7a6b.lean:13:0: 'Kobon.Certificates.N014T00051Hd67e7a6b.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3195/3212] Replayed Kobon.Certificates.N020T00114Hbc312fc8
+info: Kobon/Certificates/N020T00114Hbc312fc8.lean:153:0: 'Kobon.Certificates.N020T00114Hbc312fc8.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N020T00114Hbc312fc8.lean:154:0: 'Kobon.Certificates.N020T00114Hbc312fc8.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3196/3212] Replayed Kobon.SimpleCertificates.N020T00114Hbc312fc8
+info: Kobon/SimpleCertificates/N020T00114Hbc312fc8.lean:13:0: 'Kobon.Certificates.N020T00114Hbc312fc8.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3197/3212] Replayed Kobon.Certificates.N026T00203H5452b4ff
+info: Kobon/Certificates/N026T00203H5452b4ff.lean:248:0: 'Kobon.Certificates.N026T00203H5452b4ff.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N026T00203H5452b4ff.lean:249:0: 'Kobon.Certificates.N026T00203H5452b4ff.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3198/3212] Replayed Kobon.SimpleCertificates.N026T00203H5452b4ff
+info: Kobon/SimpleCertificates/N026T00203H5452b4ff.lean:13:0: 'Kobon.Certificates.N026T00203H5452b4ff.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3199/3212] Replayed Kobon.Certificates.N032T00313H018f9fc6
+info: Kobon/Certificates/N032T00313H018f9fc6.lean:364:0: 'Kobon.Certificates.N032T00313H018f9fc6.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N032T00313H018f9fc6.lean:365:0: 'Kobon.Certificates.N032T00313H018f9fc6.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3200/3212] Replayed Kobon.SimpleCertificates.N032T00313H018f9fc6
+info: Kobon/SimpleCertificates/N032T00313H018f9fc6.lean:13:0: 'Kobon.Certificates.N032T00313H018f9fc6.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3201/3212] Replayed Kobon.Certificates.N038T00448H7d59f504
+info: Kobon/Certificates/N038T00448H7d59f504.lean:505:0: 'Kobon.Certificates.N038T00448H7d59f504.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N038T00448H7d59f504.lean:506:0: 'Kobon.Certificates.N038T00448H7d59f504.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3202/3212] Replayed Kobon.SimpleCertificates.N038T00448H7d59f504
+info: Kobon/SimpleCertificates/N038T00448H7d59f504.lean:13:0: 'Kobon.Certificates.N038T00448H7d59f504.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3203/3212] Replayed Kobon.Certificates.N050T00791H6bde86a3
+info: Kobon/Certificates/N050T00791H6bde86a3.lean:860:0: 'Kobon.Certificates.N050T00791H6bde86a3.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N050T00791H6bde86a3.lean:861:0: 'Kobon.Certificates.N050T00791H6bde86a3.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3204/3212] Replayed Kobon.SimpleCertificates.N050T00791H6bde86a3
+info: Kobon/SimpleCertificates/N050T00791H6bde86a3.lean:13:0: 'Kobon.Certificates.N050T00791H6bde86a3.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3205/3212] Replayed Kobon.Certificates.N008T00015Ha1380810
+info: Kobon/Certificates/N008T00015Ha1380810.lean:42:0: 'Kobon.Certificates.N008T00015Ha1380810.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N008T00015Ha1380810.lean:43:0: 'Kobon.Certificates.N008T00015Ha1380810.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3206/3212] Replayed Kobon.Certificates.N014T00054H10576514
+info: Kobon/Certificates/N014T00054H10576514.lean:87:0: 'Kobon.Certificates.N014T00054H10576514.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N014T00054H10576514.lean:88:0: 'Kobon.Certificates.N014T00054H10576514.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3207/3212] Replayed Kobon.Certificates.N020T00117H382171ac
+info: Kobon/Certificates/N020T00117H382171ac.lean:156:0: 'Kobon.Certificates.N020T00117H382171ac.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N020T00117H382171ac.lean:157:0: 'Kobon.Certificates.N020T00117H382171ac.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3208/3212] Replayed Kobon.Certificates.N026T00204Hf71379c4
+info: Kobon/Certificates/N026T00204Hf71379c4.lean:249:0: 'Kobon.Certificates.N026T00204Hf71379c4.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N026T00204Hf71379c4.lean:250:0: 'Kobon.Certificates.N026T00204Hf71379c4.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3209/3212] Replayed Kobon.Certificates.N032T00315H5914f2bb
+info: Kobon/Certificates/N032T00315H5914f2bb.lean:366:0: 'Kobon.Certificates.N032T00315H5914f2bb.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N032T00315H5914f2bb.lean:367:0: 'Kobon.Certificates.N032T00315H5914f2bb.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3210/3212] Replayed Kobon.Certificates.N036T00402Hce43a107
+info: Kobon/Certificates/N036T00402Hce43a107.lean:457:0: 'Kobon.Certificates.N036T00402Hce43a107.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N036T00402Hce43a107.lean:458:0: 'Kobon.Certificates.N036T00402Hce43a107.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3212/3222] Replayed Kobon.SimpleCertificates.N036T00402Hce43a107
+info: Kobon/SimpleCertificates/N036T00402Hce43a107.lean:13:0: 'Kobon.Certificates.N036T00402Hce43a107.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3213/3222] Replayed Kobon.Certificates.N038T00450H8ba2bdb1
+info: Kobon/Certificates/N038T00450H8ba2bdb1.lean:507:0: 'Kobon.Certificates.N038T00450H8ba2bdb1.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N038T00450H8ba2bdb1.lean:508:0: 'Kobon.Certificates.N038T00450H8ba2bdb1.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3214/3222] Replayed Kobon.Certificates.N042T00553H9849e255
+info: Kobon/Certificates/N042T00553H9849e255.lean:614:0: 'Kobon.Certificates.N042T00553H9849e255.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N042T00553H9849e255.lean:615:0: 'Kobon.Certificates.N042T00553H9849e255.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3215/3222] Replayed Kobon.SimpleCertificates.N042T00553H9849e255
+info: Kobon/SimpleCertificates/N042T00553H9849e255.lean:13:0: 'Kobon.Certificates.N042T00553H9849e255.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3216/3222] Replayed Kobon.Certificates.N050T00792H3d40cb58
+info: Kobon/Certificates/N050T00792H3d40cb58.lean:861:0: 'Kobon.Certificates.N050T00792H3d40cb58.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N050T00792H3d40cb58.lean:862:0: 'Kobon.Certificates.N050T00792H3d40cb58.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3217/3222] Replayed Kobon.Certificates.N019T00107H6e8ca6f5
+info: Kobon/Certificates/N019T00107H6e8ca6f5.lean:145:0: 'Kobon.Certificates.N019T00107H6e8ca6f5.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N019T00107H6e8ca6f5.lean:146:0: 'Kobon.Certificates.N019T00107H6e8ca6f5.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3218/3222] Replayed Kobon.SimpleCertificates.N019T00107H6e8ca6f5
+info: Kobon/SimpleCertificates/N019T00107H6e8ca6f5.lean:13:0: 'Kobon.Certificates.N019T00107H6e8ca6f5.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1,
+ no_concurrent._native.native_decide.ax_1_1]
+ℹ [3219/3222] Replayed Kobon.Certificates.N006T00006Haf8f599e
+info: Kobon/Certificates/N006T00006Haf8f599e.lean:31:0: 'Kobon.Certificates.N006T00006Haf8f599e.checked' depends on axioms: [propext, checked._native.native_decide.ax_1_1]
+info: Kobon/Certificates/N006T00006Haf8f599e.lean:32:0: 'Kobon.Certificates.N006T00006Haf8f599e.lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ checked._native.native_decide.ax_1_1]
+ℹ [3221/3222] Replayed Kobon.AllN
+info: Kobon/AllN.lean:512:0: 'Kobon.AllN.baseline_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/AllN.lean:513:0: 'Kobon.AllN.all_n' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Certificates.N003T00001H05c82de6.checked._native.native_decide.ax_1_1,
+ Certificates.N005T00005H948a0bdf.checked._native.native_decide.ax_1_1,
+ Certificates.N006T00007H6ea9ebaa.checked._native.native_decide.ax_1_1,
+ Certificates.N007T00011He6b9a626.checked._native.native_decide.ax_1_1,
+ Certificates.N008T00015Ha1380810.checked._native.native_decide.ax_1_1,
+ Certificates.N009T00021H6ebbed82.checked._native.native_decide.ax_1_1,
+ Certificates.N010T00025Hb767c427.checked._native.native_decide.ax_1_1,
+ Certificates.N011T00032Hb955e7c9.checked._native.native_decide.ax_1_1,
+ Certificates.N012T00038H38f69f38.checked._native.native_decide.ax_1_1,
+ Certificates.N013T00047Hddec1f78.checked._native.native_decide.ax_1_1,
+ Certificates.N014T00054Hd47aea63.checked._native.native_decide.ax_1_1,
+ Certificates.N015T00065H4d3bf3b4.checked._native.native_decide.ax_1_1,
+ Certificates.N016T00072H391cf79a.checked._native.native_decide.ax_1_1,
+ Certificates.N017T00085H7cf3c061.checked._native.native_decide.ax_1_1,
+ Certificates.N018T00093Hedb6246a.checked._native.native_decide.ax_1_1,
+ Certificates.N019T00107Ha2f32bdb.checked._native.native_decide.ax_1_1,
+ Certificates.N020T00117H382171ac.checked._native.native_decide.ax_1_1,
+ Certificates.N021T00133H36bae754.checked._native.native_decide.ax_1_1,
+ Certificates.N022T00143H54396c64.checked._native.native_decide.ax_1_1,
+ Certificates.N023T00161H969ad7d3.checked._native.native_decide.ax_1_1,
+ Certificates.N024T00172He63e906b.checked._native.native_decide.ax_1_1,
+ Certificates.N025T00191Hb568bffb.checked._native.native_decide.ax_1_1,
+ Certificates.N026T00204Hf71379c4.checked._native.native_decide.ax_1_1,
+ Certificates.N027T00225H7d6ae9a0.checked._native.native_decide.ax_1_1,
+ Certificates.N028T00238H56ef2acb.checked._native.native_decide.ax_1_1,
+ Certificates.N029T00261Hd4805c25.checked._native.native_decide.ax_1_1,
+ Certificates.N030T00275Hdcfe649a.checked._native.native_decide.ax_1_1,
+ Certificates.N031T00299H70f23b94.checked._native.native_decide.ax_1_1,
+ Certificates.N032T00315H5914f2bb.checked._native.native_decide.ax_1_1,
+ Certificates.N033T00341H95f3b770.checked._native.native_decide.ax_1_1,
+ Certificates.N034T00357Hfbde0a76.checked._native.native_decide.ax_1_1,
+ Certificates.N035T00385H9ee99af6.checked._native.native_decide.ax_1_1,
+ Certificates.N036T00402H3fc01b7d.checked._native.native_decide.ax_1_1,
+ Certificates.N037T00431H11f0bde7.checked._native.native_decide.ax_1_1,
+ Certificates.N038T00450H8ba2bdb1.checked._native.native_decide.ax_1_1,
+ Certificates.N039T00470H30caa6f7.checked._native.native_decide.ax_1_1,
+ Certificates.N041T00533H01e2ef66.checked._native.native_decide.ax_1_1,
+ Certificates.N042T00553H2bdc9d67.checked._native.native_decide.ax_1_1,
+ Certificates.N043T00587H861d8be2.checked._native.native_decide.ax_1_1,
+ Certificates.N044T00608Hb5277675.checked._native.native_decide.ax_1_1,
+ Certificates.N045T00645H3dc6e882.checked._native.native_decide.ax_1_1,
+ Certificates.N046T00667H32b8ca2f.checked._native.native_decide.ax_1_1,
+ Certificates.N047T00691Hfac44af1.checked._native.native_decide.ax_1_1,
+ Certificates.N048T00721H2fb5ef0d.checked._native.native_decide.ax_1_1,
+ Certificates.N049T00767H957e6f15.checked._native.native_decide.ax_1_1,
+ Certificates.N050T00792H3d40cb58.checked._native.native_decide.ax_1_1,
+ Certificates.N051T00818Hc18e1baf.checked._native.native_decide.ax_1_1,
+ Certificates.N053T00885H6bc5b14d.checked._native.native_decide.ax_1_1,
+ Certificates.N054T00919Ha254c1b4.checked._native.native_decide.ax_1_1,
+ Certificates.N055T00955H202625a3.checked._native.native_decide.ax_1_1,
+ Certificates.N057T01045H9a1d337c.checked._native.native_decide.ax_1_1,
+ Certificates.N058T01073Hd988db55.checked._native.native_decide.ax_1_1,
+ Certificates.N059T01103Hba482375.checked._native.native_decide.ax_1_1,
+ Certificates.N060T01141H9bc5096c.checked._native.native_decide.ax_1_1,
+ Certificates.N065T01365Hb1dcbeb4.checked._native.native_decide.ax_1_1,
+ Certificates.N066T01397H327ecbb9.checked._native.native_decide.ax_1_1,
+ Certificates.N081T02132H7bc6b303.checked._native.native_decide.ax_1_1,
+ Certificates.N082T02172Hd75c9101.checked._native.native_decide.ax_1_1,
+ Certificates.N099T03170Hea507e2d.checked._native.native_decide.ax_1_1,
+ Certificates.N129T05461H6dae0012.checked._native.native_decide.ax_1_1,
+ Certificates.N130T05525He0559b54.checked._native.native_decide.ax_1_1,
+ Certificates.N161T08532H230691d5.checked._native.native_decide.ax_1_1,
+ Certificates.N162T08612H1512e696.checked._native.native_decide.ax_1_1,
+ Certificates.N195T12482H5413dd7b.checked._native.native_decide.ax_1_1]
+info: Kobon/AllN.lean:514:0: 'Kobon.AllN.strict_improvements' does not depend on any axioms
+info: Kobon/AllN.lean:515:0: 'Kobon.AllN.from_49_unconditional' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Certificates.N049T00767H957e6f15.checked._native.native_decide.ax_1_1,
+ Certificates.N050T00791H2ea22b55.checked._native.native_decide.ax_1_1]
+ℹ [3222/3222] Built Kobon.Universal (15s)
+info: Kobon/Universal.lean:155:0: 'Kobon.Universal.baseline_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Universal.lean:156:0: 'Kobon.Universal.all_n' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Certificates.N003T00001H05c82de6.checked._native.native_decide.ax_1_1,
+ Certificates.N005T00005H948a0bdf.checked._native.native_decide.ax_1_1,
+ Certificates.N006T00007H6ea9ebaa.checked._native.native_decide.ax_1_1,
+ Certificates.N007T00011He6b9a626.checked._native.native_decide.ax_1_1,
+ Certificates.N008T00015Ha1380810.checked._native.native_decide.ax_1_1,
+ Certificates.N009T00021H6ebbed82.checked._native.native_decide.ax_1_1,
+ Certificates.N010T00025Hb767c427.checked._native.native_decide.ax_1_1,
+ Certificates.N011T00032Hb955e7c9.checked._native.native_decide.ax_1_1,
+ Certificates.N012T00038H38f69f38.checked._native.native_decide.ax_1_1,
+ Certificates.N013T00047Hddec1f78.checked._native.native_decide.ax_1_1,
+ Certificates.N014T00054Hd47aea63.checked._native.native_decide.ax_1_1,
+ Certificates.N015T00065H4d3bf3b4.checked._native.native_decide.ax_1_1,
+ Certificates.N016T00072H391cf79a.checked._native.native_decide.ax_1_1,
+ Certificates.N017T00085H7cf3c061.checked._native.native_decide.ax_1_1,
+ Certificates.N018T00093Hedb6246a.checked._native.native_decide.ax_1_1,
+ Certificates.N019T00107Ha2f32bdb.checked._native.native_decide.ax_1_1,
+ Certificates.N020T00117H382171ac.checked._native.native_decide.ax_1_1,
+ Certificates.N021T00133H36bae754.checked._native.native_decide.ax_1_1,
+ Certificates.N022T00143H54396c64.checked._native.native_decide.ax_1_1,
+ Certificates.N023T00161H969ad7d3.checked._native.native_decide.ax_1_1,
+ Certificates.N024T00172He63e906b.checked._native.native_decide.ax_1_1,
+ Certificates.N025T00191Hb568bffb.checked._native.native_decide.ax_1_1,
+ Certificates.N026T00204Hf71379c4.checked._native.native_decide.ax_1_1,
+ Certificates.N027T00225H7d6ae9a0.checked._native.native_decide.ax_1_1,
+ Certificates.N028T00238H56ef2acb.checked._native.native_decide.ax_1_1,
+ Certificates.N029T00261Hd4805c25.checked._native.native_decide.ax_1_1,
+ Certificates.N030T00275Hdcfe649a.checked._native.native_decide.ax_1_1,
+ Certificates.N031T00299H70f23b94.checked._native.native_decide.ax_1_1,
+ Certificates.N032T00315H5914f2bb.checked._native.native_decide.ax_1_1,
+ Certificates.N033T00341H95f3b770.checked._native.native_decide.ax_1_1,
+ Certificates.N034T00357Hfbde0a76.checked._native.native_decide.ax_1_1,
+ Certificates.N035T00385H9ee99af6.checked._native.native_decide.ax_1_1,
+ Certificates.N036T00402H3fc01b7d.checked._native.native_decide.ax_1_1,
+ Certificates.N037T00431H11f0bde7.checked._native.native_decide.ax_1_1,
+ Certificates.N038T00450H8ba2bdb1.checked._native.native_decide.ax_1_1,
+ Certificates.N039T00470H30caa6f7.checked._native.native_decide.ax_1_1,
+ Certificates.N041T00533H01e2ef66.checked._native.native_decide.ax_1_1,
+ Certificates.N042T00553H2bdc9d67.checked._native.native_decide.ax_1_1,
+ Certificates.N043T00587H861d8be2.checked._native.native_decide.ax_1_1,
+ Certificates.N044T00608Hb5277675.checked._native.native_decide.ax_1_1,
+ Certificates.N045T00645H3dc6e882.checked._native.native_decide.ax_1_1,
+ Certificates.N046T00667H32b8ca2f.checked._native.native_decide.ax_1_1,
+ Certificates.N047T00691Hfac44af1.checked._native.native_decide.ax_1_1,
+ Certificates.N048T00721H2fb5ef0d.checked._native.native_decide.ax_1_1,
+ Certificates.N049T00767H957e6f15.checked._native.native_decide.ax_1_1,
+ Certificates.N050T00792H3d40cb58.checked._native.native_decide.ax_1_1,
+ Certificates.N051T00818Hc18e1baf.checked._native.native_decide.ax_1_1,
+ Certificates.N053T00885H6bc5b14d.checked._native.native_decide.ax_1_1,
+ Certificates.N054T00919Ha254c1b4.checked._native.native_decide.ax_1_1,
+ Certificates.N055T00955H202625a3.checked._native.native_decide.ax_1_1,
+ Certificates.N057T01045H9a1d337c.checked._native.native_decide.ax_1_1,
+ Certificates.N058T01073Hd988db55.checked._native.native_decide.ax_1_1,
+ Certificates.N059T01103Hba482375.checked._native.native_decide.ax_1_1,
+ Certificates.N060T01141H9bc5096c.checked._native.native_decide.ax_1_1,
+ Certificates.N065T01365Hb1dcbeb4.checked._native.native_decide.ax_1_1,
+ Certificates.N066T01397H327ecbb9.checked._native.native_decide.ax_1_1,
+ Certificates.N081T02132H7bc6b303.checked._native.native_decide.ax_1_1,
+ Certificates.N082T02172Hd75c9101.checked._native.native_decide.ax_1_1,
+ Certificates.N099T03170Hea507e2d.checked._native.native_decide.ax_1_1,
+ Certificates.N129T05461H6dae0012.checked._native.native_decide.ax_1_1,
+ Certificates.N130T05525He0559b54.checked._native.native_decide.ax_1_1,
+ Certificates.N161T08532H230691d5.checked._native.native_decide.ax_1_1,
+ Certificates.N162T08612H1512e696.checked._native.native_decide.ax_1_1,
+ Certificates.N195T12482H5413dd7b.checked._native.native_decide.ax_1_1]
+Build completed successfully (3222 jobs).

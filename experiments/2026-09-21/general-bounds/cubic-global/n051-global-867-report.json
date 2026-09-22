@@ -1,0 +1,18 @@
+{
+  "n": 51,
+  "seed": 867,
+  "mode": "global",
+  "seconds": 600.0630000000237,
+  "proposals": 566600,
+  "accepted": 97643,
+  "restarts": 112,
+  "best": 817,
+  "baseline": 816,
+  "history": [
+    {
+      "seconds": 0,
+      "triangles": 817
+    }
+  ],
+  "limitations": "bounded stochastic search; no optimality or priority claim"
+}

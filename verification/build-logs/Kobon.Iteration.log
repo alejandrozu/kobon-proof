@@ -1,4 +1,4 @@
-ℹ [1189/1205] Replayed Kobon.BoundaryExtension
+ℹ [1190/1219] Replayed Kobon.BoundaryExtension
 info: Kobon/BoundaryExtension.lean:122:0: 'KobonBoundary.cap_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
 info: Kobon/BoundaryExtension.lean:123:0: 'KobonBoundary.exists_average' depends on axioms: [propext, Classical.choice, Quot.sound]
 info: Kobon/BoundaryExtension.lean:124:0: 'KobonBoundary.odd_full_gain' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,985 @@
+{
+  "results": [
+    {
+      "q": 4,
+      "split": false,
+      "required_saturation": 3,
+      "best": {
+        "phase": 0.0,
+        "projective": 5,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 4,
+      "split": true,
+      "required_saturation": 3,
+      "best": {
+        "phase": 0.0,
+        "projective": 5,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 6,
+      "split": false,
+      "required_saturation": 5,
+      "best": {
+        "phase": 0.2899931680236732,
+        "projective": 10,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 6,
+      "split": true,
+      "required_saturation": 5,
+      "best": {
+        "phase": 0.5316541413767342,
+        "projective": 9,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 8,
+      "split": false,
+      "required_saturation": 7,
+      "best": {
+        "phase": 0.0,
+        "projective": 17,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 8,
+      "split": true,
+      "required_saturation": 7,
+      "best": {
+        "phase": 0.4349897520355098,
+        "projective": 14,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 10,
+      "split": false,
+      "required_saturation": 9,
+      "best": {
+        "phase": 0.0,
+        "projective": 27,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 10,
+      "split": true,
+      "required_saturation": 9,
+      "best": {
+        "phase": 1.8849555921538759,
+        "projective": 23,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 12,
+      "split": false,
+      "required_saturation": 11,
+      "best": {
+        "phase": 0.1449965840118366,
+        "projective": 40,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 12,
+      "split": true,
+      "required_saturation": 11,
+      "best": {
+        "phase": 0.5316541413767342,
+        "projective": 33,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 14,
+      "split": false,
+      "required_saturation": 13,
+      "best": {
+        "phase": 0.0,
+        "projective": 55,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 14,
+      "split": true,
+      "required_saturation": 13,
+      "best": {
+        "phase": 0.9183116987416318,
+        "projective": 47,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 16,
+      "split": false,
+      "required_saturation": 15,
+      "best": {
+        "phase": 0.0,
+        "projective": 73,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 16,
+      "split": true,
+      "required_saturation": 15,
+      "best": {
+        "phase": 0.8216473094004074,
+        "projective": 63,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 18,
+      "split": false,
+      "required_saturation": 17,
+      "best": {
+        "phase": 0.0966643893412244,
+        "projective": 94,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 18,
+      "split": true,
+      "required_saturation": 17,
+      "best": {
+        "phase": 0.3866575573648976,
+        "projective": 81,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 20,
+      "split": false,
+      "required_saturation": 19,
+      "best": {
+        "phase": 0.0,
+        "projective": 117,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 20,
+      "split": true,
+      "required_saturation": 19,
+      "best": {
+        "phase": 0.6766507253885707,
+        "projective": 103,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 22,
+      "split": false,
+      "required_saturation": 21,
+      "best": {
+        "phase": 0.0,
+        "projective": 143,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 22,
+      "split": true,
+      "required_saturation": 21,
+      "best": {
+        "phase": 0.5799863360473464,
+        "projective": 127,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 24,
+      "split": false,
+      "required_saturation": 23,
+      "best": {
+        "phase": 0.0966643893412244,
+        "projective": 172,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 24,
+      "split": true,
+      "required_saturation": 23,
+      "best": {
+        "phase": 0.2899931680236732,
+        "projective": 153,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 26,
+      "split": false,
+      "required_saturation": 25,
+      "best": {
+        "phase": 0.0,
+        "projective": 203,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 26,
+      "split": true,
+      "required_saturation": 25,
+      "best": {
+        "phase": 0.5316541413767342,
+        "projective": 183,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 28,
+      "split": false,
+      "required_saturation": 27,
+      "best": {
+        "phase": 0.0,
+        "projective": 237,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 28,
+      "split": true,
+      "required_saturation": 27,
+      "best": {
+        "phase": 0.483321946706122,
+        "projective": 215,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 30,
+      "split": false,
+      "required_saturation": 29,
+      "best": {
+        "phase": 0.0966643893412244,
+        "projective": 274,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 30,
+      "split": true,
+      "required_saturation": 29,
+      "best": {
+        "phase": 0.241660973353061,
+        "projective": 249,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 32,
+      "split": false,
+      "required_saturation": 31,
+      "best": {
+        "phase": 0.0,
+        "projective": 313,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 32,
+      "split": true,
+      "required_saturation": 31,
+      "best": {
+        "phase": 0.4349897520355098,
+        "projective": 287,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 34,
+      "split": false,
+      "required_saturation": 33,
+      "best": {
+        "phase": 0.0,
+        "projective": 355,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 34,
+      "split": true,
+      "required_saturation": 33,
+      "best": {
+        "phase": 0.3866575573648976,
+        "projective": 327,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 36,
+      "split": false,
+      "required_saturation": 35,
+      "best": {
+        "phase": 0.0483321946706122,
+        "projective": 400,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 36,
+      "split": true,
+      "required_saturation": 35,
+      "best": {
+        "phase": 0.1933287786824488,
+        "projective": 369,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 38,
+      "split": false,
+      "required_saturation": 37,
+      "best": {
+        "phase": 0.0,
+        "projective": 447,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 38,
+      "split": true,
+      "required_saturation": 37,
+      "best": {
+        "phase": 0.33832536269428537,
+        "projective": 415,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 40,
+      "split": false,
+      "required_saturation": 39,
+      "best": {
+        "phase": 0.0,
+        "projective": 497,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 40,
+      "split": true,
+      "required_saturation": 39,
+      "best": {
+        "phase": 0.33832536269428537,
+        "projective": 463,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 42,
+      "split": false,
+      "required_saturation": 41,
+      "best": {
+        "phase": 0.0483321946706122,
+        "projective": 550,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 42,
+      "split": true,
+      "required_saturation": 41,
+      "best": {
+        "phase": 0.1933287786824488,
+        "projective": 513,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 44,
+      "split": false,
+      "required_saturation": 43,
+      "best": {
+        "phase": 0.0,
+        "projective": 605,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 44,
+      "split": true,
+      "required_saturation": 43,
+      "best": {
+        "phase": 0.2899931680236732,
+        "projective": 567,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 46,
+      "split": false,
+      "required_saturation": 45,
+      "best": {
+        "phase": 0.0,
+        "projective": 663,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 46,
+      "split": true,
+      "required_saturation": 45,
+      "best": {
+        "phase": 0.2899931680236732,
+        "projective": 623,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 48,
+      "split": false,
+      "required_saturation": 47,
+      "best": {
+        "phase": 0.0483321946706122,
+        "projective": 724,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 48,
+      "split": true,
+      "required_saturation": 47,
+      "best": {
+        "phase": 0.1449965840118366,
+        "projective": 681,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 50,
+      "split": false,
+      "required_saturation": 49,
+      "best": {
+        "phase": 0.0,
+        "projective": 787,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 50,
+      "split": true,
+      "required_saturation": 49,
+      "best": {
+        "phase": 0.2899931680236732,
+        "projective": 743,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 52,
+      "split": false,
+      "required_saturation": 51,
+      "best": {
+        "phase": 0.0,
+        "projective": 853,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 52,
+      "split": true,
+      "required_saturation": 51,
+      "best": {
+        "phase": 0.2899931680236732,
+        "projective": 807,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 54,
+      "split": false,
+      "required_saturation": 53,
+      "best": {
+        "phase": 0.0483321946706122,
+        "projective": 922,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 54,
+      "split": true,
+      "required_saturation": 53,
+      "best": {
+        "phase": 0.1449965840118366,
+        "projective": 873,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 56,
+      "split": false,
+      "required_saturation": 55,
+      "best": {
+        "phase": 0.0,
+        "projective": 993,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 56,
+      "split": true,
+      "required_saturation": 55,
+      "best": {
+        "phase": 0.241660973353061,
+        "projective": 943,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 58,
+      "split": false,
+      "required_saturation": 57,
+      "best": {
+        "phase": 0.0,
+        "projective": 1067,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 58,
+      "split": true,
+      "required_saturation": 57,
+      "best": {
+        "phase": 0.241660973353061,
+        "projective": 1015,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 60,
+      "split": false,
+      "required_saturation": 59,
+      "best": {
+        "phase": 0.0483321946706122,
+        "projective": 1144,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 60,
+      "split": true,
+      "required_saturation": 59,
+      "best": {
+        "phase": 0.1449965840118366,
+        "projective": 1089,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 62,
+      "split": false,
+      "required_saturation": 61,
+      "best": {
+        "phase": 0.0,
+        "projective": 1223,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 62,
+      "split": true,
+      "required_saturation": 61,
+      "best": {
+        "phase": 0.241660973353061,
+        "projective": 1167,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 64,
+      "split": false,
+      "required_saturation": 63,
+      "best": {
+        "phase": 0.0,
+        "projective": 1305,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 64,
+      "split": true,
+      "required_saturation": 63,
+      "best": {
+        "phase": 0.241660973353061,
+        "projective": 1247,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 66,
+      "split": false,
+      "required_saturation": 65,
+      "best": {
+        "phase": 0.0483321946706122,
+        "projective": 1390,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 66,
+      "split": true,
+      "required_saturation": 65,
+      "best": {
+        "phase": 0.0966643893412244,
+        "projective": 1329,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 68,
+      "split": false,
+      "required_saturation": 67,
+      "best": {
+        "phase": 0.0,
+        "projective": 1477,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 68,
+      "split": true,
+      "required_saturation": 67,
+      "best": {
+        "phase": 0.1933287786824488,
+        "projective": 1415,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 70,
+      "split": false,
+      "required_saturation": 69,
+      "best": {
+        "phase": 0.0,
+        "projective": 1567,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 70,
+      "split": true,
+      "required_saturation": 69,
+      "best": {
+        "phase": 0.1933287786824488,
+        "projective": 1503,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 72,
+      "split": false,
+      "required_saturation": 71,
+      "best": {
+        "phase": 0.0483321946706122,
+        "projective": 1660,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 72,
+      "split": true,
+      "required_saturation": 71,
+      "best": {
+        "phase": 0.0966643893412244,
+        "projective": 1593,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 74,
+      "split": false,
+      "required_saturation": 73,
+      "best": {
+        "phase": 0.0,
+        "projective": 1755,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 74,
+      "split": true,
+      "required_saturation": 73,
+      "best": {
+        "phase": 0.1933287786824488,
+        "projective": 1687,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 76,
+      "split": false,
+      "required_saturation": 75,
+      "best": {
+        "phase": 0.0,
+        "projective": 1853,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 76,
+      "split": true,
+      "required_saturation": 75,
+      "best": {
+        "phase": 0.1933287786824488,
+        "projective": 1783,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 78,
+      "split": false,
+      "required_saturation": 77,
+      "best": {
+        "phase": 0.0483321946706122,
+        "projective": 1954,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 78,
+      "split": true,
+      "required_saturation": 77,
+      "best": {
+        "phase": 0.0966643893412244,
+        "projective": 1881,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 80,
+      "split": false,
+      "required_saturation": 79,
+      "best": {
+        "phase": 0.0,
+        "projective": 2057,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 80,
+      "split": true,
+      "required_saturation": 79,
+      "best": {
+        "phase": 0.1933287786824488,
+        "projective": 1983,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 82,
+      "split": false,
+      "required_saturation": 81,
+      "best": {
+        "phase": 0.0,
+        "projective": 2163,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 82,
+      "split": true,
+      "required_saturation": 81,
+      "best": {
+        "phase": 0.0483321946706122,
+        "projective": 2086,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 84,
+      "split": false,
+      "required_saturation": 83,
+      "best": {
+        "phase": 0.0483321946706122,
+        "projective": 2272,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 84,
+      "split": true,
+      "required_saturation": 83,
+      "best": {
+        "phase": 0.0966643893412244,
+        "projective": 2193,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 86,
+      "split": false,
+      "required_saturation": 85,
+      "best": {
+        "phase": 0.0,
+        "projective": 2383,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 86,
+      "split": true,
+      "required_saturation": 85,
+      "best": {
+        "phase": 0.0483321946706122,
+        "projective": 2302,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 88,
+      "split": false,
+      "required_saturation": 87,
+      "best": {
+        "phase": 0.0,
+        "projective": 2497,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 88,
+      "split": true,
+      "required_saturation": 87,
+      "best": {
+        "phase": 0.1449965840118366,
+        "projective": 2415,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 90,
+      "split": false,
+      "required_saturation": 89,
+      "best": {
+        "phase": 0.0483321946706122,
+        "projective": 2614,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 90,
+      "split": true,
+      "required_saturation": 89,
+      "best": {
+        "phase": 0.0966643893412244,
+        "projective": 2529,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 92,
+      "split": false,
+      "required_saturation": 91,
+      "best": {
+        "phase": 0.0,
+        "projective": 2733,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 92,
+      "split": true,
+      "required_saturation": 91,
+      "best": {
+        "phase": 0.1449965840118366,
+        "projective": 2647,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 94,
+      "split": false,
+      "required_saturation": 93,
+      "best": {
+        "phase": 0.0,
+        "projective": 2855,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 94,
+      "split": true,
+      "required_saturation": 93,
+      "best": {
+        "phase": 0.1449965840118366,
+        "projective": 2767,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 96,
+      "split": false,
+      "required_saturation": 95,
+      "best": {
+        "phase": 0.0483321946706122,
+        "projective": 2980,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 96,
+      "split": true,
+      "required_saturation": 95,
+      "best": {
+        "phase": 0.0966643893412244,
+        "projective": 2889,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 98,
+      "split": false,
+      "required_saturation": 97,
+      "best": {
+        "phase": 0.0,
+        "projective": 3107,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 98,
+      "split": true,
+      "required_saturation": 97,
+      "best": {
+        "phase": 0.1449965840118366,
+        "projective": 3015,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 100,
+      "split": false,
+      "required_saturation": 99,
+      "best": {
+        "phase": 0.0,
+        "projective": 3237,
+        "boundary": 3
+      }
+    },
+    {
+      "q": 100,
+      "split": true,
+      "required_saturation": 99,
+      "best": {
+        "phase": 0.1449965840118366,
+        "projective": 3143,
+        "boundary": 3
+      }
+    }
+  ],
+  "limitations": "Floating geometric census only; no impossibility proof; local singular phases may need symbolic treatment."
+}

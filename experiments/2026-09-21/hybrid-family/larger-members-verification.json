@@ -1,0 +1,29 @@
+[
+  {
+    "n": 321,
+    "triangles": 34132,
+    "simple": true,
+    "adjacency_count": 34132,
+    "direct_count": 34132,
+    "seconds": 313.313,
+    "path": "experiments\\2026-09-21\\hybrid-family\\n321.json"
+  },
+  {
+    "n": 322,
+    "triangles": 34292,
+    "simple": true,
+    "adjacency_count": 34292,
+    "direct_count": 34292,
+    "seconds": 411.032,
+    "path": "experiments\\2026-09-21\\hybrid-family\\n322.json"
+  },
+  {
+    "n": 641,
+    "triangles": 136532,
+    "simple": true,
+    "adjacency_count": 136532,
+    "direct_count": 136532,
+    "seconds": 4786.156,
+    "path": "experiments\\2026-09-21\\hybrid-family\\n641.json"
+  }
+]

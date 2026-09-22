@@ -1,0 +1,552 @@
+{
+  "source_commit": "e47c7cfd9661e54d29befb83118bf83d5f804028",
+  "source_commit_date": "2026-08-12T13:28:03Z",
+  "checked_utc": "2026-09-22",
+  "author": "Andrea Maiorana",
+  "license": "CC-BY-4.0",
+  "records": [
+    {
+      "n": 14,
+      "T": 54,
+      "h": 5,
+      "U": 4,
+      "D1": 4,
+      "D2": 0,
+      "multiple_points": 2,
+      "parallel_pairs": 0,
+      "triple_point_fans": [
+        {
+          "d1": 2,
+          "d2": 0
+        },
+        {
+          "d1": 2,
+          "d2": 0
+        }
+      ],
+      "general_core_weight": -18,
+      "solution": 1,
+      "source_sha256": "83fc26666d73cd39791018a72aba71caeac4a3f7efb27109ed2955b4540b2523",
+      "multiple_incidence": [
+        [
+          0,
+          4,
+          10
+        ],
+        [
+          0,
+          11,
+          12
+        ]
+      ]
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "h": 5,
+      "U": 4,
+      "D1": 4,
+      "D2": 0,
+      "multiple_points": 2,
+      "parallel_pairs": 0,
+      "triple_point_fans": [
+        {
+          "d1": 2,
+          "d2": 0
+        },
+        {
+          "d1": 2,
+          "d2": 0
+        }
+      ],
+      "general_core_weight": -18,
+      "solution": 2,
+      "source_sha256": "8d115478b7e1e5324cfb414eb58e261b139c3151f9de941aad6a4df4e0df9524",
+      "multiple_incidence": [
+        [
+          2,
+          4,
+          13
+        ],
+        [
+          2,
+          8,
+          11
+        ]
+      ]
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "h": 5,
+      "U": 4,
+      "D1": 4,
+      "D2": 0,
+      "multiple_points": 2,
+      "parallel_pairs": 0,
+      "triple_point_fans": [
+        {
+          "d1": 2,
+          "d2": 0
+        },
+        {
+          "d1": 2,
+          "d2": 0
+        }
+      ],
+      "general_core_weight": -18,
+      "solution": 3,
+      "source_sha256": "9212f62b1c72aee7ad874a95fad38575e57b12af331790f141a1a0f2eacc33b8",
+      "multiple_incidence": [
+        [
+          0,
+          8,
+          10
+        ],
+        [
+          6,
+          7,
+          8
+        ]
+      ]
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "h": 5,
+      "U": 4,
+      "D1": 4,
+      "D2": 0,
+      "multiple_points": 2,
+      "parallel_pairs": 0,
+      "triple_point_fans": [
+        {
+          "d1": 2,
+          "d2": 0
+        },
+        {
+          "d1": 2,
+          "d2": 0
+        }
+      ],
+      "general_core_weight": -18,
+      "solution": 4,
+      "source_sha256": "1bcea050d748df21085599ad6f73b657de828de708e78f92944600e04fd95eaf",
+      "multiple_incidence": [
+        [
+          1,
+          5,
+          8
+        ],
+        [
+          5,
+          6,
+          11
+        ]
+      ]
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "h": 5,
+      "U": 4,
+      "D1": 4,
+      "D2": 0,
+      "multiple_points": 2,
+      "parallel_pairs": 0,
+      "triple_point_fans": [
+        {
+          "d1": 2,
+          "d2": 0
+        },
+        {
+          "d1": 2,
+          "d2": 0
+        }
+      ],
+      "general_core_weight": -18,
+      "solution": 5,
+      "source_sha256": "2847851c337f13e4d196af1613c766b83ae241ae06de08078f09d92784430142",
+      "multiple_incidence": [
+        [
+          4,
+          10,
+          13
+        ],
+        [
+          8,
+          11,
+          13
+        ]
+      ]
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "h": 5,
+      "U": 4,
+      "D1": 4,
+      "D2": 0,
+      "multiple_points": 2,
+      "parallel_pairs": 0,
+      "triple_point_fans": [
+        {
+          "d1": 2,
+          "d2": 0
+        },
+        {
+          "d1": 2,
+          "d2": 0
+        }
+      ],
+      "general_core_weight": -18,
+      "solution": 6,
+      "source_sha256": "559f86578d5e77c3b673520174b38670121d1d624cd6e78c2743d0c740be5884",
+      "multiple_incidence": [
+        [
+          1,
+          5,
+          10
+        ],
+        [
+          3,
+          9,
+          10
+        ]
+      ]
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "h": 5,
+      "U": 4,
+      "D1": 4,
+      "D2": 0,
+      "multiple_points": 2,
+      "parallel_pairs": 0,
+      "triple_point_fans": [
+        {
+          "d1": 2,
+          "d2": 0
+        },
+        {
+          "d1": 2,
+          "d2": 0
+        }
+      ],
+      "general_core_weight": -18,
+      "solution": 7,
+      "source_sha256": "c1129adf88ff74932a93d90541bdad12a5ab99da4209489fc1e933e2dfaa94f9",
+      "multiple_incidence": [
+        [
+          0,
+          2,
+          8
+        ],
+        [
+          2,
+          5,
+          9
+        ]
+      ]
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "h": 5,
+      "U": 4,
+      "D1": 4,
+      "D2": 0,
+      "multiple_points": 2,
+      "parallel_pairs": 0,
+      "triple_point_fans": [
+        {
+          "d1": 2,
+          "d2": 0
+        },
+        {
+          "d1": 2,
+          "d2": 0
+        }
+      ],
+      "general_core_weight": -18,
+      "solution": 8,
+      "source_sha256": "3c29a2ab722757ceeaa9701f91c4b1a4560043194640f872050d1116fca6620d",
+      "multiple_incidence": [
+        [
+          2,
+          8,
+          11
+        ],
+        [
+          3,
+          4,
+          8
+        ]
+      ]
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "h": 5,
+      "U": 4,
+      "D1": 4,
+      "D2": 0,
+      "multiple_points": 2,
+      "parallel_pairs": 0,
+      "triple_point_fans": [
+        {
+          "d1": 2,
+          "d2": 0
+        },
+        {
+          "d1": 2,
+          "d2": 0
+        }
+      ],
+      "general_core_weight": -18,
+      "solution": 9,
+      "source_sha256": "9843d43b6da3d42543f263145b2c5423462cdda0a2afac311f6c95923ef19922",
+      "multiple_incidence": [
+        [
+          1,
+          3,
+          11
+        ],
+        [
+          1,
+          5,
+          8
+        ]
+      ]
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "h": 5,
+      "U": 4,
+      "D1": 4,
+      "D2": 0,
+      "multiple_points": 2,
+      "parallel_pairs": 0,
+      "triple_point_fans": [
+        {
+          "d1": 2,
+          "d2": 0
+        },
+        {
+          "d1": 2,
+          "d2": 0
+        }
+      ],
+      "general_core_weight": -18,
+      "solution": 10,
+      "source_sha256": "dc1996c6ee2fe6bbf9d249ef8083cf2ac48fdc564c4ed963d7b3699a8cf2c5de",
+      "multiple_incidence": [
+        [
+          2,
+          5,
+          8
+        ],
+        [
+          8,
+          9,
+          11
+        ]
+      ]
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "h": 9,
+      "U": 2,
+      "D1": 8,
+      "D2": 0,
+      "multiple_points": 4,
+      "parallel_pairs": 0,
+      "triple_point_fans": [
+        {
+          "d1": 2,
+          "d2": 0
+        },
+        {
+          "d1": 2,
+          "d2": 0
+        },
+        {
+          "d1": 2,
+          "d2": 0
+        },
+        {
+          "d1": 2,
+          "d2": 0
+        }
+      ],
+      "general_core_weight": -36,
+      "solution": 11,
+      "source_sha256": "2310ac2cc0d474d68956e89afec3ed65e164705aa9b8487777736e17d65d8a54",
+      "multiple_incidence": [
+        [
+          2,
+          5,
+          13
+        ],
+        [
+          2,
+          6,
+          7
+        ],
+        [
+          2,
+          9,
+          11
+        ],
+        [
+          3,
+          6,
+          12
+        ]
+      ]
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "h": 5,
+      "U": 4,
+      "D1": 4,
+      "D2": 0,
+      "multiple_points": 2,
+      "parallel_pairs": 0,
+      "triple_point_fans": [
+        {
+          "d1": 2,
+          "d2": 0
+        },
+        {
+          "d1": 2,
+          "d2": 0
+        }
+      ],
+      "general_core_weight": -18,
+      "solution": 12,
+      "source_sha256": "c31c601dd4586302f71075e9f1b302d825d0ecd0500ec6a45d2133f787862e38",
+      "multiple_incidence": [
+        [
+          1,
+          9,
+          12
+        ],
+        [
+          5,
+          8,
+          12
+        ]
+      ]
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "h": 5,
+      "U": 4,
+      "D1": 4,
+      "D2": 0,
+      "multiple_points": 2,
+      "parallel_pairs": 0,
+      "triple_point_fans": [
+        {
+          "d1": 2,
+          "d2": 0
+        },
+        {
+          "d1": 2,
+          "d2": 0
+        }
+      ],
+      "general_core_weight": -18,
+      "solution": 13,
+      "source_sha256": "6fe8d56686c50309d2e4354791086d7ad7973cc7471a6357f4d8c6757daa4962",
+      "multiple_incidence": [
+        [
+          0,
+          7,
+          12
+        ],
+        [
+          0,
+          11,
+          13
+        ]
+      ]
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "h": 5,
+      "U": 4,
+      "D1": 4,
+      "D2": 0,
+      "multiple_points": 2,
+      "parallel_pairs": 0,
+      "triple_point_fans": [
+        {
+          "d1": 2,
+          "d2": 0
+        },
+        {
+          "d1": 2,
+          "d2": 0
+        }
+      ],
+      "general_core_weight": -18,
+      "solution": 14,
+      "source_sha256": "d54843bb3bb36d00402bef7cd0ab32bee43ef79de05c7397c6702b8d385398ce",
+      "multiple_incidence": [
+        [
+          0,
+          8,
+          10
+        ],
+        [
+          3,
+          8,
+          11
+        ]
+      ]
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "h": 5,
+      "U": 4,
+      "D1": 4,
+      "D2": 0,
+      "multiple_points": 2,
+      "parallel_pairs": 0,
+      "triple_point_fans": [
+        {
+          "d1": 2,
+          "d2": 0
+        },
+        {
+          "d1": 2,
+          "d2": 0
+        }
+      ],
+      "general_core_weight": -18,
+      "solution": 15,
+      "source_sha256": "83c4cebf3f2e6baec3748390d55ca4a6e5be5b1017f0b69d3fa44a5aa85d1317",
+      "multiple_incidence": [
+        [
+          0,
+          7,
+          12
+        ],
+        [
+          2,
+          12,
+          13
+        ]
+      ]
+    }
+  ]
+}

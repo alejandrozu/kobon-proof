@@ -1,0 +1,39 @@
+ℹ [775/919] Replayed Kobon.Geometry
+info: Kobon/Geometry.lean:144:0: 'Kobon.validate_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Geometry.lean:145:0: 'Kobon.orientedEval_affine' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [856/919] Replayed Kobon.Euclidean
+info: Kobon/Euclidean.lean:147:0: 'Kobon.supporting_triangle_nondegenerate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Euclidean.lean:148:0: 'Kobon.same_halfplane_barycenter' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Euclidean.lean:149:0: 'Kobon.triangle_interior_uncut' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [857/919] Replayed Kobon.Simple
+info: Kobon/Simple.lean:49:0: 'Kobon.validate_simple_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [955/1058] Replayed Kobon.Exterior
+info: Kobon/Exterior.lean:207:0: 'Kobon.Exterior.extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Exterior.lean:208:0: 'Kobon.Exterior.safeHeight_beyond' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [981/1058] Replayed Kobon.Parametric
+info: Kobon/Parametric.lean:183:0: 'Kobon.Parametric.triangle_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Parametric.lean:184:0: 'Kobon.Parametric.simple_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1922/1930] Replayed Kobon.TangentBounds
+info: Kobon/TangentBounds.lean:95:0: 'Kobon.TangentBounds.tan_tenth_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/TangentBounds.lean:96:0: 'Kobon.TangentBounds.tan_two_fifths_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1923/1930] Replayed Kobon.SeedFamily
+info: Kobon/SeedFamily.lean:133:0: 'Kobon.SeedFamily.arbitrarily_small' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/SeedFamily.lean:134:0: 'Kobon.SeedFamily.simple_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1926/1930] Replayed Kobon.HybridBoundary
+info: Kobon/HybridBoundary.lean:164:0: 'Kobon.HybridBoundary.seed_exterior' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1927/1930] Replayed Kobon.BBLExtrema
+info: Kobon/BBLExtrema.lean:205:0: 'Kobon.BBLExtrema.extremal_visible' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BBLExtrema.lean:206:0: 'Kobon.BBLExtrema.extremal_preserved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BBLExtrema.lean:207:0: 'Kobon.BBLExtrema.visible_extremal_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1928/1930] Replayed Kobon.BBLTriangles
+info: Kobon/BBLTriangles.lean:128:0: 'Kobon.BBLTriangles.triangle_of_two_sides' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BBLTriangles.lean:194:0: 'Kobon.BBLTriangles.triangle_of_last_two_sides' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1929/1930] Replayed Kobon.BBLPersistence
+info: Kobon/BBLPersistence.lean:105:0: 'Kobon.BBLPersistence.visible_test_eventually' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BBLPersistence.lean:158:0: 'Kobon.BBLPersistence.visible_preserved_eventually' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BBLPersistence.lean:159:0: 'Kobon.BBLPersistence.triangle_test_eventually' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BBLPersistence.lean:213:0: 'Kobon.BBLPersistence.triangle_preserved_eventually' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1930/1930] Replayed Kobon.BBLVisibleRetention
+info: Kobon/BBLVisibleRetention.lean:77:0: 'Kobon.BBLVisibleRetention.zero_visible_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BBLVisibleRetention.lean:78:0: 'Kobon.BBLVisibleRetention.retain_all_but_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (1930 jobs).

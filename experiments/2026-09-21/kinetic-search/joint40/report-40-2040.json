@@ -1,0 +1,17 @@
+{
+  "n": 40,
+  "seed": 2040,
+  "input": "research\\finite-table\\classical-040.json",
+  "initial": 494,
+  "best": 494,
+  "seconds": 1200.5160000000033,
+  "rays": 2309,
+  "chambers": 24634918,
+  "arithmetic_failures": 470,
+  "tied_event_rebuilds": 5787,
+  "independent_sweep_checkpoints": 808,
+  "exact_improvements": 0,
+  "history": [],
+  "plateau_or_annealing_walks": 1650,
+  "limitations": "Bounded numerical proposals; no exhaustive optimality or priority claim"
+}

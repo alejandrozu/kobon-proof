@@ -1,0 +1,17 @@
+{
+  "n": 39,
+  "seed": 1730,
+  "input": "experiments\\2026-09-21\\construction-search\\exposed-cap-certificates\\n039.json",
+  "initial": 470,
+  "best": 470,
+  "seconds": 900.5630000000237,
+  "rays": 982,
+  "chambers": 9712359,
+  "arithmetic_failures": 196,
+  "tied_event_rebuilds": 12054,
+  "independent_sweep_checkpoints": 707,
+  "exact_improvements": 0,
+  "history": [],
+  "plateau_or_annealing_walks": 710,
+  "limitations": "Bounded numerical proposals; no exhaustive optimality or priority claim"
+}

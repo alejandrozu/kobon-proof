@@ -1,0 +1,11 @@
+{
+  "n": 39,
+  "local": false,
+  "seed": 3913,
+  "projective_float": 471,
+  "proposals": 1311200,
+  "accepted": 527592,
+  "restarts": 337,
+  "history": [],
+  "seconds": 1200.0780000000377
+}

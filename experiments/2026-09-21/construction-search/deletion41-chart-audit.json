@@ -1,0 +1,260 @@
+{
+  "source": "research\\finite-table\\classical-041.json",
+  "source_sha256": "11951746ecf08e761e9d33f5d77aa1e7aadeeebb5fe82c021093787fa47512a8",
+  "target_order": 40,
+  "target_triangles": 495,
+  "all_deletions_tested": 41,
+  "records": [
+    {
+      "removed": 0,
+      "affine": 494,
+      "projective": 494,
+      "result": "impossible by exact projective face count"
+    },
+    {
+      "removed": 1,
+      "affine": 494,
+      "projective": 496,
+      "result": "unsat",
+      "report": "experiments\\2026-09-21\\construction-search\\smt-delete41-line1-audit.json.report.json"
+    },
+    {
+      "removed": 2,
+      "affine": 494,
+      "projective": 494,
+      "result": "impossible by exact projective face count"
+    },
+    {
+      "removed": 3,
+      "affine": 494,
+      "projective": 494,
+      "result": "impossible by exact projective face count"
+    },
+    {
+      "removed": 4,
+      "affine": 494,
+      "projective": 495,
+      "result": "unsat",
+      "report": "experiments\\2026-09-21\\construction-search\\smt-delete41-line4-audit.json.report.json"
+    },
+    {
+      "removed": 5,
+      "affine": 494,
+      "projective": 494,
+      "result": "impossible by exact projective face count"
+    },
+    {
+      "removed": 6,
+      "affine": 494,
+      "projective": 494,
+      "result": "impossible by exact projective face count"
+    },
+    {
+      "removed": 7,
+      "affine": 494,
+      "projective": 494,
+      "result": "impossible by exact projective face count"
+    },
+    {
+      "removed": 8,
+      "affine": 494,
+      "projective": 494,
+      "result": "impossible by exact projective face count"
+    },
+    {
+      "removed": 9,
+      "affine": 494,
+      "projective": 494,
+      "result": "impossible by exact projective face count"
+    },
+    {
+      "removed": 10,
+      "affine": 494,
+      "projective": 494,
+      "result": "impossible by exact projective face count"
+    },
+    {
+      "removed": 11,
+      "affine": 494,
+      "projective": 494,
+      "result": "impossible by exact projective face count"
+    },
+    {
+      "removed": 12,
+      "affine": 494,
+      "projective": 494,
+      "result": "impossible by exact projective face count"
+    },
+    {
+      "removed": 13,
+      "affine": 494,
+      "projective": 494,
+      "result": "impossible by exact projective face count"
+    },
+    {
+      "removed": 14,
+      "affine": 494,
+      "projective": 494,
+      "result": "impossible by exact projective face count"
+    },
+    {
+      "removed": 15,
+      "affine": 494,
+      "projective": 494,
+      "result": "impossible by exact projective face count"
+    },
+    {
+      "removed": 16,
+      "affine": 494,
+      "projective": 494,
+      "result": "impossible by exact projective face count"
+    },
+    {
+      "removed": 17,
+      "affine": 494,
+      "projective": 494,
+      "result": "impossible by exact projective face count"
+    },
+    {
+      "removed": 18,
+      "affine": 494,
+      "projective": 494,
+      "result": "impossible by exact projective face count"
+    },
+    {
+      "removed": 19,
+      "affine": 494,
+      "projective": 494,
+      "result": "impossible by exact projective face count"
+    },
+    {
+      "removed": 20,
+      "affine": 494,
+      "projective": 494,
+      "result": "impossible by exact projective face count"
+    },
+    {
+      "removed": 21,
+      "affine": 494,
+      "projective": 494,
+      "result": "impossible by exact projective face count"
+    },
+    {
+      "removed": 22,
+      "affine": 494,
+      "projective": 494,
+      "result": "impossible by exact projective face count"
+    },
+    {
+      "removed": 23,
+      "affine": 494,
+      "projective": 494,
+      "result": "impossible by exact projective face count"
+    },
+    {
+      "removed": 24,
+      "affine": 494,
+      "projective": 494,
+      "result": "impossible by exact projective face count"
+    },
+    {
+      "removed": 25,
+      "affine": 494,
+      "projective": 494,
+      "result": "impossible by exact projective face count"
+    },
+    {
+      "removed": 26,
+      "affine": 494,
+      "projective": 494,
+      "result": "impossible by exact projective face count"
+    },
+    {
+      "removed": 27,
+      "affine": 494,
+      "projective": 494,
+      "result": "impossible by exact projective face count"
+    },
+    {
+      "removed": 28,
+      "affine": 494,
+      "projective": 494,
+      "result": "impossible by exact projective face count"
+    },
+    {
+      "removed": 29,
+      "affine": 494,
+      "projective": 494,
+      "result": "impossible by exact projective face count"
+    },
+    {
+      "removed": 30,
+      "affine": 494,
+      "projective": 494,
+      "result": "impossible by exact projective face count"
+    },
+    {
+      "removed": 31,
+      "affine": 494,
+      "projective": 494,
+      "result": "impossible by exact projective face count"
+    },
+    {
+      "removed": 32,
+      "affine": 494,
+      "projective": 494,
+      "result": "impossible by exact projective face count"
+    },
+    {
+      "removed": 33,
+      "affine": 494,
+      "projective": 494,
+      "result": "impossible by exact projective face count"
+    },
+    {
+      "removed": 34,
+      "affine": 494,
+      "projective": 494,
+      "result": "impossible by exact projective face count"
+    },
+    {
+      "removed": 35,
+      "affine": 494,
+      "projective": 494,
+      "result": "impossible by exact projective face count"
+    },
+    {
+      "removed": 36,
+      "affine": 494,
+      "projective": 495,
+      "result": "unsat",
+      "report": "experiments\\2026-09-21\\construction-search\\smt-delete41-line36-audit.json.report.json"
+    },
+    {
+      "removed": 37,
+      "affine": 494,
+      "projective": 494,
+      "result": "impossible by exact projective face count"
+    },
+    {
+      "removed": 38,
+      "affine": 494,
+      "projective": 494,
+      "result": "impossible by exact projective face count"
+    },
+    {
+      "removed": 39,
+      "affine": 494,
+      "projective": 496,
+      "result": "unsat",
+      "report": "experiments\\2026-09-21\\construction-search\\smt-delete41-line39-audit.json.report.json"
+    },
+    {
+      "removed": 40,
+      "affine": 494,
+      "projective": 494,
+      "result": "impossible by exact projective face count"
+    }
+  ],
+  "scope": "Exact projective census plus QF_LRA solver evidence; not a Lean theorem."
+}

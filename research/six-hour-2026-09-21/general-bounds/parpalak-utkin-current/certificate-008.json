@@ -1,0 +1,145 @@
+{
+  "version": 1,
+  "source": "gallery/data/8/8-1yvz24guzamh9.json",
+  "source_sha256": "eac25915b15f31afc14856e36e3e92f1f2c6a64ae507cb984a141aaffc6034a3",
+  "gens": "0 2 4 6 5 4 3 2 1 0 2 4 3 6 4* 2* 1 2 3 6 5 4 3 5",
+  "n": 8,
+  "triangle_count": 15,
+  "line_equation": "a*x + b*y = c",
+  "lines_frac": [
+    [
+      "0",
+      "-1",
+      "9805/13478"
+    ],
+    [
+      "-1/2",
+      "-1",
+      "27/2"
+    ],
+    [
+      "-3/2",
+      "-1",
+      "-76090/6739"
+    ],
+    [
+      "-7/2",
+      "-1",
+      "-20433/6739"
+    ],
+    [
+      "17/2",
+      "-1",
+      "277/2"
+    ],
+    [
+      "2",
+      "-1",
+      "153053/13478"
+    ],
+    [
+      "1",
+      "-1",
+      "117795/13478"
+    ],
+    [
+      "1/2",
+      "-1",
+      "-11/2"
+    ]
+  ],
+  "declared_triple_points": [
+    [
+      0,
+      2,
+      6
+    ],
+    [
+      3,
+      5,
+      6
+    ]
+  ],
+  "declared_parallel_pairs": [],
+  "triangles": [
+    [
+      0,
+      1,
+      7
+    ],
+    [
+      0,
+      2,
+      4
+    ],
+    [
+      0,
+      2,
+      5
+    ],
+    [
+      0,
+      3,
+      5
+    ],
+    [
+      0,
+      3,
+      7
+    ],
+    [
+      0,
+      4,
+      6
+    ],
+    [
+      0,
+      5,
+      6
+    ],
+    [
+      1,
+      2,
+      4
+    ],
+    [
+      1,
+      3,
+      4
+    ],
+    [
+      1,
+      3,
+      5
+    ],
+    [
+      1,
+      5,
+      6
+    ],
+    [
+      2,
+      3,
+      7
+    ],
+    [
+      2,
+      5,
+      7
+    ],
+    [
+      4,
+      5,
+      7
+    ],
+    [
+      4,
+      6,
+      7
+    ]
+  ],
+  "attribution": "Published gallery of Roman Parpalak and Denis Utkin; original discovery attribution as recorded by OEIS and gallery",
+  "upstream_commit": "feae4f5571a988a3ed45bd26a36259ebb7d7d3d2",
+  "upstream_url": "https://github.com/ud1/kobon-solutions/blob/feae4f5571a988a3ed45bd26a36259ebb7d7d3d2/gallery/certificates/8/8-1yvz24guzamh9.json",
+  "independent_verification_utc": "2026-09-22"
+}

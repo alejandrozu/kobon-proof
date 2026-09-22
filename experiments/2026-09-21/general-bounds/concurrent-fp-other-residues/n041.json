@@ -1,0 +1,16 @@
+{
+  "n": 41,
+  "initial_affine": 520,
+  "projective_triangles": 524,
+  "best_float": 520,
+  "chart": [
+    0.0,
+    0.0,
+    1.0
+  ],
+  "minimum_order_gap": 0.011719576219651362,
+  "proposals": 179400,
+  "history": [],
+  "seconds": 2.6880000000237487,
+  "status": "floating proposal, exact modular concurrency grouping; not a proof"
+}

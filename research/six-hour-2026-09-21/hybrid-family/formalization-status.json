@@ -1,0 +1,166 @@
+{
+  "snapshot_utc": "2026-09-22 07:03",
+  "modules": [
+    {
+      "module": "Kobon.HybridBoundary",
+      "source": "Kobon\\HybridBoundary.lean",
+      "sha256": "ba41f0f9c5570c12c6a677049e6225dd2e01c07ba7d984b742f2d88983290554",
+      "compiled": true,
+      "proof_trust": "standard Lean axioms; no sorry"
+    },
+    {
+      "module": "Kobon.BBLExtrema",
+      "source": "Kobon\\BBLExtrema.lean",
+      "sha256": "28b88c1dc32194c3d73b06e5db1c43a4e2a575912ce1a900e40e8922a0689069",
+      "compiled": true,
+      "proof_trust": "standard Lean axioms; no sorry"
+    },
+    {
+      "module": "Kobon.BBLTangentBounds",
+      "source": "Kobon\\BBLTangentBounds.lean",
+      "sha256": "a71b44a6ae2dc97f9fc97203e0b27cb91f3a58c6763817b03a9ab41c01bb3a9c",
+      "compiled": true,
+      "proof_trust": "standard Lean axioms; no sorry"
+    },
+    {
+      "module": "Kobon.BBLSeed21",
+      "source": "Kobon\\BBLSeed21.lean",
+      "sha256": "20f61d26831a5386d804513062536342c06d5e16c569121f68bca9e73ebfa5e2",
+      "compiled": true,
+      "proof_trust": "native_decide finite box checks"
+    },
+    {
+      "module": "Kobon.BBLMaximization",
+      "source": "Kobon\\BBLMaximization.lean",
+      "sha256": "160ea077d1adec8de4e26f955c852926199067c68b3e07c032aacc2e739f5492",
+      "compiled": true,
+      "proof_trust": "standard Lean axioms; no sorry"
+    },
+    {
+      "module": "Kobon.BBLAnalytic",
+      "source": "Kobon\\BBLAnalytic.lean",
+      "sha256": "b9a8b9fb59910ae72d03315f4e0c5f2f26ac44c6e43e08055173cb6b5415b352",
+      "compiled": true,
+      "proof_trust": "standard Lean axioms; no sorry"
+    },
+    {
+      "module": "Kobon.BBLTriangles",
+      "source": "Kobon\\BBLTriangles.lean",
+      "sha256": "32dbfccb88b75542e01fdbf59a31b70c46cd8bb804255cf34a0e3d5c1ad5d3b5",
+      "compiled": true,
+      "proof_trust": "standard Lean axioms; no sorry"
+    },
+    {
+      "module": "Kobon.BBLRowOrder",
+      "source": "Kobon\\BBLRowOrder.lean",
+      "sha256": "ff35612bc7193d214da8b39c16e0cbca9e39b05dcde1b0569ce1cab9be51ee94",
+      "compiled": true,
+      "proof_trust": "standard Lean axioms; no sorry"
+    },
+    {
+      "module": "Kobon.BBLIntersection",
+      "source": "Kobon\\BBLIntersection.lean",
+      "sha256": "d886d967e5e23b0d50d1c6e4a9f75e02b51e1f2c605487038bbe8a259acd8e15",
+      "compiled": true,
+      "proof_trust": "standard Lean axioms; no sorry"
+    },
+    {
+      "module": "Kobon.BBLPersistence",
+      "source": "Kobon\\BBLPersistence.lean",
+      "sha256": "4b2f17d9f55daa32b4ad94bad3ff0b3ac8ad9f9687b0e0753766fbe4ed09ffcd",
+      "compiled": true,
+      "proof_trust": "standard Lean axioms; no sorry"
+    },
+    {
+      "module": "Kobon.BBLCentral",
+      "source": "Kobon\\BBLCentral.lean",
+      "sha256": "45af8ad0503b3aa1f9646f5e3164958739a064f50c0e5028d2b22298a97eb0b5",
+      "compiled": true,
+      "proof_trust": "standard Lean axioms; no sorry"
+    },
+    {
+      "module": "Kobon.BBLGrid",
+      "source": "Kobon\\BBLGrid.lean",
+      "sha256": "7aeac68c9b58dd7dc8b109e71447e5f61a6a3309159e3f78bbbeb1928014ac67",
+      "compiled": true,
+      "proof_trust": "standard Lean axioms; no sorry"
+    },
+    {
+      "module": "Kobon.BBLProfiles",
+      "source": "Kobon\\BBLProfiles.lean",
+      "sha256": "041cae049569dc6c199e6902c13fc17291d0c44f8d58db1be5190318ad1f2a71",
+      "compiled": true,
+      "proof_trust": "standard Lean axioms; no sorry"
+    },
+    {
+      "module": "Kobon.BBLGridCuts",
+      "source": "Kobon\\BBLGridCuts.lean",
+      "sha256": "3464ec510f2da80b45324eabb971b8de76c508925a89836c9690a4322e176859",
+      "compiled": true,
+      "proof_trust": "standard Lean axioms; no sorry"
+    },
+    {
+      "module": "Kobon.BBLPencilLimits",
+      "source": "Kobon\\BBLPencilLimits.lean",
+      "sha256": "8210e908a4036b5def9077039049a595ba01f7d4e2607cba2f19238acc15ab47",
+      "compiled": true,
+      "proof_trust": "standard Lean axioms; no sorry"
+    },
+    {
+      "module": "Kobon.BBLPencilProfiles",
+      "source": "Kobon\\BBLPencilProfiles.lean",
+      "sha256": "47bd74b0f35091a78151fe155f5908592f9b6ae885fa4ca19c03331a6d709849",
+      "compiled": true,
+      "proof_trust": "standard Lean axioms; no sorry"
+    },
+    {
+      "module": "Kobon.BBLPencilRegularity",
+      "source": "Kobon\\BBLPencilRegularity.lean",
+      "sha256": "6ec22cf704fb26e4fd7511d1dd1c6515aa43686becf44278ff9b0452e49091da",
+      "compiled": true,
+      "proof_trust": "standard Lean axioms; no sorry"
+    },
+    {
+      "module": "Kobon.BBLCrossingCoordinates",
+      "source": "Kobon\\BBLCrossingCoordinates.lean",
+      "sha256": "0b9c09d32cdb57bd0119a297f05c3c866e8103292394ae90ec668d967ba1e33e",
+      "compiled": true,
+      "proof_trust": "standard Lean axioms; no sorry"
+    },
+    {
+      "module": "Kobon.BBLRealization",
+      "source": "Kobon\\BBLRealization.lean",
+      "sha256": "acb0ba7b3d834ae38f6b6a9de301435ee66ac2329ecd5d6f7f4765c9df2a831f",
+      "compiled": true,
+      "proof_trust": "standard Lean axioms; no sorry"
+    },
+    {
+      "module": "Kobon.BBLRealizedPencil",
+      "source": "Kobon\\BBLRealizedPencil.lean",
+      "sha256": "f6265741b7f4543d474049a6a232bf78c1a6c69fa460ec1a6871e0c7a8af395b",
+      "compiled": true,
+      "proof_trust": "standard Lean axioms; no sorry"
+    },
+    {
+      "module": "Kobon.BBLCanonicalPencil",
+      "source": "Kobon\\BBLCanonicalPencil.lean",
+      "sha256": "12d0b6b81eb9f142c8b730819bafb90ca9ccb9421f8042fbb4b13975717076af",
+      "compiled": true,
+      "proof_trust": "standard Lean axioms; no sorry"
+    },
+    {
+      "module": "Kobon.BBLNextSaturation",
+      "source": "Kobon\\BBLNextSaturation.lean",
+      "sha256": "85cc1cd552199b4af49244fe2cfab437a43cb71a4735464ec9e80d7bdcbd5bcb",
+      "compiled": true,
+      "proof_trust": "standard Lean axioms; no sorry"
+    }
+  ],
+  "strongest_completed": "Root BBLDoubling.doubling: an actual simple saturated tangent-grid seed with q=4r>=20, central apex aboveY0 andT triangles gives a simple real2q+1-line arrangement with at leastT+q^2 triangles. Crossing order and old/cap retention are proved, not assumed.",
+  "remaining": [
+    "Transport the entire triangle witness list and graph data under the next-grid permutation.",
+    "Iterate with explicit epsilon quantifiers and preservation of the central orientation.",
+    "The extra even-family visibility invariant is not yet a complete Lean theorem."
+  ],
+  "additional_completed": "BBLNextSaturation.next_saturated: all next-grid distinguished gaps are genuine triangles, in canonical support labels, from actual crossing order and the retained central triangle."
+}

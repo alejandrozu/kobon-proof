@@ -1,0 +1,15 @@
+{
+  "n": 39,
+  "source": "experiments/2026-09-21/construction-search/cusp-half/fp-039-phase-1-2.json",
+  "initial": 470,
+  "best": 470,
+  "projective_triangles": 471,
+  "vertices": 741,
+  "proposals": 0,
+  "exact_candidates": 0,
+  "false_positives": 0,
+  "seconds": 1.1719880104064941,
+  "seed": 221,
+  "improvements": [],
+  "limitations": "Floating candidate ranking is heuristic; no exhaustive optimality claim."
+}

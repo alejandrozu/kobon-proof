@@ -1,0 +1,90 @@
+ℹ [1916/2052] Replayed Kobon.TangentBounds
+info: Kobon/TangentBounds.lean:95:0: 'Kobon.TangentBounds.tan_tenth_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/TangentBounds.lean:96:0: 'Kobon.TangentBounds.tan_two_fifths_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [1980/2052] Replayed Kobon.BBLTangentBounds
+warning: Kobon/BBLTangentBounds.lean:11:47: Variable name `hL` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Kobon/BBLTangentBounds.lean:11:58: Variable name `hU` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: Kobon/BBLTangentBounds.lean:160:0: 'Kobon.BBLTangentBounds.tan_1_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BBLTangentBounds.lean:161:0: 'Kobon.BBLTangentBounds.tan_9_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1981/2052] Replayed Kobon.BBLMaximization
+info: Kobon/BBLMaximization.lean:101:0: 'Kobon.BBLMaximization.sine_grid_separation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BBLMaximization.lean:102:0: 'Kobon.BBLMaximization.stable_maximum' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1982/2052] Replayed Kobon.Geometry
+info: Kobon/Geometry.lean:144:0: 'Kobon.validate_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Geometry.lean:145:0: 'Kobon.orientedEval_affine' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1983/2052] Replayed Kobon.Euclidean
+info: Kobon/Euclidean.lean:147:0: 'Kobon.supporting_triangle_nondegenerate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Euclidean.lean:148:0: 'Kobon.same_halfplane_barycenter' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Euclidean.lean:149:0: 'Kobon.triangle_interior_uncut' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1984/2052] Replayed Kobon.Simple
+info: Kobon/Simple.lean:49:0: 'Kobon.validate_simple_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1985/2052] Replayed Kobon.Exterior
+info: Kobon/Exterior.lean:207:0: 'Kobon.Exterior.extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Exterior.lean:208:0: 'Kobon.Exterior.safeHeight_beyond' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1986/2052] Replayed Kobon.Parametric
+info: Kobon/Parametric.lean:183:0: 'Kobon.Parametric.triangle_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Parametric.lean:184:0: 'Kobon.Parametric.simple_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1987/2052] Replayed Kobon.SeedFamily
+info: Kobon/SeedFamily.lean:133:0: 'Kobon.SeedFamily.arbitrarily_small' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/SeedFamily.lean:134:0: 'Kobon.SeedFamily.simple_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1990/2052] Replayed Kobon.HybridBoundary
+info: Kobon/HybridBoundary.lean:164:0: 'Kobon.HybridBoundary.seed_exterior' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1991/2052] Replayed Kobon.BBLExtrema
+info: Kobon/BBLExtrema.lean:205:0: 'Kobon.BBLExtrema.extremal_visible' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BBLExtrema.lean:206:0: 'Kobon.BBLExtrema.extremal_preserved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BBLExtrema.lean:207:0: 'Kobon.BBLExtrema.visible_extremal_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [2192/2197] Replayed Kobon.BBLIntersection
+warning: Kobon/BBLIntersection.lean:23:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Kobon/BBLIntersection.lean:30:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Kobon/BBLIntersection.lean:52:6: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Kobon/BBLIntersection.lean:52:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Kobon/BBLIntersection.lean:71:8: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Kobon/BBLIntersection.lean:75:6: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Kobon/BBLIntersection.lean:71:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Kobon/BBLIntersection.lean:75:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Kobon/BBLIntersection.lean:84:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: Kobon/BBLIntersection.lean:102:0: 'Kobon.BBLIntersection.pencil_crossing_x' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BBLIntersection.lean:103:0: 'Kobon.BBLIntersection.crossing_displacement' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [2196/2197] Replayed Kobon.BBLAnalytic
+warning: Kobon/BBLAnalytic.lean:106:100: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: Kobon/BBLAnalytic.lean:113:0: 'Kobon.BBLAnalytic.beta_cot_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BBLAnalytic.lean:114:0: 'Kobon.BBLAnalytic.beta_tan_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [2197/2197] Built Kobon.BBLCentral (11s)
+warning: Kobon/BBLCentral.lean:30:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Kobon/BBLCentral.lean:117:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: Kobon/BBLCentral.lean:154:0: 'Kobon.BBLCentral.perturbed_strict_maximum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BBLCentral.lean:155:0: 'Kobon.BBLCentral.corrected_strict_maximum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BBLCentral.lean:156:0: 'Kobon.BBLCentral.eventual_rightmost_central_maximum' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (2197 jobs).

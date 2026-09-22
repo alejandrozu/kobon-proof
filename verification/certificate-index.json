@@ -655,7 +655,9 @@
     "theorem": "Kobon.Certificates.N046T00667H32b8ca2f.lower_bound",
     "sources": [
       "research/finite-table/classical-046.json",
-      "research/finite-table/simple-046.json"
+      "research/finite-table/simple-046.json",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-046.json",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-046.json"
     ],
     "lean_source": "Kobon/Certificates/N046T00667H32b8ca2f.lean",
     "simple_theorem": "Kobon.Certificates.N046T00667H32b8ca2f.simple_lower_bound",
@@ -1250,5 +1252,696 @@
     "lean_source": "Kobon/Certificates/N099T03168Ha0ea3082.lean",
     "simple_theorem": "Kobon.Certificates.N099T03168Ha0ea3082.simple_lower_bound",
     "simple_module": "Kobon.SimpleCertificates.N099T03168Ha0ea3082"
+  },
+  {
+    "n": 39,
+    "triangles": 470,
+    "simple": true,
+    "coordinate_sha256": "30caa6f7f89472aa42a878ce56ab30d626e378aa3232224197fe7abd75b5a224",
+    "module": "Kobon.Certificates.N039T00470H30caa6f7",
+    "theorem": "Kobon.Certificates.N039T00470H30caa6f7.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n039.json"
+    ],
+    "lean_source": "Kobon/Certificates/N039T00470H30caa6f7.lean",
+    "simple_theorem": "Kobon.Certificates.N039T00470H30caa6f7.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N039T00470H30caa6f7"
+  },
+  {
+    "n": 47,
+    "triangles": 691,
+    "simple": true,
+    "coordinate_sha256": "fac44af18c558b7a18e997b3b31559b1949287af88c3d4d10f24bf9990f1f7e2",
+    "module": "Kobon.Certificates.N047T00691Hfac44af1",
+    "theorem": "Kobon.Certificates.N047T00691Hfac44af1.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n047.json"
+    ],
+    "lean_source": "Kobon/Certificates/N047T00691Hfac44af1.lean",
+    "simple_theorem": "Kobon.Certificates.N047T00691Hfac44af1.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N047T00691Hfac44af1"
+  },
+  {
+    "n": 48,
+    "triangles": 721,
+    "simple": true,
+    "coordinate_sha256": "2fb5ef0df4cf6a939d3aff5ab6bda9c069d2edc34bc4c2b4e8e8656fde68a110",
+    "module": "Kobon.Certificates.N048T00721H2fb5ef0d",
+    "theorem": "Kobon.Certificates.N048T00721H2fb5ef0d.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n048.json"
+    ],
+    "lean_source": "Kobon/Certificates/N048T00721H2fb5ef0d.lean",
+    "simple_theorem": "Kobon.Certificates.N048T00721H2fb5ef0d.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N048T00721H2fb5ef0d"
+  },
+  {
+    "n": 51,
+    "triangles": 818,
+    "simple": true,
+    "coordinate_sha256": "c18e1baf25f509000b8973cf8f2320ab8d20b3b498238a59d1e0f213e7e3b435",
+    "module": "Kobon.Certificates.N051T00818Hc18e1baf",
+    "theorem": "Kobon.Certificates.N051T00818Hc18e1baf.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n051.json"
+    ],
+    "lean_source": "Kobon/Certificates/N051T00818Hc18e1baf.lean",
+    "simple_theorem": "Kobon.Certificates.N051T00818Hc18e1baf.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N051T00818Hc18e1baf"
+  },
+  {
+    "n": 53,
+    "triangles": 885,
+    "simple": true,
+    "coordinate_sha256": "6bc5b14d0b68627ca16e68369dbe792fb437272827bdaecf85a986a2da516923",
+    "module": "Kobon.Certificates.N053T00885H6bc5b14d",
+    "theorem": "Kobon.Certificates.N053T00885H6bc5b14d.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n053.json"
+    ],
+    "lean_source": "Kobon/Certificates/N053T00885H6bc5b14d.lean",
+    "simple_theorem": "Kobon.Certificates.N053T00885H6bc5b14d.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N053T00885H6bc5b14d"
+  },
+  {
+    "n": 54,
+    "triangles": 919,
+    "simple": true,
+    "coordinate_sha256": "a254c1b4f05b17a1235e978bdc2741f494a9b39749c4ddc3192301179251d9dc",
+    "module": "Kobon.Certificates.N054T00919Ha254c1b4",
+    "theorem": "Kobon.Certificates.N054T00919Ha254c1b4.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n054.json"
+    ],
+    "lean_source": "Kobon/Certificates/N054T00919Ha254c1b4.lean",
+    "simple_theorem": "Kobon.Certificates.N054T00919Ha254c1b4.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N054T00919Ha254c1b4"
+  },
+  {
+    "n": 55,
+    "triangles": 955,
+    "simple": true,
+    "coordinate_sha256": "202625a3908524c7863bd7cd51e9647c0d25a1df93cd3de307356e71a55245cb",
+    "module": "Kobon.Certificates.N055T00955H202625a3",
+    "theorem": "Kobon.Certificates.N055T00955H202625a3.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n055.json"
+    ],
+    "lean_source": "Kobon/Certificates/N055T00955H202625a3.lean",
+    "simple_theorem": "Kobon.Certificates.N055T00955H202625a3.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N055T00955H202625a3"
+  },
+  {
+    "n": 59,
+    "triangles": 1103,
+    "simple": true,
+    "coordinate_sha256": "ba482375103b9e1416b643f64923a3bfb0a6f780d2962f0383720229818b1df8",
+    "module": "Kobon.Certificates.N059T01103Hba482375",
+    "theorem": "Kobon.Certificates.N059T01103Hba482375.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n059.json"
+    ],
+    "lean_source": "Kobon/Certificates/N059T01103Hba482375.lean",
+    "simple_theorem": "Kobon.Certificates.N059T01103Hba482375.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N059T01103Hba482375"
+  },
+  {
+    "n": 60,
+    "triangles": 1141,
+    "simple": true,
+    "coordinate_sha256": "9bc5096cc3fd10a05f1f41ba4765cfe362efba9f992624c4ce9b18a9578b5074",
+    "module": "Kobon.Certificates.N060T01141H9bc5096c",
+    "theorem": "Kobon.Certificates.N060T01141H9bc5096c.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n060.json"
+    ],
+    "lean_source": "Kobon/Certificates/N060T01141H9bc5096c.lean",
+    "simple_theorem": "Kobon.Certificates.N060T01141H9bc5096c.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N060T01141H9bc5096c"
+  },
+  {
+    "n": 65,
+    "triangles": 1365,
+    "simple": true,
+    "coordinate_sha256": "b1dcbeb4ff39eb3b5d1ea245470a279aef0f254f522216e9a14329684b154596",
+    "module": "Kobon.Certificates.N065T01365Hb1dcbeb4",
+    "theorem": "Kobon.Certificates.N065T01365Hb1dcbeb4.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n065.json"
+    ],
+    "lean_source": "Kobon/Certificates/N065T01365Hb1dcbeb4.lean",
+    "simple_theorem": "Kobon.Certificates.N065T01365Hb1dcbeb4.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N065T01365Hb1dcbeb4"
+  },
+  {
+    "n": 66,
+    "triangles": 1397,
+    "simple": true,
+    "coordinate_sha256": "327ecbb9b7bafefe3a1ea2c5a6a8219e48932e2edb09a2c79a8c131bb918401e",
+    "module": "Kobon.Certificates.N066T01397H327ecbb9",
+    "theorem": "Kobon.Certificates.N066T01397H327ecbb9.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n066.json"
+    ],
+    "lean_source": "Kobon/Certificates/N066T01397H327ecbb9.lean",
+    "simple_theorem": "Kobon.Certificates.N066T01397H327ecbb9.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N066T01397H327ecbb9"
+  },
+  {
+    "n": 99,
+    "triangles": 3170,
+    "simple": true,
+    "coordinate_sha256": "ea507e2de1372dd8eb56071a3b642b02f9423e04957755d95efe00815fb368ba",
+    "module": "Kobon.Certificates.N099T03170Hea507e2d",
+    "theorem": "Kobon.Certificates.N099T03170Hea507e2d.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n099.json"
+    ],
+    "lean_source": "Kobon/Certificates/N099T03170Hea507e2d.lean",
+    "simple_theorem": "Kobon.Certificates.N099T03170Hea507e2d.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N099T03170Hea507e2d"
+  },
+  {
+    "n": 129,
+    "triangles": 5461,
+    "simple": true,
+    "coordinate_sha256": "6dae0012aa49d5cf8d27b9982a3a0830101cd8736c97b9d71bb93950c077595c",
+    "module": "Kobon.Certificates.N129T05461H6dae0012",
+    "theorem": "Kobon.Certificates.N129T05461H6dae0012.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n129.json"
+    ],
+    "lean_source": "Kobon/Certificates/N129T05461H6dae0012.lean",
+    "simple_theorem": "Kobon.Certificates.N129T05461H6dae0012.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N129T05461H6dae0012"
+  },
+  {
+    "n": 130,
+    "triangles": 5525,
+    "simple": true,
+    "coordinate_sha256": "e0559b54aee5366e0f2e081f7185e1b2269fc2912c9894902f06825edfcbad56",
+    "module": "Kobon.Certificates.N130T05525He0559b54",
+    "theorem": "Kobon.Certificates.N130T05525He0559b54.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n130.json"
+    ],
+    "lean_source": "Kobon/Certificates/N130T05525He0559b54.lean",
+    "simple_theorem": "Kobon.Certificates.N130T05525He0559b54.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N130T05525He0559b54"
+  },
+  {
+    "n": 195,
+    "triangles": 12482,
+    "simple": true,
+    "coordinate_sha256": "5413dd7b60ee64bf0c310f7ab001ed46b923c1521248e857a6dbe379b7582af3",
+    "module": "Kobon.Certificates.N195T12482H5413dd7b",
+    "theorem": "Kobon.Certificates.N195T12482H5413dd7b.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n195.json"
+    ],
+    "lean_source": "Kobon/Certificates/N195T12482H5413dd7b.lean",
+    "simple_theorem": "Kobon.Certificates.N195T12482H5413dd7b.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N195T12482H5413dd7b"
+  },
+  {
+    "n": 14,
+    "triangles": 54,
+    "simple": false,
+    "coordinate_sha256": "d47aea63afc1398523319993bfd98d4472bae73779251d52cbeb12d47edd3a2b",
+    "module": "Kobon.Certificates.N014T00054Hd47aea63",
+    "theorem": "Kobon.Certificates.N014T00054Hd47aea63.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-01.json"
+    ],
+    "lean_source": "Kobon/Certificates/N014T00054Hd47aea63.lean"
+  },
+  {
+    "n": 14,
+    "triangles": 54,
+    "simple": false,
+    "coordinate_sha256": "18bbcff4f43351df8803c60d231011d448c9d8c673ce458706c77adced02c9a6",
+    "module": "Kobon.Certificates.N014T00054H18bbcff4",
+    "theorem": "Kobon.Certificates.N014T00054H18bbcff4.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-02.json"
+    ],
+    "lean_source": "Kobon/Certificates/N014T00054H18bbcff4.lean"
+  },
+  {
+    "n": 14,
+    "triangles": 54,
+    "simple": false,
+    "coordinate_sha256": "78f750c071a5610ec9fb463d8fc95b58e5bde8e0c8af3fbbd965e06663d011b0",
+    "module": "Kobon.Certificates.N014T00054H78f750c0",
+    "theorem": "Kobon.Certificates.N014T00054H78f750c0.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-03.json"
+    ],
+    "lean_source": "Kobon/Certificates/N014T00054H78f750c0.lean"
+  },
+  {
+    "n": 14,
+    "triangles": 54,
+    "simple": false,
+    "coordinate_sha256": "912da8ec9bc76efd4728584194b9cb0ec38637408c40ee5d42ceff3426b57450",
+    "module": "Kobon.Certificates.N014T00054H912da8ec",
+    "theorem": "Kobon.Certificates.N014T00054H912da8ec.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-04.json"
+    ],
+    "lean_source": "Kobon/Certificates/N014T00054H912da8ec.lean"
+  },
+  {
+    "n": 14,
+    "triangles": 54,
+    "simple": false,
+    "coordinate_sha256": "9134999072a9cae047e8be5ec8c9ffb9df63a0458cd12b3c70ff085babeec94f",
+    "module": "Kobon.Certificates.N014T00054H91349990",
+    "theorem": "Kobon.Certificates.N014T00054H91349990.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-05.json"
+    ],
+    "lean_source": "Kobon/Certificates/N014T00054H91349990.lean"
+  },
+  {
+    "n": 14,
+    "triangles": 54,
+    "simple": false,
+    "coordinate_sha256": "9c871e103a465b86969cc2bc46384229cab69a813f816582d7d4c055a4839f03",
+    "module": "Kobon.Certificates.N014T00054H9c871e10",
+    "theorem": "Kobon.Certificates.N014T00054H9c871e10.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-06.json"
+    ],
+    "lean_source": "Kobon/Certificates/N014T00054H9c871e10.lean"
+  },
+  {
+    "n": 14,
+    "triangles": 54,
+    "simple": false,
+    "coordinate_sha256": "b3dcae0bc1d84132845644579de36c30439fe5ef3a4c00aedcb68a9110c34675",
+    "module": "Kobon.Certificates.N014T00054Hb3dcae0b",
+    "theorem": "Kobon.Certificates.N014T00054Hb3dcae0b.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-07.json"
+    ],
+    "lean_source": "Kobon/Certificates/N014T00054Hb3dcae0b.lean"
+  },
+  {
+    "n": 14,
+    "triangles": 54,
+    "simple": false,
+    "coordinate_sha256": "9219cdaa6f90ac3b066eafc8a48216bebab05a47a10db96745d477a58e031e86",
+    "module": "Kobon.Certificates.N014T00054H9219cdaa",
+    "theorem": "Kobon.Certificates.N014T00054H9219cdaa.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-08.json"
+    ],
+    "lean_source": "Kobon/Certificates/N014T00054H9219cdaa.lean"
+  },
+  {
+    "n": 14,
+    "triangles": 54,
+    "simple": false,
+    "coordinate_sha256": "d2babc1b9431b2fb6106b61fbdffc0d6f19b528d4bb48ed9ca5f115a7af6f7fc",
+    "module": "Kobon.Certificates.N014T00054Hd2babc1b",
+    "theorem": "Kobon.Certificates.N014T00054Hd2babc1b.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-09.json"
+    ],
+    "lean_source": "Kobon/Certificates/N014T00054Hd2babc1b.lean"
+  },
+  {
+    "n": 14,
+    "triangles": 54,
+    "simple": false,
+    "coordinate_sha256": "2b34ca22dc8980b3b65a8178993fa6099813fe660251e0cdc19b59f1a5507e7c",
+    "module": "Kobon.Certificates.N014T00054H2b34ca22",
+    "theorem": "Kobon.Certificates.N014T00054H2b34ca22.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-10.json"
+    ],
+    "lean_source": "Kobon/Certificates/N014T00054H2b34ca22.lean"
+  },
+  {
+    "n": 14,
+    "triangles": 54,
+    "simple": false,
+    "coordinate_sha256": "fa427b3d27ef501ffb7e369a08ee155b24bfa6220103f998dcb5e2bbcfd0c055",
+    "module": "Kobon.Certificates.N014T00054Hfa427b3d",
+    "theorem": "Kobon.Certificates.N014T00054Hfa427b3d.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-11.json"
+    ],
+    "lean_source": "Kobon/Certificates/N014T00054Hfa427b3d.lean"
+  },
+  {
+    "n": 14,
+    "triangles": 54,
+    "simple": false,
+    "coordinate_sha256": "1ec1fd5cb2ee863ca834ae663319f60e3f6d33d1c7c68e336e342ee2d10e543c",
+    "module": "Kobon.Certificates.N014T00054H1ec1fd5c",
+    "theorem": "Kobon.Certificates.N014T00054H1ec1fd5c.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-12.json"
+    ],
+    "lean_source": "Kobon/Certificates/N014T00054H1ec1fd5c.lean"
+  },
+  {
+    "n": 14,
+    "triangles": 54,
+    "simple": false,
+    "coordinate_sha256": "3e5d182f84085aaea5b0d6c27f3dba94cd0f4c4c5a3eb7635e87351eecb129bb",
+    "module": "Kobon.Certificates.N014T00054H3e5d182f",
+    "theorem": "Kobon.Certificates.N014T00054H3e5d182f.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-13.json"
+    ],
+    "lean_source": "Kobon/Certificates/N014T00054H3e5d182f.lean"
+  },
+  {
+    "n": 14,
+    "triangles": 54,
+    "simple": false,
+    "coordinate_sha256": "17f8c0524eb16e50bfb021e99f2c37fabc211d51dd1e654729748852b00aacc7",
+    "module": "Kobon.Certificates.N014T00054H17f8c052",
+    "theorem": "Kobon.Certificates.N014T00054H17f8c052.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-14.json"
+    ],
+    "lean_source": "Kobon/Certificates/N014T00054H17f8c052.lean"
+  },
+  {
+    "n": 14,
+    "triangles": 54,
+    "simple": false,
+    "coordinate_sha256": "c472f97237f10e5e698c85c7fa6f4fbee95c3a007f722c8113470d541a12910e",
+    "module": "Kobon.Certificates.N014T00054Hc472f972",
+    "theorem": "Kobon.Certificates.N014T00054Hc472f972.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-15.json"
+    ],
+    "lean_source": "Kobon/Certificates/N014T00054Hc472f972.lean"
+  },
+  {
+    "n": 14,
+    "triangles": 52,
+    "simple": true,
+    "coordinate_sha256": "2eb83dc242a1a60612920b377d6cfe2397b815bb99ec4a38cf7b6f039504a1b6",
+    "module": "Kobon.Certificates.N014T00052H2eb83dc2",
+    "theorem": "Kobon.Certificates.N014T00052H2eb83dc2.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/resolution-+1-+1.json"
+    ],
+    "lean_source": "Kobon/Certificates/N014T00052H2eb83dc2.lean",
+    "simple_theorem": "Kobon.Certificates.N014T00052H2eb83dc2.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N014T00052H2eb83dc2"
+  },
+  {
+    "n": 14,
+    "triangles": 53,
+    "simple": true,
+    "coordinate_sha256": "5e6068f5003e0ecda91c8f772ad2889a5e6f3b4ee6bdecd599c6d17b0a185858",
+    "module": "Kobon.Certificates.N014T00053H5e6068f5",
+    "theorem": "Kobon.Certificates.N014T00053H5e6068f5.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/resolution-+1--1.json"
+    ],
+    "lean_source": "Kobon/Certificates/N014T00053H5e6068f5.lean",
+    "simple_theorem": "Kobon.Certificates.N014T00053H5e6068f5.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N014T00053H5e6068f5"
+  },
+  {
+    "n": 14,
+    "triangles": 52,
+    "simple": true,
+    "coordinate_sha256": "b3f4749f6dee6452d15d6f054fb045f201f13da740f9c04f0451922590da6e6d",
+    "module": "Kobon.Certificates.N014T00052Hb3f4749f",
+    "theorem": "Kobon.Certificates.N014T00052Hb3f4749f.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/resolution--1-+1.json"
+    ],
+    "lean_source": "Kobon/Certificates/N014T00052Hb3f4749f.lean",
+    "simple_theorem": "Kobon.Certificates.N014T00052Hb3f4749f.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N014T00052Hb3f4749f"
+  },
+  {
+    "n": 14,
+    "triangles": 52,
+    "simple": true,
+    "coordinate_sha256": "c6615430ae3d4cc41346fccf3d4f2beb057e870f02a783f980cfa8695e09f96f",
+    "module": "Kobon.Certificates.N014T00052Hc6615430",
+    "theorem": "Kobon.Certificates.N014T00052Hc6615430.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/resolution--1--1.json"
+    ],
+    "lean_source": "Kobon/Certificates/N014T00052Hc6615430.lean",
+    "simple_theorem": "Kobon.Certificates.N014T00052Hc6615430.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N014T00052Hc6615430"
+  },
+  {
+    "n": 8,
+    "triangles": 14,
+    "simple": true,
+    "coordinate_sha256": "ebff58687458ee11c5a8aa6bc29df55cf2c260b9e81bde31f586a930ba692c2d",
+    "module": "Kobon.Certificates.N008T00014Hebff5868",
+    "theorem": "Kobon.Certificates.N008T00014Hebff5868.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/best-simple-resolution-008.json"
+    ],
+    "lean_source": "Kobon/Certificates/N008T00014Hebff5868.lean",
+    "simple_theorem": "Kobon.Certificates.N008T00014Hebff5868.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N008T00014Hebff5868"
+  },
+  {
+    "n": 14,
+    "triangles": 51,
+    "simple": true,
+    "coordinate_sha256": "d67e7a6b3b089546f5fe4ec4dcf91d4125d77009f0d680d33058fd78b0b57d45",
+    "module": "Kobon.Certificates.N014T00051Hd67e7a6b",
+    "theorem": "Kobon.Certificates.N014T00051Hd67e7a6b.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/best-simple-resolution-014.json"
+    ],
+    "lean_source": "Kobon/Certificates/N014T00051Hd67e7a6b.lean",
+    "simple_theorem": "Kobon.Certificates.N014T00051Hd67e7a6b.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N014T00051Hd67e7a6b"
+  },
+  {
+    "n": 20,
+    "triangles": 114,
+    "simple": true,
+    "coordinate_sha256": "bc312fc85ea5d6aac6c5ecf18a7b4b79601309bba67560f121a64e7e8c1961e0",
+    "module": "Kobon.Certificates.N020T00114Hbc312fc8",
+    "theorem": "Kobon.Certificates.N020T00114Hbc312fc8.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/best-simple-resolution-020.json"
+    ],
+    "lean_source": "Kobon/Certificates/N020T00114Hbc312fc8.lean",
+    "simple_theorem": "Kobon.Certificates.N020T00114Hbc312fc8.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N020T00114Hbc312fc8"
+  },
+  {
+    "n": 26,
+    "triangles": 203,
+    "simple": true,
+    "coordinate_sha256": "5452b4ffa1a9f082a2a93bdfd7feb382a6a7fa78134e8f042038ab4c7bb15249",
+    "module": "Kobon.Certificates.N026T00203H5452b4ff",
+    "theorem": "Kobon.Certificates.N026T00203H5452b4ff.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/best-simple-resolution-026.json"
+    ],
+    "lean_source": "Kobon/Certificates/N026T00203H5452b4ff.lean",
+    "simple_theorem": "Kobon.Certificates.N026T00203H5452b4ff.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N026T00203H5452b4ff"
+  },
+  {
+    "n": 32,
+    "triangles": 313,
+    "simple": true,
+    "coordinate_sha256": "018f9fc6b73f13a75d9e2c911f7b40481ede5d7afbc57adbdf7d996113321274",
+    "module": "Kobon.Certificates.N032T00313H018f9fc6",
+    "theorem": "Kobon.Certificates.N032T00313H018f9fc6.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/best-simple-resolution-032.json"
+    ],
+    "lean_source": "Kobon/Certificates/N032T00313H018f9fc6.lean",
+    "simple_theorem": "Kobon.Certificates.N032T00313H018f9fc6.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N032T00313H018f9fc6"
+  },
+  {
+    "n": 38,
+    "triangles": 448,
+    "simple": true,
+    "coordinate_sha256": "7d59f504aba872af311386c7963c2b4e01aa4e68559ab6129992d9c848b2ce01",
+    "module": "Kobon.Certificates.N038T00448H7d59f504",
+    "theorem": "Kobon.Certificates.N038T00448H7d59f504.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/best-simple-resolution-038.json"
+    ],
+    "lean_source": "Kobon/Certificates/N038T00448H7d59f504.lean",
+    "simple_theorem": "Kobon.Certificates.N038T00448H7d59f504.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N038T00448H7d59f504"
+  },
+  {
+    "n": 50,
+    "triangles": 791,
+    "simple": true,
+    "coordinate_sha256": "6bde86a3dcbdd30aafff41ee22b4173b6c03a67821f6d34e9bf668b5e8b28176",
+    "module": "Kobon.Certificates.N050T00791H6bde86a3",
+    "theorem": "Kobon.Certificates.N050T00791H6bde86a3.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/best-simple-resolution-050.json"
+    ],
+    "lean_source": "Kobon/Certificates/N050T00791H6bde86a3.lean",
+    "simple_theorem": "Kobon.Certificates.N050T00791H6bde86a3.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N050T00791H6bde86a3"
+  },
+  {
+    "n": 8,
+    "triangles": 15,
+    "simple": false,
+    "coordinate_sha256": "a138081033c3b25764627f090fd50961ce5cba7c22767f0cbc104ae052634e65",
+    "module": "Kobon.Certificates.N008T00015Ha1380810",
+    "theorem": "Kobon.Certificates.N008T00015Ha1380810.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-008.json",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-008.json"
+    ],
+    "lean_source": "Kobon/Certificates/N008T00015Ha1380810.lean"
+  },
+  {
+    "n": 14,
+    "triangles": 54,
+    "simple": false,
+    "coordinate_sha256": "105765145381c27d0c600592182496efdcba9a303b08f6ce4e0be8292abb8e38",
+    "module": "Kobon.Certificates.N014T00054H10576514",
+    "theorem": "Kobon.Certificates.N014T00054H10576514.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-014.json",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-014.json"
+    ],
+    "lean_source": "Kobon/Certificates/N014T00054H10576514.lean"
+  },
+  {
+    "n": 20,
+    "triangles": 117,
+    "simple": false,
+    "coordinate_sha256": "382171ac62ccad67d113920f4637fd2b5d6b76c0091dcd0ba9ee8d08ad843a4e",
+    "module": "Kobon.Certificates.N020T00117H382171ac",
+    "theorem": "Kobon.Certificates.N020T00117H382171ac.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-020.json",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-020.json"
+    ],
+    "lean_source": "Kobon/Certificates/N020T00117H382171ac.lean"
+  },
+  {
+    "n": 26,
+    "triangles": 204,
+    "simple": false,
+    "coordinate_sha256": "f71379c4db0380d0b14b84c8fe09fc8a4f2ffecfe4249202701297f4e03f76a0",
+    "module": "Kobon.Certificates.N026T00204Hf71379c4",
+    "theorem": "Kobon.Certificates.N026T00204Hf71379c4.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-026.json",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-026.json"
+    ],
+    "lean_source": "Kobon/Certificates/N026T00204Hf71379c4.lean"
+  },
+  {
+    "n": 32,
+    "triangles": 315,
+    "simple": false,
+    "coordinate_sha256": "5914f2bb88d115cee38e83be59e8833ca0dbc6beaad35530b44337a08a985095",
+    "module": "Kobon.Certificates.N032T00315H5914f2bb",
+    "theorem": "Kobon.Certificates.N032T00315H5914f2bb.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-032.json",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-032.json"
+    ],
+    "lean_source": "Kobon/Certificates/N032T00315H5914f2bb.lean"
+  },
+  {
+    "n": 36,
+    "triangles": 402,
+    "simple": true,
+    "coordinate_sha256": "ce43a1077597aac1f716bd8a1dec499a3b2bfa2829229f72d430169bce89ed27",
+    "module": "Kobon.Certificates.N036T00402Hce43a107",
+    "theorem": "Kobon.Certificates.N036T00402Hce43a107.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-036.json",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-036.json"
+    ],
+    "lean_source": "Kobon/Certificates/N036T00402Hce43a107.lean",
+    "simple_theorem": "Kobon.Certificates.N036T00402Hce43a107.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N036T00402Hce43a107"
+  },
+  {
+    "n": 38,
+    "triangles": 450,
+    "simple": false,
+    "coordinate_sha256": "8ba2bdb14e85b408ea05435433c42474bfb371915dc874fcfe77c2e9b75305d5",
+    "module": "Kobon.Certificates.N038T00450H8ba2bdb1",
+    "theorem": "Kobon.Certificates.N038T00450H8ba2bdb1.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-038.json",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-038.json"
+    ],
+    "lean_source": "Kobon/Certificates/N038T00450H8ba2bdb1.lean"
+  },
+  {
+    "n": 42,
+    "triangles": 553,
+    "simple": true,
+    "coordinate_sha256": "9849e255d5da63f00fc8d2046c75bc79c75585b624db6fb729a49a8da99d5d51",
+    "module": "Kobon.Certificates.N042T00553H9849e255",
+    "theorem": "Kobon.Certificates.N042T00553H9849e255.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-042.json",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-042.json"
+    ],
+    "lean_source": "Kobon/Certificates/N042T00553H9849e255.lean",
+    "simple_theorem": "Kobon.Certificates.N042T00553H9849e255.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N042T00553H9849e255"
+  },
+  {
+    "n": 50,
+    "triangles": 792,
+    "simple": false,
+    "coordinate_sha256": "3d40cb58261638e64b83bad097730eaa1f5e1cb484851571ec31a18cb396c5c0",
+    "module": "Kobon.Certificates.N050T00792H3d40cb58",
+    "theorem": "Kobon.Certificates.N050T00792H3d40cb58.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-050.json",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-050.json"
+    ],
+    "lean_source": "Kobon/Certificates/N050T00792H3d40cb58.lean"
+  },
+  {
+    "n": 19,
+    "triangles": 107,
+    "simple": true,
+    "coordinate_sha256": "6e8ca6f56a85d29de4ca67f2e9043b70300c7c48921b6ce04bdc25a61814921a",
+    "module": "Kobon.Certificates.N019T00107H6e8ca6f5",
+    "theorem": "Kobon.Certificates.N019T00107H6e8ca6f5.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/prior-seed19-rational.json"
+    ],
+    "lean_source": "Kobon/Certificates/N019T00107H6e8ca6f5.lean",
+    "simple_theorem": "Kobon.Certificates.N019T00107H6e8ca6f5.simple_lower_bound",
+    "simple_module": "Kobon.SimpleCertificates.N019T00107H6e8ca6f5"
+  },
+  {
+    "n": 6,
+    "triangles": 6,
+    "simple": false,
+    "coordinate_sha256": "af8f599eb8a15e6d3daf63304c8c6688a6684be27749438fde977e4616eef916",
+    "module": "Kobon.Certificates.N006T00006Haf8f599e",
+    "theorem": "Kobon.Certificates.N006T00006Haf8f599e.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/shared-fan-six-lines.json"
+    ],
+    "lean_source": "Kobon/Certificates/N006T00006Haf8f599e.lean"
   }
 ]

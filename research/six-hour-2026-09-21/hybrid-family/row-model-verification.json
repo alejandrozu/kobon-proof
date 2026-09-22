@@ -1,0 +1,801 @@
+{
+  "integer_models": [
+    {
+      "q": 2,
+      "auxiliary_lines": 3,
+      "mixed_triangles": 4,
+      "exterior_auxiliary_pairs": 2,
+      "old_pair_caps": 0,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 4,
+      "auxiliary_lines": 5,
+      "mixed_triangles": 16,
+      "exterior_auxiliary_pairs": 4,
+      "old_pair_caps": 2,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 6,
+      "auxiliary_lines": 7,
+      "mixed_triangles": 36,
+      "exterior_auxiliary_pairs": 6,
+      "old_pair_caps": 4,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 8,
+      "auxiliary_lines": 9,
+      "mixed_triangles": 64,
+      "exterior_auxiliary_pairs": 8,
+      "old_pair_caps": 6,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 10,
+      "auxiliary_lines": 11,
+      "mixed_triangles": 100,
+      "exterior_auxiliary_pairs": 10,
+      "old_pair_caps": 8,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 12,
+      "auxiliary_lines": 13,
+      "mixed_triangles": 144,
+      "exterior_auxiliary_pairs": 12,
+      "old_pair_caps": 10,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 14,
+      "auxiliary_lines": 15,
+      "mixed_triangles": 196,
+      "exterior_auxiliary_pairs": 14,
+      "old_pair_caps": 12,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 16,
+      "auxiliary_lines": 17,
+      "mixed_triangles": 256,
+      "exterior_auxiliary_pairs": 16,
+      "old_pair_caps": 14,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 18,
+      "auxiliary_lines": 19,
+      "mixed_triangles": 324,
+      "exterior_auxiliary_pairs": 18,
+      "old_pair_caps": 16,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 20,
+      "auxiliary_lines": 21,
+      "mixed_triangles": 400,
+      "exterior_auxiliary_pairs": 20,
+      "old_pair_caps": 18,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 22,
+      "auxiliary_lines": 23,
+      "mixed_triangles": 484,
+      "exterior_auxiliary_pairs": 22,
+      "old_pair_caps": 20,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 24,
+      "auxiliary_lines": 25,
+      "mixed_triangles": 576,
+      "exterior_auxiliary_pairs": 24,
+      "old_pair_caps": 22,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 26,
+      "auxiliary_lines": 27,
+      "mixed_triangles": 676,
+      "exterior_auxiliary_pairs": 26,
+      "old_pair_caps": 24,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 28,
+      "auxiliary_lines": 29,
+      "mixed_triangles": 784,
+      "exterior_auxiliary_pairs": 28,
+      "old_pair_caps": 26,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 30,
+      "auxiliary_lines": 31,
+      "mixed_triangles": 900,
+      "exterior_auxiliary_pairs": 30,
+      "old_pair_caps": 28,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 32,
+      "auxiliary_lines": 33,
+      "mixed_triangles": 1024,
+      "exterior_auxiliary_pairs": 32,
+      "old_pair_caps": 30,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 34,
+      "auxiliary_lines": 35,
+      "mixed_triangles": 1156,
+      "exterior_auxiliary_pairs": 34,
+      "old_pair_caps": 32,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 36,
+      "auxiliary_lines": 37,
+      "mixed_triangles": 1296,
+      "exterior_auxiliary_pairs": 36,
+      "old_pair_caps": 34,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 38,
+      "auxiliary_lines": 39,
+      "mixed_triangles": 1444,
+      "exterior_auxiliary_pairs": 38,
+      "old_pair_caps": 36,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 40,
+      "auxiliary_lines": 41,
+      "mixed_triangles": 1600,
+      "exterior_auxiliary_pairs": 40,
+      "old_pair_caps": 38,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 42,
+      "auxiliary_lines": 43,
+      "mixed_triangles": 1764,
+      "exterior_auxiliary_pairs": 42,
+      "old_pair_caps": 40,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 44,
+      "auxiliary_lines": 45,
+      "mixed_triangles": 1936,
+      "exterior_auxiliary_pairs": 44,
+      "old_pair_caps": 42,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 46,
+      "auxiliary_lines": 47,
+      "mixed_triangles": 2116,
+      "exterior_auxiliary_pairs": 46,
+      "old_pair_caps": 44,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 48,
+      "auxiliary_lines": 49,
+      "mixed_triangles": 2304,
+      "exterior_auxiliary_pairs": 48,
+      "old_pair_caps": 46,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 50,
+      "auxiliary_lines": 51,
+      "mixed_triangles": 2500,
+      "exterior_auxiliary_pairs": 50,
+      "old_pair_caps": 48,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 52,
+      "auxiliary_lines": 53,
+      "mixed_triangles": 2704,
+      "exterior_auxiliary_pairs": 52,
+      "old_pair_caps": 50,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 54,
+      "auxiliary_lines": 55,
+      "mixed_triangles": 2916,
+      "exterior_auxiliary_pairs": 54,
+      "old_pair_caps": 52,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 56,
+      "auxiliary_lines": 57,
+      "mixed_triangles": 3136,
+      "exterior_auxiliary_pairs": 56,
+      "old_pair_caps": 54,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 58,
+      "auxiliary_lines": 59,
+      "mixed_triangles": 3364,
+      "exterior_auxiliary_pairs": 58,
+      "old_pair_caps": 56,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 60,
+      "auxiliary_lines": 61,
+      "mixed_triangles": 3600,
+      "exterior_auxiliary_pairs": 60,
+      "old_pair_caps": 58,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 62,
+      "auxiliary_lines": 63,
+      "mixed_triangles": 3844,
+      "exterior_auxiliary_pairs": 62,
+      "old_pair_caps": 60,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 64,
+      "auxiliary_lines": 65,
+      "mixed_triangles": 4096,
+      "exterior_auxiliary_pairs": 64,
+      "old_pair_caps": 62,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 66,
+      "auxiliary_lines": 67,
+      "mixed_triangles": 4356,
+      "exterior_auxiliary_pairs": 66,
+      "old_pair_caps": 64,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 68,
+      "auxiliary_lines": 69,
+      "mixed_triangles": 4624,
+      "exterior_auxiliary_pairs": 68,
+      "old_pair_caps": 66,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 70,
+      "auxiliary_lines": 71,
+      "mixed_triangles": 4900,
+      "exterior_auxiliary_pairs": 70,
+      "old_pair_caps": 68,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 72,
+      "auxiliary_lines": 73,
+      "mixed_triangles": 5184,
+      "exterior_auxiliary_pairs": 72,
+      "old_pair_caps": 70,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 74,
+      "auxiliary_lines": 75,
+      "mixed_triangles": 5476,
+      "exterior_auxiliary_pairs": 74,
+      "old_pair_caps": 72,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 76,
+      "auxiliary_lines": 77,
+      "mixed_triangles": 5776,
+      "exterior_auxiliary_pairs": 76,
+      "old_pair_caps": 74,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 78,
+      "auxiliary_lines": 79,
+      "mixed_triangles": 6084,
+      "exterior_auxiliary_pairs": 78,
+      "old_pair_caps": 76,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 80,
+      "auxiliary_lines": 81,
+      "mixed_triangles": 6400,
+      "exterior_auxiliary_pairs": 80,
+      "old_pair_caps": 78,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 82,
+      "auxiliary_lines": 83,
+      "mixed_triangles": 6724,
+      "exterior_auxiliary_pairs": 82,
+      "old_pair_caps": 80,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 84,
+      "auxiliary_lines": 85,
+      "mixed_triangles": 7056,
+      "exterior_auxiliary_pairs": 84,
+      "old_pair_caps": 82,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 86,
+      "auxiliary_lines": 87,
+      "mixed_triangles": 7396,
+      "exterior_auxiliary_pairs": 86,
+      "old_pair_caps": 84,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 88,
+      "auxiliary_lines": 89,
+      "mixed_triangles": 7744,
+      "exterior_auxiliary_pairs": 88,
+      "old_pair_caps": 86,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 90,
+      "auxiliary_lines": 91,
+      "mixed_triangles": 8100,
+      "exterior_auxiliary_pairs": 90,
+      "old_pair_caps": 88,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 92,
+      "auxiliary_lines": 93,
+      "mixed_triangles": 8464,
+      "exterior_auxiliary_pairs": 92,
+      "old_pair_caps": 90,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 94,
+      "auxiliary_lines": 95,
+      "mixed_triangles": 8836,
+      "exterior_auxiliary_pairs": 94,
+      "old_pair_caps": 92,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 96,
+      "auxiliary_lines": 97,
+      "mixed_triangles": 9216,
+      "exterior_auxiliary_pairs": 96,
+      "old_pair_caps": 94,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 98,
+      "auxiliary_lines": 99,
+      "mixed_triangles": 9604,
+      "exterior_auxiliary_pairs": 98,
+      "old_pair_caps": 96,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 100,
+      "auxiliary_lines": 101,
+      "mixed_triangles": 10000,
+      "exterior_auxiliary_pairs": 100,
+      "old_pair_caps": 98,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 102,
+      "auxiliary_lines": 103,
+      "mixed_triangles": 10404,
+      "exterior_auxiliary_pairs": 102,
+      "old_pair_caps": 100,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 104,
+      "auxiliary_lines": 105,
+      "mixed_triangles": 10816,
+      "exterior_auxiliary_pairs": 104,
+      "old_pair_caps": 102,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 106,
+      "auxiliary_lines": 107,
+      "mixed_triangles": 11236,
+      "exterior_auxiliary_pairs": 106,
+      "old_pair_caps": 104,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 108,
+      "auxiliary_lines": 109,
+      "mixed_triangles": 11664,
+      "exterior_auxiliary_pairs": 108,
+      "old_pair_caps": 106,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 110,
+      "auxiliary_lines": 111,
+      "mixed_triangles": 12100,
+      "exterior_auxiliary_pairs": 110,
+      "old_pair_caps": 108,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 112,
+      "auxiliary_lines": 113,
+      "mixed_triangles": 12544,
+      "exterior_auxiliary_pairs": 112,
+      "old_pair_caps": 110,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 114,
+      "auxiliary_lines": 115,
+      "mixed_triangles": 12996,
+      "exterior_auxiliary_pairs": 114,
+      "old_pair_caps": 112,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 116,
+      "auxiliary_lines": 117,
+      "mixed_triangles": 13456,
+      "exterior_auxiliary_pairs": 116,
+      "old_pair_caps": 114,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 118,
+      "auxiliary_lines": 119,
+      "mixed_triangles": 13924,
+      "exterior_auxiliary_pairs": 118,
+      "old_pair_caps": 116,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 120,
+      "auxiliary_lines": 121,
+      "mixed_triangles": 14400,
+      "exterior_auxiliary_pairs": 120,
+      "old_pair_caps": 118,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 122,
+      "auxiliary_lines": 123,
+      "mixed_triangles": 14884,
+      "exterior_auxiliary_pairs": 122,
+      "old_pair_caps": 120,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 124,
+      "auxiliary_lines": 125,
+      "mixed_triangles": 15376,
+      "exterior_auxiliary_pairs": 124,
+      "old_pair_caps": 122,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 126,
+      "auxiliary_lines": 127,
+      "mixed_triangles": 15876,
+      "exterior_auxiliary_pairs": 126,
+      "old_pair_caps": 124,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 128,
+      "auxiliary_lines": 129,
+      "mixed_triangles": 16384,
+      "exterior_auxiliary_pairs": 128,
+      "old_pair_caps": 126,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 130,
+      "auxiliary_lines": 131,
+      "mixed_triangles": 16900,
+      "exterior_auxiliary_pairs": 130,
+      "old_pair_caps": 128,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 132,
+      "auxiliary_lines": 133,
+      "mixed_triangles": 17424,
+      "exterior_auxiliary_pairs": 132,
+      "old_pair_caps": 130,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 134,
+      "auxiliary_lines": 135,
+      "mixed_triangles": 17956,
+      "exterior_auxiliary_pairs": 134,
+      "old_pair_caps": 132,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 136,
+      "auxiliary_lines": 137,
+      "mixed_triangles": 18496,
+      "exterior_auxiliary_pairs": 136,
+      "old_pair_caps": 134,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 138,
+      "auxiliary_lines": 139,
+      "mixed_triangles": 19044,
+      "exterior_auxiliary_pairs": 138,
+      "old_pair_caps": 136,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 140,
+      "auxiliary_lines": 141,
+      "mixed_triangles": 19600,
+      "exterior_auxiliary_pairs": 140,
+      "old_pair_caps": 138,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 142,
+      "auxiliary_lines": 143,
+      "mixed_triangles": 20164,
+      "exterior_auxiliary_pairs": 142,
+      "old_pair_caps": 140,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 144,
+      "auxiliary_lines": 145,
+      "mixed_triangles": 20736,
+      "exterior_auxiliary_pairs": 144,
+      "old_pair_caps": 142,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 146,
+      "auxiliary_lines": 147,
+      "mixed_triangles": 21316,
+      "exterior_auxiliary_pairs": 146,
+      "old_pair_caps": 144,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 148,
+      "auxiliary_lines": 149,
+      "mixed_triangles": 21904,
+      "exterior_auxiliary_pairs": 148,
+      "old_pair_caps": 146,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 150,
+      "auxiliary_lines": 151,
+      "mixed_triangles": 22500,
+      "exterior_auxiliary_pairs": 150,
+      "old_pair_caps": 148,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 152,
+      "auxiliary_lines": 153,
+      "mixed_triangles": 23104,
+      "exterior_auxiliary_pairs": 152,
+      "old_pair_caps": 150,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 154,
+      "auxiliary_lines": 155,
+      "mixed_triangles": 23716,
+      "exterior_auxiliary_pairs": 154,
+      "old_pair_caps": 152,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 156,
+      "auxiliary_lines": 157,
+      "mixed_triangles": 24336,
+      "exterior_auxiliary_pairs": 156,
+      "old_pair_caps": 154,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 158,
+      "auxiliary_lines": 159,
+      "mixed_triangles": 24964,
+      "exterior_auxiliary_pairs": 158,
+      "old_pair_caps": 156,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 160,
+      "auxiliary_lines": 161,
+      "mixed_triangles": 25600,
+      "exterior_auxiliary_pairs": 160,
+      "old_pair_caps": 158,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 200,
+      "auxiliary_lines": 201,
+      "mixed_triangles": 40000,
+      "exterior_auxiliary_pairs": 200,
+      "old_pair_caps": 198,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 256,
+      "auxiliary_lines": 257,
+      "mixed_triangles": 65536,
+      "exterior_auxiliary_pairs": 256,
+      "old_pair_caps": 254,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 320,
+      "auxiliary_lines": 321,
+      "mixed_triangles": 102400,
+      "exterior_auxiliary_pairs": 320,
+      "old_pair_caps": 318,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 512,
+      "auxiliary_lines": 513,
+      "mixed_triangles": 262144,
+      "exterior_auxiliary_pairs": 512,
+      "old_pair_caps": 510,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    },
+    {
+      "q": 640,
+      "auxiliary_lines": 641,
+      "mixed_triangles": 409600,
+      "exterior_auxiliary_pairs": 640,
+      "old_pair_caps": 638,
+      "retained_central_triangle": 1,
+      "all_integer_checks_passed": true
+    }
+  ],
+  "coordinate_comparisons": [
+    {
+      "q": 10,
+      "coordinate_source": "research\\kobon-hybrid\\certificates\\n021.json",
+      "crossing_rows_matched": 11,
+      "mixed_triangles_matched": 100,
+      "passed": true
+    },
+    {
+      "q": 20,
+      "coordinate_source": "research\\kobon-hybrid\\certificates\\n041.json",
+      "crossing_rows_matched": 21,
+      "mixed_triangles_matched": 400,
+      "passed": true
+    },
+    {
+      "q": 40,
+      "coordinate_source": "research\\kobon-hybrid\\certificates\\n081.json",
+      "crossing_rows_matched": 41,
+      "mixed_triangles_matched": 1600,
+      "passed": true
+    },
+    {
+      "q": 80,
+      "coordinate_source": "research\\kobon-hybrid\\certificates\\n161.json",
+      "crossing_rows_matched": 81,
+      "mixed_triangles_matched": 6400,
+      "passed": true
+    }
+  ],
+  "elapsed_seconds": 39.844,
+  "scope": "Finite exact model checks. The all-q combinatorial and trigonometric bridge still require proofs."
+}

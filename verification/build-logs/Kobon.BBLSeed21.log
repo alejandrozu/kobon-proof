@@ -1,0 +1,70 @@
+ℹ [775/846] Replayed Kobon.Geometry
+info: Kobon/Geometry.lean:144:0: 'Kobon.validate_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Geometry.lean:145:0: 'Kobon.orientedEval_affine' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [856/956] Replayed Kobon.Euclidean
+info: Kobon/Euclidean.lean:147:0: 'Kobon.supporting_triangle_nondegenerate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Euclidean.lean:148:0: 'Kobon.same_halfplane_barycenter' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Euclidean.lean:149:0: 'Kobon.triangle_interior_uncut' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [857/956] Replayed Kobon.Simple
+info: Kobon/Simple.lean:49:0: 'Kobon.validate_simple_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [955/1035] Replayed Kobon.Exterior
+info: Kobon/Exterior.lean:207:0: 'Kobon.Exterior.extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Exterior.lean:208:0: 'Kobon.Exterior.safeHeight_beyond' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [981/1035] Replayed Kobon.Parametric
+info: Kobon/Parametric.lean:183:0: 'Kobon.Parametric.triangle_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Parametric.lean:184:0: 'Kobon.Parametric.simple_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1922/1992] Replayed Kobon.TangentBounds
+info: Kobon/TangentBounds.lean:95:0: 'Kobon.TangentBounds.tan_tenth_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/TangentBounds.lean:96:0: 'Kobon.TangentBounds.tan_two_fifths_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1923/1992] Replayed Kobon.SeedFamily
+info: Kobon/SeedFamily.lean:133:0: 'Kobon.SeedFamily.arbitrarily_small' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/SeedFamily.lean:134:0: 'Kobon.SeedFamily.simple_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1926/1992] Replayed Kobon.HybridBoundary
+info: Kobon/HybridBoundary.lean:164:0: 'Kobon.HybridBoundary.seed_exterior' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1927/1992] Replayed Kobon.BBLExtrema
+info: Kobon/BBLExtrema.lean:205:0: 'Kobon.BBLExtrema.extremal_visible' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BBLExtrema.lean:206:0: 'Kobon.BBLExtrema.extremal_preserved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BBLExtrema.lean:207:0: 'Kobon.BBLExtrema.visible_extremal_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [1991/1992] Replayed Kobon.BBLTangentBounds
+warning: Kobon/BBLTangentBounds.lean:11:47: Variable name `hL` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Kobon/BBLTangentBounds.lean:11:58: Variable name `hU` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: Kobon/BBLTangentBounds.lean:160:0: 'Kobon.BBLTangentBounds.tan_1_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BBLTangentBounds.lean:161:0: 'Kobon.BBLTangentBounds.tan_9_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1992/1992] Built Kobon.BBLSeed21 (31s)
+info: Kobon/BBLSeed21.lean:190:0: 'Kobon.BBLSeed21.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ directions._native.native_decide.ax_1_1,
+ simple._native.native_decide.ax_1_1,
+ triangle_checks._native.native_decide.ax_1_1]
+info: Kobon/BBLSeed21.lean:191:0: 'Kobon.BBLSeed21.exterior_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ admissible_check._native.native_decide.ax_1_1,
+ directions._native.native_decide.ax_1_1,
+ simple._native.native_decide.ax_1_1,
+ triangle_checks._native.native_decide.ax_1_1,
+ visible_checks._native.native_decide.ax_1_1]
+info: Kobon/BBLSeed21.lean:192:0: 'Kobon.BBLSeed21.arbitrarily_small' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ admissible_check._native.native_decide.ax_1_1,
+ directions._native.native_decide.ax_1_1,
+ simple._native.native_decide.ax_1_1,
+ triangle_checks._native.native_decide.ax_1_1,
+ visible_checks._native.native_decide.ax_1_1]
+info: Kobon/BBLSeed21.lean:193:0: 'Kobon.BBLSeed21.rightmost_last' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ admissible_check._native.native_decide.ax_1_1,
+ directions._native.native_decide.ax_1_1,
+ visible_checks._native.native_decide.ax_1_1]
+Build completed successfully (1992 jobs).

@@ -1,0 +1,48 @@
+{
+  "n": 8,
+  "triangle_count": 14,
+  "lines_frac": [
+    [
+      "0",
+      "6739",
+      "-4902"
+    ],
+    [
+      "1",
+      "2",
+      "-27"
+    ],
+    [
+      "20217",
+      "13478",
+      "152180"
+    ],
+    [
+      "47173",
+      "13478",
+      "40867"
+    ],
+    [
+      "17",
+      "-2",
+      "277"
+    ],
+    [
+      "26956",
+      "-13478",
+      "153053"
+    ],
+    [
+      "13478",
+      "-13478",
+      "117795"
+    ],
+    [
+      "1",
+      "-2",
+      "-11"
+    ]
+  ],
+  "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-008.json",
+  "construction": "Exact independent offset resolution of all collinear triple points"
+}

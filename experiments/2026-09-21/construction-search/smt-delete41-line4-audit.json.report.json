@@ -1,0 +1,13 @@
+{
+  "n": 40,
+  "source": "C:\\Users\\Propietario\\Documents\\Codex\\2026-09-20\\lo-2\\work\\kobon-repository\\experiments\\2026-09-21\\construction-search\\delete41-line4.json",
+  "initial": 494,
+  "projective": 495,
+  "minimum": 495,
+  "result": "unsat",
+  "seconds": 2.774667501449585,
+  "checks": 1,
+  "method": "unsat-core branching",
+  "scope": "Fixed projective arrangement only; UNSAT is solver evidence, not Lean-verified.",
+  "cores": []
+}

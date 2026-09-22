@@ -1,0 +1,202 @@
+{
+  "source_triangles": 54,
+  "source_triples": [
+    [
+      0,
+      4,
+      10
+    ],
+    [
+      0,
+      11,
+      12
+    ]
+  ],
+  "resolutions": [
+    {
+      "offset_signs": [
+        -1,
+        -1
+      ],
+      "resolved_triple_signs": [
+        -1,
+        -1
+      ],
+      "triangles": 52,
+      "epsilon": "1/1000",
+      "old_survived": 50,
+      "old_lost": [
+        [
+          0,
+          2,
+          10
+        ],
+        [
+          0,
+          10,
+          12
+        ],
+        [
+          1,
+          11,
+          12
+        ],
+        [
+          4,
+          10,
+          12
+        ]
+      ],
+      "new_triangles": [
+        [
+          0,
+          4,
+          10
+        ],
+        [
+          0,
+          11,
+          12
+        ]
+      ]
+    },
+    {
+      "offset_signs": [
+        -1,
+        1
+      ],
+      "resolved_triple_signs": [
+        -1,
+        1
+      ],
+      "triangles": 52,
+      "epsilon": "1/1000",
+      "old_survived": 50,
+      "old_lost": [
+        [
+          0,
+          1,
+          12
+        ],
+        [
+          0,
+          2,
+          10
+        ],
+        [
+          4,
+          10,
+          12
+        ],
+        [
+          10,
+          11,
+          12
+        ]
+      ],
+      "new_triangles": [
+        [
+          0,
+          4,
+          10
+        ],
+        [
+          0,
+          11,
+          12
+        ]
+      ]
+    },
+    {
+      "offset_signs": [
+        1,
+        -1
+      ],
+      "resolved_triple_signs": [
+        1,
+        -1
+      ],
+      "triangles": 53,
+      "epsilon": "1/1000",
+      "old_survived": 51,
+      "old_lost": [
+        [
+          0,
+          10,
+          12
+        ],
+        [
+          1,
+          11,
+          12
+        ],
+        [
+          2,
+          4,
+          10
+        ]
+      ],
+      "new_triangles": [
+        [
+          0,
+          4,
+          10
+        ],
+        [
+          0,
+          11,
+          12
+        ]
+      ]
+    },
+    {
+      "offset_signs": [
+        1,
+        1
+      ],
+      "resolved_triple_signs": [
+        1,
+        1
+      ],
+      "triangles": 52,
+      "epsilon": "1/1000",
+      "old_survived": 50,
+      "old_lost": [
+        [
+          0,
+          1,
+          12
+        ],
+        [
+          0,
+          10,
+          12
+        ],
+        [
+          2,
+          4,
+          10
+        ],
+        [
+          10,
+          11,
+          12
+        ]
+      ],
+      "new_triangles": [
+        [
+          0,
+          4,
+          10
+        ],
+        [
+          0,
+          11,
+          12
+        ]
+      ]
+    }
+  ],
+  "maximum_local_simple_triangles": 53,
+  "method": "All originally nonzero determinants preserve exact signs; both zero determinant signs independently exhausted."
+}

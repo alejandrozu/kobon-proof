@@ -1,0 +1,15 @@
+{
+  "n": 48,
+  "source": "experiments/2026-09-21/construction-search/phase-sixth-048.json",
+  "initial": 721,
+  "best": 721,
+  "projective_triangles": 724,
+  "vertices": 1128,
+  "proposals": 2542512,
+  "exact_candidates": 0,
+  "false_positives": 0,
+  "seconds": 62.72045707702637,
+  "seed": 221,
+  "improvements": [],
+  "limitations": "Floating candidate ranking is heuristic; no exhaustive optimality claim."
+}

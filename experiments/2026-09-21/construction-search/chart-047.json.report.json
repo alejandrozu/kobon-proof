@@ -1,0 +1,32 @@
+{
+  "n": 47,
+  "source": "research/finite-table/classical-047.json",
+  "initial": 690,
+  "best": 691,
+  "projective_triangles": 691,
+  "vertices": 1081,
+  "proposals": 11264,
+  "exact_candidates": 1,
+  "false_positives": 0,
+  "seconds": 2.029167652130127,
+  "seed": 221,
+  "improvements": [
+    {
+      "triangles": 691,
+      "pair": [
+        117,
+        1069
+      ],
+      "chart": [
+        "100479188336973724412001330442012831203546741997692361418292281773939668193762790253",
+        "-173281081625846956775796868173828418156031802994357597078958279402685861071707457296",
+        "298458069096077482457515657519484685669824266588909590327787705565981174319273060744"
+      ],
+      "projective_triangles": 691,
+      "seconds": 2.0173449516296387,
+      "seed": 221,
+      "proposals": 10880
+    }
+  ],
+  "limitations": "Floating candidate ranking is heuristic; no exhaustive optimality claim."
+}

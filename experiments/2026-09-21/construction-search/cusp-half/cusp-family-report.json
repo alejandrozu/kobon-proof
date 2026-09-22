@@ -1,0 +1,876 @@
+[
+  {
+    "n": 5,
+    "phase": "1/2",
+    "initial": 4,
+    "best": 5,
+    "projective": 5,
+    "parameters": [
+      0,
+      -0.25,
+      0.75
+    ],
+    "seconds": 0.032999277114868164,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-005-phase-1-2.json"
+  },
+  {
+    "n": 6,
+    "phase": "1/2",
+    "initial": 6,
+    "best": 6,
+    "projective": 6,
+    "parameters": null,
+    "seconds": 0.03422999382019043
+  },
+  {
+    "n": 7,
+    "phase": "1/2",
+    "initial": 10,
+    "best": 11,
+    "projective": 11,
+    "parameters": [
+      0,
+      -0.25,
+      0.75
+    ],
+    "seconds": 0.03850698471069336,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-007-phase-1-2.json"
+  },
+  {
+    "n": 8,
+    "phase": "1/2",
+    "initial": 14,
+    "best": 14,
+    "projective": 16,
+    "parameters": null,
+    "seconds": 0.03966712951660156
+  },
+  {
+    "n": 9,
+    "phase": "1/2",
+    "initial": 18,
+    "best": 20,
+    "projective": 21,
+    "parameters": [
+      0,
+      -0.25,
+      1.0
+    ],
+    "seconds": 0.04764533042907715,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-009-phase-1-2.json"
+  },
+  {
+    "n": 10,
+    "phase": "1/2",
+    "initial": 24,
+    "best": 24,
+    "projective": 26,
+    "parameters": null,
+    "seconds": 0.035031795501708984
+  },
+  {
+    "n": 11,
+    "phase": "1/2",
+    "initial": 30,
+    "best": 31,
+    "projective": 31,
+    "parameters": [
+      0,
+      -0.25,
+      0.75
+    ],
+    "seconds": 0.05083656311035156,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-011-phase-1-2.json"
+  },
+  {
+    "n": 12,
+    "phase": "1/2",
+    "initial": 36,
+    "best": 36,
+    "projective": 36,
+    "parameters": null,
+    "seconds": 0.032869577407836914
+  },
+  {
+    "n": 13,
+    "phase": "1/2",
+    "initial": 44,
+    "best": 45,
+    "projective": 45,
+    "parameters": [
+      0,
+      -0.25,
+      0.75
+    ],
+    "seconds": 0.049996137619018555,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-013-phase-1-2.json"
+  },
+  {
+    "n": 14,
+    "phase": "1/2",
+    "initial": 52,
+    "best": 52,
+    "projective": 54,
+    "parameters": null,
+    "seconds": 0.04349994659423828
+  },
+  {
+    "n": 15,
+    "phase": "1/2",
+    "initial": 60,
+    "best": 62,
+    "projective": 63,
+    "parameters": [
+      0,
+      -1.25,
+      1.75
+    ],
+    "seconds": 0.04984760284423828,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-015-phase-1-2.json"
+  },
+  {
+    "n": 16,
+    "phase": "1/2",
+    "initial": 70,
+    "best": 70,
+    "projective": 72,
+    "parameters": null,
+    "seconds": 0.04872274398803711
+  },
+  {
+    "n": 17,
+    "phase": "1/2",
+    "initial": 80,
+    "best": 81,
+    "projective": 81,
+    "parameters": [
+      0,
+      -0.25,
+      0.75
+    ],
+    "seconds": 0.05359387397766113,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-017-phase-1-2.json"
+  },
+  {
+    "n": 18,
+    "phase": "1/2",
+    "initial": 90,
+    "best": 90,
+    "projective": 90,
+    "parameters": null,
+    "seconds": 0.041376590728759766
+  },
+  {
+    "n": 19,
+    "phase": "1/2",
+    "initial": 102,
+    "best": 103,
+    "projective": 103,
+    "parameters": [
+      0,
+      -0.25,
+      0.75
+    ],
+    "seconds": 0.06288695335388184,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-019-phase-1-2.json"
+  },
+  {
+    "n": 20,
+    "phase": "1/2",
+    "initial": 114,
+    "best": 114,
+    "projective": 116,
+    "parameters": null,
+    "seconds": 0.05612611770629883
+  },
+  {
+    "n": 21,
+    "phase": "1/2",
+    "initial": 126,
+    "best": 128,
+    "projective": 129,
+    "parameters": [
+      0,
+      -1.25,
+      1.75
+    ],
+    "seconds": 0.07437014579772949,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-021-phase-1-2.json"
+  },
+  {
+    "n": 22,
+    "phase": "1/2",
+    "initial": 140,
+    "best": 140,
+    "projective": 142,
+    "parameters": null,
+    "seconds": 0.05472731590270996
+  },
+  {
+    "n": 23,
+    "phase": "1/2",
+    "initial": 154,
+    "best": 155,
+    "projective": 155,
+    "parameters": [
+      0,
+      -0.25,
+      0.75
+    ],
+    "seconds": 0.0669105052947998,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-023-phase-1-2.json"
+  },
+  {
+    "n": 24,
+    "phase": "1/2",
+    "initial": 168,
+    "best": 168,
+    "projective": 168,
+    "parameters": null,
+    "seconds": 0.05028414726257324
+  },
+  {
+    "n": 25,
+    "phase": "1/2",
+    "initial": 184,
+    "best": 185,
+    "projective": 185,
+    "parameters": [
+      0,
+      -0.25,
+      0.75
+    ],
+    "seconds": 0.07995271682739258,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-025-phase-1-2.json"
+  },
+  {
+    "n": 26,
+    "phase": "1/2",
+    "initial": 200,
+    "best": 200,
+    "projective": 202,
+    "parameters": null,
+    "seconds": 0.08483242988586426
+  },
+  {
+    "n": 27,
+    "phase": "1/2",
+    "initial": 216,
+    "best": 218,
+    "projective": 219,
+    "parameters": [
+      0,
+      -1.25,
+      1.75
+    ],
+    "seconds": 0.09457111358642578,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-027-phase-1-2.json"
+  },
+  {
+    "n": 28,
+    "phase": "1/2",
+    "initial": 234,
+    "best": 234,
+    "projective": 236,
+    "parameters": null,
+    "seconds": 0.09028005599975586
+  },
+  {
+    "n": 29,
+    "phase": "1/2",
+    "initial": 252,
+    "best": 253,
+    "projective": 253,
+    "parameters": [
+      0,
+      -0.25,
+      0.75
+    ],
+    "seconds": 0.0744171142578125,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-029-phase-1-2.json"
+  },
+  {
+    "n": 30,
+    "phase": "1/2",
+    "initial": 270,
+    "best": 270,
+    "projective": 270,
+    "parameters": null,
+    "seconds": 0.05574917793273926
+  },
+  {
+    "n": 31,
+    "phase": "1/2",
+    "initial": 290,
+    "best": 291,
+    "projective": 291,
+    "parameters": [
+      0,
+      -0.25,
+      0.75
+    ],
+    "seconds": 0.10896801948547363,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-031-phase-1-2.json"
+  },
+  {
+    "n": 32,
+    "phase": "1/2",
+    "initial": 310,
+    "best": 310,
+    "projective": 312,
+    "parameters": null,
+    "seconds": 0.1188199520111084
+  },
+  {
+    "n": 33,
+    "phase": "1/2",
+    "initial": 330,
+    "best": 332,
+    "projective": 333,
+    "parameters": [
+      0,
+      -1.25,
+      1.75
+    ],
+    "seconds": 0.14048361778259277,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-033-phase-1-2.json"
+  },
+  {
+    "n": 34,
+    "phase": "1/2",
+    "initial": 352,
+    "best": 352,
+    "projective": 354,
+    "parameters": null,
+    "seconds": 0.10718274116516113
+  },
+  {
+    "n": 35,
+    "phase": "1/2",
+    "initial": 374,
+    "best": 375,
+    "projective": 375,
+    "parameters": [
+      0,
+      -0.25,
+      0.75
+    ],
+    "seconds": 0.1024160385131836,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-035-phase-1-2.json"
+  },
+  {
+    "n": 36,
+    "phase": "1/2",
+    "initial": 396,
+    "best": 396,
+    "projective": 396,
+    "parameters": null,
+    "seconds": 0.07110357284545898
+  },
+  {
+    "n": 37,
+    "phase": "1/2",
+    "initial": 420,
+    "best": 421,
+    "projective": 421,
+    "parameters": [
+      0,
+      -0.25,
+      0.75
+    ],
+    "seconds": 0.10417795181274414,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-037-phase-1-2.json"
+  },
+  {
+    "n": 38,
+    "phase": "1/2",
+    "initial": 444,
+    "best": 444,
+    "projective": 446,
+    "parameters": null,
+    "seconds": 0.12391901016235352
+  },
+  {
+    "n": 39,
+    "phase": "1/2",
+    "initial": 468,
+    "best": 470,
+    "projective": 471,
+    "parameters": [
+      0,
+      -1.25,
+      1.75
+    ],
+    "seconds": 0.19136977195739746,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-039-phase-1-2.json"
+  },
+  {
+    "n": 40,
+    "phase": "1/2",
+    "initial": 494,
+    "best": 494,
+    "projective": 496,
+    "parameters": null,
+    "seconds": 0.1466844081878662
+  },
+  {
+    "n": 41,
+    "phase": "1/2",
+    "initial": 520,
+    "best": 521,
+    "projective": 521,
+    "parameters": [
+      0,
+      -0.25,
+      0.75
+    ],
+    "seconds": 0.1320657730102539,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-041-phase-1-2.json"
+  },
+  {
+    "n": 42,
+    "phase": "1/2",
+    "initial": 546,
+    "best": 546,
+    "projective": 546,
+    "parameters": null,
+    "seconds": 0.08887982368469238
+  },
+  {
+    "n": 43,
+    "phase": "1/2",
+    "initial": 574,
+    "best": 575,
+    "projective": 575,
+    "parameters": [
+      0,
+      -0.25,
+      0.75
+    ],
+    "seconds": 0.13889384269714355,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-043-phase-1-2.json"
+  },
+  {
+    "n": 44,
+    "phase": "1/2",
+    "initial": 602,
+    "best": 602,
+    "projective": 604,
+    "parameters": null,
+    "seconds": 0.1905059814453125
+  },
+  {
+    "n": 45,
+    "phase": "1/2",
+    "initial": 630,
+    "best": 632,
+    "projective": 633,
+    "parameters": [
+      0,
+      -1.25,
+      1.75
+    ],
+    "seconds": 0.27910423278808594,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-045-phase-1-2.json"
+  },
+  {
+    "n": 46,
+    "phase": "1/2",
+    "initial": 660,
+    "best": 660,
+    "projective": 662,
+    "parameters": null,
+    "seconds": 0.22989153861999512
+  },
+  {
+    "n": 47,
+    "phase": "1/2",
+    "initial": 690,
+    "best": 691,
+    "projective": 691,
+    "parameters": [
+      0,
+      -0.25,
+      0.75
+    ],
+    "seconds": 0.17385625839233398,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-047-phase-1-2.json"
+  },
+  {
+    "n": 48,
+    "phase": "1/2",
+    "initial": 720,
+    "best": 720,
+    "projective": 720,
+    "parameters": null,
+    "seconds": 0.13685870170593262
+  },
+  {
+    "n": 49,
+    "phase": "1/2",
+    "initial": 752,
+    "best": 753,
+    "projective": 753,
+    "parameters": [
+      0,
+      -0.25,
+      0.75
+    ],
+    "seconds": 0.20235419273376465,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-049-phase-1-2.json"
+  },
+  {
+    "n": 50,
+    "phase": "1/2",
+    "initial": 784,
+    "best": 784,
+    "projective": 786,
+    "parameters": null,
+    "seconds": 0.31948280334472656
+  },
+  {
+    "n": 51,
+    "phase": "1/2",
+    "initial": 816,
+    "best": 818,
+    "projective": 819,
+    "parameters": [
+      0,
+      -1.25,
+      1.75
+    ],
+    "seconds": 0.40560245513916016,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-051-phase-1-2.json"
+  },
+  {
+    "n": 52,
+    "phase": "1/2",
+    "initial": 850,
+    "best": 850,
+    "projective": 852,
+    "parameters": null,
+    "seconds": 0.2292652130126953
+  },
+  {
+    "n": 53,
+    "phase": "1/2",
+    "initial": 884,
+    "best": 885,
+    "projective": 885,
+    "parameters": [
+      0,
+      -0.25,
+      0.75
+    ],
+    "seconds": 0.2757260799407959,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-053-phase-1-2.json"
+  },
+  {
+    "n": 54,
+    "phase": "1/2",
+    "initial": 918,
+    "best": 918,
+    "projective": 918,
+    "parameters": null,
+    "seconds": 0.13902926445007324
+  },
+  {
+    "n": 55,
+    "phase": "1/2",
+    "initial": 954,
+    "best": 955,
+    "projective": 955,
+    "parameters": [
+      0,
+      -0.25,
+      0.75
+    ],
+    "seconds": 0.21283507347106934,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-055-phase-1-2.json"
+  },
+  {
+    "n": 56,
+    "phase": "1/2",
+    "initial": 990,
+    "best": 990,
+    "projective": 992,
+    "parameters": null,
+    "seconds": 0.23966288566589355
+  },
+  {
+    "n": 57,
+    "phase": "1/2",
+    "initial": 1026,
+    "best": 1028,
+    "projective": 1029,
+    "parameters": [
+      0,
+      -1.25,
+      1.75
+    ],
+    "seconds": 0.39859962463378906,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-057-phase-1-2.json"
+  },
+  {
+    "n": 58,
+    "phase": "1/2",
+    "initial": 1064,
+    "best": 1064,
+    "projective": 1066,
+    "parameters": null,
+    "seconds": 0.2757296562194824
+  },
+  {
+    "n": 59,
+    "phase": "1/2",
+    "initial": 1102,
+    "best": 1103,
+    "projective": 1103,
+    "parameters": [
+      0,
+      -0.25,
+      0.75
+    ],
+    "seconds": 0.2382678985595703,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-059-phase-1-2.json"
+  },
+  {
+    "n": 60,
+    "phase": "1/2",
+    "initial": 1140,
+    "best": 1140,
+    "projective": 1140,
+    "parameters": null,
+    "seconds": 0.1586775779724121
+  },
+  {
+    "n": 61,
+    "phase": "1/2",
+    "initial": 1180,
+    "best": 1181,
+    "projective": 1181,
+    "parameters": [
+      0,
+      -0.25,
+      0.75
+    ],
+    "seconds": 0.26518917083740234,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-061-phase-1-2.json"
+  },
+  {
+    "n": 62,
+    "phase": "1/2",
+    "initial": 1220,
+    "best": 1220,
+    "projective": 1222,
+    "parameters": null,
+    "seconds": 0.3165132999420166
+  },
+  {
+    "n": 63,
+    "phase": "1/2",
+    "initial": 1260,
+    "best": 1262,
+    "projective": 1263,
+    "parameters": [
+      0,
+      -1.25,
+      1.75
+    ],
+    "seconds": 0.4794952869415283,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-063-phase-1-2.json"
+  },
+  {
+    "n": 64,
+    "phase": "1/2",
+    "initial": 1302,
+    "best": 1302,
+    "projective": 1304,
+    "parameters": null,
+    "seconds": 0.3267664909362793
+  },
+  {
+    "n": 65,
+    "phase": "1/2",
+    "initial": 1344,
+    "best": 1345,
+    "projective": 1345,
+    "parameters": [
+      0,
+      -0.25,
+      0.75
+    ],
+    "seconds": 0.5135819911956787,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-065-phase-1-2.json"
+  },
+  {
+    "n": 66,
+    "phase": "1/2",
+    "initial": 1386,
+    "best": 1386,
+    "projective": 1386,
+    "parameters": null,
+    "seconds": 0.1709604263305664
+  },
+  {
+    "n": 67,
+    "phase": "1/2",
+    "initial": 1430,
+    "best": 1431,
+    "projective": 1431,
+    "parameters": [
+      0,
+      -0.25,
+      0.75
+    ],
+    "seconds": 0.2886338233947754,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-067-phase-1-2.json"
+  },
+  {
+    "n": 68,
+    "phase": "1/2",
+    "initial": 1474,
+    "best": 1474,
+    "projective": 1476,
+    "parameters": null,
+    "seconds": 0.36571335792541504
+  },
+  {
+    "n": 69,
+    "phase": "1/2",
+    "initial": 1518,
+    "best": 1520,
+    "projective": 1521,
+    "parameters": [
+      0,
+      -1.25,
+      1.75
+    ],
+    "seconds": 0.5720126628875732,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-069-phase-1-2.json"
+  },
+  {
+    "n": 70,
+    "phase": "1/2",
+    "initial": 1564,
+    "best": 1564,
+    "projective": 1566,
+    "parameters": null,
+    "seconds": 0.4096372127532959
+  },
+  {
+    "n": 71,
+    "phase": "1/2",
+    "initial": 1610,
+    "best": 1611,
+    "projective": 1611,
+    "parameters": [
+      0,
+      -0.25,
+      0.75
+    ],
+    "seconds": 0.31931042671203613,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-071-phase-1-2.json"
+  },
+  {
+    "n": 72,
+    "phase": "1/2",
+    "initial": 1656,
+    "best": 1656,
+    "projective": 1656,
+    "parameters": null,
+    "seconds": 0.20370125770568848
+  },
+  {
+    "n": 73,
+    "phase": "1/2",
+    "initial": 1704,
+    "best": 1705,
+    "projective": 1705,
+    "parameters": [
+      0,
+      -0.25,
+      0.75
+    ],
+    "seconds": 0.3372495174407959,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-073-phase-1-2.json"
+  },
+  {
+    "n": 74,
+    "phase": "1/2",
+    "initial": 1752,
+    "best": 1752,
+    "projective": 1754,
+    "parameters": null,
+    "seconds": 0.41593408584594727
+  },
+  {
+    "n": 75,
+    "phase": "1/2",
+    "initial": 1800,
+    "best": 1802,
+    "projective": 1803,
+    "parameters": [
+      0,
+      -1.25,
+      1.75
+    ],
+    "seconds": 0.6387176513671875,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-075-phase-1-2.json"
+  },
+  {
+    "n": 76,
+    "phase": "1/2",
+    "initial": 1850,
+    "best": 1850,
+    "projective": 1852,
+    "parameters": null,
+    "seconds": 0.4299046993255615
+  },
+  {
+    "n": 77,
+    "phase": "1/2",
+    "initial": 1900,
+    "best": 1901,
+    "projective": 1901,
+    "parameters": [
+      0,
+      -0.25,
+      0.75
+    ],
+    "seconds": 0.3780531883239746,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-077-phase-1-2.json"
+  },
+  {
+    "n": 78,
+    "phase": "1/2",
+    "initial": 1950,
+    "best": 1950,
+    "projective": 1950,
+    "parameters": null,
+    "seconds": 0.21998906135559082
+  },
+  {
+    "n": 79,
+    "phase": "1/2",
+    "initial": 2002,
+    "best": 2003,
+    "projective": 2003,
+    "parameters": [
+      0,
+      -0.25,
+      0.75
+    ],
+    "seconds": 0.4041900634765625,
+    "certificate": "experiments\\2026-09-21\\construction-search\\cusp-half\\fp-079-phase-1-2.json"
+  },
+  {
+    "n": 80,
+    "phase": "1/2",
+    "initial": 2054,
+    "best": 2054,
+    "projective": 2056,
+    "parameters": null,
+    "seconds": 0.4806971549987793
+  }
+]

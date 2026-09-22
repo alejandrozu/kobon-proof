@@ -46,6 +46,17 @@
     ]
   },
   {
+    "n": 8,
+    "baseline": 14,
+    "lower_bound": 15,
+    "gain": 1,
+    "theorem": "Kobon.Certificates.N008T00015Ha1380810.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-008.json",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-008.json"
+    ]
+  },
+  {
     "n": 9,
     "baseline": 18,
     "lower_bound": 21,
@@ -104,12 +115,11 @@
   {
     "n": 14,
     "baseline": 52,
-    "lower_bound": 53,
-    "gain": 1,
-    "theorem": "Kobon.Certificates.N014T00053H45157b2f.lower_bound",
+    "lower_bound": 54,
+    "gain": 2,
+    "theorem": "Kobon.Certificates.N014T00054Hd47aea63.lower_bound",
     "sources": [
-      "research/finite-table/classical-014.json",
-      "research/finite-table/simple-014.json"
+      "research/six-hour-2026-09-21/general-bounds/maiorana14/certificate-01.json"
     ]
   },
   {
@@ -170,14 +180,12 @@
   {
     "n": 20,
     "baseline": 114,
-    "lower_bound": 116,
-    "gain": 2,
-    "theorem": "Kobon.Certificates.N020T00116Hadc03eed.lower_bound",
+    "lower_bound": 117,
+    "gain": 3,
+    "theorem": "Kobon.Certificates.N020T00117H382171ac.lower_bound",
     "sources": [
-      "research/finite-table/classical-020.json",
-      "research/finite-table/simple-020.json",
-      "research/kobon-extension/certificates/chain_20.json",
-      "research/kobon-own-results/certificates/n020.json"
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-020.json",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-020.json"
     ]
   },
   {
@@ -238,12 +246,12 @@
   {
     "n": 26,
     "baseline": 200,
-    "lower_bound": 203,
-    "gain": 3,
-    "theorem": "Kobon.Certificates.N026T00203He61b423c.lower_bound",
+    "lower_bound": 204,
+    "gain": 4,
+    "theorem": "Kobon.Certificates.N026T00204Hf71379c4.lower_bound",
     "sources": [
-      "research/finite-table/classical-026.json",
-      "research/finite-table/simple-026.json"
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-026.json",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-026.json"
     ]
   },
   {
@@ -304,12 +312,12 @@
   {
     "n": 32,
     "baseline": 310,
-    "lower_bound": 314,
-    "gain": 4,
-    "theorem": "Kobon.Certificates.N032T00314H9ab78b00.lower_bound",
+    "lower_bound": 315,
+    "gain": 5,
+    "theorem": "Kobon.Certificates.N032T00315H5914f2bb.lower_bound",
     "sources": [
-      "research/finite-table/classical-032.json",
-      "research/finite-table/simple-032.json"
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-032.json",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-032.json"
     ]
   },
   {
@@ -370,23 +378,22 @@
   {
     "n": 38,
     "baseline": 444,
-    "lower_bound": 449,
-    "gain": 5,
-    "theorem": "Kobon.Certificates.N038T00449H46ad5a32.lower_bound",
+    "lower_bound": 450,
+    "gain": 6,
+    "theorem": "Kobon.Certificates.N038T00450H8ba2bdb1.lower_bound",
     "sources": [
-      "research/finite-table/classical-038.json",
-      "research/finite-table/simple-038.json"
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-038.json",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-038.json"
     ]
   },
   {
     "n": 39,
     "baseline": 468,
-    "lower_bound": 469,
-    "gain": 1,
-    "theorem": "Kobon.Certificates.N039T00469Hcf24d7d3.lower_bound",
+    "lower_bound": 470,
+    "gain": 2,
+    "theorem": "Kobon.Certificates.N039T00470H30caa6f7.lower_bound",
     "sources": [
-      "research/finite-table/classical-039.json",
-      "research/kobon-own-results/certificates/n039.json"
+      "research/six-hour-2026-09-21/certificates/n039.json"
     ]
   },
   {
@@ -453,7 +460,29 @@
     "theorem": "Kobon.Certificates.N046T00667H32b8ca2f.lower_bound",
     "sources": [
       "research/finite-table/classical-046.json",
-      "research/finite-table/simple-046.json"
+      "research/finite-table/simple-046.json",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-046.json",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-046.json"
+    ]
+  },
+  {
+    "n": 47,
+    "baseline": 690,
+    "lower_bound": 691,
+    "gain": 1,
+    "theorem": "Kobon.Certificates.N047T00691Hfac44af1.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n047.json"
+    ]
+  },
+  {
+    "n": 48,
+    "baseline": 720,
+    "lower_bound": 721,
+    "gain": 1,
+    "theorem": "Kobon.Certificates.N048T00721H2fb5ef0d.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n048.json"
     ]
   },
   {
@@ -470,24 +499,52 @@
   {
     "n": 50,
     "baseline": 784,
-    "lower_bound": 791,
-    "gain": 7,
-    "theorem": "Kobon.Certificates.N050T00791H2ea22b55.lower_bound",
+    "lower_bound": 792,
+    "gain": 8,
+    "theorem": "Kobon.Certificates.N050T00792H3d40cb58.lower_bound",
     "sources": [
-      "research/finite-table/classical-050.json",
-      "research/finite-table/simple-050.json"
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/certificate-050.json",
+      "research/six-hour-2026-09-21/general-bounds/parpalak-utkin-current/upstream-050.json"
     ]
   },
   {
     "n": 51,
     "baseline": 816,
-    "lower_bound": 817,
-    "gain": 1,
-    "theorem": "Kobon.Certificates.N051T00817Hbd215f67.lower_bound",
+    "lower_bound": 818,
+    "gain": 2,
+    "theorem": "Kobon.Certificates.N051T00818Hc18e1baf.lower_bound",
     "sources": [
-      "research/finite-table/classical-051.json",
-      "research/kobon-own-results/certificates/n051.json",
-      "research/kobon-research/certificates/n051.json"
+      "research/six-hour-2026-09-21/certificates/n051.json"
+    ]
+  },
+  {
+    "n": 53,
+    "baseline": 884,
+    "lower_bound": 885,
+    "gain": 1,
+    "theorem": "Kobon.Certificates.N053T00885H6bc5b14d.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n053.json"
+    ]
+  },
+  {
+    "n": 54,
+    "baseline": 918,
+    "lower_bound": 919,
+    "gain": 1,
+    "theorem": "Kobon.Certificates.N054T00919Ha254c1b4.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n054.json"
+    ]
+  },
+  {
+    "n": 55,
+    "baseline": 954,
+    "lower_bound": 955,
+    "gain": 1,
+    "theorem": "Kobon.Certificates.N055T00955H202625a3.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n055.json"
     ]
   },
   {
@@ -513,6 +570,46 @@
     ]
   },
   {
+    "n": 59,
+    "baseline": 1102,
+    "lower_bound": 1103,
+    "gain": 1,
+    "theorem": "Kobon.Certificates.N059T01103Hba482375.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n059.json"
+    ]
+  },
+  {
+    "n": 60,
+    "baseline": 1140,
+    "lower_bound": 1141,
+    "gain": 1,
+    "theorem": "Kobon.Certificates.N060T01141H9bc5096c.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n060.json"
+    ]
+  },
+  {
+    "n": 65,
+    "baseline": 1344,
+    "lower_bound": 1365,
+    "gain": 21,
+    "theorem": "Kobon.Certificates.N065T01365Hb1dcbeb4.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n065.json"
+    ]
+  },
+  {
+    "n": 66,
+    "baseline": 1386,
+    "lower_bound": 1397,
+    "gain": 11,
+    "theorem": "Kobon.Certificates.N066T01397H327ecbb9.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n066.json"
+    ]
+  },
+  {
     "n": 81,
     "baseline": 2106,
     "lower_bound": 2132,
@@ -535,12 +632,31 @@
   {
     "n": 99,
     "baseline": 3168,
-    "lower_bound": 3169,
-    "gain": 1,
-    "theorem": "Kobon.Certificates.N099T03169H4fef38d8.lower_bound",
+    "lower_bound": 3170,
+    "gain": 2,
+    "theorem": "Kobon.Certificates.N099T03170Hea507e2d.lower_bound",
     "sources": [
-      "research/kobon-own-results/certificates/n099.json",
-      "research/kobon-research/certificates/n099.json"
+      "research/six-hour-2026-09-21/certificates/n099.json"
+    ]
+  },
+  {
+    "n": 129,
+    "baseline": 5418,
+    "lower_bound": 5461,
+    "gain": 43,
+    "theorem": "Kobon.Certificates.N129T05461H6dae0012.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n129.json"
+    ]
+  },
+  {
+    "n": 130,
+    "baseline": 5504,
+    "lower_bound": 5525,
+    "gain": 21,
+    "theorem": "Kobon.Certificates.N130T05525He0559b54.lower_bound",
+    "sources": [
+      "research/six-hour-2026-09-21/certificates/n130.json"
     ]
   },
   {
@@ -566,12 +682,11 @@
   {
     "n": 195,
     "baseline": 12480,
-    "lower_bound": 12481,
-    "gain": 1,
-    "theorem": "Kobon.Certificates.N195T12481Hcd3497db.lower_bound",
+    "lower_bound": 12482,
+    "gain": 2,
+    "theorem": "Kobon.Certificates.N195T12482H5413dd7b.lower_bound",
     "sources": [
-      "research/kobon-own-results/certificates/n195.json",
-      "research/kobon-research/certificates/n195.json"
+      "research/six-hour-2026-09-21/certificates/n195.json"
     ]
   }
 ]

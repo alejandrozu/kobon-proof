@@ -1,0 +1,40 @@
+{
+  "n": 5,
+  "triangle_count": 3,
+  "simple": true,
+  "lines_frac": [
+    [
+      "1308422953",
+      "-9913614087",
+      "91022624"
+    ],
+    [
+      "3246148086",
+      "-37314720",
+      "-9458389409"
+    ],
+    [
+      "3100505238",
+      "-279944067",
+      "-9503078374"
+    ],
+    [
+      "2991071963",
+      "36525235",
+      "-9542125257"
+    ],
+    [
+      "3134070472",
+      "280732741",
+      "-9492038317"
+    ]
+  ],
+  "method": "rational rounding of elliptic-curve torsion coset dual",
+  "verification": "exact adjacency; direct-sign check pending",
+  "projective_float": 5,
+  "na": 1,
+  "nb": 4,
+  "modulus": 0.03,
+  "phasea": 0.08333333333333333,
+  "phaseb": 0.08333333333333333
+}

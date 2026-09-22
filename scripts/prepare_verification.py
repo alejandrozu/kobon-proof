@@ -54,6 +54,14 @@ for row in old:
     d = max((d for d in records if d['n']==n),key=lambda d:d['triangles'])
     assert d['triangles']>=T
     body += f'theorem earlier_{n:03d} : LowerBound {n} {T} :=\n  {d["theorem"]}.mono (by decide)\n'
+for n in sorted({d['n'] for d in records}):
+    candidates=[d for d in records if d['n']==n]
+    best=max(candidates,key=lambda d:d['triangles'])
+    body+=f'theorem best_classical_{n:03d} : LowerBound {n} {best["triangles"]} := {best["theorem"]}\n'
+    simple=[d for d in candidates if d['simple']]
+    if simple:
+        best=max(simple,key=lambda d:d['triangles'])
+        body+=f'theorem best_simple_{n:03d} : SimpleLowerBound {n} {best["triangles"]} := {best["simple_theorem"]}\n'
 body += '\nend Kobon.Results\n'
 (ROOT/'Kobon/Results.lean').write_text(body,encoding='utf-8')
 
@@ -61,10 +69,23 @@ core = ['Kobon.Geometry','Kobon.Simple','Kobon.Euclidean','Kobon.BoundaryExtensi
         'Kobon.RationalExamples','Kobon.Families','Kobon.AffineLemmas',
         'Kobon.Parametric','Kobon.TangentBounds','Kobon.SeedFamily',
         'Kobon.Exterior','Kobon.Iteration','Kobon.Iteration49',
-        'Kobon.FurediPalastiCount','Kobon.FurediPalasti']
-(ROOT/'Kobon.lean').write_text(''.join('import '+m+'\n' for m in core+['Kobon.Results','Kobon.AllN']),encoding='utf-8')
+        'Kobon.FurediPalastiCount','Kobon.FurediPalasti',
+        'Kobon.ShiftedCount','Kobon.ShiftedFurediPalasti','Kobon.Projective',
+        'Kobon.FurediPalastiChart','Kobon.FurediPalastiWrap',
+        'Kobon.FurediPalastiCaps','Kobon.FurediPalastiTwoCaps',
+        'Kobon.HybridBoundary','Kobon.BBLExtrema','Kobon.BBLTangentBounds',
+        'Kobon.BBLSeed21','Kobon.BBLMaximization','Kobon.BBLAnalytic',
+        'Kobon.CleanLineBudget']
+# Every active top-level proof module participates in the release audit.
+# Unfinished experiments belong under research/, not silently outside this list.
+excluded={'AllN','Universal','Results','Audit'}
+for path in sorted((ROOT/'Kobon').glob('*.lean')):
+    module='Kobon.'+path.stem
+    if path.stem not in excluded and module not in core:
+        core.append(module)
+(ROOT/'Kobon.lean').write_text(''.join('import '+m+'\n' for m in core+['Kobon.Results','Kobon.AllN','Kobon.Universal']),encoding='utf-8')
 (ROOT/'verification/certificate-index.json').write_text(json.dumps(records,indent=2)+'\n')
-(ROOT/'verification/build-targets.json').write_text(json.dumps(core+targets+['Kobon.AllN','Kobon','Kobon.Audit'],indent=2)+'\n')
+(ROOT/'verification/build-targets.json').write_text(json.dumps(core+targets+['Kobon.AllN','Kobon.Universal','Kobon','Kobon.Audit'],indent=2)+'\n')
 
 audit = '''import Kobon
 import Lean.Util.CollectAxioms

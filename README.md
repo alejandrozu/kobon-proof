@@ -2,7 +2,13 @@
 
 Research repository of **Alejandro Zarzuelo Urdiales**. This revision consolidates the March 2026 paper and the subsequent extension, comparison, and hybrid-construction work.
 
-**An unconditional lower bound for every natural order is now proved in Lean.** `Kobon.AllN.all_n` combines a complete real-coordinate proof of the classical Furedi–Palasti baseline `ceil(n(n-3)/3)` with 52 stronger saved finite values. It also proves the former 49-seed numerical target unconditionally. See [the all-order report](research/all-n-formalization/README.md). The unrestricted full-gain recurrence and the separate BBL-based hybrid-family geometry remain unfinished; [FORMALIZATION.md](FORMALIZATION.md) distinguishes these obligations.
+**A stronger explicit lower bound for every natural order is now proved in Lean.** For `n >= 4`, `Kobon.Universal.baseline_sound` constructs a simple real-line arrangement with at least
+
+`G(n) = floor(n(n-3)/3) + 1 + (n mod 2)`
+
+triangles, with `G(0)=G(1)=G(2)=0` and `G(3)=1`. It improves the previously formalized classical ceiling baseline by 0, 1, or 2 triangles, depending on the residue class. `Universal.all_n` takes the maximum with every saved finite certificate. The infinite geometric proof uses only Lean's standard logical axioms. This is a verified refinement of a classical construction, not an established claim of first numerical discovery or a solution of the Kobon problem.
+
+Read the [cumulative research review](research/six-hour-2026-09-21/RESEARCH_REVIEW.md) and [formula and novelty audit](research/six-hour-2026-09-21/phase-proof.md). The unrestricted full-gain recurrence and end-to-end infinite BBL iteration remain separate obligations; [FORMALIZATION.md](FORMALIZATION.md) records the distinction.
 
 Start with:
 
@@ -14,9 +20,9 @@ Start with:
 - [evidence/sources.json](evidence/sources.json): source URLs, roles, versions, and provenance.
 - [verification/lean-summary.json](verification/lean-summary.json): build outcomes and source hashes; [coordinate-summary.json](verification/coordinate-summary.json): independent exact counts.
 
-The retained finite highlights are 39:469, 44:608, 51:817, 81:2132, 82:2172, 99:3169, 161:8532, 162:8612, and 195:12481. These are lower bounds, **not claims of first discovery or an exhaustive global record survey**. Construction inputs retain their original authorship. Classical Kobon arrangements may have multiple intersections; simple arrangements may not. Never apply an upper bound for the simple variant to the classical problem.
+The finite catalog includes independently reproduced recent witnesses from Andrea Maiorana and Parpalak–Utkin, including 14:54, 20:117, 26:204, 32:315, 38:450, and 50:792. These published results retain their authorship. The new universal formula also supersedes several earlier repository values, for example 39:470, 51:818, 99:3170, and 195:12482. These are lower bounds, **not claims of first discovery or an exhaustive global record survey**. Classical arrangements may have multiple intersections; simple arrangements may not. An upper bound for simple arrangements cannot automatically be used for the classical problem.
 
-The consolidation verified **86 distinct finite coordinate certificates**, including **75 simple witnesses**, and preserved **212 experimental files**. The earlier 3–60 inventory inequalities all have finite witnesses and named Lean aliases. This count includes published inputs, weaker checkpoints, and reproduced comparisons, not 86 original discoveries.
+The current catalog contains **138 distinct finite coordinate certificates**, including **104 simple witnesses**, with exact coordinates, source provenance, and named Lean theorems. The earlier 3–60 inventory inequalities retain finite witnesses and named aliases. These counts include published inputs, weaker checkpoints, and reproduced comparisons; they are not counts of original discoveries. The final build and coordinate summaries give the verification status for this revision.
 
 ## Verify from a fresh checkout
 
@@ -42,6 +48,12 @@ Finite certificates use Lean's `native_decide`: this is placeholder-free but tru
 | `Kobon/Certificates/`, `SimpleCertificates/` | Explicit coordinates, triangle lists, finite lower bounds, simplicity checks |
 | `Kobon/Results.lean` | Named 3–60 table results and every earlier numerical inventory claim |
 | `Kobon/FurediPalastiCount.lean`, `FurediPalasti.lean`, `AllN.lean` | Proved all-order classical construction, finite enhancement envelope, and unconditional 49-seed numerical target |
+| `Kobon/Universal.lean`, `ShiftedFurediPalasti.lean`, `FurediPalastiTwoCaps.lean` | Stronger parity-sensitive all-order construction and precise improvement formula |
+| `Kobon/Cells.lean` | Actual uncut triangle interiors, sign cells, and disjointness |
+| `Kobon/BBL*.lean`, `Reindex.lean` | Real analytic doubling ingredients, crossing-order geometry, cap replacement, visibility and finite assembly |
+| `Kobon/SharedFan.lean`, `FanGeometry.lean`, `FanCount.lean`, `CyclicFan.lean`, `CleanLineBudget.lean` | Verified local incidence geometry and explicitly conditional upper-budget arithmetic |
+| `research/six-hour-2026-09-21/` | Three-hour session review, evidence, current proof status, and separately labeled drafts |
+| `experiments/2026-09-21/` | Reproducible searches, local obstructions, exact finite families and negative results |
 | `Kobon/BoundaryExtension.lean` | Cyclic counting and conditional numerical extension consequences |
 | `Kobon/Exterior.lean` | Real exterior construction and triangle creation/counting from visible old pairs, for either parity |
 | `Kobon/Parametric.lean`, `TangentBounds.lean`, `SeedFamily.lean` | Real parameter family, exact tangent enclosures, and arbitrarily small valid eleven-line seeds |

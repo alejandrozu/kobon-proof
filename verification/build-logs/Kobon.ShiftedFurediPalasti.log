@@ -1,0 +1,13 @@
+ℹ [775/920] Replayed Kobon.Geometry
+info: Kobon/Geometry.lean:144:0: 'Kobon.validate_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Geometry.lean:145:0: 'Kobon.orientedEval_affine' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [776/920] Replayed Kobon.Simple
+info: Kobon/Simple.lean:49:0: 'Kobon.validate_simple_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2969/2971] Replayed Kobon.FurediPalasti
+info: Kobon/FurediPalasti.lean:345:0: 'Kobon.FurediPalasti.lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2970/2971] Replayed Kobon.ShiftedCount
+info: Kobon/ShiftedCount.lean:67:0: 'Kobon.ShiftedCount.ordered_bound_plus' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2971/2971] Replayed Kobon.ShiftedFurediPalasti
+info: Kobon/ShiftedFurediPalasti.lean:321:0: 'Kobon.ShiftedFurediPalasti.simple_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/ShiftedFurediPalasti.lean:322:0: 'Kobon.ShiftedFurediPalasti.lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (2971 jobs).

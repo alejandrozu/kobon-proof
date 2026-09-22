@@ -1,0 +1,32 @@
+ℹ [775/790] Replayed Kobon.Geometry
+info: Kobon/Geometry.lean:144:0: 'Kobon.validate_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Geometry.lean:145:0: 'Kobon.orientedEval_affine' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [776/790] Replayed Kobon.Simple
+info: Kobon/Simple.lean:49:0: 'Kobon.validate_simple_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2969/2973] Replayed Kobon.FurediPalasti
+info: Kobon/FurediPalasti.lean:345:0: 'Kobon.FurediPalasti.lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2970/2973] Replayed Kobon.Euclidean
+info: Kobon/Euclidean.lean:147:0: 'Kobon.supporting_triangle_nondegenerate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Euclidean.lean:148:0: 'Kobon.same_halfplane_barycenter' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Euclidean.lean:149:0: 'Kobon.triangle_interior_uncut' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2971/2973] Replayed Kobon.Projective
+info: Kobon/Projective.lean:165:0: 'Kobon.Projective.triangle_preserved' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [2972/2973] Replayed Kobon.FurediPalastiChart
+warning: Kobon/FurediPalastiChart.lean:31:65: This simp argument is unused:
+  add_left_comm
+
+Hint: Omit it from the simp argument list.
+  simp [̵v̵e̵r̵t̵e̵x̵X̵,̵a̵d̵d̵_̵c̵o̵m̵m̵,̵a̵d̵d̵_̵l̵e̵f̵t̵_̵c̵o̵m̵m̵]̵[̲v̲e̲r̲t̲e̲x̲X̲,̲ ̲a̲d̲d̲_̲c̲o̲m̲m̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Kobon/FurediPalastiChart.lean:32:65: This simp argument is unused:
+  add_left_comm
+
+Hint: Omit it from the simp argument list.
+  simp [̵v̵e̵r̵t̵e̵x̵Y̵,̵a̵d̵d̵_̵c̵o̵m̵m̵,̵a̵d̵d̵_̵l̵e̵f̵t̵_̵c̵o̵m̵m̵]̵[̲v̲e̲r̲t̲e̲x̲Y̲,̲ ̲a̲d̲d̲_̲c̲o̲m̲m̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+ℹ [2973/2973] Replayed Kobon.FurediPalastiWrap
+info: Kobon/FurediPalastiWrap.lean:235:0: 'Kobon.FurediPalastiWrap.wrap_triangle' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/FurediPalastiWrap.lean:236:0: 'Kobon.FurediPalastiWrap.one_cap_simple_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (2973 jobs).

@@ -1,0 +1,18 @@
+{
+  "source": "research/finite-table/classical-044.json",
+  "n": 44,
+  "initial": 608,
+  "best": 608,
+  "combinatorial_boundary_best": 608,
+  "rounds": 3,
+  "nodes": 771,
+  "edges": 446422,
+  "lp_attempts": 0,
+  "width": 16,
+  "depth": 16,
+  "drop": 4,
+  "seed": 2026092206,
+  "seconds": 323.06200000003446,
+  "events": [],
+  "limitations": "Heuristic topology search; floating LP negatives are not infeasibility certificates."
+}

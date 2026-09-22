@@ -1,0 +1,15 @@
+{
+  "n": 39,
+  "source": "research/finite-table/classical-039.json",
+  "initial": 469,
+  "best": 469,
+  "projective_triangles": 473,
+  "vertices": 735,
+  "proposals": 1078980,
+  "exact_candidates": 0,
+  "false_positives": 0,
+  "seconds": 11.362194776535034,
+  "seed": 221,
+  "improvements": [],
+  "limitations": "Floating candidate ranking is heuristic; no exhaustive optimality claim."
+}

@@ -1,0 +1,7543 @@
+{
+  "initial": 721,
+  "best": 721,
+  "projective_best": 724,
+  "events": [
+    {
+      "step": 1,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": -1,
+      "projective_gain": -2,
+      "score": 720,
+      "projective": 722,
+      "mode": "offset",
+      "margin": 0.0017520502122491729,
+      "seconds": 5.230806112289429,
+      "attempts": 1
+    },
+    {
+      "step": 2,
+      "triangle": [
+        1,
+        2,
+        46
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 719,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.0012076784346802968,
+      "seconds": 6.2940943241119385,
+      "attempts": 2
+    },
+    {
+      "step": 3,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 1,
+      "score": 719,
+      "projective": 722,
+      "mode": "normal_b",
+      "margin": 0.0008884300375187025,
+      "seconds": 11.513276815414429,
+      "attempts": 3
+    },
+    {
+      "step": 4,
+      "triangle": [
+        0,
+        2,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 722,
+      "mode": "offset",
+      "margin": 0.0019307294490036667,
+      "seconds": 15.477022409439087,
+      "attempts": 4
+    },
+    {
+      "step": 5,
+      "triangle": [
+        1,
+        2,
+        46
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 722,
+      "mode": "normal_b",
+      "margin": 0.000992756301197235,
+      "seconds": 21.22349214553833,
+      "attempts": 5
+    },
+    {
+      "step": 6,
+      "triangle": [
+        0,
+        3,
+        46
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 718,
+      "projective": 721,
+      "mode": "normal",
+      "margin": 0.0010571540696914482,
+      "seconds": 27.392868757247925,
+      "attempts": 6
+    },
+    {
+      "step": 7,
+      "triangle": [
+        1,
+        2,
+        46
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.0027766691961967015,
+      "seconds": 32.52114391326904,
+      "attempts": 7
+    },
+    {
+      "step": 8,
+      "triangle": [
+        1,
+        3,
+        45
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 721,
+      "mode": "normal_b",
+      "margin": 0.001073905046911846,
+      "seconds": 37.89960813522339,
+      "attempts": 8
+    },
+    {
+      "step": 9,
+      "triangle": [
+        2,
+        3,
+        44
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 721,
+      "mode": "normal",
+      "margin": 0.0010167372561219767,
+      "seconds": 42.60668087005615,
+      "attempts": 9
+    },
+    {
+      "step": 10,
+      "triangle": [
+        0,
+        2,
+        47
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 717,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.0030014391108722635,
+      "seconds": 46.474918365478516,
+      "attempts": 10
+    },
+    {
+      "step": 11,
+      "triangle": [
+        0,
+        3,
+        46
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 720,
+      "mode": "normal",
+      "margin": 0.0004527351295135088,
+      "seconds": 47.8925142288208,
+      "attempts": 11
+    },
+    {
+      "step": 12,
+      "triangle": [
+        1,
+        2,
+        46
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 718,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.0029236487697012364,
+      "seconds": 51.87690734863281,
+      "attempts": 12
+    },
+    {
+      "step": 13,
+      "triangle": [
+        1,
+        3,
+        45
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 719,
+      "projective": 722,
+      "mode": "normal_b",
+      "margin": 0.0012063553034154606,
+      "seconds": 57.06270122528076,
+      "attempts": 13
+    },
+    {
+      "step": 14,
+      "triangle": [
+        1,
+        2,
+        45
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 718,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.004454948346873525,
+      "seconds": 60.84968447685242,
+      "attempts": 14
+    },
+    {
+      "step": 15,
+      "triangle": [
+        2,
+        3,
+        44
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 719,
+      "projective": 722,
+      "mode": "offset",
+      "margin": 0.004449289577419335,
+      "seconds": 61.69365048408508,
+      "attempts": 15
+    },
+    {
+      "step": 16,
+      "triangle": [
+        1,
+        3,
+        44
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 718,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.004030629575109303,
+      "seconds": 62.83892035484314,
+      "attempts": 16
+    },
+    {
+      "step": 17,
+      "triangle": [
+        1,
+        2,
+        44
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 717,
+      "projective": 720,
+      "mode": "normal_b",
+      "margin": 0.0013308651556039877,
+      "seconds": 67.83558320999146,
+      "attempts": 18
+    },
+    {
+      "step": 18,
+      "triangle": [
+        1,
+        2,
+        3
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 716,
+      "projective": 719,
+      "mode": "normal_b",
+      "margin": 0.0013293600713939503,
+      "seconds": 75.23198103904724,
+      "attempts": 19
+    },
+    {
+      "step": 19,
+      "triangle": [
+        2,
+        3,
+        44
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 717,
+      "projective": 720,
+      "mode": "normal_b",
+      "margin": 0.0013325887974403332,
+      "seconds": 84.97594690322876,
+      "attempts": 20
+    },
+    {
+      "step": 20,
+      "triangle": [
+        1,
+        3,
+        44
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.0066596806843014405,
+      "seconds": 90.61570048332214,
+      "attempts": 21
+    },
+    {
+      "step": 21,
+      "triangle": [
+        1,
+        2,
+        44
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 718,
+      "projective": 721,
+      "mode": "normal",
+      "margin": 0.0018054847987589522,
+      "seconds": 92.14276075363159,
+      "attempts": 22
+    },
+    {
+      "step": 22,
+      "triangle": [
+        31,
+        32,
+        33
+      ],
+      "gain": -1,
+      "projective_gain": -2,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.0018051848228079464,
+      "seconds": 97.19921469688416,
+      "attempts": 23
+    },
+    {
+      "step": 23,
+      "triangle": [
+        1,
+        2,
+        3
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.002022693573806343,
+      "seconds": 101.73347640037537,
+      "attempts": 24
+    },
+    {
+      "step": 24,
+      "triangle": [
+        1,
+        2,
+        45
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal",
+      "margin": 0.0013458017181019173,
+      "seconds": 106.1549220085144,
+      "attempts": 25
+    },
+    {
+      "step": 25,
+      "triangle": [
+        2,
+        3,
+        44
+      ],
+      "gain": 2,
+      "projective_gain": 2,
+      "score": 720,
+      "projective": 722,
+      "mode": "offset",
+      "margin": 0.006178732792629051,
+      "seconds": 109.89026951789856,
+      "attempts": 26
+    },
+    {
+      "step": 26,
+      "triangle": [
+        30,
+        32,
+        34
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 719,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.005194831429855478,
+      "seconds": 110.51884865760803,
+      "attempts": 27
+    },
+    {
+      "step": 27,
+      "triangle": [
+        30,
+        31,
+        35
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.004232840399074954,
+      "seconds": 111.20179200172424,
+      "attempts": 28
+    },
+    {
+      "step": 28,
+      "triangle": [
+        30,
+        32,
+        33
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal",
+      "margin": 0.001931517322714924,
+      "seconds": 112.42712950706482,
+      "attempts": 29
+    },
+    {
+      "step": 29,
+      "triangle": [
+        30,
+        31,
+        35
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal_b",
+      "margin": 0.0012842505851592982,
+      "seconds": 120.0491771697998,
+      "attempts": 30
+    },
+    {
+      "step": 30,
+      "triangle": [
+        32,
+        33,
+        34
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 717,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.004859684061964155,
+      "seconds": 124.24996328353882,
+      "attempts": 31
+    },
+    {
+      "step": 31,
+      "triangle": [
+        30,
+        33,
+        34
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 718,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.00545326394815963,
+      "seconds": 125.08916759490967,
+      "attempts": 32
+    },
+    {
+      "step": 32,
+      "triangle": [
+        30,
+        32,
+        34
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.004748857141173066,
+      "seconds": 125.99832463264465,
+      "attempts": 33
+    },
+    {
+      "step": 33,
+      "triangle": [
+        30,
+        32,
+        33
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 719,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.004861387826950198,
+      "seconds": 127.02817106246948,
+      "attempts": 34
+    },
+    {
+      "step": 34,
+      "triangle": [
+        31,
+        33,
+        34
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 721,
+      "mode": "normal_b",
+      "margin": 0.0010053745138911582,
+      "seconds": 131.6513090133667,
+      "attempts": 35
+    },
+    {
+      "step": 35,
+      "triangle": [
+        31,
+        32,
+        34
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 721,
+      "mode": "normal",
+      "margin": 0.0017970045492525606,
+      "seconds": 135.85820651054382,
+      "attempts": 36
+    },
+    {
+      "step": 36,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": -1,
+      "projective_gain": -2,
+      "score": 718,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.0018064010908768358,
+      "seconds": 140.3905177116394,
+      "attempts": 37
+    },
+    {
+      "step": 37,
+      "triangle": [
+        31,
+        32,
+        34
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.004529042795607403,
+      "seconds": 143.88928985595703,
+      "attempts": 38
+    },
+    {
+      "step": 38,
+      "triangle": [
+        31,
+        33,
+        34
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.005094601534505726,
+      "seconds": 144.55500650405884,
+      "attempts": 39
+    },
+    {
+      "step": 39,
+      "triangle": [
+        32,
+        33,
+        34
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.0019602224036750953,
+      "seconds": 145.73825120925903,
+      "attempts": 40
+    },
+    {
+      "step": 40,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": 1,
+      "projective_gain": 2,
+      "score": 719,
+      "projective": 721,
+      "mode": "normal",
+      "margin": 0.0019588050983607324,
+      "seconds": 150.2848014831543,
+      "attempts": 41
+    },
+    {
+      "step": 41,
+      "triangle": [
+        31,
+        32,
+        33
+      ],
+      "gain": 0,
+      "projective_gain": 1,
+      "score": 719,
+      "projective": 722,
+      "mode": "offset",
+      "margin": 0.0034961680784455986,
+      "seconds": 154.38419222831726,
+      "attempts": 42
+    },
+    {
+      "step": 42,
+      "triangle": [
+        31,
+        32,
+        34
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 722,
+      "mode": "offset",
+      "margin": 0.006014481159195652,
+      "seconds": 154.9864320755005,
+      "attempts": 43
+    },
+    {
+      "step": 43,
+      "triangle": [
+        30,
+        33,
+        34
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 722,
+      "mode": "offset",
+      "margin": 0.0063570619107104764,
+      "seconds": 155.6174192428589,
+      "attempts": 44
+    },
+    {
+      "step": 44,
+      "triangle": [
+        30,
+        31,
+        35
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 718,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.005217742797810924,
+      "seconds": 156.30891799926758,
+      "attempts": 45
+    },
+    {
+      "step": 45,
+      "triangle": [
+        31,
+        32,
+        34
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 719,
+      "projective": 722,
+      "mode": "normal",
+      "margin": 0.0021120014689915887,
+      "seconds": 157.658216714859,
+      "attempts": 46
+    },
+    {
+      "step": 46,
+      "triangle": [
+        30,
+        32,
+        34
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 718,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.003676073836605808,
+      "seconds": 161.10677027702332,
+      "attempts": 47
+    },
+    {
+      "step": 47,
+      "triangle": [
+        30,
+        31,
+        35
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.001632934983573979,
+      "seconds": 161.75870156288147,
+      "attempts": 48
+    },
+    {
+      "step": 48,
+      "triangle": [
+        29,
+        33,
+        34
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 717,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.00463873093907456,
+      "seconds": 162.3877878189087,
+      "attempts": 49
+    },
+    {
+      "step": 49,
+      "triangle": [
+        30,
+        32,
+        34
+      ],
+      "gain": 2,
+      "projective_gain": 2,
+      "score": 719,
+      "projective": 722,
+      "mode": "normal",
+      "margin": 0.002157651857264117,
+      "seconds": 163.53037881851196,
+      "attempts": 50
+    },
+    {
+      "step": 50,
+      "triangle": [
+        28,
+        34,
+        35
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 718,
+      "projective": 721,
+      "mode": "normal_b",
+      "margin": 0.0017974057242260266,
+      "seconds": 170.9622039794922,
+      "attempts": 51
+    },
+    {
+      "step": 51,
+      "triangle": [
+        29,
+        33,
+        34
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 719,
+      "projective": 722,
+      "mode": "offset",
+      "margin": 0.005844688994708764,
+      "seconds": 174.55651473999023,
+      "attempts": 52
+    },
+    {
+      "step": 52,
+      "triangle": [
+        29,
+        33,
+        35
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 718,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.0036136665965366627,
+      "seconds": 175.2169189453125,
+      "attempts": 53
+    },
+    {
+      "step": 53,
+      "triangle": [
+        28,
+        34,
+        35
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.003613666596540805,
+      "seconds": 175.8278467655182,
+      "attempts": 54
+    },
+    {
+      "step": 54,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": -1,
+      "projective_gain": -2,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal_b",
+      "margin": 0.000853162925191912,
+      "seconds": 179.86468505859375,
+      "attempts": 55
+    },
+    {
+      "step": 55,
+      "triangle": [
+        28,
+        34,
+        35
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal_b",
+      "margin": 0.0011515731001113974,
+      "seconds": 186.62588262557983,
+      "attempts": 56
+    },
+    {
+      "step": 56,
+      "triangle": [
+        29,
+        33,
+        35
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal",
+      "margin": 0.0016595300517505934,
+      "seconds": 190.84125876426697,
+      "attempts": 57
+    },
+    {
+      "step": 57,
+      "triangle": [
+        1,
+        2,
+        46
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal_b",
+      "margin": 0.0016457164102876946,
+      "seconds": 198.10771870613098,
+      "attempts": 58
+    },
+    {
+      "step": 58,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 1,
+      "score": 717,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.005493256099840606,
+      "seconds": 201.6161720752716,
+      "attempts": 59
+    },
+    {
+      "step": 59,
+      "triangle": [
+        0,
+        2,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.0028862188977380396,
+      "seconds": 202.43866777420044,
+      "attempts": 60
+    },
+    {
+      "step": 60,
+      "triangle": [
+        1,
+        2,
+        46
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.0028862188977378804,
+      "seconds": 203.11127591133118,
+      "attempts": 61
+    },
+    {
+      "step": 61,
+      "triangle": [
+        31,
+        32,
+        33
+      ],
+      "gain": -1,
+      "projective_gain": -2,
+      "score": 716,
+      "projective": 718,
+      "mode": "offset",
+      "margin": 0.002747132661466831,
+      "seconds": 203.7348096370697,
+      "attempts": 62
+    },
+    {
+      "step": 62,
+      "triangle": [
+        0,
+        2,
+        47
+      ],
+      "gain": 2,
+      "projective_gain": 2,
+      "score": 718,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.004604334260000931,
+      "seconds": 204.3942244052887,
+      "attempts": 63
+    },
+    {
+      "step": 63,
+      "triangle": [
+        15,
+        16,
+        17
+      ],
+      "gain": -1,
+      "projective_gain": -2,
+      "score": 717,
+      "projective": 718,
+      "mode": "normal",
+      "margin": 0.001715942614692854,
+      "seconds": 205.61937189102173,
+      "attempts": 64
+    },
+    {
+      "step": 64,
+      "triangle": [
+        28,
+        34,
+        35
+      ],
+      "gain": 2,
+      "projective_gain": 2,
+      "score": 719,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.00633254249798092,
+      "seconds": 209.25876331329346,
+      "attempts": 65
+    },
+    {
+      "step": 65,
+      "triangle": [
+        31,
+        32,
+        33
+      ],
+      "gain": 1,
+      "projective_gain": 2,
+      "score": 720,
+      "projective": 722,
+      "mode": "offset",
+      "margin": 0.0078106928902829985,
+      "seconds": 210.08914351463318,
+      "attempts": 66
+    },
+    {
+      "step": 66,
+      "triangle": [
+        14,
+        17,
+        18
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 719,
+      "projective": 721,
+      "mode": "normal",
+      "margin": 0.0015999655253654084,
+      "seconds": 211.71754956245422,
+      "attempts": 67
+    },
+    {
+      "step": 67,
+      "triangle": [
+        15,
+        16,
+        17
+      ],
+      "gain": 0,
+      "projective_gain": 1,
+      "score": 719,
+      "projective": 722,
+      "mode": "normal_b",
+      "margin": 0.001360954897941325,
+      "seconds": 221.00118613243103,
+      "attempts": 68
+    },
+    {
+      "step": 68,
+      "triangle": [
+        15,
+        16,
+        18
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 722,
+      "mode": "offset",
+      "margin": 0.007299812502856106,
+      "seconds": 225.09187364578247,
+      "attempts": 69
+    },
+    {
+      "step": 69,
+      "triangle": [
+        14,
+        17,
+        18
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 722,
+      "mode": "offset",
+      "margin": 0.0071430221593704645,
+      "seconds": 225.84064555168152,
+      "attempts": 70
+    },
+    {
+      "step": 70,
+      "triangle": [
+        14,
+        15,
+        19
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 718,
+      "projective": 721,
+      "mode": "normal",
+      "margin": 0.001889421838573209,
+      "seconds": 227.3042709827423,
+      "attempts": 71
+    },
+    {
+      "step": 71,
+      "triangle": [
+        15,
+        16,
+        18
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 719,
+      "projective": 722,
+      "mode": "normal",
+      "margin": 0.0016479162613983005,
+      "seconds": 232.79315519332886,
+      "attempts": 72
+    },
+    {
+      "step": 72,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": -1,
+      "projective_gain": -2,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal_b",
+      "margin": 0.001781771863592043,
+      "seconds": 241.331613779068,
+      "attempts": 73
+    },
+    {
+      "step": 73,
+      "triangle": [
+        1,
+        2,
+        46
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.0012599333058780039,
+      "seconds": 246.3550317287445,
+      "attempts": 74
+    },
+    {
+      "step": 74,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 1,
+      "score": 717,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.005655354725850148,
+      "seconds": 250.85442471504211,
+      "attempts": 75
+    },
+    {
+      "step": 75,
+      "triangle": [
+        0,
+        2,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.002229546158468286,
+      "seconds": 251.70337867736816,
+      "attempts": 76
+    },
+    {
+      "step": 76,
+      "triangle": [
+        1,
+        2,
+        46
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.002229546158468418,
+      "seconds": 252.53734350204468,
+      "attempts": 77
+    },
+    {
+      "step": 77,
+      "triangle": [
+        0,
+        3,
+        46
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 716,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.003494784358095348,
+      "seconds": 253.4496762752533,
+      "attempts": 78
+    },
+    {
+      "step": 78,
+      "triangle": [
+        1,
+        2,
+        46
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 716,
+      "projective": 719,
+      "mode": "normal_b",
+      "margin": 0.0016418598019816342,
+      "seconds": 258.63170433044434,
+      "attempts": 79
+    },
+    {
+      "step": 79,
+      "triangle": [
+        1,
+        3,
+        45
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 716,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.0038148273280599002,
+      "seconds": 262.9896328449249,
+      "attempts": 80
+    },
+    {
+      "step": 80,
+      "triangle": [
+        2,
+        3,
+        44
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 716,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.0006011921500220838,
+      "seconds": 263.7870206832886,
+      "attempts": 81
+    },
+    {
+      "step": 81,
+      "triangle": [
+        0,
+        3,
+        46
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 715,
+      "projective": 718,
+      "mode": "normal",
+      "margin": 0.000637174016257159,
+      "seconds": 266.0472366809845,
+      "attempts": 85
+    },
+    {
+      "step": 82,
+      "triangle": [
+        14,
+        15,
+        19
+      ],
+      "gain": 2,
+      "projective_gain": 2,
+      "score": 717,
+      "projective": 720,
+      "mode": "normal",
+      "margin": 0.0006361033402357038,
+      "seconds": 271.40009689331055,
+      "attempts": 86
+    },
+    {
+      "step": 83,
+      "triangle": [
+        2,
+        3,
+        44
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 720,
+      "mode": "normal",
+      "margin": 0.00048185301008207306,
+      "seconds": 276.701162815094,
+      "attempts": 87
+    },
+    {
+      "step": 84,
+      "triangle": [
+        0,
+        2,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 720,
+      "mode": "normal",
+      "margin": 0.00014756278045979858,
+      "seconds": 281.1634783744812,
+      "attempts": 88
+    },
+    {
+      "step": 85,
+      "triangle": [
+        1,
+        2,
+        46
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 718,
+      "projective": 721,
+      "mode": "normal",
+      "margin": 7.971829761410147e-05,
+      "seconds": 285.8585250377655,
+      "attempts": 89
+    },
+    {
+      "step": 86,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": -1,
+      "projective_gain": -2,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal_b",
+      "margin": 0.0005052915805727713,
+      "seconds": 293.7079288959503,
+      "attempts": 90
+    },
+    {
+      "step": 87,
+      "triangle": [
+        1,
+        2,
+        46
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.003302585790370389,
+      "seconds": 298.2983982563019,
+      "attempts": 91
+    },
+    {
+      "step": 88,
+      "triangle": [
+        0,
+        1,
+        2
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.00675255699816841,
+      "seconds": 299.11437249183655,
+      "attempts": 92
+    },
+    {
+      "step": 89,
+      "triangle": [
+        1,
+        3,
+        45
+      ],
+      "gain": 2,
+      "projective_gain": 2,
+      "score": 719,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.008425587544323506,
+      "seconds": 299.9465079307556,
+      "attempts": 93
+    },
+    {
+      "step": 90,
+      "triangle": [
+        1,
+        2,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.005234955326455243,
+      "seconds": 300.8854818344116,
+      "attempts": 94
+    },
+    {
+      "step": 91,
+      "triangle": [
+        0,
+        2,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 721,
+      "mode": "normal",
+      "margin": 0.00043980245414451875,
+      "seconds": 302.66393303871155,
+      "attempts": 95
+    },
+    {
+      "step": 92,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 718,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.005743935123643381,
+      "seconds": 306.60292744636536,
+      "attempts": 96
+    },
+    {
+      "step": 93,
+      "triangle": [
+        0,
+        1,
+        2
+      ],
+      "gain": 0,
+      "projective_gain": 1,
+      "score": 718,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.0004305443036563654,
+      "seconds": 307.4524664878845,
+      "attempts": 97
+    },
+    {
+      "step": 94,
+      "triangle": [
+        3,
+        46,
+        47
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 717,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.0004305443036566985,
+      "seconds": 308.28608536720276,
+      "attempts": 98
+    },
+    {
+      "step": 95,
+      "triangle": [
+        1,
+        2,
+        47
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 718,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.0012394489707035436,
+      "seconds": 309.08129954338074,
+      "attempts": 99
+    },
+    {
+      "step": 96,
+      "triangle": [
+        1,
+        2,
+        46
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 721,
+      "mode": "normal_b",
+      "margin": 0.0020293975448098483,
+      "seconds": 315.87624430656433,
+      "attempts": 100
+    },
+    {
+      "step": 97,
+      "triangle": [
+        0,
+        2,
+        47
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 719,
+      "projective": 722,
+      "mode": "offset",
+      "margin": 0.0028653530966420942,
+      "seconds": 321.5171616077423,
+      "attempts": 101
+    },
+    {
+      "step": 98,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": -1,
+      "projective_gain": -2,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal",
+      "margin": 0.0008142724265911655,
+      "seconds": 323.2025110721588,
+      "attempts": 103
+    },
+    {
+      "step": 99,
+      "triangle": [
+        0,
+        2,
+        46
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 719,
+      "projective": 721,
+      "mode": "normal_b",
+      "margin": 0.001850933908103713,
+      "seconds": 332.1589114665985,
+      "attempts": 104
+    },
+    {
+      "step": 100,
+      "triangle": [
+        3,
+        46,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 721,
+      "mode": "normal",
+      "margin": 0.00036420714339608474,
+      "seconds": 337.12547636032104,
+      "attempts": 105
+    },
+    {
+      "step": 101,
+      "triangle": [
+        15,
+        16,
+        17
+      ],
+      "gain": -1,
+      "projective_gain": -2,
+      "score": 720,
+      "projective": 722,
+      "mode": "offset",
+      "margin": 0.00175222847739089,
+      "seconds": 345.30411291122437,
+      "attempts": 106
+    },
+    {
+      "step": 102,
+      "triangle": [
+        14,
+        17,
+        18
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 719,
+      "projective": 721,
+      "mode": "normal",
+      "margin": 0.0006306628033221658,
+      "seconds": 346.7530908584595,
+      "attempts": 107
+    },
+    {
+      "step": 103,
+      "triangle": [
+        15,
+        16,
+        17
+      ],
+      "gain": 0,
+      "projective_gain": 1,
+      "score": 719,
+      "projective": 722,
+      "mode": "offset",
+      "margin": 0.0007794557363827631,
+      "seconds": 350.91567945480347,
+      "attempts": 108
+    },
+    {
+      "step": 104,
+      "triangle": [
+        15,
+        16,
+        18
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 722,
+      "mode": "normal_b",
+      "margin": 0.000709499228017183,
+      "seconds": 356.7953703403473,
+      "attempts": 109
+    },
+    {
+      "step": 105,
+      "triangle": [
+        14,
+        17,
+        18
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 722,
+      "mode": "normal",
+      "margin": 0.0007808702066124119,
+      "seconds": 362.0953209400177,
+      "attempts": 110
+    },
+    {
+      "step": 106,
+      "triangle": [
+        14,
+        15,
+        19
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 718,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.001742526901023151,
+      "seconds": 365.97895431518555,
+      "attempts": 111
+    },
+    {
+      "step": 107,
+      "triangle": [
+        15,
+        16,
+        18
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 719,
+      "projective": 722,
+      "mode": "offset",
+      "margin": 0.0014247951123486468,
+      "seconds": 366.6570749282837,
+      "attempts": 112
+    },
+    {
+      "step": 108,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": -1,
+      "projective_gain": -2,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal",
+      "margin": 0.0009539194006527544,
+      "seconds": 367.8602559566498,
+      "attempts": 113
+    },
+    {
+      "step": 109,
+      "triangle": [
+        14,
+        15,
+        19
+      ],
+      "gain": 2,
+      "projective_gain": 2,
+      "score": 720,
+      "projective": 722,
+      "mode": "normal_b",
+      "margin": 0.0010225501904327842,
+      "seconds": 375.5671980381012,
+      "attempts": 114
+    },
+    {
+      "step": 110,
+      "triangle": [
+        0,
+        2,
+        46
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 719,
+      "projective": 721,
+      "mode": "normal_b",
+      "margin": 0.0010225501904306317,
+      "seconds": 384.5737748146057,
+      "attempts": 115
+    },
+    {
+      "step": 111,
+      "triangle": [
+        3,
+        46,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.002133581585904371,
+      "seconds": 388.8745665550232,
+      "attempts": 116
+    },
+    {
+      "step": 112,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": -1,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.0022307735478803883,
+      "seconds": 389.7621338367462,
+      "attempts": 117
+    },
+    {
+      "step": 113,
+      "triangle": [
+        0,
+        2,
+        46
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 719,
+      "projective": 722,
+      "mode": "offset",
+      "margin": 0.002168778587624513,
+      "seconds": 390.3644669055939,
+      "attempts": 118
+    },
+    {
+      "step": 114,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": -1,
+      "projective_gain": -2,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal",
+      "margin": 0.00039267846329780456,
+      "seconds": 391.4246778488159,
+      "attempts": 119
+    },
+    {
+      "step": 115,
+      "triangle": [
+        1,
+        2,
+        46
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal_b",
+      "margin": 0.0012680635275689094,
+      "seconds": 397.33638978004456,
+      "attempts": 120
+    },
+    {
+      "step": 116,
+      "triangle": [
+        3,
+        46,
+        47
+      ],
+      "gain": 2,
+      "projective_gain": 2,
+      "score": 719,
+      "projective": 721,
+      "mode": "normal",
+      "margin": 0.0007023139779122924,
+      "seconds": 401.5292887687683,
+      "attempts": 121
+    },
+    {
+      "step": 117,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 1,
+      "score": 719,
+      "projective": 722,
+      "mode": "normal_b",
+      "margin": 0.0013837240774797835,
+      "seconds": 408.6195468902588,
+      "attempts": 122
+    },
+    {
+      "step": 118,
+      "triangle": [
+        0,
+        2,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 722,
+      "mode": "normal_b",
+      "margin": 0.0013494048009407022,
+      "seconds": 415.46152424812317,
+      "attempts": 123
+    },
+    {
+      "step": 119,
+      "triangle": [
+        1,
+        2,
+        46
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 722,
+      "mode": "normal_b",
+      "margin": 0.0013494071331929202,
+      "seconds": 421.9401812553406,
+      "attempts": 124
+    },
+    {
+      "step": 120,
+      "triangle": [
+        0,
+        3,
+        46
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 718,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.0039931480858428296,
+      "seconds": 430.0236232280731,
+      "attempts": 126
+    },
+    {
+      "step": 121,
+      "triangle": [
+        1,
+        2,
+        46
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 721,
+      "mode": "normal_b",
+      "margin": 0.0015493515103442068,
+      "seconds": 434.6325087547302,
+      "attempts": 127
+    },
+    {
+      "step": 122,
+      "triangle": [
+        1,
+        3,
+        45
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 721,
+      "mode": "normal_b",
+      "margin": 0.001423768373167825,
+      "seconds": 442.183301448822,
+      "attempts": 128
+    },
+    {
+      "step": 123,
+      "triangle": [
+        2,
+        3,
+        44
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.003961446800070416,
+      "seconds": 446.12113213539124,
+      "attempts": 129
+    },
+    {
+      "step": 124,
+      "triangle": [
+        1,
+        2,
+        47
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 717,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.003955461936784234,
+      "seconds": 446.8056209087372,
+      "attempts": 130
+    },
+    {
+      "step": 125,
+      "triangle": [
+        0,
+        3,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.003955388374586543,
+      "seconds": 447.53380966186523,
+      "attempts": 131
+    },
+    {
+      "step": 126,
+      "triangle": [
+        1,
+        3,
+        46
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.0038050468402238712,
+      "seconds": 448.23055624961853,
+      "attempts": 132
+    },
+    {
+      "step": 127,
+      "triangle": [
+        2,
+        3,
+        44
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 720,
+      "mode": "normal",
+      "margin": 0.00033519605460201595,
+      "seconds": 449.63115668296814,
+      "attempts": 133
+    },
+    {
+      "step": 128,
+      "triangle": [
+        1,
+        3,
+        46
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.004061746800097246,
+      "seconds": 453.43595838546753,
+      "attempts": 134
+    },
+    {
+      "step": 129,
+      "triangle": [
+        0,
+        3,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 720,
+      "mode": "normal_b",
+      "margin": 0.0016422626220095125,
+      "seconds": 458.52996850013733,
+      "attempts": 135
+    },
+    {
+      "step": 130,
+      "triangle": [
+        1,
+        3,
+        45
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.005303606237373225,
+      "seconds": 464.6446316242218,
+      "attempts": 136
+    },
+    {
+      "step": 131,
+      "triangle": [
+        0,
+        3,
+        46
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 718,
+      "projective": 721,
+      "mode": "normal",
+      "margin": 0.0012955338247021876,
+      "seconds": 466.40143156051636,
+      "attempts": 137
+    },
+    {
+      "step": 132,
+      "triangle": [
+        0,
+        1,
+        2
+      ],
+      "gain": 0,
+      "projective_gain": -1,
+      "score": 718,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.0006049690583880026,
+      "seconds": 470.18013405799866,
+      "attempts": 138
+    },
+    {
+      "step": 133,
+      "triangle": [
+        31,
+        32,
+        33
+      ],
+      "gain": -1,
+      "projective_gain": -2,
+      "score": 717,
+      "projective": 718,
+      "mode": "normal",
+      "margin": 0.0005876811238530814,
+      "seconds": 480.7838509082794,
+      "attempts": 143
+    },
+    {
+      "step": 134,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 718,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.0006156534079733142,
+      "seconds": 486.5990254878998,
+      "attempts": 144
+    },
+    {
+      "step": 135,
+      "triangle": [
+        31,
+        32,
+        33
+      ],
+      "gain": 1,
+      "projective_gain": 2,
+      "score": 719,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.004385283008743834,
+      "seconds": 491.8201696872711,
+      "attempts": 145
+    },
+    {
+      "step": 136,
+      "triangle": [
+        0,
+        2,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 721,
+      "mode": "normal_b",
+      "margin": 0.001634467241753724,
+      "seconds": 497.04173588752747,
+      "attempts": 146
+    },
+    {
+      "step": 137,
+      "triangle": [
+        0,
+        1,
+        46
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 721,
+      "mode": "normal",
+      "margin": 0.0014394696873338039,
+      "seconds": 501.4058029651642,
+      "attempts": 147
+    },
+    {
+      "step": 138,
+      "triangle": [
+        3,
+        46,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 721,
+      "mode": "normal",
+      "margin": 0.0009444768443353,
+      "seconds": 505.7640190124512,
+      "attempts": 148
+    },
+    {
+      "step": 139,
+      "triangle": [
+        15,
+        16,
+        17
+      ],
+      "gain": -1,
+      "projective_gain": -2,
+      "score": 718,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.007774645167038884,
+      "seconds": 509.3601927757263,
+      "attempts": 149
+    },
+    {
+      "step": 140,
+      "triangle": [
+        3,
+        46,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.0020138491144204235,
+      "seconds": 510.64310932159424,
+      "attempts": 150
+    },
+    {
+      "step": 141,
+      "triangle": [
+        0,
+        1,
+        46
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.001745233989857433,
+      "seconds": 514.9163107872009,
+      "attempts": 151
+    },
+    {
+      "step": 142,
+      "triangle": [
+        1,
+        2,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.004506890705184099,
+      "seconds": 518.5296370983124,
+      "attempts": 152
+    },
+    {
+      "step": 143,
+      "triangle": [
+        15,
+        16,
+        17
+      ],
+      "gain": 1,
+      "projective_gain": 2,
+      "score": 719,
+      "projective": 721,
+      "mode": "normal",
+      "margin": 0.0007317928747334173,
+      "seconds": 519.7956647872925,
+      "attempts": 153
+    },
+    {
+      "step": 144,
+      "triangle": [
+        0,
+        1,
+        46
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal_b",
+      "margin": 0.0017298482357880685,
+      "seconds": 527.6837377548218,
+      "attempts": 154
+    },
+    {
+      "step": 145,
+      "triangle": [
+        0,
+        2,
+        46
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.004534496852157062,
+      "seconds": 531.6407668590546,
+      "attempts": 155
+    },
+    {
+      "step": 146,
+      "triangle": [
+        0,
+        3,
+        45
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 717,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.001907253994678358,
+      "seconds": 532.4317169189453,
+      "attempts": 156
+    },
+    {
+      "step": 147,
+      "triangle": [
+        0,
+        2,
+        46
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.0005226077158697278,
+      "seconds": 538.2976086139679,
+      "attempts": 158
+    },
+    {
+      "step": 148,
+      "triangle": [
+        1,
+        2,
+        47
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 718,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.0021474479327373915,
+      "seconds": 542.0437824726105,
+      "attempts": 159
+    },
+    {
+      "step": 149,
+      "triangle": [
+        0,
+        1,
+        45
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 717,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.0009290527889221627,
+      "seconds": 542.9581513404846,
+      "attempts": 161
+    },
+    {
+      "step": 150,
+      "triangle": [
+        0,
+        2,
+        46
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.00030189940942222437,
+      "seconds": 544.8103864192963,
+      "attempts": 162
+    },
+    {
+      "step": 151,
+      "triangle": [
+        1,
+        2,
+        47
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 718,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.001599531384417688,
+      "seconds": 549.3334426879883,
+      "attempts": 163
+    },
+    {
+      "step": 152,
+      "triangle": [
+        15,
+        16,
+        17
+      ],
+      "gain": -1,
+      "projective_gain": -2,
+      "score": 717,
+      "projective": 718,
+      "mode": "normal",
+      "margin": 0.0003822795279921477,
+      "seconds": 550.554701089859,
+      "attempts": 164
+    },
+    {
+      "step": 153,
+      "triangle": [
+        14,
+        16,
+        18
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 716,
+      "projective": 717,
+      "mode": "normal_b",
+      "margin": 0.0018946920561560626,
+      "seconds": 558.3286461830139,
+      "attempts": 165
+    },
+    {
+      "step": 154,
+      "triangle": [
+        14,
+        15,
+        19
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 716,
+      "projective": 717,
+      "mode": "normal",
+      "margin": 0.0006826634272261479,
+      "seconds": 563.3576776981354,
+      "attempts": 166
+    },
+    {
+      "step": 155,
+      "triangle": [
+        15,
+        16,
+        17
+      ],
+      "gain": -1,
+      "projective_gain": 0,
+      "score": 715,
+      "projective": 717,
+      "mode": "normal",
+      "margin": 0.0006826634273941606,
+      "seconds": 567.8348047733307,
+      "attempts": 167
+    },
+    {
+      "step": 156,
+      "triangle": [
+        14,
+        16,
+        18
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 716,
+      "projective": 718,
+      "mode": "normal_b",
+      "margin": 0.0015026649381849268,
+      "seconds": 575.2891592979431,
+      "attempts": 168
+    },
+    {
+      "step": 157,
+      "triangle": [
+        0,
+        1,
+        45
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 715,
+      "projective": 717,
+      "mode": "normal",
+      "margin": 0.0016453131367691039,
+      "seconds": 580.3879992961884,
+      "attempts": 169
+    },
+    {
+      "step": 158,
+      "triangle": [
+        0,
+        2,
+        46
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 715,
+      "projective": 717,
+      "mode": "offset",
+      "margin": 0.0047383084513915805,
+      "seconds": 587.6801836490631,
+      "attempts": 171
+    },
+    {
+      "step": 159,
+      "triangle": [
+        1,
+        2,
+        47
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 716,
+      "projective": 718,
+      "mode": "normal",
+      "margin": 0.001776450555625342,
+      "seconds": 589.092779636383,
+      "attempts": 172
+    },
+    {
+      "step": 160,
+      "triangle": [
+        0,
+        3,
+        45
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.0017206233329516971,
+      "seconds": 593.4035127162933,
+      "attempts": 173
+    },
+    {
+      "step": 161,
+      "triangle": [
+        0,
+        1,
+        46
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.0015917758637206416,
+      "seconds": 597.7186777591705,
+      "attempts": 174
+    },
+    {
+      "step": 162,
+      "triangle": [
+        0,
+        2,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.0012600517452964507,
+      "seconds": 603.5546729564667,
+      "attempts": 175
+    },
+    {
+      "step": 163,
+      "triangle": [
+        14,
+        16,
+        18
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 716,
+      "projective": 718,
+      "mode": "offset",
+      "margin": 0.005078321437628055,
+      "seconds": 608.3179531097412,
+      "attempts": 176
+    },
+    {
+      "step": 164,
+      "triangle": [
+        0,
+        2,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 716,
+      "projective": 718,
+      "mode": "offset",
+      "margin": 0.005013785094340741,
+      "seconds": 609.2521283626556,
+      "attempts": 178
+    },
+    {
+      "step": 165,
+      "triangle": [
+        15,
+        16,
+        17
+      ],
+      "gain": 1,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 718,
+      "mode": "normal",
+      "margin": 0.0013282999647379829,
+      "seconds": 610.5537533760071,
+      "attempts": 179
+    },
+    {
+      "step": 166,
+      "triangle": [
+        0,
+        2,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 718,
+      "mode": "offset",
+      "margin": 0.003893385043892359,
+      "seconds": 614.2925977706909,
+      "attempts": 180
+    },
+    {
+      "step": 167,
+      "triangle": [
+        14,
+        15,
+        19
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 718,
+      "mode": "offset",
+      "margin": 0.003950046751705097,
+      "seconds": 615.0922241210938,
+      "attempts": 181
+    },
+    {
+      "step": 168,
+      "triangle": [
+        14,
+        16,
+        18
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 718,
+      "projective": 719,
+      "mode": "normal_b",
+      "margin": 0.001959301473308612,
+      "seconds": 620.4612503051758,
+      "attempts": 182
+    },
+    {
+      "step": 169,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 717,
+      "projective": 718,
+      "mode": "offset",
+      "margin": 0.0034506213244318747,
+      "seconds": 625.5740134716034,
+      "attempts": 183
+    },
+    {
+      "step": 170,
+      "triangle": [
+        0,
+        1,
+        2
+      ],
+      "gain": 0,
+      "projective_gain": 1,
+      "score": 717,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.00197337949978949,
+      "seconds": 626.4532461166382,
+      "attempts": 184
+    },
+    {
+      "step": 171,
+      "triangle": [
+        1,
+        2,
+        47
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal",
+      "margin": 0.0010828395695409061,
+      "seconds": 627.8920254707336,
+      "attempts": 185
+    },
+    {
+      "step": 172,
+      "triangle": [
+        0,
+        2,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.0062959710751260495,
+      "seconds": 632.5072119235992,
+      "attempts": 186
+    },
+    {
+      "step": 173,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": -1,
+      "score": 718,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.005856023810232516,
+      "seconds": 633.4774692058563,
+      "attempts": 187
+    },
+    {
+      "step": 174,
+      "triangle": [
+        1,
+        2,
+        46
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 719,
+      "projective": 720,
+      "mode": "normal",
+      "margin": 0.0011963370824315976,
+      "seconds": 635.0931732654572,
+      "attempts": 188
+    },
+    {
+      "step": 175,
+      "triangle": [
+        14,
+        16,
+        18
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 718,
+      "projective": 719,
+      "mode": "normal_b",
+      "margin": 0.0017674799799199993,
+      "seconds": 643.0815472602844,
+      "attempts": 189
+    },
+    {
+      "step": 176,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": 1,
+      "projective_gain": 2,
+      "score": 719,
+      "projective": 721,
+      "mode": "normal_b",
+      "margin": 0.001767512303008446,
+      "seconds": 648.9443323612213,
+      "attempts": 190
+    },
+    {
+      "step": 177,
+      "triangle": [
+        14,
+        15,
+        19
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 721,
+      "mode": "normal_b",
+      "margin": 0.0016485156766166548,
+      "seconds": 654.161819934845,
+      "attempts": 191
+    },
+    {
+      "step": 178,
+      "triangle": [
+        15,
+        16,
+        17
+      ],
+      "gain": -1,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 721,
+      "mode": "normal_b",
+      "margin": 0.0013225150618603665,
+      "seconds": 660.4893503189087,
+      "attempts": 192
+    },
+    {
+      "step": 179,
+      "triangle": [
+        14,
+        15,
+        19
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 721,
+      "mode": "normal_b",
+      "margin": 0.0006955167818484642,
+      "seconds": 667.2663156986237,
+      "attempts": 193
+    },
+    {
+      "step": 180,
+      "triangle": [
+        13,
+        17,
+        18
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 717,
+      "projective": 720,
+      "mode": "normal",
+      "margin": 0.0020050984263247297,
+      "seconds": 671.0938386917114,
+      "attempts": 194
+    },
+    {
+      "step": 181,
+      "triangle": [
+        14,
+        16,
+        18
+      ],
+      "gain": 2,
+      "projective_gain": 2,
+      "score": 719,
+      "projective": 722,
+      "mode": "offset",
+      "margin": 0.0062532039584574945,
+      "seconds": 674.2110803127289,
+      "attempts": 195
+    },
+    {
+      "step": 182,
+      "triangle": [
+        12,
+        18,
+        19
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 718,
+      "projective": 721,
+      "mode": "normal",
+      "margin": 0.002073610402110506,
+      "seconds": 675.6020796298981,
+      "attempts": 197
+    },
+    {
+      "step": 183,
+      "triangle": [
+        13,
+        17,
+        18
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 719,
+      "projective": 722,
+      "mode": "offset",
+      "margin": 0.004179888905375629,
+      "seconds": 679.1616840362549,
+      "attempts": 198
+    },
+    {
+      "step": 184,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": -1,
+      "projective_gain": -2,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal_b",
+      "margin": 0.0021793421526412025,
+      "seconds": 682.9669032096863,
+      "attempts": 199
+    },
+    {
+      "step": 185,
+      "triangle": [
+        13,
+        17,
+        19
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 717,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.0031341222060257126,
+      "seconds": 686.1640939712524,
+      "attempts": 200
+    },
+    {
+      "step": 186,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": 1,
+      "projective_gain": 2,
+      "score": 718,
+      "projective": 721,
+      "mode": "normal_b",
+      "margin": 0.002295226175648932,
+      "seconds": 689.291570186615,
+      "attempts": 201
+    },
+    {
+      "step": 187,
+      "triangle": [
+        12,
+        18,
+        19
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.004984365489332288,
+      "seconds": 692.3692953586578,
+      "attempts": 202
+    },
+    {
+      "step": 188,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": -1,
+      "projective_gain": -2,
+      "score": 717,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.004953343347777754,
+      "seconds": 693.2019727230072,
+      "attempts": 204
+    },
+    {
+      "step": 189,
+      "triangle": [
+        1,
+        2,
+        46
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 716,
+      "projective": 718,
+      "mode": "normal",
+      "margin": 0.0011365771905385675,
+      "seconds": 694.2590665817261,
+      "attempts": 205
+    },
+    {
+      "step": 190,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 1,
+      "score": 716,
+      "projective": 719,
+      "mode": "normal_b",
+      "margin": 0.0025236743289864904,
+      "seconds": 700.4913959503174,
+      "attempts": 206
+    },
+    {
+      "step": 191,
+      "triangle": [
+        12,
+        18,
+        19
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 716,
+      "projective": 719,
+      "mode": "normal_b",
+      "margin": 0.002451980018026671,
+      "seconds": 707.2306356430054,
+      "attempts": 207
+    },
+    {
+      "step": 192,
+      "triangle": [
+        13,
+        17,
+        19
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 717,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.0076517466991650705,
+      "seconds": 711.8264348506927,
+      "attempts": 208
+    },
+    {
+      "step": 193,
+      "triangle": [
+        0,
+        2,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.00446376490686858,
+      "seconds": 712.4492719173431,
+      "attempts": 209
+    },
+    {
+      "step": 194,
+      "triangle": [
+        1,
+        2,
+        46
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.004463764906868765,
+      "seconds": 713.1422498226166,
+      "attempts": 210
+    },
+    {
+      "step": 195,
+      "triangle": [
+        0,
+        3,
+        46
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 716,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.0015879215787222571,
+      "seconds": 714.4083068370819,
+      "attempts": 211
+    },
+    {
+      "step": 196,
+      "triangle": [
+        0,
+        2,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 716,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.004038077269097198,
+      "seconds": 718.8874742984772,
+      "attempts": 212
+    },
+    {
+      "step": 197,
+      "triangle": [
+        12,
+        18,
+        19
+      ],
+      "gain": 2,
+      "projective_gain": 2,
+      "score": 718,
+      "projective": 721,
+      "mode": "normal",
+      "margin": 0.0006432756515360689,
+      "seconds": 720.1369261741638,
+      "attempts": 213
+    },
+    {
+      "step": 198,
+      "triangle": [
+        4,
+        46,
+        47
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 717,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.007879007558252903,
+      "seconds": 723.7652757167816,
+      "attempts": 214
+    },
+    {
+      "step": 199,
+      "triangle": [
+        0,
+        3,
+        46
+      ],
+      "gain": 2,
+      "projective_gain": 2,
+      "score": 719,
+      "projective": 722,
+      "mode": "offset",
+      "margin": 0.008195912370580294,
+      "seconds": 724.3814775943756,
+      "attempts": 215
+    },
+    {
+      "step": 200,
+      "triangle": [
+        15,
+        16,
+        17
+      ],
+      "gain": -1,
+      "projective_gain": -2,
+      "score": 718,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.0014307157718477792,
+      "seconds": 725.0538301467896,
+      "attempts": 216
+    },
+    {
+      "step": 201,
+      "triangle": [
+        31,
+        32,
+        33
+      ],
+      "gain": -1,
+      "projective_gain": -2,
+      "score": 720,
+      "projective": 722,
+      "mode": "normal",
+      "margin": 0.0006528013399752777,
+      "seconds": 729.7009325027466,
+      "attempts": 217
+    },
+    {
+      "step": 202,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": -1,
+      "projective_gain": -2,
+      "score": 719,
+      "projective": 720,
+      "mode": "normal_b",
+      "margin": 0.0008439968105910753,
+      "seconds": 737.9388971328735,
+      "attempts": 218
+    },
+    {
+      "step": 203,
+      "triangle": [
+        30,
+        33,
+        34
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 718,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.0011834416735035738,
+      "seconds": 742.0846569538116,
+      "attempts": 220
+    },
+    {
+      "step": 204,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": 1,
+      "projective_gain": 2,
+      "score": 719,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.0011855836900852312,
+      "seconds": 742.9437313079834,
+      "attempts": 221
+    },
+    {
+      "step": 205,
+      "triangle": [
+        32,
+        33,
+        34
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 721,
+      "mode": "normal_b",
+      "margin": 0.0005089693222921005,
+      "seconds": 748.3500785827637,
+      "attempts": 223
+    },
+    {
+      "step": 206,
+      "triangle": [
+        31,
+        33,
+        34
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.0019190272691391203,
+      "seconds": 752.258894443512,
+      "attempts": 224
+    },
+    {
+      "step": 207,
+      "triangle": [
+        31,
+        32,
+        34
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 721,
+      "mode": "normal_b",
+      "margin": 0.0003561178309258301,
+      "seconds": 756.7972447872162,
+      "attempts": 225
+    },
+    {
+      "step": 208,
+      "triangle": [
+        15,
+        16,
+        17
+      ],
+      "gain": -1,
+      "projective_gain": -2,
+      "score": 718,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.0011890284593124322,
+      "seconds": 760.9981670379639,
+      "attempts": 226
+    },
+    {
+      "step": 209,
+      "triangle": [
+        31,
+        32,
+        34
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.0012389138809278594,
+      "seconds": 762.2468814849854,
+      "attempts": 227
+    },
+    {
+      "step": 210,
+      "triangle": [
+        30,
+        32,
+        33
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.0012370271754920993,
+      "seconds": 766.9073836803436,
+      "attempts": 228
+    },
+    {
+      "step": 211,
+      "triangle": [
+        15,
+        16,
+        17
+      ],
+      "gain": 1,
+      "projective_gain": 2,
+      "score": 719,
+      "projective": 721,
+      "mode": "normal",
+      "margin": 0.0012368718102404893,
+      "seconds": 771.6525716781616,
+      "attempts": 229
+    },
+    {
+      "step": 212,
+      "triangle": [
+        30,
+        31,
+        35
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 721,
+      "mode": "normal",
+      "margin": 0.0012365207415276436,
+      "seconds": 775.8351559638977,
+      "attempts": 230
+    },
+    {
+      "step": 213,
+      "triangle": [
+        29,
+        33,
+        35
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal",
+      "margin": 0.001235064299217832,
+      "seconds": 780.6308283805847,
+      "attempts": 231
+    },
+    {
+      "step": 214,
+      "triangle": [
+        30,
+        31,
+        35
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal",
+      "margin": 0.001234730650556761,
+      "seconds": 784.9631776809692,
+      "attempts": 232
+    },
+    {
+      "step": 215,
+      "triangle": [
+        32,
+        33,
+        35
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.002625517971470472,
+      "seconds": 788.6051051616669,
+      "attempts": 233
+    },
+    {
+      "step": 216,
+      "triangle": [
+        28,
+        34,
+        35
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal_b",
+      "margin": 0.0005483900024315282,
+      "seconds": 792.6402995586395,
+      "attempts": 234
+    },
+    {
+      "step": 217,
+      "triangle": [
+        30,
+        33,
+        35
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.00043703674956827536,
+      "seconds": 796.0642721652985,
+      "attempts": 235
+    },
+    {
+      "step": 218,
+      "triangle": [
+        28,
+        34,
+        35
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.00043709606548484096,
+      "seconds": 796.9371476173401,
+      "attempts": 237
+    },
+    {
+      "step": 219,
+      "triangle": [
+        29,
+        32,
+        33
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.00043717318212327193,
+      "seconds": 797.6174535751343,
+      "attempts": 238
+    },
+    {
+      "step": 220,
+      "triangle": [
+        28,
+        33,
+        36
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 717,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.002489844515828028,
+      "seconds": 799.8304798603058,
+      "attempts": 241
+    },
+    {
+      "step": 221,
+      "triangle": [
+        28,
+        34,
+        35
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal_b",
+      "margin": 0.0004935998518030909,
+      "seconds": 804.9947435855865,
+      "attempts": 242
+    },
+    {
+      "step": 222,
+      "triangle": [
+        28,
+        33,
+        36
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 718,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.0022866798429670354,
+      "seconds": 808.1230800151825,
+      "attempts": 243
+    },
+    {
+      "step": 223,
+      "triangle": [
+        30,
+        31,
+        36
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 717,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.002284602970971195,
+      "seconds": 808.7597115039825,
+      "attempts": 244
+    },
+    {
+      "step": 224,
+      "triangle": [
+        28,
+        34,
+        35
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.0022870418415527932,
+      "seconds": 809.345766544342,
+      "attempts": 245
+    },
+    {
+      "step": 225,
+      "triangle": [
+        29,
+        32,
+        33
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.0015329383719309563,
+      "seconds": 810.3863344192505,
+      "attempts": 246
+    },
+    {
+      "step": 226,
+      "triangle": [
+        28,
+        34,
+        35
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.0014901248185977744,
+      "seconds": 814.4972524642944,
+      "attempts": 247
+    },
+    {
+      "step": 227,
+      "triangle": [
+        30,
+        33,
+        35
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 716,
+      "projective": 718,
+      "mode": "offset",
+      "margin": 0.002445546836543126,
+      "seconds": 817.3572955131531,
+      "attempts": 248
+    },
+    {
+      "step": 228,
+      "triangle": [
+        32,
+        33,
+        35
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 716,
+      "projective": 718,
+      "mode": "normal_b",
+      "margin": 0.0008995328030405863,
+      "seconds": 821.6022336483002,
+      "attempts": 249
+    },
+    {
+      "step": 229,
+      "triangle": [
+        30,
+        31,
+        36
+      ],
+      "gain": 2,
+      "projective_gain": 2,
+      "score": 718,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.002536887508010404,
+      "seconds": 825.1198725700378,
+      "attempts": 250
+    },
+    {
+      "step": 230,
+      "triangle": [
+        30,
+        31,
+        35
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal",
+      "margin": 0.0013237187085115352,
+      "seconds": 826.5090067386627,
+      "attempts": 251
+    },
+    {
+      "step": 231,
+      "triangle": [
+        29,
+        33,
+        35
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal_b",
+      "margin": 0.0003877948954661202,
+      "seconds": 834.1474759578705,
+      "attempts": 252
+    },
+    {
+      "step": 232,
+      "triangle": [
+        30,
+        31,
+        35
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.0012423160396960666,
+      "seconds": 838.8616092205048,
+      "attempts": 253
+    },
+    {
+      "step": 233,
+      "triangle": [
+        30,
+        32,
+        33
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal_b",
+      "margin": 0.0004925649160269261,
+      "seconds": 847.7493517398834,
+      "attempts": 254
+    },
+    {
+      "step": 234,
+      "triangle": [
+        29,
+        33,
+        35
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal_b",
+      "margin": 0.0011556725990580895,
+      "seconds": 859.0220873355865,
+      "attempts": 255
+    },
+    {
+      "step": 235,
+      "triangle": [
+        31,
+        33,
+        34
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.0014856936232333974,
+      "seconds": 864.2266061306,
+      "attempts": 256
+    },
+    {
+      "step": 236,
+      "triangle": [
+        29,
+        33,
+        35
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal_b",
+      "margin": 0.0006640394385954302,
+      "seconds": 873.3102512359619,
+      "attempts": 257
+    },
+    {
+      "step": 237,
+      "triangle": [
+        32,
+        33,
+        34
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.0015240822278659535,
+      "seconds": 877.6700487136841,
+      "attempts": 258
+    },
+    {
+      "step": 238,
+      "triangle": [
+        30,
+        33,
+        34
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 718,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.003925840588878971,
+      "seconds": 881.8235387802124,
+      "attempts": 259
+    },
+    {
+      "step": 239,
+      "triangle": [
+        31,
+        32,
+        33
+      ],
+      "gain": 1,
+      "projective_gain": 2,
+      "score": 719,
+      "projective": 722,
+      "mode": "normal_b",
+      "margin": 0.0013319578172829682,
+      "seconds": 887.4632799625397,
+      "attempts": 260
+    },
+    {
+      "step": 240,
+      "triangle": [
+        29,
+        33,
+        35
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 718,
+      "projective": 721,
+      "mode": "normal_b",
+      "margin": 0.0011484965898713837,
+      "seconds": 897.843709230423,
+      "attempts": 261
+    },
+    {
+      "step": 241,
+      "triangle": [
+        28,
+        34,
+        35
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 721,
+      "mode": "normal_b",
+      "margin": 0.00037990821982978847,
+      "seconds": 907.1360738277435,
+      "attempts": 262
+    },
+    {
+      "step": 242,
+      "triangle": [
+        30,
+        33,
+        34
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 717,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.0031251473663022177,
+      "seconds": 912.2387156486511,
+      "attempts": 263
+    },
+    {
+      "step": 243,
+      "triangle": [
+        29,
+        33,
+        35
+      ],
+      "gain": 2,
+      "projective_gain": 2,
+      "score": 719,
+      "projective": 722,
+      "mode": "normal",
+      "margin": 0.0014993326578888716,
+      "seconds": 913.6652727127075,
+      "attempts": 264
+    },
+    {
+      "step": 244,
+      "triangle": [
+        31,
+        32,
+        34
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 722,
+      "mode": "normal",
+      "margin": 0.0015213128771397353,
+      "seconds": 918.2742121219635,
+      "attempts": 265
+    },
+    {
+      "step": 245,
+      "triangle": [
+        30,
+        33,
+        34
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 722,
+      "mode": "normal_b",
+      "margin": 0.0011989568476984613,
+      "seconds": 927.7253506183624,
+      "attempts": 266
+    },
+    {
+      "step": 246,
+      "triangle": [
+        30,
+        31,
+        35
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 718,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.004952871945263803,
+      "seconds": 932.5447659492493,
+      "attempts": 267
+    },
+    {
+      "step": 247,
+      "triangle": [
+        31,
+        32,
+        34
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 719,
+      "projective": 722,
+      "mode": "offset",
+      "margin": 0.004610824103205581,
+      "seconds": 933.4188163280487,
+      "attempts": 268
+    },
+    {
+      "step": 248,
+      "triangle": [
+        31,
+        32,
+        33
+      ],
+      "gain": -1,
+      "projective_gain": -2,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal_b",
+      "margin": 0.0006374001329205438,
+      "seconds": 939.2471644878387,
+      "attempts": 269
+    },
+    {
+      "step": 249,
+      "triangle": [
+        30,
+        32,
+        34
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 719,
+      "projective": 721,
+      "mode": "normal",
+      "margin": 0.0016300242402473065,
+      "seconds": 947.0757069587708,
+      "attempts": 270
+    },
+    {
+      "step": 250,
+      "triangle": [
+        30,
+        31,
+        35
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.010088930934418226,
+      "seconds": 951.4688789844513,
+      "attempts": 271
+    },
+    {
+      "step": 251,
+      "triangle": [
+        29,
+        33,
+        34
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal",
+      "margin": 0.0020199910776945505,
+      "seconds": 953.058756351471,
+      "attempts": 272
+    },
+    {
+      "step": 252,
+      "triangle": [
+        29,
+        32,
+        35
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.006402893627445048,
+      "seconds": 957.1312160491943,
+      "attempts": 273
+    },
+    {
+      "step": 253,
+      "triangle": [
+        30,
+        31,
+        35
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.006866411632709553,
+      "seconds": 957.9956274032593,
+      "attempts": 274
+    },
+    {
+      "step": 254,
+      "triangle": [
+        29,
+        31,
+        36
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal",
+      "margin": 0.0020881218601055277,
+      "seconds": 959.9167430400848,
+      "attempts": 275
+    },
+    {
+      "step": 255,
+      "triangle": [
+        29,
+        30,
+        37
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.0020775831848913137,
+      "seconds": 964.753680229187,
+      "attempts": 276
+    },
+    {
+      "step": 256,
+      "triangle": [
+        31,
+        32,
+        33
+      ],
+      "gain": -1,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 720,
+      "mode": "normal_b",
+      "margin": 0.0016714524063711198,
+      "seconds": 970.4468505382538,
+      "attempts": 277
+    },
+    {
+      "step": 257,
+      "triangle": [
+        29,
+        30,
+        37
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.006014409122859807,
+      "seconds": 974.6827709674835,
+      "attempts": 278
+    },
+    {
+      "step": 258,
+      "triangle": [
+        29,
+        31,
+        36
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 720,
+      "mode": "normal",
+      "margin": 0.002074735942175293,
+      "seconds": 976.404764175415,
+      "attempts": 279
+    },
+    {
+      "step": 259,
+      "triangle": [
+        30,
+        31,
+        35
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 720,
+      "mode": "normal",
+      "margin": 0.0020588920889481714,
+      "seconds": 983.9340033531189,
+      "attempts": 280
+    },
+    {
+      "step": 260,
+      "triangle": [
+        29,
+        32,
+        35
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 720,
+      "mode": "normal",
+      "margin": 0.0020590487041384866,
+      "seconds": 990.275032043457,
+      "attempts": 282
+    },
+    {
+      "step": 261,
+      "triangle": [
+        30,
+        32,
+        34
+      ],
+      "gain": 2,
+      "projective_gain": 2,
+      "score": 719,
+      "projective": 722,
+      "mode": "normal_b",
+      "margin": 0.0022593683425924456,
+      "seconds": 999.7615621089935,
+      "attempts": 283
+    },
+    {
+      "step": 262,
+      "triangle": [
+        28,
+        33,
+        35
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 718,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.007166661496318603,
+      "seconds": 1004.1081237792969,
+      "attempts": 284
+    },
+    {
+      "step": 263,
+      "triangle": [
+        27,
+        34,
+        35
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 717,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.007418356994023963,
+      "seconds": 1005.7472715377808,
+      "attempts": 286
+    },
+    {
+      "step": 264,
+      "triangle": [
+        27,
+        33,
+        36
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 720,
+      "mode": "normal_b",
+      "margin": 0.002560821225889437,
+      "seconds": 1011.3647198677063,
+      "attempts": 287
+    },
+    {
+      "step": 265,
+      "triangle": [
+        29,
+        33,
+        34
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 720,
+      "mode": "normal",
+      "margin": 0.0024514001801491958,
+      "seconds": 1016.7004816532135,
+      "attempts": 288
+    },
+    {
+      "step": 266,
+      "triangle": [
+        28,
+        33,
+        35
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 720,
+      "mode": "normal_b",
+      "margin": 0.0017008995118302833,
+      "seconds": 1028.6552639007568,
+      "attempts": 289
+    },
+    {
+      "step": 267,
+      "triangle": [
+        27,
+        33,
+        36
+      ],
+      "gain": 2,
+      "projective_gain": 2,
+      "score": 719,
+      "projective": 722,
+      "mode": "normal",
+      "margin": 0.0024528414713563228,
+      "seconds": 1034.8682618141174,
+      "attempts": 290
+    },
+    {
+      "step": 268,
+      "triangle": [
+        26,
+        34,
+        36
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 718,
+      "projective": 721,
+      "mode": "normal_b",
+      "margin": 0.002075462252321267,
+      "seconds": 1045.1759440898895,
+      "attempts": 291
+    },
+    {
+      "step": 269,
+      "triangle": [
+        27,
+        34,
+        35
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 721,
+      "mode": "normal_b",
+      "margin": 0.002023958298692679,
+      "seconds": 1056.0054967403412,
+      "attempts": 292
+    },
+    {
+      "step": 270,
+      "triangle": [
+        15,
+        16,
+        17
+      ],
+      "gain": -1,
+      "projective_gain": -2,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal_b",
+      "margin": 0.001880266331938436,
+      "seconds": 1065.924470424652,
+      "attempts": 293
+    },
+    {
+      "step": 271,
+      "triangle": [
+        26,
+        34,
+        36
+      ],
+      "gain": 3,
+      "projective_gain": 3,
+      "score": 720,
+      "projective": 722,
+      "mode": "normal_b",
+      "margin": 0.0018746978531392136,
+      "seconds": 1075.438527584076,
+      "attempts": 294
+    },
+    {
+      "step": 272,
+      "triangle": [
+        14,
+        17,
+        18
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 719,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.0030403566108693843,
+      "seconds": 1081.2868943214417,
+      "attempts": 295
+    },
+    {
+      "step": 273,
+      "triangle": [
+        15,
+        16,
+        17
+      ],
+      "gain": 0,
+      "projective_gain": 1,
+      "score": 719,
+      "projective": 722,
+      "mode": "offset",
+      "margin": 0.002654605136386127,
+      "seconds": 1082.3551125526428,
+      "attempts": 296
+    },
+    {
+      "step": 274,
+      "triangle": [
+        15,
+        16,
+        18
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 722,
+      "mode": "normal",
+      "margin": 0.0010720232444053532,
+      "seconds": 1084.3255372047424,
+      "attempts": 297
+    },
+    {
+      "step": 275,
+      "triangle": [
+        14,
+        17,
+        18
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 722,
+      "mode": "normal",
+      "margin": 0.0011189728883874794,
+      "seconds": 1091.0512163639069,
+      "attempts": 298
+    },
+    {
+      "step": 276,
+      "triangle": [
+        14,
+        15,
+        19
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 718,
+      "projective": 721,
+      "mode": "normal_b",
+      "margin": 0.0009643759181029973,
+      "seconds": 1101.1635706424713,
+      "attempts": 299
+    },
+    {
+      "step": 277,
+      "triangle": [
+        15,
+        16,
+        18
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 719,
+      "projective": 722,
+      "mode": "offset",
+      "margin": 0.005249994291564535,
+      "seconds": 1106.573477268219,
+      "attempts": 300
+    },
+    {
+      "step": 278,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": -1,
+      "projective_gain": -2,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal",
+      "margin": 0.002260335566609224,
+      "seconds": 1109.839196920395,
+      "attempts": 301
+    },
+    {
+      "step": 279,
+      "triangle": [
+        14,
+        15,
+        19
+      ],
+      "gain": 2,
+      "projective_gain": 2,
+      "score": 720,
+      "projective": 722,
+      "mode": "offset",
+      "margin": 0.005804732403949415,
+      "seconds": 1115.449219942093,
+      "attempts": 302
+    },
+    {
+      "step": 280,
+      "triangle": [
+        0,
+        2,
+        46
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 719,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.0055632540389606334,
+      "seconds": 1116.3177251815796,
+      "attempts": 303
+    },
+    {
+      "step": 281,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": -1,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 721,
+      "mode": "normal_b",
+      "margin": 0.001963087718969118,
+      "seconds": 1121.9018132686615,
+      "attempts": 305
+    },
+    {
+      "step": 282,
+      "triangle": [
+        3,
+        46,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 721,
+      "mode": "normal_b",
+      "margin": 0.001963087719314008,
+      "seconds": 1134.6864552497864,
+      "attempts": 306
+    },
+    {
+      "step": 283,
+      "triangle": [
+        0,
+        2,
+        46
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 719,
+      "projective": 722,
+      "mode": "offset",
+      "margin": 0.005025461836148142,
+      "seconds": 1140.3991131782532,
+      "attempts": 307
+    },
+    {
+      "step": 284,
+      "triangle": [
+        31,
+        32,
+        33
+      ],
+      "gain": -1,
+      "projective_gain": -2,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal_b",
+      "margin": 0.0019271662080978438,
+      "seconds": 1146.3520996570587,
+      "attempts": 308
+    },
+    {
+      "step": 285,
+      "triangle": [
+        30,
+        33,
+        34
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 717,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.002549385102974071,
+      "seconds": 1151.8290078639984,
+      "attempts": 309
+    },
+    {
+      "step": 286,
+      "triangle": [
+        31,
+        32,
+        33
+      ],
+      "gain": 0,
+      "projective_gain": 1,
+      "score": 717,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.00161981329350675,
+      "seconds": 1152.8734245300293,
+      "attempts": 310
+    },
+    {
+      "step": 287,
+      "triangle": [
+        0,
+        2,
+        46
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 716,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.0015912196661695497,
+      "seconds": 1153.9456474781036,
+      "attempts": 312
+    },
+    {
+      "step": 288,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": 1,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.0009864125125447103,
+      "seconds": 1155.7625098228455,
+      "attempts": 313
+    },
+    {
+      "step": 289,
+      "triangle": [
+        30,
+        33,
+        34
+      ],
+      "gain": 2,
+      "projective_gain": 2,
+      "score": 719,
+      "projective": 721,
+      "mode": "normal_b",
+      "margin": 0.0014703498272540855,
+      "seconds": 1165.4152030944824,
+      "attempts": 314
+    },
+    {
+      "step": 290,
+      "triangle": [
+        0,
+        1,
+        46
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 718,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.002494264693830689,
+      "seconds": 1170.1272103786469,
+      "attempts": 315
+    },
+    {
+      "step": 291,
+      "triangle": [
+        3,
+        46,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal_b",
+      "margin": 0.00206671235936068,
+      "seconds": 1174.8892850875854,
+      "attempts": 317
+    },
+    {
+      "step": 292,
+      "triangle": [
+        0,
+        1,
+        2
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 717,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.0029332185223334088,
+      "seconds": 1179.9999742507935,
+      "attempts": 318
+    },
+    {
+      "step": 293,
+      "triangle": [
+        1,
+        2,
+        46
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal_b",
+      "margin": 0.0019637000972865326,
+      "seconds": 1184.4887263774872,
+      "attempts": 319
+    },
+    {
+      "step": 294,
+      "triangle": [
+        0,
+        2,
+        46
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal_b",
+      "margin": 0.0019637002924265184,
+      "seconds": 1191.2797374725342,
+      "attempts": 320
+    },
+    {
+      "step": 295,
+      "triangle": [
+        0,
+        1,
+        46
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 719,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.002074424220754293,
+      "seconds": 1195.2302603721619,
+      "attempts": 321
+    },
+    {
+      "step": 296,
+      "triangle": [
+        1,
+        2,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 721,
+      "mode": "normal",
+      "margin": 0.0007245714815795253,
+      "seconds": 1196.6300637722015,
+      "attempts": 322
+    },
+    {
+      "step": 297,
+      "triangle": [
+        0,
+        1,
+        46
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.0023658631394700216,
+      "seconds": 1199.9836163520813,
+      "attempts": 323
+    },
+    {
+      "step": 298,
+      "triangle": [
+        3,
+        46,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.00015609118378835985,
+      "seconds": 1200.6411499977112,
+      "attempts": 324
+    },
+    {
+      "step": 299,
+      "triangle": [
+        1,
+        3,
+        45
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal",
+      "margin": 0.0008657402542094475,
+      "seconds": 1201.8395988941193,
+      "attempts": 325
+    },
+    {
+      "step": 300,
+      "triangle": [
+        3,
+        46,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal",
+      "margin": 0.0009015803553194173,
+      "seconds": 1206.3737511634827,
+      "attempts": 326
+    },
+    {
+      "step": 301,
+      "triangle": [
+        31,
+        32,
+        33
+      ],
+      "gain": -1,
+      "projective_gain": -2,
+      "score": 720,
+      "projective": 722,
+      "mode": "normal_b",
+      "margin": 0.0009302570447426271,
+      "seconds": 1216.8701992034912,
+      "attempts": 327
+    },
+    {
+      "step": 302,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": -1,
+      "projective_gain": -2,
+      "score": 719,
+      "projective": 720,
+      "mode": "normal",
+      "margin": 0.00035260178443125023,
+      "seconds": 1221.3963358402252,
+      "attempts": 328
+    },
+    {
+      "step": 303,
+      "triangle": [
+        31,
+        32,
+        33
+      ],
+      "gain": 1,
+      "projective_gain": 2,
+      "score": 720,
+      "projective": 722,
+      "mode": "offset",
+      "margin": 0.0014030677323500808,
+      "seconds": 1225.0542900562286,
+      "attempts": 329
+    },
+    {
+      "step": 304,
+      "triangle": [
+        0,
+        2,
+        46
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 719,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.0015549304834015594,
+      "seconds": 1225.7711436748505,
+      "attempts": 330
+    },
+    {
+      "step": 305,
+      "triangle": [
+        3,
+        46,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 721,
+      "mode": "normal",
+      "margin": 0.0002635041370461068,
+      "seconds": 1227.071716785431,
+      "attempts": 331
+    },
+    {
+      "step": 306,
+      "triangle": [
+        0,
+        2,
+        46
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 718,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.0007118373836236248,
+      "seconds": 1230.9658546447754,
+      "attempts": 332
+    },
+    {
+      "step": 307,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": 1,
+      "projective_gain": 2,
+      "score": 719,
+      "projective": 722,
+      "mode": "offset",
+      "margin": 0.001196845159150489,
+      "seconds": 1231.6326837539673,
+      "attempts": 333
+    },
+    {
+      "step": 308,
+      "triangle": [
+        0,
+        2,
+        47
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 718,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.0015648762127222283,
+      "seconds": 1232.3103222846985,
+      "attempts": 334
+    },
+    {
+      "step": 309,
+      "triangle": [
+        3,
+        46,
+        47
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 719,
+      "projective": 722,
+      "mode": "normal_b",
+      "margin": 0.0008851850359132068,
+      "seconds": 1237.0578210353851,
+      "attempts": 335
+    },
+    {
+      "step": 310,
+      "triangle": [
+        1,
+        2,
+        46
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 722,
+      "mode": "normal_b",
+      "margin": 0.0008807884784194475,
+      "seconds": 1243.4187133312225,
+      "attempts": 336
+    },
+    {
+      "step": 311,
+      "triangle": [
+        0,
+        2,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 722,
+      "mode": "normal_b",
+      "margin": 0.0008693465439542868,
+      "seconds": 1249.1637029647827,
+      "attempts": 337
+    },
+    {
+      "step": 312,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": -1,
+      "score": 719,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.0009029928951927247,
+      "seconds": 1252.220155954361,
+      "attempts": 338
+    },
+    {
+      "step": 313,
+      "triangle": [
+        0,
+        1,
+        2
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 721,
+      "mode": "normal_b",
+      "margin": 0.0009391092242842255,
+      "seconds": 1255.5618829727173,
+      "attempts": 339
+    },
+    {
+      "step": 314,
+      "triangle": [
+        1,
+        2,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.001484641329208603,
+      "seconds": 1258.4692180156708,
+      "attempts": 340
+    },
+    {
+      "step": 315,
+      "triangle": [
+        0,
+        2,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.0017339357167723871,
+      "seconds": 1259.0511889457703,
+      "attempts": 341
+    },
+    {
+      "step": 316,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal",
+      "margin": 0.0009521785120296999,
+      "seconds": 1260.1151711940765,
+      "attempts": 342
+    },
+    {
+      "step": 317,
+      "triangle": [
+        0,
+        1,
+        2
+      ],
+      "gain": 0,
+      "projective_gain": 1,
+      "score": 718,
+      "projective": 721,
+      "mode": "normal",
+      "margin": 0.0007558162345061513,
+      "seconds": 1264.1792168617249,
+      "attempts": 343
+    },
+    {
+      "step": 318,
+      "triangle": [
+        3,
+        46,
+        47
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 717,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.0023773735735079914,
+      "seconds": 1267.1817843914032,
+      "attempts": 344
+    },
+    {
+      "step": 319,
+      "triangle": [
+        1,
+        2,
+        47
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 718,
+      "projective": 721,
+      "mode": "normal",
+      "margin": 0.00017961183265224952,
+      "seconds": 1268.1888496875763,
+      "attempts": 345
+    },
+    {
+      "step": 320,
+      "triangle": [
+        0,
+        2,
+        47
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 717,
+      "projective": 720,
+      "mode": "normal",
+      "margin": 9.315007347413857e-05,
+      "seconds": 1272.2723360061646,
+      "attempts": 346
+    },
+    {
+      "step": 321,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": -1,
+      "score": 717,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.0009126249251472371,
+      "seconds": 1275.3655807971954,
+      "attempts": 347
+    },
+    {
+      "step": 322,
+      "triangle": [
+        0,
+        1,
+        2
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal_b",
+      "margin": 0.0011604521929539581,
+      "seconds": 1279.8627400398254,
+      "attempts": 348
+    },
+    {
+      "step": 323,
+      "triangle": [
+        1,
+        2,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.0002009009549555359,
+      "seconds": 1283.7102646827698,
+      "attempts": 349
+    },
+    {
+      "step": 324,
+      "triangle": [
+        0,
+        1,
+        46
+      ],
+      "gain": 2,
+      "projective_gain": 2,
+      "score": 719,
+      "projective": 721,
+      "mode": "normal",
+      "margin": 0.00036445286135988286,
+      "seconds": 1288.2951483726501,
+      "attempts": 350
+    },
+    {
+      "step": 325,
+      "triangle": [
+        3,
+        46,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.0027290651046228604,
+      "seconds": 1291.533298254013,
+      "attempts": 351
+    },
+    {
+      "step": 326,
+      "triangle": [
+        1,
+        3,
+        45
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 718,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.0027293114340519817,
+      "seconds": 1292.1699993610382,
+      "attempts": 352
+    },
+    {
+      "step": 327,
+      "triangle": [
+        3,
+        46,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.002738407057890239,
+      "seconds": 1292.729531288147,
+      "attempts": 353
+    },
+    {
+      "step": 328,
+      "triangle": [
+        2,
+        3,
+        44
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.002316434677634046,
+      "seconds": 1293.2665140628815,
+      "attempts": 354
+    },
+    {
+      "step": 329,
+      "triangle": [
+        3,
+        46,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.0027295346925682415,
+      "seconds": 1293.809336900711,
+      "attempts": 355
+    },
+    {
+      "step": 330,
+      "triangle": [
+        0,
+        1,
+        3
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal_b",
+      "margin": 0.0013214025861486719,
+      "seconds": 1297.5333433151245,
+      "attempts": 356
+    },
+    {
+      "step": 331,
+      "triangle": [
+        1,
+        3,
+        46
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.001987097030896701,
+      "seconds": 1300.5401442050934,
+      "attempts": 357
+    },
+    {
+      "step": 332,
+      "triangle": [
+        0,
+        1,
+        45
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.0012823623951494676,
+      "seconds": 1301.1248180866241,
+      "attempts": 358
+    },
+    {
+      "step": 333,
+      "triangle": [
+        2,
+        3,
+        44
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal_b",
+      "margin": 0.0015947143820807808,
+      "seconds": 1304.838811635971,
+      "attempts": 359
+    },
+    {
+      "step": 334,
+      "triangle": [
+        0,
+        1,
+        45
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal_b",
+      "margin": 0.0015943459976500672,
+      "seconds": 1310.4752888679504,
+      "attempts": 360
+    },
+    {
+      "step": 335,
+      "triangle": [
+        1,
+        3,
+        46
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal",
+      "margin": 0.000959631495616165,
+      "seconds": 1314.181384086609,
+      "attempts": 361
+    },
+    {
+      "step": 336,
+      "triangle": [
+        0,
+        2,
+        46
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 717,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.004159562878659224,
+      "seconds": 1318.3483982086182,
+      "attempts": 362
+    },
+    {
+      "step": 337,
+      "triangle": [
+        2,
+        3,
+        44
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.0037007685941030173,
+      "seconds": 1319.3321108818054,
+      "attempts": 364
+    },
+    {
+      "step": 338,
+      "triangle": [
+        1,
+        2,
+        47
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal",
+      "margin": 0.0004956570654642533,
+      "seconds": 1320.7180280685425,
+      "attempts": 365
+    },
+    {
+      "step": 339,
+      "triangle": [
+        31,
+        32,
+        33
+      ],
+      "gain": -1,
+      "projective_gain": -2,
+      "score": 717,
+      "projective": 718,
+      "mode": "offset",
+      "margin": 0.003811131939859478,
+      "seconds": 1325.632815361023,
+      "attempts": 368
+    },
+    {
+      "step": 340,
+      "triangle": [
+        2,
+        3,
+        44
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 718,
+      "mode": "offset",
+      "margin": 0.0030840837854700493,
+      "seconds": 1326.2851157188416,
+      "attempts": 369
+    },
+    {
+      "step": 341,
+      "triangle": [
+        31,
+        32,
+        33
+      ],
+      "gain": 1,
+      "projective_gain": 2,
+      "score": 718,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.0030861941746416744,
+      "seconds": 1326.899730682373,
+      "attempts": 370
+    },
+    {
+      "step": 342,
+      "triangle": [
+        0,
+        1,
+        45
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 717,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.003645303518398866,
+      "seconds": 1331.9234671592712,
+      "attempts": 372
+    },
+    {
+      "step": 343,
+      "triangle": [
+        0,
+        3,
+        45
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal_b",
+      "margin": 0.0013832034493648146,
+      "seconds": 1336.027189731598,
+      "attempts": 373
+    },
+    {
+      "step": 344,
+      "triangle": [
+        1,
+        4,
+        44
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.0004871143480248063,
+      "seconds": 1340.4777269363403,
+      "attempts": 374
+    },
+    {
+      "step": 345,
+      "triangle": [
+        1,
+        2,
+        47
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 716,
+      "projective": 718,
+      "mode": "normal_b",
+      "margin": 0.0013897114397395584,
+      "seconds": 1352.2124683856964,
+      "attempts": 376
+    },
+    {
+      "step": 346,
+      "triangle": [
+        0,
+        1,
+        4
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 717,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.0035353325716419837,
+      "seconds": 1355.838163614273,
+      "attempts": 377
+    },
+    {
+      "step": 347,
+      "triangle": [
+        1,
+        2,
+        47
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal_b",
+      "margin": 0.0017748073112328166,
+      "seconds": 1359.3562877178192,
+      "attempts": 378
+    },
+    {
+      "step": 348,
+      "triangle": [
+        2,
+        3,
+        44
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal_b",
+      "margin": 0.001771976290474293,
+      "seconds": 1365.7787916660309,
+      "attempts": 379
+    },
+    {
+      "step": 349,
+      "triangle": [
+        2,
+        4,
+        43
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.0008466840941810085,
+      "seconds": 1369.383739233017,
+      "attempts": 380
+    },
+    {
+      "step": 350,
+      "triangle": [
+        0,
+        2,
+        45
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 716,
+      "projective": 718,
+      "mode": "offset",
+      "margin": 0.0014047400616469406,
+      "seconds": 1375.8812248706818,
+      "attempts": 382
+    },
+    {
+      "step": 351,
+      "triangle": [
+        2,
+        4,
+        43
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 716,
+      "projective": 718,
+      "mode": "offset",
+      "margin": 0.0013171610060336606,
+      "seconds": 1376.7685396671295,
+      "attempts": 383
+    },
+    {
+      "step": 352,
+      "triangle": [
+        0,
+        1,
+        44
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 715,
+      "projective": 717,
+      "mode": "normal",
+      "margin": 0.0006742452905729007,
+      "seconds": 1378.3210191726685,
+      "attempts": 385
+    },
+    {
+      "step": 353,
+      "triangle": [
+        0,
+        2,
+        45
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 716,
+      "projective": 718,
+      "mode": "offset",
+      "margin": 0.006232096663308832,
+      "seconds": 1381.7576282024384,
+      "attempts": 386
+    },
+    {
+      "step": 354,
+      "triangle": [
+        2,
+        3,
+        44
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 717,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.0050306619871430674,
+      "seconds": 1382.2984886169434,
+      "attempts": 387
+    },
+    {
+      "step": 355,
+      "triangle": [
+        1,
+        2,
+        47
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 716,
+      "projective": 718,
+      "mode": "normal_b",
+      "margin": 0.0015924037418349171,
+      "seconds": 1388.8194770812988,
+      "attempts": 389
+    },
+    {
+      "step": 356,
+      "triangle": [
+        0,
+        4,
+        44
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 717,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.0031859857463438445,
+      "seconds": 1391.9270813465118,
+      "attempts": 390
+    },
+    {
+      "step": 357,
+      "triangle": [
+        1,
+        4,
+        44
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 716,
+      "projective": 718,
+      "mode": "normal",
+      "margin": 0.0011185033373422202,
+      "seconds": 1396.7466835975647,
+      "attempts": 393
+    },
+    {
+      "step": 358,
+      "triangle": [
+        0,
+        1,
+        4
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 717,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.0018158062884238517,
+      "seconds": 1401.5334379673004,
+      "attempts": 394
+    },
+    {
+      "step": 359,
+      "triangle": [
+        0,
+        1,
+        44
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 716,
+      "projective": 718,
+      "mode": "normal_b",
+      "margin": 0.0019559057681603044,
+      "seconds": 1410.2816035747528,
+      "attempts": 397
+    },
+    {
+      "step": 360,
+      "triangle": [
+        0,
+        4,
+        44
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.001725885421223548,
+      "seconds": 1414.828784942627,
+      "attempts": 398
+    },
+    {
+      "step": 361,
+      "triangle": [
+        0,
+        2,
+        46
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.0015566826261576132,
+      "seconds": 1419.1462469100952,
+      "attempts": 399
+    },
+    {
+      "step": 362,
+      "triangle": [
+        0,
+        3,
+        45
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.002097269726844808,
+      "seconds": 1424.7226753234863,
+      "attempts": 400
+    },
+    {
+      "step": 363,
+      "triangle": [
+        2,
+        3,
+        44
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.004731851148508508,
+      "seconds": 1429.8371856212616,
+      "attempts": 401
+    },
+    {
+      "step": 364,
+      "triangle": [
+        3,
+        46,
+        47
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 716,
+      "projective": 718,
+      "mode": "offset",
+      "margin": 0.0019833306834930765,
+      "seconds": 1430.5277314186096,
+      "attempts": 402
+    },
+    {
+      "step": 365,
+      "triangle": [
+        0,
+        1,
+        45
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.0009415622426215449,
+      "seconds": 1431.7153408527374,
+      "attempts": 403
+    },
+    {
+      "step": 366,
+      "triangle": [
+        2,
+        3,
+        44
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.0010169004342753096,
+      "seconds": 1436.1387300491333,
+      "attempts": 404
+    },
+    {
+      "step": 367,
+      "triangle": [
+        1,
+        46,
+        47
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 716,
+      "projective": 718,
+      "mode": "normal",
+      "margin": 0.0008146625379636236,
+      "seconds": 1440.7188031673431,
+      "attempts": 405
+    },
+    {
+      "step": 368,
+      "triangle": [
+        0,
+        2,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 716,
+      "projective": 718,
+      "mode": "offset",
+      "margin": 0.005046610844007431,
+      "seconds": 1444.5603723526,
+      "attempts": 406
+    },
+    {
+      "step": 369,
+      "triangle": [
+        2,
+        3,
+        44
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 716,
+      "projective": 718,
+      "mode": "offset",
+      "margin": 0.002350012572785037,
+      "seconds": 1445.2597651481628,
+      "attempts": 407
+    },
+    {
+      "step": 370,
+      "triangle": [
+        0,
+        2,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 716,
+      "projective": 718,
+      "mode": "normal",
+      "margin": 0.0009042989019540469,
+      "seconds": 1446.7494404315948,
+      "attempts": 408
+    },
+    {
+      "step": 371,
+      "triangle": [
+        0,
+        2,
+        46
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 716,
+      "projective": 718,
+      "mode": "normal_b",
+      "margin": 0.0006433062095816469,
+      "seconds": 1455.9900085926056,
+      "attempts": 409
+    },
+    {
+      "step": 372,
+      "triangle": [
+        1,
+        46,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 716,
+      "projective": 718,
+      "mode": "offset",
+      "margin": 0.0034532322577668882,
+      "seconds": 1460.5813109874725,
+      "attempts": 410
+    },
+    {
+      "step": 373,
+      "triangle": [
+        0,
+        1,
+        3
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 716,
+      "projective": 718,
+      "mode": "offset",
+      "margin": 0.00259250155616322,
+      "seconds": 1461.5622789859772,
+      "attempts": 412
+    },
+    {
+      "step": 374,
+      "triangle": [
+        3,
+        46,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 716,
+      "projective": 718,
+      "mode": "offset",
+      "margin": 0.002592501556161368,
+      "seconds": 1462.2439596652985,
+      "attempts": 413
+    },
+    {
+      "step": 375,
+      "triangle": [
+        2,
+        3,
+        44
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 716,
+      "projective": 718,
+      "mode": "offset",
+      "margin": 0.0035339112846681925,
+      "seconds": 1463.239946603775,
+      "attempts": 415
+    },
+    {
+      "step": 376,
+      "triangle": [
+        1,
+        2,
+        47
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.0011354879071064396,
+      "seconds": 1464.6307699680328,
+      "attempts": 416
+    },
+    {
+      "step": 377,
+      "triangle": [
+        1,
+        3,
+        45
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 718,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.004612800623797692,
+      "seconds": 1468.42067360878,
+      "attempts": 417
+    },
+    {
+      "step": 378,
+      "triangle": [
+        0,
+        2,
+        46
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal",
+      "margin": 0.0012523945802522527,
+      "seconds": 1469.7252323627472,
+      "attempts": 418
+    },
+    {
+      "step": 379,
+      "triangle": [
+        0,
+        3,
+        45
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.0012623756708137093,
+      "seconds": 1474.8752884864807,
+      "attempts": 419
+    },
+    {
+      "step": 380,
+      "triangle": [
+        1,
+        2,
+        47
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 718,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.005162575034394952,
+      "seconds": 1478.8433315753937,
+      "attempts": 420
+    },
+    {
+      "step": 381,
+      "triangle": [
+        3,
+        46,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.004553728079020481,
+      "seconds": 1479.7057275772095,
+      "attempts": 421
+    },
+    {
+      "step": 382,
+      "triangle": [
+        4,
+        45,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal",
+      "margin": 0.0012369959875082152,
+      "seconds": 1481.0772168636322,
+      "attempts": 422
+    },
+    {
+      "step": 383,
+      "triangle": [
+        5,
+        45,
+        46
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal",
+      "margin": 0.0012360156587472295,
+      "seconds": 1486.332602739334,
+      "attempts": 423
+    },
+    {
+      "step": 384,
+      "triangle": [
+        15,
+        16,
+        17
+      ],
+      "gain": -1,
+      "projective_gain": -2,
+      "score": 717,
+      "projective": 718,
+      "mode": "normal_b",
+      "margin": 0.0009494763370075226,
+      "seconds": 1494.3452756404877,
+      "attempts": 424
+    },
+    {
+      "step": 385,
+      "triangle": [
+        5,
+        45,
+        46
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 718,
+      "mode": "offset",
+      "margin": 0.004792968269871025,
+      "seconds": 1498.9782092571259,
+      "attempts": 425
+    },
+    {
+      "step": 386,
+      "triangle": [
+        4,
+        45,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 718,
+      "mode": "normal",
+      "margin": 0.0010744426150989179,
+      "seconds": 1500.832121372223,
+      "attempts": 426
+    },
+    {
+      "step": 387,
+      "triangle": [
+        0,
+        3,
+        45
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 718,
+      "projective": 719,
+      "mode": "normal_b",
+      "margin": 0.0011612645563813147,
+      "seconds": 1511.275361776352,
+      "attempts": 427
+    },
+    {
+      "step": 388,
+      "triangle": [
+        3,
+        46,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.005440803309842111,
+      "seconds": 1515.608821630478,
+      "attempts": 428
+    },
+    {
+      "step": 389,
+      "triangle": [
+        0,
+        1,
+        46
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.005439539194148474,
+      "seconds": 1516.704426765442,
+      "attempts": 429
+    },
+    {
+      "step": 390,
+      "triangle": [
+        0,
+        2,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 719,
+      "mode": "normal_b",
+      "margin": 0.0012543955931198253,
+      "seconds": 1523.4647183418274,
+      "attempts": 430
+    },
+    {
+      "step": 391,
+      "triangle": [
+        14,
+        16,
+        18
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 717,
+      "projective": 718,
+      "mode": "offset",
+      "margin": 0.00397906558425516,
+      "seconds": 1527.1645267009735,
+      "attempts": 431
+    },
+    {
+      "step": 392,
+      "triangle": [
+        14,
+        15,
+        19
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 718,
+      "mode": "normal_b",
+      "margin": 0.000630319096069655,
+      "seconds": 1531.9021861553192,
+      "attempts": 432
+    },
+    {
+      "step": 393,
+      "triangle": [
+        0,
+        2,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 718,
+      "mode": "offset",
+      "margin": 0.005528851139436495,
+      "seconds": 1536.227220773697,
+      "attempts": 433
+    },
+    {
+      "step": 394,
+      "triangle": [
+        14,
+        15,
+        19
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 718,
+      "mode": "offset",
+      "margin": 0.0055386451844255565,
+      "seconds": 1537.0630111694336,
+      "attempts": 434
+    },
+    {
+      "step": 395,
+      "triangle": [
+        1,
+        2,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 718,
+      "mode": "offset",
+      "margin": 0.0026095200272355594,
+      "seconds": 1537.9056253433228,
+      "attempts": 435
+    },
+    {
+      "step": 396,
+      "triangle": [
+        14,
+        16,
+        18
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 718,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.0026095200272355594,
+      "seconds": 1538.7416369915009,
+      "attempts": 436
+    },
+    {
+      "step": 397,
+      "triangle": [
+        0,
+        1,
+        2
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.0013044946431820018,
+      "seconds": 1539.9941251277924,
+      "attempts": 437
+    },
+    {
+      "step": 398,
+      "triangle": [
+        1,
+        2,
+        46
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 719,
+      "projective": 720,
+      "mode": "normal_b",
+      "margin": 0.0012323360497089675,
+      "seconds": 1548.2191317081451,
+      "attempts": 438
+    },
+    {
+      "step": 399,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": 1,
+      "projective_gain": 2,
+      "score": 720,
+      "projective": 722,
+      "mode": "normal_b",
+      "margin": 0.0012303836849436034,
+      "seconds": 1553.9815299510956,
+      "attempts": 439
+    },
+    {
+      "step": 400,
+      "triangle": [
+        14,
+        16,
+        18
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 719,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.005189662009967332,
+      "seconds": 1557.1081004142761,
+      "attempts": 440
+    },
+    {
+      "step": 401,
+      "triangle": [
+        31,
+        32,
+        33
+      ],
+      "gain": -1,
+      "projective_gain": -2,
+      "score": 720,
+      "projective": 722,
+      "mode": "offset",
+      "margin": 0.0017518454806626442,
+      "seconds": 1560.4445519447327,
+      "attempts": 441
+    },
+    {
+      "step": 402,
+      "triangle": [
+        30,
+        33,
+        34
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 719,
+      "projective": 721,
+      "mode": "normal",
+      "margin": 0.0006282950206108309,
+      "seconds": 1561.717915058136,
+      "attempts": 442
+    },
+    {
+      "step": 403,
+      "triangle": [
+        31,
+        32,
+        33
+      ],
+      "gain": 0,
+      "projective_gain": 1,
+      "score": 719,
+      "projective": 722,
+      "mode": "normal_b",
+      "margin": 0.0003864407046602918,
+      "seconds": 1569.3335373401642,
+      "attempts": 443
+    },
+    {
+      "step": 404,
+      "triangle": [
+        31,
+        32,
+        34
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 722,
+      "mode": "normal_b",
+      "margin": 0.0008145873062216193,
+      "seconds": 1575.558489561081,
+      "attempts": 444
+    },
+    {
+      "step": 405,
+      "triangle": [
+        30,
+        33,
+        34
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 722,
+      "mode": "normal_b",
+      "margin": 0.000906665376973542,
+      "seconds": 1581.6006526947021,
+      "attempts": 445
+    },
+    {
+      "step": 406,
+      "triangle": [
+        30,
+        32,
+        35
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 718,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.0016569766181039694,
+      "seconds": 1585.227249622345,
+      "attempts": 446
+    },
+    {
+      "step": 407,
+      "triangle": [
+        30,
+        33,
+        34
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.0014997395511840556,
+      "seconds": 1585.9582233428955,
+      "attempts": 447
+    },
+    {
+      "step": 408,
+      "triangle": [
+        29,
+        33,
+        35
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.0012847572383437322,
+      "seconds": 1586.5620591640472,
+      "attempts": 448
+    },
+    {
+      "step": 409,
+      "triangle": [
+        28,
+        34,
+        35
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.0012463024902514101,
+      "seconds": 1587.3056406974792,
+      "attempts": 449
+    },
+    {
+      "step": 410,
+      "triangle": [
+        15,
+        16,
+        17
+      ],
+      "gain": -1,
+      "projective_gain": -2,
+      "score": 717,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.0012463024902510365,
+      "seconds": 1588.0652499198914,
+      "attempts": 450
+    },
+    {
+      "step": 411,
+      "triangle": [
+        28,
+        34,
+        35
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.0012847572383482921,
+      "seconds": 1588.7094957828522,
+      "attempts": 451
+    },
+    {
+      "step": 412,
+      "triangle": [
+        29,
+        33,
+        35
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.0007545280608964233,
+      "seconds": 1589.7542843818665,
+      "attempts": 452
+    },
+    {
+      "step": 413,
+      "triangle": [
+        30,
+        32,
+        35
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 718,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.0016388415698344863,
+      "seconds": 1593.9767835140228,
+      "attempts": 453
+    },
+    {
+      "step": 414,
+      "triangle": [
+        30,
+        33,
+        34
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.002360813519979962,
+      "seconds": 1594.7687537670135,
+      "attempts": 454
+    },
+    {
+      "step": 415,
+      "triangle": [
+        31,
+        32,
+        34
+      ],
+      "gain": 2,
+      "projective_gain": 2,
+      "score": 720,
+      "projective": 722,
+      "mode": "normal_b",
+      "margin": 0.0010972038208954698,
+      "seconds": 1599.1040387153625,
+      "attempts": 455
+    },
+    {
+      "step": 416,
+      "triangle": [
+        14,
+        17,
+        18
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 719,
+      "projective": 721,
+      "mode": "normal_b",
+      "margin": 0.0007437045471117488,
+      "seconds": 1607.8114960193634,
+      "attempts": 456
+    },
+    {
+      "step": 417,
+      "triangle": [
+        15,
+        16,
+        17
+      ],
+      "gain": 0,
+      "projective_gain": 1,
+      "score": 719,
+      "projective": 722,
+      "mode": "offset",
+      "margin": 0.0020733055656973185,
+      "seconds": 1612.39502286911,
+      "attempts": 457
+    },
+    {
+      "step": 418,
+      "triangle": [
+        15,
+        16,
+        18
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 722,
+      "mode": "normal_b",
+      "margin": 0.0009961272214523173,
+      "seconds": 1616.6909627914429,
+      "attempts": 458
+    },
+    {
+      "step": 419,
+      "triangle": [
+        14,
+        17,
+        18
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 722,
+      "mode": "normal_b",
+      "margin": 0.0011523771730152519,
+      "seconds": 1624.131356716156,
+      "attempts": 459
+    },
+    {
+      "step": 420,
+      "triangle": [
+        14,
+        16,
+        19
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 718,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.003069388040707115,
+      "seconds": 1627.7807853221893,
+      "attempts": 460
+    },
+    {
+      "step": 421,
+      "triangle": [
+        15,
+        16,
+        18
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 721,
+      "mode": "normal",
+      "margin": 0.000824026039934029,
+      "seconds": 1629.0647253990173,
+      "attempts": 461
+    },
+    {
+      "step": 422,
+      "triangle": [
+        15,
+        16,
+        17
+      ],
+      "gain": -1,
+      "projective_gain": -2,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal_b",
+      "margin": 0.0003404535102510098,
+      "seconds": 1636.5405623912811,
+      "attempts": 462
+    },
+    {
+      "step": 423,
+      "triangle": [
+        14,
+        17,
+        18
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal_b",
+      "margin": 0.0004660046189863968,
+      "seconds": 1644.5577538013458,
+      "attempts": 463
+    },
+    {
+      "step": 424,
+      "triangle": [
+        15,
+        16,
+        17
+      ],
+      "gain": 0,
+      "projective_gain": 1,
+      "score": 717,
+      "projective": 720,
+      "mode": "normal_b",
+      "margin": 0.0005093240732296128,
+      "seconds": 1652.2907662391663,
+      "attempts": 464
+    },
+    {
+      "step": 425,
+      "triangle": [
+        15,
+        16,
+        18
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 718,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.004488139415822884,
+      "seconds": 1656.9216587543488,
+      "attempts": 465
+    },
+    {
+      "step": 426,
+      "triangle": [
+        13,
+        17,
+        19
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.003382656934816509,
+      "seconds": 1657.7384343147278,
+      "attempts": 466
+    },
+    {
+      "step": 427,
+      "triangle": [
+        12,
+        18,
+        19
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.0038132748837528194,
+      "seconds": 1658.6455738544464,
+      "attempts": 467
+    },
+    {
+      "step": 428,
+      "triangle": [
+        15,
+        17,
+        18
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 717,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.002031349461812664,
+      "seconds": 1659.4629635810852,
+      "attempts": 468
+    },
+    {
+      "step": 429,
+      "triangle": [
+        15,
+        16,
+        19
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.0035899280514377074,
+      "seconds": 1660.3435955047607,
+      "attempts": 469
+    },
+    {
+      "step": 430,
+      "triangle": [
+        14,
+        17,
+        19
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.0021479555006157034,
+      "seconds": 1661.1530468463898,
+      "attempts": 470
+    },
+    {
+      "step": 431,
+      "triangle": [
+        12,
+        18,
+        19
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.00055133533091566,
+      "seconds": 1662.0040442943573,
+      "attempts": 471
+    },
+    {
+      "step": 432,
+      "triangle": [
+        14,
+        17,
+        19
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.003957633688363882,
+      "seconds": 1662.8305327892303,
+      "attempts": 472
+    },
+    {
+      "step": 433,
+      "triangle": [
+        13,
+        17,
+        19
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 720,
+      "mode": "normal_b",
+      "margin": 0.0016161032374556227,
+      "seconds": 1667.7047107219696,
+      "attempts": 473
+    },
+    {
+      "step": 434,
+      "triangle": [
+        15,
+        16,
+        19
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.004240960167651216,
+      "seconds": 1672.1113910675049,
+      "attempts": 474
+    },
+    {
+      "step": 435,
+      "triangle": [
+        14,
+        16,
+        19
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 718,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.004159038650964729,
+      "seconds": 1672.863445520401,
+      "attempts": 475
+    },
+    {
+      "step": 436,
+      "triangle": [
+        16,
+        17,
+        18
+      ],
+      "gain": 0,
+      "projective_gain": -1,
+      "score": 718,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.004182471861331713,
+      "seconds": 1673.6655731201172,
+      "attempts": 476
+    },
+    {
+      "step": 437,
+      "triangle": [
+        15,
+        16,
+        17
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 719,
+      "projective": 721,
+      "mode": "normal",
+      "margin": 0.0009159619492663058,
+      "seconds": 1675.1935408115387,
+      "attempts": 477
+    },
+    {
+      "step": 438,
+      "triangle": [
+        15,
+        16,
+        18
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 721,
+      "mode": "normal",
+      "margin": 0.0009159619459194909,
+      "seconds": 1681.0635950565338,
+      "attempts": 478
+    },
+    {
+      "step": 439,
+      "triangle": [
+        14,
+        16,
+        17
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 721,
+      "mode": "normal_b",
+      "margin": 0.0018618797764428292,
+      "seconds": 1689.9551801681519,
+      "attempts": 479
+    },
+    {
+      "step": 440,
+      "triangle": [
+        14,
+        15,
+        19
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 719,
+      "projective": 721,
+      "mode": "offset",
+      "margin": 0.008321237732524253,
+      "seconds": 1693.7627561092377,
+      "attempts": 480
+    },
+    {
+      "step": 441,
+      "triangle": [
+        31,
+        32,
+        33
+      ],
+      "gain": -1,
+      "projective_gain": -2,
+      "score": 718,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.0012007408325221776,
+      "seconds": 1695.045119524002,
+      "attempts": 481
+    },
+    {
+      "step": 442,
+      "triangle": [
+        14,
+        15,
+        19
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.010219640275254203,
+      "seconds": 1698.6150577068329,
+      "attempts": 482
+    },
+    {
+      "step": 443,
+      "triangle": [
+        14,
+        16,
+        17
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.0016411333866775484,
+      "seconds": 1699.8784775733948,
+      "attempts": 483
+    },
+    {
+      "step": 444,
+      "triangle": [
+        15,
+        16,
+        18
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.005504803174467743,
+      "seconds": 1703.7945201396942,
+      "attempts": 484
+    },
+    {
+      "step": 445,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": -1,
+      "projective_gain": -2,
+      "score": 717,
+      "projective": 717,
+      "mode": "offset",
+      "margin": 0.00403138240615313,
+      "seconds": 1704.5146470069885,
+      "attempts": 485
+    },
+    {
+      "step": 446,
+      "triangle": [
+        31,
+        32,
+        33
+      ],
+      "gain": 1,
+      "projective_gain": 2,
+      "score": 718,
+      "projective": 719,
+      "mode": "normal_b",
+      "margin": 0.001207905039000414,
+      "seconds": 1708.8179955482483,
+      "attempts": 486
+    },
+    {
+      "step": 447,
+      "triangle": [
+        15,
+        16,
+        18
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.008308695208319129,
+      "seconds": 1712.5781526565552,
+      "attempts": 487
+    },
+    {
+      "step": 448,
+      "triangle": [
+        14,
+        16,
+        17
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.006324637701862637,
+      "seconds": 1713.4582407474518,
+      "attempts": 488
+    },
+    {
+      "step": 449,
+      "triangle": [
+        14,
+        15,
+        19
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 719,
+      "mode": "normal_b",
+      "margin": 0.0015229167009261969,
+      "seconds": 1717.850872039795,
+      "attempts": 489
+    },
+    {
+      "step": 450,
+      "triangle": [
+        13,
+        16,
+        19
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 717,
+      "projective": 718,
+      "mode": "normal",
+      "margin": 0.0006967899480827868,
+      "seconds": 1721.8932411670685,
+      "attempts": 490
+    },
+    {
+      "step": 451,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": 1,
+      "projective_gain": 2,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal",
+      "margin": 0.0014745236451870348,
+      "seconds": 1725.813101053238,
+      "attempts": 491
+    },
+    {
+      "step": 452,
+      "triangle": [
+        13,
+        15,
+        20
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal_b",
+      "margin": 0.0016131410352349007,
+      "seconds": 1732.747875213623,
+      "attempts": 492
+    },
+    {
+      "step": 453,
+      "triangle": [
+        13,
+        14,
+        21
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 718,
+      "projective": 720,
+      "mode": "normal_b",
+      "margin": 0.0015254111238268112,
+      "seconds": 1740.1110208034515,
+      "attempts": 493
+    },
+    {
+      "step": 454,
+      "triangle": [
+        13,
+        16,
+        17
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.0015516834103518518,
+      "seconds": 1745.4183449745178,
+      "attempts": 494
+    },
+    {
+      "step": 455,
+      "triangle": [
+        14,
+        16,
+        18
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal_b",
+      "margin": 0.0019042035707027044,
+      "seconds": 1755.7663385868073,
+      "attempts": 495
+    },
+    {
+      "step": 456,
+      "triangle": [
+        13,
+        14,
+        21
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.0016649376228227311,
+      "seconds": 1760.7752711772919,
+      "attempts": 496
+    },
+    {
+      "step": 457,
+      "triangle": [
+        13,
+        15,
+        20
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal_b",
+      "margin": 0.0017628537990890718,
+      "seconds": 1769.2490592002869,
+      "attempts": 497
+    },
+    {
+      "step": 458,
+      "triangle": [
+        15,
+        17,
+        18
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal",
+      "margin": 0.0016547587027634229,
+      "seconds": 1774.0500373840332,
+      "attempts": 498
+    },
+    {
+      "step": 459,
+      "triangle": [
+        14,
+        15,
+        19
+      ],
+      "gain": 1,
+      "projective_gain": 1,
+      "score": 718,
+      "projective": 720,
+      "mode": "offset",
+      "margin": 0.009095410920779567,
+      "seconds": 1777.7247693538666,
+      "attempts": 499
+    },
+    {
+      "step": 460,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": -1,
+      "projective_gain": -2,
+      "score": 717,
+      "projective": 718,
+      "mode": "offset",
+      "margin": 0.003463091821357948,
+      "seconds": 1778.3536746501923,
+      "attempts": 500
+    },
+    {
+      "step": 461,
+      "triangle": [
+        1,
+        2,
+        46
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 716,
+      "projective": 717,
+      "mode": "offset",
+      "margin": 0.0034588738441609945,
+      "seconds": 1778.9662041664124,
+      "attempts": 501
+    },
+    {
+      "step": 462,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 1,
+      "score": 716,
+      "projective": 718,
+      "mode": "offset",
+      "margin": 0.006762516431067005,
+      "seconds": 1779.6728422641754,
+      "attempts": 502
+    },
+    {
+      "step": 463,
+      "triangle": [
+        0,
+        2,
+        47
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 716,
+      "projective": 718,
+      "mode": "offset",
+      "margin": 0.006798245779224186,
+      "seconds": 1780.419983625412,
+      "attempts": 503
+    },
+    {
+      "step": 464,
+      "triangle": [
+        1,
+        2,
+        46
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 716,
+      "projective": 718,
+      "mode": "offset",
+      "margin": 0.009099255609587166,
+      "seconds": 1781.3108978271484,
+      "attempts": 504
+    },
+    {
+      "step": 465,
+      "triangle": [
+        14,
+        15,
+        19
+      ],
+      "gain": -1,
+      "projective_gain": -1,
+      "score": 715,
+      "projective": 717,
+      "mode": "offset",
+      "margin": 0.009096541222547697,
+      "seconds": 1782.1301748752594,
+      "attempts": 505
+    },
+    {
+      "step": 466,
+      "triangle": [
+        13,
+        15,
+        20
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 715,
+      "projective": 717,
+      "mode": "normal",
+      "margin": 0.0021442313199577924,
+      "seconds": 1783.7283811569214,
+      "attempts": 506
+    },
+    {
+      "step": 467,
+      "triangle": [
+        0,
+        2,
+        47
+      ],
+      "gain": 2,
+      "projective_gain": 2,
+      "score": 717,
+      "projective": 719,
+      "mode": "offset",
+      "margin": 0.006240711154942286,
+      "seconds": 1788.2199311256409,
+      "attempts": 507
+    },
+    {
+      "step": 468,
+      "triangle": [
+        13,
+        14,
+        21
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 717,
+      "projective": 719,
+      "mode": "normal_b",
+      "margin": 0.0011478336971326433,
+      "seconds": 1792.282014131546,
+      "attempts": 508
+    },
+    {
+      "step": 469,
+      "triangle": [
+        0,
+        1,
+        47
+      ],
+      "gain": -1,
+      "projective_gain": -2,
+      "score": 716,
+      "projective": 717,
+      "mode": "offset",
+      "margin": 0.004443859679528953,
+      "seconds": 1795.662700176239,
+      "attempts": 509
+    },
+    {
+      "step": 470,
+      "triangle": [
+        15,
+        17,
+        18
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 716,
+      "projective": 717,
+      "mode": "offset",
+      "margin": 0.004189404032135418,
+      "seconds": 1796.3535606861115,
+      "attempts": 510
+    },
+    {
+      "step": 471,
+      "triangle": [
+        13,
+        14,
+        21
+      ],
+      "gain": 0,
+      "projective_gain": 0,
+      "score": 716,
+      "projective": 717,
+      "mode": "normal_b",
+      "margin": 0.001859070617013435,
+      "seconds": 1799.7784316539764,
+      "attempts": 511
+    }
+  ]
+}

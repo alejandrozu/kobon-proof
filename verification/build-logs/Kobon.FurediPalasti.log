@@ -1,8 +1,8 @@
-ℹ [775/781] Replayed Kobon.Geometry
+ℹ [775/868] Replayed Kobon.Geometry
 info: Kobon/Geometry.lean:144:0: 'Kobon.validate_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
 info: Kobon/Geometry.lean:145:0: 'Kobon.orientedEval_affine' depends on axioms: [propext, Classical.choice, Quot.sound]
-ℹ [776/781] Replayed Kobon.Simple
+ℹ [776/868] Replayed Kobon.Simple
 info: Kobon/Simple.lean:49:0: 'Kobon.validate_simple_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
-ℹ [2969/2969] Built Kobon.FurediPalasti (17s)
+ℹ [2969/2969] Replayed Kobon.FurediPalasti
 info: Kobon/FurediPalasti.lean:345:0: 'Kobon.FurediPalasti.lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
 Build completed successfully (2969 jobs).

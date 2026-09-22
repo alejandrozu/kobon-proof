@@ -1,0 +1,19 @@
+{
+  "n": 39,
+  "seed": 3918,
+  "H": 15,
+  "best_projective_float": 471,
+  "proposals": 2687600,
+  "restarts": 690,
+  "seconds": 1800.219000000041,
+  "history": [
+    {
+      "n": 39,
+      "projective": 471,
+      "affine": 468,
+      "seconds": 0.03200000000651926,
+      "proposals": 0
+    }
+  ],
+  "limitations": "bounded heuristic; exact affine coordinate checks, projective verification separate"
+}

@@ -1,0 +1,434 @@
+{
+  "upstream_commit": "feae4f5571a988a3ed45bd26a36259ebb7d7d3d2",
+  "commit_date": "2026-09-21T18:24:03Z",
+  "checked_utc": "2026-09-22",
+  "records": [
+    {
+      "n": 14,
+      "T": 54,
+      "h": 11,
+      "U": 1,
+      "D1": 10,
+      "D2": 0,
+      "multiple_points": 5,
+      "parallel_pairs": 0,
+      "triple_point_fans": [
+        {
+          "d1": 2,
+          "d2": 0
+        },
+        {
+          "d1": 2,
+          "d2": 0
+        },
+        {
+          "d1": 2,
+          "d2": 0
+        },
+        {
+          "d1": 2,
+          "d2": 0
+        },
+        {
+          "d1": 2,
+          "d2": 0
+        }
+      ],
+      "general_core_weight": -45,
+      "source_path": "gallery/certificates/14/14-1jc3dhxbbh727.json",
+      "source_sha256": "bad8e0cc6fa70f4b03432774fa0e61ab9cda0379746295499cafd6ab7bae3c4d",
+      "incidence_multiplicities": {
+        "2": 76,
+        "3": 5
+      },
+      "multiple_incidence": [
+        [
+          1,
+          4,
+          13
+        ],
+        [
+          2,
+          4,
+          10
+        ],
+        [
+          4,
+          6,
+          12
+        ],
+        [
+          4,
+          7,
+          9
+        ],
+        [
+          4,
+          8,
+          11
+        ]
+      ],
+      "independent_sign_counter": "PASS"
+    },
+    {
+      "n": 20,
+      "T": 117,
+      "h": 13,
+      "U": 3,
+      "D1": 12,
+      "D2": 0,
+      "multiple_points": 6,
+      "parallel_pairs": 0,
+      "triple_point_fans": [
+        {
+          "d1": 2,
+          "d2": 0
+        },
+        {
+          "d1": 2,
+          "d2": 0
+        },
+        {
+          "d1": 2,
+          "d2": 0
+        },
+        {
+          "d1": 2,
+          "d2": 0
+        },
+        {
+          "d1": 2,
+          "d2": 0
+        },
+        {
+          "d1": 2,
+          "d2": 0
+        }
+      ],
+      "general_core_weight": -54,
+      "source_path": "gallery/certificates/20/20-2dlmjzueiap0b.json",
+      "source_sha256": "27af3c68ddc416efb2509df45a1e4061170b2f742777e215e5080b4b1f7a87fd",
+      "incidence_multiplicities": {
+        "2": 172,
+        "3": 6
+      },
+      "multiple_incidence": [
+        [
+          0,
+          3,
+          18
+        ],
+        [
+          3,
+          7,
+          9
+        ],
+        [
+          3,
+          8,
+          10
+        ],
+        [
+          3,
+          11,
+          13
+        ],
+        [
+          3,
+          12,
+          14
+        ],
+        [
+          3,
+          15,
+          17
+        ]
+      ],
+      "independent_sign_counter": "PASS"
+    },
+    {
+      "n": 26,
+      "T": 204,
+      "h": 5,
+      "U": 10,
+      "D1": 4,
+      "D2": 0,
+      "multiple_points": 2,
+      "parallel_pairs": 0,
+      "triple_point_fans": [
+        {
+          "d1": 2,
+          "d2": 0
+        },
+        {
+          "d1": 2,
+          "d2": 0
+        }
+      ],
+      "general_core_weight": -18,
+      "source_path": "gallery/certificates/26/26-3ib8pjphuw1a0.json",
+      "source_sha256": "a397c41701acefd38132c022571d3c91c6e233db0aa812a3fa36e11f35961436",
+      "incidence_multiplicities": {
+        "2": 319,
+        "3": 2
+      },
+      "multiple_incidence": [
+        [
+          10,
+          11,
+          13
+        ],
+        [
+          10,
+          14,
+          16
+        ]
+      ],
+      "independent_sign_counter": "PASS"
+    },
+    {
+      "n": 32,
+      "T": 315,
+      "h": 9,
+      "U": 11,
+      "D1": 8,
+      "D2": 0,
+      "multiple_points": 4,
+      "parallel_pairs": 0,
+      "triple_point_fans": [
+        {
+          "d1": 2,
+          "d2": 0
+        },
+        {
+          "d1": 2,
+          "d2": 0
+        },
+        {
+          "d1": 2,
+          "d2": 0
+        },
+        {
+          "d1": 2,
+          "d2": 0
+        }
+      ],
+      "general_core_weight": -36,
+      "source_path": "gallery/certificates/32/32-1mggmvl5bkz4v.json",
+      "source_sha256": "1ee4b3b24bb181fd983cd642eb131161c8f0d8ebe91dbec384948500a3c7aa76",
+      "incidence_multiplicities": {
+        "2": 484,
+        "3": 4
+      },
+      "multiple_incidence": [
+        [
+          0,
+          2,
+          6
+        ],
+        [
+          1,
+          6,
+          31
+        ],
+        [
+          6,
+          25,
+          27
+        ],
+        [
+          6,
+          28,
+          30
+        ]
+      ],
+      "independent_sign_counter": "PASS"
+    },
+    {
+      "n": 36,
+      "T": 402,
+      "h": 0,
+      "U": 18,
+      "D1": 0,
+      "D2": 0,
+      "multiple_points": 0,
+      "parallel_pairs": 0,
+      "triple_point_fans": [],
+      "general_core_weight": 0,
+      "source_path": "gallery/certificates/36/36-3o15h1qwq5uh1.json",
+      "source_sha256": "4e009e1ceae968b583443271ed4a27c13b721cdeee4edc713a4ef70acb725b96",
+      "incidence_multiplicities": {
+        "2": 630
+      },
+      "multiple_incidence": [],
+      "independent_sign_counter": "PASS"
+    },
+    {
+      "n": 38,
+      "T": 450,
+      "h": 7,
+      "U": 15,
+      "D1": 6,
+      "D2": 0,
+      "multiple_points": 3,
+      "parallel_pairs": 0,
+      "triple_point_fans": [
+        {
+          "d1": 2,
+          "d2": 0
+        },
+        {
+          "d1": 2,
+          "d2": 0
+        },
+        {
+          "d1": 2,
+          "d2": 0
+        }
+      ],
+      "general_core_weight": -27,
+      "source_path": "gallery/certificates/38/38-1l8x1qx7on4je.json",
+      "source_sha256": "74d8b68c1e998ba35b33235faf6f90fa832a8901d4d65796a2fe14f9a5ac78ff",
+      "incidence_multiplicities": {
+        "2": 694,
+        "3": 3
+      },
+      "multiple_incidence": [
+        [
+          12,
+          14,
+          20
+        ],
+        [
+          13,
+          17,
+          20
+        ],
+        [
+          15,
+          18,
+          20
+        ]
+      ],
+      "independent_sign_counter": "PASS"
+    },
+    {
+      "n": 42,
+      "T": 553,
+      "h": 0,
+      "U": 21,
+      "D1": 0,
+      "D2": 0,
+      "multiple_points": 0,
+      "parallel_pairs": 0,
+      "triple_point_fans": [],
+      "general_core_weight": 0,
+      "source_path": "gallery/certificates/42/42-1i7to1kxtzfu4.json",
+      "source_sha256": "31a0473538b047a20479a4027fbab6a4696ca236d32e97097beea9cbb4ad9230",
+      "incidence_multiplicities": {
+        "2": 861
+      },
+      "multiple_incidence": [],
+      "independent_sign_counter": "PASS"
+    },
+    {
+      "n": 46,
+      "T": 667,
+      "h": 0,
+      "U": 23,
+      "D1": 0,
+      "D2": 0,
+      "multiple_points": 0,
+      "parallel_pairs": 0,
+      "triple_point_fans": [],
+      "general_core_weight": 0,
+      "source_path": "gallery/certificates/46/46-357oftdeaclwg.json",
+      "source_sha256": "b866dd81045042a3714d028665c5c60e268016f6b140ef5881acb76048bea774",
+      "incidence_multiplicities": {
+        "2": 1035
+      },
+      "multiple_incidence": [],
+      "independent_sign_counter": "PASS"
+    },
+    {
+      "n": 50,
+      "T": 792,
+      "h": 5,
+      "U": 22,
+      "D1": 4,
+      "D2": 0,
+      "multiple_points": 2,
+      "parallel_pairs": 0,
+      "triple_point_fans": [
+        {
+          "d1": 2,
+          "d2": 0
+        },
+        {
+          "d1": 2,
+          "d2": 0
+        }
+      ],
+      "general_core_weight": -18,
+      "source_path": "gallery/certificates/50/50-1ca8a076ws55c.json",
+      "source_sha256": "6cd22e6771d36fe4f6cc1f340cbd3df5e0f2abaf4dc53b7cd464f9aac5c7ae52",
+      "incidence_multiplicities": {
+        "2": 1219,
+        "3": 2
+      },
+      "multiple_incidence": [
+        [
+          22,
+          23,
+          25
+        ],
+        [
+          22,
+          26,
+          28
+        ]
+      ],
+      "independent_sign_counter": "PASS"
+    },
+    {
+      "n": 8,
+      "T": 15,
+      "h": 5,
+      "U": 1,
+      "D1": 4,
+      "D2": 0,
+      "multiple_points": 2,
+      "parallel_pairs": 0,
+      "triple_point_fans": [
+        {
+          "d1": 2,
+          "d2": 0
+        },
+        {
+          "d1": 2,
+          "d2": 0
+        }
+      ],
+      "general_core_weight": -18,
+      "source_path": "gallery/certificates/8/8-1yvz24guzamh9.json",
+      "source_sha256": "ebc7581f47db4b01d50738a96b8cd8faa9c9cab1194d69de543942b2068a3b08",
+      "incidence_multiplicities": {
+        "2": 22,
+        "3": 2
+      },
+      "multiple_incidence": [
+        [
+          0,
+          2,
+          6
+        ],
+        [
+          3,
+          5,
+          6
+        ]
+      ],
+      "independent_sign_counter": "PASS"
+    }
+  ]
+}

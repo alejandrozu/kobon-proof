@@ -148,8 +148,8 @@ end Kobon.AllN
     (out/'exceptions.json').write_text(json.dumps(rows, indent=2)+'\n',
                                      encoding='utf-8', newline='\n')
     table = '# Complete finite enhancement table\n\n'
-    table += ('These are the 52 strict enhancements in this release, including prior '
-              'published constructions and reproductions. This is not a list of 52 '
+    table += (f'These are the {len(selected)} strict enhancements in this release, including prior '
+              f'published constructions and reproductions. This is not a list of {len(selected)} '
               'new discoveries. At every unlisted order use the proved classical '
               'baseline. See [the report](README.md) for scope and attribution.\n\n')
     table += '| n | Baseline | Bound | Gain | Verified witness |\n|---:|---:|---:|---:|---|\n'

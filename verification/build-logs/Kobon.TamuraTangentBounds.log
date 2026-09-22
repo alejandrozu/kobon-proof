@@ -1,0 +1,20 @@
+ℹ [1917/1982] Replayed Kobon.TangentBounds
+info: Kobon/TangentBounds.lean:95:0: 'Kobon.TangentBounds.tan_tenth_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/TangentBounds.lean:96:0: 'Kobon.TangentBounds.tan_two_fifths_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [1981/1982] Replayed Kobon.BBLTangentBounds
+warning: Kobon/BBLTangentBounds.lean:11:47: Variable name `hL` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Kobon/BBLTangentBounds.lean:11:58: Variable name `hU` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: Kobon/BBLTangentBounds.lean:160:0: 'Kobon.BBLTangentBounds.tan_1_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BBLTangentBounds.lean:161:0: 'Kobon.BBLTangentBounds.tan_9_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1982/1982] Replayed Kobon.TamuraTangentBounds
+info: Kobon/TamuraTangentBounds.lean:203:0: 'Kobon.TamuraTangentBounds.tan_32_1_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/TamuraTangentBounds.lean:204:0: 'Kobon.TamuraTangentBounds.tan_32_15_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (1982 jobs).

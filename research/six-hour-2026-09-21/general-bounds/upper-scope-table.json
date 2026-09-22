@@ -1,0 +1,476 @@
+{
+  "accessed_utc": "2026-09-22",
+  "note": "Source-scope audit of reported external upper statements, not completed proof audits. The Clement--Bader local wording issue is documented separately. No claim this list exhausts all special-case upper proofs.",
+  "rows": [
+    {
+      "n": 3,
+      "tamura": 1,
+      "classical_clement_bader_reported": 1,
+      "simple_blanc": 1,
+      "simple_bbl_2007": null,
+      "oeis_reported_upper": 1
+    },
+    {
+      "n": 4,
+      "tamura": 2,
+      "classical_clement_bader_reported": 2,
+      "simple_blanc": 2,
+      "simple_bbl_2007": 2,
+      "oeis_reported_upper": 2
+    },
+    {
+      "n": 5,
+      "tamura": 5,
+      "classical_clement_bader_reported": 5,
+      "simple_blanc": 5,
+      "simple_bbl_2007": null,
+      "oeis_reported_upper": 5
+    },
+    {
+      "n": 6,
+      "tamura": 8,
+      "classical_clement_bader_reported": 7,
+      "simple_blanc": 7,
+      "simple_bbl_2007": 7,
+      "oeis_reported_upper": 7
+    },
+    {
+      "n": 7,
+      "tamura": 11,
+      "classical_clement_bader_reported": 11,
+      "simple_blanc": 11,
+      "simple_bbl_2007": null,
+      "oeis_reported_upper": 11
+    },
+    {
+      "n": 8,
+      "tamura": 16,
+      "classical_clement_bader_reported": 15,
+      "simple_blanc": 14,
+      "simple_bbl_2007": 15,
+      "oeis_reported_upper": 16
+    },
+    {
+      "n": 9,
+      "tamura": 21,
+      "classical_clement_bader_reported": 21,
+      "simple_blanc": 21,
+      "simple_bbl_2007": null,
+      "oeis_reported_upper": 21
+    },
+    {
+      "n": 10,
+      "tamura": 26,
+      "classical_clement_bader_reported": 26,
+      "simple_blanc": 25,
+      "simple_bbl_2007": 25,
+      "oeis_reported_upper": 25,
+      "audit_note": "OEIS reports exact value, but the inspected cited simple-arrangement bounds do not establish this unrestricted upper value."
+    },
+    {
+      "n": 11,
+      "tamura": 33,
+      "classical_clement_bader_reported": 33,
+      "simple_blanc": 33,
+      "simple_bbl_2007": null,
+      "oeis_reported_upper": 32,
+      "separate_classical_exclusion_reported": "Savchuk 2025 excludes33; SAT run not replayed here."
+    },
+    {
+      "n": 12,
+      "tamura": 40,
+      "classical_clement_bader_reported": 39,
+      "simple_blanc": 38,
+      "simple_bbl_2007": 38,
+      "oeis_reported_upper": 38,
+      "audit_note": "OEIS reports exact value, but the inspected cited simple-arrangement bounds do not establish this unrestricted upper value."
+    },
+    {
+      "n": 13,
+      "tamura": 47,
+      "classical_clement_bader_reported": 47,
+      "simple_blanc": 47,
+      "simple_bbl_2007": null,
+      "oeis_reported_upper": 47
+    },
+    {
+      "n": 14,
+      "tamura": 56,
+      "classical_clement_bader_reported": 55,
+      "simple_blanc": 53,
+      "simple_bbl_2007": 54,
+      "oeis_reported_upper": 54,
+      "audit_note": "OEIS reports exact value, but the inspected cited simple-arrangement bounds do not establish this unrestricted upper value."
+    },
+    {
+      "n": 15,
+      "tamura": 65,
+      "classical_clement_bader_reported": 65,
+      "simple_blanc": 65,
+      "simple_bbl_2007": null,
+      "oeis_reported_upper": 65
+    },
+    {
+      "n": 16,
+      "tamura": 74,
+      "classical_clement_bader_reported": 74,
+      "simple_blanc": 72,
+      "simple_bbl_2007": 72,
+      "oeis_reported_upper": 72,
+      "audit_note": "OEIS reports exact value, but the inspected cited simple-arrangement bounds do not establish this unrestricted upper value."
+    },
+    {
+      "n": 17,
+      "tamura": 85,
+      "classical_clement_bader_reported": 85,
+      "simple_blanc": 85,
+      "simple_bbl_2007": null,
+      "oeis_reported_upper": 85
+    },
+    {
+      "n": 18,
+      "tamura": 96,
+      "classical_clement_bader_reported": 95,
+      "simple_blanc": 93,
+      "simple_bbl_2007": 94,
+      "oeis_reported_upper": 94
+    },
+    {
+      "n": 19,
+      "tamura": 107,
+      "classical_clement_bader_reported": 107,
+      "simple_blanc": 107,
+      "simple_bbl_2007": null,
+      "oeis_reported_upper": 107
+    },
+    {
+      "n": 20,
+      "tamura": 120,
+      "classical_clement_bader_reported": 119,
+      "simple_blanc": 116,
+      "simple_bbl_2007": 117,
+      "oeis_reported_upper": 117,
+      "audit_note": "OEIS reports exact value, but the inspected cited simple-arrangement bounds do not establish this unrestricted upper value."
+    },
+    {
+      "n": 21,
+      "tamura": 133,
+      "classical_clement_bader_reported": 133,
+      "simple_blanc": 133,
+      "simple_bbl_2007": null,
+      "oeis_reported_upper": 133
+    },
+    {
+      "n": 22,
+      "tamura": 146,
+      "classical_clement_bader_reported": 146,
+      "simple_blanc": 143,
+      "simple_bbl_2007": 144,
+      "oeis_reported_upper": 144
+    },
+    {
+      "n": 23,
+      "tamura": 161,
+      "classical_clement_bader_reported": 161,
+      "simple_blanc": 161,
+      "simple_bbl_2007": null,
+      "oeis_reported_upper": 161
+    },
+    {
+      "n": 24,
+      "tamura": 176,
+      "classical_clement_bader_reported": 175,
+      "simple_blanc": 172,
+      "simple_bbl_2007": 173,
+      "oeis_reported_upper": 173
+    },
+    {
+      "n": 25,
+      "tamura": 191,
+      "classical_clement_bader_reported": 191,
+      "simple_blanc": 191,
+      "simple_bbl_2007": null,
+      "oeis_reported_upper": 191
+    },
+    {
+      "n": 26,
+      "tamura": 208,
+      "classical_clement_bader_reported": 207,
+      "simple_blanc": 203,
+      "simple_bbl_2007": 205,
+      "oeis_reported_upper": 205
+    },
+    {
+      "n": 27,
+      "tamura": 225,
+      "classical_clement_bader_reported": 225,
+      "simple_blanc": 225,
+      "simple_bbl_2007": null,
+      "oeis_reported_upper": 225
+    },
+    {
+      "n": 28,
+      "tamura": 242,
+      "classical_clement_bader_reported": 242,
+      "simple_blanc": 238,
+      "simple_bbl_2007": 239,
+      "oeis_reported_upper": 239
+    },
+    {
+      "n": 29,
+      "tamura": 261,
+      "classical_clement_bader_reported": 261,
+      "simple_blanc": 261,
+      "simple_bbl_2007": null,
+      "oeis_reported_upper": 261
+    },
+    {
+      "n": 30,
+      "tamura": 280,
+      "classical_clement_bader_reported": 279,
+      "simple_blanc": 275,
+      "simple_bbl_2007": 276,
+      "oeis_reported_upper": 276
+    },
+    {
+      "n": 31,
+      "tamura": 299,
+      "classical_clement_bader_reported": 299,
+      "simple_blanc": 299,
+      "simple_bbl_2007": null,
+      "oeis_reported_upper": 299
+    },
+    {
+      "n": 32,
+      "tamura": 320,
+      "classical_clement_bader_reported": 319,
+      "simple_blanc": 314,
+      "simple_bbl_2007": 316,
+      "oeis_reported_upper": 316
+    },
+    {
+      "n": 33,
+      "tamura": 341,
+      "classical_clement_bader_reported": 341,
+      "simple_blanc": 341,
+      "simple_bbl_2007": null,
+      "oeis_reported_upper": 341
+    },
+    {
+      "n": 34,
+      "tamura": 362,
+      "classical_clement_bader_reported": 362,
+      "simple_blanc": 357,
+      "simple_bbl_2007": 358,
+      "oeis_reported_upper": 358
+    },
+    {
+      "n": 35,
+      "tamura": 385,
+      "classical_clement_bader_reported": 385,
+      "simple_blanc": 385,
+      "simple_bbl_2007": null,
+      "oeis_reported_upper": 385
+    },
+    {
+      "n": 36,
+      "tamura": 408,
+      "classical_clement_bader_reported": 407,
+      "simple_blanc": 402,
+      "simple_bbl_2007": 404,
+      "oeis_reported_upper": 404
+    },
+    {
+      "n": 37,
+      "tamura": 431,
+      "classical_clement_bader_reported": 431,
+      "simple_blanc": 431,
+      "simple_bbl_2007": null,
+      "oeis_reported_upper": 431
+    },
+    {
+      "n": 38,
+      "tamura": 456,
+      "classical_clement_bader_reported": 455,
+      "simple_blanc": 449,
+      "simple_bbl_2007": 451,
+      "oeis_reported_upper": 451
+    },
+    {
+      "n": 39,
+      "tamura": 481,
+      "classical_clement_bader_reported": 481,
+      "simple_blanc": 481,
+      "simple_bbl_2007": null,
+      "oeis_reported_upper": null
+    },
+    {
+      "n": 40,
+      "tamura": 506,
+      "classical_clement_bader_reported": 506,
+      "simple_blanc": 500,
+      "simple_bbl_2007": 502,
+      "oeis_reported_upper": null
+    },
+    {
+      "n": 41,
+      "tamura": 533,
+      "classical_clement_bader_reported": 533,
+      "simple_blanc": 533,
+      "simple_bbl_2007": null,
+      "oeis_reported_upper": 533
+    },
+    {
+      "n": 42,
+      "tamura": 560,
+      "classical_clement_bader_reported": 559,
+      "simple_blanc": 553,
+      "simple_bbl_2007": 555,
+      "oeis_reported_upper": 555
+    },
+    {
+      "n": 43,
+      "tamura": 587,
+      "classical_clement_bader_reported": 587,
+      "simple_blanc": 587,
+      "simple_bbl_2007": null,
+      "oeis_reported_upper": 587
+    },
+    {
+      "n": 44,
+      "tamura": 616,
+      "classical_clement_bader_reported": 615,
+      "simple_blanc": 608,
+      "simple_bbl_2007": 611,
+      "oeis_reported_upper": null
+    },
+    {
+      "n": 45,
+      "tamura": 645,
+      "classical_clement_bader_reported": 645,
+      "simple_blanc": 645,
+      "simple_bbl_2007": null,
+      "oeis_reported_upper": 645
+    },
+    {
+      "n": 46,
+      "tamura": 674,
+      "classical_clement_bader_reported": 674,
+      "simple_blanc": 667,
+      "simple_bbl_2007": 669,
+      "oeis_reported_upper": 669
+    },
+    {
+      "n": 47,
+      "tamura": 705,
+      "classical_clement_bader_reported": 705,
+      "simple_blanc": 705,
+      "simple_bbl_2007": null,
+      "oeis_reported_upper": null
+    },
+    {
+      "n": 48,
+      "tamura": 736,
+      "classical_clement_bader_reported": 735,
+      "simple_blanc": 728,
+      "simple_bbl_2007": 730,
+      "oeis_reported_upper": null
+    },
+    {
+      "n": 49,
+      "tamura": 767,
+      "classical_clement_bader_reported": 767,
+      "simple_blanc": 767,
+      "simple_bbl_2007": null,
+      "oeis_reported_upper": 767
+    },
+    {
+      "n": 50,
+      "tamura": 800,
+      "classical_clement_bader_reported": 799,
+      "simple_blanc": 791,
+      "simple_bbl_2007": 794,
+      "oeis_reported_upper": 794
+    },
+    {
+      "n": 51,
+      "tamura": 833,
+      "classical_clement_bader_reported": 833,
+      "simple_blanc": 833,
+      "simple_bbl_2007": null,
+      "oeis_reported_upper": null
+    },
+    {
+      "n": 52,
+      "tamura": 866,
+      "classical_clement_bader_reported": 866,
+      "simple_blanc": 858,
+      "simple_bbl_2007": 860,
+      "oeis_reported_upper": null
+    },
+    {
+      "n": 53,
+      "tamura": 901,
+      "classical_clement_bader_reported": 901,
+      "simple_blanc": 901,
+      "simple_bbl_2007": null,
+      "oeis_reported_upper": null
+    },
+    {
+      "n": 54,
+      "tamura": 936,
+      "classical_clement_bader_reported": 935,
+      "simple_blanc": 927,
+      "simple_bbl_2007": 930,
+      "oeis_reported_upper": null
+    },
+    {
+      "n": 55,
+      "tamura": 971,
+      "classical_clement_bader_reported": 971,
+      "simple_blanc": 971,
+      "simple_bbl_2007": null,
+      "oeis_reported_upper": null
+    },
+    {
+      "n": 56,
+      "tamura": 1008,
+      "classical_clement_bader_reported": 1007,
+      "simple_blanc": 998,
+      "simple_bbl_2007": 1001,
+      "oeis_reported_upper": null
+    },
+    {
+      "n": 57,
+      "tamura": 1045,
+      "classical_clement_bader_reported": 1045,
+      "simple_blanc": 1045,
+      "simple_bbl_2007": null,
+      "oeis_reported_upper": null
+    },
+    {
+      "n": 58,
+      "tamura": 1082,
+      "classical_clement_bader_reported": 1082,
+      "simple_blanc": 1073,
+      "simple_bbl_2007": 1076,
+      "oeis_reported_upper": null
+    },
+    {
+      "n": 59,
+      "tamura": 1121,
+      "classical_clement_bader_reported": 1121,
+      "simple_blanc": 1121,
+      "simple_bbl_2007": null,
+      "oeis_reported_upper": null
+    },
+    {
+      "n": 60,
+      "tamura": 1160,
+      "classical_clement_bader_reported": 1159,
+      "simple_blanc": 1150,
+      "simple_bbl_2007": 1153,
+      "oeis_reported_upper": null
+    }
+  ]
+}

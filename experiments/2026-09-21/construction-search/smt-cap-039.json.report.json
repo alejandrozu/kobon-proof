@@ -1,0 +1,13 @@
+{
+  "n": 39,
+  "source": "experiments/2026-09-21/construction-search/exposed-cap-certificates/n039.json",
+  "initial": 470,
+  "projective": 471,
+  "minimum": 471,
+  "result": "unsat",
+  "seconds": 1.3660304546356201,
+  "checks": 1,
+  "method": "unsat-core branching",
+  "scope": "Fixed projective arrangement only; UNSAT is solver evidence, not Lean-verified.",
+  "cores": []
+}

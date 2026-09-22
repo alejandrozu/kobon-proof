@@ -1,0 +1,11 @@
+{
+  "n": 40,
+  "source": "experiments/2026-09-21/construction-search/delete41-line1.json",
+  "initial": 494,
+  "projective": 496,
+  "minimum": 495,
+  "result": "unknown",
+  "seconds": 61.51180911064148,
+  "scope": "Fixed projective arrangement only; UNSAT is solver evidence, not Lean-verified.",
+  "reason": "timeout"
+}

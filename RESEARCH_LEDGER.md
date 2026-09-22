@@ -4,9 +4,35 @@ Owner: Alejandro Zarzuelo Urdiales. Research session: 20 September 2026 (America
 
 Read this file before resuming. It records what was retained, what failed, where the evidence lives, and what still needs proof. [FORMALIZATION.md](FORMALIZATION.md) is the authoritative Lean scope statement; [RESULTS.md](RESULTS.md) maps concrete claims to files.
 
+## Latest session on 21 September 2026
+
+The user shortened the new research session to three hours, ending 22 September
+at 07:36:37 UTC. Start with the [cumulative review](research/six-hour-2026-09-21/RESEARCH_REVIEW.md),
+[phase construction proof](research/six-hour-2026-09-21/phase-proof.md), and
+[general bounds register](research/six-hour-2026-09-21/general-bounds/README.md).
+These supersede numerical counts and unfinished-status descriptions in the
+historical narrative below.
+
+The strongest unconditional general formula is now
+`G(n)=floor(n(n-3)/3)+1+(n mod 2)` for `n>=4`, with `G(0..2)=0`, `G(3)=1`.
+Its exact geometric Lean proof is `Universal.baseline_sound`. The total
+envelope retains all 138 finite certificates; 104 have simple witnesses.
+This improves the quoted classical ceiling formula but does not establish
+first numerical priority or a new leading asymptotic coefficient.
+
+Additional work includes the actual triangle/sign-cell bridge, extensive BBL
+analytic and combinatorial formalization, local fan geometry for upper-bound
+audits, independently reproduced Maiorana and Parpalak–Utkin records, and
+exact obstructions to several smoothing and fixed-chart strategies. Large
+bounded searches found no numerical record beyond the inspected literature.
+The actual one-step BBL theorem is now proved in `BBLDoubling.doubling` for
+compatible saturated tangent-grid seeds with `q=4r>=20`, giving `T+q²`.
+Infinite BBL iteration and an unrestricted upper-bound improvement remain
+open. The original unrestricted successor claim is still not a theorem.
+
 ## All-order formalization update
 
-The classical Furedi–Palasti construction is now fully proved in the repository’s real-coordinate/empty-triangle definition for every `n >= 3`, including its arbitrary-order modular count. `AllN.all_n` supplies a total lower-bound function: the maximum of `ceil(n(n-3)/3)` (zero below three) and 52 finite enhancements from the 86 saved certificates. The baseline proof uses only standard logical axioms; finite enhancements retain their existing native-evaluation trust. Above 195 the current formula equals the baseline. This is a verified consolidation, not a new asymptotic construction or a first-discovery claim.
+The earlier all-order milestone proved the classical ceiling baseline. `AllN.all_n` now retains 64 finite enhancements from 138 certificates. `Universal.all_n` supersedes its general baseline with the formula above. Generic geometric proofs use only standard logical axioms; finite enhancements retain native-evaluation trust. Above 195 the current envelope equals the stronger universal baseline.
 
 `AllN.from_49_unconditional` also proves the formerly conditional numerical target `floor((n-1)^2/4)+191` for every `n >= 49`, independently of the still-unproved full-gain recurrence. The saved 49/50 witnesses cover the first two orders; the classical baseline dominates the target from 51 onward. Read [the new report](research/all-n-formalization/README.md), [complete exceptions](research/all-n-formalization/exceptions.md), and proof sources `FurediPalastiCount.lean`, `FurediPalasti.lean`, `AllN.lean`.
 

@@ -4071,8 +4071,8 @@
       "sha256": "21192e4fdad4db6d0577019fce52f18b230e288592317d2886391e0d181ba9c5"
     },
     "paper/journal/contribution_map.md": {
-      "bytes": 20457,
-      "sha256": "68e621b291cc3fb28adf46b4ff20b39fb91dd35afe61f041fa906e93af6af498"
+      "bytes": 20846,
+      "sha256": "d42ca1890f0b0adb04490bbd9b27f3a87189af7c51fe9bae5bf5805fba42be0d"
     },
     "paper/journal/figures/affine-chart.pdf": {
       "bytes": 10744,
@@ -4091,56 +4091,68 @@
       "sha256": "cbf3be3eb316a89abb73f6ee2c675e99e0cf9e1685b6c43c96de277b24777446"
     },
     "paper/journal/Kobon_journal_version.pdf": {
-      "bytes": 173506,
-      "sha256": "4aff3f17651f3140a2a80ab57ffd16554c5308b5b294fd41d5be684d7815b9c4"
+      "bytes": 178837,
+      "sha256": "6c032a59029084a066fa08ad3928e04ed8cd01e83b55b21dcfdb1749055b327e"
     },
     "paper/journal/main.tex": {
-      "bytes": 2991,
-      "sha256": "1af21b1a9e1d4d87b7fc77a16aa3a5660573d52b5ee3e303a4944e819954d8ba"
+      "bytes": 3155,
+      "sha256": "9fdf2d5b052b3ad24d937482935efe75f50c22296776721cedb98a5daf5b528a"
+    },
+    "paper/journal/proof_map.json": {
+      "bytes": 297058,
+      "sha256": "33c13fff25d9244ac55e136c7f30a18d5d7d52c4014efa3c1ae56bba63939461"
+    },
+    "paper/journal/proof_map.md": {
+      "bytes": 121645,
+      "sha256": "abf0855cbc0dc6c9bb10329315d0498bdd193c57a18369b8f00b9c50820a0cb0"
     },
     "paper/journal/README.md": {
-      "bytes": 2895,
-      "sha256": "9a031125c58afc28215663c481cb19affcea23ca85f41b8e5ed76e02a5bd01d8"
+      "bytes": 4136,
+      "sha256": "09e06808bc5e9a7e2646a9bd87fbe931c1c469a860f2796b850940fe141a00fd"
     },
     "paper/journal/references.bib": {
       "bytes": 6683,
       "sha256": "04a200e8909c8b09432bd7f21a87b112642f6d25678427724c9f0cca7b2628cc"
     },
     "paper/journal/sections/certificates.tex": {
-      "bytes": 4461,
-      "sha256": "5d8b97e4809a33c46d5eed074f9ef98e11e2ec86d56b3ac4c6e7e2b7fe63c608"
+      "bytes": 4684,
+      "sha256": "7fd687c078c22fee710a314e87440369a40c4e6a6f514cea9c95b38d8e358c8c"
     },
     "paper/journal/sections/construction.tex": {
-      "bytes": 8325,
-      "sha256": "f36780552132a97b771a256ac9dc1d34c57e6ecd6a06cd5a355644177f603b56"
+      "bytes": 8409,
+      "sha256": "3e61773d8ef38a9d856d606e6d9bfaa6450b18224cdcc0dfd218cda9f1ad21b2"
     },
     "paper/journal/sections/extensions.tex": {
-      "bytes": 5340,
-      "sha256": "5d6014efe37fdfe5e5effdb322082bd465b90d6acc065e342fe6747e45bde844"
+      "bytes": 5377,
+      "sha256": "5eea6527ca7ecb3d7b1593e8a0b7d33748dac7c9f7b1f69b2e6203c25a5db25b"
     },
     "paper/journal/sections/families.tex": {
-      "bytes": 5029,
-      "sha256": "e013ea5c09130ab3301f8f5a89857cb5f55cb9b73dd1353d52dea8bd51a0b2d6"
+      "bytes": 5068,
+      "sha256": "549ba85116257d11a09c810036b1e926054c2fb82ef61ed011525c014d35042c"
     },
     "paper/journal/sections/introduction.tex": {
       "bytes": 3833,
       "sha256": "fcef7f6a5f5e4fc79794e682b3410cefa8cdc16928ae1cd7a9a32f0b9e9f788c"
+    },
+    "paper/journal/sections/proof_index.tex": {
+      "bytes": 4174,
+      "sha256": "4c25851f09b6d5cc85be619d15365f2f1a6b750fb4ce1a3932c988241bd0274e"
     },
     "paper/journal/sections/upper.tex": {
       "bytes": 8816,
       "sha256": "7366c600e71698b5f7ec593debe30305da2261d7e34b674712ff277c13ac354d"
     },
     "paper/journal/validate.py": {
-      "bytes": 4143,
-      "sha256": "1375522155887c43b596074f8a01f26383828c7254de8ce35afcff967604c3e8"
+      "bytes": 7836,
+      "sha256": "d8e091055e922302101cf42d386c37914de8fc61a3817defed015594bf0b9c76"
     },
     "paper/journal/validation.json": {
-      "bytes": 2599,
-      "sha256": "de17988dba5b19a942e6c53f92c87f5eedfeb1b51bf100ddcf2b30494df6672d"
+      "bytes": 3305,
+      "sha256": "9d5969df1a28a21fa1725d0452ab77e801de30e6f5cf4ead1d1238ca8c44e7bf"
     },
     "paper/journal/visual_review.json": {
-      "bytes": 807,
-      "sha256": "44ad385f9b52447c457afad431e58946cd1c815677223d154dfa2a61205987d6"
+      "bytes": 932,
+      "sha256": "84262e3e863993c195266b29aa444359bfb96e5104318ddad14c2174ff3147d3"
     },
     "paper/Kobon_triangle_constructions.pdf": {
       "bytes": 557814,
@@ -4231,8 +4243,8 @@
       "sha256": "d15b36994a66fd1193c709d27895a128c2e4b77e4ab15d1dafe13a62e5ef9eb5"
     },
     "README.md": {
-      "bytes": 8772,
-      "sha256": "3441d8ea30794bc0451a182e5582a8b83a5cd845208d804d54c6a4f366c66cdf"
+      "bytes": 9010,
+      "sha256": "5a6039e21f409adfb25327de35235aadff8b8148c3039b98fbb57c603254adea"
     },
     "research/all-n-formalization/exceptions.json": {
       "bytes": 17560,
@@ -5535,8 +5547,8 @@
       "sha256": "7f674605ebae16a791695b2b04c9c21c8e6a0af9a7c306094ff1bf0c2e453077"
     },
     "RESEARCH_LEDGER.md": {
-      "bytes": 19201,
-      "sha256": "a32a51c91e71c7795eaaf0697fbaee3db5728b24c8190c0d9a56772e9abb7b07"
+      "bytes": 19776,
+      "sha256": "6a1d1f22d9c3a28a0db0f13c78d2b70927de195459ca846e4ebf6c917b64ef40"
     },
     "RESULTS.md": {
       "bytes": 11686,

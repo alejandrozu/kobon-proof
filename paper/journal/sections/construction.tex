@@ -23,7 +23,7 @@ A certified triple determines a bounded triangular cell. Different increasing ce
 The three vertices are noncollinear. Each test line has one weak sign on their convex hull, and a strict sign on its interior: vanishing at an interior convex combination would force vanishing at all three vertices. The interior therefore lies in one strict sign cell of the arrangement. Conversely, the three supporting inequalities force positive barycentric coordinates, so that sign cell is exactly the triangle interior. It is convex and hence a component of the complement. If two certified interiors meet, their sign cells coincide; their three open sides then determine the same supports and the increasing triples agree.
 \end{proof}
 
-Lean proves nonemptiness, equality with the strict sign cell, and disjointness. The connected-component interpretation is the elementary argument above. Clearing rational denominators reduces finite certification to integer polynomial tests.
+Lean proves nonemptiness, and proves equality with the strict sign cell and disjointness for arrangements without parallel pairs. The lemma's more general wording and connected-component interpretation use the elementary argument above. Clearing rational denominators reduces finite certification to integer polynomial tests.
 
 \subsection{Phase and repeated-index correction}
 

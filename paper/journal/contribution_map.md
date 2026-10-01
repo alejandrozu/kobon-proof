@@ -7,10 +7,16 @@ separate article of at most 15 pages, including references. The full manuscript,
 its appendices, its figures, and its source evidence remain unchanged.
 
 **Final coverage review:** all C1-C16 are represented in the completed
-13-page article, including its 17 references. Four figures fit without
+14-page article, including its proof index and 17 references. Four figures fit without
 reducing the 11-point text: affine chart, normalized deficit, exterior
 resource, and shared fan. The first three recommended figures below are
 therefore retained together with the normalized-deficit plot.
+
+The added [result-to-proof map](proof_map.md) covers 89 claims and all
+138 finite coordinate identities. Every theorem and numbered equation has an
+entry, with immutable Lean source anchors where available and explicit
+manuscript, computational or external status otherwise. The PDF supplies a
+compact clickable index. No incomplete formalization was promoted by this edit.
 
 The exact 81/161 projective-face census was independently replayed during
 this editorial audit: affine and projective counts are respectively 2132

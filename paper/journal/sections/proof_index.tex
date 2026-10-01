@@ -1,0 +1,83 @@
+\section*{Result-to-proof index}
+\label{j:proof-index}
+
+The links below open the exact Lean sources at the frozen mathematical
+revision \texttt{99fdc8e}. \emph{Partial} means that the linked theorem proves
+only the component described, not the whole manuscript statement.
+The \href{https://github.com/alejandrozu/kobon-proof/blob/main/paper/journal/proof_map.md}{detailed proof map}
+lists the hypotheses, declaration lines, every selected finite witness,
+all 138 catalog entries, computational evidence, and remaining obligations.
+An accepted build certifies the stated Lean propositions; it does not
+by itself certify their correspondence to broader prose claims.
+
+\begingroup
+\small
+\renewcommand{\arraystretch}{1.15}
+\noindent
+\begin{tabularx}{\linewidth}{@{}p{.24\linewidth}X@{}}
+\toprule
+Manuscript result & Linked proof and exact verification scope\\
+\midrule
+Theorem~\ref{j:main}, \eqref{j:G}, \eqref{j:gap} &
+\proofref{Kobon/Universal.lean}{26}{All-order construction},
+\proofref{Kobon/Universal.lean}{72}{residue gains},
+\proofref{Kobon/Universal.lean}{90}{gap}: complete Lean theorems.\\
+Lemma~\ref{j:cell} &
+\proofref{Kobon/Cells.lean}{486}{Sign cells} and
+\proofref{Kobon/Cells.lean}{453}{disjointness}: Lean for globally nonparallel arrangements; the general wording and component interpretation use the manuscript argument.\\
+Lemma~\ref{j:phase} &
+\proofref{Kobon/ShiftedFurediPalasti.lean}{274}{Shifted construction}:
+complete Lean geometry and count.\\
+Lemma~\ref{j:caps} &
+\proofref{Kobon/FurediPalastiWrap.lean}{191}{One cap} and
+\proofref{Kobon/FurediPalastiTwoCaps.lean}{282}{two caps}:
+complete Lean constructions.\\
+Theorem~\ref{jext:visible} &
+\proofref{Kobon/Exterior.lean}{164}{Exterior realization}:
+complete Lean theorem from a certified visible-pair list.\\
+Proposition~\ref{jext:defect} &
+\proofref{Kobon/BoundaryExtension.lean}{79}{Defect arithmetic}: partial;
+global ray charging and geometric extraction are manuscript proofs.\\
+Budget~\eqref{jext:budget} &
+\proofref{Kobon/Iteration.lean}{105}{Iteration arithmetic}: partial;
+the geometric wedge budget is a manuscript proof.\\
+Target~\eqref{jext:49} &
+\proofref{Kobon/AllN.lean}{504}{Unconditional 49-seed target}:
+complete Lean bound, without a nested-chain assertion.\\
+Theorem~\ref{jfam:doubling} &
+\proofref{Kobon/BBLDoubling.lean}{15}{Geometric BBL step}:
+complete one-step Lean theorem under its stated seed hypotheses.\\
+Parameterized seeds &
+\proofref{Kobon/TamuraSeed5.lean}{113}{Five},
+\proofref{Kobon/SeedFamily.lean}{115}{eleven} and
+\proofref{Kobon/BBLSeed21.lean}{163}{twenty-one lines}:
+Lean real-parameter bounds; finite checks have their recorded trust levels.\\
+Families~\eqref{jfam:families} &
+\proofref{Kobon/Families.lean}{30}{Family arithmetic}: partial;
+published BBL iteration supplies the ordinary odd-family argument;
+recursive Lean integration is unfinished.\\
+Lemma~\ref{jup:clean}, \eqref{jup:identity} &
+\proofref{Kobon/CleanLineBudget.lean}{18}{Conditional budget}: partial;
+global incidence extraction and clean-line charging are manuscript proofs.\\
+Lemma~\ref{jup:fan} &
+\proofref{Kobon/FanGeometry.lean}{160}{Geometric obstruction} and
+\proofref{Kobon/FanCount.lean}{37}{cyclic count}: formal local components;
+the sharper $d_2\le1$ refinement is a manuscript proof.\\
+Theorem~\ref{jup:upper} &
+\proofref{Kobon/CleanLineBudget.lean}{73}{Weighted budget} and
+\proofref{Kobon/CleanLineBudget.lean}{58}{two-core arithmetic}: conditional
+Lean consequences, not a global geometric upper theorem.\\
+Shared fan, Fig.~\ref{jup:figure} &
+\proofref{Kobon/SharedFan.lean}{51}{Six shared sides} and
+\proofref{Kobon/SharedFan.lean}{73}{disjoint interiors}: complete Lean example.\\
+Envelope~\eqref{j:envelope}, Table~\ref{j:finite} &
+\proofref{Kobon/Universal.lean}{117}{All-order envelope};
+\proofref{verification/certificate-index.json}{1}{individual certificate index}:
+Lean lower bounds; finite native evaluation is disclosed in Section~\ref{j:verification}.\\
+Larger witnesses; smoothing &
+Independent exact computations, not Lean theorems.
+The detailed map links each report and marks the incomplete $642$-line count.\\
+\bottomrule
+\end{tabularx}
+\par
+\endgroup

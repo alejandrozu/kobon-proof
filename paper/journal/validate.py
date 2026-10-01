@@ -3,6 +3,7 @@ from pathlib import Path
 import hashlib
 import json
 import re
+import subprocess
 from pypdf import PdfReader
 
 HERE = Path(__file__).resolve().parent
@@ -43,6 +44,64 @@ def main():
     reader = PdfReader(pdf)
     assert 1 <= len(reader.pages) <= 15
     assert reader.metadata.author == "Alejandro Zarzuelo Urdiales"
+    mapping = json.loads((HERE / "proof_map.json").read_text(encoding="utf-8"))
+    commit = mapping["math_commit"]
+    base = f"https://github.com/alejandrozu/kobon-proof/blob/{commit}/"
+    claims = mapping["claims"]
+    ids = {claim["id"] for claim in claims}
+    assert len(ids) == len(claims), "Duplicate proof-map claim"
+    numbered = re.findall(
+        r"\\begin\{(?:theorem|lemma|proposition|corollary)\}(?:\[[^]]*\])?\s*\\label\{([^}]+)\}", text)
+    equations = re.findall(
+        r"\\begin\{(?:equation|align)\}(.*?)\\end\{(?:equation|align)\}", text, re.DOTALL)
+    numbered += [lab for eq in equations for lab in re.findall(r"\\label\{([^}]+)\}", eq)]
+    assert set(numbered) <= ids, f"Unmapped numbered results: {set(numbered) - ids}"
+    catalog = mapping["finite_catalog"]
+    original_catalog = json.loads((ROOT / "verification/certificate-index.json").read_text(encoding="utf-8"))
+    assert len(catalog) == len(original_catalog) == 138
+    assert sum(c["simple"] for c in catalog) == 104
+    identity = lambda c: (c["n"], c["triangles"], c["simple"], c["coordinate_sha256"])
+    assert sorted(map(identity, catalog)) == sorted(map(identity, original_catalog))
+    markdown = (HERE / "proof_map.md").read_text(encoding="utf-8")
+    proofrefs = [r for claim in claims + catalog for r in claim["refs"]]
+    for r in proofrefs:
+        source = ROOT / r["path"]
+        assert sha(source) == r["source_sha256"], r
+        lines = source.read_text(encoding="utf-8-sig").splitlines()
+        assert 1 <= r["line"] <= len(lines), r
+        if r.get("declaration"):
+            leaf = r["declaration"].rsplit(".", 1)[-1]
+            assert re.search(r"\b(?:theorem|lemma|def|abbrev|structure)\s+" + re.escape(leaf)
+                             + r"(?:\s|[(:]|$)", lines[r["line"]-1]), r
+        assert r["url"] == base + r["path"] + f'#L{r["line"]}', r
+        assert r["url"] in markdown, r
+    # Check the pinned revision's actual blob bytes, not merely stored metadata.
+    sources = sorted({r["path"] for r in proofrefs})
+    batch = subprocess.run(["git", "cat-file", "--batch"],
+        input="".join(f"{commit}:{p}\n" for p in sources).encode(),
+        cwd=ROOT, capture_output=True, check=True).stdout
+    offset = 0
+    for path in sources:
+        end = batch.index(b"\n", offset)
+        header = batch[offset:end].split()
+        assert len(header) == 3 and header[1] == b"blob", path
+        size = int(header[2])
+        blob = batch[end+1:end+1+size]
+        assert blob == (ROOT / path).read_bytes(), f"Pinned link differs from source: {path}"
+        offset = end+1+size+1
+    pdf_urls = set()
+    for page in reader.pages:
+        for annot in page.get("/Annots", []):
+            action = annot.get_object().get("/A")
+            if action and action.get("/URI"):
+                pdf_urls.add(str(action["/URI"]))
+    expected_pdf_urls = set()
+    for path, line in re.findall(r"\\proofref\{([^}]+)\}\{(\d+)\}", text):
+        assert (ROOT / path).is_file()
+        assert 1 <= int(line) <= len((ROOT / path).read_text(encoding="utf-8-sig").splitlines())
+        expected_pdf_urls.add(base + path + "#L" + line)
+    assert expected_pdf_urls <= pdf_urls, expected_pdf_urls - pdf_urls
+    assert "https://github.com/alejandrozu/kobon-proof/blob/main/paper/journal/proof_map.md" in pdf_urls
     log = (HERE / "build/main.log").read_text(encoding="utf-8", errors="replace")
     assert not re.search(r"Overfull \\[hv]box|There were undefined|multiply defined|Missing character|^! ", log, re.MULTILINE)
     review_file = HERE / "visual_review.json"
@@ -61,6 +120,12 @@ def main():
         "frozen_math_commit": "99fdc8ec1ef8b1fb22c3da32b011b7361762e958",
         "long_paper_commit": "22d1165f6c455fe45e461baef4410f6d5c78a014",
         "long_paper_ci": {"run": 35779849718, "conclusion": "success"},
+        "verified_mathematical_sources_ci": mapping["latest_confirmed_proof_ci"],
+        "proof_map_claims": len(claims),
+        "mapped_numbered_results": len(set(numbered)),
+        "linked_finite_certificates": len(catalog),
+        "pinned_source_files_checked": len(sources),
+        "clickable_pinned_pdf_source_links": len(expected_pdf_urls),
         "journal_pdf_sha256": sha(pdf),
         "visual_review_matches_pdf": review.get("pdf_sha256") == sha(pdf),
         "scope": "Editorial and provenance checks. No new Lean theorem or numerical priority claim.",

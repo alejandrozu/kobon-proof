@@ -1,16 +1,20 @@
 {
-  "pdf_sha256": "4aff3f17651f3140a2a80ab57ffd16554c5308b5b294fd41d5be684d7815b9c4",
+  "pdf_sha256": "6c032a59029084a066fa08ad3928e04ed8cd01e83b55b21dcfdb1749055b327e",
   "date": "2026-10-01",
-  "pages": 13,
+  "pages": 14,
   "method": "Every page rendered with Poppler at 120 dpi and individually inspected.",
-  "page_assignments": ["1-5", "6-9", "10-13"],
+  "page_assignments": [
+    "1-5",
+    "6-10",
+    "11-14; independent second review of page 13"
+  ],
   "corrections_checked": [
-    "Pairwise nonparallel support hypothesis and n>=4 residue scope",
-    "Missing mathematical spacing commands",
-    "Shared-fan figure enlarged for legibility",
-    "Long local-resolution count line wrapped without overflow",
+    "Clickable source-revision links and result-to-proof index",
+    "Global nonparallelism scope of Lean sign-cell interface",
+    "Native-evaluation trust inherited by the finite-enhanced envelope",
+    "All partially formalized or computational claims explicitly distinguished",
     "All bibliography entries and cross references resolved"
   ],
   "result": "No clipping, missing figures, unresolved references, or unreadable equations/tables found.",
-  "coverage": "All sixteen contribution groups C1-C16 retained with their existing proof and attribution boundaries."
+  "coverage": "All sixteen contribution groups C1-C16 retained; 89 claims and all 138 finite certificates mapped."
 }

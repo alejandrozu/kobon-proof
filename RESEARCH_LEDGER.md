@@ -7,13 +7,21 @@ Read this file before resuming. It records what was retained, what failed, where
 ## Journal-length version on 1 October 2026
 
 The [separate journal article](paper/journal/README.md) condenses the existing
-research to 13 pages including 17 references, with four vector figures and
+research to 14 pages including a clickable proof index and 17 references, with four vector figures and
 normal 11-point typography. It retains the distinct contributions and their
 proof status, while the 60-page manuscript and every original paper file remain
 unchanged. The [coverage map](paper/journal/contribution_map.md) records all
 16 contribution groups and the independent editorial checks.
 
-The 60-page release's GitHub run 35779849718 is now confirmed successful.
+The journal release's GitHub run 36830561024 at commit 6f7e11e is confirmed
+successful. The subsequent traceability audit adds a
+[claim-to-proof map](paper/journal/proof_map.md) for 89 claims and all 138
+finite certificates. Its checker validates declaration anchors, 297 source
+files against immutable Git blobs, and clickable links in the PDF. All 325
+Lean sources and all 71 original long-paper files are unchanged.
+The audit clarifies the cell lemma's Lean nonparallelism hypothesis and the
+finite-enhanced envelope's native-evaluation trust. It does not complete any
+missing geometric bridge or recursive invariant.
 This new version adds no Lean statements or numerical priority claims.
 The exact 81/161 projective census was replayed and confirms the previously
 recorded obstruction for those fixed witnesses. Shortening the article does

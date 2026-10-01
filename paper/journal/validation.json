@@ -1,0 +1,41 @@
+{
+  "all_consistency_checks_passed": true,
+  "author": "Alejandro Zarzuelo Urdiales",
+  "pages_including_references": 13,
+  "page_limit": 15,
+  "cited_references": 17,
+  "vector_figures": 4,
+  "labels": 36,
+  "long_paper_files_preserved": 71,
+  "long_paper_pdf_sha256": "b1d9c6dbfa71a7ef4fd1ffa30b700c7296afdd02cda148185bfcc6505a9a0caf",
+  "unchanged_verified_lean_sources": 325,
+  "frozen_math_commit": "99fdc8ec1ef8b1fb22c3da32b011b7361762e958",
+  "long_paper_commit": "22d1165f6c455fe45e461baef4410f6d5c78a014",
+  "long_paper_ci": {
+    "run": 35779849718,
+    "conclusion": "success"
+  },
+  "journal_pdf_sha256": "4aff3f17651f3140a2a80ab57ffd16554c5308b5b294fd41d5be684d7815b9c4",
+  "visual_review_matches_pdf": true,
+  "scope": "Editorial and provenance checks. No new Lean theorem or numerical priority claim.",
+  "files": {
+    "build.py": "21192e4fdad4db6d0577019fce52f18b230e288592317d2886391e0d181ba9c5",
+    "contribution_map.md": "68e621b291cc3fb28adf46b4ff20b39fb91dd35afe61f041fa906e93af6af498",
+    "figures/affine-chart.pdf": "982861f578087cc5a4b24552abb84740bd3191883a329b8955c19ed33a3cd36d",
+    "figures/normalized-gap.pdf": "0382d4fec39c3fc8424bd2b9b79fe92216a611c49daec986dd94c983ca703f86",
+    "figures/shared-fan.pdf": "b5d53cec5ebdadbd638acd47981c9d392d47b8b9cec3314e6d0d766832b9759e",
+    "figures/successor-49-resource.pdf": "cbf3be3eb316a89abb73f6ee2c675e99e0cf9e1685b6c43c96de277b24777446",
+    "Kobon_journal_version.pdf": "4aff3f17651f3140a2a80ab57ffd16554c5308b5b294fd41d5be684d7815b9c4",
+    "main.tex": "1af21b1a9e1d4d87b7fc77a16aa3a5660573d52b5ee3e303a4944e819954d8ba",
+    "README.md": "9a031125c58afc28215663c481cb19affcea23ca85f41b8e5ed76e02a5bd01d8",
+    "references.bib": "04a200e8909c8b09432bd7f21a87b112642f6d25678427724c9f0cca7b2628cc",
+    "sections/certificates.tex": "5d8b97e4809a33c46d5eed074f9ef98e11e2ec86d56b3ac4c6e7e2b7fe63c608",
+    "sections/construction.tex": "f36780552132a97b771a256ac9dc1d34c57e6ecd6a06cd5a355644177f603b56",
+    "sections/extensions.tex": "5d6014efe37fdfe5e5effdb322082bd465b90d6acc065e342fe6747e45bde844",
+    "sections/families.tex": "e013ea5c09130ab3301f8f5a89857cb5f55cb9b73dd1353d52dea8bd51a0b2d6",
+    "sections/introduction.tex": "fcef7f6a5f5e4fc79794e682b3410cefa8cdc16928ae1cd7a9a32f0b9e9f788c",
+    "sections/upper.tex": "7366c600e71698b5f7ec593debe30305da2261d7e34b674712ff277c13ac354d",
+    "validate.py": "1375522155887c43b596074f8a01f26383828c7254de8ce35afcff967604c3e8",
+    "visual_review.json": "44ad385f9b52447c457afad431e58946cd1c815677223d154dfa2a61205987d6"
+  }
+}

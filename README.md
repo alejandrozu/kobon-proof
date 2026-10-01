@@ -4,6 +4,8 @@ Research repository of **Alejandro Zarzuelo Urdiales**. This revision consolidat
 
 **Comprehensive manuscript:** [Kobon Triangle Constructions (PDF)](paper/Kobon_triangle_constructions.pdf), with [LaTeX source and reproduction instructions](paper/README.md). The 60-page paper includes 29 references, 16 original vector figures, the 3–60 table, and the complete 138-certificate catalog. It distinguishes completed proofs from conditional families and unfinished claims.
 
+**Journal version (1 October 2026):** [Affine constructions and incidence bounds for Kobon triangles (PDF)](paper/journal/Kobon_journal_version.pdf) is a separate **13-page article including references**, with four figures and all substantive contributions retained. [Portable LaTeX source and build instructions](paper/journal/README.md). The full manuscript above remains unchanged as the detailed companion.
+
 **A stronger explicit lower bound for every natural order is now proved in Lean.** For `n >= 4`, `Kobon.Universal.baseline_sound` constructs a simple real-line arrangement with at least
 
 `G(n) = floor(n(n-3)/3) + 1 + (n mod 2)`

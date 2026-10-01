@@ -1,0 +1,16 @@
+{
+  "pdf_sha256": "4aff3f17651f3140a2a80ab57ffd16554c5308b5b294fd41d5be684d7815b9c4",
+  "date": "2026-10-01",
+  "pages": 13,
+  "method": "Every page rendered with Poppler at 120 dpi and individually inspected.",
+  "page_assignments": ["1-5", "6-9", "10-13"],
+  "corrections_checked": [
+    "Pairwise nonparallel support hypothesis and n>=4 residue scope",
+    "Missing mathematical spacing commands",
+    "Shared-fan figure enlarged for legibility",
+    "Long local-resolution count line wrapped without overflow",
+    "All bibliography entries and cross references resolved"
+  ],
+  "result": "No clipping, missing figures, unresolved references, or unreadable equations/tables found.",
+  "coverage": "All sixteen contribution groups C1-C16 retained with their existing proof and attribution boundaries."
+}

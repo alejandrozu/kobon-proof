@@ -1,0 +1,29 @@
+\section{Introduction and relation to previous work}
+
+Let $\K(n)$ be the maximum number of bounded triangular cells formed by $n$ distinct straight lines in $\R^2$. Multiple intersections and parallel pairs are allowed. Write $\Ks(n)$ for the maximum over \emph{simple} arrangements: no parallel pair and no three concurrent lines. Thus $\K(n)\ge\Ks(n)$. A triangular cell is a component of the complement of the lines whose closure is a nondegenerate triangle; arbitrary intersecting triples are not counted.
+
+F\"uredi and Pal\'asti's trigonometric arrangements give the classical affine lower formula
+\[
+ \B(n)=\ceil{\frac{n(n-3)}3}\quad(n\ge3).
+\]
+This ceiling form is stated explicitly by Erickson; see also Felsner--Kriegel~\cite{furedipalasti1984,erickson1999,felsnerkriegel1999}. Our principal completed construction refines its constant term.
+
+\begin{theorem}[Uniform affine refinement]\label{j:main}
+For every $n\in\N$, a simple real-line arrangement realizes at least $\G(n)$ triangular cells, where $\G(n)=0$ for $n<3$, $\G(3)=1$, and
+\begin{equation}\label{j:G}
+ \G(n)=\floor{\frac{n(n-3)}3}+1+(n\bmod2),\qquad n\ge4.
+\end{equation}
+Consequently $\K(n)\ge\Ks(n)\ge\G(n)$. For $n\ge4$, in residue classes $0,1,\ldots,5$ modulo six, the gains $\G-\B$ are $1,1,0,2,0,1$.
+\end{theorem}
+
+The proof in Section~\ref{j:construction} constructs real lines and nonoverlapping triangular interiors. Its general Lean theorem uses only the standard logical axioms, not finite sampling or an assumed extension principle. The improvement is bounded by two; the leading terms $n^2/3-n$ are unchanged. The original F\"uredi--Pal\'asti projective counts already contain related constants. Our contribution is an explicit bounded-affine refinement and its geometric formalization; first numerical priority for the formula is not established by the source audit.
+
+Several special families are stronger. Forge and Ram\'irez Alfons\'in construct a projective family whose affine deletion gives optimal orders $2\cdot2^t+1$~\cite{forge1998}. Bartholdi, Blanc and Loisel (BBL) give compatible doubling, with straight-line optimal families at $6\cdot2^t+1$ and $14\cdot2^t+1$~\cite{bbl2008}. Parpalak--Utkin establish the straight-line family $18\cdot2^t+1$~\cite{parpalakutkin2026}; its $108\cdot4^t-1$ triangles exceed $\G$ there by $6\cdot2^t-2$. A maximum with these families, extended by harmless distant lines, is another all-order lower bound. We therefore do not identify validity for all $n$ with pointwise numerical optimality.
+
+For comparison, put $U_{\mathrm T}(n)=\floor{n(n-2)/3}$. The classical upper envelope and its residue refinements are reported by Cl\'ement--Bader~\cite{clementbader2007}. Blanc's stronger even-order estimate
+\begin{equation}\label{j:blanc}
+ \Ks(n)\le\floor{\frac{n(n-5/2)}3},\qquad n\ \text{even},
+\end{equation}
+requires simplicity~\cite{blanc2011}. In particular, nonsimple $14$-line examples with $54$ cells exceed the simple bound $53$. Section~\ref{jup:section} retains multiple points explicitly rather than assuming that smoothing preserves the count.
+
+The remaining contributions are a quantitative boundary-defect extension, an obstruction to repeated full exterior gains, compatible real seed certificates and a geometric one-step BBL theorem, and local-to-global incidence estimates under explicit restrictions. These are stated with their mathematical and formal scopes. They replace the unrestricted successor claim proposed in the author's March manuscript~\cite{zarzuelo2026}, which remains unproved here. Recent coordinate and SAT-based work supplies comparison inputs, not uncredited discoveries~\cite{savchuk2025,maiorana2026,parpalakutkinGallery2026}. The complete research account, source audit, finite catalog and historical record remain available separately~\cite{zarzueloFull2026}.

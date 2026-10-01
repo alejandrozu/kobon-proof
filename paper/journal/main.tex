@@ -1,0 +1,60 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=25mm]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{graphicx,booktabs,array,tabularx}
+\usepackage{microtype}
+\usepackage{caption}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{xurl}
+\usepackage{xcolor}
+\usepackage[colorlinks=true,linkcolor=blue!40!black,citecolor=blue!40!black,urlcolor=blue!40!black]{hyperref}
+\hypersetup{pdftitle={Affine constructions and incidence bounds for Kobon triangles},pdfauthor={Alejandro Zarzuelo Urdiales}}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\K}{K}
+\newcommand{\Ks}{K_{\mathrm s}}
+\newcommand{\G}{G}
+\newcommand{\B}{B}
+\newcommand{\N}{\mathbb N}
+\newcommand{\R}{\mathbb R}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\floor}[1]{\left\lfloor#1\right\rfloor}
+\newcommand{\ceil}[1]{\left\lceil#1\right\rceil}
+\newcommand{\lean}[1]{{\small\nolinkurl{#1}}}
+\DeclareMathOperator{\sgn}{sgn}
+\setlength{\emergencystretch}{2em}
+\captionsetup{font=small,labelfont=bf}
+\setcounter{topnumber}{3}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\textfraction}{0.08}
+\renewcommand{\floatpagefraction}{0.75}
+\graphicspath{{figures/}}
+\title{Affine constructions and incidence bounds\\for Kobon triangles}
+\author{Alejandro Zarzuelo Urdiales}
+\date{1 October 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+We refine a classical construction of triangular cells in real line arrangements and prove its geometry and counting in Lean. For every $n\ge4$ there is a simple affine arrangement with at least $\lfloor n(n-3)/3\rfloor+1+(n\bmod2)$ bounded triangular cells. A phase correction and controlled projective changes of affine chart give the additional triangles. We also give a quantitative exterior-extension rule for both parities, identify a boundary-resource obstruction to indefinitely repeating full-gain exterior steps, and formalize a compatible-seed instance of the Bartholdi--Blanc--Loisel doubling construction. For even arrangements without parallel pairs, local fan geometry yields multiplicity-sensitive upper estimates, including a sharp bound in the class with at most two finite multiple points. Exact finite certificates supplement the general lower construction. We distinguish theorems checked end to end in Lean from manuscript geometry and incomplete recursive formalization, and separate the affine refinement from numerical-priority claims.
+\end{abstract}
+\input{sections/introduction}
+\input{sections/construction}
+\input{sections/extensions}
+\input{sections/families}
+\input{sections/upper}
+\input{sections/certificates}
+\begingroup
+\small
+\setlength{\bibsep}{3pt}
+\bibliographystyle{plainnat}
+\bibliography{references}
+\endgroup
+\end{document}

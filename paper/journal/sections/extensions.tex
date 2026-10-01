@@ -1,0 +1,113 @@
+\section{Exterior extensions and their boundary resource}
+\label{jext:section}
+
+Exterior addition has precedents in BBL and Blanc~\cite{bbl2008,blanc2011}.
+The contribution here is an explicit geometric certificate, a quantitative
+defect formulation for both parities, and an obstruction to repeatedly
+demanding the full gain proposed in March~\cite{zarzuelo2026}.
+
+Let $A$ be a simple $n$-line arrangement, $n\ge3$, with equations $f_i=0$ and
+vertices $p_{ij}$.  A linear functional $w$ is admissible if it is nonzero
+on every line direction.  At $p_{ij}$ choose support directions $u_i,u_j$
+with $w(u_i)=w(u_j)=1$.  Call the pair \emph{visible} if, for every old
+line $f_k=0$, the numbers
+\[
+ f_k(p_{ij}),\quad Df_k(u_i),\quad Df_k(u_j)
+\]
+have one common weak sign.  This condition certifies an empty unbounded
+wedge using only old data.
+
+\begin{theorem}[Verified exterior realization]
+\label{jext:visible}
+If $A$ contains $T$ distinct certified triangles and $c$ distinct pairs
+visible from an admissible $w$, adjoining $w(x)=H$, where
+$H>\max_{i<j}w(p_{ij})$, gives a simple arrangement with at least $T+c$
+triangles.
+\end{theorem}
+\begin{proof}
+The new line is nonparallel to every support, misses all old vertices,
+and lies beyond every old bounded cell.  Thus simplicity and old triangles
+are preserved.  A visible pair has new vertices
+$p_{ij}+(H-w(p_{ij}))u_i$ and $p_{ij}+(H-w(p_{ij}))u_j$.
+Their affine evaluations are
+$f_k(p_{ij})+(H-w(p_{ij}))Df_k(u)$, so all three vertices have one weak
+sign against every old line.  The triangle is nondegenerate and empty.
+Distinct pairs give distinct new support triples, all containing the
+new line and hence distinct from the old triples.
+\end{proof}
+This is \lean{Exterior.extension}, a real-coordinate Lean theorem with
+no parity restriction or assumed future count.
+
+Write $T=t(A)$, $d=n(n-2)-3T$, and let $b$ count unbounded two-sided cells.
+The quantity $d$ counts unused bounded elementary segments: a segment
+in a simple arrangement supports at most one triangle.
+
+\begin{proposition}[Boundary-defect extension]
+\label{jext:defect}
+For $n\ge3$, define
+\begin{equation}
+ g(n,T)=\ceil{\frac{n-1}{2n}\max\{3,\,3T-n(n-3)\}}.
+ \label{jext:gain}
+\end{equation}
+Then $\Ks(n)\ge T$ implies $\Ks(n+1)\ge T+g(n,T)$.
+\end{proposition}
+\begin{proof}
+There are $2n$ free rays, of which $2b$ belong to wedges.  At an unpaired
+ray's endpoint $L\cap M$, both incident segments of $M$ are bounded.
+They cannot both support triangles, since those triangles would share
+the unique bounded segment of $L$ starting there.  Charge this ray to
+an unused segment of $M$.  Each unused segment receives at most two
+endpoint charges, giving $b+d\ge n$.  Convex-hull vertices of the finite
+intersection set supply at least three wedges, so $b\ge\max\{3,n-d\}$.
+
+The two rays of a wedge are consecutive in cyclic direction order.
+Among the $2n$ admissible normal sectors, each wedge is visible in
+exactly $n-1$: positivity selects $n$ consecutive oriented directions.
+Thus some sector sees at least $\ceil{(n-1)b/(2n)}$ wedges.  Apply
+Theorem~\ref{jext:visible}.  The expression is nondecreasing in $T$,
+so a lower count can replace the witness's actual count.
+\end{proof}
+The cyclic count and defect arithmetic are formalized.  The universal
+ray-charging and geometric cyclic-data extraction remain manuscript
+proofs; the proposition is not claimed as an end-to-end Lean theorem.
+
+If $n=2m+1$ and $d\le2$, then $b\ge2m-1$.  Averaging forces at least
+$m$ visible wedges, since
+$2m(2m-1)>(4m+2)(m-1)$; no sector can contain more than $m$ disjoint
+ray pairs.  Hence every such odd input admits the full gain $m$.
+For either parity the exact full-gain test is that some sector contains
+$\floor{n/2}$ wedge pairs.  The defect rule itself can be iterated
+without assuming this stronger condition persists.
+
+Repeated exterior additions have a finite boundary resource.  If $b_r$
+is the wedge count and $c_r$ the gain, each new triangle consumes an
+old wedge.  No new free ray appears at an old vertex, and new wedges
+can use only the two free rays of the added line.  Therefore
+\begin{equation}
+ b_{r+1}+c_r\le b_r+2,\qquad
+ \sum_{j<r}c_j\le b_0+2r-3.
+ \label{jext:budget}
+\end{equation}
+Quadratically accumulating full gains cannot continue indefinitely.
+For the saved $49:767$ seed, $b_0=47$; gains $24$ and $25$ in two
+exterior steps would leave at most two wedges, contradicting $b\ge3$.
+This does not refute a recurrence for maxima using reconstruction.
+
+\begin{figure}[tb]
+\centering
+\includegraphics[width=.82\linewidth]{successor-49-resource.pdf}
+\caption{One exact exterior chain from $49:767$. Its gains $24,23,2,2$ produce counts $791,814,816,818$. The displayed capacities belong to these particular arrangements; the general obstruction is the wedge budget~\eqref{jext:budget}, not an upper bound for $\K$.}\label{jext:figure}
+\end{figure}
+
+Conditionally, $F(n+1)\ge F(n)+\floor{n/2}$ yields
+\[
+ F(n)\ge F(s)+\floor{(n-1)^2/4}-\floor{(s-1)^2/4}.
+\]
+The recurrence remains unproved for $\K$.  Nevertheless its $49$-seed
+numerical target is independently unconditional:
+\begin{equation}
+ \K(n)\ge\floor{(n-1)^2/4}+191\qquad(n\ge49).
+ \label{jext:49}
+\end{equation}
+Lean proves this from the finite 49/50 witnesses and the classical
+baseline for $n\ge51$; it does not construct a nested full-gain chain.

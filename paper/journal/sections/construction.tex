@@ -1,0 +1,130 @@
+\section{The uniform affine construction}\label{j:construction}
+
+\subsection{Certificates for actual triangular cells}
+
+Write a line $\ell$ as $a_\ell x+b_\ell y=c_\ell$, with affine evaluation $f_\ell$. For two nonparallel lines define
+\[
+ D_{\ell m}=a_\ell b_m-b_\ell a_m,\quad
+ (X_{\ell m},Y_{\ell m})=(c_\ell b_m-b_\ell c_m,\ a_\ell c_m-c_\ell a_m),
+\]
+so that $p_{\ell m}=(X_{\ell m},Y_{\ell m})/D_{\ell m}$. Set
+\[
+ E(r;\ell,m)=a_rX_{\ell m}+b_rY_{\ell m}-c_rD_{\ell m},\qquad
+ O(r;\ell,m)=E(r;\ell,m)D_{\ell m}.
+\]
+Then $O(r;\ell,m)=f_r(p_{\ell m})D_{\ell m}^2$ has the sign of the actual affine evaluation.
+
+An increasing triple $i<j<k$ of pairwise nonparallel supports is \emph{certified} when its supports are nonconcurrent and, for every arrangement line $r$, the three values $O(r;i,j)$, $O(r;i,k)$, $O(r;j,k)$ have a common weak sign. This polynomial criterion permits other lines through vertices but excludes cuts through the interior.
+
+\begin{lemma}\label{j:cell}
+A certified triple determines a bounded triangular cell. Different increasing certified triples have disjoint interiors.
+\end{lemma}
+\begin{proof}
+The three vertices are noncollinear. Each test line has one weak sign on their convex hull, and a strict sign on its interior: vanishing at an interior convex combination would force vanishing at all three vertices. The interior therefore lies in one strict sign cell of the arrangement. Conversely, the three supporting inequalities force positive barycentric coordinates, so that sign cell is exactly the triangle interior. It is convex and hence a component of the complement. If two certified interiors meet, their sign cells coincide; their three open sides then determine the same supports and the increasing triples agree.
+\end{proof}
+
+Lean proves nonemptiness, equality with the strict sign cell, and disjointness. The connected-component interpretation is the elementary argument above. Clearing rational denominators reduces finite certification to integer polynomial tests.
+
+\subsection{Phase and repeated-index correction}
+
+Use the classical trigonometric family
+\begin{equation}\label{j:trig}
+ \ell(\theta):\quad \sin\theta\,x+\cos\theta\,y=\sin(3\theta).
+\end{equation}
+Expansion gives $D(\ell(u),\ell(v))=\sin(u-v)$ and
+\begin{equation}\label{j:sign}
+ O(\ell(w);\ell(u),\ell(v))
+ =4\sin^2(u-v)\sin(w-v)\sin(w-u)\sin(u+v+w).
+\end{equation}
+For $\theta_i=(i+a)\pi/n$, $0\le i<n$, consider the following selected triples:
+\begin{equation}\label{j:residues}
+ \begin{array}{c|c}
+ a & i+j+k\pmod n\\ \hline
+ 1/2 & n-1,\ n-2\\
+ 1/6 & 0,\ n-1 .
+ \end{array}
+\end{equation}
+
+Both arrangements are simple: the angles are distinct modulo $\pi$, and every three-angle sum is a half-integer multiple of $\pi/n$, never a multiple of $\pi$. For a selected triple, write
+$\theta_i+\theta_j+\theta_k=q\pi+\varepsilon\pi/n$ with $\varepsilon=\pm1/2$. At a test index $r$ outside its supports, the sign of the last factor in~\eqref{j:sign}, evaluated at the pair $i,j$, is
+$(-1)^q\sgn(r-k)$, because $|r-k+\varepsilon|<n$. The complete sign is therefore
+\[
+ (-1)^q\sgn(r-i)\sgn(r-j)\sgn(r-k),
+\]
+independent of the chosen pair. At a supporting index two evaluations vanish and the third causes no sign conflict. Lemma~\ref{j:cell} proves the selected cells.
+
+For any residue $b$, the equation $i+j+k=b$ in $\Z/n\Z$ has $n^2$ ordered solutions. Each equality $i=j$, $i=k$, or $j=k$ excludes at most $n$ solutions. Two distinct residues thus retain at least $2n^2-6n$ ordered triples with distinct indices. Division by six gives $\B(n)$ for the half-phase choice.
+
+\begin{lemma}[Phase correction]\label{j:phase}
+The phase $a=1/6$ gives at least $\floor{n(n-3)/3}+1$ triangular cells for every $n\ge3$.
+\end{lemma}
+\begin{proof}
+In residue zero all three repeated-index sets contain $(0,0,0)$, so their union has size at most $3n-2$. For residue $n-1$ retain the bound $3n$. If $T$ is the selected count, then
+$6T\ge2n^2-6n+2$, and hence
+$T\ge\ceil{(n(n-3)+1)/3}=\floor{n(n-3)/3}+1$.
+\end{proof}
+
+\subsection{Recovering bounded cells by changing the chart}
+
+For $h\ne0$, the projective coordinate change
+\[
+ (x,y)\longmapsto\left(\frac{x}{h-x},\frac{y}{h-x}\right)
+\]
+transforms $(a,b,c)$ into $\Phi_h(a,b,c)=(ha-c,hb,c)$. Direct substitution gives
+\begin{align}
+ D(\Phi_h\ell,\Phi_hm)&=h(h-x_{\ell m})D(\ell,m),\notag\\
+ E(\Phi_hr;\Phi_h\ell,\Phi_hm)&=h^2E(r;\ell,m),\notag\\
+ O(\Phi_hr;\Phi_h\ell,\Phi_hm)&=h^3(h-x_{\ell m})O(r;\ell,m).\label{j:covariance}
+\end{align}
+A cut $x=h$ avoiding all old vertices preserves simplicity. If $h>0$ and a triangle lies left of the cut, or $h<0$ and it lies right of it, all three sign multipliers are positive. At an exposed vertex on the other side, the multiplier reverses.
+
+\begin{lemma}[Exposed caps]\label{j:caps}
+For odd $n\ge3$, a chart of the half-phase arrangement has at least $\B(n)+1$ bounded cells. For $n=6k+3$, $k\ge1$, another chart has at least $\B(n)+2$.
+\end{lemma}
+\begin{proof}
+The abscissa of the intersection of $\ell(u)$ and $\ell(v)$ is
+\[
+ X(u,v)=\cos(2u)+\cos(2v)+\cos(2u+2v).
+\]
+Put $c=\cos(\pi/n)$ and $c_n=1+2c$. On the half-phase grid, the pair $(0,n-1)$ is uniquely rightmost, at $c_n$: the first two cosine terms are at most $c$ and the last at most one, with simultaneous equality only at this pair. Choose $0<h<c_n$ above all other abscissae. No selected triple in~\eqref{j:residues} contains this pair. For $n=2m+1$, substitution in~\eqref{j:sign} shows that the triple $(0,m,2m)$ has opposite weak signs at its exposed vertex and its other vertices, for each test line. Equation~\eqref{j:covariance} corrects exactly that sign. All old selected triangles survive and this extra triple becomes a cell.
+
+For $n=6k+3=3m$, $m=2k+1$, the pairs $(m-1,m)$ and $(2m-1,2m)$ are exactly the leftmost vertices, both at $-c_n/2$. Here is an explicit exposure check. Write $z=\cos(u+v)$, $w=\cos(u-v)$; then
+\[
+ X=2z^2+2zw-1.
+\]
+For a nonadjacent, nonwrapping pair, $|w|\le2c^2-1$, and completing the square gives $X\ge-1-w^2/2>-c-1/2$, since
+\[
+ 2c-1-(2c^2-1)^2=2(1-c)(2c^3+2c^2-1)>0\quad(n\ge9).
+\]
+For adjacent indices $w=c$ and
+$X+c+1/2=(2z+1)(z+c-1/2)$. On the discrete grid, the next value above $z=-1/2$ is $\cos(2\pi/3-2\pi/n)$; it exceeds $1/2-c$ by $c(1-c+\sqrt3\sin(\pi/n))>0$. Thus equality occurs only at $u+v=2\pi/3,4\pi/3$, giving the stated pairs. The wrapping pair is rightmost.
+
+Choose $h<0$ between these two abscissae and all others. No old selected triangle uses either pair. The two extra triples
+\[
+ (2k,2k+1,5k+2),\qquad(k,4k+1,4k+2)
+\]
+have, by~\eqref{j:sign}, the opposite weak sign at the exposed pair from the sign at their other vertices. The multiplier in~\eqref{j:covariance} reverses precisely the exposed-vertex sign. These triples are distinct and absent from the old selected list, proving the two-cell gain.
+\end{proof}
+
+\begin{figure}[tb]
+\centering
+\includegraphics[width=.80\linewidth]{affine-chart.pdf}
+\caption{Exact rational illustration of the two-cap chart at $n=9$: all 18 old cells survive and two become bounded. This realizes $\G(9)=20$, below the known optimum 21. Panels are independently rescaled; the general real-coordinate proof is symbolic.}\label{j:fig-chart}
+\end{figure}
+
+\begin{proof}[Proof of Theorem~\ref{j:main}]
+For even $n\ge4$ use Lemma~\ref{j:phase}. For odd $n$ not divisible by three, $n(n-3)\equiv1\pmod3$, so $\B(n)+1=\floor{n(n-3)/3}+2$; apply the one-cap construction. For odd multiples of three at least nine, use the two-cap construction. Three nonconcurrent lines give the remaining nonzero small case. The same residue calculation gives the six stated gains.
+\end{proof}
+
+The exact deficit to the comparison polynomial is
+\begin{equation}\label{j:gap}
+ U_{\mathrm T}(n)-\G(n)
+ =\floor{n/3}+\mathbf1_{n\equiv2\ (3)}-1-(n\bmod2),\qquad n\ge4.
+\end{equation}
+Thus the improvement is strict at infinitely many orders but leaves a linear gap. It constructs each order independently, not a nested chain from an arbitrary optimal seed.
+
+\begin{figure}[tb]
+\centering
+\includegraphics[width=.82\linewidth]{normalized-gap.pdf}
+\caption{The exact deficit resolves the bounded gain over $\B$; normalized growth shows the unchanged leading coefficient. $U_{\mathrm T}$ is an external comparison polynomial, not a new unrestricted upper theorem.}\label{j:fig-gap}
+\end{figure}

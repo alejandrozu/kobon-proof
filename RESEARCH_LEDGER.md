@@ -4,6 +4,22 @@ Owner: Alejandro Zarzuelo Urdiales. Research session: 20 September 2026 (America
 
 Read this file before resuming. It records what was retained, what failed, where the evidence lives, and what still needs proof. [FORMALIZATION.md](FORMALIZATION.md) is the authoritative Lean scope statement; [RESULTS.md](RESULTS.md) maps concrete claims to files.
 
+## Journal-length version on 1 October 2026
+
+The [separate journal article](paper/journal/README.md) condenses the existing
+research to 13 pages including 17 references, with four vector figures and
+normal 11-point typography. It retains the distinct contributions and their
+proof status, while the 60-page manuscript and every original paper file remain
+unchanged. The [coverage map](paper/journal/contribution_map.md) records all
+16 contribution groups and the independent editorial checks.
+
+The 60-page release's GitHub run 35779849718 is now confirmed successful.
+This new version adds no Lean statements or numerical priority claims.
+The exact 81/161 projective census was replayed and confirms the previously
+recorded obstruction for those fixed witnesses. Shortening the article does
+not change the unresolved recursive BBL, boundary-extraction, or global upper
+formalization tasks below.
+
 ## Comprehensive manuscript on 22 September 2026
 
 The [LaTeX manuscript](paper/README.md) consolidates the March history and the

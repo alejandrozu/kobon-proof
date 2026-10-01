@@ -1,0 +1,37 @@
+\section{Finite consequences and verification}\label{j:verification}
+
+Let $C(n)$ be the largest count among the saved exact certificates at order $n$, or zero if none is present. The finite-enhanced bound
+\begin{equation}\label{j:envelope}
+ \K(n)\ge L(n):=\max\{\G(n),C(n)\},\qquad n\in\N,
+\end{equation}
+is proved in Lean. The release contains 138 distinct coordinate identities, 104 simple; published inputs retain their attribution. For $n>195$, this saved envelope equals $\G(n)$. Neither catalog size nor~\eqref{j:envelope} asserts an exhaustive numerical optimum.
+
+\begin{table}[tb]
+\centering\small
+\begin{tabular}{@{}llp{.35\linewidth}@{}}
+\toprule
+Order(s) $n$ & Certified counts, in order & Role\\
+\midrule
+$28,30,34$ & $238,275,357$ & Earlier attributed inequalities\\
+$44$ & $608$ & Simple witness matching~\eqref{j:blanc}\\
+$39,47,48$ & $470,691,721$ & One above earlier retained counts\\
+$51,53,54,55$ & $818,885,919,955$ & One above earlier retained counts\\
+$59,60,99,195$ & $1103,1141,3170,12482$ & One above earlier retained counts\\
+\bottomrule
+\end{tabular}
+\caption{Selected simple certificates. Improvements are relative to the project's earlier witnesses, not asserted global records. The supplement contains every coordinate identity and the complete orders 3--60 table.}\label{j:finite}
+\end{table}
+
+The March-associated values at $28,30,34$ lines now have independent certificates despite the unfinished original extension argument~\cite{zarzuelo2026,oeisA006066}. They are not claimed as first numerical discoveries: $30:275$ appears in BBL, and $34:357$ follows from the older perfect 33-line construction and exterior addition~\cite{bbl2008,forge1998}. The exact $43:587\to44:608$ extension, together with Blanc's external upper theorem, gives $\Ks(44)=608$, not equality for $\K(44)$. The earlier proposed additional-line formula $q^2/3+q+1$ at $n=q+3$, $q=6\cdot2^t$, is uniformly superseded numerically by $\G(q+3)=q^2/3+q+2$.
+
+The finite certificates apply Lemma~\ref{j:cell} to polynomial signs and distinct support triples. Two independent rational counters check their complete triangle sets. This also reproduces all fifteen Maiorana $14:54$ inputs and ten gallery witnesses from Parpalak--Utkin, including $26:204$ and $50:792$~\cite{maiorana2026,parpalakutkinGallery2026}. Exact reproduction is a certificate contribution, not reassignment of discovery credit.
+
+The frozen mathematical release uses Lean 4.31.0 and Mathlib~\cite{lean4,mathlib}; its 325 source hashes and 220 successful build targets are recorded in the repository~\cite{zarzueloRepository}. The principal interfaces are \lean{Universal.baseline_sound}, \lean{Universal.all_n}, \lean{Exterior.extension}, \lean{SeedFamily}, and \lean{BBLDoubling.doubling}. The general construction, geometric doubling step and local fan geometry use the standard Lean logical axioms. Finite certificates additionally use \lean{native_decide}, with its compiler/runtime trust. Active proofs contain no placeholders or custom geometric axioms.
+
+The mathematical contribution is thus accompanied by an explicit verification boundary: the all-order construction and local geometric interfaces are complete, while the global boundary extraction, restricted upper-budget geometry and recursive BBL integration have the status stated at their results. The full account~\cite{zarzueloFull2026} supplies detailed proofs, the 138-certificate catalog, parameter enclosures, source versions, negative searches and unpromoted drafts. Its preservation allows this article to remain focused without discarding evidence.
+
+\paragraph{Further questions.}
+The remaining structural tasks are to close the recursive compatible-seed invariant, maintain sufficient visibility for the stronger even family, and control triple and quadruple points globally in the upper budget. Bounded local searches and alternate-chart experiments in the supplement do not establish impossibility. Improving the linear gap in~\eqref{j:gap} requires more than the constant refinement proved here.
+
+\paragraph{Availability and assistance.}
+LaTeX, figures, exact coordinates and Lean sources are public~\cite{zarzueloRepository}; this article reports the mathematical snapshot completed on 22 September 2026. The manuscript and development used computer algebra, exact search, and AI assistance. Conclusions are supported by explicit proofs or separately identified exact computations, not by generated assertions.

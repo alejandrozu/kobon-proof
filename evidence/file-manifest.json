@@ -4066,6 +4066,82 @@
       "bytes": 636,
       "sha256": "55d97d0b2a9715c6d80ba4f7819d052de1f39d1ff9785c8b78c2d968e6e0100e"
     },
+    "paper/journal/build.py": {
+      "bytes": 1762,
+      "sha256": "21192e4fdad4db6d0577019fce52f18b230e288592317d2886391e0d181ba9c5"
+    },
+    "paper/journal/contribution_map.md": {
+      "bytes": 20457,
+      "sha256": "68e621b291cc3fb28adf46b4ff20b39fb91dd35afe61f041fa906e93af6af498"
+    },
+    "paper/journal/figures/affine-chart.pdf": {
+      "bytes": 10744,
+      "sha256": "982861f578087cc5a4b24552abb84740bd3191883a329b8955c19ed33a3cd36d"
+    },
+    "paper/journal/figures/normalized-gap.pdf": {
+      "bytes": 21639,
+      "sha256": "0382d4fec39c3fc8424bd2b9b79fe92216a611c49daec986dd94c983ca703f86"
+    },
+    "paper/journal/figures/shared-fan.pdf": {
+      "bytes": 11248,
+      "sha256": "b5d53cec5ebdadbd638acd47981c9d392d47b8b9cec3314e6d0d766832b9759e"
+    },
+    "paper/journal/figures/successor-49-resource.pdf": {
+      "bytes": 15305,
+      "sha256": "cbf3be3eb316a89abb73f6ee2c675e99e0cf9e1685b6c43c96de277b24777446"
+    },
+    "paper/journal/Kobon_journal_version.pdf": {
+      "bytes": 173506,
+      "sha256": "4aff3f17651f3140a2a80ab57ffd16554c5308b5b294fd41d5be684d7815b9c4"
+    },
+    "paper/journal/main.tex": {
+      "bytes": 2991,
+      "sha256": "1af21b1a9e1d4d87b7fc77a16aa3a5660573d52b5ee3e303a4944e819954d8ba"
+    },
+    "paper/journal/README.md": {
+      "bytes": 2895,
+      "sha256": "9a031125c58afc28215663c481cb19affcea23ca85f41b8e5ed76e02a5bd01d8"
+    },
+    "paper/journal/references.bib": {
+      "bytes": 6683,
+      "sha256": "04a200e8909c8b09432bd7f21a87b112642f6d25678427724c9f0cca7b2628cc"
+    },
+    "paper/journal/sections/certificates.tex": {
+      "bytes": 4461,
+      "sha256": "5d8b97e4809a33c46d5eed074f9ef98e11e2ec86d56b3ac4c6e7e2b7fe63c608"
+    },
+    "paper/journal/sections/construction.tex": {
+      "bytes": 8325,
+      "sha256": "f36780552132a97b771a256ac9dc1d34c57e6ecd6a06cd5a355644177f603b56"
+    },
+    "paper/journal/sections/extensions.tex": {
+      "bytes": 5340,
+      "sha256": "5d6014efe37fdfe5e5effdb322082bd465b90d6acc065e342fe6747e45bde844"
+    },
+    "paper/journal/sections/families.tex": {
+      "bytes": 5029,
+      "sha256": "e013ea5c09130ab3301f8f5a89857cb5f55cb9b73dd1353d52dea8bd51a0b2d6"
+    },
+    "paper/journal/sections/introduction.tex": {
+      "bytes": 3833,
+      "sha256": "fcef7f6a5f5e4fc79794e682b3410cefa8cdc16928ae1cd7a9a32f0b9e9f788c"
+    },
+    "paper/journal/sections/upper.tex": {
+      "bytes": 8816,
+      "sha256": "7366c600e71698b5f7ec593debe30305da2261d7e34b674712ff277c13ac354d"
+    },
+    "paper/journal/validate.py": {
+      "bytes": 4143,
+      "sha256": "1375522155887c43b596074f8a01f26383828c7254de8ce35afcff967604c3e8"
+    },
+    "paper/journal/validation.json": {
+      "bytes": 2599,
+      "sha256": "de17988dba5b19a942e6c53f92c87f5eedfeb1b51bf100ddcf2b30494df6672d"
+    },
+    "paper/journal/visual_review.json": {
+      "bytes": 807,
+      "sha256": "44ad385f9b52447c457afad431e58946cd1c815677223d154dfa2a61205987d6"
+    },
     "paper/Kobon_triangle_constructions.pdf": {
       "bytes": 557814,
       "sha256": "b1d9c6dbfa71a7ef4fd1ffa30b700c7296afdd02cda148185bfcc6505a9a0caf"
@@ -4155,8 +4231,8 @@
       "sha256": "d15b36994a66fd1193c709d27895a128c2e4b77e4ab15d1dafe13a62e5ef9eb5"
     },
     "README.md": {
-      "bytes": 8360,
-      "sha256": "24d2d654eb3dc43092700422f60758094d82d53a60e55f3822b89d825ce8ea51"
+      "bytes": 8772,
+      "sha256": "3441d8ea30794bc0451a182e5582a8b83a5cd845208d804d54c6a4f366c66cdf"
     },
     "research/all-n-formalization/exceptions.json": {
       "bytes": 17560,
@@ -5459,8 +5535,8 @@
       "sha256": "7f674605ebae16a791695b2b04c9c21c8e6a0af9a7c306094ff1bf0c2e453077"
     },
     "RESEARCH_LEDGER.md": {
-      "bytes": 18304,
-      "sha256": "f6173e391044dba3f2a15ab2bf1db92c486a8166c6a3a9a25f22acd21feb517b"
+      "bytes": 19201,
+      "sha256": "a32a51c91e71c7795eaaf0697fbaee3db5728b24c8190c0d9a56772e9abb7b07"
     },
     "RESULTS.md": {
       "bytes": 11686,
@@ -5475,8 +5551,8 @@
       "sha256": "3cbd05854b908835e3f6bad3368696046eba14ee2bdefe446c840a6cbd48ab9c"
     },
     "scripts/evidence_manifest.py": {
-      "bytes": 1822,
-      "sha256": "475309aedf5ee1d8a1f1b8e1f21f7ce736c44394bc733546a150293e7f99d038"
+      "bytes": 1865,
+      "sha256": "c3d5cc27e68c4213d7b5b9b8a1b05ab4e13f900f0f97b4c6d97d53ed497cc2e2"
     },
     "scripts/generate_all_n.py": {
       "bytes": 6808,

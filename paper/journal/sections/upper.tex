@@ -1,0 +1,109 @@
+\section{Multiplicity-sensitive upper estimates}
+\label{jup:section}
+
+Throughout this section $n\ge4$ is even and the $n$ distinct affine lines are pairwise nonparallel. These restrictions are essential: the conclusions concern arrangements in stated subclasses, not a new global upper bound for $\K$. The proofs below are ordinary geometric arguments; their formalization status is stated at the end.
+
+Let $T$ count bounded triangular cells, and $t_r$ finite points incident to $r$ lines. The \emph{core} consists of the points with $r\ge3$; put
+\[
+ q=\sum_{r\ge3}t_r,\qquad I=\sum_{r\ge3}rt_r,\qquad
+ S=\sum_{r\ge3}r(r-2)t_r,\qquad \delta=n(n-2)-3T.
+\]
+Let $h$ count lines meeting the core. A bounded elementary segment joins consecutive intersections on a line. Write $E$ for their total, $U$ for those incident to no triangle, and $D_1,D_2$ for shared sides with respectively one and two core endpoints. A shared side cannot have two ordinary endpoints: both adjacent triangles would then have the same three supporting lines. Pair counting and point-line incidence counting give
+\begin{equation}
+ E=\sum_{r\ge2}rt_r-n=n(n-2)-S,\qquad
+ 3T=E-U+D_1+D_2,\qquad
+ \delta=S+U-D_1-D_2.
+ \label{jup:identity}
+\end{equation}
+
+\begin{lemma}[Clean-line parity]
+\label{jup:clean}
+One has $n-h\le2U+D_1$, and consequently
+\begin{equation}
+ 2\delta\ge n+2S-h-3D_1-2D_2.
+ \label{jup:budget}
+\end{equation}
+\end{lemma}
+\begin{proof}
+Adapt Blanc's local parity argument~\cite{blanc2011}. A clean line $L$ avoids the core. Place it horizontally; label its crossings $1,\ldots,n-1$, with transverse lines $R_i$. Let $p_i^\pm$ be the faces above/below the interval between crossings $i,i+1$, and $r_i^\pm$ the transverse elementary pieces incident to crossing $i$. The exterior faces $p_0^\pm,p_{n-1}^\pm$ are unbounded. Intervals on $L$ are unshared.
+
+Suppose every bounded $r_i^\pm$ belongs to exactly one triangle. If neither $p_1^\pm$ is triangular, both $r_1^\pm$ are unused; at least one is bounded since $R_1$ meets another transverse line. Thus, after reflection, $p_1^+$ is triangular and $p_1^-$ is not.
+
+Inductively, $p_i^+$ is nontriangular for even $i$, and $p_i^-$ for odd $i$; moreover, if both $p_{i-1}^\pm$ are nontriangular, the other face at interval $i$ is triangular. For the even step, if $p_{i-1}^+$ is triangular, $p_i^+$ cannot be: they would share $r_i^+$. Otherwise both previous faces are nontriangular. This case requires $i\ge4$. The earlier even step makes $p_{i-2}^+$ nontriangular, so $r_{i-1}^+$ is unused and therefore unbounded. Hence $R_{i-1}\cap R_i$ lies below $L$, making $r_i^-$ bounded. Its left face is nontriangular, forcing $p_i^-$ triangular and $p_i^+$ nontriangular. The odd step exchanges signs.
+
+Since $n-2$ is even, $p_{n-2}^+$ is nontriangular. If its lower neighbor is also nontriangular, both last transverse pieces are unused and one is bounded, a contradiction. Otherwise $r_1^-$ and $r_{n-1}^+$ are unused. The intersection $R_1\cap R_{n-1}$ lies below or above $L$, making the corresponding unused piece bounded, again a contradiction.
+
+Each clean line therefore meets a bounded unused or shared transverse segment. Charge it to one such segment. An unused segment receives at most two charges, one per ordinary endpoint; a $D_1$ segment receives at most one, and a $D_2$ segment none. This proves the charging inequality; combine it with~\eqref{jup:identity}.
+\end{proof}
+
+The nonparallel hypothesis enters twice, through intersections of transverse lines. Three parallel verticals and one horizontal line would leave the horizontal line clean, but all its transverse pieces unbounded. Excluding only parallel-participating lines from the charging set therefore does not repair the argument.
+
+\begin{lemma}[Fan bounds]
+\label{jup:fan}
+At an $r$-fold core point, $r\ge3$, let $d_1,d_2$ count incident shared segments with ordinary and core other endpoints. Then
+\[
+ d_1\le2r-3,\qquad 3d_1+d_2\le6r-6.
+\]
+If $d_2\le1$, then $d_1\le2r-4$.
+\end{lemma}
+\begin{proof}
+Among the $2r$ cyclic rays, no $r-1$ consecutive rays can be counted by $d_1$. Their $r$ neighboring triangular sectors would have a common opposite supporting line: at each ordinary endpoint, the two adjacent opposite supports coincide. That line would meet $r+1$ consecutive rays, including an opposite pair, forcing it through the center and degenerating a triangle. Counting selected rays in all windows of length $r-1$ gives
+\[
+ (r-1)d_1\le2r(r-2)<(r-1)(2r-2).
+\]
+Together with $d_1+d_2\le2r$, this proves the first two bounds.
+
+Suppose $d_2\le1$ and $d_1\ge2r-3$. Not all sectors can be triangular, since deleting at most one core-ended ray would leave a forbidden selected run. Two separated nontriangular sectors, or three consecutive ones, exclude at least four shared rays. Thus there are either one or two adjacent nontriangular sectors. One leaves a shared path of length $2r-2$; removing at most one $d_2$ ray leaves at most two selected runs, of total capacity $2(r-2)<2r-3$. Two adjacent sectors leave at most $2r-3$ shared rays, all necessarily selected in one forbidden run. Both possibilities contradict the run bound.
+\end{proof}
+
+\begin{theorem}[Restricted upper estimates]
+\label{jup:upper}
+Under this section's hypotheses,
+\begin{equation}
+ 2\delta\ge n+\sum_{r\ge3}(2r^2-11r+6)t_r.
+ \label{jup:weighted}
+\end{equation}
+If $q\le2$, then
+\begin{equation}
+ T\le\floor{\frac{n(n-5/2)}3}+1.
+ \label{jup:two-core}
+\end{equation}
+The sharper defects for $q=0$ and $q=1$ are respectively $\delta\ge n/2$ and $\delta\ge n/2-1$.
+\end{theorem}
+\begin{proof}
+Summing the fan bound gives $3D_1+2D_2\le6I-6q$. Since $h\le I$, equation~\eqref{jup:budget} proves~\eqref{jup:weighted}.
+
+For $q\le2$, every core point has $d_2\le1$, so $D_1\le2I-4q$. Also $D_2\le1$ and $h\le I-D_2$: a core-to-core segment identifies a line counted twice in $I$. Therefore
+\[
+ 2\delta\ge n+\sum_{r\ge3}(2r^2-11r+12)t_r-D_2
+ \ge n-3q-D_2\ge n-7,
+\]
+using $2r^2-11r+12=-3+(r-3)(2r-5)\ge-3$. Parity gives $2\delta\ge n-6$, proving~\eqref{jup:two-core}. For $q=0,1$, one has $D_2=0$; the same inequality gives $2\delta\ge n$ and $2\delta\ge n-3$, respectively, with the latter rounding to $n-2$.
+\end{proof}
+
+If all core multiplicities are at least five, their weights in~\eqref{jup:weighted} are positive, since $2r^2-11r+6=1+(r-5)(2r-1)$; thus $T\le\floor{n(n-5/2)/3}$. Bound~\eqref{jup:two-core} is attained within its class at $n=8,14,26,50$ by attributed exact witnesses with $15,54,204,792$ triangles~\cite{maiorana2026,parpalakutkinGallery2026}; no unrestricted optimality or first numerical priority follows.
+
+More generally, a nonnegative total weight suffices for the same simple-style polynomial. The weights at multiplicities three and four are $-9$ and $-6$, so the estimate does not control an arbitrary core of low-multiplicity points. Any stronger global argument must handle that deficit rather than omit the shared-side term.
+
+Shared-edge accounting is indispensable. The six lines
+\[
+ x=0,\ y=0,\ x+y=3,\ x-y=0,\ 2x+y=3,\ x+2y=3
+\]
+give six triangular cells and six shared radial segments at $(1,1)$, with $d_1=d_2=3$. This disproves only a literal local incidence reading of Cl\'ement--Bader's shared-pair statement~\cite{clementbader2007}, not their final theorem.
+
+\begin{figure}[tb]
+\centering
+\includegraphics[width=.50\linewidth]{shared-fan.pdf}
+\caption{Six exact triangular cells and six shared radial sides at the central triple point. Ordinary-ended and core-ended sides must be counted separately. The example and its uncut, pairwise disjoint interiors are proved in Lean.}\label{jup:figure}
+\end{figure}
+
+Smoothing is not automatically nondecreasing either. The four generic local resolutions of a retained Maiorana $14{:}54$ witness have exact counts $52,52,53,52$. Unchanged nonzero pair-direction and triple-determinant signs, together with the two resolved triple signs, exhaust sufficiently small simple perturbations. The finite counts are independently checked; this continuity-based classification is not a Lean theorem.
+
+For gallery inputs of orders $8,14,20,26,32,38,50$, all 132 recorded local
+resolutions were realized by exact private-line offsets. Their respective
+best nearby simple counts are $14$, $51$, $114$, $203$, $313$, $448$, and $791$. Thus even a universal
+loss-at-most-one rule fails for resolving these collinear cores.
+These finite sign-stability obstructions concern the specified input types;
+they do not bound all simple arrangements at those orders.
+
+Lean verifies the shared-fan example, real fan obstruction and cyclic count. Global elementary-edge extraction, clean-line charging, and the sharper $d_2\le1$ refinement remain manuscript arguments; the Lean aggregate budget is conditional on their hypotheses. Parallel classes also require a separate argument.

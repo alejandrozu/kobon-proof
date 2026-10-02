@@ -4,14 +4,64 @@ import csv
 import hashlib
 import json
 import re
+import subprocess
 from pypdf import PdfReader
+from pdf_preflight import audit_pdf
 
 ROOT = Path(__file__).resolve().parents[2]
 PAPER = ROOT / 'paper'
+HISTORICAL_PAPER_COMMIT = '22d1165f6c455fe45e461baef4410f6d5c78a014'
 
 
 def sha(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def current_paper_files():
+    """Hash the current long-paper package, independently of the journal."""
+    files = {}
+    for path in sorted(PAPER.rglob('*')):
+        relative = path.relative_to(PAPER)
+        if (not path.is_file() or relative.parts[0] == 'journal'
+                or set(relative.parts) & {'build', '__pycache__'}
+                or path.name == 'validation.json'):
+            continue
+        files[relative.as_posix()] = sha(path)
+    return files
+
+
+def historical_snapshot():
+    """Verify the original 71 files in Git, without comparing working files."""
+    manifest_bytes = subprocess.run(
+        ['git', 'show', f'{HISTORICAL_PAPER_COMMIT}:paper/validation.json'],
+        cwd=ROOT, capture_output=True, check=True).stdout
+    manifest = json.loads(manifest_bytes.decode('utf-8-sig'))
+    expected = manifest['paper_file_sha256']
+    assert len(expected) == 71, 'Unexpected original long-paper manifest'
+    names = sorted(expected)
+    batch = subprocess.run(
+        ['git', 'cat-file', '--batch'],
+        input=''.join(f'{HISTORICAL_PAPER_COMMIT}:paper/{name}\n'
+                      for name in names).encode('utf-8'),
+        cwd=ROOT, capture_output=True, check=True).stdout
+    offset = 0
+    for name in names:
+        end = batch.index(b'\n', offset)
+        header = batch[offset:end].split()
+        assert len(header) == 3 and header[1] == b'blob', name
+        size = int(header[2])
+        blob = batch[end+1:end+1+size]
+        assert len(blob) == size and batch[end+1+size:end+2+size] == b'\n', name
+        assert hashlib.sha256(blob).hexdigest() == expected[name], name
+        offset = end+2+size
+    assert offset == len(batch), 'Unexpected historical Git batch output'
+    return {
+        'commit': HISTORICAL_PAPER_COMMIT,
+        'files_verified': len(names),
+        'pdf_sha256': expected['Kobon_triangle_constructions.pdf'],
+        'validation_sha256': hashlib.sha256(manifest_bytes).hexdigest(),
+        'verification': 'Original manifest and all 71 file blobs verified at the historical Git revision.'
+    }
 
 
 def main():
@@ -19,6 +69,8 @@ def main():
                *sorted((PAPER / 'generated').glob('*.tex'))]
     text = '\n'.join(p.read_text(encoding='utf-8') for p in sources)
     assert not [(ord(c), i) for i, c in enumerate(text) if ord(c) < 32 and c not in '\n\r\t']
+    assert not any(re.search(r'\s', name) for name in re.findall(r'\\lean\{([^}]+)\}', text)), \
+        'Use texttt, not the URL-style lean macro, for expressions containing spaces'
     labels = re.findall(r'\\label\{([^}]+)\}', text)
     refs = re.findall(r'\\(?:eqref|ref|cref|Cref)\{([^}]+)\}', text)
     assert len(labels) == len(set(labels)), 'Duplicate labels'
@@ -65,17 +117,30 @@ def main():
     pdf = PAPER / 'Kobon_triangle_constructions.pdf'
     reader = PdfReader(pdf)
     assert reader.metadata.author == 'Alejandro Zarzuelo Urdiales'
-    assert len(reader.pages) == 60
+    pdf_text = '\n'.join(page.extract_text() for page in reader.pages)
+    proof_endings = text.count(r'\end{proof}')
+    assert pdf_text.count('Q.E.D.') == proof_endings, 'A proof-end mark is missing or ambiguous'
+    assert 'Universal.bound = max Universal.baseline AllN.bound' in pdf_text, \
+        'Lean bound expression lost its spaces'
+    toc = (PAPER / 'build/main.toc').read_text(encoding='utf-8')
+    toc_entries = re.findall(r'\}\{(\d+)\}\{([^}]+)\}%', toc)
+    for page_number, destination in toc_entries:
+        assert destination in reader.named_destinations, destination
+        assert reader.get_destination_page_number(reader.named_destinations[destination]) + 1 == int(page_number), \
+            f'Table of contents points to the wrong page: {destination}'
+    assert len(reader.pages) > 0
+    preflight = audit_pdf(pdf)
     visual = json.loads((PAPER / 'visual_review.json').read_text(encoding='utf-8'))
-    visual_status = ('Recorded visual review matches this PDF.' if visual['pdf_sha256'] == sha(pdf)
-                     else 'PDF changed since the recorded visual review; inspect it again before release.')
+    assert visual.get('pdf_sha256') == sha(pdf), 'Current long PDF requires a matching visual review'
+    assert visual.get('pages') == len(reader.pages), 'Visual review page count differs from current long PDF'
     log_path = PAPER / 'build/main.log'
-    if log_path.exists():
-        log = log_path.read_text(encoding='utf-8', errors='replace')
-        assert not re.search(r'Overfull \\[hv]box|There were undefined|multiply defined|^! ', log, re.MULTILINE)
-    files = {p.relative_to(PAPER).as_posix(): sha(p) for p in sorted(PAPER.rglob('*'))
-             if p.is_file() and 'build' not in p.relative_to(PAPER).parts
-             and '__pycache__' not in p.parts and p.name != 'validation.json'}
+    assert log_path.is_file(), 'Build the current long PDF before validating it'
+    log = log_path.read_text(encoding='utf-8', errors='replace')
+    assert not re.search(
+        r'Overfull \\[hv]box|There were undefined|(?:Reference|Citation) .* undefined|'
+        r'multiply defined|Missing character|^! ', log, re.MULTILINE)
+    files = current_paper_files()
+    history = historical_snapshot()
     report = dict(
         all_passed=True, author=reader.metadata.author, pdf_pages=len(reader.pages),
         bibliography_entries=len(keys), vector_figures=len(figures), finite_orders=len(rows),
@@ -84,9 +149,12 @@ def main():
         unchanged_verified_lean_sources=len(proof['source_sha256']),
         previously_passed_build_targets=len(proof['results']),
         resolved_labels=len(labels), cited_keys=sorted(cites),
+        explicit_proof_endings=proof_endings, checked_contents_destinations=len(toc_entries),
         figure_input_sha256=checked_inputs, paper_file_sha256=files,
+        current_pdf_sha256=sha(pdf), historical_paper=history,
+        pdf_preflight=preflight, visual_review_matches_pdf=True,
         scope='Consistency audit, not a new proof replay. Full Lean verification belongs to the frozen snapshot.',
-        visual_review=visual_status)
+        visual_review='Recorded visual review matches the current corrected PDF.')
     (PAPER / 'validation.json').write_text(json.dumps(report, indent=2, ensure_ascii=False)+'\n', encoding='utf-8')
     print(f'PASS: {len(reader.pages)} pages, {len(keys)} references, {len(figures)} vector figures, '
           f'{len(catalog)} coordinate identities, {len(proof["source_sha256"])} unchanged verified Lean sources.')

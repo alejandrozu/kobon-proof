@@ -4,11 +4,15 @@ import hashlib
 import json
 import re
 import subprocess
+import sys
 from pypdf import PdfReader
 
 HERE = Path(__file__).resolve().parent
 PAPER = HERE.parent
 ROOT = PAPER.parent
+sys.path.insert(0, str(PAPER / 'scripts'))
+from pdf_preflight import audit_pdf
+from validate_paper import current_paper_files, historical_snapshot
 
 def sha(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
@@ -17,6 +21,8 @@ def main():
     tex = [HERE / "main.tex", *sorted((HERE / "sections").glob("*.tex"))]
     text = "\n".join(p.read_text(encoding="utf-8") for p in tex)
     assert all(ord(c) >= 32 or c in "\n\r\t" for c in text), "Unexpected control character"
+    assert not any(re.search(r"\s", name) for name in re.findall(r"\\lean\{([^}]+)\}", text)), \
+        "Use texttt, not the URL-style lean macro, for expressions containing spaces"
     assert not re.search(r"(?<![\\A-Za-z])(?:qquad|quad)\b", text), "Unescaped spacing command"
     labels = re.findall(r"\\label\{([^}]+)\}", text)
     refs = re.findall(r"\\(?:eqref|ref|cref|Cref)\{([^}]+)\}", text)
@@ -33,9 +39,16 @@ def main():
         assert sha(local) == sha(original), name
         figure = PdfReader(local)
         assert len(figure.pages) == 1 and not any(page.images for page in figure.pages)
-    old = json.loads((PAPER / "validation.json").read_text(encoding="utf-8"))
-    for name, expected in old["paper_file_sha256"].items():
-        assert sha(PAPER / name) == expected, f"Original long-paper file changed: {name}"
+    current = json.loads((PAPER / "validation.json").read_text(encoding="utf-8"))
+    assert current["all_passed"], "Validate the corrected long paper first"
+    assert current_paper_files() == current["paper_file_sha256"], "Current long-paper manifest is stale"
+    current_long_pdf = PAPER / "Kobon_triangle_constructions.pdf"
+    current_long_sha = sha(current_long_pdf)
+    assert current["current_pdf_sha256"] == current_long_sha, "Current long-paper PDF differs from its validation"
+    current_long_review = json.loads((PAPER / "visual_review.json").read_text(encoding="utf-8"))
+    assert current_long_review.get("pdf_sha256") == current_long_sha, "Current long-paper visual review is stale"
+    history = historical_snapshot()
+    assert current["historical_paper"] == history, "Historical long-paper verification differs"
     proof = json.loads((ROOT / "verification/lean-summary.json").read_text(encoding="utf-8"))
     assert proof["complete"] and all(r["passed"] for r in proof["results"])
     for name, expected in proof["source_sha256"].items():
@@ -44,6 +57,12 @@ def main():
     reader = PdfReader(pdf)
     assert 1 <= len(reader.pages) <= 15
     assert reader.metadata.author == "Alejandro Zarzuelo Urdiales"
+    pdf_text = "\n".join(page.extract_text() for page in reader.pages)
+    proof_endings = text.count(r"\end{proof}")
+    assert pdf_text.count("Q.E.D.") == proof_endings, "A proof-end mark is missing or ambiguous"
+    for identifier in re.findall(r"\\lean\{([^}]+)\}", text):
+        assert identifier in pdf_text, f"Lean identifier split or lost characters: {identifier}"
+    preflight = audit_pdf(pdf)
     mapping = json.loads((HERE / "proof_map.json").read_text(encoding="utf-8"))
     commit = mapping["math_commit"]
     base = f"https://github.com/alejandrozu/kobon-proof/blob/{commit}/"
@@ -102,10 +121,14 @@ def main():
         expected_pdf_urls.add(base + path + "#L" + line)
     assert expected_pdf_urls <= pdf_urls, expected_pdf_urls - pdf_urls
     assert "https://github.com/alejandrozu/kobon-proof/blob/main/paper/journal/proof_map.md" in pdf_urls
-    log = (HERE / "build/main.log").read_text(encoding="utf-8", errors="replace")
+    log_path = HERE / "build/main.log"
+    assert log_path.is_file(), "Build the current journal PDF before validating it"
+    log = log_path.read_text(encoding="utf-8", errors="replace")
     assert not re.search(r"Overfull \\[hv]box|There were undefined|multiply defined|Missing character|^! ", log, re.MULTILINE)
     review_file = HERE / "visual_review.json"
-    review = json.loads(review_file.read_text(encoding="utf-8")) if review_file.exists() else {}
+    review = json.loads(review_file.read_text(encoding="utf-8"))
+    assert review.get("pdf_sha256") == sha(pdf), "Current journal PDF requires a matching visual review"
+    assert review.get("pages") == len(reader.pages), "Visual review page count differs from current journal PDF"
     report = {
         "all_consistency_checks_passed": True,
         "author": reader.metadata.author,
@@ -113,13 +136,17 @@ def main():
         "page_limit": 15,
         "cited_references": len(keys),
         "vector_figures": len(figures),
+        "explicit_proof_endings": proof_endings,
         "labels": len(labels),
-        "long_paper_files_preserved": len(old["paper_file_sha256"]),
-        "long_paper_pdf_sha256": sha(PAPER / "Kobon_triangle_constructions.pdf"),
+        "current_long_paper_files_checked": len(current["paper_file_sha256"]),
+        "current_long_paper_pdf_sha256": current_long_sha,
+        "current_long_paper_pdf_pages": current["pdf_pages"],
+        "current_long_paper_validation_sha256": sha(PAPER / "validation.json"),
+        "current_long_paper_visual_review_matches_pdf": True,
+        "historical_long_paper": history,
         "unchanged_verified_lean_sources": len(proof["source_sha256"]),
         "frozen_math_commit": "99fdc8ec1ef8b1fb22c3da32b011b7361762e958",
-        "long_paper_commit": "22d1165f6c455fe45e461baef4410f6d5c78a014",
-        "long_paper_ci": {"run": 35779849718, "conclusion": "success"},
+        "historical_long_paper_ci": {"run": 35779849718, "conclusion": "success"},
         "verified_mathematical_sources_ci": mapping["latest_confirmed_proof_ci"],
         "proof_map_claims": len(claims),
         "mapped_numbered_results": len(set(numbered)),
@@ -127,7 +154,8 @@ def main():
         "pinned_source_files_checked": len(sources),
         "clickable_pinned_pdf_source_links": len(expected_pdf_urls),
         "journal_pdf_sha256": sha(pdf),
-        "visual_review_matches_pdf": review.get("pdf_sha256") == sha(pdf),
+        "pdf_preflight": preflight,
+        "visual_review_matches_pdf": True,
         "scope": "Editorial and provenance checks. No new Lean theorem or numerical priority claim.",
         "files": {p.relative_to(HERE).as_posix(): sha(p)
                   for p in sorted(HERE.rglob("*")) if p.is_file()
@@ -136,7 +164,8 @@ def main():
     }
     (HERE / "validation.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
     print(f"PASS: {len(reader.pages)} pages, {len(keys)} references, four vector figures; "
-          f"all {len(old['paper_file_sha256'])} original paper files and 325 Lean sources unchanged.")
+          f"{len(current['paper_file_sha256'])} current long-paper files checked, "
+          f"{history['files_verified']} original Git blobs preserved, and 325 Lean sources unchanged.")
 
 if __name__ == "__main__":
     main()

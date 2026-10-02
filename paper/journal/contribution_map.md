@@ -2,9 +2,10 @@
 
 Editorial supplement prepared 1 October 2026. This is a coverage
 map, not part of the journal manuscript and not a new mathematical audit. It
-maps the preserved 60-page manuscript and its frozen mathematical release to a
-separate article of at most 15 pages, including references. The full manuscript,
-its appendices, its figures, and its source evidence remain unchanged.
+maps the 60-page manuscript and its frozen mathematical release to a separate
+article of at most 15 pages, including references. The original release is
+preserved in Git. The 2 October rendering revision changes typesetting only;
+the mathematical statements, appendices, figures, and source evidence are retained.
 
 **Final coverage review:** all C1-C16 are represented in the completed
 14-page article, including its proof index and 17 references. Four figures fit without

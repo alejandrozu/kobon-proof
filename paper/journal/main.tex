@@ -3,6 +3,7 @@
 \usepackage{lmodern}
 \usepackage[margin=25mm]{geometry}
 \usepackage{amsmath,amssymb,amsthm,mathtools}
+\renewcommand{\qedsymbol}{\textnormal{\small Q.E.D.}}
 \usepackage{graphicx,booktabs,array,tabularx}
 \usepackage{microtype}
 \usepackage{caption}
@@ -28,7 +29,7 @@
 \newcommand{\Z}{\mathbb Z}
 \newcommand{\floor}[1]{\left\lfloor#1\right\rfloor}
 \newcommand{\ceil}[1]{\left\lceil#1\right\rceil}
-\newcommand{\lean}[1]{{\small\nolinkurl{#1}}}
+\newcommand{\lean}[1]{{\small\mbox{\nolinkurl{#1}}}}
 \newcommand{\proofref}[3]{\href{https://github.com/alejandrozu/kobon-proof/blob/99fdc8ec1ef8b1fb22c3da32b011b7361762e958/#1\#L#2}{#3}}
 \DeclareMathOperator{\sgn}{sgn}
 \setlength{\emergencystretch}{2em}
@@ -40,7 +41,7 @@
 \graphicspath{{figures/}}
 \title{Affine constructions and incidence bounds\\for Kobon triangles}
 \author{Alejandro Zarzuelo Urdiales}
-\date{1 October 2026}
+\date{2 October 2026}
 \begin{document}
 \maketitle
 \begin{abstract}

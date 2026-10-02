@@ -1,20 +1,91 @@
 {
-  "pdf_sha256": "6c032a59029084a066fa08ad3928e04ed8cd01e83b55b21dcfdb1749055b327e",
-  "date": "2026-10-01",
+  "pdf_sha256": "8d79c549c8b473ae1374ae589aa129b628205e5d8ca43f0c8aaa8c4e4bd27214",
+  "date": "2026-10-02",
   "pages": 14,
-  "method": "Every page rendered with Poppler at 120 dpi and individually inspected.",
+  "method": "Every final page visually inspected through Poppler renders. Unchanged long pages confirmed by exact pixel comparison against the reviewed intermediate; every changed page reinspected. Every page also rasterized successfully with independent PDFium.",
   "page_assignments": [
-    "1-5",
-    "6-10",
-    "11-14; independent second review of page 13"
+    "1-7",
+    "8-14"
+  ],
+  "independent_pdfium_rasterization": [
+    {
+      "page": 1,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 2,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 3,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 4,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 5,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 6,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 7,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 8,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 9,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 10,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 11,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 12,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 13,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 14,
+      "width": 774,
+      "height": 1095
+    }
   ],
   "corrections_checked": [
-    "Clickable source-revision links and result-to-proof index",
-    "Global nonparallelism scope of Lean sign-cell interface",
-    "Native-evaluation trust inherited by the finite-enhanced envelope",
-    "All partially formalized or computational claims explicitly distinguished",
-    "All bibliography entries and cross references resolved"
+    "All proof endings display explicit Q.E.D.; original hollow squares were intentional, not missing glyphs.",
+    "Lean expression spaces and short-paper identifier integrity.",
+    "No almost-empty page before the long bibliography.",
+    "Tables, figures, math, citations, contents entries and proof-index links.",
+    "Corrected companion URL; original historical revision preserved separately."
   ],
-  "result": "No clipping, missing figures, unresolved references, or unreadable equations/tables found.",
-  "coverage": "All sixteen contribution groups C1-C16 retained; 89 claims and all 138 finite certificates mapped."
+  "result": "No remaining clipping, missing displayed glyphs, unresolved references, unreadable tables/figures, or overlapping content found.",
+  "mathematical_scope": "Typesetting and verification tooling only; all Lean sources and scientific data/figures unchanged."
 }

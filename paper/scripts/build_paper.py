@@ -23,7 +23,7 @@ def main():
     log = (build / 'main.log').read_text(encoding='utf-8', errors='replace')
     forbidden = [r'Overfull \\[hv]box', r'There were undefined',
                  r'Reference .* undefined', r'Citation .* undefined',
-                 r'Label .* multiply defined', r'^! ']
+                 r'Label .* multiply defined', r'Missing character', r'^! ']
     for pattern in forbidden:
         if re.search(pattern, log, re.MULTILINE):
             raise SystemExit(f'Unresolved manuscript warning: {pattern}; see paper/build/main.log')

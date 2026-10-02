@@ -4,6 +4,14 @@
 
 **Manuscript date: 22 September 2026**
 
+**Rendering revision: 2 October 2026.** Both paper versions now use explicit
+Q.E.D. proof endings. This revision also preserves spacing in a displayed Lean
+definition and removes an almost-empty page before the references.
+The mathematical statements, figures, certificates, and Lean proofs are unchanged.
+See the [rendering review](rendering_revision.md). The
+[original release](https://github.com/alejandrozu/kobon-proof/blob/22d1165f6c455fe45e461baef4410f6d5c78a014/paper/Kobon_triangle_constructions.pdf)
+remains available as a historical snapshot; use the current link below when sharing.
+
 [Read the paper](Kobon_triangle_constructions.pdf). The main LaTeX file is
 [main.tex](main.tex); its bibliography is [references.bib](references.bib).
 This is a comprehensive research manuscript, not a claim of journal acceptance.
@@ -90,6 +98,10 @@ python paper/scripts/validate_paper.py
 The validation script checks all 325 Lean source hashes against the completed
 proof audit, all figure-input hashes, the catalog and finite table, resolved
 LaTeX labels/citations, the 16 included figures, and the PDF metadata/page count.
+It also requires embedded fonts, readable extracted text, valid page geometry,
+a current visual-review hash, and a build log without missing-character warnings.
+The historical 71-file release is checked independently against its Git blobs;
+it is not confused with the corrected current-paper manifest.
 This is a consistency audit; it does not replace replaying Lean. The repository
 root [FORMALIZATION.md](../FORMALIZATION.md) explains how to replay the proofs.
 

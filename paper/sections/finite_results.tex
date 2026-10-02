@@ -86,7 +86,7 @@ Let $C(n)$ be the maximum count in the finite catalog at order $n$, or zero if t
 When $C(n)\le\G(n)$, use Theorem~\ref{thm:main}. Otherwise choose a certificate attaining the finite maximum and apply Proposition~\ref{prop:finite-sound}. No coordinate certificate in this release has order greater than 195. Larger computational witnesses discussed later have not been silently added to the Lean catalog.
 \end{proof}
 
-The formal definition is \lean{Universal.bound = max Universal.baseline AllN.bound}. Since $\G\ge\B$, it equals the expression in Proposition~\ref{prop:envelope}; the older \lean{AllN} layer preserves the previous finite-envelope theorem. This makes comparisons reproducible without rewriting the historical construction history.
+The formal definition is {\small\texttt{Universal.bound = max Universal.baseline AllN.bound}}. Since $\G\ge\B$, it equals the expression in Proposition~\ref{prop:envelope}; the older \lean{AllN} layer preserves the previous finite-envelope theorem. This makes comparisons reproducible without rewriting the historical construction history.
 
 \begin{figure}[tbp]
 \centering\includegraphics[width=0.96\linewidth]{finite-envelope.pdf}

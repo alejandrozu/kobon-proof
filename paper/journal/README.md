@@ -2,12 +2,13 @@
 
 **Author:** Alejandro Zarzuelo Urdiales
 
-**Version date:** 1 October 2026
+**Version date:** 2 October 2026 (rendering revision)
 
 [Read the journal version](Kobon_journal_version.pdf). It is a separate,
 14-page article **including references and the proof index**, in 11-point type with 25 mm margins.
-The [original 60-page manuscript](https://github.com/alejandrozu/kobon-proof/blob/22d1165f6c455fe45e461baef4410f6d5c78a014/paper/Kobon_triangle_constructions.pdf) remains
-unchanged and serves as the detailed companion.
+The [corrected 60-page manuscript](../Kobon_triangle_constructions.pdf) serves as
+the detailed companion. The [original release](https://github.com/alejandrozu/kobon-proof/blob/22d1165f6c455fe45e461baef4410f6d5c78a014/paper/Kobon_triangle_constructions.pdf)
+is preserved as a historical snapshot. [Rendering changes and checks](../rendering_revision.md).
 
 The article retains all substantive contributions from the completed research:
 the uniform affine lower bound, exact geometric certificates, quantitative
@@ -52,11 +53,17 @@ It also compiles with current TeX Live using:
 ## Verification and preservation
 
 Run the following from a full checkout to audit references, figure provenance,
-the original manuscript's preserved hashes, all 325 frozen Lean source hashes,
+the current long-paper manifest and the separate historical Git hashes,
+all 325 frozen Lean source hashes,
 all numbered theorem/equation mappings, declaration anchors, 297 pinned source
 files, and clickable PDF proof links:
 
     python validate.py
+
+The current long paper must first pass its own validation. Both validators
+require a matching visual-review record and reject missing-character warnings
+and structural font/text failures. The journal build itself remains portable;
+the full repository is required only for the provenance audit.
 
 The [journal release's GitHub verification run 36830561024](https://github.com/alejandrozu/kobon-proof/actions/runs/36830561024)
 completed successfully at commit 6f7e11e. This traceability update changes

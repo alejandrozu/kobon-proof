@@ -1,8 +1,323 @@
 {
-  "pdf_sha256": "b1d9c6dbfa71a7ef4fd1ffa30b700c7296afdd02cda148185bfcc6505a9a0caf",
+  "pdf_sha256": "24e069db61a3c3383f86d403a401ee83632aeb41e381cf80be6204c659cba667",
+  "date": "2026-10-02",
   "pages": 60,
-  "method": "Every page rendered with Poppler at 105 dpi and inspected as an image; all 16 vector figure previews inspected separately.",
-  "page_assignments": ["1-10", "11-20 and 40-45", "21-39 and 46-50", "51-60"],
-  "final_corrections": "Title/contents separation, table spacing, safe-height index, Forge attribution, citation spacing, and formalization-scope wording were re-rendered and inspected.",
-  "result": "No clipping, overflowing boxes, unresolved references, missing figures, or illegible tables found."
+  "method": "Every final page visually inspected through Poppler renders. Unchanged long pages confirmed by exact pixel comparison against the reviewed intermediate; every changed page reinspected. Every page also rasterized successfully with independent PDFium.",
+  "page_assignments": [
+    "1-14",
+    "15-30",
+    "31-46",
+    "47-60"
+  ],
+  "independent_pdfium_rasterization": [
+    {
+      "page": 1,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 2,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 3,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 4,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 5,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 6,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 7,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 8,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 9,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 10,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 11,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 12,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 13,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 14,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 15,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 16,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 17,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 18,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 19,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 20,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 21,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 22,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 23,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 24,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 25,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 26,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 27,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 28,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 29,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 30,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 31,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 32,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 33,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 34,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 35,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 36,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 37,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 38,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 39,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 40,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 41,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 42,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 43,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 44,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 45,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 46,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 47,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 48,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 49,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 50,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 51,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 52,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 53,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 54,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 55,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 56,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 57,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 58,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 59,
+      "width": 774,
+      "height": 1095
+    },
+    {
+      "page": 60,
+      "width": 774,
+      "height": 1095
+    }
+  ],
+  "corrections_checked": [
+    "All proof endings display explicit Q.E.D.; original hollow squares were intentional, not missing glyphs.",
+    "Lean expression spaces and short-paper identifier integrity.",
+    "No almost-empty page before the long bibliography.",
+    "Tables, figures, math, citations, contents entries and proof-index links.",
+    "Corrected companion URL; original historical revision preserved separately."
+  ],
+  "result": "No remaining clipping, missing displayed glyphs, unresolved references, unreadable tables/figures, or overlapping content found.",
+  "mathematical_scope": "Typesetting and verification tooling only; all Lean sources and scientific data/figures unchanged."
 }

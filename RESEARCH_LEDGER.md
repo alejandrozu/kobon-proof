@@ -6,6 +6,19 @@ Read this file before resuming. It records what was retained, what failed, where
 
 ## Journal-length version on 1 October 2026
 
+### Rendering review on 2 October 2026
+
+The reported square marks on long-paper page 12 were reproduced as ordinary
+proof-end symbols, not missing glyphs. Both current PDFs now spell out Q.E.D.
+The review also corrected suppressed spaces in the long paper's Lean bound
+definition, a split identifier and stretched proof-index column in the short
+paper, and a forced page break that produced a near-empty page. Final lengths
+remain 60 and 14 pages. All pages were inspected; all 325 Lean sources and
+the scientific figures remain unchanged. The original 71-file manuscript is
+verified at its historical Git revision separately from the corrected package.
+The [revision record](paper/rendering_revision.md) describes the checks.
+No new mathematical theorem or completion of a partial formalization is claimed.
+
 The [separate journal article](paper/journal/README.md) condenses the existing
 research to 14 pages including a clickable proof index and 17 references, with four vector figures and
 normal 11-point typography. It retains the distinct contributions and their

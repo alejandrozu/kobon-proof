@@ -3,6 +3,7 @@
 \usepackage{lmodern}
 \usepackage[margin=27mm]{geometry}
 \usepackage{amsmath,amssymb,amsthm,mathtools}
+\renewcommand{\qedsymbol}{\textnormal{\small Q.E.D.}}
 \usepackage{graphicx,booktabs,longtable,array,tabularx,multirow}
 \newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
 \renewcommand{\tabularxcolumn}[1]{P{#1}}
@@ -66,7 +67,7 @@
 \lstset{basicstyle=\ttfamily\footnotesize,breaklines=true,columns=fullflexible,keepspaces=true,frame=single,framerule=0.3pt,rulecolor=\color{black!25},xleftmargin=4pt,xrightmargin=4pt}
 \title{Kobon Triangle Constructions:\\Uniform Lower Bounds, Extension Methods,\\and Formal Verification}
 \author{Alejandro Zarzuelo Urdiales}
-\date{22 September 2026}
+\date{22 September 2026; rendering revision 2 October 2026}
 \begin{document}
 \maketitle
 \begin{abstract}
@@ -88,7 +89,6 @@ The Kobon triangle problem asks for the largest number of bounded triangular cel
 \input{sections/experiments}
 \input{sections/formalization}
 \input{sections/discussion}
-\clearpage
 \bibliographystyle{plainnat}
 \bibliography{references}
 \clearpage

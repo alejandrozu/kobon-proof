@@ -301,7 +301,10 @@ revision should update its family-proof status and add the new evidence map.
    failure of other constructions.
 4. Complete extraction of all cyclic core fans. Combine the new full-fan and
    triple-fan obstructions with the formalized defect identity and the now
-   completed clean-line charging inequality.
+   completed clean-line charging inequality. The final
+   [concrete proof plan](NEXT_PROOF_PLAN.md) identifies the next local,
+   matching, and incidence lemmas, with an explicitly unformalized finite
+   graph deduction to guide the next session.
 5. Investigate the unrestricted successor assertion independently; the
    dyadic construction does not prove it.
 

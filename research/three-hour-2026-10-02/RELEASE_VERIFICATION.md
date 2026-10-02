@@ -85,6 +85,11 @@ Global cyclic-fan extraction/matching remains unfinished for the nonsimple
 upper-bound program. The unrestricted full-gain successor recurrence and
 the full Kobon problem remain open. No new finite numerical record is claimed.
 
+The [final continuation memo](NEXT_PROOF_PLAN.md) records a separately
+checked mathematical counting argument and the exact proposed next lemmas.
+It is labeled unformalized and does not change the completed theorem list or
+the 375 audited Lean source files.
+
 ## Existing manuscripts and reproduction
 
 Both manuscript validators passed: the long paper remains **60 pages** and

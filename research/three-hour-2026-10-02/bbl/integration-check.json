@@ -1,0 +1,14 @@
+{
+  "core": 124,
+  "finite": 138,
+  "late": 8,
+  "targets": 270,
+  "active_sources": 375,
+  "uncovered": [],
+  "unaudited": [],
+  "forbidden_tokens": [],
+  "proof_index_anchors": 138,
+  "missing_anchors": [],
+  "python_ast": "passed",
+  "full_verifier_run": false
+}

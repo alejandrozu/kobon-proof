@@ -1,0 +1,296 @@
+{
+  "source": "research\\finite-table\\classical-041.json",
+  "source_sha256": "11951746ecf08e761e9d33f5d77aa1e7aadeeebb5fe82c021093787fa47512a8",
+  "attribution": "Projective type of the attributed saved coordinate witness",
+  "epsilon": 0.001,
+  "saturated": true,
+  "records": [
+    {
+      "class_index": 0,
+      "I": 0,
+      "shift": 0,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 1,
+      "shift": 0,
+      "margin": -1.5266711540983708e-15,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 2,
+      "shift": 0,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 3,
+      "shift": 0,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 4,
+      "shift": 0,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 5,
+      "shift": 0,
+      "margin": -8.381481337822026e-16,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 6,
+      "shift": 0,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 7,
+      "shift": 0,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 8,
+      "shift": 0,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 9,
+      "shift": 0,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 10,
+      "shift": 0,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 11,
+      "shift": 0,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 12,
+      "shift": 0,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 13,
+      "shift": 0,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 14,
+      "shift": 0,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 15,
+      "shift": 0,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 16,
+      "shift": 0,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 17,
+      "shift": 0,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 18,
+      "shift": 0,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 19,
+      "shift": 0,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 20,
+      "shift": 0,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 21,
+      "shift": 0,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 22,
+      "shift": 0,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 23,
+      "shift": 0,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 24,
+      "shift": 0,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 25,
+      "shift": 0,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 26,
+      "shift": 0,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 27,
+      "shift": 0,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 28,
+      "shift": 0,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 29,
+      "shift": 0,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 30,
+      "shift": 0,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 31,
+      "shift": 0,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 32,
+      "shift": 0,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 33,
+      "shift": 0,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 34,
+      "shift": 0,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 35,
+      "shift": 0,
+      "margin": 8.074072995885339e-16,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 36,
+      "shift": 0,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 37,
+      "shift": 0,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 38,
+      "shift": 0,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 39,
+      "shift": 0,
+      "margin": -2.294946052136836e-15,
+      "status": 0
+    }
+  ],
+  "wins": [],
+  "scope": "Floating diagnostics, not an infeasibility theorem",
+  "tested": 40,
+  "duplicates": 40,
+  "unsaturable": 1560,
+  "best_margin": 8.074072995885339e-16,
+  "seconds": 18.553489685058594
+}

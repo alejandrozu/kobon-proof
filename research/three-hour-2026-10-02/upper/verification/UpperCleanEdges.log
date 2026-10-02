@@ -1,0 +1,4 @@
+'Kobon.UpperCleanEdges.incident_positive_edge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperCleanEdges.incident_negative_edge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperCleanEdges.common_bounded_side' depends on axioms: [propext, Classical.choice, Quot.sound]
+

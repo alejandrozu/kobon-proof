@@ -1,0 +1,2 @@
+'Kobon.BBLRightmost.central_pencil_eventually' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.BBLRightmost.canonical_row_eventually' depends on axioms: [propext, Classical.choice, Quot.sound]

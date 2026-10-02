@@ -1,0 +1,77 @@
+{
+  "source": "research\\three-hour-2026-10-02\\constructions\\primary-inputs\\data\\exhaustive\\9.words-full.txt",
+  "source_sha256": "0937aef99c8840756cffa991312213ea7e893b360da40081f8ca6124b126f6f6",
+  "input_attribution": "Roman Parpalak and Denis Utkin; arXiv:2607.29236; pinned primary-inputs manifest",
+  "epsilon": 0,
+  "seed": 20261002,
+  "time_limit": 90.0,
+  "chart_formula_check": {
+    "test": "projective sign formula against exact rational coordinate transformations",
+    "charts": 90,
+    "passed": true
+  },
+  "classes_total": 3,
+  "records": [
+    {
+      "class_index": 0,
+      "label": "[0.000005s] A=14 K=21 i=1.4e+01",
+      "I": 6,
+      "J": 1,
+      "margin": 0.06862915010152396,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "label": "[0.000005s] A=14 K=21 i=1.4e+01",
+      "I": 3,
+      "J": 9,
+      "margin": 0.06862915010152397,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "label": "[0.000005s] A=14 K=21 i=1.4e+01",
+      "I": 5,
+      "J": 1,
+      "margin": 0.06862915010152397,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "label": "[0.000005s] A=14 K=21 i=1.4e+01",
+      "I": 8,
+      "J": 6,
+      "margin": 0.08578643762690495,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "label": "[0.000005s] A=14 K=21 i=1.4e+01",
+      "I": 3,
+      "J": 7,
+      "margin": 0.06862915010152397,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "label": "[0.000005s] A=14 K=21 i=1.4e+01",
+      "I": 8,
+      "J": 1,
+      "margin": 0.08578643762690494,
+      "status": 0
+    }
+  ],
+  "wins": [
+    "research\\three-hour-2026-10-02\\constructions\\grid9-control\\n009-class0000-I06-J01.json",
+    "research\\three-hour-2026-10-02\\constructions\\grid9-control\\n009-class0000-I03-J09.json",
+    "research\\three-hour-2026-10-02\\constructions\\grid9-control\\n009-class0000-I05-J01.json",
+    "research\\three-hour-2026-10-02\\constructions\\grid9-control\\n009-class0000-I08-J06.json",
+    "research\\three-hour-2026-10-02\\constructions\\grid9-control\\n009-class0000-I03-J07.json",
+    "research\\three-hour-2026-10-02\\constructions\\grid9-control\\n009-class0000-I08-J01.json"
+  ],
+  "tested": 6,
+  "duplicates": 84,
+  "best_margin": 0.08578643762690495,
+  "seconds": 0.21950197219848633,
+  "scope": "Floating LP diagnostics over explicitly tested chart/type pairs; no proof of nonstretchability or of universal incompatibility."
+}

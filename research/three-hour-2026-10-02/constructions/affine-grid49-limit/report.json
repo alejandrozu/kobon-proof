@@ -1,0 +1,340 @@
+{
+  "source": "research\\finite-table\\simple-049.json",
+  "source_sha256": "1191f0ffb37ec01c48fbf04ce7bc458b1b9f9beeebc92d9d86233e3d1237e973",
+  "n": 49,
+  "source_triangle_count": 767,
+  "epsilon_values": [
+    0.0
+  ],
+  "records": [
+    {
+      "epsilon": 0.0,
+      "I": 0,
+      "margin": 3.372896221310123e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 1,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 2,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 3,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 4,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 5,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 6,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 7,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 8,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 9,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 10,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 11,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 12,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 13,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 14,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 15,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 16,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 17,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 18,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 19,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 20,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 21,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 22,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 23,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 24,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 25,
+      "margin": 1.8312741296105948e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 26,
+      "margin": 1.709427385320005e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 27,
+      "margin": 1.9643090705963948e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 28,
+      "margin": 1.5556037625599845e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 29,
+      "margin": 1.035989251062531e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 30,
+      "margin": 3.5538034404392746e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 31,
+      "margin": 3.842477806753658e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 32,
+      "margin": 3.1025251029172373e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 33,
+      "margin": 6.629009420681225e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 34,
+      "margin": 9.73090999366446e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 35,
+      "margin": 1.100457418760089e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 36,
+      "margin": 7.769010251035953e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 37,
+      "margin": 7.769010251035953e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 38,
+      "margin": 1.100457418760089e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 39,
+      "margin": 9.73090999366446e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 40,
+      "margin": 6.629009420681225e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 41,
+      "margin": 3.114102212405426e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 42,
+      "margin": 3.842477806753658e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 43,
+      "margin": 3.5538034404392746e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 44,
+      "margin": 1.035989251062531e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 45,
+      "margin": 1.5556037625599845e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 46,
+      "margin": 1.9643090705963948e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 47,
+      "margin": 1.709427385320005e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.0,
+      "I": 48,
+      "margin": 1.8312741296105948e-05,
+      "status": 0
+    }
+  ],
+  "wins": [
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-limit\\n049-I00-limit-slopes.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-limit\\n049-I25-limit-slopes.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-limit\\n049-I26-limit-slopes.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-limit\\n049-I27-limit-slopes.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-limit\\n049-I28-limit-slopes.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-limit\\n049-I29-limit-slopes.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-limit\\n049-I30-limit-slopes.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-limit\\n049-I31-limit-slopes.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-limit\\n049-I32-limit-slopes.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-limit\\n049-I33-limit-slopes.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-limit\\n049-I34-limit-slopes.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-limit\\n049-I35-limit-slopes.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-limit\\n049-I36-limit-slopes.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-limit\\n049-I37-limit-slopes.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-limit\\n049-I38-limit-slopes.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-limit\\n049-I39-limit-slopes.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-limit\\n049-I40-limit-slopes.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-limit\\n049-I41-limit-slopes.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-limit\\n049-I42-limit-slopes.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-limit\\n049-I43-limit-slopes.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-limit\\n049-I44-limit-slopes.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-limit\\n049-I45-limit-slopes.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-limit\\n049-I46-limit-slopes.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-limit\\n049-I47-limit-slopes.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-limit\\n049-I48-limit-slopes.json"
+  ],
+  "scope": "One retained affine type, all distinguished supports. Floating LP diagnostics are not nonrealizability proofs.",
+  "chart_formula_control": {
+    "test": "projective sign formula against exact rational coordinate transformations",
+    "charts": 90,
+    "passed": true
+  },
+  "seconds": 17.701117277145386,
+  "complete": true
+}

@@ -1,0 +1,32 @@
+ℹ [775/877] Replayed Kobon.Geometry
+info: Kobon/Geometry.lean:144:0: 'Kobon.validate_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Geometry.lean:145:0: 'Kobon.orientedEval_affine' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [856/877] Replayed Kobon.Euclidean
+info: Kobon/Euclidean.lean:147:0: 'Kobon.supporting_triangle_nondegenerate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Euclidean.lean:148:0: 'Kobon.same_halfplane_barycenter' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Euclidean.lean:149:0: 'Kobon.triangle_interior_uncut' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [913/1011] Replayed Kobon.Cells
+info: Kobon/Cells.lean:510:0: 'Kobon.Cells.overlap_forces_same_triple' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Cells.lean:511:0: 'Kobon.Cells.distinct_interiors_disjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Cells.lean:512:0: 'Kobon.Cells.interior_eq_signCell' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [914/1011] Replayed Kobon.FanGeometry
+info: Kobon/FanGeometry.lean:171:0: 'Kobon.FanGeometry.ordinary_nonradial_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/FanGeometry.lean:172:0: 'Kobon.FanGeometry.FanStrip.all_opposites_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/FanGeometry.lean:173:0: 'Kobon.FanGeometry.FanStrip.center_not_affine_combination' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/FanGeometry.lean:174:0: 'Kobon.FanGeometry.no_opposite_end_fan' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1213/1215] Replayed Kobon.FanCount
+info: Kobon/FanCount.lean:71:0: 'Kobon.FanCount.ordinary_shared_ray_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1214/1215] Replayed Kobon.CyclicFan
+info: Kobon/CyclicFan.lean:108:0: 'Kobon.CyclicFan.Geometry.no_long_run' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/CyclicFan.lean:109:0: 'Kobon.CyclicFan.Geometry.selected_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1215/1215] Replayed Kobon.UpperFan
+info: Kobon/UpperFan.lean:251:0: 'Kobon.UpperFan.card_le_of_adjacent_missing' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperFan.lean:252:0: 'Kobon.UpperFan.Sectors.all_sectors_of_extremal' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperFan.lean:253:0: 'Kobon.UpperFan.Sectors.core_shared_card_eq_three_of_extremal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: Kobon/UpperFan.lean:254:0: 'Kobon.UpperFan.Sectors.ordinary_shared_card_le_of_core_le_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: Kobon/UpperFan.lean:255:0: 'Kobon.UpperFan.Sectors.weighted_local_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (1215 jobs).

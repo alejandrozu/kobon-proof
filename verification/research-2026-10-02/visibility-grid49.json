@@ -1,0 +1,141 @@
+{
+  "passed": true,
+  "seed": "C:\\Users\\Propietario\\Documents\\Codex\\2026-09-20\\lo-2\\work\\kobon-repository\\verification\\research-2026-10-02\\uniform-grid49\\uniform-seed.json",
+  "seed_sha256": "8b904896ab6ee4216da0bfdd7a487dfdca32e38f3dbfaffbc9d93b3d221b937c",
+  "normal": [
+    1,
+    -2
+  ],
+  "visible_pairs": [
+    [
+      0,
+      48,
+      49
+    ],
+    [
+      1,
+      33,
+      49
+    ],
+    [
+      3,
+      31,
+      49
+    ],
+    [
+      4,
+      14,
+      49
+    ],
+    [
+      5,
+      29,
+      49
+    ],
+    [
+      6,
+      22,
+      49
+    ],
+    [
+      7,
+      27,
+      49
+    ],
+    [
+      8,
+      16,
+      49
+    ],
+    [
+      9,
+      25,
+      49
+    ],
+    [
+      10,
+      18,
+      49
+    ],
+    [
+      11,
+      23,
+      49
+    ],
+    [
+      12,
+      20,
+      49
+    ],
+    [
+      13,
+      21,
+      49
+    ],
+    [
+      15,
+      19,
+      49
+    ],
+    [
+      17,
+      47,
+      49
+    ],
+    [
+      24,
+      26,
+      49
+    ],
+    [
+      28,
+      43,
+      49
+    ],
+    [
+      30,
+      37,
+      49
+    ],
+    [
+      32,
+      39,
+      49
+    ],
+    [
+      34,
+      41,
+      49
+    ],
+    [
+      35,
+      45,
+      49
+    ],
+    [
+      36,
+      46,
+      49
+    ],
+    [
+      38,
+      44,
+      49
+    ],
+    [
+      40,
+      42,
+      49
+    ]
+  ],
+  "count": 24,
+  "rightmost_pair": [
+    0,
+    48,
+    49
+  ],
+  "epsilon_interval": "0 < epsilon <= 1/100",
+  "endpoint_sign_checks": 2256,
+  "principle": "Affine evaluation numerators are affine in epsilon; nonnegative endpoint intervals and constant derivative signs imply uniform visibility.",
+  "trust": "Exact rational interval certificate; not itself a Lean theorem"
+}

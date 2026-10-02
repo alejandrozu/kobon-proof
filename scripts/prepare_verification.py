@@ -4,6 +4,7 @@ Only reads the certificate index; it does not regenerate coordinate data.
 """
 from pathlib import Path
 import json
+from verify_lean import build_phases
 
 ROOT = Path(__file__).resolve().parents[1]
 records = json.loads((ROOT/'verification/certificate-index.json').read_text())
@@ -83,9 +84,14 @@ for path in sorted((ROOT/'Kobon').glob('*.lean')):
     module='Kobon.'+path.stem
     if path.stem not in excluded and module not in core:
         core.append(module)
+# Write all active imports before reading their dependency closure. Unfinished
+# modules must be moved to research drafts before regenerating a release.
 (ROOT/'Kobon.lean').write_text(''.join('import '+m+'\n' for m in core+['Kobon.Results','Kobon.AllN','Kobon.Universal']),encoding='utf-8')
 (ROOT/'verification/certificate-index.json').write_text(json.dumps(records,indent=2)+'\n')
-(ROOT/'verification/build-targets.json').write_text(json.dumps(core+targets+['Kobon.AllN','Kobon.Universal','Kobon','Kobon.Audit'],indent=2)+'\n')
+early,finite,late=build_phases(core+targets+['Kobon.AllN','Kobon.Universal','Kobon','Kobon.Audit'])
+root_imports=early+['Kobon.Results']+[m for m in late if m not in ('Kobon','Kobon.Audit')]
+(ROOT/'Kobon.lean').write_text(''.join('import '+m+'\n' for m in root_imports),encoding='utf-8')
+(ROOT/'verification/build-targets.json').write_text(json.dumps(early+finite+late,indent=2)+'\n')
 
 audit = '''import Kobon
 import Lean.Util.CollectAxioms

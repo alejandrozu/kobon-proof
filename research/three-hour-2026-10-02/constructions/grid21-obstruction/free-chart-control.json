@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "source": "research\\finite-table\\classical-009.json",
+  "source_sha256": "1bdcbc98ca7107e042ba08c66d3ae9b538fbb37cefa052c79ed242c11a884e62",
+  "actual_rational_projective_charts": 72,
+  "triple_sign_checks": 4032,
+  "cap_vs_exact_cell_checks": 504,
+  "seconds": 0.24964022636413574
+}

@@ -12,7 +12,7 @@ PAPER = HERE.parent
 ROOT = PAPER.parent
 sys.path.insert(0, str(PAPER / 'scripts'))
 from pdf_preflight import audit_pdf
-from validate_paper import current_paper_files, historical_snapshot
+from validate_paper import current_paper_files, historical_snapshot, frozen_math_snapshot
 
 def sha(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
@@ -49,10 +49,7 @@ def main():
     assert current_long_review.get("pdf_sha256") == current_long_sha, "Current long-paper visual review is stale"
     history = historical_snapshot()
     assert current["historical_paper"] == history, "Historical long-paper verification differs"
-    proof = json.loads((ROOT / "verification/lean-summary.json").read_text(encoding="utf-8"))
-    assert proof["complete"] and all(r["passed"] for r in proof["results"])
-    for name, expected in proof["source_sha256"].items():
-        assert sha(ROOT / name) == expected, name
+    proof = frozen_math_snapshot()
     pdf = HERE / "Kobon_journal_version.pdf"
     reader = PdfReader(pdf)
     assert 1 <= len(reader.pages) <= 15
@@ -144,7 +141,7 @@ def main():
         "current_long_paper_validation_sha256": sha(PAPER / "validation.json"),
         "current_long_paper_visual_review_matches_pdf": True,
         "historical_long_paper": history,
-        "unchanged_verified_lean_sources": len(proof["source_sha256"]),
+        "verified_frozen_lean_sources": len(proof["source_sha256"]),
         "frozen_math_commit": "99fdc8ec1ef8b1fb22c3da32b011b7361762e958",
         "historical_long_paper_ci": {"run": 35779849718, "conclusion": "success"},
         "verified_mathematical_sources_ci": mapping["latest_confirmed_proof_ci"],
@@ -165,7 +162,8 @@ def main():
     (HERE / "validation.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
     print(f"PASS: {len(reader.pages)} pages, {len(keys)} references, four vector figures; "
           f"{len(current['paper_file_sha256'])} current long-paper files checked, "
-          f"{history['files_verified']} original Git blobs preserved, and 325 Lean sources unchanged.")
+          f"{history['files_verified']} original Git blobs preserved, and "
+          f"{len(proof['source_sha256'])} frozen Lean sources verified.")
 
 if __name__ == "__main__":
     main()

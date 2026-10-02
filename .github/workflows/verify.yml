@@ -44,6 +44,8 @@ jobs:
         run: python scripts/verify_coordinates.py
       - name: Recheck the separate rational interval argument
         run: python scripts/verify_seed_interval.py
+      - name: Replay exact October research certificates
+        run: python scripts/verify_research_2026_10_02.py
       - name: Reproduce the parameterized seed and successor experiment
         run: |
           python scripts/generate_seed_family.py
@@ -60,3 +62,4 @@ jobs:
             verification/lean-summary.json
             verification/coordinate-summary.json
             verification/seed-interval-summary.json
+            verification/research-2026-10-02/

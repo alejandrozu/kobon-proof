@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "exact_family_identity": true,
+  "lean_boxes_contain_proved_tangent_bounds": true,
+  "line_count": 49,
+  "parameter_count": 24,
+  "direction_checks": 1176,
+  "simple_checks": 18424,
+  "epsilon_only_nonzero_cases": 1,
+  "triangle_count": 767,
+  "triangle_support_checks": 37583,
+  "visible_count": 24,
+  "visible_support_checks": 1176,
+  "epsilon_interval": "0 < epsilon <= 1/100",
+  "normal": [
+    1,
+    -2
+  ],
+  "seconds": 7.647955417633057,
+  "files": [
+    {
+      "path": "research\\three-hour-2026-10-02\\drafts\\BBLSeed49.lean",
+      "sha256": "322004522cf2ab18ab939c2ae11c1ec69bb139b6499324f9007e4fc620f2b3a6"
+    },
+    {
+      "path": "research\\three-hour-2026-10-02\\drafts\\BBLSeed49Exterior.lean",
+      "sha256": "12cab750b5a3da1fc107e611edd440ff94720c41be3705d38e921f0f69e49bf8"
+    },
+    {
+      "path": "research\\three-hour-2026-10-02\\constructions\\uniform-grid49\\uniform-seed.json",
+      "sha256": "8b904896ab6ee4216da0bfdd7a487dfdca32e38f3dbfaffbc9d93b3d221b937c"
+    },
+    {
+      "path": "research\\three-hour-2026-10-02\\constructions\\uniform-grid49\\visibility.json",
+      "sha256": "f12161163b4fef58390e22b786d5f83d639b9a34398238a8e7715dd0e540b5b0"
+    },
+    {
+      "path": "Kobon\\Parametric.lean",
+      "sha256": "651d8ea3863485596b5badb638648b0600246e365bd94653b517c23a54e88ad5"
+    },
+    {
+      "path": "Kobon\\ParametricCached.lean",
+      "sha256": "76529bfd00d015e2de9e5feb2cca43f1689066e3fb9d11f55f12ac8367708f9b"
+    },
+    {
+      "path": "Kobon\\HybridBoundary.lean",
+      "sha256": "ba41f0f9c5570c12c6a677049e6225dd2e01c07ba7d984b742f2d88983290554"
+    }
+  ],
+  "scope": "Exact Python re-evaluation of the generated Lean data and check semantics; does not establish compilation success or kernel acceptance"
+}

@@ -95,8 +95,9 @@ python paper/scripts/build_paper.py
 python paper/scripts/validate_paper.py
 ```
 
-The validation script checks all 325 Lean source hashes against the completed
-proof audit, all figure-input hashes, the catalog and finite table, resolved
+The validation script checks all 325 Lean source hashes in the frozen
+mathematical Git revision against its completed proof audit, all figure-input
+hashes, the catalog and finite table, resolved
 LaTeX labels/citations, the 16 included figures, and the PDF metadata/page count.
 It also requires embedded fonts, readable extracted text, valid page geometry,
 a current visual-review hash, and a build log without missing-character warnings.
@@ -104,6 +105,10 @@ The historical 71-file release is checked independently against its Git blobs;
 it is not confused with the corrected current-paper manifest.
 This is a consistency audit; it does not replace replaying Lean. The repository
 root [FORMALIZATION.md](../FORMALIZATION.md) explains how to replay the proofs.
+
+The [2 October research session](../research/three-hour-2026-10-02/RESEARCH_REVIEW.md)
+adds new formal results after this mathematical snapshot. Those results are
+documented separately and are not silently attributed to the existing PDFs.
 
 All pages of the release PDF were rendered and visually inspected. Figure
 previews were also inspected separately. No pre-existing illustration was

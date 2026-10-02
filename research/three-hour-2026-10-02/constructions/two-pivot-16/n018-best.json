@@ -1,0 +1,115 @@
+{
+  "n": 18,
+  "triangle_count": 89,
+  "lines_frac": [
+    [
+      "1",
+      "6",
+      "24"
+    ],
+    [
+      "2",
+      "5",
+      "-7"
+    ],
+    [
+      "6",
+      "10",
+      "-5"
+    ],
+    [
+      "3",
+      "3",
+      "-31"
+    ],
+    [
+      "3",
+      "2",
+      "-13"
+    ],
+    [
+      "14",
+      "6",
+      "-83"
+    ],
+    [
+      "33",
+      "6",
+      "23"
+    ],
+    [
+      "145",
+      "-6",
+      "-541"
+    ],
+    [
+      "88",
+      "-20",
+      "-185"
+    ],
+    [
+      "6",
+      "-3",
+      "-56"
+    ],
+    [
+      "15",
+      "-12",
+      "-62"
+    ],
+    [
+      "25",
+      "-30",
+      "-168"
+    ],
+    [
+      "3",
+      "-6",
+      "20"
+    ],
+    [
+      "1",
+      "-4",
+      "-3"
+    ],
+    [
+      "5",
+      "-30",
+      "48"
+    ],
+    [
+      "114",
+      "-114",
+      "3811"
+    ],
+    [
+      "1200",
+      "-3705",
+      "-56878"
+    ],
+    [
+      "513",
+      "-51",
+      "-8350"
+    ]
+  ],
+  "source": "research\\finite-table\\classical-016.json",
+  "source_sha256": "c53b560abcb16ee436064c5c28746a0cbef6f9135c56e900cba670f581dd81b6",
+  "construction": "Two-stage exact singular pivot insertion",
+  "metadata": {
+    "candidates": 29938,
+    "best": 89,
+    "complete_pivot_scan": true,
+    "seconds": 5.797592639923096,
+    "unique_near_best_topologies": 132,
+    "include_boundaries": true,
+    "index": 4,
+    "first_count": 80,
+    "first_line": [
+      "1200",
+      "-3705",
+      "-56878"
+    ]
+  },
+  "verification": "Exact local interval scorer, independent adjacency, independent direct sign counter"
+}

@@ -1,0 +1,65 @@
+{
+  "source": "research\\three-hour-2026-10-02\\constructions\\primary-inputs\\data\\exhaustive\\9.words-full.txt",
+  "source_sha256": "0937aef99c8840756cffa991312213ea7e893b360da40081f8ca6124b126f6f6",
+  "attribution": "Parpalak--Utkin 2026 projective types, independent coordinate fitting",
+  "epsilon": 0.01,
+  "saturated": true,
+  "records": [
+    {
+      "class_index": 0,
+      "I": 0,
+      "shift": 0,
+      "margin": 0.15730607716730266,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 1,
+      "shift": 0,
+      "margin": 0.1573060771673027,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 2,
+      "shift": 0,
+      "margin": 0.36666181676635407,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 3,
+      "shift": 0,
+      "margin": 0.1573060771673028,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 5,
+      "shift": 0,
+      "margin": 0.3666618167663541,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 6,
+      "shift": 0,
+      "margin": 0.15730607716730255,
+      "status": 0
+    }
+  ],
+  "wins": [
+    "research\\three-hour-2026-10-02\\constructions\\saturated-grid9-control\\n009-class0000-I00-cut00.json",
+    "research\\three-hour-2026-10-02\\constructions\\saturated-grid9-control\\n009-class0000-I01-cut00.json",
+    "research\\three-hour-2026-10-02\\constructions\\saturated-grid9-control\\n009-class0000-I02-cut00.json",
+    "research\\three-hour-2026-10-02\\constructions\\saturated-grid9-control\\n009-class0000-I03-cut00.json",
+    "research\\three-hour-2026-10-02\\constructions\\saturated-grid9-control\\n009-class0000-I05-cut00.json",
+    "research\\three-hour-2026-10-02\\constructions\\saturated-grid9-control\\n009-class0000-I06-cut00.json"
+  ],
+  "scope": "Floating diagnostics, not an infeasibility theorem",
+  "tested": 6,
+  "duplicates": 168,
+  "unsaturable": 42,
+  "best_margin": 0.3666618167663541,
+  "seconds": 0.1520094871520996
+}

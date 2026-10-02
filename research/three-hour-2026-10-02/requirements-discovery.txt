@@ -1,0 +1,8 @@
+# Optional search and figure-generation environment used in this session.
+# Exact certificate replay uses standard Python and does not require these.
+numpy==2.5.3
+scipy==1.18.1
+sympy==1.14.0
+python-flint==0.9.0
+mpmath==1.3.0
+matplotlib==3.10.8

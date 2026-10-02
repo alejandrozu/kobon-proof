@@ -1,0 +1,1300 @@
+{
+  "source": "research\\finite-table\\simple-049.json",
+  "source_sha256": "1191f0ffb37ec01c48fbf04ce7bc458b1b9f9beeebc92d9d86233e3d1237e973",
+  "n": 49,
+  "source_triangle_count": 767,
+  "epsilon_values": [
+    0.001,
+    1e-05,
+    0.01,
+    0.03
+  ],
+  "records": [
+    {
+      "epsilon": 0.001,
+      "I": 0,
+      "margin": 3.3735270962679788e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 1,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 2,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 3,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 4,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 5,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 6,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 7,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 8,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 9,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 10,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 11,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 12,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 13,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 14,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 15,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 16,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 17,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 18,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 19,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 20,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 21,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 22,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 23,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 24,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 25,
+      "margin": 1.8314997915944158e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 26,
+      "margin": 1.708988843385046e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 27,
+      "margin": 1.9622386373968375e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 28,
+      "margin": 1.5754089546461577e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 29,
+      "margin": 1.0612937742358292e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 30,
+      "margin": 3.565918013519951e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 31,
+      "margin": 3.842043591146226e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 32,
+      "margin": 3.1246146741519355e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 33,
+      "margin": 6.686008061126797e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 34,
+      "margin": 9.721558288373272e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 35,
+      "margin": 1.1002576576161873e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 36,
+      "margin": 7.773678498293267e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 37,
+      "margin": 7.773678498294654e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 38,
+      "margin": 1.100257657607756e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 39,
+      "margin": 9.721558288364154e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 40,
+      "margin": 6.686008061017896e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 41,
+      "margin": 3.12461467351022e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 42,
+      "margin": 3.8420435911713845e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 43,
+      "margin": 3.565918014274437e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 44,
+      "margin": 1.061293774244196e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 45,
+      "margin": 1.5754089546432015e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 46,
+      "margin": 1.9622386373968074e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 47,
+      "margin": 1.708988843356137e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.001,
+      "I": 48,
+      "margin": 1.8314997915962183e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 0,
+      "margin": 3.3746122076575307e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 1,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 2,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 3,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 4,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 5,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 6,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 7,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 8,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 9,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 10,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 11,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 12,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 13,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 14,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 15,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 16,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 17,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 18,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 19,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 20,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 21,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 22,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 23,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 24,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 25,
+      "margin": 1.831279586209951e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 26,
+      "margin": 1.7094230014653702e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 27,
+      "margin": 1.964288381021574e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 28,
+      "margin": 1.5558021611074366e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 29,
+      "margin": 1.0362272969600653e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 30,
+      "margin": 3.55392465224406e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 31,
+      "margin": 3.842473466385241e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 32,
+      "margin": 3.102708684838599e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 33,
+      "margin": 6.629580220069896e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 34,
+      "margin": 9.730816562787032e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 35,
+      "margin": 1.1004554220896339e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 36,
+      "margin": 7.769056930971449e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 37,
+      "margin": 7.769102991011474e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 38,
+      "margin": 1.1004554220863503e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 39,
+      "margin": 9.730816562784157e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 40,
+      "margin": 6.6295802200920215e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 41,
+      "margin": 3.114365729387164e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 42,
+      "margin": 3.842473466337564e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 43,
+      "margin": 3.5539246523441648e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 44,
+      "margin": 1.0362272969354977e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 45,
+      "margin": 1.555802161100193e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 46,
+      "margin": 1.9642883809916697e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 47,
+      "margin": 1.7094230014674587e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 1e-05,
+      "I": 48,
+      "margin": 1.8312795862112182e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 0,
+      "margin": 3.365338506640892e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 1,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 2,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 3,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 4,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 5,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 6,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 7,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 8,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 9,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 10,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 11,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 12,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 13,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 14,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 15,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 16,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 17,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 18,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 19,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 20,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 21,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 22,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 23,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 24,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 25,
+      "margin": 1.8287746626158017e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 26,
+      "margin": 1.705027717148073e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 27,
+      "margin": 1.9434697962180992e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 28,
+      "margin": 1.704704199781839e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 29,
+      "margin": 1.047480636939604e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 30,
+      "margin": 3.6559116262882043e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 31,
+      "margin": 3.819634559555992e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 32,
+      "margin": 3.2452501957901944e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 33,
+      "margin": 6.987982460561663e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 34,
+      "margin": 9.636605203945895e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 35,
+      "margin": 1.098373747786535e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 36,
+      "margin": 7.770268389640385e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 37,
+      "margin": 7.77026838964023e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 38,
+      "margin": 1.0983737477864743e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 39,
+      "margin": 9.636605204579452e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 40,
+      "margin": 6.987982460736367e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 41,
+      "margin": 3.2452380209093823e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 42,
+      "margin": 3.819634563913927e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 43,
+      "margin": 3.6559116274146683e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 44,
+      "margin": 1.0474717391788708e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 45,
+      "margin": 1.7047041997867408e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 46,
+      "margin": 1.9434697962181707e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 47,
+      "margin": 1.7050277171493027e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.01,
+      "I": 48,
+      "margin": 1.828774662615869e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 0,
+      "margin": 3.3499144844090393e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 1,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 2,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 3,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 4,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 5,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 6,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 7,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 8,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 9,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 10,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 11,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 12,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 13,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 14,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 15,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 16,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 17,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 18,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 19,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 20,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 21,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 22,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 23,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 24,
+      "margin": -0.0,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 25,
+      "margin": 1.8223838383843582e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 26,
+      "margin": 1.696132980238572e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 27,
+      "margin": 1.9008760160611356e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 28,
+      "margin": 1.7329892305249552e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 29,
+      "margin": 1.0143247250644513e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 30,
+      "margin": 3.6157752652497804e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 31,
+      "margin": 3.7017996721738945e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 32,
+      "margin": 3.144085088642009e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 33,
+      "margin": 6.789656490563872e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 34,
+      "margin": 9.423673257706978e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 35,
+      "margin": 1.0940855512075941e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 36,
+      "margin": 7.746195796161658e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 37,
+      "margin": 7.742514515736207e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 38,
+      "margin": 1.0940855512083591e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 39,
+      "margin": 9.423673257756565e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 40,
+      "margin": 6.789656491346426e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 41,
+      "margin": 3.1440850886793787e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 42,
+      "margin": 3.701799671716869e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 43,
+      "margin": 3.6157752653852244e-06,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 44,
+      "margin": 1.0143418666469575e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 45,
+      "margin": 1.7329892305214245e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 46,
+      "margin": 1.900876016130094e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 47,
+      "margin": 1.6961329802356966e-05,
+      "status": 0
+    },
+    {
+      "epsilon": 0.03,
+      "I": 48,
+      "margin": 1.8223838383843423e-05,
+      "status": 0
+    }
+  ],
+  "wins": [
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I00-eps0.001.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I25-eps0.001.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I26-eps0.001.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I27-eps0.001.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I28-eps0.001.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I29-eps0.001.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I30-eps0.001.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I31-eps0.001.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I32-eps0.001.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I33-eps0.001.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I34-eps0.001.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I35-eps0.001.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I36-eps0.001.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I37-eps0.001.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I38-eps0.001.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I39-eps0.001.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I40-eps0.001.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I41-eps0.001.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I42-eps0.001.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I43-eps0.001.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I44-eps0.001.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I45-eps0.001.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I46-eps0.001.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I47-eps0.001.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I48-eps0.001.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I00-eps1e-05.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I25-eps1e-05.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I26-eps1e-05.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I27-eps1e-05.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I28-eps1e-05.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I29-eps1e-05.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I30-eps1e-05.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I31-eps1e-05.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I32-eps1e-05.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I33-eps1e-05.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I34-eps1e-05.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I35-eps1e-05.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I36-eps1e-05.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I37-eps1e-05.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I38-eps1e-05.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I39-eps1e-05.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I40-eps1e-05.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I41-eps1e-05.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I42-eps1e-05.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I43-eps1e-05.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I44-eps1e-05.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I45-eps1e-05.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I46-eps1e-05.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I47-eps1e-05.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I48-eps1e-05.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I00-eps0.01.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I25-eps0.01.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I26-eps0.01.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I27-eps0.01.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I28-eps0.01.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I29-eps0.01.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I30-eps0.01.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I31-eps0.01.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I32-eps0.01.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I33-eps0.01.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I34-eps0.01.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I35-eps0.01.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I36-eps0.01.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I37-eps0.01.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I38-eps0.01.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I39-eps0.01.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I40-eps0.01.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I41-eps0.01.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I42-eps0.01.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I43-eps0.01.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I44-eps0.01.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I45-eps0.01.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I46-eps0.01.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I47-eps0.01.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I48-eps0.01.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I00-eps0.03.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I25-eps0.03.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I26-eps0.03.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I27-eps0.03.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I28-eps0.03.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I29-eps0.03.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I30-eps0.03.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I31-eps0.03.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I32-eps0.03.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I33-eps0.03.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I34-eps0.03.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I35-eps0.03.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I36-eps0.03.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I37-eps0.03.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I38-eps0.03.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I39-eps0.03.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I40-eps0.03.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I41-eps0.03.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I42-eps0.03.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I43-eps0.03.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I44-eps0.03.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I45-eps0.03.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I46-eps0.03.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I47-eps0.03.json",
+    "research\\three-hour-2026-10-02\\constructions\\affine-grid49-retained\\n049-I48-eps0.03.json"
+  ],
+  "scope": "One retained affine type, all distinguished supports. Floating LP diagnostics are not nonrealizability proofs.",
+  "chart_formula_control": {
+    "test": "projective sign formula against exact rational coordinate transformations",
+    "charts": 90,
+    "passed": true
+  },
+  "seconds": 69.84826707839966,
+  "complete": true
+}

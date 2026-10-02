@@ -1,0 +1,4 @@
+'Kobon.UpperTripleFan.neighboring_selected' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperTripleFan.incompatible_full_triple_fans' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperTripleFan.extremal_triple_fans_not_adjacent' depends on axioms: [propext, Classical.choice, Quot.sound]
+

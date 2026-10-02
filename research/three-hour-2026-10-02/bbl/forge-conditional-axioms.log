@@ -1,0 +1,6 @@
+'Kobon.BBLForgeConditional.odd_family' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.BBLForgeConditional.even_family' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.BBLForgeConditional.odd_baseline_gain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.BBLForgeConditional.even_baseline_gain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.BBLForgeConditional.odd_polynomial_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.BBLForgeConditional.even_simple_polynomial_exact' depends on axioms: [propext, Classical.choice, Quot.sound]

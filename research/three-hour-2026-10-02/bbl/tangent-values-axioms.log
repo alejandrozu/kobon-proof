@@ -1,0 +1,11 @@
+Kobon/BBLTangentValues.lean:11:7: warning: Variable name `t` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Kobon/BBLTangentValues.lean:16:7: warning: Variable name `t` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'Kobon.BBLTangentValues.value_eq_tan' depends on axioms: [propext, Classical.choice, Quot.sound]

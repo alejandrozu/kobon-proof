@@ -1,0 +1,8 @@
+'Kobon.UpperFanSupport.Sectors.nonnegative_of_core_nonnegative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperFanSupport.Sectors.exists_negative_core_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperFanSupport.Sectors.extremal_core_not_in_halfplane' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+

@@ -1,0 +1,2 @@
+'Kobon.BBLObstructionReduction.two_columns_follow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.BBLObstructionReduction.reduced_infeasible' depends on axioms: [propext, Classical.choice, Quot.sound]

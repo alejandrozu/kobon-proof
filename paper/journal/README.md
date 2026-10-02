@@ -72,9 +72,13 @@ exposition and documentation only; every mathematical source remains unchanged.
 **Ready for scholarly review does not mean every statement is formalized.**
 The universal construction, geometric exterior and one-step BBL interfaces,
 and finite certificates have Lean proofs with their stated hypotheses.
-The global defect-extension geometry, global upper-bound geometry, and full
-recursive BBL integration still lack end-to-end Lean proofs. The paper and
-proof map state these limits explicitly. The cell lemma's general manuscript
+At the paper's frozen mathematical revision, global defect-extension geometry,
+global upper-bound geometry, and full recursive BBL integration lacked
+end-to-end Lean proofs. The paper and proof map state those limits explicitly.
+The [subsequent 2 October session](../../research/three-hour-2026-10-02/RESEARCH_REVIEW.md)
+closes the compatible BBL recursive family and several upper-geometry bridges;
+these new results have not yet been incorporated into this PDF.
+The cell lemma's general manuscript
 wording and connected-component interpretation also exceed the present Lean
 sign-cell interface, which assumes global nonparallelism.
 

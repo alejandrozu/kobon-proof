@@ -1,0 +1,224 @@
+ℹ [775/786] Replayed Kobon.Geometry
+info: Kobon/Geometry.lean:144:0: 'Kobon.validate_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Geometry.lean:145:0: 'Kobon.orientedEval_affine' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [856/891] Replayed Kobon.Euclidean
+info: Kobon/Euclidean.lean:147:0: 'Kobon.supporting_triangle_nondegenerate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Euclidean.lean:148:0: 'Kobon.same_halfplane_barycenter' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Euclidean.lean:149:0: 'Kobon.triangle_interior_uncut' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [913/990] Replayed Kobon.Cells
+info: Kobon/Cells.lean:510:0: 'Kobon.Cells.overlap_forces_same_triple' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Cells.lean:511:0: 'Kobon.Cells.distinct_interiors_disjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Cells.lean:512:0: 'Kobon.Cells.interior_eq_signCell' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [975/990] Replayed Kobon.UpperVertexBudget
+info: Kobon/UpperVertexBudget.lean:159:0: 'Kobon.UpperVertexBudget.multiplicity_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperVertexBudget.lean:160:0: 'Kobon.UpperVertexBudget.point_line_incidence' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperVertexBudget.lean:161:0: 'Kobon.UpperVertexBudget.line_interval_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [976/990] Replayed Kobon.UpperElementaryEdges
+info: Kobon/UpperElementaryEdges.lean:120:0: 'Kobon.UpperElementaryEdges.predicate_side_elementary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperElementaryEdges.lean:121:0: 'Kobon.UpperElementaryEdges.predicate_all_sides_elementary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperElementaryEdges.lean:122:0: 'Kobon.UpperElementaryEdges.no_vertex_in_relative_interior' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [977/990] Replayed Kobon.UpperEdgeCapacity
+info: Kobon/UpperEdgeCapacity.lean:139:0: 'Kobon.UpperEdgeCapacity.overlap_of_same_side' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperEdgeCapacity.lean:140:0: 'Kobon.UpperEdgeCapacity.opposite_sides_of_disjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperEdgeCapacity.lean:141:0: 'Kobon.UpperEdgeCapacity.at_most_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [979/990] Replayed Kobon.UpperTriangleIncidence
+warning: Kobon/UpperTriangleIncidence.lean:112:64: This simp argument is unused:
+  ite_false
+
+Hint: Omit it from the simp argument list.
+  simp only [edge, ̲sideTriangle, ̲cycle, ̲Fin.reduceFinMk, ̲ite_true,̵i̵t̵e̵_̵f̵a̵l̵s̵e̵] at he
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Kobon/UpperTriangleIncidence.lean:115:34: This simp argument is unused:
+  Ne.symm hpr
+
+Hint: Omit it from the simp argument list.
+  simp [̵h̵p̵q̵,̵h̵p̵r̵,̵h̵q̵r̵,̵N̵e̵.̵s̵y̵m̵m̵ ̵h̵p̵q̵,̵N̵e̵.̵s̵y̵m̵m̵ ̵h̵p̵r̵,̵N̵e̵.̵s̵y̵m̵m̵[̲h̲p̲q̲,̲ ̲h̲p̲r̲,̲ ̲h̲q̲r̲,̲ ̲N̲e̲.̲s̲y̲m̲m̲ ̲h̲p̲q̲,̲ ̲N̲e̲.̲s̲y̲m̲m̲ hqr] at h₁ h₂
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Kobon/UpperTriangleIncidence.lean:115:46: This simp argument is unused:
+  Ne.symm hqr
+
+Hint: Omit it from the simp argument list.
+  simp [̵h̵p̵q̵,̵h̵p̵r̵,̵h̵q̵r̵,̵N̵e̵.̵s̵y̵m̵m̵ ̵h̵p̵q̵,̵N̵e̵.̵s̵y̵m̵m̵ ̵h̵p̵r̵,̵N̵e̵.̵s̵y̵m̵m̵ ̵h̵q̵r̵]̵[̲h̲p̲q̲,̲ ̲h̲p̲r̲,̲ ̲h̲q̲r̲,̲ ̲N̲e̲.̲s̲y̲m̲m̲ ̲h̲p̲q̲,̲ ̲N̲e̲.̲s̲y̲m̲m̲ ̲h̲p̲r̲]̲ at h₁ h₂
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: Kobon/UpperTriangleIncidence.lean:241:0: 'Kobon.UpperTriangleIncidence.edge_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperTriangleIncidence.lean:242:0: 'Kobon.UpperTriangleIncidence.degree_le_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperTriangleIncidence.lean:243:0: 'Kobon.UpperTriangleIncidence.exact_incidence' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperTriangleIncidence.lean:244:0: 'Kobon.UpperTriangleIncidence.exact_incidence_with_unused' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperTriangleIncidence.lean:245:0: 'Kobon.UpperTriangleIncidence.certificate_incidence' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [980/990] Replayed Kobon.FanGeometry
+info: Kobon/FanGeometry.lean:171:0: 'Kobon.FanGeometry.ordinary_nonradial_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/FanGeometry.lean:172:0: 'Kobon.FanGeometry.FanStrip.all_opposites_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/FanGeometry.lean:173:0: 'Kobon.FanGeometry.FanStrip.center_not_affine_combination' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/FanGeometry.lean:174:0: 'Kobon.FanGeometry.no_opposite_end_fan' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [981/990] Replayed Kobon.UpperSharedEdge
+info: Kobon/UpperSharedEdge.lean:137:0: 'Kobon.UpperSharedEdge.Pair.apex_eq_of_ordinary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperSharedEdge.lean:138:0: 'Kobon.UpperSharedEdge.Pair.has_nonordinary_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperSharedEdge.lean:139:0: 'Kobon.UpperSharedEdge.third_support_of_not_ordinary' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [982/990] Replayed Kobon.UpperSharedIncidence
+warning: Kobon/UpperSharedIncidence.lean:31:67: This simp argument is unused:
+  ite_false
+
+Hint: Omit it from the simp argument list.
+  simp only [̵s̵i̵d̵e̵T̵r̵i̵a̵n̵g̵l̵e̵,̵F̵i̵n̵.̵r̵e̵d̵u̵c̵e̵F̵i̵n̵M̵k̵,̵i̵t̵e̵_̵t̵r̵u̵e̵,̵i̵t̵e̵_̵f̵a̵l̵s̵e̵]̵[̲s̲i̲d̲e̲T̲r̲i̲a̲n̲g̲l̲e̲,̲ ̲F̲i̲n̲.̲r̲e̲d̲u̲c̲e̲F̲i̲n̲M̲k̲,̲ ̲i̲t̲e̲_̲t̲r̲u̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: Kobon/UpperSharedIncidence.lean:168:0: 'Kobon.UpperSharedIncidence.shared_has_nonordinary_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperSharedIncidence.lean:169:0: 'Kobon.UpperSharedIncidence.oneCore_has_both_kinds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperSharedIncidence.lean:170:0: 'Kobon.UpperSharedIncidence.core_incidence' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [986/990] Replayed Kobon.Simple
+info: Kobon/Simple.lean:49:0: 'Kobon.validate_simple_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [988/1093] Replayed Kobon.UpperEdgeInventory
+warning: Kobon/UpperEdgeInventory.lean:161:13: This simp argument is unused:
+  Fin.val_mk
+
+Hint: Omit it from the simp argument list.
+  simp only [̵F̵i̵n̵.̵v̵a̵l̵_̵m̵k̵]̵ ̵at hh
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Kobon/UpperEdgeInventory.lean:281:78: This simp argument is unused:
+  Fin.val_mk
+
+Hint: Omit it from the simp argument list.
+  simp only [̵F̵i̵n̵.̵v̵a̵l̵_̵m̵k̵]̵ ̵at hh
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Kobon/UpperEdgeInventory.lean:283:78: This simp argument is unused:
+  Fin.val_mk
+
+Hint: Omit it from the simp argument list.
+  simp only [̵F̵i̵n̵.̵v̵a̵l̵_̵m̵k̵]̵ ̵at hh
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Kobon/UpperEdgeInventory.lean:285:78: This simp argument is unused:
+  Fin.val_mk
+
+Hint: Omit it from the simp argument list.
+  simp only [̵F̵i̵n̵.̵v̵a̵l̵_̵m̵k̵]̵ ̵at hh
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Kobon/UpperEdgeInventory.lean:328:72: This simp argument is unused:
+  ite_false
+
+Hint: Omit it from the simp argument list.
+  simp only [̵e̵d̵g̵e̵,̵s̵i̵d̵e̵T̵r̵i̵a̵n̵g̵l̵e̵,̵c̵y̵c̵l̵e̵,̵F̵i̵n̵.̵r̵e̵d̵u̵c̵e̵F̵i̵n̵M̵k̵,̵i̵t̵e̵_̵t̵r̵u̵e̵,̵i̵t̵e̵_̵f̵a̵l̵s̵e̵,̵
+  ̵ ̵ ̵ ̵ ̵m̵e̵m̵_̵i̵n̵s̵e̵r̵t̵,̵m̵e̵m̵_̵s̵i̵n̵g̵l̵e̵t̵o̵n̵]̵[̲e̲d̲g̲e̲,̲ ̲s̲i̲d̲e̲T̲r̲i̲a̲n̲g̲l̲e̲,̲ ̲c̲y̲c̲l̲e̲,̲ ̲F̲i̲n̲.̲r̲e̲d̲u̲c̲e̲F̲i̲n̲M̲k̲,̲ ̲i̲t̲e̲_̲t̲r̲u̲e̲,̲ ̲m̲e̲m̲_̲i̲n̲s̲e̲r̲t̲,̲
+  ̲ ̲ ̲ ̲ ̲m̲e̲m̲_̲s̲i̲n̲g̲l̲e̲t̲o̲n̲]̲ at hp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: Kobon/UpperEdgeInventory.lean:370:0: 'Kobon.UpperEdgeInventory.orderedPoint_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperEdgeInventory.lean:371:0: 'Kobon.UpperEdgeInventory.lineEdges_pairwise_disjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperEdgeInventory.lean:372:0: 'Kobon.UpperEdgeInventory.edge_cardinality' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperEdgeInventory.lean:373:0: 'Kobon.UpperEdgeInventory.elementary_mem_lineEdges' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperEdgeInventory.lean:374:0: 'Kobon.UpperEdgeInventory.certificate_defect_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [989/1093] Replayed Kobon.UpperCoreExtraction
+info: Kobon/UpperCoreExtraction.lean:127:0: 'Kobon.UpperCoreExtraction.ordinary_iff_support_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperCoreExtraction.lean:128:0: 'Kobon.UpperCoreExtraction.core_multiplicity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperCoreExtraction.lean:129:0: 'Kobon.UpperCoreExtraction.defect_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperCoreExtraction.lean:130:0: 'Kobon.UpperCoreExtraction.certificate_oneCore_classification' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: Kobon/UpperCoreExtraction.lean:131:0: 'Kobon.UpperCoreExtraction.simple_arrangement_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [995/1093] Replayed Kobon.Exterior
+info: Kobon/Exterior.lean:207:0: 'Kobon.Exterior.extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Exterior.lean:208:0: 'Kobon.Exterior.safeHeight_beyond' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [997/1093] Replayed Kobon.Parametric
+info: Kobon/Parametric.lean:183:0: 'Kobon.Parametric.triangle_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Parametric.lean:184:0: 'Kobon.Parametric.simple_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1932/1951] Replayed Kobon.TangentBounds
+info: Kobon/TangentBounds.lean:95:0: 'Kobon.TangentBounds.tan_tenth_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/TangentBounds.lean:96:0: 'Kobon.TangentBounds.tan_two_fifths_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1933/1951] Replayed Kobon.SeedFamily
+info: Kobon/SeedFamily.lean:133:0: 'Kobon.SeedFamily.arbitrarily_small' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/SeedFamily.lean:134:0: 'Kobon.SeedFamily.simple_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1936/1951] Replayed Kobon.HybridBoundary
+info: Kobon/HybridBoundary.lean:164:0: 'Kobon.HybridBoundary.seed_exterior' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1937/1951] Replayed Kobon.BBLExtrema
+info: Kobon/BBLExtrema.lean:205:0: 'Kobon.BBLExtrema.extremal_visible' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BBLExtrema.lean:206:0: 'Kobon.BBLExtrema.extremal_preserved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BBLExtrema.lean:207:0: 'Kobon.BBLExtrema.visible_extremal_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1938/1951] Replayed Kobon.BBLTriangles
+info: Kobon/BBLTriangles.lean:128:0: 'Kobon.BBLTriangles.triangle_of_two_sides' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BBLTriangles.lean:194:0: 'Kobon.BBLTriangles.triangle_of_last_two_sides' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1939/1951] Replayed Kobon.Reindex
+info: Kobon/Reindex.lean:127:0: 'Kobon.Reindex.rotate_visible' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Reindex.lean:128:0: 'Kobon.Reindex.rotate_triangle' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Reindex.lean:129:0: 'Kobon.Reindex.rotate_zero_triangle' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/Reindex.lean:130:0: 'Kobon.Reindex.rotate_no_concurrent' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1940/1951] Replayed Kobon.UpperSimpleOptimality
+info: Kobon/UpperSimpleOptimality.lean:75:0: 'Kobon.UpperSimpleOptimality.core_empty' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperSimpleOptimality.lean:76:0: 'Kobon.UpperSimpleOptimality.certificate_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperSimpleOptimality.lean:77:0: 'Kobon.UpperSimpleOptimality.simple_lower_bound_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperSimpleOptimality.lean:78:0: 'Kobon.UpperSimpleOptimality.simple_lower_bound_floor' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1941/1951] Replayed Kobon.UpperCleanHalfplane
+info: Kobon/UpperCleanHalfplane.lean:198:0: 'Kobon.UpperCleanHalfplane.transverse_intersection_off_clean' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperCleanHalfplane.lean:199:0: 'Kobon.UpperCleanHalfplane.common_halfplane' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperCleanHalfplane.lean:200:0: 'Kobon.UpperCleanHalfplane.clean_crossings_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperCleanHalfplane.lean:201:0: 'Kobon.UpperCleanHalfplane.ordinary_vertex_pairs_on_line' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperCleanHalfplane.lean:202:0: 'Kobon.UpperCleanHalfplane.clean_crossing_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperCleanHalfplane.lean:203:0: 'Kobon.UpperCleanHalfplane.clean_line_no_pair_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1942/1951] Replayed Kobon.UpperCleanEdges
+info: Kobon/UpperCleanEdges.lean:110:0: 'Kobon.UpperCleanEdges.incident_positive_edge' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperCleanEdges.lean:111:0: 'Kobon.UpperCleanEdges.incident_negative_edge' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperCleanEdges.lean:112:0: 'Kobon.UpperCleanEdges.common_bounded_side' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1943/1951] Replayed Kobon.UpperCleanPairing
+info: Kobon/UpperCleanPairing.lean:90:0: 'Kobon.UpperCleanPairing.pair_indices_consecutive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperCleanPairing.lean:91:0: 'Kobon.UpperCleanPairing.incident_positive_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperCleanPairing.lean:92:0: 'Kobon.UpperCleanPairing.incident_negative_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1944/1951] Replayed Kobon.FanCount
+info: Kobon/FanCount.lean:71:0: 'Kobon.FanCount.ordinary_shared_ray_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1945/1951] Replayed Kobon.CyclicFan
+info: Kobon/CyclicFan.lean:108:0: 'Kobon.CyclicFan.Geometry.no_long_run' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/CyclicFan.lean:109:0: 'Kobon.CyclicFan.Geometry.selected_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1946/1951] Replayed Kobon.UpperFan
+info: Kobon/UpperFan.lean:251:0: 'Kobon.UpperFan.card_le_of_adjacent_missing' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperFan.lean:252:0: 'Kobon.UpperFan.Sectors.all_sectors_of_extremal' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperFan.lean:253:0: 'Kobon.UpperFan.Sectors.core_shared_card_eq_three_of_extremal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: Kobon/UpperFan.lean:254:0: 'Kobon.UpperFan.Sectors.ordinary_shared_card_le_of_core_le_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: Kobon/UpperFan.lean:255:0: 'Kobon.UpperFan.Sectors.weighted_local_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1947/1951] Replayed Kobon.UpperFanSupport
+info: Kobon/UpperFanSupport.lean:188:0: 'Kobon.UpperFanSupport.Sectors.nonnegative_of_core_nonnegative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: Kobon/UpperFanSupport.lean:189:0: 'Kobon.UpperFanSupport.Sectors.exists_negative_core_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperFanSupport.lean:190:0: 'Kobon.UpperFanSupport.Sectors.extremal_core_not_in_halfplane' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+⚠ [1948/1951] Replayed Kobon.UpperCleanCover
+warning: Kobon/UpperCleanCover.lean:100:73: This simp argument is unused:
+  ite_false
+
+Hint: Omit it from the simp argument list.
+  simp only [̵O̵n̵C̵u̵t̵,̵e̵d̵g̵e̵,̵s̵i̵d̵e̵T̵r̵i̵a̵n̵g̵l̵e̵,̵c̵y̵c̵l̵e̵,̵F̵i̵n̵.̵r̵e̵d̵u̵c̵e̵F̵i̵n̵M̵k̵,̵i̵t̵e̵_̵t̵r̵u̵e̵,̵i̵t̵e̵_̵f̵a̵l̵s̵e̵,̵
+  ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵m̵e̵m̵_̵i̵n̵s̵e̵r̵t̵,̵m̵e̵m̵_̵s̵i̵n̵g̵l̵e̵t̵o̵n̵]̵[̲O̲n̲C̲u̲t̲,̲ ̲e̲d̲g̲e̲,̲ ̲s̲i̲d̲e̲T̲r̲i̲a̲n̲g̲l̲e̲,̲ ̲c̲y̲c̲l̲e̲,̲ ̲F̲i̲n̲.̲r̲e̲d̲u̲c̲e̲F̲i̲n̲M̲k̲,̲ ̲i̲t̲e̲_̲t̲r̲u̲e̲,̲ ̲m̲e̲m̲_̲i̲n̲s̲e̲r̲t̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲m̲e̲m̲_̲s̲i̲n̲g̲l̲e̲t̲o̲n̲]̲ at hi hj
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: Kobon/UpperCleanCover.lean:430:0: 'Kobon.UpperCleanCover.align_with_sides' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperCleanCover.lean:431:0: 'Kobon.UpperCleanCover.side_on_cut_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperCleanCover.lean:432:0: 'Kobon.UpperCleanCover.inventory_on_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperCleanCover.lean:433:0: 'Kobon.UpperCleanCover.base_selected_side' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperCleanCover.lean:434:0: 'Kobon.UpperCleanCover.actual_base_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperCleanCover.lean:435:0: 'Kobon.UpperCleanCover.selected_degree_not_all_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperCleanCover.lean:436:0: 'Kobon.UpperCleanCover.clean_line_bad_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperCleanCover.lean:437:0: 'Kobon.UpperCleanCover.certificate_clean_line_charge' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1949/1951] Replayed Kobon.UpperCoreLineIncidence
+info: Kobon/UpperCoreLineIncidence.lean:176:0: 'Kobon.UpperCoreLineIncidence.path_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperCoreLineIncidence.lean:177:0: 'Kobon.UpperCoreLineIncidence.local_core_path_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperCoreLineIncidence.lean:178:0: 'Kobon.UpperCoreLineIncidence.core_line_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1950/1951] Replayed Kobon.UpperCleanCharging
+info: Kobon/UpperCleanCharging.lean:174:0: 'Kobon.UpperCleanCharging.charge_line_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperCleanCharging.lean:175:0: 'Kobon.UpperCleanCharging.oneCore_ordinary_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperCleanCharging.lean:176:0: 'Kobon.UpperCleanCharging.certificate_clean_line_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1951/1951] Built Kobon.UpperEvenSimpleOptimality (13s)
+info: Kobon/UpperEvenSimpleOptimality.lean:74:0: 'Kobon.UpperEvenSimpleOptimality.certificate_even_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/UpperEvenSimpleOptimality.lean:75:0: 'Kobon.UpperEvenSimpleOptimality.simple_lower_bound_even_floor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Build completed successfully (1951 jobs).

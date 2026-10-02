@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "exact_certificates_checked": 366,
+  "distinct_required": 366,
+  "missing_cases": [],
+  "charts_total": 7560,
+  "unsaturable_chart_occurrences": 7182,
+  "epsilon_upper": "1588126731231502361569372296886473413089668778090981915111546683290184394712170582897026879617505327880591255994645494150452102608965071251696622343431295480307445127347166556807/32026853476363715871946792331770540938201821193122298715956542209191977743772407385386420008190991500187696869235781088076881850949946208748187193008880741824913320710386447306570132",
+  "epsilon_upper_float": 4.958734807974698e-05,
+  "word_sha256": "380e3f9744e9a1efc7a2e9ccfdb1e59d26d7a7937f5fe63e8e1b0ea291ebbdfa",
+  "certificate_sha256": "a35cf3049a0612909fb259338a31f664979000d4fe70437128e6bf3bab8dce15",
+  "external_assumption": "Only18 supplied21-support representatives audited. The18 published P-classes classify22-support closures including infinity; complete affine coverage needs236 E-classes or all deleted-infinity choices.",
+  "scope": "Exact finite obstruction for the18 supplied representatives and the specified tangent grid; not complete affine classification coverage or a general Kobon upper bound.",
+  "seconds": 40.53324031829834
+}

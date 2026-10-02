@@ -1,0 +1,31 @@
+{
+  "checked_at_utc": "2026-10-02T19:29:21.0060985Z",
+  "scope": "Isolated copied-definition checks, outside the active library; no full seed validity assertion",
+  "results": [
+    {
+      "sha256": "656889a1b6519b0c6d4ad15290b95d1e4704f69b37618de22a3dd68ed6321a86",
+      "compiler_exit_code": 0,
+      "source": "research/three-hour-2026-10-02/bbl/checks/BBLSeed49GraphCheck.lean",
+      "passed": true,
+      "seconds": 163.6156085,
+      "log": "research/three-hour-2026-10-02/bbl/checks/BBLSeed49GraphCheck.log"
+    },
+    {
+      "sha256": "69825ed5f1e1f4a1d7060fbf6edc47c7b7178e66ff7d83c820203baa2e4f296e",
+      "compiler_exit_code": 0,
+      "source": "research/three-hour-2026-10-02/bbl/checks/BBL49ArithmeticCheck.lean",
+      "passed": true,
+      "seconds": 35.6049515,
+      "log": "research/three-hour-2026-10-02/bbl/checks/BBL49ArithmeticCheck.log"
+    },
+    {
+      "sha256": "c78da93e9ae201c2558aa2e37b8fbda506e103c890cc83fcfe28aee671f02fe7",
+      "compiler_exit_code": 0,
+      "source": "research/three-hour-2026-10-02/bbl/checks/TamuraSeed33DirectionsProbe.lean",
+      "passed": true,
+      "seconds": 28.3676729,
+      "log": "research/three-hour-2026-10-02/bbl/checks/TamuraSeed33DirectionsProbe.log"
+    }
+  ],
+  "passed": true
+}

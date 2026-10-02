@@ -1,4 +1,4 @@
-"""Record/check hashes of stable project evidence, excluding run timestamps/logs."""
+"""Hash stable evidence, including frozen research records, not replay outputs."""
 from pathlib import Path
 import argparse,hashlib,json
 ROOT=Path(__file__).resolve().parents[1]
@@ -27,6 +27,6 @@ if __name__=='__main__':
     else:
         MANIFEST.parent.mkdir(exist_ok=True)
         MANIFEST.write_text(json.dumps(dict(algorithm='SHA-256',
-          scope='Stable source/evidence files. Build logs and timestamped summaries are intentionally excluded; lean-summary hashes its checked sources separately.',
+          scope='Stable source/evidence files, including frozen research logs and summaries. Regenerated verification/ build logs and timestamped summaries are excluded; lean-summary hashes its checked sources separately.',
           files=current),indent=2)+'\n')
         print(f'Recorded {len(current)} evidence files.')

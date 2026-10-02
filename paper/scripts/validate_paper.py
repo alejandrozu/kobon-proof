@@ -11,10 +11,37 @@ from pdf_preflight import audit_pdf
 ROOT = Path(__file__).resolve().parents[2]
 PAPER = ROOT / 'paper'
 HISTORICAL_PAPER_COMMIT = '22d1165f6c455fe45e461baef4410f6d5c78a014'
+FROZEN_MATH_COMMIT = '99fdc8ec1ef8b1fb22c3da32b011b7361762e958'
 
 
 def sha(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def frozen_math_snapshot():
+    """Check the paper's pinned proof release, independently of later research."""
+    raw = subprocess.run(
+        ['git', 'show', f'{FROZEN_MATH_COMMIT}:verification/lean-summary.json'],
+        cwd=ROOT, capture_output=True, check=True).stdout
+    proof = json.loads(raw.decode('utf-8-sig'))
+    assert proof['complete'] and all(r['passed'] for r in proof['results'])
+    names = sorted(proof['source_sha256'])
+    batch = subprocess.run(
+        ['git', 'cat-file', '--batch'],
+        input=''.join(f'{FROZEN_MATH_COMMIT}:{name}\n' for name in names).encode(),
+        cwd=ROOT, capture_output=True, check=True).stdout
+    offset = 0
+    for name in names:
+        end = batch.index(b'\n', offset)
+        header = batch[offset:end].split()
+        assert len(header) == 3 and header[1] == b'blob', name
+        size = int(header[2])
+        blob = batch[end+1:end+1+size]
+        assert len(blob) == size and batch[end+1+size:end+2+size] == b'\n', name
+        assert hashlib.sha256(blob).hexdigest() == proof['source_sha256'][name], name
+        offset = end+2+size
+    assert offset == len(batch), 'Unexpected frozen proof Git batch output'
+    return proof
 
 
 def current_paper_files():
@@ -95,10 +122,7 @@ def main():
         for source in figure['sources']:
             assert sha(ROOT / source['path']) == source['sha256'], source['path']
             checked_inputs[source['path']] = source['sha256']
-    proof = json.loads((ROOT / 'verification/lean-summary.json').read_text(encoding='utf-8'))
-    assert proof['complete'] and all(r['passed'] for r in proof['results'])
-    for path, expected in proof['source_sha256'].items():
-        assert sha(ROOT / path) == expected, f'Lean source changed after verification: {path}'
+    proof = frozen_math_snapshot()
     catalog = json.loads((PAPER / 'generated/certificate-catalog.json').read_text(encoding='utf-8'))
     assert len(catalog) == len({r['coordinate_sha256'] for r in catalog}) == 138
     for row in catalog:
@@ -146,7 +170,7 @@ def main():
         bibliography_entries=len(keys), vector_figures=len(figures), finite_orders=len(rows),
         distinct_coordinate_identities=len(catalog), simple_coordinate_identities=sum(r['simple'] for r in catalog),
         frozen_math_commit='99fdc8ec1ef8b1fb22c3da32b011b7361762e958',
-        unchanged_verified_lean_sources=len(proof['source_sha256']),
+        verified_frozen_lean_sources=len(proof['source_sha256']),
         previously_passed_build_targets=len(proof['results']),
         resolved_labels=len(labels), cited_keys=sorted(cites),
         explicit_proof_endings=proof_endings, checked_contents_destinations=len(toc_entries),
@@ -157,7 +181,7 @@ def main():
         visual_review='Recorded visual review matches the current corrected PDF.')
     (PAPER / 'validation.json').write_text(json.dumps(report, indent=2, ensure_ascii=False)+'\n', encoding='utf-8')
     print(f'PASS: {len(reader.pages)} pages, {len(keys)} references, {len(figures)} vector figures, '
-          f'{len(catalog)} coordinate identities, {len(proof["source_sha256"])} unchanged verified Lean sources.')
+          f'{len(catalog)} coordinate identities, {len(proof["source_sha256"])} verified frozen Lean sources.')
 
 
 if __name__ == '__main__':

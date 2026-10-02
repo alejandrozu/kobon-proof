@@ -8,7 +8,7 @@
   "distinct_coordinate_identities": 138,
   "simple_coordinate_identities": 104,
   "frozen_math_commit": "99fdc8ec1ef8b1fb22c3da32b011b7361762e958",
-  "unchanged_verified_lean_sources": 325,
+  "verified_frozen_lean_sources": 325,
   "previously_passed_build_targets": 220,
   "resolved_labels": 132,
   "cited_keys": [
@@ -123,13 +123,13 @@
     "Kobon_triangle_constructions.pdf": "24e069db61a3c3383f86d403a401ee83632aeb41e381cf80be6204c659cba667",
     "literature_audit.md": "747f9db7b08492aa08dbe7076cd7a2dde8db5040d3bb6a575cc8804fabf11152",
     "main.tex": "72aaa025e56a62dca003749bb390e17964ffdb8cbe515216432105329b20bc13",
-    "README.md": "f93cf0ae5bd9d47e40d459bf7a4d20356a3a68a329670eeccafa458511d153bb",
+    "README.md": "492f9769ec86321c2769da1fea2210a0e1593e29daac41f2edaa2cb4647ce2b4",
     "references.bib": "4913b2f81d01d7746403117fa24c8a9348f9b405be2ffc4cf18a9ceb66a2e6f5",
     "rendering_revision.md": "d0fd7e0d35b7c44e48cf4dfa3645b9d2c36a89ff6fcd8d97a8b88c0a81da4ca9",
     "scripts/build_paper.py": "45a1b1d9c06923101d144e27fdadbd165f571eaf3d4866531fae2d9ea56cda36",
     "scripts/generate_figures.py": "879f5086ff667d8164da06f71bec52312eaa7cd2bfe3542cce581e893a68f8aa",
     "scripts/pdf_preflight.py": "5e78dfde9153b650b20db75c6f76012f79a0cbf1a45b0e333e4f5ee4a7f74014",
-    "scripts/validate_paper.py": "607cb7e4afbb3f00f1fdf7fef4d29032a59d47098ed0c5173956cb1ffc198169",
+    "scripts/validate_paper.py": "14faee49b1d9bbd0fd8af97256748124efcbdc589e56fb68b3586cc972ff5ecd",
     "sections/appendices.tex": "a530cf409711f3366564f9b334ed11e953b157ed14bd4a973546fef1354944b0",
     "sections/discussion.tex": "aef7905d01bfc26eb3ed1bc0d18b11a442b2f60374798dea308c092983306c52",
     "sections/experiments.tex": "76a261052f7beadbb9ac5e792017585b65f54444402c7939a5843f134edee0fe",
@@ -263,7 +263,7 @@
       },
       {
         "page": 7,
-        "text_characters": 2927,
+        "text_characters": 2929,
         "user_unit": 1.0,
         "media_box": [
           0.0,
@@ -280,7 +280,7 @@
       },
       {
         "page": 8,
-        "text_characters": 3229,
+        "text_characters": 3230,
         "user_unit": 1.0,
         "media_box": [
           0.0,
@@ -297,7 +297,7 @@
       },
       {
         "page": 9,
-        "text_characters": 3100,
+        "text_characters": 3102,
         "user_unit": 1.0,
         "media_box": [
           0.0,
@@ -348,7 +348,7 @@
       },
       {
         "page": 12,
-        "text_characters": 3452,
+        "text_characters": 3448,
         "user_unit": 1.0,
         "media_box": [
           0.0,
@@ -382,7 +382,7 @@
       },
       {
         "page": 14,
-        "text_characters": 1533,
+        "text_characters": 1536,
         "user_unit": 1.0,
         "media_box": [
           0.0,
@@ -399,7 +399,7 @@
       },
       {
         "page": 15,
-        "text_characters": 2958,
+        "text_characters": 2949,
         "user_unit": 1.0,
         "media_box": [
           0.0,
@@ -433,7 +433,7 @@
       },
       {
         "page": 17,
-        "text_characters": 1866,
+        "text_characters": 1867,
         "user_unit": 1.0,
         "media_box": [
           0.0,
@@ -552,7 +552,7 @@
       },
       {
         "page": 24,
-        "text_characters": 2991,
+        "text_characters": 2993,
         "user_unit": 1.0,
         "media_box": [
           0.0,
@@ -569,7 +569,7 @@
       },
       {
         "page": 25,
-        "text_characters": 3173,
+        "text_characters": 3174,
         "user_unit": 1.0,
         "media_box": [
           0.0,
@@ -637,7 +637,7 @@
       },
       {
         "page": 29,
-        "text_characters": 3449,
+        "text_characters": 3446,
         "user_unit": 1.0,
         "media_box": [
           0.0,
@@ -705,7 +705,7 @@
       },
       {
         "page": 33,
-        "text_characters": 3194,
+        "text_characters": 3195,
         "user_unit": 1.0,
         "media_box": [
           0.0,
@@ -807,7 +807,7 @@
       },
       {
         "page": 39,
-        "text_characters": 2467,
+        "text_characters": 2469,
         "user_unit": 1.0,
         "media_box": [
           0.0,

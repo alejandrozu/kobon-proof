@@ -12,7 +12,11 @@ Research repository of **Alejandro Zarzuelo Urdiales**. This revision consolidat
 
 triangles, with `G(0)=G(1)=G(2)=0` and `G(3)=1`. It improves the previously formalized classical ceiling baseline by 0, 1, or 2 triangles, depending on the residue class. `Universal.all_n` takes the maximum with every saved finite certificate. The infinite geometric proof uses only Lean's standard logical axioms. This is a verified refinement of a classical construction, not an established claim of first numerical discovery or a solution of the Kobon problem.
 
-Read the [cumulative research review](research/six-hour-2026-09-21/RESEARCH_REVIEW.md) and [formula and novelty audit](research/six-hour-2026-09-21/phase-proof.md). The unrestricted full-gain recurrence and end-to-end infinite BBL iteration remain separate obligations; [FORMALIZATION.md](FORMALIZATION.md) records the distinction.
+**The 2 October research session completes the infinite geometric iteration.** For every `t >= 0`, putting `q=10*2^t` gives simple arrangements with `(q^2-4)/3` triangles on `q+1` lines and `(q^2-4)/3+q/2` triangles on `q+2` lines. `BBLVerifiedFamilies.eleven_odd_family` and `eleven_even_family` prove existence at every depth; `RecursiveEnvelope.all_n` retains these families together with the previous all-order bound and all finite certificates. The new envelope strictly improves the previous repository envelope at infinitely many orders, including every family pair from 321/322 onward. This is a formalization advance, not a claim of new numerical records over all literature.
+
+The strongest released all-order function is `H(n)=max(Universal.bound n,L(n))`, where `L` supplies the two family counts above and is zero at other orders. The actual simple upper bounds are also proved: `BBLFamilyOptimality` places the simple optimum between each constructed family count and that count plus one.
+
+Read the [new research review and evidence](research/three-hour-2026-10-02/RESEARCH_REVIEW.md), [recursive proof audit](research/three-hour-2026-10-02/bbl/RECURSIVE_PROOF_AUDIT.md), and [previous all-order formula audit](research/six-hour-2026-09-21/phase-proof.md). The new upper-bound work derives the global defect identity and the clean-line charging inequality from actual geometric sides and intersections. Global cyclic-fan extraction and the unrestricted full-gain successor recurrence remain open; [FORMALIZATION.md](FORMALIZATION.md) records these boundaries. The two PDFs above remain pinned to their earlier mathematical release; the new session is documented separately.
 
 Start with:
 
@@ -37,6 +41,7 @@ lake exe cache get
 python scripts/verify_lean.py --jobs 2
 python scripts/verify_coordinates.py
 python scripts/verify_seed_interval.py
+python scripts/verify_research_2026_10_02.py
 python scripts/evidence_manifest.py --check
 ```
 
@@ -53,6 +58,9 @@ Finite certificates use Lean's `native_decide`: this is placeholder-free but tru
 | `Kobon/Results.lean` | Named 3–60 table results and every earlier numerical inventory claim |
 | `Kobon/FurediPalastiCount.lean`, `FurediPalasti.lean`, `AllN.lean` | Proved all-order classical construction, finite enhancement envelope, and unconditional 49-seed numerical target |
 | `Kobon/Universal.lean`, `ShiftedFurediPalasti.lean`, `FurediPalastiTwoCaps.lean` | Stronger parity-sensitive all-order construction and precise improvement formula |
+| `Kobon/BBLVerifiedFamilies.lean`, `RecursiveEnvelope.lean` | Infinite geometric odd/even families, retained all-order envelope, and exact previous-release comparisons |
+| `Kobon/Upper*.lean` | Actual elementary edges, global defect identity, clean-line charging, classical simple upper bounds, and local fan obstructions; global cyclic-fan extraction remains open |
+| `research/three-hour-2026-10-02/`, `experiments/2026-10-02/` | New proof audits, exact construction obstructions, reproducible searches, and continuation tasks |
 | `Kobon/Cells.lean` | Actual uncut triangle interiors, sign cells, and disjointness |
 | `Kobon/BBL*.lean`, `Reindex.lean` | Real analytic doubling ingredients, crossing-order geometry, cap replacement, visibility and finite assembly |
 | `Kobon/SharedFan.lean`, `FanGeometry.lean`, `FanCount.lean`, `CyclicFan.lean`, `CleanLineBudget.lean` | Verified local incidence geometry and explicitly conditional upper-budget arithmetic |

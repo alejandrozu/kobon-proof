@@ -1,0 +1,134 @@
+Kobon/BBLGridObstruction.lean:188:29: warning: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/BBLGridObstruction.lean:188:29: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/BBLGridObstruction.lean:124:12: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/BBLGridObstruction.lean:124:25: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/BBLGridObstruction.lean:131:12: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/BBLGridObstruction.lean:131:25: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/BBLGridObstruction.lean:138:12: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/BBLGridObstruction.lean:138:25: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/BBLGridObstruction.lean:145:12: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/BBLGridObstruction.lean:145:25: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/BBLGridObstruction.lean:152:12: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/BBLGridObstruction.lean:152:25: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/BBLGridObstruction.lean:159:12: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/BBLGridObstruction.lean:159:25: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/BBLGridObstruction.lean:166:12: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/BBLGridObstruction.lean:166:25: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/BBLGridObstruction.lean:173:12: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/BBLGridObstruction.lean:173:25: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/BBLGridObstruction.lean:180:12: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/BBLGridObstruction.lean:180:25: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/BBLGridObstruction.lean:188:12: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/BBLGridObstruction.lean:194:12: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/BBLGridObstruction.lean:194:25: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/BBLGridObstruction.lean:200:12: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/BBLGridObstruction.lean:200:25: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/BBLGridObstruction.lean:206:12: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/BBLGridObstruction.lean:206:25: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/BBLGridObstruction.lean:212:12: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/BBLGridObstruction.lean:212:25: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/BBLGridObstruction.lean:218:12: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/BBLGridObstruction.lean:218:25: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/BBLGridObstruction.lean:224:12: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/BBLGridObstruction.lean:224:25: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/BBLGridObstruction.lean:230:12: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/BBLGridObstruction.lean:230:25: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/BBLGridObstruction.lean:236:12: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/BBLGridObstruction.lean:236:25: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/BBLGridObstruction.lean:245:51: warning: This simp argument is unused:
+  Matrix.cons_val_zero
+
+Hint: Omit it from the simp argument list.
+  simp only [̵c̵o̵e̵f̵f̵i̵c̵i̵e̵n̵t̵,̵s̵u̵p̵p̵o̵r̵t̵,̵M̵a̵t̵r̵i̵x̵.̵c̵o̵n̵s̵_̵v̵a̵l̵_̵z̵e̵r̵o̵,̵M̵a̵t̵r̵i̵x̵.̵c̵o̵n̵s̵_̵v̵a̵l̵_̵s̵u̵c̵c̵,̵M̵a̵t̵r̵i̵x̵.̵c̵o̵n̵s̵_̵v̵a̵l̵_̵f̵i̵n̵_̵o̵n̵e̵]̵[̲c̲o̲e̲f̲f̲i̲c̲i̲e̲n̲t̲,̲ ̲s̲u̲p̲p̲o̲r̲t̲,̲ ̲M̲a̲t̲r̲i̲x̲.̲c̲o̲n̲s̲_̲v̲a̲l̲_̲s̲u̲c̲c̲,̲ ̲M̲a̲t̲r̲i̲x̲.̲c̲o̲n̲s̲_̲v̲a̲l̲_̲f̲i̲n̲_̲o̲n̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Kobon/BBLGridObstruction.lean:245:72: warning: This simp argument is unused:
+  Matrix.cons_val_succ
+
+Hint: Omit it from the simp argument list.
+  simp only [̵c̵o̵e̵f̵f̵i̵c̵i̵e̵n̵t̵,̵s̵u̵p̵p̵o̵r̵t̵,̵M̵a̵t̵r̵i̵x̵.̵c̵o̵n̵s̵_̵v̵a̵l̵_̵z̵e̵r̵o̵,̵M̵a̵t̵r̵i̵x̵.̵c̵o̵n̵s̵_̵v̵a̵l̵_̵s̵u̵c̵c̵,̵M̵a̵t̵r̵i̵x̵.̵c̵o̵n̵s̵_̵v̵a̵l̵_̵f̵i̵n̵_̵o̵n̵e̵]̵[̲c̲o̲e̲f̲f̲i̲c̲i̲e̲n̲t̲,̲ ̲s̲u̲p̲p̲o̲r̲t̲,̲ ̲M̲a̲t̲r̲i̲x̲.̲c̲o̲n̲s̲_̲v̲a̲l̲_̲z̲e̲r̲o̲,̲ ̲M̲a̲t̲r̲i̲x̲.̲c̲o̲n̲s̲_̲v̲a̲l̲_̲f̲i̲n̲_̲o̲n̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Kobon/BBLGridObstruction.lean:245:93: warning: This simp argument is unused:
+  Matrix.cons_val_fin_one
+
+Hint: Omit it from the simp argument list.
+  simp only [̵c̵o̵e̵f̵f̵i̵c̵i̵e̵n̵t̵,̵s̵u̵p̵p̵o̵r̵t̵,̵M̵a̵t̵r̵i̵x̵.̵c̵o̵n̵s̵_̵v̵a̵l̵_̵z̵e̵r̵o̵,̵M̵a̵t̵r̵i̵x̵.̵c̵o̵n̵s̵_̵v̵a̵l̵_̵s̵u̵c̵c̵,̵M̵a̵t̵r̵i̵x̵.̵c̵o̵n̵s̵_̵v̵a̵l̵_̵f̵i̵n̵_̵o̵n̵e̵]̵[̲c̲o̲e̲f̲f̲i̲c̲i̲e̲n̲t̲,̲ ̲s̲u̲p̲p̲o̲r̲t̲,̲ ̲M̲a̲t̲r̲i̲x̲.̲c̲o̲n̲s̲_̲v̲a̲l̲_̲z̲e̲r̲o̲,̲ ̲M̲a̲t̲r̲i̲x̲.̲c̲o̲n̲s̲_̲v̲a̲l̲_̲s̲u̲c̲c̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Kobon.BBLGridObstruction.actual_grid_orientation_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.BBLGridObstruction.actual_grid_infeasible' depends on axioms: [propext, Classical.choice, Quot.sound]

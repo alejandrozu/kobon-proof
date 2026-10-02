@@ -10,7 +10,7 @@
   "current_long_paper_files_checked": 73,
   "current_long_paper_pdf_sha256": "24e069db61a3c3383f86d403a401ee83632aeb41e381cf80be6204c659cba667",
   "current_long_paper_pdf_pages": 60,
-  "current_long_paper_validation_sha256": "4349fc1220c4081dcb314891f2e5212715e279b8c02779d4b490344acdc5b2f4",
+  "current_long_paper_validation_sha256": "9530abdd743e98359c2a5724f0efa93ac0947f73aa60ff21593924ffd3b25b20",
   "current_long_paper_visual_review_matches_pdf": true,
   "historical_long_paper": {
     "commit": "22d1165f6c455fe45e461baef4410f6d5c78a014",
@@ -19,7 +19,7 @@
     "validation_sha256": "d66f8a7db53ac3180312b196515474172a19380c73daf60553f336742b0074e2",
     "verification": "Original manifest and all 71 file blobs verified at the historical Git revision."
   },
-  "unchanged_verified_lean_sources": 325,
+  "verified_frozen_lean_sources": 325,
   "frozen_math_commit": "99fdc8ec1ef8b1fb22c3da32b011b7361762e958",
   "historical_long_paper_ci": {
     "run": 35779849718,
@@ -46,7 +46,7 @@
     "pages": [
       {
         "page": 1,
-        "text_characters": 2614,
+        "text_characters": 2613,
         "user_unit": 1.0,
         "media_box": [
           0.0,
@@ -63,7 +63,7 @@
       },
       {
         "page": 2,
-        "text_characters": 3369,
+        "text_characters": 3362,
         "user_unit": 1.0,
         "media_box": [
           0.0,
@@ -80,7 +80,7 @@
       },
       {
         "page": 3,
-        "text_characters": 2559,
+        "text_characters": 2535,
         "user_unit": 1.0,
         "media_box": [
           0.0,
@@ -97,7 +97,7 @@
       },
       {
         "page": 4,
-        "text_characters": 2672,
+        "text_characters": 2655,
         "user_unit": 1.0,
         "media_box": [
           0.0,
@@ -114,7 +114,7 @@
       },
       {
         "page": 5,
-        "text_characters": 1715,
+        "text_characters": 1714,
         "user_unit": 1.0,
         "media_box": [
           0.0,
@@ -131,7 +131,7 @@
       },
       {
         "page": 6,
-        "text_characters": 3217,
+        "text_characters": 3213,
         "user_unit": 1.0,
         "media_box": [
           0.0,
@@ -148,7 +148,7 @@
       },
       {
         "page": 7,
-        "text_characters": 2314,
+        "text_characters": 2305,
         "user_unit": 1.0,
         "media_box": [
           0.0,
@@ -165,7 +165,7 @@
       },
       {
         "page": 8,
-        "text_characters": 3576,
+        "text_characters": 3569,
         "user_unit": 1.0,
         "media_box": [
           0.0,
@@ -182,7 +182,7 @@
       },
       {
         "page": 9,
-        "text_characters": 3445,
+        "text_characters": 3440,
         "user_unit": 1.0,
         "media_box": [
           0.0,
@@ -199,7 +199,7 @@
       },
       {
         "page": 10,
-        "text_characters": 3310,
+        "text_characters": 3307,
         "user_unit": 1.0,
         "media_box": [
           0.0,
@@ -216,7 +216,7 @@
       },
       {
         "page": 11,
-        "text_characters": 1969,
+        "text_characters": 1968,
         "user_unit": 1.0,
         "media_box": [
           0.0,
@@ -233,7 +233,7 @@
       },
       {
         "page": 12,
-        "text_characters": 3174,
+        "text_characters": 3172,
         "user_unit": 1.0,
         "media_box": [
           0.0,
@@ -730,7 +730,7 @@
     "main.tex": "0920f0803858cabdc9ca2829c8475de686f42949beb739f20d6e50efb575cc16",
     "proof_map.json": "33c13fff25d9244ac55e136c7f30a18d5d7d52c4014efa3c1ae56bba63939461",
     "proof_map.md": "148736b34715434b03c42dd0bbeacfcd21ccaa83bee4c27f13e3188c2746fd50",
-    "README.md": "d54eaea8b20bcc4085d5b07f88f79f9169dc2d66bae5751932c0ba28984924c6",
+    "README.md": "345bf68333463a84d8d3a7524ee3d56176b392dfe64ea9d62d087d5105b9a7e4",
     "references.bib": "0f1811ee0c6eb9dc8b2313a67f3a6910d2309708c37ecc8c3bc7643fc376d7e5",
     "sections/certificates.tex": "7fd687c078c22fee710a314e87440369a40c4e6a6f514cea9c95b38d8e358c8c",
     "sections/construction.tex": "3e61773d8ef38a9d856d606e6d9bfaa6450b18224cdcc0dfd218cda9f1ad21b2",
@@ -739,7 +739,7 @@
     "sections/introduction.tex": "fcef7f6a5f5e4fc79794e682b3410cefa8cdc16928ae1cd7a9a32f0b9e9f788c",
     "sections/proof_index.tex": "08c7c35dbddb5dd9562f9d7a8ca3cbdbd90a06b54aa6c0d5a18735c2de4993e2",
     "sections/upper.tex": "7366c600e71698b5f7ec593debe30305da2261d7e34b674712ff277c13ac354d",
-    "validate.py": "d7daa8c4a3af10fbc8a3d116047b145508477e49d480ac01a85c84e6d664a5ba",
+    "validate.py": "5bf486c0d16b6a6ee65c578db3bc111f059f6c0e63b13cb59b1f5751a06a0ab0",
     "visual_review.json": "b4966ba8bda9532bed43bec22c89ccf21ded5b16b67eae06584c4ed8fab4ee39"
   }
 }

@@ -1,4 +1,4 @@
-ℹ [1917/1982] Replayed Kobon.TangentBounds
+ℹ [1916/1932] Replayed Kobon.TangentBounds
 info: Kobon/TangentBounds.lean:95:0: 'Kobon.TangentBounds.tan_tenth_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
 info: Kobon/TangentBounds.lean:96:0: 'Kobon.TangentBounds.tan_two_fifths_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
 ⚠ [1981/1982] Replayed Kobon.BBLTangentBounds

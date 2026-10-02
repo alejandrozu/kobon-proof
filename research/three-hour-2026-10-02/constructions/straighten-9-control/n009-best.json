@@ -1,0 +1,69 @@
+{
+  "n": 9,
+  "triangle_count": 21,
+  "simple": true,
+  "lines_frac": [
+    [
+      "984419715493",
+      "175834648888",
+      "38988482180"
+    ],
+    [
+      "867133586409",
+      "498075640161",
+      "-38988482180"
+    ],
+    [
+      "642787609687",
+      "766044443119",
+      "164927101129"
+    ],
+    [
+      "339932584944",
+      "940449806047",
+      "-38988482180"
+    ],
+    [
+      "2220635818",
+      "999997534385",
+      "38988482180"
+    ],
+    [
+      "-342020143326",
+      "939692620786",
+      "-164927101129"
+    ],
+    [
+      "-644487130549",
+      "764615157159",
+      "38988482180"
+    ],
+    [
+      "-864912950590",
+      "501921894224",
+      "-38988482180"
+    ],
+    [
+      "-984807753012",
+      "173648177667",
+      "164927101129"
+    ]
+  ],
+  "source": "research\\three-hour-2026-10-02\\constructions\\primary-inputs\\data\\exhaustive\\9.words-full.txt",
+  "source_sha256": "0937aef99c8840756cffa991312213ea7e893b360da40081f8ca6124b126f6f6",
+  "input_attribution": "Parpalak--Utkin pseudoline word, arXiv:2607.29236",
+  "method_attribution": "Angle/distance hinge straightening inspired by Savchuk, arXiv:2507.07951",
+  "construction": "Independent analytic-gradient straightening with seeded restarts",
+  "event": {
+    "attempt": 1,
+    "triangles": 21,
+    "simple": true,
+    "target_violations": 0,
+    "minimum_margin": 0.021102673968184896,
+    "loss": 0.0,
+    "iterations": 1,
+    "epsilon": 0.001,
+    "seconds": 0.0030024051666259766,
+    "result": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+  }
+}

@@ -1,0 +1,8 @@
+'Kobon.UpperCoreExtraction.ordinary_iff_support_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperCoreExtraction.core_multiplicity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperCoreExtraction.defect_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperCoreExtraction.certificate_oneCore_classification' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperCoreExtraction.simple_arrangement_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+

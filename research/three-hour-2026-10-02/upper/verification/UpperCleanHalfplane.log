@@ -1,0 +1,7 @@
+'Kobon.UpperCleanHalfplane.transverse_intersection_off_clean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperCleanHalfplane.common_halfplane' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperCleanHalfplane.clean_crossings_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperCleanHalfplane.ordinary_vertex_pairs_on_line' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperCleanHalfplane.clean_crossing_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperCleanHalfplane.clean_line_no_pair_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+

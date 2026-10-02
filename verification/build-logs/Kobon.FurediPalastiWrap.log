@@ -1,7 +1,7 @@
-ℹ [775/790] Replayed Kobon.Geometry
+ℹ [775/841] Replayed Kobon.Geometry
 info: Kobon/Geometry.lean:144:0: 'Kobon.validate_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
 info: Kobon/Geometry.lean:145:0: 'Kobon.orientedEval_affine' depends on axioms: [propext, Classical.choice, Quot.sound]
-ℹ [776/790] Replayed Kobon.Simple
+ℹ [776/841] Replayed Kobon.Simple
 info: Kobon/Simple.lean:49:0: 'Kobon.validate_simple_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
 ℹ [2969/2973] Replayed Kobon.FurediPalasti
 info: Kobon/FurediPalasti.lean:345:0: 'Kobon.FurediPalasti.lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

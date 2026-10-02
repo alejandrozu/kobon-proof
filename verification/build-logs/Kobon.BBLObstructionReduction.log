@@ -1,0 +1,7 @@
+ℹ [969/994] Replayed Kobon.StrictLinearCertificate
+info: Kobon/StrictLinearCertificate.lean:49:0: 'Kobon.StrictLinearCertificate.infeasible' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/StrictLinearCertificate.lean:50:0: 'Kobon.StrictLinearCertificate.homogeneous_infeasible' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [994/994] Replayed Kobon.BBLObstructionReduction
+info: Kobon/BBLObstructionReduction.lean:73:0: 'Kobon.BBLObstructionReduction.two_columns_follow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/BBLObstructionReduction.lean:74:0: 'Kobon.BBLObstructionReduction.reduced_infeasible' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (994 jobs).

@@ -1,0 +1,96 @@
+{
+  "source": "research\\finite-table\\classical-049.json",
+  "source_sha256": "1191f0ffb37ec01c48fbf04ce7bc458b1b9f9beeebc92d9d86233e3d1237e973",
+  "source_order": 49,
+  "source_count": 767,
+  "terms": 1754,
+  "mode": "beam",
+  "seed": 20261002,
+  "seconds_per_order": 60,
+  "records": [
+    {
+      "n": 48,
+      "deleted": 1,
+      "triangles": 721,
+      "beam_width": 60,
+      "seconds": 0.007513523101806641,
+      "exhaustive_subsets": true,
+      "result": "bounded exact subset search",
+      "baseline": 721,
+      "deleted_indices": [
+        1
+      ],
+      "independent_verification": {
+        "file": "n048.json",
+        "n": 48,
+        "triangles": 721,
+        "pass_check": true
+      }
+    },
+    {
+      "n": 47,
+      "deleted": 2,
+      "triangles": 677,
+      "beam_width": 60,
+      "seconds": 0.3026618957519531,
+      "exhaustive_subsets": true,
+      "result": "bounded exact subset search",
+      "baseline": 691,
+      "deleted_indices": [
+        35,
+        36
+      ],
+      "independent_verification": {
+        "file": "n047.json",
+        "n": 47,
+        "triangles": 677,
+        "pass_check": true
+      }
+    },
+    {
+      "n": 46,
+      "deleted": 3,
+      "triangles": 637,
+      "beam_width": 60,
+      "seconds": 8.346253871917725,
+      "exhaustive_subsets": false,
+      "result": "bounded exact subset search",
+      "baseline": 660,
+      "deleted_indices": [
+        6,
+        22,
+        23
+      ],
+      "independent_verification": {
+        "file": "n046.json",
+        "n": 46,
+        "triangles": 637,
+        "pass_check": true
+      }
+    },
+    {
+      "n": 45,
+      "deleted": 4,
+      "triangles": 598,
+      "beam_width": 60,
+      "seconds": 1.2811708450317383,
+      "exhaustive_subsets": false,
+      "result": "bounded exact subset search",
+      "baseline": 632,
+      "deleted_indices": [
+        6,
+        12,
+        23,
+        24
+      ],
+      "independent_verification": {
+        "file": "n045.json",
+        "n": 45,
+        "triangles": 598,
+        "pass_check": true
+      }
+    }
+  ],
+  "total_seconds": 14.903712034225464,
+  "baseline_definition": "baseline is the universalG formula, not the retained finite envelope"
+}

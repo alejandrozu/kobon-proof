@@ -1,0 +1,10 @@
+'Kobon.UpperFan.card_le_of_adjacent_missing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperFan.Sectors.all_sectors_of_extremal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperFan.Sectors.core_shared_card_eq_three_of_extremal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperFan.Sectors.ordinary_shared_card_le_of_core_le_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperFan.Sectors.weighted_local_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+

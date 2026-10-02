@@ -1,0 +1,11 @@
+Kobon/UpperSharedIncidence.lean:31:67: warning: This simp argument is unused:
+  ite_false
+
+Hint: Omit it from the simp argument list.
+  simp only [̵s̵i̵d̵e̵T̵r̵i̵a̵n̵g̵l̵e̵,̵F̵i̵n̵.̵r̵e̵d̵u̵c̵e̵F̵i̵n̵M̵k̵,̵i̵t̵e̵_̵t̵r̵u̵e̵,̵i̵t̵e̵_̵f̵a̵l̵s̵e̵]̵[̲s̲i̲d̲e̲T̲r̲i̲a̲n̲g̲l̲e̲,̲ ̲F̲i̲n̲.̲r̲e̲d̲u̲c̲e̲F̲i̲n̲M̲k̲,̲ ̲i̲t̲e̲_̲t̲r̲u̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Kobon.UpperSharedIncidence.shared_has_nonordinary_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperSharedIncidence.oneCore_has_both_kinds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperSharedIncidence.core_incidence' depends on axioms: [propext, Classical.choice, Quot.sound]
+

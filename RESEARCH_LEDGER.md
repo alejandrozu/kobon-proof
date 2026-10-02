@@ -4,6 +4,27 @@ Owner: Alejandro Zarzuelo Urdiales. Research session: 20 September 2026 (America
 
 Read this file before resuming. It records what was retained, what failed, where the evidence lives, and what still needs proof. [FORMALIZATION.md](FORMALIZATION.md) is the authoritative Lean scope statement; [RESULTS.md](RESULTS.md) maps concrete claims to files.
 
+## Three-hour research session on 2 October 2026
+
+The [session report](research/three-hour-2026-10-02/RESEARCH_REVIEW.md)
+supersedes the older notes below concerning the missing BBL recursive invariant.
+The odd and adjacent-even infinite families from the eleven-line seed now
+have actual geometric Lean proofs at every depth. `RecursiveEnvelope.all_n`
+retains the old all-order bound and all finite certificates, with strict
+improvements over the old repository envelope at infinitely many orders.
+The report records the exact formulas, native-evaluation trust, comparison
+limits, and construction-search scope. It does not claim a new numerical
+record over the literature or the unrestricted successor theorem.
+
+The upper work now derives elementary segments, side capacity, intersection
+multiplicities and the global defect identity from actual arrangements.
+Clean-line charging is also complete, yielding `n-h <= 2U+D1` from actual
+arrangements. Global cyclic-fan extraction remains the critical missing
+bridge for the general nonsimple upper consequences. Independent audits and reproducible exact-search evidence
+are linked from the report. The earlier manuscripts retain their frozen
+mathematical revision; their validation now reads those Git blobs rather
+than conflating them with the enlarged current library.
+
 ## Journal-length version on 1 October 2026
 
 ### Rendering review on 2 October 2026
@@ -125,7 +146,7 @@ The source register identifies the relevant original works: Füredi–Palásti, 
 8. **Final compatible seed.** Starting with the Honma-based eleven-line arrangement described by Savchuk, we selected a different distinguished line, fit a tangent-grid realization, and simplified its reciprocal slopes. The count 32 and the general doubling method are prior work. The additional evidence is a concrete grid-compatible realization valid for an entire small-parameter interval, together with the resulting manuscript family consequences. Priority remains unresolved.
 9. **This consolidation.** Explicit coordinates were added wherever the earlier 3–60 own-results table had only a theorem-derived number. The active Lean library checks finite witnesses, rather than assuming the unfinished general extension. The original files, negative experiments, and weaker superseded claims remain accessible as history.
 
-## Current hybrid seed and claim
+## Historical September hybrid seed and claim (superseded above)
 
 **Successor-formalization update.** The actual real trigonometric seed is now proved in Lean for every positive epsilon at most `1/100000`, with arbitrarily small choices. `Exterior.extension` also proves real geometric addition from visible-pair certificates for either parity. The unrestricted full-gain recurrence remains unproved. Its closed formula is proved only under that explicit premise. An exact exterior chain from 49 gives `767 -> 791 -> 814 -> 816 -> 818`; the intermediate 50-line input has maximum exterior gain 23, below 25. The wedge budget `b_next + gain <= b + 2` obstructs indefinite exterior full-gain iteration. Read [the successor report](research/successor-formalization/README.md) before resuming this direction; all coordinates and profiles are saved under `experiments/2026-09-20/successor-49/`.
 
@@ -167,7 +188,7 @@ The earlier omitted outputs at 40,47,48,52,53,54,55,56,57,59,60 were already dom
 
 The 3–60 materialization does not attempt to include every externally known classical witness: for example it retains simple 8:14 while OEIS lists classical 8:15. This difference is not an improvement or a contradiction. The source table and variant must accompany every comparison.
 
-## Next tasks, in order
+## Historical September tasks (superseded by the October report)
 
 For the user's stronger successive recurrence, seek an interior/reconstruction step or a different arrangement family. Do not attempt to maintain full exterior gain indefinitely: the wedge resource budget obstructs it. The numerical target from 49, `floor((n-1)^2/4)+191`, is now proved unconditionally in `AllN.from_49_unconditional` by a different construction argument. The full-gain recurrence itself remains open here.
 

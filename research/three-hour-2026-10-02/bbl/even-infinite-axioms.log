@@ -1,0 +1,2 @@
+'Kobon.BBLEvenInfinite.uniform_iterate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.BBLEvenInfinite.infinite_even_family' depends on axioms: [propext, Classical.choice, Quot.sound]

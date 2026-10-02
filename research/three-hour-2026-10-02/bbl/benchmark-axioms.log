@@ -1,0 +1,5 @@
+'Kobon.BBLFamilyBenchmarks.strict_previous_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.BBLFamilyBenchmarks.odd_baseline_gain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.BBLFamilyBenchmarks.even_baseline_gain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.BBLFamilyBenchmarks.odd_polynomial_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.BBLFamilyBenchmarks.even_simple_polynomial_gap' depends on axioms: [propext, Classical.choice, Quot.sound]

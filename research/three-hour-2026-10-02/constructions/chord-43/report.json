@@ -1,0 +1,180 @@
+{
+  "source": "research\\finite-table\\classical-043.json",
+  "source_sha256": "df5ae4ee667e4e988cb44227b51445f8602cf091779b83c4f84ebc4178574e18",
+  "source_count": 587,
+  "target_order": 44,
+  "target_count": 609,
+  "seed": 20261002,
+  "time_limit": 600.0,
+  "pair_candidates": 407253,
+  "attempts": 407253,
+  "distinct_nonparallel_chords": 370230,
+  "best": 607,
+  "complete_pair_scan": true,
+  "seconds": 272.1383616924286,
+  "improvements": [
+    {
+      "attempt": 1,
+      "valid": 1,
+      "triangles": 588,
+      "retained": 568,
+      "new_triangles": 20,
+      "new_triple_points": 2,
+      "vertices": [
+        182,
+        288
+      ],
+      "seconds": 0.1861128807067871
+    },
+    {
+      "attempt": 2,
+      "valid": 2,
+      "triangles": 592,
+      "retained": 566,
+      "new_triangles": 26,
+      "new_triple_points": 2,
+      "vertices": [
+        639,
+        767
+      ],
+      "seconds": 0.18711090087890625
+    },
+    {
+      "attempt": 3,
+      "valid": 3,
+      "triangles": 593,
+      "retained": 569,
+      "new_triangles": 24,
+      "new_triple_points": 2,
+      "vertices": [
+        11,
+        557
+      ],
+      "seconds": 0.18811535835266113
+    },
+    {
+      "attempt": 4,
+      "valid": 4,
+      "triangles": 594,
+      "retained": 567,
+      "new_triangles": 27,
+      "new_triple_points": 2,
+      "vertices": [
+        35,
+        179
+      ],
+      "seconds": 0.18911409378051758
+    },
+    {
+      "attempt": 5,
+      "valid": 5,
+      "triangles": 595,
+      "retained": 567,
+      "new_triangles": 28,
+      "new_triple_points": 2,
+      "vertices": [
+        191,
+        224
+      ],
+      "seconds": 0.19062447547912598
+    },
+    {
+      "attempt": 44,
+      "valid": 38,
+      "triangles": 596,
+      "retained": 572,
+      "new_triangles": 24,
+      "new_triple_points": 2,
+      "vertices": [
+        4,
+        766
+      ],
+      "seconds": 0.23287749290466309
+    },
+    {
+      "attempt": 57,
+      "valid": 51,
+      "triangles": 602,
+      "retained": 582,
+      "new_triangles": 20,
+      "new_triple_points": 2,
+      "vertices": [
+        693,
+        901
+      ],
+      "seconds": 0.24627685546875
+    },
+    {
+      "attempt": 1871,
+      "valid": 1705,
+      "triangles": 603,
+      "retained": 582,
+      "new_triangles": 21,
+      "new_triple_points": 2,
+      "vertices": [
+        41,
+        552
+      ],
+      "seconds": 1.938568353652954
+    },
+    {
+      "attempt": 8814,
+      "valid": 8018,
+      "triangles": 604,
+      "retained": 585,
+      "new_triangles": 19,
+      "new_triple_points": 2,
+      "vertices": [
+        41,
+        900
+      ],
+      "seconds": 6.261651277542114
+    },
+    {
+      "attempt": 10348,
+      "valid": 9409,
+      "triangles": 605,
+      "retained": 586,
+      "new_triangles": 19,
+      "new_triple_points": 2,
+      "vertices": [
+        162,
+        469
+      ],
+      "seconds": 7.2356116771698
+    },
+    {
+      "attempt": 11497,
+      "valid": 10442,
+      "triangles": 606,
+      "retained": 586,
+      "new_triangles": 20,
+      "new_triple_points": 2,
+      "vertices": [
+        41,
+        497
+      ],
+      "seconds": 7.9393532276153564
+    },
+    {
+      "attempt": 172206,
+      "valid": 156655,
+      "triangles": 607,
+      "retained": 585,
+      "new_triangles": 22,
+      "new_triple_points": 2,
+      "vertices": [
+        122,
+        497
+      ],
+      "seconds": 107.60823321342468
+    }
+  ],
+  "scope": "Exact bounded vertex-chord insertion search in this fixed old arrangement; no global nonexistence or optimality assertion.",
+  "best_line": [
+    "20776347227083",
+    "11798257350687",
+    "-440323381683222"
+  ],
+  "best_adjacency_check": 607
+}

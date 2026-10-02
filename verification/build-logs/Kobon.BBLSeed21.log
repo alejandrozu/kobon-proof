@@ -1,22 +1,22 @@
-ℹ [775/846] Replayed Kobon.Geometry
+ℹ [775/841] Replayed Kobon.Geometry
 info: Kobon/Geometry.lean:144:0: 'Kobon.validate_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
 info: Kobon/Geometry.lean:145:0: 'Kobon.orientedEval_affine' depends on axioms: [propext, Classical.choice, Quot.sound]
-ℹ [856/956] Replayed Kobon.Euclidean
+ℹ [856/930] Replayed Kobon.Euclidean
 info: Kobon/Euclidean.lean:147:0: 'Kobon.supporting_triangle_nondegenerate' depends on axioms: [propext, Classical.choice, Quot.sound]
 info: Kobon/Euclidean.lean:148:0: 'Kobon.same_halfplane_barycenter' depends on axioms: [propext, Classical.choice, Quot.sound]
 info: Kobon/Euclidean.lean:149:0: 'Kobon.triangle_interior_uncut' depends on axioms: [propext, Classical.choice, Quot.sound]
-ℹ [857/956] Replayed Kobon.Simple
+ℹ [857/930] Replayed Kobon.Simple
 info: Kobon/Simple.lean:49:0: 'Kobon.validate_simple_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
-ℹ [955/1035] Replayed Kobon.Exterior
+ℹ [955/1016] Replayed Kobon.Exterior
 info: Kobon/Exterior.lean:207:0: 'Kobon.Exterior.extension' depends on axioms: [propext, Classical.choice, Quot.sound]
 info: Kobon/Exterior.lean:208:0: 'Kobon.Exterior.safeHeight_beyond' depends on axioms: [propext, Classical.choice, Quot.sound]
-ℹ [981/1035] Replayed Kobon.Parametric
+ℹ [981/1016] Replayed Kobon.Parametric
 info: Kobon/Parametric.lean:183:0: 'Kobon.Parametric.triangle_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
 info: Kobon/Parametric.lean:184:0: 'Kobon.Parametric.simple_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
-ℹ [1922/1992] Replayed Kobon.TangentBounds
+ℹ [1921/1927] Replayed Kobon.TangentBounds
 info: Kobon/TangentBounds.lean:95:0: 'Kobon.TangentBounds.tan_tenth_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
 info: Kobon/TangentBounds.lean:96:0: 'Kobon.TangentBounds.tan_two_fifths_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
-ℹ [1923/1992] Replayed Kobon.SeedFamily
+ℹ [1925/1992] Replayed Kobon.SeedFamily
 info: Kobon/SeedFamily.lean:133:0: 'Kobon.SeedFamily.arbitrarily_small' depends on axioms: [propext, Classical.choice, Quot.sound]
 info: Kobon/SeedFamily.lean:134:0: 'Kobon.SeedFamily.simple_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
 ℹ [1926/1992] Replayed Kobon.HybridBoundary
@@ -38,7 +38,7 @@ The binding can be removed (if unused) or named `_` (if used implicitly).
 Note: This linter can be disabled with `set_option linter.unusedVariables false`
 info: Kobon/BBLTangentBounds.lean:160:0: 'Kobon.BBLTangentBounds.tan_1_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
 info: Kobon/BBLTangentBounds.lean:161:0: 'Kobon.BBLTangentBounds.tan_9_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
-ℹ [1992/1992] Built Kobon.BBLSeed21 (31s)
+ℹ [1992/1992] Replayed Kobon.BBLSeed21
 info: Kobon/BBLSeed21.lean:190:0: 'Kobon.BBLSeed21.simple_lower_bound' depends on axioms: [propext,
  Classical.choice,
  Quot.sound,

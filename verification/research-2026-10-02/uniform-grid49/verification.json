@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "n": 49,
+  "triangles": 767,
+  "caps": 47,
+  "epsilon_upper": "1/100",
+  "simple": true,
+  "central_apex_positive": true,
+  "all_fixed_slopes_positive": true,
+  "old_triple_signs": 17296,
+  "distinct_pair_normals": 1128,
+  "exact_tangent_enclosures": 23,
+  "smallest_determinant_lower": 8.3728184360034e-06,
+  "seconds": 3.681191921234131
+}

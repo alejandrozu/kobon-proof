@@ -1,0 +1,4 @@
+'Kobon.UpperEdgeCapacity.overlap_of_same_side' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperEdgeCapacity.opposite_sides_of_disjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperEdgeCapacity.at_most_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+

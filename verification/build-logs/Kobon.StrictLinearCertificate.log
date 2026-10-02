@@ -1,0 +1,4 @@
+ℹ [969/969] Replayed Kobon.StrictLinearCertificate
+info: Kobon/StrictLinearCertificate.lean:49:0: 'Kobon.StrictLinearCertificate.infeasible' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kobon/StrictLinearCertificate.lean:50:0: 'Kobon.StrictLinearCertificate.homogeneous_infeasible' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (969 jobs).

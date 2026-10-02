@@ -1,0 +1,4 @@
+'Kobon.UpperElementaryEdges.predicate_side_elementary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperElementaryEdges.predicate_all_sides_elementary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperElementaryEdges.no_vertex_in_relative_interior' depends on axioms: [propext, Classical.choice, Quot.sound]
+

@@ -1,0 +1,37 @@
+{
+  "generated_utc": "2026-10-02T19:08:22.0477680Z",
+  "description": "Sequential pinned-Lean compilation and printed-root axiom audit; source marker check is additional, not a substitute for kernel checking.",
+  "modules_expected": 2,
+  "modules_checked": 2,
+  "passed": true,
+  "results": [
+    {
+      "module": "Kobon.UpperCleanCover",
+      "source": "Kobon/UpperCleanCover.lean",
+      "sha256": "f20e717aaa995bf89452a40838315a233faf4a8e61a79f6446179b34b659c500",
+      "started_utc": "2026-10-02T19:06:39.3370110Z",
+      "elapsed_seconds": 34.631,
+      "compiler_exit_code": 0,
+      "forbidden_source_marker": false,
+      "forbidden_axiom_output": false,
+      "printed_axiom_roots": 8,
+      "unexpected_axioms": [],
+      "passed": true,
+      "log": "verification/UpperCleanCover.log"
+    },
+    {
+      "module": "Kobon.UpperCleanCharging",
+      "source": "Kobon/UpperCleanCharging.lean",
+      "sha256": "5c8b157ad4bc48bd64cf036770024084849e89f3e195c5246cf8d8b46e1577d7",
+      "started_utc": "2026-10-02T19:07:14.0908319Z",
+      "elapsed_seconds": 67.947,
+      "compiler_exit_code": 0,
+      "forbidden_source_marker": false,
+      "forbidden_axiom_output": false,
+      "printed_axiom_roots": 3,
+      "unexpected_axioms": [],
+      "passed": true,
+      "log": "verification/UpperCleanCharging.log"
+    }
+  ]
+}

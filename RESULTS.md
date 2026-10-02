@@ -1,9 +1,14 @@
 # Verified result index
 
-The strongest proved all-order function is `Universal.bound`: the maximum of
-`G(n)=floor(n(n-3)/3)+1+(n mod 2)` for `n>=4` and the finite envelope below.
-Use zero below three and one at three. The generic construction uses only
-standard logical axioms; finite coordinate checks use native evaluation.
+The strongest current proved all-order function is `RecursiveEnvelope.bound`.
+It retains `Universal.bound`, the maximum of
+`G(n)=floor(n(n-3)/3)+1+(n mod 2)` for `n>=4` and the finite envelope below,
+and adds the infinite geometric families: for `q=10*2^t`, the counts are
+`(q^2-4)/3` at `q+1` and `(q^2-4)/3+q/2` at `q+2`. Use zero below three and
+one at three. See the [family comparison table](research/three-hour-2026-10-02/family-comparison.csv)
+and [proof report](research/three-hour-2026-10-02/RESEARCH_REVIEW.md).
+Generic geometry uses standard logical axioms; large finite seed checks use
+native evaluation. No new coordinate certificate is added by the induction.
 
 The table records the strongest **saved coordinate witnesses**, not an
 exhaustive global record table or a list of original discoveries. Maiorana,

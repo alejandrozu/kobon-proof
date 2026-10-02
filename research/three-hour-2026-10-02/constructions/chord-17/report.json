@@ -1,0 +1,102 @@
+{
+  "source": "research\\finite-table\\classical-017.json",
+  "source_sha256": "cddf6d0a08a0d87c998cecf2d476bb9fb8466048944c31349e001b07f910fb21",
+  "source_count": 85,
+  "target_order": 18,
+  "target_count": 94,
+  "seed": 20261002,
+  "time_limit": 120.0,
+  "pair_candidates": 9180,
+  "attempts": 9180,
+  "distinct_nonparallel_chords": 7136,
+  "best": 93,
+  "complete_pair_scan": true,
+  "seconds": 1.8927996158599854,
+  "improvements": [
+    {
+      "attempt": 2,
+      "valid": 1,
+      "triangles": 88,
+      "retained": 77,
+      "new_triangles": 11,
+      "new_triple_points": 2,
+      "vertices": [
+        106,
+        108
+      ],
+      "seconds": 0.020757436752319336
+    },
+    {
+      "attempt": 4,
+      "valid": 3,
+      "triangles": 89,
+      "retained": 78,
+      "new_triangles": 11,
+      "new_triple_points": 2,
+      "vertices": [
+        39,
+        86
+      ],
+      "seconds": 0.021757125854492188
+    },
+    {
+      "attempt": 19,
+      "valid": 17,
+      "triangles": 90,
+      "retained": 81,
+      "new_triangles": 9,
+      "new_triple_points": 2,
+      "vertices": [
+        9,
+        45
+      ],
+      "seconds": 0.02675795555114746
+    },
+    {
+      "attempt": 68,
+      "valid": 53,
+      "triangles": 91,
+      "retained": 80,
+      "new_triangles": 11,
+      "new_triple_points": 2,
+      "vertices": [
+        24,
+        110
+      ],
+      "seconds": 0.037090301513671875
+    },
+    {
+      "attempt": 316,
+      "valid": 240,
+      "triangles": 92,
+      "retained": 80,
+      "new_triangles": 12,
+      "new_triple_points": 2,
+      "vertices": [
+        6,
+        56
+      ],
+      "seconds": 0.09786486625671387
+    },
+    {
+      "attempt": 692,
+      "valid": 541,
+      "triangles": 93,
+      "retained": 81,
+      "new_triangles": 12,
+      "new_triple_points": 2,
+      "vertices": [
+        11,
+        119
+      ],
+      "seconds": 0.18265795707702637
+    }
+  ],
+  "scope": "Exact bounded vertex-chord insertion search in this fixed old arrangement; no global nonexistence or optimality assertion.",
+  "best_line": [
+    "1744",
+    "858",
+    "19931"
+  ],
+  "best_adjacency_check": 93
+}

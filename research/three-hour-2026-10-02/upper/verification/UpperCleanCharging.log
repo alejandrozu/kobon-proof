@@ -1,0 +1,4 @@
+'Kobon.UpperCleanCharging.charge_line_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperCleanCharging.oneCore_ordinary_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperCleanCharging.certificate_clean_line_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+

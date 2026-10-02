@@ -1,0 +1,130 @@
+{
+  "author": "Roman Parpalak and Denis Utkin",
+  "paper": "https://arxiv.org/abs/2607.29236",
+  "repository": "https://github.com/parpalak/pseudoline-algorithms",
+  "commit": "a9c628cbaa765935f224ed5ca5fde7b2f591e16d",
+  "scope": "Pseudoline data only; straight-line realizability is NOT implied",
+  "files": [
+    {
+      "path": "data/partial/29.from26.asc.words-part.txt",
+      "url": "https://raw.githubusercontent.com/parpalak/pseudoline-algorithms/a9c628cbaa765935f224ed5ca5fde7b2f591e16d/data/partial/29.from26.asc.words-part.txt",
+      "sha256": "a72db83c9c48fe7cec0c47421961a06f8458522ea802f9b999f2a9a2d81ab77d",
+      "bytes": 1113
+    },
+    {
+      "path": "data/partial/33.from30.asc.words-part.txt",
+      "url": "https://raw.githubusercontent.com/parpalak/pseudoline-algorithms/a9c628cbaa765935f224ed5ca5fde7b2f591e16d/data/partial/33.from30.asc.words-part.txt",
+      "sha256": "4458537b7c54362c94e92cecff96c55c1c6f718a8ad019233e92cd948367220c",
+      "bytes": 1475
+    },
+    {
+      "path": "data/partial/35.from32.asc.words-part.txt",
+      "url": "https://raw.githubusercontent.com/parpalak/pseudoline-algorithms/a9c628cbaa765935f224ed5ca5fde7b2f591e16d/data/partial/35.from32.asc.words-part.txt",
+      "sha256": "613e2b504a68cdfde80a0443c356558895b6a48616cce37307d2e51f223792a2",
+      "bytes": 1665
+    },
+    {
+      "path": "data/partial/39.from36.asc.words-part.txt",
+      "url": "https://raw.githubusercontent.com/parpalak/pseudoline-algorithms/a9c628cbaa765935f224ed5ca5fde7b2f591e16d/data/partial/39.from36.asc.words-part.txt",
+      "sha256": "76140bd6f7d158a125ef879746e76a6867e19727a6163bbdec51f92c83870fc0",
+      "bytes": 2100
+    },
+    {
+      "path": "data/partial/41.from38.asc.words-part.txt",
+      "url": "https://raw.githubusercontent.com/parpalak/pseudoline-algorithms/a9c628cbaa765935f224ed5ca5fde7b2f591e16d/data/partial/41.from38.asc.words-part.txt",
+      "sha256": "e8d3ee27542a953022e6201305a264a8f3927e5e2faef21fb1b0607e5cef0ed7",
+      "bytes": 2331
+    },
+    {
+      "path": "data/partial/43.words-part.txt",
+      "url": "https://raw.githubusercontent.com/parpalak/pseudoline-algorithms/a9c628cbaa765935f224ed5ca5fde7b2f591e16d/data/partial/43.words-part.txt",
+      "sha256": "e5b709514096cb743e9d896a1859725347af1cbb994ff743c7852ac8841d1a22",
+      "bytes": 5333
+    },
+    {
+      "path": "data/partial/45.from42.asc.words-part.txt",
+      "url": "https://raw.githubusercontent.com/parpalak/pseudoline-algorithms/a9c628cbaa765935f224ed5ca5fde7b2f591e16d/data/partial/45.from42.asc.words-part.txt",
+      "sha256": "658080ecbdbb1d7a51f3b97766ae21545c355fe5e4789a75b6eed14fa6bec03b",
+      "bytes": 2828
+    },
+    {
+      "path": "data/partial/47.from44.asc.words-part.txt",
+      "url": "https://raw.githubusercontent.com/parpalak/pseudoline-algorithms/a9c628cbaa765935f224ed5ca5fde7b2f591e16d/data/partial/47.from44.asc.words-part.txt",
+      "sha256": "b578a2a412758287b867c29d3f80717a00f2b366a386b0da4a607a057b161cd6",
+      "bytes": 3101
+    },
+    {
+      "path": "data/partial/49.words-part.txt",
+      "url": "https://raw.githubusercontent.com/parpalak/pseudoline-algorithms/a9c628cbaa765935f224ed5ca5fde7b2f591e16d/data/partial/49.words-part.txt",
+      "sha256": "534765cc506d39eb95c234d95bf8b36649146436076f1ed341a3f6368c335e73",
+      "bytes": 3376
+    },
+    {
+      "path": "data/partial/51.from48.asc.words-part.txt",
+      "url": "https://raw.githubusercontent.com/parpalak/pseudoline-algorithms/a9c628cbaa765935f224ed5ca5fde7b2f591e16d/data/partial/51.from48.asc.words-part.txt",
+      "sha256": "e27a1e551eff194a32fee111255ca22215eb7c90209a67f5eb3bb6fb4f7c7205",
+      "bytes": 3670
+    },
+    {
+      "path": "data/partial/53.from50.asc.words-part.txt",
+      "url": "https://raw.githubusercontent.com/parpalak/pseudoline-algorithms/a9c628cbaa765935f224ed5ca5fde7b2f591e16d/data/partial/53.from50.asc.words-part.txt",
+      "sha256": "9999145361ad560030d93862eebb0cdedefc55e2f1d9ab1f223c9e200e4ad6ba",
+      "bytes": 3969
+    },
+    {
+      "path": "data/partial/55.words-part.txt",
+      "url": "https://raw.githubusercontent.com/parpalak/pseudoline-algorithms/a9c628cbaa765935f224ed5ca5fde7b2f591e16d/data/partial/55.words-part.txt",
+      "sha256": "99bb39da1f2313798a24829e2603530ac14f7afefb9e717e0ed051f5fa3b3888",
+      "bytes": 4291
+    },
+    {
+      "path": "data/partial/57.from54.asc.words-part.txt",
+      "url": "https://raw.githubusercontent.com/parpalak/pseudoline-algorithms/a9c628cbaa765935f224ed5ca5fde7b2f591e16d/data/partial/57.from54.asc.words-part.txt",
+      "sha256": "07b74ebd69620cee6dd985f844bad647e8049e421dff61bfb3430a6647656fb0",
+      "bytes": 4623
+    },
+    {
+      "path": "data/partial/59.from56.asc.words-part.txt",
+      "url": "https://raw.githubusercontent.com/parpalak/pseudoline-algorithms/a9c628cbaa765935f224ed5ca5fde7b2f591e16d/data/partial/59.from56.asc.words-part.txt",
+      "sha256": "945856e1939052145463351a0693111d40fe663f156440b9f2307fc1826f458e",
+      "bytes": 4967
+    },
+    {
+      "path": "data/exhaustive/9.words-full.txt",
+      "url": "https://raw.githubusercontent.com/parpalak/pseudoline-algorithms/a9c628cbaa765935f224ed5ca5fde7b2f591e16d/data/exhaustive/9.words-full.txt",
+      "sha256": "0937aef99c8840756cffa991312213ea7e893b360da40081f8ca6124b126f6f6",
+      "bytes": 315
+    },
+    {
+      "path": "data/exhaustive/15.words-full.txt",
+      "url": "https://raw.githubusercontent.com/parpalak/pseudoline-algorithms/a9c628cbaa765935f224ed5ca5fde7b2f591e16d/data/exhaustive/15.words-full.txt",
+      "sha256": "559cf256c7bcbe94cce64f521fecb98db15243e6e5144c2734255d32ff199191",
+      "bytes": 25631
+    },
+    {
+      "path": "data/exhaustive/21.uniq-p.txt",
+      "url": "https://raw.githubusercontent.com/parpalak/pseudoline-algorithms/a9c628cbaa765935f224ed5ca5fde7b2f591e16d/data/exhaustive/21.uniq-p.txt",
+      "sha256": "380e3f9744e9a1efc7a2e9ccfdb1e59d26d7a7937f5fe63e8e1b0ea291ebbdfa",
+      "bytes": 9930
+    },
+    {
+      "path": "data/exhaustive/21.uniq-p-sym.jsonl",
+      "url": "https://raw.githubusercontent.com/parpalak/pseudoline-algorithms/a9c628cbaa765935f224ed5ca5fde7b2f591e16d/data/exhaustive/21.uniq-p-sym.jsonl",
+      "sha256": "0450fc8680a630a0065518b5bb5c387317d64f99a0ebda8f478cb6101e86aa5f",
+      "bytes": 27027
+    },
+    {
+      "path": "data/exhaustive/21.uniq-e.txt",
+      "url": "https://raw.githubusercontent.com/parpalak/pseudoline-algorithms/a9c628cbaa765935f224ed5ca5fde7b2f591e16d/data/exhaustive/21.uniq-e.txt",
+      "sha256": "288b070ecc0b9e8edf90b476cb2ae5a149d90d299cc74f451a6731414ca3f341",
+      "bytes": 131069
+    }
+  ],
+  "license_audit": {
+    "checked_utc": "2026-10-02",
+    "numerical_data_license": "No explicit license found covering data at the pinned commit",
+    "license_file_found": "preprint/LICENSE",
+    "scope": "Only numerical arrangement words and symmetry data are retained; no manuscript or source code copied",
+    "source_code_reference": "The preprint license mentions MIT for source code elsewhere; this is not interpreted as a license for data."
+  }
+}

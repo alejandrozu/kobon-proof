@@ -1,0 +1,4 @@
+'Kobon.UpperEvenSimpleOptimality.certificate_even_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperEvenSimpleOptimality.simple_lower_bound_even_floor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

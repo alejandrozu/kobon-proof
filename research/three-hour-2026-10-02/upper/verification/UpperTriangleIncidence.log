@@ -1,0 +1,27 @@
+Kobon/UpperTriangleIncidence.lean:112:64: warning: This simp argument is unused:
+  ite_false
+
+Hint: Omit it from the simp argument list.
+  simp only [edge, ̲sideTriangle, ̲cycle, ̲Fin.reduceFinMk, ̲ite_true,̵i̵t̵e̵_̵f̵a̵l̵s̵e̵] at he
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Kobon/UpperTriangleIncidence.lean:115:34: warning: This simp argument is unused:
+  Ne.symm hpr
+
+Hint: Omit it from the simp argument list.
+  simp [̵h̵p̵q̵,̵h̵p̵r̵,̵h̵q̵r̵,̵N̵e̵.̵s̵y̵m̵m̵ ̵h̵p̵q̵,̵N̵e̵.̵s̵y̵m̵m̵ ̵h̵p̵r̵,̵N̵e̵.̵s̵y̵m̵m̵[̲h̲p̲q̲,̲ ̲h̲p̲r̲,̲ ̲h̲q̲r̲,̲ ̲N̲e̲.̲s̲y̲m̲m̲ ̲h̲p̲q̲,̲ ̲N̲e̲.̲s̲y̲m̲m̲ hqr] at h₁ h₂
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Kobon/UpperTriangleIncidence.lean:115:46: warning: This simp argument is unused:
+  Ne.symm hqr
+
+Hint: Omit it from the simp argument list.
+  simp [̵h̵p̵q̵,̵h̵p̵r̵,̵h̵q̵r̵,̵N̵e̵.̵s̵y̵m̵m̵ ̵h̵p̵q̵,̵N̵e̵.̵s̵y̵m̵m̵ ̵h̵p̵r̵,̵N̵e̵.̵s̵y̵m̵m̵ ̵h̵q̵r̵]̵[̲h̲p̲q̲,̲ ̲h̲p̲r̲,̲ ̲h̲q̲r̲,̲ ̲N̲e̲.̲s̲y̲m̲m̲ ̲h̲p̲q̲,̲ ̲N̲e̲.̲s̲y̲m̲m̲ ̲h̲p̲r̲]̲ at h₁ h₂
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Kobon.UpperTriangleIncidence.edge_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperTriangleIncidence.degree_le_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperTriangleIncidence.exact_incidence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperTriangleIncidence.exact_incidence_with_unused' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperTriangleIncidence.certificate_incidence' depends on axioms: [propext, Classical.choice, Quot.sound]
+

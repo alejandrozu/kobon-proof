@@ -1,0 +1,4 @@
+'Kobon.UpperCoreBudget.weighted_defect' depends on axioms: [propext, Quot.sound]
+'Kobon.UpperCoreBudget.at_most_three_multiple_points' depends on axioms: [propext, Quot.sound]
+'Kobon.UpperCoreBudget.triangles_from_three_core_defect' depends on axioms: [propext, Classical.choice, Quot.sound]
+

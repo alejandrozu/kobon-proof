@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "scope": "Exact computer-assisted certificates; external classification completeness is attributed, not re-enumerated or Lean-proved.",
+  "source_sha256": {
+    "scripts/verify_research_2026_10_02.py": "b805b79393a972fb3a070354996b151fe537a418766846e6270dfded0a5f5cea",
+    "experiments/2026-10-02/verify_affine_grid_obstruction.py": "b2a577041a848622171023266018badd83fa342c7344f95ae805a10fecd72c5f",
+    "experiments/2026-10-02/verify_uniform_grid49.py": "7ed00a4b7647c679a980a5a68ca2c9965f3ee9630bbaa141670f27019d5bbeb9",
+    "experiments/2026-10-02/verify_uniform_grid49_visibility.py": "6a30f374d92d4fa8ed8007ecd1911733aee81da3867564819cd6b271c163199a",
+    "research/three-hour-2026-10-02/bbl/verify_local_robustness.py": "2d1147b9cf6bbba2821d58da5b204e9c6f602e690ca4a91da2985139165cb185",
+    "experiments/2026-10-02/audit_lean_grid49_export.py": "6fa81459a236e073b57b5fe4706bf383b45ca0c1872db335e5cb7f1b6035accf"
+  },
+  "results": [
+    {
+      "check": "affine-grid21",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 172.656
+    },
+    {
+      "check": "uniform-grid49",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 3.906
+    },
+    {
+      "check": "uniform-grid49-visibility",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 0.766
+    },
+    {
+      "check": "local-grid-robustness",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 0.218
+    },
+    {
+      "check": "lean-export-grid49",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 7.844
+    }
+  ]
+}

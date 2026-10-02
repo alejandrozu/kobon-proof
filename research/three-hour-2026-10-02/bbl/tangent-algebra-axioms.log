@@ -1,0 +1,2 @@
+'Kobon.BBLTangentAlgebra.tan_quartic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.BBLTangentAlgebra.real_root_characterization' depends on axioms: [propext, Classical.choice, Quot.sound]

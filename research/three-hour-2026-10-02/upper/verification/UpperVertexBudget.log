@@ -1,0 +1,4 @@
+'Kobon.UpperVertexBudget.multiplicity_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperVertexBudget.point_line_incidence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperVertexBudget.line_interval_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+

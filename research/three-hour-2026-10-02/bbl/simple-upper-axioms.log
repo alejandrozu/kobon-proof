@@ -1,0 +1,4 @@
+'Kobon.UpperSimpleOptimality.core_empty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperSimpleOptimality.certificate_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperSimpleOptimality.simple_lower_bound_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperSimpleOptimality.simple_lower_bound_floor' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,104 @@
+{
+  "source": "research\\finite-table\\classical-057.json",
+  "source_sha256": "f34fad1a3e84f39822ab048dcc13b9ee71b476acb05c94adfdb59587a1ce4188",
+  "source_order": 57,
+  "source_count": 1045,
+  "terms": 2367,
+  "mode": "milp",
+  "seed": 20261002,
+  "seconds_per_order": 90.0,
+  "records": [
+    {
+      "n": 56,
+      "deleted": 1,
+      "triangles": 990,
+      "solver_objective": 989.9999999999993,
+      "solver_dual_bound": 989.9999999999993,
+      "solver_gap": 0.0,
+      "solver_nodes": 1,
+      "result": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.315213680267334,
+      "baseline": 990,
+      "deleted_indices": [
+        37
+      ],
+      "independent_verification": {
+        "file": "n056.json",
+        "n": 56,
+        "triangles": 990,
+        "pass_check": true
+      }
+    },
+    {
+      "n": 55,
+      "deleted": 2,
+      "triangles": 939,
+      "solver_objective": 937.0,
+      "solver_dual_bound": 996.0,
+      "solver_gap": 0.06296691568836713,
+      "solver_nodes": 2,
+      "result": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+      "seconds": 90.06503653526306,
+      "baseline": 955,
+      "deleted_indices": [
+        2,
+        4
+      ],
+      "independent_verification": {
+        "file": "n055.json",
+        "n": 55,
+        "triangles": 939,
+        "pass_check": true
+      }
+    },
+    {
+      "n": 54,
+      "deleted": 3,
+      "triangles": 887,
+      "solver_objective": 3.0,
+      "solver_dual_bound": 1022.0,
+      "solver_gap": 339.6666666666667,
+      "solver_nodes": 0,
+      "result": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+      "seconds": 90.10808181762695,
+      "baseline": 919,
+      "deleted_indices": [
+        15,
+        22,
+        28
+      ],
+      "independent_verification": {
+        "file": "n054.json",
+        "n": 54,
+        "triangles": 887,
+        "pass_check": true
+      }
+    },
+    {
+      "n": 53,
+      "deleted": 4,
+      "triangles": 837,
+      "solver_objective": 3.0,
+      "solver_dual_bound": 1038.0,
+      "solver_gap": 345.0,
+      "solver_nodes": 0,
+      "result": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+      "seconds": 90.15580725669861,
+      "baseline": 885,
+      "deleted_indices": [
+        15,
+        21,
+        22,
+        28
+      ],
+      "independent_verification": {
+        "file": "n053.json",
+        "n": 53,
+        "triangles": 837,
+        "pass_check": true
+      }
+    }
+  ],
+  "total_seconds": 275.4241394996643,
+  "baseline_definition": "baseline is the universalG formula, not the retained finite envelope"
+}

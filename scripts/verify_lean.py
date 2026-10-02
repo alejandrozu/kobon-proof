@@ -10,6 +10,16 @@ import argparse, hashlib, json, os, re, subprocess, time
 
 ROOT=Path(__file__).resolve().parents[1]
 
+AGGREGATES=('Kobon.AllN','Kobon.Universal','Kobon','Kobon.Audit')
+
+
+def is_certificate(module):
+    return module.startswith(('Kobon.Certificates.','Kobon.SimpleCertificates.'))
+
+
+def module_path(module):
+    return ROOT/(module.replace('.','/')+'.lean')
+
 def source_tokens(txt):
     """Strip Lean strings and nested comments before the conservative scan."""
     out=[];i=0;depth=0;string=False
@@ -29,15 +39,93 @@ def source_tokens(txt):
         else:out.append(txt[i]);i+=1
     return ''.join(out)
 
+
+def local_import_dependencies(targets):
+    """Read the transitive local import graph without running Lean or Lake."""
+    dependencies={}
+    visiting=set()
+
+    def closure(module):
+        if module in dependencies:return dependencies[module]
+        assert module not in visiting, f'Cyclic local imports: {module}'
+        visiting.add(module)
+        path=module_path(module)
+        assert path.is_file(), f'Missing local module: {module}'
+        tokens=source_tokens(path.read_text(encoding='utf-8'))
+        direct=[]
+        for line in tokens.splitlines():
+            match=re.match(r'^\s*import\s+(.+)$',line)
+            if match:
+                direct.extend(m for m in match.group(1).split()
+                              if m=='Kobon' or m.startswith('Kobon.'))
+        deps=set(direct)
+        for dep in direct:deps.update(closure(dep))
+        visiting.remove(module)
+        dependencies[module]=deps
+        return deps
+
+    for target in targets:closure(target)
+    return dependencies
+
+
+def unbuilt_active_sources(paths, targets, dependencies):
+    reachable=set(targets)
+    for target in targets:reachable.update(dependencies[target])
+    modules={'.'.join(p.relative_to(ROOT).with_suffix('').parts):p for p in paths}
+    return sorted(module for module in modules if module not in reachable)
+
+
+def build_phases(targets, dependencies=None):
+    """Keep every finite-certificate consumer behind the bounded build phase.
+
+    This follows transitive local imports, so a new module importing Universal,
+    a comparison module, or Results cannot silently trigger a large certificate
+    dependency build in the early sequential phase. The final root and axiom
+    audit always run after every other requested target.
+    """
+    assert len(targets)==len(set(targets)), 'Duplicate build target'
+    assert all(t in targets for t in AGGREGATES), 'Missing aggregate target'
+    if dependencies is None:dependencies=local_import_dependencies(targets)
+    terminal={'Kobon','Kobon.Audit'}
+    certificates=[t for t in targets if is_certificate(t)]
+    deferred={t for t in targets if t in AGGREGATES or
+              any(is_certificate(d) or d in AGGREGATES for d in dependencies[t])}
+
+    def ordered(modules):
+        pending=set(modules);result=[]
+        while pending:
+            ready=[m for m in modules if m in pending and not (dependencies[m]&pending)]
+            assert ready, f'No dependency-safe build order: {sorted(pending)}'
+            for m in ready:pending.remove(m);result.append(m)
+        return result
+
+    core=ordered([t for t in targets if t not in deferred and not is_certificate(t)])
+    late=ordered([t for t in targets if t in deferred and t not in terminal
+                  and not is_certificate(t)])+['Kobon','Kobon.Audit']
+    assert set(core+certificates+late)==set(targets)
+    return core,certificates,late
+
 def main():
     parser=argparse.ArgumentParser()
     parser.add_argument('--jobs',type=int,default=2)
     args=parser.parse_args()
     assert args.jobs>=1
-    for p in [ROOT/'Kobon.lean',*(ROOT/'Kobon').rglob('*.lean')]:
+    active_sources=[ROOT/'Kobon.lean',*(ROOT/'Kobon').rglob('*.lean')]
+    for p in active_sources:
         txt=source_tokens(p.read_text(encoding='utf-8'))
         assert not re.search(r'\b(sorry|admit|axiom|unsafe)\b',txt),f'Unapproved source token: {p}'
-    targets=json.loads((ROOT/'verification/build-targets.json').read_text())
+    targets=json.loads((ROOT/'verification/build-targets.json').read_text(encoding='utf-8'))
+    dependencies=local_import_dependencies(targets)
+    uncovered=unbuilt_active_sources(active_sources,targets,dependencies)
+    assert not uncovered, ('Active Lean files are outside the verified import/build closure: '
+        +', '.join(uncovered)+'. Move unfinished sources to research drafts or explicitly integrate them.')
+    audited=dependencies['Kobon']|{'Kobon','Kobon.Audit'}
+    unaudited=sorted('.'.join(p.relative_to(ROOT).with_suffix('').parts)
+        for p in active_sources if '.'.join(p.relative_to(ROOT).with_suffix('').parts) not in audited)
+    assert not unaudited, 'Active Lean files are outside the root axiom audit: '+', '.join(unaudited)
+    initial_sources={p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdigest()
+                     for p in active_sources}
+    core,certificates,late=build_phases(targets,dependencies)
     logs=ROOT/'verification/build-logs';logs.mkdir(exist_ok=True)
     env=dict(os.environ);env.setdefault('LEAN_NUM_THREADS','2')
     results=[]
@@ -52,26 +140,30 @@ def main():
                     seconds=round(time.monotonic()-start,3),log=log.relative_to(ROOT).as_posix())
         print(('PASS' if passed else 'FAIL'),target,result['seconds'],flush=True)
         return result
-    core=[t for t in targets if 'Certificates.' not in t and t not in ('Kobon.AllN','Kobon.Universal','Kobon','Kobon.Audit')]
     for t in core:
         r=build(t);results.append(r)
         if not r['passed']:break
     if all(r['passed'] for r in results):
         with ThreadPoolExecutor(max_workers=args.jobs) as pool:
-            futures=[pool.submit(build,t) for t in targets if 'Certificates.' in t]
+            futures=[pool.submit(build,t) for t in certificates]
             for f in as_completed(futures):results.append(f.result())
     if all(r['passed'] for r in results):
-        for t in ('Kobon.AllN','Kobon.Universal','Kobon','Kobon.Audit'):
+        for t in late:
             r=build(t);results.append(r)
             if not r['passed']:break
-    sources={p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdigest()
-             for p in [ROOT/'Kobon.lean',*(ROOT/'Kobon').rglob('*.lean')]}
+    final_sources={p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdigest()
+                   for p in [ROOT/'Kobon.lean',*(ROOT/'Kobon').rglob('*.lean')]}
+    source_changes=sorted(p for p in initial_sources.keys()|final_sources.keys()
+                          if initial_sources.get(p)!=final_sources.get(p))
     summary=dict(checked_at_utc=datetime.now(timezone.utc).isoformat(),
         lean_toolchain=(ROOT/'lean-toolchain').read_text().strip(),
-        complete=len(results)==len(targets) and all(r['passed'] for r in results),
-        scope='Unconditional parity-sensitive all-natural-order construction, projective cap gains and finite-certificate envelope; actual triangle/sign-cell geometry; unconditional 49-seed numerical target; finite coordinate lower bounds, real parameterized seeds, geometric exterior addition from visible pairs; complete one-step BBL doubling from a saturated compatible tangent-grid seed for q=4r>=20; local fan geometry and explicitly conditional global upper-budget arithmetic. Universal quantitative successor extension and end-to-end infinite BBL iteration remain separate proof obligations.',
+        complete=len(results)==len(targets) and all(r['passed'] for r in results) and not source_changes,
+        scope='Unconditional parity-sensitive all-natural-order construction and retained finite-certificate envelope; actual triangle/sign-cell geometry; unconditional 49-seed numerical target; complete finite-depth BBL iteration and full exterior visibility for the compatible 11-seed odd/even dyadic families, with a shrinking allowable parameter interval at each depth; an all-order envelope retaining these families and the previous release. Generic Forge-family formulas retain explicit seed premises. An exact real tangent-grid ten-sign obstruction is proved. Actual geometric vertex, elementary-edge, shared-side and multiple-point-core incidence identities are extracted for finite injective certificate families of pairwise nonparallel real lines. Actual even-order clean-line charging and the classical odd/even simple-arrangement upper bounds are proved, yielding actual one-triangle optimality windows for both eleven-seed families. Local fan theorems and conditional aggregate upper-budget arithmetic are distinguished from the remaining whole-arrangement fan extraction, matching, and summation obligations. The unrestricted quantitative one-line successor recurrence remains unproved.',
         native_evaluation='Finite certificate checks use native_decide and trust Lean native evaluation; audit explicitly allows and lists those generated axioms.',
-        results=results,source_sha256=sources)
+        build_phases=dict(core=core,certificates=certificates,after_certificates=late),
+        source_coverage='Every hashed active Lean source belongs to the requested build closure and the final root axiom audit. Complete also requires unchanged active source contents throughout the build.',
+        source_changes_during_build=source_changes,
+        results=results,source_sha256=initial_sources)
     (ROOT/'verification/lean-summary.json').write_text(json.dumps(summary,indent=2)+'\n')
     return 0 if summary['complete'] else 1
 

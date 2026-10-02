@@ -1,0 +1,33 @@
+{
+  "new_finite_records": 0,
+  "uniform49": {
+    "status": "exact computer-assisted PASS; Lean integration tracked separately",
+    "n": 49,
+    "triangles": 767,
+    "caps": 47,
+    "visible_pairs": 24,
+    "direction": [
+      1,
+      -2
+    ],
+    "epsilon_interval": "0 < epsilon <= 1/100",
+    "certificate": "uniform-grid49/uniform-seed.json",
+    "audit": "uniform-grid49/verification.json",
+    "visibility_audit": "uniform-grid49/visibility.json",
+    "numerical_novelty": "No new count; explicit uniformly compatible seed for inherited BBL families"
+  },
+  "grid21_obstruction": {
+    "status": "complete exact computer-assisted PASS",
+    "published_affine_classes": 236,
+    "normalizations": 4956,
+    "polynomial_dependencies": 3765,
+    "missing": 0,
+    "epsilon_interval": "0 < epsilon < 1/2000000",
+    "permits_arbitrary_epsilon_dependent_slopes": true,
+    "external_assumption": "Completeness of the Parpalak\u2013Utkin published affine enumeration",
+    "audit": "grid21-obstruction/affine-verification.json",
+    "lean_scope": "Explicit representative plus generic soundness and actual tangent identities, not the full classification dataset"
+  },
+  "primary_input_provenance": "primary-inputs/manifest.json",
+  "report": "README.md"
+}

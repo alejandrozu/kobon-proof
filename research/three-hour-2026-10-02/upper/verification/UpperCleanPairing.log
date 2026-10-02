@@ -1,0 +1,4 @@
+'Kobon.UpperCleanPairing.pair_indices_consecutive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperCleanPairing.incident_positive_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperCleanPairing.incident_negative_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+

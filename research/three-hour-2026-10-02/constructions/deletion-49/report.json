@@ -1,0 +1,36 @@
+{
+  "source": "research\\finite-table\\classical-049.json",
+  "source_sha256": "1191f0ffb37ec01c48fbf04ce7bc458b1b9f9beeebc92d9d86233e3d1237e973",
+  "source_order": 49,
+  "source_count": 767,
+  "terms": 932,
+  "mode": "milp",
+  "seed": 20261002,
+  "seconds_per_order": 90.0,
+  "records": [
+    {
+      "n": 48,
+      "deleted": 1,
+      "triangles": 721,
+      "solver_objective": 721.0000000000018,
+      "solver_dual_bound": 721.0000000000018,
+      "solver_gap": 0.0,
+      "solver_nodes": 1,
+      "result": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.1981792449951172,
+      "baseline": 721,
+      "deleted_indices": [
+        1
+      ],
+      "independent_verification": {
+        "file": "n048.json",
+        "n": 48,
+        "triangles": 721,
+        "pass_check": true
+      }
+    }
+  ],
+  "run_status": "aborted",
+  "termination_note": "MILP49-to47 run raised MemoryError: std::bad_alloc after the completed49-to48 result; no later target was certified.",
+  "baseline_definition": "baseline is the universalG formula, not the retained finite envelope"
+}

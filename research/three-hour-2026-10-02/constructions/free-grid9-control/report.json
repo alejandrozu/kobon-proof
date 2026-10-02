@@ -1,0 +1,399 @@
+{
+  "source": "research\\three-hour-2026-10-02\\constructions\\primary-inputs\\data\\exhaustive\\9.words-full.txt",
+  "source_sha256": "0937aef99c8840756cffa991312213ea7e893b360da40081f8ca6124b126f6f6",
+  "attribution": "Parpalak--Utkin 2026 projective types, independent coordinate fitting",
+  "epsilon": 0.01,
+  "records": [
+    {
+      "class_index": 0,
+      "I": 0,
+      "shift": 0,
+      "margin": 0.1573060771673027,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 0,
+      "shift": 1,
+      "margin": 0.13601300669017816,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 0,
+      "shift": 2,
+      "margin": 0.163865668820759,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 0,
+      "shift": 3,
+      "margin": 0.11808257304473739,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 0,
+      "shift": 4,
+      "margin": 0.01792761610717118,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 0,
+      "shift": 5,
+      "margin": 0.13903515492340368,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 0,
+      "shift": 6,
+      "margin": 0.16479460416941633,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 0,
+      "shift": 7,
+      "margin": 0.18129030411449226,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 1,
+      "shift": 0,
+      "margin": 0.15730607716730272,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 1,
+      "shift": 1,
+      "margin": 0.18129030411449243,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 1,
+      "shift": 2,
+      "margin": 0.16479460416941627,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 1,
+      "shift": 3,
+      "margin": 0.13903515492340454,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 1,
+      "shift": 4,
+      "margin": 0.017927616107171224,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 1,
+      "shift": 5,
+      "margin": 0.11808257304473736,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 1,
+      "shift": 6,
+      "margin": 0.1638656688207589,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 1,
+      "shift": 7,
+      "margin": 0.13601300669017796,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 2,
+      "shift": 0,
+      "margin": 0.3666618167663541,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 2,
+      "shift": 1,
+      "margin": 0.1467492834072455,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 2,
+      "shift": 2,
+      "margin": 0.12404088397664421,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 2,
+      "shift": 3,
+      "margin": 0.11635561285548768,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 2,
+      "shift": 4,
+      "margin": 0.009041154871046552,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 2,
+      "shift": 5,
+      "margin": 0.11635561285548746,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 2,
+      "shift": 6,
+      "margin": 0.12404088397664434,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 2,
+      "shift": 7,
+      "margin": 0.14674928340724536,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 3,
+      "shift": 0,
+      "margin": 0.15730607716730272,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 3,
+      "shift": 1,
+      "margin": 0.13601300669017818,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 3,
+      "shift": 2,
+      "margin": 0.163865668820759,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 3,
+      "shift": 3,
+      "margin": 0.11808257304473738,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 3,
+      "shift": 4,
+      "margin": 0.01792761610717121,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 3,
+      "shift": 5,
+      "margin": 0.13903515492340462,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 3,
+      "shift": 6,
+      "margin": 0.16479460416941627,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 3,
+      "shift": 7,
+      "margin": 0.18129030411449207,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 5,
+      "shift": 0,
+      "margin": 0.36666181676635423,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 5,
+      "shift": 1,
+      "margin": 0.14674928340724533,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 5,
+      "shift": 2,
+      "margin": 0.12404088397664433,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 5,
+      "shift": 3,
+      "margin": 0.11635561285548772,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 5,
+      "shift": 4,
+      "margin": 0.009041154871046573,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 5,
+      "shift": 5,
+      "margin": 0.11635561285548773,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 5,
+      "shift": 6,
+      "margin": 0.12404088397664438,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 5,
+      "shift": 7,
+      "margin": 0.14674928340724552,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 6,
+      "shift": 0,
+      "margin": 0.15730607716730263,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 6,
+      "shift": 1,
+      "margin": 0.18129030411449248,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 6,
+      "shift": 2,
+      "margin": 0.16479460416941624,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 6,
+      "shift": 3,
+      "margin": 0.1390351549234046,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 6,
+      "shift": 4,
+      "margin": 0.017927616107171196,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 6,
+      "shift": 5,
+      "margin": 0.1180825730447374,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 6,
+      "shift": 6,
+      "margin": 0.16386566882075893,
+      "status": 0
+    },
+    {
+      "class_index": 0,
+      "I": 6,
+      "shift": 7,
+      "margin": 0.13601300669017818,
+      "status": 0
+    }
+  ],
+  "wins": [
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I00-cut00.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I00-cut01.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I00-cut02.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I00-cut03.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I00-cut04.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I00-cut05.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I00-cut06.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I00-cut07.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I01-cut00.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I01-cut01.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I01-cut02.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I01-cut03.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I01-cut04.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I01-cut05.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I01-cut06.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I01-cut07.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I02-cut00.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I02-cut01.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I02-cut02.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I02-cut03.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I02-cut04.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I02-cut05.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I02-cut06.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I02-cut07.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I03-cut00.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I03-cut01.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I03-cut02.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I03-cut03.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I03-cut04.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I03-cut05.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I03-cut06.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I03-cut07.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I05-cut00.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I05-cut01.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I05-cut02.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I05-cut03.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I05-cut04.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I05-cut05.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I05-cut06.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I05-cut07.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I06-cut00.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I06-cut01.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I06-cut02.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I06-cut03.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I06-cut04.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I06-cut05.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I06-cut06.json",
+    "research\\three-hour-2026-10-02\\constructions\\free-grid9-control\\n009-class0000-I06-cut07.json"
+  ],
+  "scope": "Floating diagnostics, not an infeasibility theorem",
+  "tested": 48,
+  "duplicates": 168,
+  "best_margin": 0.36666181676635423,
+  "seconds": 1.002852439880371
+}

@@ -1,0 +1,4 @@
+'Kobon.UpperSharedEdge.Pair.apex_eq_of_ordinary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperSharedEdge.Pair.has_nonordinary_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperSharedEdge.third_support_of_not_ordinary' depends on axioms: [propext, Classical.choice, Quot.sound]
+

@@ -1,0 +1,18 @@
+'Kobon.BBLFamilyOptimality.odd_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.BBLFamilyOptimality.even_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.BBLFamilyOptimality.odd_window' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ BBLSeed21.directions._native.native_decide.ax_1_1,
+ BBLSeed21.distinguished_checks._native.native_decide.ax_1_1,
+ BBLSeed21.simple._native.native_decide.ax_1_1,
+ BBLSeed21.triangle_checks._native.native_decide.ax_1_1]
+'Kobon.BBLFamilyOptimality.even_window' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ BBLSeed21.admissible_check._native.native_decide.ax_1_1,
+ BBLSeed21.directions._native.native_decide.ax_1_1,
+ BBLSeed21.distinguished_checks._native.native_decide.ax_1_1,
+ BBLSeed21.simple._native.native_decide.ax_1_1,
+ BBLSeed21.triangle_checks._native.native_decide.ax_1_1,
+ BBLSeed21.visible_checks._native.native_decide.ax_1_1]

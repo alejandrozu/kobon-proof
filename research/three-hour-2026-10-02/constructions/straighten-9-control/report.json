@@ -1,0 +1,31 @@
+{
+  "source": "research\\three-hour-2026-10-02\\constructions\\primary-inputs\\data\\exhaustive\\9.words-full.txt",
+  "n": 9,
+  "pseudoline_target": 21,
+  "straight_line_best": 21,
+  "seed": 20261002,
+  "time_limit": 30.0,
+  "attempts": 1,
+  "elapsed": 0.017772912979125977,
+  "events": [
+    {
+      "attempt": 1,
+      "triangles": 21,
+      "simple": true,
+      "target_violations": 0,
+      "minimum_margin": 0.021102673968184896,
+      "loss": 0.0,
+      "iterations": 1,
+      "epsilon": 0.001,
+      "seconds": 0.0030024051666259766,
+      "result": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "independent_verification": {
+        "file": "n009-best.json",
+        "n": 9,
+        "triangles": 21,
+        "pass_check": true
+      }
+    }
+  ],
+  "scope": "Bounded nonlinear search. Failure is not a proof of nonstretchability; exact verification applies only to saved coordinate counts."
+}

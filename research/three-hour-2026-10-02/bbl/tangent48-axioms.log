@@ -1,0 +1,2 @@
+'Kobon.BBLTangent48Bounds.tan_48_1_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.BBLTangent48Bounds.tan_48_23_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

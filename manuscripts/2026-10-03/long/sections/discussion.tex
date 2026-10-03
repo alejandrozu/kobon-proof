@@ -1,0 +1,162 @@
+\section{Consequences, limitations, and directions for further work}\label{sec:discussion}
+
+\subsection{What the program has established}
+
+The strongest completed total lower-bound function in this project is
+$H$ from Theorem~\ref{fam:all-n-envelope}. It retains the all-order
+construction $G$, all 138 finite coordinate identities, and the fully
+recursive odd and even families. The affine phase/chart result changes
+the constant term of a standard all-order baseline. The recursive family
+has a one-triangle simple optimality window and improves the previous
+verified repository envelope at infinitely many orders. Off the sparse
+family it leaves the preceding general guarantee intact.
+
+The significant proof advance is geometric. Every finite-depth
+iteration produces a real straight-line arrangement with the next
+seed's full grid, triangle, orientation and visible-boundary invariant.
+The concrete base discharges those hypotheses; an arithmetic recurrence
+alone would not. The simple upper halves are also derived from actual
+arrangements, not assumed polynomial benchmarks. This supplies a
+reusable formal construction and comparison framework. It does not
+establish first numerical priority for the inherited BBL family.
+
+The earlier bounds at 28, 30 and 34 lines survive through exact finite
+certificates independently of the incomplete March proof. The actual
+exterior theorem and the wedge-resource obstruction explain both why
+individual successful steps exist and why unrestricted repetition of
+full gains is not justified by that method. The all-order numerical
+target beginning at 49 remains independently proved, but it is not a
+nested chain of successive extensions from an arbitrary optimal seed.
+The unrestricted successor assertion remains open in this development.
+
+For upper bounds, the actual edge inventory, core incidence and
+clean-line charge are complete. The local fan equality structure and
+matched triple-fan obstruction identify restrictions on the remaining
+nonsimple core. The explicit algebraic grid obstruction provides a
+rigorous search limitation. The larger affine-class corpus and the
+uniform 49-line seed are exact external computations with stated input
+and verification boundaries. Neither an incomplete seed check nor a
+published classification input is silently promoted to an unconditional
+Lean theorem.
+
+\subsection{Complete concrete seed interfaces before changing the recurrence}
+
+The generic odd and visible recursion is now complete. The next seed
+work is therefore local: finish the uniform 33- or 49-line finite base
+checks, link the resulting actual lines to the seed record, and invoke
+the existing induction. The 49-line tangent enclosures and the isolated
+graph/arithmetic checks already pass, but the full base computation was
+stopped before completion. Decomposing that computation into independently
+checked chunks is a proof-engineering task; its completion would not
+make the known BBL numerical series new.
+
+A new numerical improvement requires a smaller initial defect, a source
+of extra triangles beyond the conserved count, or a different invariant.
+The invariant $q^2-1-3T$ is preserved by pure doubling. The perfect
+21-line obstruction applies to its specified tangent grid and small
+parameter interval, so it motivates testing different intercept families
+rather than declaring all perfect compatible seeds impossible. Partial
+doubling and interpolation at intermediate orders remain independent
+construction questions.
+
+\subsection{The remaining global core interfaces}
+
+Two interfaces isolate the unfinished upper-bound proof. First choose a
+linear functional nonzero on every radial direction at a core, orient
+one representative of each incident line positively, and sort the
+resulting slopes. Appending the opposite representatives should supply
+actual cyclic order, positive consecutive determinants and antipodality.
+Second, match rays to actual shared elementary edges. On a bounded ray
+choose the nearest intersection vertex; on an unbounded ray use a
+noncentral auxiliary point. Requiring an actual vertex on every ray
+would be a false assumption. Certified triangular sectors must then be
+associated with their actual certificate indices and endpoint pairs.
+
+The required incidence equivalences are
+\[
+ \sum_v d_1(v)=D_1,\qquad \sum_v d_2(v)=2D_2.
+\]
+They must identify the centers injectively and use actual intersection
+multiplicities. The present abstract local fan records alone do not
+supply those facts. For a shared edge joining centers $v,w$, the two
+adjacent certified triangles must also produce the matching needed by
+\lean{UpperTripleFan}, after a proved cyclic reindexing. This is why the
+new local restrictions do not yet imply an unrestricted upper bound.
+
+\subsection{A conditional graph deduction for the next proof stage}
+\label{sec:graph-plan}
+
+The following deduction is a research plan, not an additional Lean
+result of the release. At a triple fan write $u_i$ for the radial
+vectors. Positive consecutive determinants and antipodality
+$u_3=-\lambda u_0$ with $\lambda>0$ give
+\[
+ \det(u_0,u_1)>0,\quad \det(u_1,u_2)>0,\quad
+ \det(u_0,u_2)=\det(u_2,u_3)/\lambda>0.
+\]
+Thus the first three radial directions are pairwise noncollinear and
+their opposites give six distinct radial points. Once formalized, this
+will connect three exceptional shared-ray indices to three distinct
+neighboring core points.
+
+Form the finite simple graph whose vertices are actual core points and
+whose edges are shared elementary segments with two core endpoints.
+Let $X$ be its exceptional triple cores, with $|X|=e$. Suppose the missing
+ray/edge correspondence proves degree three at every vertex of $X$,
+and the matched triple-fan theorem proves $X$ independent. Counting
+incidences at $X$ then gives
+\begin{equation}
+ 3e\le D_2,\qquad D_2-2e\ge e,\qquad D_2-2e\ge D_2/3.
+ \label{discussion:conditional-graph}
+\end{equation}
+No planarity theorem is needed: each edge meeting $X$ has exactly one
+endpoint there. The distinct-neighbor and matching assumptions remain
+essential.
+
+If every exceptional fan is triple, substituting in the already checked
+conditional budget \eqref{upper:refined-conditional} yields
+\begin{align}
+ 2\delta&\ge n+2S-7I+8q+e,\\
+ 6\delta&\ge3n+6S-21I+24q+D_2.
+ \label{discussion:conditional-defect}
+\end{align}
+If all core multiplicities are three, $I=S=3q$, so the right sides
+become $n-7q+e$ and $3n-21q+D_2$. These replace a potentially negative
+exceptional correction by a nonnegative term. They are consequences of
+the exact correction $D_2-2e$, not stronger estimates when that original
+term is already retained. The negative core-count term remains; no new
+unrestricted numerical upper bound follows from this calculation alone.
+These deductions and all unproved interfaces are recorded explicitly in
+\sourcefile{research/three-hour-2026-10-02/NEXT_PROOF_PLAN.md}{the next-proof plan}.
+
+\subsection{Numerical novelty and future comparison}
+
+Several published special families are stronger than a compact uniform
+baseline at their orders; taking maxima or padding already produces
+other all-order functions. Accordingly, neither validity for every $n$
+nor omission from an explicit OEIS table establishes a numerical state
+of the art. The present claims are a proved affine refinement relative
+to the quoted formula, completed recursive real geometry, a stronger
+verified repository envelope, and precise structural/certificate
+results. A first-discovery claim would require a separate exhaustive
+priority audit.
+
+Future comparisons should inspect implicit consequences of earlier
+families and extensions as well as printed tables. In particular, the
+49-line branch is already covered numerically by BBL, and the 33-line
+branch by Forge--Ram\'irez Alfons\'in. The author's earlier recorded
+contribution, an independently supplied coordinate certificate and the
+first publication of a numerical inequality need not have the same
+provenance. Maintaining those distinctions preserves the valid progress
+without overstating the solution of the problem.
+
+\paragraph{Data and code availability.}
+The complete LaTeX source, bibliography, original vector figures,
+figure-generation scripts, proof-to-claim correspondence, exact finite
+catalog, negative experiments and verification records accompany the
+public repository~\cite{zarzueloRepository}. This comprehensive edition
+preserves the earlier research while updating its proof status. A
+separate journal-length companion presents the completed contributions
+with links to the same immutable proof revision. Neither publication
+of a repository nor preparation of these manuscripts asserts external
+peer review.

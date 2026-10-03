@@ -1,0 +1,49 @@
+\section{Finite results, exact obstructions, and verification}\label{j:verification}
+
+The release retains 138 coordinate identities, 104 simple, with original credits. Table~\ref{j:finite} preserves the individual historical inequalities and all eleven later affine materializations. The companion catalog lists every input and its source.
+\begin{table}[tb]
+\centering\small
+\begin{tabular}{@{}llp{.33\linewidth}@{}}
+\toprule
+Order(s) & Certified counts, in order & Role\\\midrule
+$28,30,34$ & $238,275,357$ & Historical inequalities\\
+$44$ & $608$ & Simple optimum\\
+$39,47,48$ & $470,691,721$ & Earlier retained count plus one\\
+$51,53,54,55$ & $818,885,919,955$ & Earlier retained count plus one\\
+$59,60,99,195$ & $1103,1141,3170,12482$ & Earlier retained count plus one\\
+\bottomrule
+\end{tabular}
+\caption{Selected exact simple witnesses. The increases are relative to earlier project certificates, not asserted global records. All orders 3--60 and all 138 coordinate identities are in the companion evidence.}\label{j:finite}
+\end{table}
+
+The March-associated $28{:}238$, $30{:}275$, $34{:}357$ inequalities now have independent certificates; the archived extension proof remains incomplete~\cite{zarzuelo2026,oeisA006066}. Earlier literature overlaps are explicit: $30{:}275$ is in BBL, and $34{:}357$ follows from the older perfect 33-line construction and exterior addition~\cite{bbl2008,forge1998}. The exact $43{:}587\to44{:}608$ construction combined with the now-formal simple upper theorem gives $\Ks(44)=608$, not $\K(44)=608$. The earlier proposed value $q^2/3+q+1$ at $n=q+3$, $q=6\cdot2^t$, is superseded by $\G(q+3)=q^2/3+q+2$.
+
+Two independent rational counters support the finite catalog. Reproduced external inputs include all fifteen Maiorana $14{:}54$ configurations and ten Parpalak--Utkin gallery witnesses, including $26{:}204$ and $50{:}792$~\cite{maiorana2026,parpalakutkinGallery2026}. Exact projective face censuses for the saved 81- and 161-line examples equal 2132 and 8532, their bounded counts: a chart change alone cannot improve these two fixed arrangements.
+
+\paragraph{A prescribed-grid obstruction.}
+In reciprocal coordinates $x-v_i y=a_i$, required orientation signs become strict linear inequalities in the $v_i$. Positive linear dependencies certify infeasibility. Lean proves this Farkas-type soundness principle and the exact coefficient field
+\[
+ t=\tan(\pi/20),\qquad t^4-4t^3-14t^2-4t+1=0,\qquad3/20<t<17/100,
+\]
+including all nine positive grid tangents as power-basis expressions.
+\begin{proposition}\label{j:obstruction}
+The ten specified orientation signs linked in \proofref{Kobon/BBLGridObstruction.lean}{263}{the exact obstruction statement} cannot occur on the prescribed 20-intercept tangent grid, for any real $\varepsilon$ and arbitrary real reciprocal slopes.
+\end{proposition}
+This representative obstruction is fully in Lean with standard axioms. A separate exact verifier checks 3,765 polynomial dependencies and 15,060 reflected/reoriented variants, covering all $236\cdot21=4,956$ supplied Euclidean-class/distinguished-support cases for $0<\varepsilon<1/2{,}000{,}000$. The input classification and its completeness are attributed to Parpalak--Utkin~\cite{parpalakutkinEnumeration2026}; their enumeration is not rerun or formalized here. Subject to that external classification, the corpus excludes a perfect 21-line seed on this specific saturated grid and interval. The earlier 18-projective-representative scan omitted affine charts and has been replaced by this corrected coverage. An exact external interval calculation also proves radius-$10^{-3}$ intercept robustness for the representative's eleven used intercepts. Other grids and larger seeds remain possible.
+
+\paragraph{A larger compatible seed, with a remaining finite check.}
+A new exact external 49-line uniform certificate uses rational reciprocal slopes of denominator $10^{10}$ on the 48-intercept tangent grid. For every $0<\varepsilon\le1/100$ it has 767 triangles, 47 distinguished triangles, positive central apex and 24 pairs visible from $(1,-2)$. Two independent exact counters agree at the rational midpoint. Actual rational bounds for the 23 positive tangents are proved in Lean. The full exported seed's direction, simplicity, support and visibility checks pass an independent exact Python audit, but its complete Lean finite validation was stopped without completion. Hence its prospective recursive counts
+\begin{equation}\label{j:exact49}
+ \begin{array}{ll}
+ n=48\cdot2^t+1:&768\cdot4^t-1,\\
+ n=48\cdot2^t+2:&768\cdot4^t+24\cdot2^t-1
+ \end{array}
+\end{equation}
+are not unconditional theorems of the active library. The odd orders are the $s=t+3$ tail of BBL's established $6\cdot2^s+1$ family~\cite{bbl2008}. Likewise, the verified generic 33-line-seed implication gives $(1024\cdot4^t-1)/3$ and that value plus $16\cdot2^t$, but the needed uniform finite seed remains a draft; the numerical family retains Forge--Ram\'irez Alfons\'in attribution~\cite{forge1998}.
+
+Bounded searches found no numerical record: deletion, mixed-integer line selection, singular insertions and straightening are logged with their limits. For example, all 9,180 tested 17-line vertex-pair chords reached at most 93 triangles at order 18; 407,253 tested 43-line pairs reached 607 at order 44. Two 39-line straightening searches certified 353 and 358 triangles, respectively; neither is a record or a nonstretchability result. These experiments motivate certificates and alternate grids, not impossibility claims.
+
+\paragraph{Proof release and remaining work.}
+The mathematical snapshot is pinned at \texttt{2d69a71}; it uses Lean 4.31.0 and Mathlib~\cite{lean4,mathlib}. All 270 build targets and 375 active sources passed, with 5,241 audited theorem declarations: 4,405 depend only on standard logical axioms, and 836 have finite native-check dependencies. These are implementation counts, not numbers of discoveries. Active proofs have no \lean{sorry}, \lean{admit}, custom geometric axioms or unsafe declarations. Native certificates additionally trust the compiler/runtime path of \lean{native_decide}. Five new exact external replay audits passed; they remain external computations. The \href{https://github.com/alejandrozu/kobon-proof/actions/runs/37056093885}{successful release CI} and result map link every status to evidence.
+
+The next mathematical task is whole-arrangement cyclic-fan extraction and shared-edge matching, followed by a justified aggregate bound for arbitrary triple and quadruple cores. A recorded graph deduction makes the next target concrete: if exceptional triple cores have three distinct core neighbors and no two are adjacent, incidence counting gives $3e\le D_2$. If every exceptional fan is triple, equation~\eqref{jup:exceptional} then gives $2\delta\ge n+2S-7I+8q+e$ and $6\delta\ge3n+6S-21I+24q+D_2$. These unformalized corollaries require the missing degree/matching interface; they are not stronger than retaining the exact $D_2-2e$ correction, nor do they improve an unrestricted numerical upper bound. Larger compatible seeds and a generalized grid offer lower-bound routes. The arbitrary successive $+1$ recurrence remains separate and unproved. The source, experiments and expanded manuscript~\cite{zarzueloRepository,zarzueloFull2026} preserve both successful and unsuccessful work. Computer algebra, exact search and AI assistance contributed to the development; the stated evidence, rather than generated assertions, supports each conclusion.

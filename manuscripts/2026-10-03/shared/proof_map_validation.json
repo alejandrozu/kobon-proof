@@ -1,0 +1,1234 @@
+{
+  "status": "PASS",
+  "immutable_revision": "2d69a71e32d3eaa59399b0e5bc61720ec3b00ac8",
+  "claims": 160,
+  "retained_claims": 89,
+  "finite_identities": 138,
+  "simple_identities": 104,
+  "source_files": 355,
+  "source_refs": 701,
+  "declaration_anchors": 651,
+  "numbered_labels": {
+    "long": 116,
+    "journal": 36
+  },
+  "labels": [
+    {
+      "edition": "long",
+      "claim_id": "oct:next-proof-plan",
+      "status": "research-plan",
+      "label": "discussion:conditional-graph",
+      "path": "manuscripts/2026-10-03/long/sections/discussion.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "oct:next-proof-plan",
+      "status": "research-plan",
+      "label": "discussion:conditional-defect",
+      "path": "manuscripts/2026-10-03/long/sections/discussion.tex",
+      "environment": "align"
+    },
+    {
+      "edition": "long",
+      "claim_id": "j:obstruction",
+      "status": "lean/general",
+      "label": "exp:linear-determinant",
+      "path": "manuscripts/2026-10-03/long/sections/experiments.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "j:obstruction",
+      "status": "lean/general",
+      "label": "exp:farkas",
+      "path": "manuscripts/2026-10-03/long/sections/experiments.tex",
+      "environment": "lemma"
+    },
+    {
+      "edition": "long",
+      "claim_id": "j:obstruction",
+      "status": "lean/general",
+      "label": "exp:quartic",
+      "path": "manuscripts/2026-10-03/long/sections/experiments.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "j:obstruction",
+      "status": "lean/general",
+      "label": "exp:actual-grid-obstruction",
+      "path": "manuscripts/2026-10-03/long/sections/experiments.tex",
+      "environment": "theorem"
+    },
+    {
+      "edition": "long",
+      "claim_id": "oct:grid21-coverage",
+      "status": "computation + external-input",
+      "label": "exp:census-interval",
+      "path": "manuscripts/2026-10-03/long/sections/experiments.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jext:conditional-iteration",
+      "status": "partial",
+      "label": "ext:march",
+      "path": "manuscripts/2026-10-03/long/sections/extensions.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jext:visible",
+      "status": "lean/general",
+      "label": "ext:visible",
+      "path": "manuscripts/2026-10-03/long/sections/extensions.tex",
+      "environment": "definition"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jext:visible",
+      "status": "lean/general",
+      "label": "ext:realization",
+      "path": "manuscripts/2026-10-03/long/sections/extensions.tex",
+      "environment": "theorem"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jext:defect",
+      "status": "partial",
+      "label": "ext:defect",
+      "path": "manuscripts/2026-10-03/long/sections/extensions.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jext:defect",
+      "status": "partial",
+      "label": "ext:charging",
+      "path": "manuscripts/2026-10-03/long/sections/extensions.tex",
+      "environment": "lemma"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jext:defect",
+      "status": "partial",
+      "label": "ext:profile",
+      "path": "manuscripts/2026-10-03/long/sections/extensions.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jext:defect",
+      "status": "partial",
+      "label": "ext:average",
+      "path": "manuscripts/2026-10-03/long/sections/extensions.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jext:defect",
+      "status": "partial",
+      "label": "ext:defect-theorem",
+      "path": "manuscripts/2026-10-03/long/sections/extensions.tex",
+      "environment": "theorem"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jext:gain",
+      "status": "partial",
+      "label": "ext:g",
+      "path": "manuscripts/2026-10-03/long/sections/extensions.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jext:defect",
+      "status": "partial",
+      "label": "ext:defect-scope",
+      "path": "manuscripts/2026-10-03/long/sections/extensions.tex",
+      "environment": "remark"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jext:odd-near-perfect",
+      "status": "partial",
+      "label": "ext:odd-full",
+      "path": "manuscripts/2026-10-03/long/sections/extensions.tex",
+      "environment": "corollary"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jext:budget",
+      "status": "partial",
+      "label": "ext:budget",
+      "path": "manuscripts/2026-10-03/long/sections/extensions.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jext:conditional-iteration",
+      "status": "partial",
+      "label": "ext:full-step",
+      "path": "manuscripts/2026-10-03/long/sections/extensions.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jext:conditional-iteration",
+      "status": "partial",
+      "label": "ext:conditional-closed",
+      "path": "manuscripts/2026-10-03/long/sections/extensions.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jext:conditional-iteration",
+      "status": "partial",
+      "label": "ext:49-target",
+      "path": "manuscripts/2026-10-03/long/sections/extensions.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jext:49",
+      "status": "lean/general",
+      "label": "ext:49-unconditional",
+      "path": "manuscripts/2026-10-03/long/sections/extensions.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jfam:doubling",
+      "status": "lean/general",
+      "label": "fam:epsilon",
+      "path": "manuscripts/2026-10-03/long/sections/families.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jfam:doubling",
+      "status": "lean/general",
+      "label": "fam:old-grid",
+      "path": "manuscripts/2026-10-03/long/sections/families.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jfam:doubling",
+      "status": "lean/general",
+      "label": "fam:compatible",
+      "path": "manuscripts/2026-10-03/long/sections/families.tex",
+      "environment": "definition"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jfam:doubling",
+      "status": "lean/general",
+      "label": "fam:doubling",
+      "path": "manuscripts/2026-10-03/long/sections/families.tex",
+      "environment": "theorem"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jfam:doubling",
+      "status": "lean/general",
+      "label": "fam:gain",
+      "path": "manuscripts/2026-10-03/long/sections/families.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jfam:doubling",
+      "status": "lean/general",
+      "label": "fam:pencil",
+      "path": "manuscripts/2026-10-03/long/sections/families.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jfam:doubling",
+      "status": "lean/general",
+      "label": "fam:crossing",
+      "path": "manuscripts/2026-10-03/long/sections/families.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jfam:doubling",
+      "status": "lean/general",
+      "label": "fam:displacement",
+      "path": "manuscripts/2026-10-03/long/sections/families.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jfam:doubling",
+      "status": "lean/general",
+      "label": "fam:neighbors",
+      "path": "manuscripts/2026-10-03/long/sections/families.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jfam:doubling",
+      "status": "lean/general",
+      "label": "fam:mixed-count",
+      "path": "manuscripts/2026-10-03/long/sections/families.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jfam:doubling",
+      "status": "lean/general",
+      "label": "fam:deficit-preserved",
+      "path": "manuscripts/2026-10-03/long/sections/families.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jfam:seed11",
+      "status": "lean/general",
+      "label": "fam:seed11-slopes",
+      "path": "manuscripts/2026-10-03/long/sections/families.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jfam:seed11",
+      "status": "lean/general",
+      "label": "fam:seed11-grid",
+      "path": "manuscripts/2026-10-03/long/sections/families.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jfam:recursive",
+      "status": "lean/general",
+      "label": "fam:closed-iteration",
+      "path": "manuscripts/2026-10-03/long/sections/families.tex",
+      "environment": "theorem"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jfam:recursive",
+      "status": "lean/general",
+      "label": "fam:closed-count",
+      "path": "manuscripts/2026-10-03/long/sections/families.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jfam:families",
+      "status": "lean/general",
+      "label": "fam:odd-verified",
+      "path": "manuscripts/2026-10-03/long/sections/families.tex",
+      "environment": "theorem"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jfam:families",
+      "status": "lean/general",
+      "label": "fam:eleven-family",
+      "path": "manuscripts/2026-10-03/long/sections/families.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jext:defect",
+      "status": "partial",
+      "label": "fam:even-defect",
+      "path": "manuscripts/2026-10-03/long/sections/families.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jfam:strong-even",
+      "status": "lean/general",
+      "label": "fam:visible-iteration",
+      "path": "manuscripts/2026-10-03/long/sections/families.tex",
+      "environment": "theorem"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jfam:strong-even",
+      "status": "lean/general",
+      "label": "fam:visible-step",
+      "path": "manuscripts/2026-10-03/long/sections/families.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jfam:strong-even",
+      "status": "lean/general",
+      "label": "fam:even-conditional",
+      "path": "manuscripts/2026-10-03/long/sections/families.tex",
+      "environment": "theorem"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jfam:strong-even",
+      "status": "lean/general",
+      "label": "fam:even-strong",
+      "path": "manuscripts/2026-10-03/long/sections/families.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "j:new-envelope-formula",
+      "status": "lean/general",
+      "label": "fam:sparse-bound",
+      "path": "manuscripts/2026-10-03/long/sections/families.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "j:new-envelope-formula",
+      "status": "lean/general",
+      "label": "fam:new-envelope",
+      "path": "manuscripts/2026-10-03/long/sections/families.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "j:new-envelope",
+      "status": "lean/general",
+      "label": "fam:all-n-envelope",
+      "path": "manuscripts/2026-10-03/long/sections/families.tex",
+      "environment": "theorem"
+    },
+    {
+      "edition": "long",
+      "claim_id": "long:envelope-gains",
+      "status": "lean/derived",
+      "label": "fam:exact-gains",
+      "path": "manuscripts/2026-10-03/long/sections/families.tex",
+      "environment": "align"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jfam:windows",
+      "status": "lean/general",
+      "label": "fam:optimality-windows",
+      "path": "manuscripts/2026-10-03/long/sections/families.tex",
+      "environment": "corollary"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jfam:windows",
+      "status": "lean/general",
+      "label": "fam:windows",
+      "path": "manuscripts/2026-10-03/long/sections/families.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jfam:inherited-families",
+      "status": "external",
+      "label": "fam:tamura",
+      "path": "manuscripts/2026-10-03/long/sections/families.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jfam:inherited-families",
+      "status": "external",
+      "label": "fam:pu",
+      "path": "manuscripts/2026-10-03/long/sections/families.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jfam:recursive",
+      "status": "lean/general",
+      "label": "fam:recursive-quantifier",
+      "path": "manuscripts/2026-10-03/long/sections/families.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "oct:grid21-coverage",
+      "status": "computation + external-input",
+      "label": "fam:21-target",
+      "path": "manuscripts/2026-10-03/long/sections/families.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "j:exact49",
+      "status": "computation + partial",
+      "label": "fam:49-conditional",
+      "path": "manuscripts/2026-10-03/long/sections/families.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "j:finite",
+      "status": "lean/finite",
+      "label": "eq:march-three",
+      "path": "manuscripts/2026-10-03/long/sections/finite_results.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "j:44equality",
+      "status": "lean/derived",
+      "label": "eq:44-simple",
+      "path": "manuscripts/2026-10-03/long/sections/finite_results.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "j:envelope",
+      "status": "lean/general",
+      "label": "prop:envelope",
+      "path": "manuscripts/2026-10-03/long/sections/finite_results.tex",
+      "environment": "proposition"
+    },
+    {
+      "edition": "long",
+      "claim_id": "long:certificate-definitions",
+      "status": "lean/general",
+      "label": "eq:det",
+      "path": "manuscripts/2026-10-03/long/sections/geometry.tex",
+      "environment": "align"
+    },
+    {
+      "edition": "long",
+      "claim_id": "long:certificate-definitions",
+      "status": "lean/general",
+      "label": "eq:oriented-affine",
+      "path": "manuscripts/2026-10-03/long/sections/geometry.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "long:certificate-definitions",
+      "status": "lean/general",
+      "label": "def:certificate",
+      "path": "manuscripts/2026-10-03/long/sections/geometry.tex",
+      "environment": "definition"
+    },
+    {
+      "edition": "long",
+      "claim_id": "j:cell",
+      "status": "partial",
+      "label": "thm:certificate-cell",
+      "path": "manuscripts/2026-10-03/long/sections/geometry.tex",
+      "environment": "theorem"
+    },
+    {
+      "edition": "long",
+      "claim_id": "j:certificate-soundness",
+      "status": "lean/general",
+      "label": "prop:finite-sound",
+      "path": "manuscripts/2026-10-03/long/sections/geometry.tex",
+      "environment": "proposition"
+    },
+    {
+      "edition": "long",
+      "claim_id": "j:main",
+      "status": "lean/general",
+      "label": "thm:main",
+      "path": "manuscripts/2026-10-03/long/sections/introduction.tex",
+      "environment": "theorem"
+    },
+    {
+      "edition": "long",
+      "claim_id": "j:G",
+      "status": "lean/general",
+      "label": "eq:G",
+      "path": "manuscripts/2026-10-03/long/sections/introduction.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "j:envelope",
+      "status": "lean/general",
+      "label": "eq:envelope",
+      "path": "manuscripts/2026-10-03/long/sections/introduction.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "lit:classical-upper",
+      "status": "external",
+      "label": "lit:tamura",
+      "path": "manuscripts/2026-10-03/long/sections/literature.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "j:residues",
+      "status": "lean/general",
+      "label": "lit:baseline",
+      "path": "manuscripts/2026-10-03/long/sections/literature.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "j:G",
+      "status": "lean/general",
+      "label": "lit:our-formula",
+      "path": "manuscripts/2026-10-03/long/sections/literature.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jfam:inherited-families",
+      "status": "external",
+      "label": "lit:pu-gap",
+      "path": "manuscripts/2026-10-03/long/sections/literature.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "j:blanc",
+      "status": "lean/general; inherited theorem",
+      "label": "lit:blanc-even",
+      "path": "manuscripts/2026-10-03/long/sections/literature.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "j:trig",
+      "status": "lean/general",
+      "label": "eq:trig-line",
+      "path": "manuscripts/2026-10-03/long/sections/universal.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "j:sign",
+      "status": "lean/general",
+      "label": "eq:trig-det",
+      "path": "manuscripts/2026-10-03/long/sections/universal.tex",
+      "environment": "align"
+    },
+    {
+      "edition": "long",
+      "claim_id": "j:sign",
+      "status": "lean/general",
+      "label": "eq:trig-eval",
+      "path": "manuscripts/2026-10-03/long/sections/universal.tex",
+      "environment": "align"
+    },
+    {
+      "edition": "long",
+      "claim_id": "j:sign",
+      "status": "lean/general",
+      "label": "eq:trig-oriented",
+      "path": "manuscripts/2026-10-03/long/sections/universal.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "j:residues",
+      "status": "lean/general",
+      "label": "eq:halfphase-triples",
+      "path": "manuscripts/2026-10-03/long/sections/universal.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "j:phase",
+      "status": "lean/general",
+      "label": "eq:shifted-triples",
+      "path": "manuscripts/2026-10-03/long/sections/universal.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "j:residues",
+      "status": "lean/general",
+      "label": "lem:trig-triangles",
+      "path": "manuscripts/2026-10-03/long/sections/universal.tex",
+      "environment": "lemma"
+    },
+    {
+      "edition": "long",
+      "claim_id": "j:residues",
+      "status": "lean/general",
+      "label": "eq:classical-count",
+      "path": "manuscripts/2026-10-03/long/sections/universal.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "j:phase",
+      "status": "lean/general",
+      "label": "lem:shifted-count",
+      "path": "manuscripts/2026-10-03/long/sections/universal.tex",
+      "environment": "lemma"
+    },
+    {
+      "edition": "long",
+      "claim_id": "j:covariance",
+      "status": "lean/general",
+      "label": "eq:projective-map",
+      "path": "manuscripts/2026-10-03/long/sections/universal.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "j:covariance",
+      "status": "lean/general",
+      "label": "eq:line-transform",
+      "path": "manuscripts/2026-10-03/long/sections/universal.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "j:covariance",
+      "status": "lean/general",
+      "label": "lem:projective-covariance",
+      "path": "manuscripts/2026-10-03/long/sections/universal.tex",
+      "environment": "lemma"
+    },
+    {
+      "edition": "long",
+      "claim_id": "j:covariance",
+      "status": "lean/general",
+      "label": "eq:projective-sign",
+      "path": "manuscripts/2026-10-03/long/sections/universal.tex",
+      "environment": "align"
+    },
+    {
+      "edition": "long",
+      "claim_id": "j:caps",
+      "status": "lean/general",
+      "label": "lem:one-cap",
+      "path": "manuscripts/2026-10-03/long/sections/universal.tex",
+      "environment": "lemma"
+    },
+    {
+      "edition": "long",
+      "claim_id": "j:caps",
+      "status": "lean/general",
+      "label": "eq:vertex-x",
+      "path": "manuscripts/2026-10-03/long/sections/universal.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "j:caps",
+      "status": "lean/general",
+      "label": "lem:two-caps",
+      "path": "manuscripts/2026-10-03/long/sections/universal.tex",
+      "environment": "lemma"
+    },
+    {
+      "edition": "long",
+      "claim_id": "j:main",
+      "status": "lean/general",
+      "label": "cor:gain",
+      "path": "manuscripts/2026-10-03/long/sections/universal.tex",
+      "environment": "corollary"
+    },
+    {
+      "edition": "long",
+      "claim_id": "j:gap",
+      "status": "lean/general",
+      "label": "eq:gap",
+      "path": "manuscripts/2026-10-03/long/sections/universal.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jup:identity",
+      "status": "lean/general",
+      "label": "upper:identity",
+      "path": "manuscripts/2026-10-03/long/sections/upper_bounds.tex",
+      "environment": "proposition"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jup:identity",
+      "status": "lean/general",
+      "label": "upper:defect-general",
+      "path": "manuscripts/2026-10-03/long/sections/upper_bounds.tex",
+      "environment": "align"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jup:identity",
+      "status": "lean/general",
+      "label": "upper:shared-endpoint",
+      "path": "manuscripts/2026-10-03/long/sections/upper_bounds.tex",
+      "environment": "lemma"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jup:identity",
+      "status": "lean/general",
+      "label": "upper:core-identity",
+      "path": "manuscripts/2026-10-03/long/sections/upper_bounds.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jup:clean",
+      "status": "lean/general",
+      "label": "upper:clean-charge",
+      "path": "manuscripts/2026-10-03/long/sections/upper_bounds.tex",
+      "environment": "lemma"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jup:clean",
+      "status": "lean/general",
+      "label": "upper:charging",
+      "path": "manuscripts/2026-10-03/long/sections/upper_bounds.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jup:budget",
+      "status": "lean/derived",
+      "label": "upper:basic-budget",
+      "path": "manuscripts/2026-10-03/long/sections/upper_bounds.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jup:fan",
+      "status": "lean/conditional-interface",
+      "label": "upper:no-long-run",
+      "path": "manuscripts/2026-10-03/long/sections/upper_bounds.tex",
+      "environment": "lemma"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jup:fan",
+      "status": "lean/conditional-interface",
+      "label": "upper:fan-budget",
+      "path": "manuscripts/2026-10-03/long/sections/upper_bounds.tex",
+      "environment": "proposition"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jup:fan",
+      "status": "lean/conditional-interface",
+      "label": "upper:local-fan-budget",
+      "path": "manuscripts/2026-10-03/long/sections/upper_bounds.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jup:weighted",
+      "status": "partial",
+      "label": "upper:weighted",
+      "path": "manuscripts/2026-10-03/long/sections/upper_bounds.tex",
+      "environment": "proposition"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jup:weighted",
+      "status": "partial",
+      "label": "upper:weighted-defect",
+      "path": "manuscripts/2026-10-03/long/sections/upper_bounds.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jup:high-multiplicity",
+      "status": "partial",
+      "label": "upper:high-multiplicity",
+      "path": "manuscripts/2026-10-03/long/sections/upper_bounds.tex",
+      "environment": "corollary"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jup:fan-sharp",
+      "status": "lean/conditional-interface",
+      "label": "upper:one-core-ray",
+      "path": "manuscripts/2026-10-03/long/sections/upper_bounds.tex",
+      "environment": "lemma"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jup:two-core",
+      "status": "partial",
+      "label": "upper:two-core",
+      "path": "manuscripts/2026-10-03/long/sections/upper_bounds.tex",
+      "environment": "theorem"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jup:two-core",
+      "status": "partial",
+      "label": "upper:two-core-upper",
+      "path": "manuscripts/2026-10-03/long/sections/upper_bounds.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jup:shared-fan",
+      "status": "lean/finite",
+      "label": "upper:median-lines",
+      "path": "manuscripts/2026-10-03/long/sections/upper_bounds.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jup:identity",
+      "status": "lean/general",
+      "label": "upper:actual-identity",
+      "path": "manuscripts/2026-10-03/long/sections/upper_bounds.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jup:simple",
+      "status": "lean/general",
+      "label": "upper:actual-simple",
+      "path": "manuscripts/2026-10-03/long/sections/upper_bounds.tex",
+      "environment": "theorem"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jup:clean",
+      "status": "lean/general",
+      "label": "upper:actual-charging",
+      "path": "manuscripts/2026-10-03/long/sections/upper_bounds.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jup:simple",
+      "status": "lean/general",
+      "label": "upper:actual-simple-bounds",
+      "path": "manuscripts/2026-10-03/long/sections/upper_bounds.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jup:sharp-fan",
+      "status": "lean/conditional-interface",
+      "label": "upper:extremal-structure",
+      "path": "manuscripts/2026-10-03/long/sections/upper_bounds.tex",
+      "environment": "theorem"
+    },
+    {
+      "edition": "long",
+      "claim_id": "jup:sharp-fan",
+      "status": "lean/conditional-interface",
+      "label": "upper:extremal-weight",
+      "path": "manuscripts/2026-10-03/long/sections/upper_bounds.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "oct:core-budget",
+      "status": "lean/conditional-interface",
+      "label": "upper:core-inputs",
+      "path": "manuscripts/2026-10-03/long/sections/upper_bounds.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "oct:core-budget",
+      "status": "lean/conditional-interface",
+      "label": "upper:refined-conditional",
+      "path": "manuscripts/2026-10-03/long/sections/upper_bounds.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "long",
+      "claim_id": "oct:core-budget",
+      "status": "lean/conditional-interface",
+      "label": "upper:three-core-conditional",
+      "path": "manuscripts/2026-10-03/long/sections/upper_bounds.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "journal",
+      "claim_id": "j:obstruction",
+      "status": "lean/general",
+      "label": "j:obstruction",
+      "path": "manuscripts/2026-10-03/journal/sections/certificates.tex",
+      "environment": "proposition"
+    },
+    {
+      "edition": "journal",
+      "claim_id": "j:exact49",
+      "status": "computation + partial",
+      "label": "j:exact49",
+      "path": "manuscripts/2026-10-03/journal/sections/certificates.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "journal",
+      "claim_id": "j:cell",
+      "status": "partial",
+      "label": "j:cell",
+      "path": "manuscripts/2026-10-03/journal/sections/construction.tex",
+      "environment": "lemma"
+    },
+    {
+      "edition": "journal",
+      "claim_id": "j:trig",
+      "status": "lean/general",
+      "label": "j:trig",
+      "path": "manuscripts/2026-10-03/journal/sections/construction.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "journal",
+      "claim_id": "j:sign",
+      "status": "lean/general",
+      "label": "j:sign",
+      "path": "manuscripts/2026-10-03/journal/sections/construction.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "journal",
+      "claim_id": "j:residues",
+      "status": "lean/general",
+      "label": "j:residues",
+      "path": "manuscripts/2026-10-03/journal/sections/construction.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "journal",
+      "claim_id": "j:phase",
+      "status": "lean/general",
+      "label": "j:phase",
+      "path": "manuscripts/2026-10-03/journal/sections/construction.tex",
+      "environment": "lemma"
+    },
+    {
+      "edition": "journal",
+      "claim_id": "j:covariance",
+      "status": "lean/general",
+      "label": "j:covariance",
+      "path": "manuscripts/2026-10-03/journal/sections/construction.tex",
+      "environment": "align"
+    },
+    {
+      "edition": "journal",
+      "claim_id": "j:caps",
+      "status": "lean/general",
+      "label": "j:caps",
+      "path": "manuscripts/2026-10-03/journal/sections/construction.tex",
+      "environment": "lemma"
+    },
+    {
+      "edition": "journal",
+      "claim_id": "j:gap",
+      "status": "lean/general",
+      "label": "j:gap",
+      "path": "manuscripts/2026-10-03/journal/sections/construction.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "journal",
+      "claim_id": "jext:visible",
+      "status": "lean/general",
+      "label": "jext:visible",
+      "path": "manuscripts/2026-10-03/journal/sections/extensions.tex",
+      "environment": "theorem"
+    },
+    {
+      "edition": "journal",
+      "claim_id": "jext:defect",
+      "status": "partial",
+      "label": "jext:defect",
+      "path": "manuscripts/2026-10-03/journal/sections/extensions.tex",
+      "environment": "proposition"
+    },
+    {
+      "edition": "journal",
+      "claim_id": "jext:gain",
+      "status": "partial",
+      "label": "jext:gain",
+      "path": "manuscripts/2026-10-03/journal/sections/extensions.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "journal",
+      "claim_id": "jext:budget",
+      "status": "partial",
+      "label": "jext:budget",
+      "path": "manuscripts/2026-10-03/journal/sections/extensions.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "journal",
+      "claim_id": "jext:49",
+      "status": "lean/general",
+      "label": "jext:49",
+      "path": "manuscripts/2026-10-03/journal/sections/extensions.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "journal",
+      "claim_id": "jfam:doubling",
+      "status": "lean/general",
+      "label": "jfam:doubling",
+      "path": "manuscripts/2026-10-03/journal/sections/families.tex",
+      "environment": "theorem"
+    },
+    {
+      "edition": "journal",
+      "claim_id": "jfam:recursive",
+      "status": "lean/general",
+      "label": "jfam:recursive",
+      "path": "manuscripts/2026-10-03/journal/sections/families.tex",
+      "environment": "theorem"
+    },
+    {
+      "edition": "journal",
+      "claim_id": "jfam:families",
+      "status": "lean/general",
+      "label": "jfam:families",
+      "path": "manuscripts/2026-10-03/journal/sections/families.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "journal",
+      "claim_id": "jfam:windows",
+      "status": "lean/general",
+      "label": "jfam:windows",
+      "path": "manuscripts/2026-10-03/journal/sections/families.tex",
+      "environment": "theorem"
+    },
+    {
+      "edition": "journal",
+      "claim_id": "j:envelope",
+      "status": "lean/general",
+      "label": "j:envelope",
+      "path": "manuscripts/2026-10-03/journal/sections/families.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "journal",
+      "claim_id": "j:new-envelope",
+      "status": "lean/general",
+      "label": "j:new-envelope",
+      "path": "manuscripts/2026-10-03/journal/sections/families.tex",
+      "environment": "theorem"
+    },
+    {
+      "edition": "journal",
+      "claim_id": "j:new-envelope-formula",
+      "status": "lean/general",
+      "label": "j:new-envelope-formula",
+      "path": "manuscripts/2026-10-03/journal/sections/families.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "journal",
+      "claim_id": "j:new-gains",
+      "status": "lean/general",
+      "label": "j:new-gains",
+      "path": "manuscripts/2026-10-03/journal/sections/families.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "journal",
+      "claim_id": "j:main",
+      "status": "lean/general",
+      "label": "j:main",
+      "path": "manuscripts/2026-10-03/journal/sections/introduction.tex",
+      "environment": "theorem"
+    },
+    {
+      "edition": "journal",
+      "claim_id": "j:G",
+      "status": "lean/general",
+      "label": "j:G",
+      "path": "manuscripts/2026-10-03/journal/sections/introduction.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "journal",
+      "claim_id": "j:blanc",
+      "status": "lean/general; inherited theorem",
+      "label": "j:blanc",
+      "path": "manuscripts/2026-10-03/journal/sections/introduction.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "journal",
+      "claim_id": "jup:identity",
+      "status": "lean/general",
+      "label": "jup:identity",
+      "path": "manuscripts/2026-10-03/journal/sections/upper.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "journal",
+      "claim_id": "jup:clean",
+      "status": "lean/general",
+      "label": "jup:clean",
+      "path": "manuscripts/2026-10-03/journal/sections/upper.tex",
+      "environment": "lemma"
+    },
+    {
+      "edition": "journal",
+      "claim_id": "jup:budget",
+      "status": "lean/derived",
+      "label": "jup:budget",
+      "path": "manuscripts/2026-10-03/journal/sections/upper.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "journal",
+      "claim_id": "jup:simple",
+      "status": "lean/general",
+      "label": "jup:simple",
+      "path": "manuscripts/2026-10-03/journal/sections/upper.tex",
+      "environment": "theorem"
+    },
+    {
+      "edition": "journal",
+      "claim_id": "jup:fan",
+      "status": "lean/conditional-interface",
+      "label": "jup:fan",
+      "path": "manuscripts/2026-10-03/journal/sections/upper.tex",
+      "environment": "lemma"
+    },
+    {
+      "edition": "journal",
+      "claim_id": "jup:sharp-fan",
+      "status": "lean/conditional-interface",
+      "label": "jup:sharp-fan",
+      "path": "manuscripts/2026-10-03/journal/sections/upper.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "journal",
+      "claim_id": "jup:exceptional",
+      "status": "lean/conditional-interface",
+      "label": "jup:exceptional",
+      "path": "manuscripts/2026-10-03/journal/sections/upper.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "journal",
+      "claim_id": "jup:upper",
+      "status": "partial",
+      "label": "jup:upper",
+      "path": "manuscripts/2026-10-03/journal/sections/upper.tex",
+      "environment": "theorem"
+    },
+    {
+      "edition": "journal",
+      "claim_id": "jup:weighted",
+      "status": "partial",
+      "label": "jup:weighted",
+      "path": "manuscripts/2026-10-03/journal/sections/upper.tex",
+      "environment": "equation"
+    },
+    {
+      "edition": "journal",
+      "claim_id": "jup:two-core",
+      "status": "partial",
+      "label": "jup:two-core",
+      "path": "manuscripts/2026-10-03/journal/sections/upper.tex",
+      "environment": "equation"
+    }
+  ],
+  "limitation": "Validates source identities, declaration anchors, retained coverage and label mapping; does not rerun Lean or establish unstated mathematical implications."
+}

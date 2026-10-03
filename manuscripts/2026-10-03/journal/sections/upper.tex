@@ -1,0 +1,81 @@
+\section{Actual incidence bounds and remaining core geometry}
+\label{jup:section}
+
+Here the lines are pairwise nonparallel. Multiple points are allowed except in explicitly simple statements. The completed Lean extraction applies to any finite injective certified triangle family, including a proper subset of all triangular cells; unused and shared edges are counted relative to that family.
+
+Let $t_r$ count $r$-fold vertices. The core consists of those with $r\ge3$; set
+\[
+ q=\sum_{r\ge3}t_r,\quad I=\sum_{r\ge3}rt_r,\quad
+ S=\sum_{r\ge3}r(r-2)t_r,\quad\delta=n(n-2)-3T.
+\]
+Let $h$ count lines meeting the core, $E$ bounded elementary segments, $U$ unused segments, and $D_1,D_2$ shared sides with one and two core endpoints. An actual shared side cannot have two ordinary endpoints. Pair counting, consecutive-intersection extraction and the capacity of an edge to border at most two triangle interiors now give complete Lean identities
+\begin{equation}\label{jup:identity}
+ E=n(n-2)-S,\qquad3T=E-U+D_1+D_2,\qquad
+ \delta=S+U-D_1-D_2.
+\end{equation}
+Actual core incidences also give $D_2+h\le I$, $D_2\le\binom q2$, and $2S-7I+15q\ge0$.
+
+\begin{lemma}[Actual clean-line charging]\label{jup:clean}
+For even $n\ge4$, $n-h\le2U+D_1$. Consequently
+\begin{equation}\label{jup:budget}
+ 2\delta\ge n+2S-h-3D_1-2D_2.
+\end{equation}
+\end{lemma}
+\begin{proof}[Completed geometric extraction]
+A clean line avoids the core and has $n-1$ distinct crossings. Choose a common open half-plane containing another transverse intersection on each crossing line. Consecutive-intersection order supplies bounded transverse pieces there. If every such piece had triangle degree one, the triangles would pair the clean line's crossings; uniqueness of consecutive segments makes this a partition into pairs. Its odd cardinality $n-1$ is impossible. Hence a bounded transverse piece is unused or shared. Its clean-line endpoint is ordinary, so a shared piece has precisely one core endpoint. An unused segment receives at most two endpoint charges and a one-core shared segment at most one. The actual charge map and its fibers are extracted in Lean, yielding the inequality. Equation~\eqref{jup:identity} then gives~\eqref{jup:budget}.
+\end{proof}
+This completion is distinct from the exterior \emph{ray}-charging gap in Proposition~\ref{jext:defect}. Nonparallelism is used to obtain the transverse intersections: three parallel vertical lines and one horizontal line would invalidate the same clean-line statement.
+
+\begin{theorem}[Formal classical simple bounds]\label{jup:simple}
+Every simple $n$-line certificate witness satisfies $3T\le n(n-2)$ for $n\ge2$, and $6T\le n(2n-5)$ for even $n\ge4$.
+\end{theorem}
+\begin{proof}
+The core is empty, so $S=D_1=D_2=h=0$ and $\delta=U\ge0$. In the even case Lemma~\ref{jup:clean} gives $2U\ge n$. Rearranging proves both inequalities, including their floor forms.
+\end{proof}
+These are formalizations of classical simple upper bounds, including Blanc's even polynomial~\cite{blanc2011}; they are not new unrestricted estimates. Together with Theorem~\ref{jfam:recursive}, they prove the windows stated there.
+
+\begin{lemma}[Local fan bounds]\label{jup:fan}
+At an $r$-fold core point, let $d_1,d_2$ count shared incident rays ending respectively at ordinary and core vertices. The actual cyclic fan satisfies
+\[
+ d_1\le2r-3,\qquad3d_1+d_2\le6r-6.
+\]
+An extremal fan with $d_1=2r-3$ has every sector triangular and exactly $d_2=3$. Thus $d_2\le2$ implies $d_1\le2r-4$.
+\end{lemma}
+\begin{proof}[Local mechanism]
+There cannot be $r-1$ consecutive ordinary-ended shared rays: successive opposite supports coincide, forcing a line to meet an opposite pair of rays and hence the center. Window counting gives the first bound. Analysis of the missing sectors shows that equality forces the full triangular fan and three core-ended rays. Combining this with $d_1+d_2\le2r$ proves the other conclusions.
+\end{proof}
+The local geometric interfaces and this sharper equality analysis are complete Lean results. With $e_v$ the indicator of an extremal fan, they also yield
+\begin{equation}\label{jup:sharp-fan}
+ 3d_1+d_2\le6r-8+2e_v.
+\end{equation}
+A supported boundary core cannot be extremal under the supplied fan/endpoint maps. Two full triple fans cannot be adjacent under the explicit common-edge matching. Extracting all these cyclic fans and matches from arbitrary whole arrangements remains unfinished. If that extraction supplies the summed fan inequality and $e=\sum_v e_v$, the complete conditional arithmetic theorem gives
+\begin{equation}\label{jup:exceptional}
+ 2\delta\ge n+2S-7I+8q+D_2-2e.
+\end{equation}
+This retains the shared-core-edge correction. The following older restricted claims retain their ordinary-proof status.
+
+\begin{theorem}[Restricted upper estimates: manuscript geometry]\label{jup:upper}
+For even nonparallel arrangements, the global fan argument gives
+\begin{equation}\label{jup:weighted}
+ 2\delta\ge n+\sum_{r\ge3}(2r^2-11r+6)t_r.
+\end{equation}
+If there are at most two core points, then
+\begin{equation}\label{jup:two-core}
+ T\le\floor{n(n-5/2)/3}+1.
+\end{equation}
+The defects for zero and one core point satisfy $\delta\ge n/2$ and $\delta\ge n/2-1$ respectively.
+\end{theorem}
+\begin{proof}
+Summing $3d_1+d_2\le6r-6$ gives $3D_1+2D_2\le6I-6q$; with $h\le I$, use~\eqref{jup:budget}. If $q\le2$, every core has $d_2\le1$, so $D_1\le2I-4q$. Since $D_2\le1$ and $h\le I-D_2$, one obtains
+$2\delta\ge n+\sum(2r^2-11r+12)t_r-D_2\ge n-3q-D_2\ge n-7$.
+Parity improves this to $n-6$. For $q=0,1$ the same argument has $D_2=0$ and rounds as stated.
+\end{proof}
+A nonnegative total weight in~\eqref{jup:weighted} gives the simple even polynomial; in particular this holds when every core multiplicity is at least five. Triple and quadruple weights are $-9,-6$, so this does not solve the arbitrary-core case. The two-core bound is attained within its stated class at $8,14,26,50$ lines by attributed witnesses with $15,54,204,792$ triangles~\cite{maiorana2026,parpalakutkinGallery2026}. The new three-core arithmetic theorem gives $T\le\floor{n(2n-5)/6}+2$ when its fan premises are supplied. It is conditional, not a completed unrestricted geometric bound.
+
+Shared sides cannot be discarded. The six lines $x=0$, $y=0$, $x+y=3$, $x-y=0$, $2x+y=3$, $x+2y=3$ have six triangular cells and six shared radial sides at $(1,1)$, with $d_1=d_2=3$. Their exact Lean certificate contradicts only a literal local incidence interpretation of a shared-pair assertion in Cl\'ement--Bader~\cite{clementbader2007}, not its final upper theorem.
+\begin{figure}[tb]
+\centering\includegraphics[width=.43\linewidth]{shared-fan.pdf}
+\caption{The verified triangle-and-medians example: six cells, three ordinary-ended and three core-ended shared sides at the central triple point. This distinction controls the incidence budget.}\label{jup:figure}
+\end{figure}
+
+Exact smoothing diagnostics also survive unchanged. The four local resolutions of the retained Maiorana $14{:}54$ input count $52,52,53,52$ cells. For 132 recorded gallery resolutions at orders $8,14,20,26,32,38,50$, the respective best nearby simple counts are $14,51,114,203,313,448,791$. Fixed nonzero determinant signs and the resolved triple signs control sufficiently small perturbations. These finite exact computations refute nondecreasing, and even universal loss-at-most-one, smoothing for the specified input types. The sign-stability interpretation is an ordinary argument; the data do not bound every simple arrangement at those orders.

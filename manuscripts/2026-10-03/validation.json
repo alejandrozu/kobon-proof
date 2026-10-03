@@ -1,0 +1,3129 @@
+{
+  "passed": true,
+  "date": "2026-10-03",
+  "math_commit": "2d69a71e32d3eaa59399b0e5bc61720ec3b00ac8",
+  "checked_lean_sources": 375,
+  "checked_build_targets": 270,
+  "finite_certificates": 138,
+  "simple_certificates": 104,
+  "historical_pdf_sha256": {
+    "paper/Kobon_triangle_constructions.pdf": "24e069db61a3c3383f86d403a401ee83632aeb41e381cf80be6204c659cba667",
+    "paper/journal/Kobon_journal_version.pdf": "8d79c549c8b473ae1374ae589aa129b628205e5d8ca43f0c8aaa8c4e4bd27214"
+  },
+  "proof_claims": 160,
+  "immutable_link_source_files": 153,
+  "manuscripts": [
+    {
+      "passed": true,
+      "pdf": "Kobon_comprehensive_2026-10-03.pdf",
+      "pdf_sha256": "06fbc2841266aeef17a2eb5f4777dc82e809787312b745b27aab09c8e69ef0ed",
+      "scope": "Structural and text-extraction checks, not visual rendering verification.",
+      "page_count": 73,
+      "pages": [
+        {
+          "page": 1,
+          "text_characters": 2012,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 2,
+          "text_characters": 3074,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 3,
+          "text_characters": 3465,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 4,
+          "text_characters": 402,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 5,
+          "text_characters": 3256,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 6,
+          "text_characters": 2574,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 7,
+          "text_characters": 3274,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 8,
+          "text_characters": 2946,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 9,
+          "text_characters": 2795,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 10,
+          "text_characters": 3334,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 11,
+          "text_characters": 3991,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 12,
+          "text_characters": 3009,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 13,
+          "text_characters": 2780,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 14,
+          "text_characters": 2844,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 15,
+          "text_characters": 2678,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 16,
+          "text_characters": 1697,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 17,
+          "text_characters": 3359,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 18,
+          "text_characters": 2008,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 19,
+          "text_characters": 1455,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 20,
+          "text_characters": 2202,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 21,
+          "text_characters": 979,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 22,
+          "text_characters": 2418,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 23,
+          "text_characters": 2559,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 24,
+          "text_characters": 1970,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 25,
+          "text_characters": 2944,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 26,
+          "text_characters": 2783,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 27,
+          "text_characters": 3262,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 28,
+          "text_characters": 2019,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 29,
+          "text_characters": 2528,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 30,
+          "text_characters": 2879,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 31,
+          "text_characters": 3205,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 32,
+          "text_characters": 2526,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 33,
+          "text_characters": 2958,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 34,
+          "text_characters": 2998,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 35,
+          "text_characters": 2391,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 36,
+          "text_characters": 2603,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 37,
+          "text_characters": 2747,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 38,
+          "text_characters": 2597,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 39,
+          "text_characters": 3255,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 40,
+          "text_characters": 2523,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 41,
+          "text_characters": 2439,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 42,
+          "text_characters": 3547,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 43,
+          "text_characters": 2681,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 44,
+          "text_characters": 2500,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 45,
+          "text_characters": 2463,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 46,
+          "text_characters": 2102,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 47,
+          "text_characters": 3427,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 48,
+          "text_characters": 3251,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 49,
+          "text_characters": 2757,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 50,
+          "text_characters": 3542,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 51,
+          "text_characters": 3468,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 52,
+          "text_characters": 2748,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 53,
+          "text_characters": 2707,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 54,
+          "text_characters": 2764,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 55,
+          "text_characters": 2978,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 56,
+          "text_characters": 3365,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 57,
+          "text_characters": 3146,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 58,
+          "text_characters": 2705,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 59,
+          "text_characters": 2718,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 60,
+          "text_characters": 3948,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 61,
+          "text_characters": 3278,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 62,
+          "text_characters": 3232,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 63,
+          "text_characters": 3037,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 64,
+          "text_characters": 3111,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 65,
+          "text_characters": 1087,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 66,
+          "text_characters": 2084,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 67,
+          "text_characters": 2561,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 68,
+          "text_characters": 1665,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 69,
+          "text_characters": 1691,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 70,
+          "text_characters": 2248,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 71,
+          "text_characters": 1043,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 72,
+          "text_characters": 2251,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 73,
+          "text_characters": 2282,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        }
+      ],
+      "fonts": [
+        {
+          "object": "4 0 R",
+          "name": "/IHAIZV+LMRoman17-Regular",
+          "subtype": "/Type1",
+          "pages": [
+            1
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "5 0 R",
+          "name": "/BZIVMZ+LMRoman12-Regular",
+          "subtype": "/Type1",
+          "pages": [
+            1
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "6 0 R",
+          "name": "/IXFAWU+LMRoman10-Bold",
+          "subtype": "/Type1",
+          "pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            60,
+            62,
+            66,
+            67,
+            70,
+            73
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "7 0 R",
+          "name": "/TQTHRL+LMRoman10-Regular",
+          "subtype": "/Type1",
+          "pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "8 0 R",
+          "name": "/YEUUOC+LMMathItalic10-Regular",
+          "subtype": "/Type1",
+          "pages": [
+            1,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            54,
+            55,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73
+          ],
+          "embedded": true,
+          "to_unicode": false,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "9 0 R",
+          "name": "/AKHCZK+LMRoman10-Regular",
+          "subtype": "/Type1",
+          "pages": [
+            1,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            54,
+            55,
+            56,
+            61,
+            62,
+            64,
+            66,
+            67,
+            70,
+            71,
+            72,
+            73
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "10 0 R",
+          "name": "/VDVGTR+LMMathSymbols10-Regular",
+          "subtype": "/Type1",
+          "pages": [
+            1,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            47,
+            48,
+            49,
+            51,
+            54,
+            55,
+            61,
+            62,
+            64
+          ],
+          "embedded": true,
+          "to_unicode": false,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "11 0 R",
+          "name": "/CAFSZL+LMMathItalic7-Regular",
+          "subtype": "/Type1",
+          "pages": [
+            1,
+            55,
+            66,
+            67
+          ],
+          "embedded": true,
+          "to_unicode": false,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "12 0 R",
+          "name": "/DDIEWW+LMRoman7-Regular",
+          "subtype": "/Type1",
+          "pages": [
+            1,
+            7,
+            9,
+            28,
+            55
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "17 0 R",
+          "name": "/FKPJSN+LMRoman12-Bold",
+          "subtype": "/Type1",
+          "pages": [
+            2,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            18,
+            20,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            31,
+            32,
+            33,
+            35,
+            37,
+            38,
+            39,
+            40,
+            41,
+            43,
+            44,
+            45,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            66,
+            67,
+            70,
+            72,
+            73
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "108 0 R",
+          "name": "/PVTTLK+LMMathExtension10-Regular",
+          "subtype": "/Type1",
+          "pages": [
+            5,
+            8,
+            9,
+            10,
+            15,
+            16,
+            18,
+            25,
+            26,
+            27,
+            28,
+            29,
+            31,
+            35,
+            40,
+            41,
+            43,
+            44,
+            45,
+            47,
+            48,
+            49,
+            54,
+            61
+          ],
+          "embedded": true,
+          "to_unicode": false,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "109 0 R",
+          "name": "/JAGKKY+LMMathItalic8-Regular",
+          "subtype": "/Type1",
+          "pages": [
+            5,
+            6,
+            10,
+            11,
+            13,
+            15,
+            16,
+            17,
+            18,
+            25,
+            26,
+            27,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            47,
+            49,
+            50,
+            54,
+            61,
+            64
+          ],
+          "embedded": true,
+          "to_unicode": false,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "110 0 R",
+          "name": "/NOMARO+LMRoman8-Regular",
+          "subtype": "/Type1",
+          "pages": [
+            5,
+            6,
+            8,
+            9,
+            10,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            54,
+            55,
+            61,
+            62
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "113 0 R",
+          "name": "/KPXLOM+LMRoman10-Italic",
+          "subtype": "/Type1",
+          "pages": [
+            5,
+            8,
+            10,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            23,
+            25,
+            26,
+            27,
+            30,
+            32,
+            33,
+            34,
+            36,
+            37,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            47,
+            48,
+            54,
+            62,
+            63,
+            64,
+            65,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "114 0 R",
+          "name": "/UTACNV+MSBM10",
+          "subtype": "/Type1",
+          "pages": [
+            5,
+            12,
+            13,
+            14,
+            15,
+            18,
+            26,
+            36,
+            54,
+            62
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "116 0 R",
+          "name": "/FZDNHS+LMMono10-Regular",
+          "subtype": "/Type1",
+          "pages": [
+            5,
+            8,
+            14,
+            15,
+            17,
+            22,
+            23,
+            25,
+            27,
+            30,
+            33,
+            34,
+            36,
+            37,
+            38,
+            39,
+            43,
+            46,
+            47,
+            48,
+            49,
+            51,
+            54,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            63,
+            64,
+            65,
+            67,
+            68,
+            69,
+            70,
+            72
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "121 0 R",
+          "name": "/GCWXDV+DejaVuSans-Oblique",
+          "subtype": "/Type0",
+          "pages": [
+            6
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile2"
+          ]
+        },
+        {
+          "object": "128 0 R",
+          "name": "/BMQQDV+DejaVuSans",
+          "subtype": "/Type0",
+          "pages": [
+            6
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile2"
+          ]
+        },
+        {
+          "object": "135 0 R",
+          "name": "/EGWXSV+DejaVuSansDisplay",
+          "subtype": "/Type0",
+          "pages": [
+            6
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile2"
+          ]
+        },
+        {
+          "object": "212 0 R",
+          "name": "/DZGKAF+LMMathSymbols8-Regular",
+          "subtype": "/Type1",
+          "pages": [
+            13,
+            18,
+            25,
+            26,
+            27,
+            29,
+            32,
+            33,
+            34,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            55
+          ],
+          "embedded": true,
+          "to_unicode": false,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "238 0 R",
+          "name": "/GCWXDV+DejaVuSans-Oblique",
+          "subtype": "/Type0",
+          "pages": [
+            16
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile2"
+          ]
+        },
+        {
+          "object": "245 0 R",
+          "name": "/BMQQDV+DejaVuSans",
+          "subtype": "/Type0",
+          "pages": [
+            16
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile2"
+          ]
+        },
+        {
+          "object": "294 0 R",
+          "name": "/GJMHKB+LMRoman10-Bold",
+          "subtype": "/Type1",
+          "pages": [
+            18
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "276 0 R",
+          "name": "/BMQQDV+DejaVuSans",
+          "subtype": "/Type0",
+          "pages": [
+            18
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile2"
+          ]
+        },
+        {
+          "object": "299 0 R",
+          "name": "/GCWXDV+DejaVuSans-Oblique",
+          "subtype": "/Type0",
+          "pages": [
+            19
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile2"
+          ]
+        },
+        {
+          "object": "306 0 R",
+          "name": "/BMQQDV+DejaVuSans",
+          "subtype": "/Type0",
+          "pages": [
+            19
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile2"
+          ]
+        },
+        {
+          "object": "319 0 R",
+          "name": "/GCWXDV+DejaVuSans-Oblique",
+          "subtype": "/Type0",
+          "pages": [
+            19
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile2"
+          ]
+        },
+        {
+          "object": "326 0 R",
+          "name": "/BMQQDV+DejaVuSans",
+          "subtype": "/Type0",
+          "pages": [
+            19
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile2"
+          ]
+        },
+        {
+          "object": "343 0 R",
+          "name": "/BMQQDV+DejaVuSans",
+          "subtype": "/Type0",
+          "pages": [
+            20
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile2"
+          ]
+        },
+        {
+          "object": "362 0 R",
+          "name": "/BMQQDV+DejaVuSans",
+          "subtype": "/Type0",
+          "pages": [
+            21
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile2"
+          ]
+        },
+        {
+          "object": "375 0 R",
+          "name": "/BMQQDV+DejaVuSans",
+          "subtype": "/Type0",
+          "pages": [
+            21
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile2"
+          ]
+        },
+        {
+          "object": "411 0 R",
+          "name": "/GCWXDV+DejaVuSans-Oblique",
+          "subtype": "/Type0",
+          "pages": [
+            24
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile2"
+          ]
+        },
+        {
+          "object": "418 0 R",
+          "name": "/BMQQDV+DejaVuSans",
+          "subtype": "/Type0",
+          "pages": [
+            24
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile2"
+          ]
+        },
+        {
+          "object": "463 0 R",
+          "name": "/BMQQDV+DejaVuSans",
+          "subtype": "/Type0",
+          "pages": [
+            28
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile2"
+          ]
+        },
+        {
+          "object": "500 0 R",
+          "name": "/BMQQDV+DejaVuSans",
+          "subtype": "/Type0",
+          "pages": [
+            32
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile2"
+          ]
+        },
+        {
+          "object": "538 0 R",
+          "name": "/GCWXDV+DejaVuSans-Oblique",
+          "subtype": "/Type0",
+          "pages": [
+            35
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile2"
+          ]
+        },
+        {
+          "object": "545 0 R",
+          "name": "/BMQQDV+DejaVuSans",
+          "subtype": "/Type0",
+          "pages": [
+            35
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile2"
+          ]
+        },
+        {
+          "object": "564 0 R",
+          "name": "/BMQQDV+DejaVuSans",
+          "subtype": "/Type0",
+          "pages": [
+            36
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile2"
+          ]
+        },
+        {
+          "object": "597 0 R",
+          "name": "/BMQQDV+DejaVuSans",
+          "subtype": "/Type0",
+          "pages": [
+            38
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile2"
+          ]
+        },
+        {
+          "object": "634 0 R",
+          "name": "/NITCSQ+LMMathSymbols7-Regular",
+          "subtype": "/Type1",
+          "pages": [
+            40
+          ],
+          "embedded": true,
+          "to_unicode": false,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "622 0 R",
+          "name": "/BMQQDV+DejaVuSans",
+          "subtype": "/Type0",
+          "pages": [
+            40
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile2"
+          ]
+        },
+        {
+          "object": "680 0 R",
+          "name": "/BMQQDV+DejaVuSans",
+          "subtype": "/Type0",
+          "pages": [
+            46
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile2"
+          ]
+        },
+        {
+          "object": "709 0 R",
+          "name": "/UBBQTN+LMMono10-Italic",
+          "subtype": "/Type1",
+          "pages": [
+            48
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "740 0 R",
+          "name": "/GCWXDV+DejaVuSans-Oblique",
+          "subtype": "/Type0",
+          "pages": [
+            52
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile2"
+          ]
+        },
+        {
+          "object": "747 0 R",
+          "name": "/BMQQDV+DejaVuSans",
+          "subtype": "/Type0",
+          "pages": [
+            52
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile2"
+          ]
+        },
+        {
+          "object": "763 0 R",
+          "name": "/BMQQDV+DejaVuSans",
+          "subtype": "/Type0",
+          "pages": [
+            53
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile2"
+          ]
+        },
+        {
+          "object": "782 0 R",
+          "name": "/LPOGEQ+LMMathItalic6-Regular",
+          "subtype": "/Type1",
+          "pages": [
+            54
+          ],
+          "embedded": true,
+          "to_unicode": false,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "887 0 R",
+          "name": "/GQYLQL+LMMono9-Regular",
+          "subtype": "/Type1",
+          "pages": [
+            59
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile3"
+          ]
+        }
+      ],
+      "missing_to_unicode": [
+        {
+          "object": "8 0 R",
+          "name": "/YEUUOC+LMMathItalic10-Regular"
+        },
+        {
+          "object": "10 0 R",
+          "name": "/VDVGTR+LMMathSymbols10-Regular"
+        },
+        {
+          "object": "11 0 R",
+          "name": "/CAFSZL+LMMathItalic7-Regular"
+        },
+        {
+          "object": "108 0 R",
+          "name": "/PVTTLK+LMMathExtension10-Regular"
+        },
+        {
+          "object": "109 0 R",
+          "name": "/JAGKKY+LMMathItalic8-Regular"
+        },
+        {
+          "object": "212 0 R",
+          "name": "/DZGKAF+LMMathSymbols8-Regular"
+        },
+        {
+          "object": "634 0 R",
+          "name": "/NITCSQ+LMMathSymbols7-Regular"
+        },
+        {
+          "object": "782 0 R",
+          "name": "/LPOGEQ+LMMathItalic6-Regular"
+        }
+      ],
+      "errors": [],
+      "font_count": 48,
+      "missing_to_unicode_note": "Missing ToUnicode maps may limit extraction or accessibility; they do not by themselves establish a visual rendering fault.",
+      "edition": "long",
+      "clickable_urls": 89,
+      "immutable_lean_urls": 65,
+      "visual_review_matches": true
+    },
+    {
+      "passed": true,
+      "pdf": "Kobon_journal_2026-10-03.pdf",
+      "pdf_sha256": "5ca88ff6e8648b4880a17f7b2bec6b130fe0c0da296812238c1d1dbabd68008b",
+      "scope": "Structural and text-extraction checks, not visual rendering verification.",
+      "page_count": 13,
+      "pages": [
+        {
+          "page": 1,
+          "text_characters": 2916,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 2,
+          "text_characters": 3230,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 3,
+          "text_characters": 2961,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 4,
+          "text_characters": 2360,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 5,
+          "text_characters": 3248,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 6,
+          "text_characters": 3144,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 7,
+          "text_characters": 2726,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 8,
+          "text_characters": 3083,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 9,
+          "text_characters": 3338,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 10,
+          "text_characters": 2480,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 11,
+          "text_characters": 4050,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 12,
+          "text_characters": 3464,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        },
+        {
+          "page": 13,
+          "text_characters": 3863,
+          "user_unit": 1.0,
+          "media_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ],
+          "crop_box": [
+            0.0,
+            0.0,
+            595.28,
+            841.89
+          ]
+        }
+      ],
+      "fonts": [
+        {
+          "object": "4 0 R",
+          "name": "/IHAIZV+LMRoman17-Regular",
+          "subtype": "/Type1",
+          "pages": [
+            1
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "5 0 R",
+          "name": "/BZIVMZ+LMRoman12-Regular",
+          "subtype": "/Type1",
+          "pages": [
+            1
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "6 0 R",
+          "name": "/IXFAWU+LMRoman10-Bold",
+          "subtype": "/Type1",
+          "pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "7 0 R",
+          "name": "/TQTHRL+LMRoman10-Regular",
+          "subtype": "/Type1",
+          "pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "8 0 R",
+          "name": "/YEUUOC+LMMathSymbols10-Regular",
+          "subtype": "/Type1",
+          "pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13
+          ],
+          "embedded": true,
+          "to_unicode": false,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "9 0 R",
+          "name": "/AKHCZK+LMMathItalic10-Regular",
+          "subtype": "/Type1",
+          "pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "10 0 R",
+          "name": "/VDVGTR+LMRoman10-Regular",
+          "subtype": "/Type1",
+          "pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "11 0 R",
+          "name": "/CAFSZL+LMMathItalic7-Regular",
+          "subtype": "/Type1",
+          "pages": [
+            1,
+            13
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "12 0 R",
+          "name": "/DDIEWW+LMRoman7-Regular",
+          "subtype": "/Type1",
+          "pages": [
+            1,
+            12
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "13 0 R",
+          "name": "/FKPJSN+LMRoman12-Bold",
+          "subtype": "/Type1",
+          "pages": [
+            1,
+            2,
+            4,
+            5,
+            8,
+            10,
+            12
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "14 0 R",
+          "name": "/PVTTLK+MSBM10",
+          "subtype": "/Type1",
+          "pages": [
+            1,
+            7,
+            12
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "15 0 R",
+          "name": "/JAGKKY+LMRoman8-Regular",
+          "subtype": "/Type1",
+          "pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "16 0 R",
+          "name": "/NOMARO+LMRoman10-Italic",
+          "subtype": "/Type1",
+          "pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            13
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "21 0 R",
+          "name": "/KPXLOM+LMMathExtension10-Regular",
+          "subtype": "/Type1",
+          "pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8,
+            9
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "23 0 R",
+          "name": "/UTACNV+LMMathItalic8-Regular",
+          "subtype": "/Type1",
+          "pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "45 0 R",
+          "name": "/FZDNHS+LMRoman10-Bold",
+          "subtype": "/Type1",
+          "pages": [
+            3
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "46 0 R",
+          "name": "/DZGKAF+LMMathSymbols8-Regular",
+          "subtype": "/Type1",
+          "pages": [
+            3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11
+          ],
+          "embedded": true,
+          "to_unicode": false,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "66 0 R",
+          "name": "/GJMHKB+LMMono10-Regular",
+          "subtype": "/Type1",
+          "pages": [
+            4,
+            11,
+            12,
+            13
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile3"
+          ]
+        },
+        {
+          "object": "51 0 R",
+          "name": "/BMQQDV+DejaVuSans",
+          "subtype": "/Type0",
+          "pages": [
+            4
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile2"
+          ]
+        },
+        {
+          "object": "83 0 R",
+          "name": "/BMQQDV+DejaVuSans",
+          "subtype": "/Type0",
+          "pages": [
+            7
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile2"
+          ]
+        },
+        {
+          "object": "121 0 R",
+          "name": "/BMQQDV+DejaVuSans",
+          "subtype": "/Type0",
+          "pages": [
+            10
+          ],
+          "embedded": true,
+          "to_unicode": true,
+          "embedding": [
+            "/FontFile2"
+          ]
+        }
+      ],
+      "missing_to_unicode": [
+        {
+          "object": "8 0 R",
+          "name": "/YEUUOC+LMMathSymbols10-Regular"
+        },
+        {
+          "object": "46 0 R",
+          "name": "/DZGKAF+LMMathSymbols8-Regular"
+        }
+      ],
+      "errors": [],
+      "font_count": 21,
+      "missing_to_unicode_note": "Missing ToUnicode maps may limit extraction or accessibility; they do not by themselves establish a visual rendering fault.",
+      "edition": "journal",
+      "clickable_urls": 57,
+      "immutable_lean_urls": 39,
+      "visual_review_matches": true
+    }
+  ]
+}

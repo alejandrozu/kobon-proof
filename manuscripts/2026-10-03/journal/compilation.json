@@ -1,0 +1,27 @@
+{
+  "edition": "journal",
+  "pages": 13,
+  "author": "Alejandro Zarzuelo Urdiales",
+  "resolved_references": true,
+  "overflowing_boxes": 0,
+  "missing_character_warnings": 0,
+  "source_sha256": {
+    "figures/affine-chart.pdf": "982861f578087cc5a4b24552abb84740bd3191883a329b8955c19ed33a3cd36d",
+    "figures/normalized-gap.pdf": "0382d4fec39c3fc8424bd2b9b79fe92216a611c49daec986dd94c983ca703f86",
+    "figures/recursive-envelope.pdf": "57e2dd5409ce2d0807f7ab8805755623476c21abd38c7a503f2af4abcac3a5e7",
+    "figures/shared-fan.pdf": "b5d53cec5ebdadbd638acd47981c9d392d47b8b9cec3314e6d0d766832b9759e",
+    "figures/successor-49-resource.pdf": "cbf3be3eb316a89abb73f6ee2c675e99e0cf9e1685b6c43c96de277b24777446",
+    "figures/uniform49.pdf": "2b0ddced8615b4d1e17896631b0bbe07bee5c1e90b095069216e48141e752b0e",
+    "main.tex": "fdf596ce1cc2f639711676787a411704d6faebd0ab2c61affed4bb4f0a6875b9",
+    "references.bib": "2965c7c053062fb27461b20b9c38309ba0139f3e13f29feaf359edb212fb5c5e",
+    "sections/certificates.tex": "38394cd9cb6e63fcf7f423c8f96b6533dace0c0169b7f948598d5cd338185596",
+    "sections/construction.tex": "6e0edfc6854e5e2e67b5b03a55f470629a76ee94b243b64be1745fd0510d4928",
+    "sections/extensions.tex": "426b6d4b5556f8d20ad6459ce7af6e9a756deca64e845d56d3a3f60f7274f0b6",
+    "sections/families.tex": "1c1f81537ea23772e9a775188c4767ca7adfb19ffebc430db1ffe6c9ec120f02",
+    "sections/introduction.tex": "630ec7f23ff2c480d2de950200e681730766b651aa346a3235ffb69a74bbd3fd",
+    "sections/proof_index.tex": "8dfc663c867e9cdc610985ba9f7316fe8d95545a37355f68d239b74a539ba8ff",
+    "sections/upper.tex": "349fbf477ccbaa3a7eb003ef3d58ac2c38356b3a392e082378c9e01389c1d801"
+  },
+  "pdf_sha256": "5ca88ff6e8648b4880a17f7b2bec6b130fe0c0da296812238c1d1dbabd68008b",
+  "compiler_log_sha256": "50787479c5d75af3e660495820787b43e7beb5b0ab07d7dd8cdc13858a12ccfb"
+}

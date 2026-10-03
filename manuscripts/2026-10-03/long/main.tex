@@ -1,0 +1,99 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=27mm]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\renewcommand{\qedsymbol}{\textnormal{\small Q.E.D.}}
+\usepackage{graphicx,booktabs,longtable,array,tabularx,multirow}
+\newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
+\renewcommand{\tabularxcolumn}[1]{P{#1}}
+\usepackage[table]{xcolor}
+\usepackage{microtype}
+\usepackage{enumitem}
+\usepackage{caption,subcaption}
+\usepackage[section]{placeins}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{xurl}
+\usepackage[colorlinks=true,linkcolor=blue!45!black,citecolor=blue!45!black,urlcolor=blue!45!black]{hyperref}
+\hypersetup{pdftitle={Kobon Triangle Constructions: Uniform Lower Bounds, Extension Methods, and Formal Verification},pdfauthor={Alejandro Zarzuelo Urdiales},pdfsubject={Research manuscript with exact certificates and Lean proof scope}}
+\usepackage[nameinlink,noabbrev]{cleveref}
+\usepackage{listings}
+\usepackage{fancyhdr}
+\setlength{\headheight}{14pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small Kobon triangle constructions and formal verification}
+\fancyhead[R]{\small A. Zarzuelo Urdiales}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.25pt}
+\setlength{\emergencystretch}{2em}
+\setlength{\parskip}{3pt}
+\setlist{itemsep=2pt,topsep=4pt}
+\captionsetup{font=small,labelfont=bf,margin=5mm}
+\setcounter{topnumber}{3}
+\setcounter{bottomnumber}{2}
+\setcounter{totalnumber}{5}
+\renewcommand{\topfraction}{0.92}
+\renewcommand{\bottomfraction}{0.85}
+\renewcommand{\textfraction}{0.07}
+\renewcommand{\floatpagefraction}{0.7}
+\graphicspath{{figures/}}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\K}{K}
+\newcommand{\Ks}{K_{\mathrm{s}}}
+\newcommand{\G}{G}
+\newcommand{\B}{B}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\U}{U}
+\newcommand{\Lbound}{L}
+\newcommand{\floor}[1]{\left\lfloor#1\right\rfloor}
+\newcommand{\ceil}[1]{\left\lceil#1\right\rceil}
+\newcommand{\lean}[1]{{\small\nolinkurl{#1}}}
+\newcommand{\repo}{\url{https://github.com/alejandrozu/kobon-proof}}
+\newcommand{\proofref}[3]{\href{https://github.com/alejandrozu/kobon-proof/blob/2d69a71e32d3eaa59399b0e5bc61720ec3b00ac8/#1\#L#2}{#3}}
+\newcommand{\sourcefile}[2]{\href{https://github.com/alejandrozu/kobon-proof/blob/2d69a71e32d3eaa59399b0e5bc61720ec3b00ac8/#1}{#2}}
+\newcommand{\status}[1]{\textsf{\small[#1]}}
+\DeclareMathOperator{\sgn}{sgn}
+\DeclareMathOperator{\conv}{conv}
+\DeclareMathOperator{\intt}{int}
+\lstset{basicstyle=\ttfamily\footnotesize,breaklines=true,columns=fullflexible,keepspaces=true,frame=single,framerule=0.3pt,rulecolor=\color{black!25},xleftmargin=4pt,xrightmargin=4pt}
+\title{Kobon Triangle Constructions:\\Uniform Lower Bounds, Extension Methods,\\and Formal Verification}
+\author{Alejandro Zarzuelo Urdiales}
+\date{Comprehensive research edition, 3 October 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+The Kobon triangle problem asks for the largest number of bounded triangular cells determined by a prescribed number of real affine lines. We give a comprehensive account of a construction and verification program begun in March 2026. An all-order simple construction supplies $G(n)=\floor{n(n-3)/3}+1+(n\bmod2)$ for $n\ge4$, a constant-term refinement of the familiar F\"uredi--Pal\'asti affine formula. We now also complete an actual geometric iteration of Bartholdi--Blanc--Loisel doubling: for every $q=10\cdot2^t$, simple arrangements realize $(q^2-4)/3$ triangles at order $q+1$ and $(q^2-4)/3+q/2$ at order $q+2$. The retained grid, saturation, orientation and visibility invariants justify every finite depth. Combining these families with $G$ and 138 exact finite certificates gives a proved bound for every natural order and strict improvements over the previous verified repository envelope at infinitely many orders. Formalized classical simple upper bounds place each family count within one triangle of the corresponding simple optimum. Further results include exterior extension and its repetition obstruction, actual edge-incidence and clean-line charging theorems, local multiple-point fan restrictions, and an exact algebraic obstruction to one tangent-grid sign system. We preserve all earlier finite results and distinguish the broader external obstruction census and the uniform 49-line seed from their unfinished Lean integrations. The release checks 375 active Lean sources; native finite checks are explicitly identified. These are construction and formalization advances, not a solution of unrestricted Kobon or a claim of new numerical records for the inherited dyadic families.
+\end{abstract}
+\vspace{0.4em}
+\noindent\textbf{Keywords.} Line arrangements; triangular cells; Kobon problem; constructive lower bounds; projective transformations; exact computation; Lean formalization.
+\clearpage
+\tableofcontents
+\clearpage
+\input{sections/introduction}
+\input{sections/literature}
+\input{sections/geometry}
+\input{sections/universal}
+\input{sections/finite_results}
+\input{sections/extensions}
+\input{sections/families}
+\input{sections/upper_bounds}
+\input{sections/experiments}
+\input{sections/formalization}
+\input{sections/discussion}
+\bibliographystyle{plainnat}
+\bibliography{references}
+\clearpage
+\appendix
+\input{sections/appendices}
+\end{document}

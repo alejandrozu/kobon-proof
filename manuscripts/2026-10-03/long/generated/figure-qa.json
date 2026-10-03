@@ -1,0 +1,152 @@
+{
+  "vector_figures": [
+    {
+      "file": "affine-chart.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "content_bytes": 7018,
+      "text_characters": 121,
+      "width": 541.19952,
+      "height": 297.28451
+    },
+    {
+      "file": "bounds-growth.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "content_bytes": 16980,
+      "text_characters": 259,
+      "width": 512.39952,
+      "height": 303.59952
+    },
+    {
+      "file": "external-comparison.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "content_bytes": 15128,
+      "text_characters": 348,
+      "width": 562.79952,
+      "height": 289.19952
+    },
+    {
+      "file": "family-deficits.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "content_bytes": 17445,
+      "text_characters": 472,
+      "width": 548.39952,
+      "height": 289.19952
+    },
+    {
+      "file": "finite-envelope.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "content_bytes": 32759,
+      "text_characters": 266,
+      "width": 533.99952,
+      "height": 404.39952
+    },
+    {
+      "file": "historical-28.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "content_bytes": 46951,
+      "text_characters": 161,
+      "width": 515.8821405,
+      "height": 311.151635
+    },
+    {
+      "file": "historical-30.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "content_bytes": 51567,
+      "text_characters": 161,
+      "width": 515.8821405,
+      "height": 311.151635
+    },
+    {
+      "file": "historical-34.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "content_bytes": 65819,
+      "text_characters": 161,
+      "width": 515.8821405,
+      "height": 311.151635
+    },
+    {
+      "file": "negative-searches.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "content_bytes": 9886,
+      "text_characters": 443,
+      "width": 562.79952,
+      "height": 310.79952
+    },
+    {
+      "file": "normalized-gap.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "content_bytes": 25824,
+      "text_characters": 225,
+      "width": 541.1978830292,
+      "height": 267.59952
+    },
+    {
+      "file": "phase-family.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "content_bytes": 10534,
+      "text_characters": 35,
+      "width": 541.19952,
+      "height": 288.39327
+    },
+    {
+      "file": "residue-gains.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "content_bytes": 6556,
+      "text_characters": 90,
+      "width": 476.39952,
+      "height": 238.79952
+    },
+    {
+      "file": "seed-11.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "content_bytes": 9647,
+      "text_characters": 167,
+      "width": 535.0441125,
+      "height": 311.151635
+    },
+    {
+      "file": "seed-21.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "content_bytes": 44552,
+      "text_characters": 189,
+      "width": 600.9356590086,
+      "height": 266.76776
+    },
+    {
+      "file": "shared-fan.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "content_bytes": 4575,
+      "text_characters": 123,
+      "width": 383.60577,
+      "height": 415.479635
+    },
+    {
+      "file": "successor-49-resource.pdf",
+      "pages": 1,
+      "raster_images": 0,
+      "content_bytes": 12434,
+      "text_characters": 329,
+      "width": 548.39952,
+      "height": 267.59952
+    }
+  ],
+  "finite_rows": 58,
+  "distinct_catalog_identities": 138,
+  "all_passed": true,
+  "visual_review": "All 16 PNG previews inspected; multiscale geometry views adjusted to expose dense cells. Previews are regenerated from the same vector source."
+}

@@ -1,0 +1,77 @@
+\section{The uniform affine construction}\label{j:construction}
+
+Write $\ell:a_\ell x+b_\ell y=c_\ell$ and $f_\ell(x,y)=a_\ell x+b_\ell y-c_\ell$. For nonparallel supports put
+\[
+ D_{\ell m}=a_\ell b_m-b_\ell a_m,\qquad
+ (X_{\ell m},Y_{\ell m})=(c_\ell b_m-b_\ell c_m,a_\ell c_m-c_\ell a_m).
+\]
+Their intersection is $p_{\ell m}=(X_{\ell m},Y_{\ell m})/D_{\ell m}$. The polynomial
+\[
+ O(r;\ell,m)=(a_rX_{\ell m}+b_rY_{\ell m}-c_rD_{\ell m})D_{\ell m}
+            =f_r(p_{\ell m})D_{\ell m}^2
+\]
+has the sign of the actual affine evaluation. An increasing nonconcurrent triple is \emph{certified} if its three values $O(r;i,j),O(r;i,k),O(r;j,k)$ have a common weak sign for every arrangement line $r$.
+
+\begin{lemma}\label{j:cell}
+In an arrangement without parallel pairs, a certified triple has a nonempty triangular interior equal to a strict sign cell. Different increasing certified triples have disjoint interiors; each is a bounded triangular cell.
+\end{lemma}
+\begin{proof}
+The vertices are noncollinear. Every test line has one weak sign on their convex hull and a strict sign inside: vanishing at an interior convex combination would force vanishing at all three vertices. Conversely, the supporting inequalities give positive barycentric coordinates. Thus the interior is exactly one strict sign cell. These cells are convex components of the complement. Equal interiors have the same three open sides and hence the same increasing support triple.
+\end{proof}
+Lean proves the geometric sign-cell equality and disjointness; the connected-component interpretation follows by the last elementary topological observation. Rational coordinates allow denominator clearing to integer tests.
+
+Use the F\"uredi--Pal\'asti family
+\begin{equation}\label{j:trig}
+ \ell(\theta):\quad \sin\theta\,x+\cos\theta\,y=\sin(3\theta).
+\end{equation}
+Its determinant is $\sin(u-v)$, and direct expansion gives
+\begin{equation}\label{j:sign}
+ O(\ell(w);\ell(u),\ell(v))
+ =4\sin^2(u-v)\sin(w-v)\sin(w-u)\sin(u+v+w).
+\end{equation}
+For $\theta_i=(i+a)\pi/n$, $0\le i<n$, choose triples with
+\begin{equation}\label{j:residues}
+ i+j+k\equiv\begin{cases}n-1,n-2\pmod n,&a=1/2,\\0,n-1\pmod n,&a=1/6.\end{cases}
+\end{equation}
+The arrangements are simple. A selected sum is $s\pi\pm\pi/(2n)$; at an external test index $r$, the sign in~\eqref{j:sign} is
+$(-1)^s\sgn(r-i)\sgn(r-j)\sgn(r-k)$, independent of the pair. Supporting indices cause no conflict. Thus all selected triples are certified.
+
+For each residue, $i+j+k=b$ has $n^2$ ordered solutions. The three equality sets $i=j$, $i=k$, $j=k$ each have $n$ elements. Using two residues, excluding repetitions and dividing by six gives $\B(n)$ for the half phase.
+\begin{lemma}[Phase correction]\label{j:phase}
+The phase $a=1/6$ gives at least $\floor{n(n-3)/3}+1$ cells for $n\ge3$.
+\end{lemma}
+\begin{proof}
+For residue zero, the three equality sets meet at $(0,0,0)$, so their union has size at most $3n-2$. The other residue costs at most $3n$. Hence $6T\ge2n^2-6n+2$; rounding gives the assertion.
+\end{proof}
+
+The projective chart $(x,y)\mapsto(x/(h-x),y/(h-x))$ transforms a line into $\Phi_h(a,b,c)=(ha-c,hb,c)$. If $E$ denotes the first factor defining $O$, then
+\begin{align}
+ D(\Phi_h\ell,\Phi_hm)&=h(h-x_{\ell m})D(\ell,m),\notag\\
+ E(\Phi_hr;\Phi_h\ell,\Phi_hm)&=h^2E(r;\ell,m),\notag\\
+ O(\Phi_hr;\Phi_h\ell,\Phi_hm)&=h^3(h-x_{\ell m})O(r;\ell,m).\label{j:covariance}
+\end{align}
+A cut avoiding vertices preserves simplicity. The sign multiplier preserves old triangles on its retained side and reverses the sign at an exposed vertex on the opposite side.
+
+\begin{lemma}[Exposed caps]\label{j:caps}
+For odd $n\ge3$, a chart of the half-phase arrangement has $\B(n)+1$ cells. If $n=6k+3\ge9$, a chart has $\B(n)+2$ cells.
+\end{lemma}
+\begin{proof}[Proof outline, with explicit supports]
+The intersection abscissa is $\cos(2u)+\cos(2v)+\cos(2u+2v)$. Put $c_n=1+2\cos(\pi/n)$. The pair $(0,n-1)$ is uniquely rightmost, at $c_n$; take $h>0$ just below it. For $n=2m+1$, the triple $(0,m,2m)$ is absent from the old list and has the opposite weak sign only at that pair. Formula~\eqref{j:covariance} corrects it, retaining every old cell.
+
+For $n=6k+3=3m$, the pairs $(m-1,m)$ and $(2m-1,2m)$ are exactly the leftmost vertices, both at $-c_n/2$. The discrete cosine comparison is proved in the linked two-cap source and detailed in the companion manuscript. Taking $h<0$ just above them corrects exactly the exposed signs of $(2k,2k+1,5k+2)$ and $(k,4k+1,4k+2)$. They are distinct and absent from the old list. Every old selected triangle survives. All assertions, including exposure, are symbolic Lean theorems.
+\end{proof}
+
+\begin{figure}[tb]
+\centering\includegraphics[width=.74\linewidth]{affine-chart.pdf}
+\caption{Exact rational illustration of the two-cap change at $n=9$: 18 old cells survive and two become bounded. This gives $\G(9)=20$, below the known optimum 21. The general theorem uses real trigonometric coordinates; panels are independently rescaled.}\label{j:fig-chart}
+\end{figure}
+
+\begin{proof}[Proof of Theorem~\ref{j:main}]
+For even orders use the shifted phase. If $n$ is odd and not divisible by three, $\B(n)+1=\floor{n(n-3)/3}+2$; use one cap. For odd multiples of three at least nine use two caps. A triangle handles $n=3$. The residue calculation gives the stated gains.
+\end{proof}
+The exact remaining gap is
+\begin{equation}\label{j:gap}
+ U_{\mathrm T}(n)-\G(n)
+ =\floor{n/3}+\mathbf1_{n\equiv2\ (3)}-1-(n\bmod2),\qquad n\ge4.
+\end{equation}
+This is an independent construction at each order, not a successor chain from an arbitrary optimal seed.

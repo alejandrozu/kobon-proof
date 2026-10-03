@@ -1,0 +1,87 @@
+\section{Completed recursive families and a total envelope}
+\label{jfam:section}
+
+The doubling mechanism belongs to BBL~\cite{bbl2008}. The new formalization closes the actual geometric invariant and, separately, the visibility needed for every even companion.
+
+\begin{theorem}[Verified BBL step]\label{jfam:doubling}
+Let $q=4r\ge20$, $0<\varepsilon<\tan(\pi/(2q))$, and $t_j=\tan(j\pi/q)$. Take $Y_0:y=0$ and $L_j:y=m_j(x-a_j)$ on the ordered grid
+\[
+ (a_j)=(-t_{q/2-1},\ldots,-t_1,-\varepsilon,\varepsilon,t_1,\ldots,t_{q/2-1}).
+\]
+Assume simplicity, all $q-1$ cells $(Y_0,L_j,L_{j+1})$, positive central-apex height, and $T$ distinct certified triangles. Then $\Ks(2q+1)\ge T+q^2$.
+\end{theorem}
+\begin{proof}[Geometric mechanism]
+With $\beta_i=-\pi/2+(i+1/2)\pi/q$, add the $q$ lines
+\[
+ y=\kappa\bigl(\sin(2\beta_i)+\delta\cot\beta_i\bigr)(x-\tan\beta_i).
+\]
+Exact intersection identities give crossing order first for sufficiently small $\delta>0$, then $\kappa>0$. The row count gives $2\binom{q+1}{2}-q=q^2$ mixed triangles. Old triangles off $Y_0$ persist; alternating caps replace the noncentral triangles on it, and the central triangle survives. Simplicity, disjoint support lists and their actual sign certificates are proved, not assumed future properties.
+\end{proof}
+
+Our eleven-line compatible realization uses $x-v_jy=a_j$, where
+\[
+ (v_j)=\tfrac1{10}(15,-2,14,1,4,-4,5,-3,12,-5).
+\]
+For every real $0<\varepsilon\le10^{-5}$, it has 32 triangles, nine distinguished triangles and five pairs visible from $(10,-13)$. The count is inherited from a Honma-based input described by Savchuk~\cite{savchuk2025}; the uniform tangent-grid realization is the certificate contribution. A separate 21-line uniform seed has 132 triangles, 19 distinguished triangles and ten visible pairs. It starts the $r\ge5$ induction; the eleven-line case is supplied separately.
+
+\begin{theorem}[Actual infinite families]\label{jfam:recursive}
+For every integer $t\ge0$, put $q=10\cdot2^t$ and $T_q=(q^2-4)/3$. There are simple real-line arrangements satisfying
+\begin{equation}\label{jfam:families}
+ \Ks(q+1)\ge T_q,\qquad \Ks(q+2)\ge T_q+q/2.
+\end{equation}
+Both inequalities are complete Lean theorems.
+\end{theorem}
+\begin{proof}[Invariant and iteration]
+A seed records actual grid equations, simplicity, all consecutive distinguished triangles, positive central apex, and a duplicate-free certified triangle list. The geometric step returns all this data. Explicit mutually inverse label maps sort its new grid; triangle-support transport preserves validity and list length. Uniform availability on some interval $0<\varepsilon<\eta$ is retained, so induction applies at every finite depth.
+
+For the even branch the record additionally contains an admissible normal, actual visible pairs and a clean rightmost ray. Projection-order transfer and a sufficiently small common choice of pencil scale preserve this boundary data. Starting with $(r,T,V)=(5,132,10)$, the proved transformation is
+\[
+ (r,T,V)\longmapsto(2r,T+(4r)^2,V+2r).
+\]
+It yields $T_q=(q^2-4)/3$ and $V=q/2$. Apply the verified exterior realization once at each depth. The eleven-line seed supplies $t=0$.
+\end{proof}
+The quantifier is: for every finite depth there is a positive parameter interval and actual arrangements on it. No single fixed $\varepsilon$ is asserted to work at all depths. The proof does not assert a successive $+1$ chain or applicability to an arbitrary optimal input.
+
+\begin{theorem}[One-triangle simple windows]\label{jfam:windows}
+For the same $q$,
+\[
+ T_q\le\Ks(q+1)\le T_q+1,\qquad
+ T_q+q/2\le\Ks(q+2)\le T_q+q/2+1.
+\]
+\end{theorem}
+\begin{proof}
+The actual simple bounds proved in Section~\ref{jup:section} give
+$\floor{(q+1)(q-1)/3}=T_q+1$ and
+$\floor{(q+2)(2q-1)/6}=T_q+q/2+1$.
+Combine with Theorem~\ref{jfam:recursive}.
+\end{proof}
+The upper halves use only standard Lean axioms. The existence halves inherit four finite native checks from the 21-line seed, and six for the even family; the recursive geometry itself uses standard axioms. These are formal optimality windows for simple arrangements, not improved numerical literature records or even upper bounds for arbitrary multiple intersections.
+
+Let $C(n)$ be the largest saved finite certificate at order $n$, or zero, and retain the earlier verified envelope
+\begin{equation}\label{j:envelope}
+ L(n)=\max\{\G(n),C(n)\}\le\K(n).
+\end{equation}
+Define $R(n)=T_q$ if $n=q+1$, $R(n)=T_q+q/2$ if $n=q+2$, for $q=10\cdot2^t$, and $R(n)=0$ otherwise.
+\begin{theorem}[Improved verified all-order bound]\label{j:new-envelope}
+For every $n\in\N$,
+\begin{equation}\label{j:new-envelope-formula}
+ \K(n)\ge H(n):=\max\{L(n),R(n)\}\ge L(n).
+\end{equation}
+The final inequality is strict at both $n=10\cdot2^{t+5}+1$ and $n=10\cdot2^{t+5}+2$ for every $t\ge0$.
+\end{theorem}
+\begin{proof}
+Each branch has an actual witness. Lean implements $R$ by a finite maximum over indices at most $n$, which includes every matching branch. The retained catalog has no order above 195, so $L(n)=\G(n)$ there. Direct arithmetic gives
+\begin{equation}\label{j:new-gains}
+ T_q-\G(q+1)=\floor{q/3}-2,\qquad
+ T_q+q/2-\G(q+2)=q/2-\floor{q/3}-2.
+\end{equation}
+Both are positive from $q=320$ onward.
+\end{proof}
+The gains at 321 and 322 are 104 and 52; at 641 and 642 they are 211 and 105. This compares complete \emph{verified repository envelopes}, not every construction in the literature. The new theorem proves existence at $321{:}34132$, $322{:}34292$, $641{:}136532$ and $642{:}136852$ without retroactively certifying every archived coordinate file. Earlier checkpoints $81{:}2132$, $82{:}2172$, $161{:}8532$, $162{:}8612$ remain included. At small family orders the retained catalog can be stronger, for example $12{:}38$, $21{:}133$, $22{:}143$, $41{:}533$ and $42{:}553$.
+
+\begin{figure}[tb]
+\centering\includegraphics[width=.91\linewidth]{recursive-envelope.pdf}
+\caption{Verified recursive counts compared with the previous all-order envelope and the classical simple upper benchmarks. The new existence theorem improves the retained bound on two infinite sparse sets. Both family branches have upper-minus-lower gap one; other orders retain their previous bound. These are not numerical-record claims.}\label{j:fig-gap}
+\end{figure}
+
+Known dyadic optimal constructions retain Forge--Ram\'irez Alfons\'in attribution; our corrected five-line normalization has five triangles, three distinguished triangles and two visible pairs on $0<\varepsilon\le10^{-5}$. An independent exact interval check reproduces 107 triangles and 17 distinguished triangles for the Parpalak--Utkin 19-line input on $0<\varepsilon\le10^{-3}$. Neither becomes a new unconditional family theorem here. At $q=4\cdot2^t$ and $18\cdot2^t$, the inherited odd formulas are $(q^2-1)/3$ and $q^2/3-1$; the ordinary boundary-defect argument gives full-gain even companions. Complete uniform 33- and 49-line seeds would give stronger formal families, but their full finite Lean checks remain unfinished (Section~\ref{j:verification}).

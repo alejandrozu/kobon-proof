@@ -1,0 +1,88 @@
+\section{Formal verification and reproducibility}\label{sec:formalization}
+
+\subsection{The verified snapshot}
+
+The mathematical snapshot used by this paper is repository commit
+\nolinkurl{2d69a71e32d3eaa59399b0e5bc61720ec3b00ac8}. It pins Lean 4.31.0 and Mathlib commit
+\nolinkurl{fabf563a7c95a166b8d7b6efca11c8b4dc9d911f}. The local release audit completed on 2 October 2026. The independent \href{https://github.com/alejandrozu/kobon-proof/actions/runs/37056093885}{GitHub Actions run 37056093885} passed at the pinned revision; the preceding mathematical release run 37055143316 also passed. These are reproducibility statements about a particular collection of declarations and coordinates, not an assertion that every conjecture discussed in this paper has been formalized.
+
+The audit built 270 targets and recorded hashes for all 375 active Lean source files. It inspected 5,241 theorem declarations: 4,405 use only the accepted standard logical axioms, while 836 also depend on explicitly recorded native evaluation. These are counts of theorem declarations, including auxiliary and generated declarations, not counts of independent mathematical contributions. The coordinate audit checked 138 distinct coordinate identities with two exact counters; 104 of the identities also satisfy the simplicity check.
+
+\subsection{Three proof and computation boundaries}
+
+\paragraph{General symbolic proofs.}
+The arbitrary-order construction, the generic closed BBL recursion, the actual simple upper bounds, the representative grid obstruction and the local fan geometry use the usual Lean axioms \lean{propext}, \lean{Classical.choice}, and \lean{Quot.sound}. No unproved geometric construction is installed as an axiom. Their conclusions are not inferred from a finite range of successful tests. Lean and Mathlib provide the real analysis, finite combinatorics, and algebra used in these proofs~\cite{lean4,mathlib}.
+
+\paragraph{Finite certificates.}
+Large coordinate checks use \lean{native_decide}, which trusts Lean's native compiler and runtime in addition to the ordinary logical kernel interface. The general certificate soundness theorem is proved symbolically; native evaluation verifies the finite integer sign conditions and list properties. The audit reports these dependencies rather than describing all certificate computation as kernel reduction. Small examples and many formula comparisons also have direct kernel-reduction proofs.
+
+\paragraph{Computational and paper-level evidence.}
+Exact rational searches, interval calculations, ordinary geometric arguments, and the experimental large witnesses are retained with separate status. They are not imported as axioms into the all-order theorem. In particular, the incomplete 642-line coordinate recount and the unfinished full real-parameter 33- and 49-line seed drafts are not active certificate results. The general recursive theorem now independently proves the 642-line existential bound. The full 21-line affine obstruction corpus is exact external evidence with a supplied classification input; the representative ten-sign obstruction is inside Lean. Conditional upper-core arithmetic is distinguished from the completed actual incidence and clean-line charging theorems.
+
+\subsection{What the audit rejects}
+
+The active-source scan strips comments and strings and rejects proof placeholders, admissions, custom axiom declarations, and unsafe definitions. The additional Lean audit recursively collects the axioms used by every theorem in the \lean{Kobon} namespace and rejects unapproved dependencies. It permits and records the standard logical axioms and the generated native-evaluation dependencies just described.
+
+The archived March file is deliberately outside the active library. Preserving it is evidence of the development history, not a way to conceal its eight placeholders inside an otherwise successful build. Likewise, an unfinished draft is kept under the research directory with an explicit status note rather than omitted silently from an allegedly complete theorem library.
+
+\subsection{Theorem-level correspondence}
+
+Table~\ref{tab:proof-map} gives the principal correspondence between the paper and the Lean development. The public repository contains more detailed logs and dependency information; the table is intended to make each major mathematical claim traceable without requiring a reader to inspect thousands of auxiliary declarations.
+
+\begin{longtable}{@{}p{0.39\linewidth}p{0.56\linewidth}@{}}
+\caption{Principal mathematical claims and formal sources. Names refer to the frozen mathematical snapshot.}\label{tab:proof-map}\\
+\toprule Mathematical claim & Formal source\\\midrule\endfirsthead
+\toprule Mathematical claim & Formal source\\\midrule\endhead
+\bottomrule\endfoot
+Exact certificate soundness & \proofref{Kobon/Geometry.lean}{135}{\lean{Geometry.validate_sound}}; \proofref{Kobon/Simple.lean}{39}{\lean{Simple.validate_simple_sound}}\\
+Certificates are nonoverlapping cells & \proofref{Kobon/Cells.lean}{486}{\lean{Cells.interior_eq_signCell}}; \proofref{Kobon/Cells.lean}{453}{\lean{Cells.distinct_interiors_disjoint}}\\
+Classical affine construction & \proofref{Kobon/FurediPalasti.lean}{301}{\lean{FurediPalasti.lower_bound}}; \proofref{Kobon/FurediPalastiCount.lean}{186}{\lean{FurediPalastiCount.ordered_bound}}\\
+Shifted repeated-index gain & \proofref{Kobon/ShiftedCount.lean}{59}{\lean{ShiftedCount.ordered_bound_plus}}; \proofref{Kobon/ShiftedFurediPalasti.lean}{274}{\lean{ShiftedFurediPalasti.simple_lower_bound}}\\
+Actual projective transformation & \proofref{Kobon/Projective.lean}{25}{\lean{Projective.oriented_transform}}; \proofref{Kobon/Projective.lean}{111}{\lean{Projective.triangle_preserved}}\\
+One exposed cap & \proofref{Kobon/FurediPalastiWrap.lean}{191}{\lean{FurediPalastiWrap.one_cap_simple_lower_bound}}\\
+Two exposed caps & \proofref{Kobon/FurediPalastiTwoCaps.lean}{282}{\lean{FurediPalastiTwoCaps.two_cap_simple_lower_bound}}\\
+Universal $\G$ and exact gain & \proofref{Kobon/Universal.lean}{26}{\lean{Universal.baseline_sound}}; \proofref{Kobon/Universal.lean}{72}{\lean{Universal.baseline_improvement}}\\
+Finite-enhanced all-order bound & \proofref{Kobon/Universal.lean}{117}{\lean{Universal.all_n}}; \proofref{Kobon/AllN.lean}{255}{\lean{AllN.dominates_every_saved_certificate}}\\
+Unconditional 49-seed target & \proofref{Kobon/AllN.lean}{504}{\lean{AllN.from_49_unconditional}}; \proofref{Kobon/Universal.lean}{125}{\lean{Universal.dominates_49_target}}\\
+Exterior addition from visible pairs & \proofref{Kobon/Exterior.lean}{164}{\lean{Exterior.extension}}\\
+Real compatible seed family & \sourcefile{Kobon/SeedFamily.lean}{\lean{SeedFamily}}; \sourcefile{Kobon/Parametric.lean}{\lean{Parametric}}; \sourcefile{Kobon/TangentBounds.lean}{\lean{TangentBounds}}\\
+Geometric one-step BBL doubling & \proofref{Kobon/BBLDoubling.lean}{15}{\lean{BBLDoubling.doubling}}\\
+Closed seed and uniform recursion & \proofref{Kobon/BBLRecursiveSeed.lean}{61}{\lean{BBLRecursiveSeed.seed_step}}; \proofref{Kobon/BBLInfinite.lean}{32}{\lean{BBLInfinite.uniform_iterate}}\\
+Visible-boundary recursion & \proofref{Kobon/BBLEvenStep.lean}{34}{\lean{BBLEvenStep.canonical_visible_step}}; \proofref{Kobon/BBLEvenInfinite.lean}{43}{\lean{BBLEvenInfinite.infinite_even_family}}\\
+Concrete odd and even families & \proofref{Kobon/BBLVerifiedFamilies.lean}{24}{\lean{BBLVerifiedFamilies.eleven_odd_family}}; \proofref{Kobon/BBLVerifiedFamilies.lean}{51}{\lean{BBLVerifiedFamilies.eleven_even_family}}\\
+Current all-order envelope $H$ & \proofref{Kobon/RecursiveEnvelope.lean}{51}{\lean{RecursiveEnvelope.all_n}}; \proofref{Kobon/RecursiveEnvelope.lean}{73}{\lean{RecursiveEnvelope.strict_previous_tail}}\\
+Actual simple optimality windows & \proofref{Kobon/BBLFamilyOptimality.lean}{29}{\lean{BBLFamilyOptimality.odd_window}}; \proofref{Kobon/BBLFamilyOptimality.lean}{35}{\lean{BBLFamilyOptimality.even_window}}\\
+Next-grid saturation component & \proofref{Kobon/BBLNextSaturation.lean}{41}{\lean{BBLNextSaturation.next_saturated}}\\
+Actual segment and defect inventory & \proofref{Kobon/UpperEdgeInventory.lean}{345}{\lean{UpperEdgeInventory.certificate_defect_identity}}\\
+Actual clean-line charging & \proofref{Kobon/UpperCleanCharging.lean}{100}{\lean{UpperCleanCharging.certificate_clean_line_budget}}\\
+Actual simple upper inequalities & \proofref{Kobon/UpperSimpleOptimality.lean}{58}{\lean{UpperSimpleOptimality.simple_lower_bound_upper}}; \proofref{Kobon/UpperEvenSimpleOptimality.lean}{56}{\lean{UpperEvenSimpleOptimality.simple_lower_bound_even_upper}}\\
+Extremal fan and matched triple obstruction & \proofref{Kobon/UpperFan.lean}{227}{\lean{UpperFan.Sectors.weighted_local_bound}}; \proofref{Kobon/UpperTripleFan.lean}{156}{\lean{UpperTripleFan.extremal_triple_fans_not_adjacent}}\\
+Actual core incidence & \proofref{Kobon/UpperCoreLineIncidence.lean}{139}{\lean{UpperCoreLineIncidence.core_line_budget}}; \proofref{Kobon/UpperCoreCombinatorics.lean}{56}{\lean{UpperCoreCombinatorics.core_surplus}}\\
+Conditional three-core bound & \proofref{Kobon/UpperCoreBudget.lean}{58}{\lean{UpperCoreBudget.at_most_three_multiple_points}}\\
+Tangent algebra and actual obstruction & \proofref{Kobon/BBLTangentAlgebra.lean}{20}{\lean{BBLTangentAlgebra.tan_quartic}}; \proofref{Kobon/BBLTangentValues.lean}{62}{\lean{BBLTangentValues.value_eq_tan}}; \proofref{Kobon/BBLGridObstruction.lean}{263}{\lean{BBLGridObstruction.actual_grid_orientation_impossible}}\\
+49-grid analytic enclosures & \sourcefile{Kobon/BBLTangent48Bounds.lean}{\lean{BBLTangent48Bounds}}; finite uniform seed check still incomplete\\
+Local fan geometry and budgets & \sourcefile{Kobon/SharedFan.lean}{\lean{SharedFan}}; \sourcefile{Kobon/FanGeometry.lean}{\lean{FanGeometry}}; \sourcefile{Kobon/FanCount.lean}{\lean{FanCount}}; \sourcefile{Kobon/CyclicFan.lean}{\lean{CyclicFan}}; \sourcefile{Kobon/CleanLineBudget.lean}{\lean{CleanLineBudget}}\\
+Preserved historical finite bounds & \sourcefile{Kobon/Results.lean}{\lean{Results.earlier_NNN}}; \sourcefile{Kobon/Results.lean}{\lean{Results.best_classical_NNN}}; \sourcefile{Kobon/Results.lean}{\lean{Results.best_simple_NNN}}\\
+\end{longtable}
+
+The exterior theorem assumes a valid visible-pair list, not an unproved assertion that enough visible pairs always exist. The BBL theorem assumes the stated tangent-grid and saturation conditions, not its own desired conclusion. The concrete eleven-derived family discharges its entire seed and visibility interface. Conversely, the upper-core arithmetic still accepts the global fan inequalities as hypotheses: actual segment incidence, clean-line charging and core incidence are now completed, but cyclic fan extraction and its summation are not. Inspecting hypotheses is as important as inspecting the absence of placeholders.
+
+\subsection{Reproducing proofs, coordinates, and figures}
+
+After cloning the repository and installing the pinned Lean toolchain, the principal checks are:
+\begin{lstlisting}
+lake exe cache get
+python scripts/verify_lean.py --jobs 2
+python scripts/verify_coordinates.py
+python scripts/verify_seed_interval.py
+python scripts/evidence_manifest.py --check
+python manuscripts/2026-10-03/build.py --edition long
+\end{lstlisting}
+The finite envelope can be regenerated from the certificate index using \lean{scripts/generate_all_n.py}. This generator emits theorem references; Lean checks the resulting proposition independently of the script's intentions. The generated source is not a trusted oracle for geometry.
+
+All sixteen scientific figures retained from the initial manuscript are generated by \lean{paper/scripts/generate_figures.py}. The script reads the saved formulas, coordinates, and experiment records. For geometric renderings it fixes the triangle combinatorics using exact rational arithmetic before converting coordinates to floating point for plotting. Vector PDF is the publication format; PNG images are previews. Rational proxies of the trigonometric examples are explicitly identified as finite illustrations, not substituted for the symbolic theorem.
+
+The files \lean{paper/figure_audit.md} and \lean{paper/generated/figure-manifest.json} record data sources, hashes, and figure-specific claim status. The finite tables are generated from the same coordinate index used by verification. This makes a plot an inspectable derivative of evidence rather than an unsupported visual argument. The updated edition adds two vector figures for the recursive envelope and the uniform 49-line seed, with a separate figure manifest. The paper-specific build instructions accompany the LaTeX source. The shared proof map links every main result to immutable source locations and marks ordinary deductions, exact external evidence and excluded drafts. The earlier 60-page and 14-page editions remain preserved in the repository; this new edition does not rewrite their frozen verification manifests.
+
+\paragraph{Computer and AI assistance.}
+The development and preparation of this manuscript used computer algebra, exact arithmetic, automated search, Lean, and AI assistance for research, code, and drafting. AI-generated assertions are not treated as mathematical evidence. The reported conclusions are tied to explicit proofs, exact witnesses, or separately scoped computational records. Alejandro Zarzuelo Urdiales is the sole named author of this manuscript; cited construction authors retain their mathematical attribution.

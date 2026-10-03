@@ -8,3 +8,4 @@ __pycache__/
 *.o
 .DS_Store
 work/
+manuscripts/**/build/

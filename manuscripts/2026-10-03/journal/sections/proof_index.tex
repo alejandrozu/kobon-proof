@@ -1,0 +1,29 @@
+\section*{Result-to-proof index}\label{j:proof-index}
+
+All source links below are pinned to revision \texttt{2d69a71}. \textbf{K} denotes proofs using standard Lean axioms; \textbf{N} also inherits finite \texttt{native\_decide} checks. \textbf{P} marks an ordinary manuscript proof with formal components; \textbf{E} marks exact external computation. A linked conditional theorem proves only its stated implication. The \href{https://github.com/alejandrozu/kobon-proof/blob/main/manuscripts/2026-10-03/shared/proof_map.md}{complete result map} gives every statement, hypothesis, source anchor and individual certificate, including all 138 coordinate identities and the unfinished branches.
+
+\begingroup\small\renewcommand{\arraystretch}{1.09}
+\noindent\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{.25\linewidth}>{\raggedright\arraybackslash}X@{}}
+\toprule
+Result & Immutable Lean source and scope\\\midrule
+Theorem~\ref{j:main}; \eqref{j:G}, \eqref{j:gap} &
+\proofref{Kobon/Universal.lean}{26}{Affine all-order construction}, \proofref{Kobon/Universal.lean}{72}{gains}, \proofref{Kobon/Universal.lean}{90}{gap}: K.\\
+Lemma~\ref{j:cell} & \proofref{Kobon/Cells.lean}{486}{Sign-cell equality}, \proofref{Kobon/Cells.lean}{453}{disjointness}: K for nonparallel arrangements; component interpretation P.\\
+Lemmas~\ref{j:phase}, \ref{j:caps} & \proofref{Kobon/ShiftedFurediPalasti.lean}{274}{Phase correction}, \proofref{Kobon/FurediPalastiWrap.lean}{191}{one cap}, \proofref{Kobon/FurediPalastiTwoCaps.lean}{282}{two caps}: K.\\
+Theorem~\ref{jext:visible} & \proofref{Kobon/Exterior.lean}{164}{Actual exterior realization}: K from certified visible pairs.\\
+Proposition~\ref{jext:defect}; \eqref{jext:budget} & \proofref{Kobon/BoundaryExtension.lean}{79}{Defect arithmetic}, \proofref{Kobon/Iteration.lean}{105}{iteration budget}: K conditional; global boundary geometry P.\\
+Target~\eqref{jext:49} & \proofref{Kobon/AllN.lean}{504}{Unconditional numerical target}: N, no nested-chain claim.\\
+Theorem~\ref{jfam:doubling} & \proofref{Kobon/BBLDoubling.lean}{15}{Actual BBL step}: K with compatible seed.\\
+Parameterized seeds & \proofref{Kobon/SeedFamily.lean}{115}{Eleven}, \proofref{Kobon/BBLSeed21Normalized.lean}{91}{twenty-one}, \proofref{Kobon/BBLSeed21Visible.lean}{44}{visibility}; seed finite trust disclosed.\\
+Theorem~\ref{jfam:recursive}; \eqref{jfam:families} & \proofref{Kobon/BBLRecursiveSeed.lean}{61}{Closed seed step}, \proofref{Kobon/BBLInfinite.lean}{46}{odd induction}, \proofref{Kobon/BBLEvenInfinite.lean}{43}{even induction}: K generic; \proofref{Kobon/BBLVerifiedFamilies.lean}{24}{odd}, \proofref{Kobon/BBLVerifiedFamilies.lean}{51}{even}: N unconditional.\\
+Theorem~\ref{jfam:windows} & \proofref{Kobon/BBLFamilyOptimality.lean}{29}{Odd window}, \proofref{Kobon/BBLFamilyOptimality.lean}{35}{even window}: N existence, K universal upper halves.\\
+Theorem~\ref{j:new-envelope}; \eqref{j:new-gains} & \proofref{Kobon/RecursiveEnvelope.lean}{51}{All-order envelope}: N; \proofref{Kobon/RecursiveEnvelope.lean}{73}{strict infinite gains}: K comparison.\\
+Identity~\eqref{jup:identity}; Lemma~\ref{jup:clean} & \proofref{Kobon/UpperEdgeInventory.lean}{345}{Actual defect}, \proofref{Kobon/UpperCleanCharging.lean}{100}{actual charge map}: K, no counting/charging premise.\\
+Theorem~\ref{jup:simple} & \proofref{Kobon/UpperSimpleOptimality.lean}{70}{Simple upper floor}, \proofref{Kobon/UpperEvenSimpleOptimality.lean}{69}{even floor}: K actual geometry.\\
+Lemma~\ref{jup:fan}; \eqref{jup:sharp-fan} & \proofref{Kobon/UpperFan.lean}{171}{Full-fan equality}, \proofref{Kobon/UpperFan.lean}{227}{weighted bound}, \proofref{Kobon/UpperTripleFan.lean}{156}{triple incompatibility}: K with explicit local/matching interface.\\
+Theorem~\ref{jup:upper}; \eqref{jup:exceptional} & \proofref{Kobon/CleanLineBudget.lean}{73}{Weighted arithmetic}, \proofref{Kobon/CleanLineBudget.lean}{58}{two cores}, \proofref{Kobon/UpperCoreBudget.lean}{47}{core-edge correction}, \proofref{Kobon/UpperCoreBudget.lean}{58}{three cores}: conditional K; global fan extraction P/pending.\\
+Figure~\ref{jup:figure}; Table~\ref{j:finite} & \proofref{Kobon/SharedFan.lean}{51}{Six shared sides}: K; \proofref{verification/certificate-index.json}{1}{individual certificate index}: finite N where recorded.\\
+Proposition~\ref{j:obstruction} & \proofref{Kobon/BBLGridObstruction.lean}{263}{Actual tangent-grid obstruction}: K for one sign system; full 236-class corpus E plus external classification.\\
+Larger seeds; smoothing & \proofref{Kobon/BBLTangent48Bounds.lean}{1}{Actual tangent enclosures}: K; full 49/33-line finite Lean seed checks pending. Uniform 49 seed, smoothing and bounded searches: E.\\
+\bottomrule
+\end{tabularx}\par\endgroup

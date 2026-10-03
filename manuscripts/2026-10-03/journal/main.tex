@@ -1,0 +1,63 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=25mm]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\renewcommand{\qedsymbol}{\textnormal{\small Q.E.D.}}
+\usepackage{graphicx,booktabs,array,tabularx}
+\usepackage{microtype}
+\usepackage{caption}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{xurl}
+\usepackage{xcolor}
+\usepackage[colorlinks=true,linkcolor=blue!40!black,citecolor=blue!40!black,urlcolor=blue!40!black]{hyperref}
+\hypersetup{pdftitle={Verified affine constructions, recursive families, and incidence bounds for Kobon triangles},pdfauthor={Alejandro Zarzuelo Urdiales}}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\K}{K}
+\newcommand{\Ks}{K_{\mathrm s}}
+\newcommand{\G}{G}
+\newcommand{\B}{B}
+\newcommand{\N}{\mathbb N}
+\newcommand{\R}{\mathbb R}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\floor}[1]{\left\lfloor#1\right\rfloor}
+\newcommand{\ceil}[1]{\left\lceil#1\right\rceil}
+\newcommand{\lean}[1]{{\small\nolinkurl{#1}}}
+\newcommand{\proofref}[3]{\href{https://github.com/alejandrozu/kobon-proof/blob/2d69a71e32d3eaa59399b0e5bc61720ec3b00ac8/#1\#L#2}{#3}}
+\DeclareMathOperator{\sgn}{sgn}
+\setlength{\emergencystretch}{2em}
+\captionsetup{font=small,labelfont=bf}
+\setcounter{topnumber}{3}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\textfraction}{0.08}
+\renewcommand{\floatpagefraction}{0.75}
+\graphicspath{{figures/}}
+\title{Verified constructions and incidence bounds\\for Kobon triangles}
+\author{Alejandro Zarzuelo Urdiales}
+\date{3 October 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+We give explicit real-line constructions and a Lean development for lower and upper bounds on triangular cells. A phase correction and change of affine chart refine the F\"uredi--Pal\'asti all-order guarantee to $\lfloor n(n-3)/3\rfloor+1+(n\bmod2)$ for $n\ge4$. We complete geometric iteration of a compatible Bartholdi--Blanc--Loisel seed, including the boundary invariant needed for even companions: at $q=10\cdot2^t$, the certified counts are $(q^2-4)/3$ on $q+1$ lines and that number plus $q/2$ on $q+2$ lines. A verified total envelope retains all earlier certificates and improves the previous verified envelope at infinitely many orders. Formal geometric upper bounds place both recursive families within one triangle of the classical simple bounds. We also establish actual multiplicity and clean-line incidence identities, a prescribed-grid obstruction, and an exterior-extension resource limitation. Exact larger-seed calculations and restricted upper arguments are reported with their remaining proof obligations. The advances concern constructions and verification; no new numerical record or solution of the unrestricted problem is claimed.
+\end{abstract}
+\input{sections/introduction}
+\input{sections/construction}
+\input{sections/extensions}
+\input{sections/families}
+\input{sections/upper}
+\input{sections/certificates}
+\input{sections/proof_index}
+\begingroup
+\small
+\setlength{\bibsep}{3pt}
+\bibliographystyle{plainnat}
+\bibliography{references}
+\endgroup
+\end{document}

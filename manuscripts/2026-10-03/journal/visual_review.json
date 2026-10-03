@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-03",
+  "passed": true,
+  "pdf_sha256": "5ca88ff6e8648b4880a17f7b2bec6b130fe0c0da296812238c1d1dbabd68008b",
+  "pages": 13,
+  "reviewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "method": "Every page individually inspected in full-page Poppler renders. Changed pages reinspected after final edits; unchanged long pages confirmed by PNG hash equality. Independent PDFium rasterization of every final page also completed.",
+  "independent_pdfium_rasterization": [
+    {
+      "page": 1,
+      "width": 596,
+      "height": 842
+    },
+    {
+      "page": 2,
+      "width": 596,
+      "height": 842
+    },
+    {
+      "page": 3,
+      "width": 596,
+      "height": 842
+    },
+    {
+      "page": 4,
+      "width": 596,
+      "height": 842
+    },
+    {
+      "page": 5,
+      "width": 596,
+      "height": 842
+    },
+    {
+      "page": 6,
+      "width": 596,
+      "height": 842
+    },
+    {
+      "page": 7,
+      "width": 596,
+      "height": 842
+    },
+    {
+      "page": 8,
+      "width": 596,
+      "height": 842
+    },
+    {
+      "page": 9,
+      "width": 596,
+      "height": 842
+    },
+    {
+      "page": 10,
+      "width": 596,
+      "height": 842
+    },
+    {
+      "page": 11,
+      "width": 596,
+      "height": 842
+    },
+    {
+      "page": 12,
+      "width": 596,
+      "height": 842
+    },
+    {
+      "page": 13,
+      "width": 596,
+      "height": 842
+    }
+  ],
+  "checks": [
+    "Readable text and mathematical expressions; no missing displayed glyphs.",
+    "No clipped figures, tables, formulas, overlapping content or isolated headings.",
+    "Explicit Q.E.D. proof endings and preserved spaces in Lean expressions.",
+    "Figure captions, repeated catalog headers, contents, citations and proof index.",
+    "Removed the long edition's three-line final-page fragment.",
+    "Corrected stale prose and table caption about completed simple upper proofs.",
+    "Separated the two exactly verified 39-line search outcomes."
+  ],
+  "scope": "Rendering and editorial inspection, not a replacement for mathematical proof validation.",
+  "initial_review_ranges": [
+    "1-13"
+  ],
+  "revised_pages_reinspected": [
+    9,
+    10,
+    11,
+    12,
+    13
+  ]
+}

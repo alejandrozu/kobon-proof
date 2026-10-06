@@ -183,6 +183,7 @@ AUDIT Kobon.UpperOpenMathClosedHalfCurvature.certificate_closed_hybrid_gain_lowe
  Quot.sound]
 AUDIT Kobon.BBLVisibleRetention.zero_visible_unique: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.BBLTangent48Bounds.tan_24_10_bounds: kernel; axioms=[propext, Classical.choice, Quot.sound]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_10: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.UpperOpenMathTwoCapCycle.finite_two_cap_anchor: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.UpperOpenMathOrdinaryLineCharge.certificate_all_line_charge: kernel; axioms=[propext,
  Classical.choice,
@@ -206,9 +207,13 @@ AUDIT Kobon.Parametric.evalForm_value: kernel; axioms=[propext, Classical.choice
 AUDIT Kobon.UpperOpenMathMarkedPoverty.ordinary_neighbors_of_extremal_card._proof_1_2: kernel; axioms=[propext,
  Classical.choice,
  Quot.sound]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_18: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.Exterior.preserves_triangle: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.BBLCapSigns.cap_key_signs._proof_1_44: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.BBLCaps.cap_side._proof_1_5: kernel; axioms=[propext, Quot.sound]
+AUDIT Kobon.UpperOpenMathM22Curvature.certificate_m22_core_weight._proof_1_1: kernel; axioms=[propext,
+ Classical.choice,
+ Quot.sound]
 AUDIT Kobon.det.eq_1: kernel; axioms=[]
 AUDIT Kobon.UpperOpenMathAntipodalEscape.distanceSquare_nonnegative: kernel; axioms=[propext,
  Classical.choice,
@@ -774,6 +779,7 @@ AUDIT Kobon.Results.earlier_044: native-evaluation; axioms=[propext,
  Quot.sound,
  Kobon.Certificates.N044T00608Hb5277675.checked._native.native_decide.ax_1_1]
 AUDIT Kobon.FurediPalastiCaps.exists_left_cut: kernel; axioms=[propext, Classical.choice, Quot.sound]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_29: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.BBLRationalTangentBounds.angle.eq_1: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.UpperOpenMathAntipodalFullNeighborPair.certificate_any_triple_chart._proof_1_4: kernel; axioms=[propext,
  Classical.choice,
@@ -989,6 +995,7 @@ AUDIT Kobon.BBLCentral.leading_identity: kernel; axioms=[propext, Classical.choi
 AUDIT Kobon.UpperOpenMathTwoThirdCurvature.RecipientData.capacity: kernel; axioms=[propext,
  Classical.choice,
  Quot.sound]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_23: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.UpperOpenMathPartialHalfGainWeights.finite_partial_half_curvature_gain._proof_1_35: kernel; axioms=[propext,
  Quot.sound]
 AUDIT Kobon.Certificates.N014T00053H5e6068f5.no_concurrent: native-evaluation; axioms=[propext,
@@ -1065,6 +1072,7 @@ AUDIT Kobon.UpperOpenMathPaidZeroTypes.certificate_rigid_neighbor_classification
  Classical.choice,
  Quot.sound]
 AUDIT Kobon.RecursiveEnvelope.candidate_le_familyBound: kernel; axioms=[propext, Quot.sound]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_5: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.Results.simple_016: native-evaluation; axioms=[propext,
  Classical.choice,
  Quot.sound,
@@ -1167,6 +1175,8 @@ AUDIT Kobon.BBLGridObstruction.weight._proof_27: kernel; axioms=[propext]
 AUDIT Kobon.OpenMathSixLineResolution.triangle_set_complete: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.BBLPencilProfiles.pair_profile_eventually._proof_1_31: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.BBLFamilyBenchmarks.even_simple_polynomial_gap._proof_1_2: kernel; axioms=[propext, Quot.sound]
+AUDIT Kobon.UpperOpenMathM22Curvature.certificate_m22_recipient_defect_bound._simp_1_1: kernel; axioms=[propext,
+ Quot.sound]
 AUDIT Kobon.Certificates.N059T01102Hfd3b4280.lower_bound: native-evaluation; axioms=[propext,
  Classical.choice,
  Quot.sound,
@@ -1912,6 +1922,7 @@ AUDIT Kobon.BBLPencilProfiles.pair_profile_eventually._proof_1_15: kernel; axiom
  Classical.choice,
  Quot.sound]
 AUDIT Kobon.BBLCaps.cap_no_aux_between._proof_1_52: kernel; axioms=[propext, Quot.sound]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_32: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.BBLVisible.auxVisible_injective._proof_1_6: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.FurediPalastiCaps.above_left_caps: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.UpperOpenMathMarkedCurvature.unpaidOn_counts._proof_1_1: kernel; axioms=[propext, Quot.sound]
@@ -1988,6 +1999,9 @@ AUDIT Kobon.Certificates.N023T00161H969ad7d3.checked: native-evaluation; axioms=
  Kobon.Certificates.N023T00161H969ad7d3.checked._native.native_decide.ax_1_1]
 AUDIT Kobon.BBLRightmost.canonical_row_eventually._proof_1_9: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.UpperCleanCharging.inventory_card_two: kernel; axioms=[propext, Classical.choice, Quot.sound]
+AUDIT Kobon.UpperOpenMathLocalPortBudget.certificate_marked_plus_anti_degree_le: kernel; axioms=[propext,
+ Classical.choice,
+ Quot.sound]
 AUDIT Kobon.AllN.enhancement.eq_35: kernel; axioms=[]
 AUDIT Kobon.UpperOpenMathCapHeavyTriples.certificate_cap_heavy_not_adjacent._proof_1_5: kernel; axioms=[propext,
  Classical.choice,
@@ -2132,6 +2146,9 @@ AUDIT Kobon.UpperOpenMathN13Degree.certificate_closed_unrestricted_lower_of_uniq
  Classical.choice,
  Quot.sound]
 AUDIT Kobon.BBLVisible.auxVisible_injective: kernel; axioms=[propext, Quot.sound]
+AUDIT Kobon.UpperOpenMathLocalPortBudget.certificate_marked_plus_anti_degree_le._proof_1_1: kernel; axioms=[propext,
+ Classical.choice,
+ Quot.sound]
 AUDIT Kobon.BBLTangent36Bounds.quarter_check_11: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.OpenMathConstructionPareto61Fast.rescale_inverse._simp_3: kernel; axioms=[propext]
 AUDIT Kobon.OpenMathSixLineResolution.up_nondegenerate._simp_1_3: kernel; axioms=[propext, Quot.sound]
@@ -3024,6 +3041,9 @@ AUDIT Kobon.UpperOpenMathTripleCapBudget.certificate_triple_cap_budget._simp_1_1
 AUDIT Kobon.Certificates.N041T00533H01e2ef66.checked: native-evaluation; axioms=[propext,
  Kobon.Certificates.N041T00533H01e2ef66.checked._native.native_decide.ax_1_1]
 AUDIT Kobon.UpperOpenMathVertexBlocks.certificate_used_pair_elementary._simp_1_1: kernel; axioms=[propext, Quot.sound]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_25: kernel; axioms=[propext,
+ Classical.choice,
+ Quot.sound]
 AUDIT Kobon.UpperOpenMathN13Antipodal.nested_antipodes_ne: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.UpperOpenMathMixedCurvature.certificate_closed_mixed_paid_positive._proof_1_6: kernel; axioms=[propext,
  Classical.choice,
@@ -5066,6 +5086,7 @@ AUDIT Kobon.Certificates.N056T00990Hde8a415c.no_concurrent: native-evaluation; a
 AUDIT Kobon.OpenMathConstructionLineEquality.triangleCheck_congr: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.FurediPalasti.low_before: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.RecursiveEnvelope.candidate_le_familyBound._proof_1_1: kernel; axioms=[propext, Quot.sound]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_34: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.Results.classical_032: native-evaluation; axioms=[propext,
  Classical.choice,
  Quot.sound,
@@ -5131,6 +5152,9 @@ AUDIT Kobon.BBLGridReindex.rightmost._proof_1_3: kernel; axioms=[propext, Quot.s
 AUDIT Kobon.FurediPalasti.sin_diff_pos: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.OpenMathTranslationGerms.Nonnegative.eq_1: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.BBLRowOrder.auxiliary_outside_of_close._proof_1_55: kernel; axioms=[propext, Quot.sound]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_40: kernel; axioms=[propext,
+ Classical.choice,
+ Quot.sound]
 AUDIT Kobon.BBLTangent60Bounds.not_pole: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.UpperCoreCombinatorics.three_core_edge_count._proof_1_1: kernel; axioms=[propext,
  Classical.choice,
@@ -5376,6 +5400,7 @@ AUDIT Kobon.BBLSeed49Normalized.seed_with_slopes: native-evaluation; axioms=[pro
  _private.Kobon.BBLSeed49Checks.0.Kobon.BBLSeed49Checks.triangle_bool._native.native_decide.ax_1_1]
 AUDIT Kobon.UpperOpenMathActualFans.pair_map_injective._simp_1_2: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.AllN.enhancement.eq_54: kernel; axioms=[]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_12: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.OpenMathBoundarySectors.choiceCount_product: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.OpenMathConstructionFamily61.odd_window._proof_1_1: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.BBLPencilLimits.complementary_far_left: kernel; axioms=[propext, Classical.choice, Quot.sound]
@@ -5823,6 +5848,7 @@ AUDIT Kobon.BBLSimple.canonical_no_concurrent._proof_1_7: kernel; axioms=[propex
 AUDIT Kobon.UpperOpenMathHighNeighborCharts.certificate_high_neighbor_normalized_chart._proof_1_6: kernel; axioms=[propext,
  Classical.choice,
  Quot.sound]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_30: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.OpenMathBoundaryNormals.positive_product_of_no_forward_zero: kernel; axioms=[propext,
  Classical.choice,
  Quot.sound]
@@ -6128,7 +6154,12 @@ AUDIT Kobon.AllN.baseline_after_last_exception._proof_1_54: kernel; axioms=[prop
 AUDIT Kobon.UpperOpenMathUnmarkedCrossResources.certificate_unmarked_cross_capacity: kernel; axioms=[propext,
  Classical.choice,
  Quot.sound]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_27: kernel; axioms=[propext, Quot.sound]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_31: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.UpperOpenMathTwoCapCycle.normalized_two_cap_anchor._proof_1_1: kernel; axioms=[propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT Kobon.UpperOpenMathM22Curvature.certificate_n12_recipient_le_one: kernel; axioms=[propext,
  Classical.choice,
  Quot.sound]
 AUDIT Kobon.UpperOpenMathAntipodalTwoCapChart.FullData.positive: kernel; axioms=[propext, Classical.choice, Quot.sound]
@@ -6349,6 +6380,7 @@ AUDIT Kobon.UpperOpenMathMixedCurvatureWeights.finite_mixed_paid_weight_rigidity
  Quot.sound]
 AUDIT Kobon.UpperCleanEdges.incident_positive_edge._proof_1_7: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.OpenMathBoundaryDoubleCounting.selectedCount.eq_1: kernel; axioms=[propext, Classical.choice, Quot.sound]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_14: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.BBLTangent48Bounds.tan_6_1_bounds: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT KobonBoundary.full_step_iff_both_parities._proof_1_1: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.UpperOpenMathActualFans.fan_core_iff: kernel; axioms=[propext, Classical.choice, Quot.sound]
@@ -6452,6 +6484,7 @@ AUDIT Kobon.BBLRecursiveSeed.gap_support._simp_1_2: kernel; axioms=[propext]
 AUDIT Kobon.BBLRealization.horizontal_profile._proof_1_18: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.BBLPersistence.weak_of_strict: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.OpenMathFourLineResolution.old_triangle_iff: kernel; axioms=[propext, Classical.choice, Quot.sound]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_16: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.BBLCentralEnvelope.central_endpoint._proof_1_12: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.UpperOpenMathHalfChargingObstruction.numerical_hypotheses._proof_1_8: kernel; axioms=[propext,
  Classical.choice,
@@ -6530,6 +6563,7 @@ AUDIT Kobon.Certificates.N059T01103Hba482375.lower_bound: native-evaluation; axi
  Kobon.Certificates.N059T01103Hba482375.checked._native.native_decide.ax_1_1]
 AUDIT Kobon.OpenMathConstructionPareto61.parameters._proof_2: kernel; axioms=[propext]
 AUDIT Kobon.BBLRowOrder.auxiliary_outside_of_close._proof_1_27: kernel; axioms=[propext, Classical.choice, Quot.sound]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_19: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.HybridBoundary.seed_visible_checks._proof_1_1: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.UpperFanSupport.collinear_of_incident_line: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.FurediPalastiCaps.pairX_adjacent_strict: kernel; axioms=[propext, Classical.choice, Quot.sound]
@@ -6730,6 +6764,9 @@ AUDIT Kobon.BBLRowGeometry.row_outside._proof_1_5: kernel; axioms=[propext, Quot
 AUDIT Kobon.Certificates.N041T00532H6d48a341.no_concurrent: native-evaluation; axioms=[propext,
  Kobon.Certificates.N041T00532H6d48a341.no_concurrent._native.native_decide.ax_1_1]
 AUDIT Kobon.BBLRecursiveSeed.no_parallel_congr: kernel; axioms=[propext, Classical.choice, Quot.sound]
+AUDIT Kobon.UpperOpenMathM22Curvature.certificate_m22_recipient_defect_bound: kernel; axioms=[propext,
+ Classical.choice,
+ Quot.sound]
 AUDIT Kobon.Certificates.N057T01045H9a1d337c.lower_bound: native-evaluation; axioms=[propext,
  Classical.choice,
  Quot.sound,
@@ -6852,6 +6889,9 @@ AUDIT Kobon.Certificates.N014T00054H9219cdaa.lower_bound: native-evaluation; axi
  Quot.sound,
  Kobon.Certificates.N014T00054H9219cdaa.checked._native.native_decide.ax_1_1]
 AUDIT Kobon.OpenMathConstructionSeed61Normalized.slopes.eq_1: kernel; axioms=[propext, Classical.choice, Quot.sound]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_39: kernel; axioms=[propext,
+ Classical.choice,
+ Quot.sound]
 AUDIT Kobon.FurediPalastiCaps.cos_step_bounds: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.BBLRowMax.max_pair_visible._proof_1_4: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.Certificates.N021T00127Hb8dcff22.lower_bound: native-evaluation; axioms=[propext,
@@ -6880,6 +6920,7 @@ AUDIT Kobon.OpenMathIntegerBoxes.evalInt_cast: kernel; axioms=[propext, Classica
 AUDIT Kobon.Projective.triangle_preserved._proof_1_1: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.BBLSeed21Normalized.slopes.eq_1: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.BBLTangent36Bounds.tan_8_bounds: kernel; axioms=[propext, Classical.choice, Quot.sound]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_24: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.BBLRationalTangentBounds.atanPoly.eq_1: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.Families.samples: kernel; axioms=[propext]
 AUDIT Kobon.UpperOpenMathAntipodalFullNeighborPair.FullTripleAt.eq_1: kernel; axioms=[propext,
@@ -7298,6 +7339,9 @@ AUDIT Kobon.AllN.dominates_every_saved_certificate._proof_1_97: kernel; axioms=[
 AUDIT Kobon.OpenMathSimpleBoundary.simple_single_forces_unused._proof_1_5: kernel; axioms=[propext,
  Classical.choice,
  Quot.sound]
+AUDIT Kobon.UpperOpenMathM22Curvature.certificate_marked_plus_recipient_le: kernel; axioms=[propext,
+ Classical.choice,
+ Quot.sound]
 AUDIT Kobon.Certificates.N014T00053H45157b2f.lower_bound: native-evaluation; axioms=[propext,
  Classical.choice,
  Quot.sound,
@@ -7556,6 +7600,7 @@ AUDIT Kobon.Results.best_simple_009: native-evaluation; axioms=[propext,
  Quot.sound,
  Kobon.Certificates.N009T00021H6ebbed82.checked._native.native_decide.ax_1_1,
  Kobon.Certificates.N009T00021H6ebbed82.no_concurrent._native.native_decide.ax_1_1]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_11: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.Results.classical_058: native-evaluation; axioms=[propext,
  Classical.choice,
  Quot.sound,
@@ -8304,6 +8349,7 @@ AUDIT Kobon.BBLProfiles.profile_strict_order._proof_1_3: kernel; axioms=[propext
 AUDIT Kobon.BBLRecursiveGrid.backward_forward._proof_1_4: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.BBLRowOrder.newKey_symm._proof_1_4: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.OpenMathConstructionPareto61.parameters._proof_16: kernel; axioms=[propext]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_21: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.OpenMathConstructionPareto61.parameters._proof_11: kernel; axioms=[propext]
 AUDIT Kobon.UpperOpenMathUnmarkedPoorResources.certificate_marked_capacity_reserved._proof_1_1: kernel; axioms=[propext,
  Classical.choice,
@@ -8389,6 +8435,9 @@ AUDIT Kobon.BBLRightmost.factor_sine._simp_1_2: kernel; axioms=[propext]
 AUDIT Kobon.Projective.nonneg_flipped: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.Certificates.N008T00015Ha1380810.checked: native-evaluation; axioms=[propext,
  Kobon.Certificates.N008T00015Ha1380810.checked._native.native_decide.ax_1_1]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain: kernel; axioms=[propext,
+ Classical.choice,
+ Quot.sound]
 AUDIT Kobon.OpenMathConstructionPareto61Fast.loInt.eq_1: kernel; axioms=[]
 AUDIT Kobon.BBLCaps.cap_no_aux_between._proof_1_37: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.UpperOpenMathMarkedCurvatureWeights.finite_marked_zero_types._proof_1_8: kernel; axioms=[propext,
@@ -8450,6 +8499,7 @@ AUDIT Kobon.OpenMathConstructionEnvelope.seed49Candidate_sound: native-evaluatio
 AUDIT Kobon.BBLRowOrder.key_bounds._proof_1_9: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.BBLCount.mixed_count_identity._proof_1_3: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.OpenMathSixLineResolution.old_triangle_iff._simp_1_3: kernel; axioms=[propext, Quot.sound]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._simp_1_42: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.UpperFan.Sectors.asCyclic._proof_5: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.BBLRowOrder.auxiliary_outside_of_close._proof_1_32: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.UpperOpenMathComponentPenalty.certificate_closed_component_cost_pos._proof_1_1: kernel; axioms=[propext,
@@ -8457,6 +8507,7 @@ AUDIT Kobon.UpperOpenMathComponentPenalty.certificate_closed_component_cost_pos.
  Quot.sound]
 AUDIT Kobon.UpperTriangleIncidence.degree_pos: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.BBLGridCuts.cut_beta_right._proof_1_1: kernel; axioms=[propext, Quot.sound]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_15: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.UpperOpenMathSectorIncidence.occurrence_index_injective._simp_1_1: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.OpenMathBoundaryChart.otherIndex._proof_1: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.UpperOpenMathN13Degree.certificate_recipient_correction_empty_of_unique: kernel; axioms=[propext,
@@ -8671,6 +8722,7 @@ AUDIT Kobon.BBLCapSigns.cap_key_signs._proof_1_17: kernel; axioms=[propext, Quot
 AUDIT Kobon.UpperOpenMathPartialHalfGainWeights.finite_partial_half_curvature_gain._proof_1_7: kernel; axioms=[propext,
  Quot.sound]
 AUDIT Kobon.BBLRowOrder.newKey_symm._proof_1_60: kernel; axioms=[propext, Quot.sound]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_38: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.UpperOpenMathN13Mirror.mirror.eq_1: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.FurediPalastiCaps.left_cap_value._proof_1_2: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.UpperCleanHalfplane.clean_crossing_card: kernel; axioms=[propext, Classical.choice, Quot.sound]
@@ -8860,6 +8912,9 @@ AUDIT Kobon.OpenMathTranslationCounting.translated_birth_loss_identity: kernel; 
  Quot.sound]
 AUDIT Kobon.BBLTangent48Bounds.tan_3_1_bounds: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.UpperOpenMathMarkedPorts.markedCount.eq_1: kernel; axioms=[propext, Classical.choice, Quot.sound]
+AUDIT Kobon.UpperOpenMathM22Curvature.certificate_m22_source_free_defect_bound: kernel; axioms=[propext,
+ Classical.choice,
+ Quot.sound]
 AUDIT Kobon.BBLRealizedPencil.no_parallel_eventually._simp_1_1: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.BBLCanonicalPencil.new_intercepts_strict._proof_1_1: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.OpenMathConstructionSeed33.parameters._proof_5: kernel; axioms=[propext]
@@ -8968,6 +9023,7 @@ AUDIT Kobon.UpperOpenMathTripleCurvature.component_curvature_sum: kernel; axioms
 AUDIT Kobon.Iteration49.profile_bound_50._proof_1_1: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.SeedFamily.distinguished_checks._proof_1_1: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.BBLCapSigns.cap_key_signs._proof_1_71: kernel; axioms=[propext, Quot.sound]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_9: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.UpperOpenMathAntipodalFullNeighborPair.AnyChartData.occurrences: kernel; axioms=[propext,
  Classical.choice,
  Quot.sound]
@@ -9655,6 +9711,7 @@ AUDIT Kobon.OpenMathConstructionRescale.upper_scale: kernel; axioms=[propext, Cl
 AUDIT Kobon.BBLTangent36Bounds.tan_5_bounds._proof_1_2: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.OpenMathQuantitativeSuccessor.successor._proof_1_2: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.BBLRowOrder.newKey_injective._proof_1_29: kernel; axioms=[propext, Quot.sound]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_2: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.UpperOpenMathClosedTripleFull.certificate_closed_triple_two_or_full_impossible._proof_1_2: kernel; axioms=[propext,
  Classical.choice,
  Quot.sound]
@@ -10075,6 +10132,7 @@ AUDIT Kobon.Results.classical_039: native-evaluation; axioms=[propext,
  Kobon.Certificates.N039T00469Hcf24d7d3.checked._native.native_decide.ax_1_1]
 AUDIT Kobon.UpperOpenMathTripleCapBudget.finite_discharge: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.SharedFan.endpoint._proof_1: kernel; axioms=[propext]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_35: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.OpenMathConstructionSeed61.rightSlope.eq_1: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.UpperOpenMathN13ActualSupportExtreme.certificate_n13_with_anti_not_max._proof_1_1: kernel; axioms=[propext,
  Classical.choice,
@@ -10147,6 +10205,7 @@ AUDIT Kobon.BBLTangentBounds.tan_4_bounds: kernel; axioms=[propext, Classical.ch
 AUDIT Kobon.UpperOpenMathPaidZeroEscape.closed_paid_zero_escape._proof_1_3: kernel; axioms=[propext,
  Classical.choice,
  Quot.sound]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_37: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.BBLGrid.reduced_bounds: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.BBLRealization.horizontal_profile._proof_1_9: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.UpperOpenMathSingleSourceWeights.finite_single_source_curvature_gain._proof_1_14: kernel; axioms=[propext,
@@ -10154,6 +10213,7 @@ AUDIT Kobon.UpperOpenMathSingleSourceWeights.finite_single_source_curvature_gain
 AUDIT Kobon.BBLTangent48Bounds.tan_48_18_bounds: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.UpperOpenMathMarkedPorts.marked_edge_spec._proof_1_1: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.BBLVisible.central_visible._proof_1_2: kernel; axioms=[propext, Quot.sound]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_22: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.Permutation.sorted_triple_ext._proof_1_2: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.BBLTangent36Bounds.quarter_check_3: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.BBLMaximization.sine_grid_separation._proof_1_3: kernel; axioms=[propext, Quot.sound]
@@ -10278,6 +10338,7 @@ AUDIT Kobon.OpenMathConstructionSeed33Normalized.no_parallel: native-evaluation;
  Kobon.OpenMathConstructionSeed33.directions_bool._native.native_decide.ax_1]
 AUDIT Kobon.UpperOpenMathMarkedPorts.marked_count_zero_of_low: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.FurediPalastiWrap.upper_pair_nonpos._proof_1_3: kernel; axioms=[propext, Quot.sound]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_17: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.BBLTangentValues.value._proof_7: kernel; axioms=[propext]
 AUDIT Kobon.BBLCaps.capRow_le._proof_1_2: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.OpenMathSixLineResolution.up_count: kernel; axioms=[propext, Classical.choice, Quot.sound]
@@ -10461,6 +10522,7 @@ AUDIT Kobon.OpenMathConstructionPareto61.admissible_bool: native-evaluation; axi
  Classical.choice,
  Quot.sound,
  Kobon.OpenMathConstructionPareto61.admissible_bool._native.native_decide.ax_1]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_4: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.BBLDoubling.doubling._proof_1_8: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.BBLGridReindex.perm_inv._proof_1_2: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.OpenMathParametricDual.affine_product_upper: kernel; axioms=[propext, Classical.choice, Quot.sound]
@@ -10773,6 +10835,7 @@ AUDIT Kobon.UpperOpenMathBoundaryBudgets.certificate_two_core_upper._proof_1_3: 
  Classical.choice,
  Quot.sound]
 AUDIT Kobon.BBLGridReindex.next_cut._proof_1_21: kernel; axioms=[propext, Quot.sound]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_3: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.UpperOpenMathSectorRecords.defaultTriangle._proof_8: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.UpperOpenMathNonAntipodalTwoCapChart.certificate_nonantipodal_chart._proof_1_1: kernel; axioms=[propext,
  Classical.choice,
@@ -11145,6 +11208,7 @@ AUDIT Kobon.BBLLiftedRows.liftedCrossKey.eq_1: kernel; axioms=[]
 AUDIT Kobon.UpperOpenMathPartialHalfGainWeights.finite_partial_half_curvature_gain._proof_1_18: kernel; axioms=[propext,
  Quot.sound]
 AUDIT Kobon.OpenMathAxisCapCone.capRegion_triangle._proof_1_7: kernel; axioms=[propext, Quot.sound]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_6: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.UpperOpenMathMarkedZeroGeometry.normalized_nonordinary_port_not_adjacent: kernel; axioms=[propext,
  Classical.choice,
  Quot.sound]
@@ -11198,6 +11262,9 @@ AUDIT Kobon.UpperOpenMathPartialCurvature.certificate_nonfull_recipient_le_two._
  Classical.choice,
  Quot.sound]
 AUDIT Kobon.OpenMathConstructionLineEquality.triangleCheck_congr._proof_1_1: kernel; axioms=[propext, Quot.sound]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_36: kernel; axioms=[propext,
+ Classical.choice,
+ Quot.sound]
 AUDIT Kobon.UpperOpenMathAlignedTriangles.positive_at_vertex._simp_1_3: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.UpperOpenMathAntipodalTwoCapChart.AntipodalData.toFullData: kernel; axioms=[propext,
  Classical.choice,
@@ -11533,6 +11600,7 @@ AUDIT Kobon.OpenMathSimpleBoundary.ordinary_incident_terminal_identity._proof_1_
  Classical.choice,
  Quot.sound]
 AUDIT Kobon.UpperCleanCover.align_with_sides: kernel; axioms=[propext, Classical.choice, Quot.sound]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_41: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.UpperOpenMathDoubleRecipientCurvature.certificate_double_recipient_defect_bound: kernel; axioms=[propext,
  Classical.choice,
  Quot.sound]
@@ -11852,6 +11920,7 @@ AUDIT Kobon.Certificates.N057T01045H9a1d337c.simple_lower_bound: native-evaluati
  Quot.sound,
  Kobon.Certificates.N057T01045H9a1d337c.checked._native.native_decide.ax_1_1,
  Kobon.Certificates.N057T01045H9a1d337c.no_concurrent._native.native_decide.ax_1_1]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_28: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.BBLCentral.h.eq_1: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.Cells.TriangleGeometry.Bp: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.UpperOpenMathRadialOrder.OrderedDirections.rayCut.eq_1: kernel; axioms=[propext,
@@ -12460,6 +12529,9 @@ AUDIT Kobon.UpperOpenMathHalfCurvatureGain.certificate_half_gain_core_weight._pr
  Classical.choice,
  Quot.sound]
 AUDIT Kobon.BBLRowOrder.auxiliary_outside_of_close._proof_1_36: kernel; axioms=[propext, Classical.choice, Quot.sound]
+AUDIT Kobon.UpperOpenMathM22Curvature.certificate_m22_core_weight: kernel; axioms=[propext,
+ Classical.choice,
+ Quot.sound]
 AUDIT Kobon.UpperOpenMathN12GainWeights.finite_n12_curvature_gain._proof_1_13: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.UpperOpenMathAlignedTriangles.reverse_vertices: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.OpenMathConstructionSeed37.parameters.eq_1: kernel; axioms=[propext, Classical.choice, Quot.sound]
@@ -12704,6 +12776,7 @@ AUDIT Kobon.Results.earlier_053: native-evaluation; axioms=[propext,
  Kobon.Certificates.N053T00885H6bc5b14d.checked._native.native_decide.ax_1_1]
 AUDIT Kobon.UpperOpenMathN13Mirror.mirror_mem_triangular: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.OpenMathConstructionSeed61Visible.normal.eq_1: kernel; axioms=[propext, Classical.choice, Quot.sound]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_8: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.Certificates.N036T00402Hce43a107.simple_lower_bound: native-evaluation; axioms=[propext,
  Classical.choice,
  Quot.sound,
@@ -12857,6 +12930,7 @@ AUDIT Kobon.BBLVisible.new_visible_witness._proof_1_3: kernel; axioms=[propext, 
 AUDIT Kobon.UpperCleanCover.value_cycle: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.UpperOpenMathAntipodalTwoCapChart.shift_three_data._simp_1_1: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.UpperOpenMathSparseUpper.even_polynomial_mod_three: kernel; axioms=[propext, Classical.choice, Quot.sound]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_7: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.OpenMathSixLineResolution.up_triangle_iff: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.BBLTangent60Bounds.tan_23_bounds: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.Parametric.le_upper: kernel; axioms=[propext, Classical.choice, Quot.sound]
@@ -12982,6 +13056,7 @@ AUDIT Kobon.BBLGridObstruction.weight._proof_15: kernel; axioms=[propext]
 AUDIT Kobon.FurediPalasti.sum_sin_pos2: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.OpenMathParallelElimination.triangle_preserved._proof_1_2: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.BBLVisibleAssembly.visible_gain._proof_1_3: kernel; axioms=[propext, Quot.sound]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_20: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.UpperOpenMathFullSharing.certificate_full_sharing_neighbors_surround._proof_1_1: kernel; axioms=[propext,
  Classical.choice,
  Quot.sound]
@@ -13534,6 +13609,7 @@ AUDIT Kobon.UpperEdgeInventory.certificate_side_vertices: kernel; axioms=[propex
 AUDIT Kobon.BBLCaps.capRow_injective._proof_1_13: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.BBLRecursiveGrid.forward_central_left._proof_1_2: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.AllN.strict_improvements._proof_1_63: kernel; axioms=[]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_26: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.UpperOpenMathCoreCapacity.interval_core_card._simp_1_3: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.OpenMathSimpleBoundary.lineTerminals_card._proof_1_3: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.BBLProfiles.profile_strict_order: kernel; axioms=[propext, Classical.choice, Quot.sound]
@@ -13682,6 +13758,7 @@ AUDIT Kobon.BBLRowOrder.newKey_symm._proof_1_9: kernel; axioms=[propext, Quot.so
 AUDIT Kobon.UpperOpenMathTwoTwoCore.reverse_core_label: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.OpenMathExtensionFormula.closed_form_successor: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.OpenMathConstructionRescale.simple_descaling: kernel; axioms=[propext, Classical.choice, Quot.sound]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_13: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.BBLRowMax.row_extremal._proof_1_4: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.FurediPalastiCaps.step_bounds: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.BBLRowOrder.newKey_injective._proof_1_59: kernel; axioms=[propext, Quot.sound]
@@ -14703,6 +14780,9 @@ AUDIT Kobon.AllN.baseline_after_last_exception._proof_1_65: kernel; axioms=[prop
 AUDIT Kobon.ShiftedFurediPalasti.sum_sin_neg1: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.BBLVisible.aux_visible: kernel; axioms=[propext, Classical.choice, Quot.sound]
 AUDIT Kobon.BBLCapSigns.cap_key_signs._proof_1_42: kernel; axioms=[propext, Classical.choice, Quot.sound]
+AUDIT Kobon.UpperOpenMathM22GainWeights.finite_m22_curvature_gain._proof_1_33: kernel; axioms=[propext,
+ Classical.choice,
+ Quot.sound]
 AUDIT Kobon.UpperOpenMathHalfCurvatureGainWeights.finite_half_curvature_gain._proof_1_12: kernel; axioms=[propext,
  Quot.sound]
 AUDIT Kobon.UpperOpenMathHalfCurvatureGainWeights.finite_half_curvature_gain._proof_1_41: kernel; axioms=[propext,
@@ -14940,6 +15020,9 @@ AUDIT Kobon.Results.simple_060: native-evaluation; axioms=[propext,
  Kobon.Certificates.N060T01140H16af6d0b.checked._native.native_decide.ax_1_1,
  Kobon.Certificates.N060T01140H16af6d0b.no_concurrent._native.native_decide.ax_1_1]
 AUDIT Kobon.instDecidableEqLine.decEq._proof_1: kernel; axioms=[]
+AUDIT Kobon.UpperOpenMathM22Curvature.certificate_marked_plus_recipient_le._proof_1_1: kernel; axioms=[propext,
+ Classical.choice,
+ Quot.sound]
 AUDIT Kobon.BBLRightmost.canonical_row_eventually._proof_1_1: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.BBLGridReindex.inv_perm._proof_1_6: kernel; axioms=[propext, Quot.sound]
 AUDIT Kobon.BBLPencilProfiles.pair_profile_eventually._proof_1_1: kernel; axioms=[propext, Quot.sound]
@@ -15516,4 +15599,4 @@ AUDIT Kobon.OpenMathBoundaryWitnesses.witness_triple_injective: kernel; axioms=[
 AUDIT Kobon.UpperOpenMathTripleDegreeThree.finite_shared_not_five: kernel; axioms=[propext,
  Classical.choice,
  Quot.sound]
-AUDIT_TOTAL 9006
+AUDIT_TOTAL 9058

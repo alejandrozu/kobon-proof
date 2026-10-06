@@ -1,18 +1,18 @@
 {
   "research_start_utc": "2026-10-05T21:57:07Z",
   "research_deadline_utc": "2026-10-06T04:57:07Z",
-  "proof_source_freeze_utc": "2026-10-06T04:38:00Z",
-  "local_verified_at_utc": "2026-10-06T04:41:08.922634+00:00",
+  "proof_source_freeze_utc": "2026-10-06T04:52:51Z",
+  "local_verified_at_utc": "2026-10-06T04:54:51.322489+00:00",
   "complete": true,
-  "active_sources": 635,
+  "active_sources": 638,
   "baseline": "git:112409e2c62b78ecff7adcad49f1e014ea5f0773",
   "verification_modes": {
-    "fresh-direct-compile": 262,
+    "fresh-direct-compile": 265,
     "baseline-reuse": 373
   },
   "audit": {
-    "theorems": 9006,
-    "standard_axioms_only": 7994,
+    "theorems": 9058,
+    "standard_axioms_only": 8046,
     "native_evaluation_dependent": 1012,
     "approved_standard_axioms": [
       "propext",
@@ -22,11 +22,13 @@
     "admitted_proofs": 0,
     "unapproved_axioms": 0,
     "log": "verification/build-logs/openmath-seven-hour-2026-10-05/Kobon.Audit.log",
-    "log_sha256": "b5288312da6101a5a2ea7b10e2d0fed76b82634085bb833b0fa6d33d357a8595"
+    "log_sha256": "57e2fd6d576132f4aafd24891e6db5b33e8975ed47dd27f01c447b4d8affe4a2"
   },
   "whole_project_summary": "verification/lean-summary.json",
   "research_snapshot_summary": "verification/openmath-incremental-summary.json",
   "manuscript_integration": "Deferred at author request. Earlier long and journal manuscripts were not edited.",
   "unrestricted_kobon_problem": "Open; no unrestricted numerical upper improvement or world record priority asserted.",
-  "clean_ci_rebuild": "Pending: triggered upon publication of the research branch. Incremental local verification does not claim a clean rebuild of unchanged baseline closures."
+  "clean_ci_rebuild": "Pending on the final research branch. The initial evidence packaging issue was fixed; the subsequent CI passed evidence hashes and reached the clean Lean build. Local verification does not claim a clean rebuild of unchanged baseline closures.",
+  "draft_pull_request": "https://github.com/alejandrozu/kobon-proof/pull/1",
+  "strongest_completed_all_triple_global_bound": "2*delta+B15 >= 2*U+3*(E3+P21)+N12+M22"
 }

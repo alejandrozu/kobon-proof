@@ -36,7 +36,8 @@ Blanc and Loisel. An absolute first-in-literature claim for the numerical
 orbit is not established by the bounded source review.
 
 Relative to the previously verified quadratic baseline
-`G(n)=floor(n(n−3)/3)+1+(n mod 2)` in this repository:
+`G(n)=floor(n(n−3)/3)+1+(n mod 2)` for `n≥3` in this repository
+(the executable baseline is zero at `n<3`):
 
 | Lines | Baseline G | New family bound | Improvement over G |
 |---:|---:|---:|---:|
@@ -312,7 +313,7 @@ standard logical axioms. Principal proof roots:
 
 The final strengthening also proves that an actual `(a,d)=(1,2)` core has
 at most one antipodal source neighbour. Write `N12` for the total number
-of these cores. The strongest completed global estimate is
+of these cores. The completed N12 global estimate is
 
 \[
 \boxed{2\delta+B\ge2U+3(E_3+P_{21})+N_{12}.}
@@ -340,6 +341,24 @@ been proved for every arrangement. Its extraction and integer rounding
 are checked in
 [PositiveProfileComponents](../../Kobon/UpperOpenMathPositiveProfileComponents.lean).
 
+The final local marked/antipodal edge-disjointness theorem also retains a
+positive unit at every marked balanced core. Let `M22` count cores with
+`(a,d)=(2,2)` and `m≥1`. The strongest completed global estimate is
+
+\[
+\boxed{2\delta+B\ge2U+3(E_3+P_{21})+N_{12}+M_{22}.}
+\]
+
+Equivalently, `6T≤2n(n−2)+B−2U−3(E3+P21)−N12−M22`.
+The extra unit comes from the local budget `m+x≤d`: at a marked balanced
+core, the discharging gap is `2m−x≥1`. Both the local incident-edge
+competition and the actual global wrapper use only the standard logical
+axioms. Proofs: [LocalPortBudget](../../Kobon/UpperOpenMathLocalPortBudget.lean),
+[M22GainWeights](../../Kobon/UpperOpenMathM22GainWeights.lean),
+[M22Curvature](../../Kobon/UpperOpenMathM22Curvature.lean).
+The component portfolio displayed above is retained separately; this final
+`M22` strengthening is currently a global theorem.
+
 | Arrangement class | Verified penalty bound |
 |---|---|
 |Any multiplicity, shared-core degree at most 3|`δ≥U+c+h`|
@@ -350,6 +369,7 @@ are checked in
 |Only triple cores, retaining positive local types|`4δ+2A_0+2B≥4U+6E3+5P21`|
 |Only triple cores, no degree or component-size restriction|`2δ+B≥2U+3(E3+P21)`|
 |Only triple cores, no degree or component-size restriction|`2δ+B≥2U+3(E3+P21)+N12`|
+|Only triple cores, also retaining marked balanced cores|`2δ+B≥2U+3(E3+P21)+N12+M22`|
 |Only triple cores, every component satisfies the displayed positive profile|`δ≥U+c`|
 |Only triple cores, every component has at most 7 vertices|`δ≥U+Σ_s ceil((3E_s+2P_s−B_s)/2)`|
 |Only triple cores, every component has at most 5 vertices|`δ≥U+c`|
@@ -387,6 +407,14 @@ position without a diagram premise. It is a completed boundary lemma,
 not yet a proof of strict positivity for every component. Proof:
 [N13ActualSupportExtreme](../../Kobon/UpperOpenMathN13ActualSupportExtreme.lean);
 [proof provenance](constructions/n13-support-extreme-proof-provenance.json).
+
+A further actual local resource inequality gives
+`m(p)+degreeFrom(A_0,p)≤d(p)` for every core in the all-triple class.
+Marked edges terminate at poor cores, while antipodal-source edges
+terminate at ordinary-degree-two cores. The incident-edge inventories are
+therefore disjoint. This excludes a marked `(2,2)` receiver with two
+antipodal neighbours. Proof:
+[LocalPortBudget](../../Kobon/UpperOpenMathLocalPortBudget.lean).
 
 In actual all-triple arrangements an unmarked full`(2, 4)` core cannot
 share a core edge with another such core, or with an unmarked`(2, 2)` core.
@@ -524,6 +552,13 @@ Highest-value remaining directions:
 5. Use the exact germ classifier for surgery with global retention
    certificates, instead of an unsupported half-plane loss argument.
 
+The final equality analysis narrows the strict-component route to two
+matched boundary contacts, exposed unmarked `(2,2)` to `(1,3)` or `(0,4)`
+recipients. It derives the necessary saturation steps before using the
+existing marked-port coverage theorem. That equality decomposition is
+recorded as mathematical analysis, not a separately formalized theorem:
+[remaining zero-component analysis](constructions/remaining-zero-component-analysis.md).
+
 ## Verification and reproducibility
 
 Structural and analytic theorems use only `propext`, `Classical.choice`
@@ -533,13 +568,13 @@ is reported separately by the whole-project axiom audit.
 
 The pinned toolchain is Lean 4.31.0. The final source hash manifest,
 compiler logs and root audit are stored under [verification](../../verification/).
-The frozen snapshot passed coverage for **635 active modules**: 262 were
+The frozen snapshot passed coverage for **638 active modules**: 265 were
 compiled during this research run and 373 unchanged source/import closures
-reuse the verified baseline. The fresh whole-project audit checked **9006
-theorem declarations**: 7994 depend only on the standard logical axioms,
+reuse the verified baseline. The fresh whole-project audit checked **9058
+theorem declarations**: 8046 depend only on the standard logical axioms,
 and 1012 additionally depend on explicit finite native-evaluation roots.
 It found no admitted proofs or unapproved axioms. These counts describe
-the entire retained project, not 9006 newly discovered results.
+the entire retained project, not 9058 newly discovered results.
 See [release verification](RELEASE_VERIFICATION.json) and
 [whole-project summary](../../verification/lean-summary.json).
 

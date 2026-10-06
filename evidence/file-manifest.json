@@ -5106,6 +5106,18 @@
       "bytes": 8463,
       "sha256": "13fd7890f575de98317389aa463e1432ef8e305b550b91287a328e507187da8a"
     },
+    "Kobon/UpperOpenMathLocalPortBudget.lean": {
+      "bytes": 2669,
+      "sha256": "712b6daa4be1ff307929a105dc73c8ce8b617e979c186c7a0e9680afee5220a1"
+    },
+    "Kobon/UpperOpenMathM22Curvature.lean": {
+      "bytes": 8585,
+      "sha256": "fac9e75d559e83be4deb0a6725fb3d5af7aab15115178b02f09655110baf63ee"
+    },
+    "Kobon/UpperOpenMathM22GainWeights.lean": {
+      "bytes": 8142,
+      "sha256": "152ae6a5382d1cb7eea1c91fd05da9819c304f6737846c9df837249bd7a1b475"
+    },
     "Kobon/UpperOpenMathMarkedCurvature.lean": {
       "bytes": 6269,
       "sha256": "8edbc3772fd1b0a86ee6e67c8652ea8d43e06c07efde1dc6d4eb0b66ada0448e"
@@ -5559,8 +5571,8 @@
       "sha256": "770e6acfe6b37dfa9d63b069cb6068562c56aa11ce88b3fcedacd6bf066b4f6b"
     },
     "Kobon.lean": {
-      "bytes": 15440,
-      "sha256": "bf92eec84a8ab0d13017c74e8d80baa9da199d680321230c06a84a283151c0f6"
+      "bytes": 15565,
+      "sha256": "5e7528133f4c4fe2cdeee100c1b8d23bbaef37bc8aa2488d0c4e7365b0204934"
     },
     "lake-manifest.json": {
       "bytes": 3676,
@@ -7886,6 +7898,10 @@
       "bytes": 3844,
       "sha256": "2d8a3ddecc9f15fb15423c8d11660707a95577960d82a10445008a16728a6cd7"
     },
+    "research/openmath-seven-hour-2026-10-05/constructions/remaining-zero-component-analysis.md": {
+      "bytes": 7911,
+      "sha256": "efc45bd4b835667bac34e20d527f510a45f01d1af7c39715e446c5b218da4ef7"
+    },
     "research/openmath-seven-hour-2026-10-05/constructions/seed37-axis-console.log": {
       "bytes": 4121,
       "sha256": "6f800f644469c7fef69225ec5148a97759fc805117e8a0297ae9e586420fbb79"
@@ -9051,12 +9067,12 @@
       "sha256": "a7a311cdb2bc01298c76258561f71787f8cc09d1c31722ddd4298c7e631cb122"
     },
     "research/openmath-seven-hour-2026-10-05/README.md": {
-      "bytes": 28359,
-      "sha256": "6c6095f631d8a7e574317a0fee80f75ba3355979054832118402dcd1b3222e42"
+      "bytes": 30375,
+      "sha256": "632a7e75aef6b40e0617505a27529cfbf8cf554bfdcc644a0fd60338b012b118"
     },
     "research/openmath-seven-hour-2026-10-05/RELEASE_VERIFICATION.json": {
-      "bytes": 1443,
-      "sha256": "d0f577b3d442dd4ec2e41a8a3b665d482b63602d736af3c4ae163a18295a0a3b"
+      "bytes": 1701,
+      "sha256": "ffc28825bb2270d22e67da425c6458cccba689224faa129fd433f0b55cfa6331"
     },
     "research/openmath-seven-hour-2026-10-05/seed49/BBLSeed49Probe.lean": {
       "bytes": 936,
@@ -10019,12 +10035,40 @@
       "sha256": "70344f0fb15eb06fe6047cba15982c5aef3fd3785b744f073178b2f895d4aef7"
     },
     "research/openmath-seven-hour-2026-10-05/upper/CHARGING_FRONTIER.md": {
-      "bytes": 11546,
-      "sha256": "265c3f13fc0f29314e099c31653ff71e1eb6703b8bb3b54555f7db5249a39269"
+      "bytes": 12216,
+      "sha256": "b85fbfceab893c5f56a48212b5dd3616ecef0f2875c56bbe3f3cfe415ecce56d"
     },
     "research/openmath-seven-hour-2026-10-05/upper/CONTINUATION_FRONTIER.md": {
       "bytes": 4507,
       "sha256": "2a560c907dc0c374873489baa0635c51c554352fe600dfd68005174d5a4aeb8f"
+    },
+    "research/openmath-seven-hour-2026-10-05/upper/late-local-port-builds/openmath-upper-local-port-budget-check-2.log": {
+      "bytes": 140,
+      "sha256": "61670513f22c4b6417d53face5f017703950261786e14c57538cddd7c44a09f1"
+    },
+    "research/openmath-seven-hour-2026-10-05/upper/late-local-port-builds/openmath-upper-local-port-budget-promoted.log": {
+      "bytes": 140,
+      "sha256": "61670513f22c4b6417d53face5f017703950261786e14c57538cddd7c44a09f1"
+    },
+    "research/openmath-seven-hour-2026-10-05/upper/late-local-port-builds/openmath-upper-m22-curvature-check.log": {
+      "bytes": 932,
+      "sha256": "fdb9adbb44cd34a12ce2214121e57d3ff7408fcb45042a0810e024264c67a256"
+    },
+    "research/openmath-seven-hour-2026-10-05/upper/late-local-port-builds/openmath-upper-m22-curvature-promoted.log": {
+      "bytes": 930,
+      "sha256": "6b4ca5bbdc76d0039c750939424ae38783d1331fdd8c6e37d21f28f256068911"
+    },
+    "research/openmath-seven-hour-2026-10-05/upper/late-local-port-builds/openmath-upper-m22-gain-weights-check.log": {
+      "bytes": 521,
+      "sha256": "9e65a95b8d551af8ce2692d5ea2b25cf6b4441dbbf560d950cedc263c7e941a9"
+    },
+    "research/openmath-seven-hour-2026-10-05/upper/late-local-port-builds/openmath-upper-m22-gain-weights-promoted.log": {
+      "bytes": 518,
+      "sha256": "1d85d28639d71006f3ead9e4175b10592fbd175ec1b4d193a25d3b5704ca8260"
+    },
+    "research/openmath-seven-hour-2026-10-05/upper/LATE_LOCAL_PORT_REFINEMENT.md": {
+      "bytes": 2336,
+      "sha256": "ce4794c321fd282f0cb08b7ab52493d33cbf33d096b9e3419b7b4504c6681664"
     },
     "research/openmath-seven-hour-2026-10-05/upper/N13ActualChartScratch.lean": {
       "bytes": 10103,
@@ -12151,8 +12195,8 @@
       "sha256": "03458eb321b5775f17b2e0cbf40f582ae8fbb5f57cd30d69da9e87cb78e21e64"
     },
     "verification/build-targets.json": {
-      "bytes": 21507,
-      "sha256": "4c1773290cec5333cbbdb78496c4201435258f1e2f594cc4356e62d3f9735520"
+      "bytes": 21626,
+      "sha256": "4f8cb4ce100dbc383de702ed8a8616fa26237a630089159085b760d81f222a5f"
     },
     "verification/certificate-index.json": {
       "bytes": 82137,

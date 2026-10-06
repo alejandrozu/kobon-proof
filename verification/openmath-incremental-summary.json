@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-06T04:41:08.922634+00:00",
+  "checked_at_utc": "2026-10-06T04:54:51.322489+00:00",
   "complete": true,
   "mode": "incremental-hash-pinned-baseline-plus-direct-compilation",
   "baseline": "git:112409e2c62b78ecff7adcad49f1e014ea5f0773",
@@ -13,10 +13,10 @@
       "passed": true,
       "mode": "fresh-direct-compile",
       "returncode": 0,
-      "seconds": 14.719,
+      "seconds": 14.547,
       "log": "verification/build-logs/openmath-seven-hour-2026-10-05/Kobon.log",
-      "fingerprint": "7e76a8ccfdfa6513f65e3effa291fd97534b18ef8821efaebe77660cf8c11294",
-      "source_sha256": "bf92eec84a8ab0d13017c74e8d80baa9da199d680321230c06a84a283151c0f6",
+      "fingerprint": "805dd250bd754085e9986c7d365e7cd9e418130d0a33877b204b001a567ff9ae",
+      "source_sha256": "5e7528133f4c4fe2cdeee100c1b8d23bbaef37bc8aa2488d0c4e7365b0204934",
       "source_and_import_closure_unchanged_during_compile": true
     },
     {
@@ -40,9 +40,9 @@
       "passed": true,
       "mode": "fresh-direct-compile",
       "returncode": 0,
-      "seconds": 15.469,
+      "seconds": 14.969,
       "log": "verification/build-logs/openmath-seven-hour-2026-10-05/Kobon.Audit.log",
-      "fingerprint": "5ef0cb4d4b801485c866daca0c17ea9771969bc70bebb9899a50fad3e21449e3",
+      "fingerprint": "ea33abbd59037fe37814240fc2c5ee72dce200acf9f7aa48a00b72cca167aa6f",
       "source_sha256": "967aaecca9efd14ce17ecbe4a68384af7fd93af44343318f0ae4ef7352f1fd50",
       "source_and_import_closure_unchanged_during_compile": true
     },
@@ -4650,6 +4650,39 @@
       "source_and_import_closure_unchanged_during_compile": true
     },
     {
+      "target": "Kobon.UpperOpenMathLocalPortBudget",
+      "passed": true,
+      "mode": "fresh-direct-compile",
+      "returncode": 0,
+      "seconds": 12.985,
+      "log": "verification/build-logs/openmath-seven-hour-2026-10-05/Kobon.UpperOpenMathLocalPortBudget.log",
+      "fingerprint": "15fb80d82eca5924252488f99e54f8d3c15d2ad40c3c36929a38e7823c764563",
+      "source_sha256": "712b6daa4be1ff307929a105dc73c8ce8b617e979c186c7a0e9680afee5220a1",
+      "source_and_import_closure_unchanged_during_compile": true
+    },
+    {
+      "target": "Kobon.UpperOpenMathM22Curvature",
+      "passed": true,
+      "mode": "fresh-direct-compile",
+      "returncode": 0,
+      "seconds": 11.047,
+      "log": "verification/build-logs/openmath-seven-hour-2026-10-05/Kobon.UpperOpenMathM22Curvature.log",
+      "fingerprint": "6010f03a18a2ea62626fb2418d247f297b6839e571013f6d6012fa4d8e1a7d24",
+      "source_sha256": "fac9e75d559e83be4deb0a6725fb3d5af7aab15115178b02f09655110baf63ee",
+      "source_and_import_closure_unchanged_during_compile": true
+    },
+    {
+      "target": "Kobon.UpperOpenMathM22GainWeights",
+      "passed": true,
+      "mode": "fresh-direct-compile",
+      "returncode": 0,
+      "seconds": 63.375,
+      "log": "verification/build-logs/openmath-seven-hour-2026-10-05/Kobon.UpperOpenMathM22GainWeights.log",
+      "fingerprint": "2f3241b62a2d6ff567594ce2caaf729acb0b89473caeeb2a394ffc613366a074",
+      "source_sha256": "152ae6a5382d1cb7eea1c91fd05da9819c304f6737846c9df837249bd7a1b475",
+      "source_and_import_closure_unchanged_during_compile": true
+    },
+    {
       "target": "Kobon.UpperOpenMathMarkedCurvature",
       "passed": true,
       "mode": "fresh-direct-compile",
@@ -5876,7 +5909,7 @@
     }
   ],
   "source_sha256": {
-    "Kobon.lean": "bf92eec84a8ab0d13017c74e8d80baa9da199d680321230c06a84a283151c0f6",
+    "Kobon.lean": "5e7528133f4c4fe2cdeee100c1b8d23bbaef37bc8aa2488d0c4e7365b0204934",
     "Kobon/AffineLemmas.lean": "eeeed8da603d2f3a2d618fd727985945b2655db6b13c3c1b551b15d7087c2757",
     "Kobon/AllN.lean": "6bda538e8a3ce8ffa6fceb5ce98e8b787031ebdb940e530213a85659fff384ed",
     "Kobon/Audit.lean": "967aaecca9efd14ce17ecbe4a68384af7fd93af44343318f0ae4ef7352f1fd50",
@@ -6398,6 +6431,9 @@
     "Kobon/UpperOpenMathHighMultiplicityHull.lean": "be6d0f39ec3b25810e6d2398602c7a9aee89884d878ab0b401f77533937f7bad",
     "Kobon/UpperOpenMathHighNeighborCharts.lean": "e4e204a0e1b7b0a5a5029430868c40668d5dcfefd168eb89ddfa4e43789afc86",
     "Kobon/UpperOpenMathKite.lean": "13fd7890f575de98317389aa463e1432ef8e305b550b91287a328e507187da8a",
+    "Kobon/UpperOpenMathLocalPortBudget.lean": "712b6daa4be1ff307929a105dc73c8ce8b617e979c186c7a0e9680afee5220a1",
+    "Kobon/UpperOpenMathM22Curvature.lean": "fac9e75d559e83be4deb0a6725fb3d5af7aab15115178b02f09655110baf63ee",
+    "Kobon/UpperOpenMathM22GainWeights.lean": "152ae6a5382d1cb7eea1c91fd05da9819c304f6737846c9df837249bd7a1b475",
     "Kobon/UpperOpenMathMarkedCurvature.lean": "8edbc3772fd1b0a86ee6e67c8652ea8d43e06c07efde1dc6d4eb0b66ada0448e",
     "Kobon/UpperOpenMathMarkedCurvatureBound.lean": "4ee81ee39b5ea02c39ca170e2daa3597a486bc5a482ec9452bdb1db7f2019dc6",
     "Kobon/UpperOpenMathMarkedCurvatureWeights.lean": "f5d11d1d1d959cb9020f03fd71d9454b7a6ff33564f09e03683664a9d5837676",

@@ -291,6 +291,7 @@ import Kobon.UpperOpenMathDoubleRecipientWeights
 import Kobon.UpperOpenMathHalfCurvatureGainWeights
 import Kobon.UpperOpenMathHalfCurvatureWeights
 import Kobon.UpperOpenMathHighMultiplicityHull
+import Kobon.UpperOpenMathM22GainWeights
 import Kobon.UpperOpenMathMarkedCurvature
 import Kobon.UpperOpenMathMarkedFanShapes
 import Kobon.UpperOpenMathMarkedPaidZeroWeights
@@ -376,6 +377,8 @@ import Kobon.UpperOpenMathN13Degree
 import Kobon.UpperOpenMathN13Curvature
 import Kobon.UpperOpenMathN12Curvature
 import Kobon.UpperOpenMathClosedN12Curvature
+import Kobon.UpperOpenMathLocalPortBudget
+import Kobon.UpperOpenMathM22Curvature
 import Kobon.UpperOpenMathPositiveProfileComponents
 import Kobon.UpperOpenMathUpperResearchAudit
 import Kobon.Results

@@ -199,6 +199,20 @@ set. The complete geometry and actual extraction are proved in
 Recovering a strict component term for all other zero-margin profiles
 is still open.
 
+The final local budget proves `m(p)+degreeFrom(A0,p)≤d(p)` by disjoint
+actual incident inventories. It additionally pays one unit for each
+marked `(2,2)` core, giving the global strengthening
+
+`2δ+B15≥2U+3E3+3P21+N12+M22`.
+
+Here `M22` counts `(a,d)=(2,2),m≥1`. The local gap is `2m−x`, at least
+one under the new slot bound. Proofs:
+[LocalPortBudget](../../../Kobon/UpperOpenMathLocalPortBudget.lean),
+[M22GainWeights](../../../Kobon/UpperOpenMathM22GainWeights.lean),
+[M22Curvature](../../../Kobon/UpperOpenMathM22Curvature.lean).
+The existing component portfolio remains independently verified; a closed
+component `M22` refinement was not added in this run.
+
 A kernel-checked seven-vertex finite graph satisfies all displayed numerical
 charging hypotheses and meets equality at coefficient one half on `A0`.
 It defeats a smaller coefficient for that relaxation. Its two antipodal

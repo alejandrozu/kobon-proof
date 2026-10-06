@@ -1,0 +1,54 @@
+Kobon/OpenMathSimpleBoundary.lean:25:63: warning: This simp argument is unused:
+  hqr
+
+Hint: Omit it from the simp argument list.
+  simp [hp, ̲edge, ̲sideTriangle, ̲cycle, ̲hpq, ̲hpr,̵h̵q̵r̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Kobon/OpenMathSimpleBoundary.lean:31:55: warning: This simp argument is unused:
+  hpq
+
+Hint: Omit it from the simp argument list.
+  simp [hq, ̲edge, ̲sideTriangle, ̲cycle, ̲hpq̵,̵h̵p̵r, ̲hqr, ̲Ne.symm hpq]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Kobon/OpenMathSimpleBoundary.lean:31:59: warning: This simp argument is unused:
+  hpr
+
+Hint: Omit it from the simp argument list.
+  simp [̵h̵q̵,̵e̵d̵g̵e̵,̵s̵i̵d̵e̵T̵r̵i̵a̵n̵g̵l̵e̵,̵c̵y̵c̵l̵e̵,̵h̵p̵q̵,̵h̵p̵r̵,̵h̵q̵r̵,̵N̵e̵.̵s̵y̵m̵m̵[̲h̲q̲,̲ ̲e̲d̲g̲e̲,̲ ̲s̲i̲d̲e̲T̲r̲i̲a̲n̲g̲l̲e̲,̲ ̲c̲y̲c̲l̲e̲,̲ ̲h̲p̲q̲,̲ ̲h̲q̲r̲,̲ ̲N̲e̲.̲s̲y̲m̲m̲ hpq]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Kobon/OpenMathSimpleBoundary.lean:37:55: warning: This simp argument is unused:
+  hpq
+
+Hint: Omit it from the simp argument list.
+  simp [̵h̵r̵,̵e̵d̵g̵e̵,̵s̵i̵d̵e̵T̵r̵i̵a̵n̵g̵l̵e̵,̵c̵y̵c̵l̵e̵,̵h̵p̵q̵,̵h̵p̵r̵,̵h̵q̵r̵,̵N̵e̵.̵s̵y̵m̵m̵ ̵h̵p̵r̵,̵N̵e̵.̵s̵y̵m̵m̵[̲h̲r̲,̲ ̲e̲d̲g̲e̲,̲ ̲s̲i̲d̲e̲T̲r̲i̲a̲n̲g̲l̲e̲,̲ ̲c̲y̲c̲l̲e̲,̲ ̲h̲p̲r̲,̲ ̲h̲q̲r̲,̲ ̲N̲e̲.̲s̲y̲m̲m̲ ̲h̲p̲r̲,̲ ̲N̲e̲.̲s̲y̲m̲m̲ hqr]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Kobon/OpenMathSimpleBoundary.lean:37:59: warning: This simp argument is unused:
+  hpr
+
+Hint: Omit it from the simp argument list.
+  simp [̵h̵r̵,̵e̵d̵g̵e̵,̵s̵i̵d̵e̵T̵r̵i̵a̵n̵g̵l̵e̵,̵c̵y̵c̵l̵e̵,̵h̵p̵q̵,̵h̵p̵r̵,̵h̵q̵r̵,̵N̵e̵.̵s̵y̵m̵m̵ ̵h̵p̵r̵,̵N̵e̵.̵s̵y̵m̵m̵[̲h̲r̲,̲ ̲e̲d̲g̲e̲,̲ ̲s̲i̲d̲e̲T̲r̲i̲a̲n̲g̲l̲e̲,̲ ̲c̲y̲c̲l̲e̲,̲ ̲h̲p̲q̲,̲ ̲h̲q̲r̲,̲ ̲N̲e̲.̲s̲y̲m̲m̲ ̲h̲p̲r̲,̲ ̲N̲e̲.̲s̲y̲m̲m̲ hqr]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Kobon/OpenMathSimpleBoundary.lean:37:63: warning: This simp argument is unused:
+  hqr
+
+Hint: Omit it from the simp argument list.
+  simp [̵h̵r̵,̵e̵d̵g̵e̵,̵s̵i̵d̵e̵T̵r̵i̵a̵n̵g̵l̵e̵,̵c̵y̵c̵l̵e̵,̵h̵p̵q̵,̵h̵p̵r̵,̵h̵q̵r̵,̵N̵e̵.̵s̵y̵m̵m̵ ̵h̵p̵r̵,̵N̵e̵.̵s̵y̵m̵m̵[̲h̲r̲,̲ ̲e̲d̲g̲e̲,̲ ̲s̲i̲d̲e̲T̲r̲i̲a̲n̲g̲l̲e̲,̲ ̲c̲y̲c̲l̲e̲,̲ ̲h̲p̲q̲,̲ ̲h̲p̲r̲,̲ ̲N̲e̲.̲s̲y̲m̲m̲ ̲h̲p̲r̲,̲ ̲N̲e̲.̲s̲y̲m̲m̲ hqr]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Kobon.OpenMathSimpleBoundary.triangle_incident_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathSimpleBoundary.used_incident_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathSimpleBoundary.simple_single_forces_unused' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathSimpleBoundary.certificate_single_terminal_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.OpenMathSimpleBoundary.terminal_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathSimpleBoundary.certificate_double_terminal_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.OpenMathSimpleBoundary.certificate_boundary_defect' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathSimpleBoundary.terminal_extreme_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]

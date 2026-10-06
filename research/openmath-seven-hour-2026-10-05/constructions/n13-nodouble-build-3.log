@@ -1,0 +1,85 @@
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:27:8: warning: automatically included section variable(s) unused in theorem `_private.research.«openmath-seven-hour-2026-10-05».constructions.N13NoDoubleScratch.0.Kobon.UpperOpenMathN13NoDouble.endpoint_triple`:
+  hn
+  hi
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hn hi in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:41:49: error: Type mismatch: After simplification, term
+  ord3
+ has type
+  OrdinaryAt n L (f.point 3)
+but is expected to have type
+  OrdinaryAt n L (f.point (2 + 1))
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:56:53: error: Type mismatch: After simplification, term
+  rc
+ has type
+  @Eq ℕ (#(supports n L (f.point 2))) 3
+but is expected to have type
+  @Eq ℕ (#(supports n L (f.point (3 - 1)))) 3
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:63:8: error: Type mismatch: After simplification, term
+  gl
+ has type
+  @Eq Point (g.point (w + 1)) (f.point (3 - 1))
+but is expected to have type
+  @Eq Point (g.point (w + 1)) (f.point 2)
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:75:79: error: No goals to be solved
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:76:79: error: No goals to be solved
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:77:79: error: No goals to be solved
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:78:79: error: No goals to be solved
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:82:42: error: Type mismatch: After simplification, term
+  s0
+ has type
+  @Membership.mem (ZMod 6) (Finset (ZMod 6)) SetLike.instMembership f.triangular 0
+but is expected to have type
+  @Membership.mem (ZMod 6) (Finset (ZMod 6)) SetLike.instMembership f.triangular (3 - 2 - 1)
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:109:53: error: Type mismatch: After simplification, term
+  rc
+ has type
+  @Eq ℕ (#(supports n L (f.point 2))) 3
+but is expected to have type
+  @Eq ℕ (#(supports n L (f.point (3 - 1)))) 3
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:114:79: error: No goals to be solved
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:115:79: error: No goals to be solved
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:116:79: error: No goals to be solved
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:117:79: error: No goals to be solved
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:142:8: error: Type mismatch: After simplification, term
+  gp
+ has type
+  @Eq Point (g.point w) f.center
+but is expected to have type
+  @Eq Point (g.point w) F.center
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:143:17: error: Type mismatch: After simplification, term
+  gl
+ has type
+  @Eq Point (g.point (w + 1)) (f.point (3 - 1))
+but is expected to have type
+  @Eq Point (g.point (w + 1)) (f.point 2)
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:147:8: error: Type mismatch: After simplification, term
+  kp
+ has type
+  @Eq Point (k.point x) f.center
+but is expected to have type
+  @Eq Point (k.point x) F.center
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:149:17: error: Type mismatch: After simplification, term
+  kr
+ has type
+  @Eq Point (k.point (x - 1)) (f.point (1 + 1))
+but is expected to have type
+  @Eq Point (k.point (x - 1)) (f.point 2)
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:167:61: error: Type mismatch: After simplification, term
+  h3
+ has type
+  @Membership.mem (ZMod 6) (Finset (ZMod 6)) SetLike.instMembership f.coreShared 3
+but is expected to have type
+  @Membership.mem (ZMod 6) (Finset (ZMod 6)) SetLike.instMembership f.coreShared (1 + 2)
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:169:8: error: Type mismatch: After simplification, term
+  ord2
+ has type
+  OrdinaryAt n L (f.point 2)
+but is expected to have type
+  OrdinaryAt n L (f.point (1 + 1))
+'Kobon.UpperOpenMathN13NoDouble.certificate_chart_no_two_anti' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]

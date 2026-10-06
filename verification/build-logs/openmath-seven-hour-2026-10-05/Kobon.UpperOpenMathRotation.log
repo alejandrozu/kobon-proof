@@ -1,0 +1,7 @@
+'Kobon.UpperOpenMathRotation.Sectors.shift_ordinaryShared_card' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathRotation.Sectors.shift_coreShared_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathRotation.extremal_triple_fans_not_adjacent_at' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

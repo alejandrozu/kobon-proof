@@ -1,0 +1,19 @@
+Kobon/UpperOpenMathAntipodalEscape.lean:21:4: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+Kobon/UpperOpenMathAntipodalEscape.lean:82:6: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+'Kobon.UpperOpenMathAntipodalEscape.between_norm_strict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathAntipodalEscape.opposite_norm_greater' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathAntipodalEscape.finite_mixed_escape_impossible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

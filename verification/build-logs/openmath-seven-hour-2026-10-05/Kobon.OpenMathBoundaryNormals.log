@@ -1,0 +1,3 @@
+'Kobon.OpenMathBoundaryNormals.terminalSigns_of_avoids' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathBoundaryNormals.compatible_directions' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathBoundaryNormals.critical_not_between' depends on axioms: [propext, Classical.choice, Quot.sound]

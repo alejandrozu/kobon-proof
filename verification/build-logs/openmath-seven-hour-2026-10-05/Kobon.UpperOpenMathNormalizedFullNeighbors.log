@@ -1,0 +1,3 @@
+'Kobon.UpperOpenMathNormalizedFullNeighbors.normalized_full_neighbors_impossible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

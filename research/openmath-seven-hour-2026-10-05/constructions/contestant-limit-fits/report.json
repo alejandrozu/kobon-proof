@@ -1,0 +1,74 @@
+[
+  {
+    "n": 31,
+    "epsilon": 0,
+    "margin": 3.296922153917723e-05,
+    "status": 0,
+    "source": "bases/base31_290_s30005.json",
+    "source_sha256": "5345fee48894fa06eba0a93897522dd406903f658a0e05269efcdc73dcbd9adb",
+    "proposal": "research\\openmath-seven-hour-2026-10-05\\constructions\\contestant-limit-fits\\n031-epsilon0.json"
+  },
+  {
+    "n": 31,
+    "epsilon": 1e-07,
+    "margin": 3.297453698128681e-05,
+    "status": 0,
+    "source": "bases/base31_290_s30005.json",
+    "source_sha256": "5345fee48894fa06eba0a93897522dd406903f658a0e05269efcdc73dcbd9adb",
+    "proposal": "research\\openmath-seven-hour-2026-10-05\\constructions\\contestant-limit-fits\\n031-epsilon1e-07.json"
+  },
+  {
+    "n": 31,
+    "epsilon": 0.0001,
+    "margin": 3.82846693607436e-05,
+    "status": 0,
+    "source": "bases/base31_290_s30005.json",
+    "source_sha256": "5345fee48894fa06eba0a93897522dd406903f658a0e05269efcdc73dcbd9adb",
+    "proposal": "research\\openmath-seven-hour-2026-10-05\\constructions\\contestant-limit-fits\\n031-epsilon0.0001.json"
+  },
+  {
+    "n": 31,
+    "epsilon": 0.01,
+    "margin": 0.00020647346966545246,
+    "status": 0,
+    "source": "bases/base31_290_s30005.json",
+    "source_sha256": "5345fee48894fa06eba0a93897522dd406903f658a0e05269efcdc73dcbd9adb",
+    "proposal": "research\\openmath-seven-hour-2026-10-05\\constructions\\contestant-limit-fits\\n031-epsilon0.01.json"
+  },
+  {
+    "n": 61,
+    "epsilon": 0,
+    "margin": 1.8945008140878125e-07,
+    "status": 0,
+    "source": "bases/n61_1190_base31.json",
+    "source_sha256": "f5f7a7ee4f8d55c10c669ffc7622eb15eead1427035214b93e885bd65bc95d7f",
+    "proposal": "research\\openmath-seven-hour-2026-10-05\\constructions\\contestant-limit-fits\\n061-epsilon0.json"
+  },
+  {
+    "n": 61,
+    "epsilon": 1e-07,
+    "margin": 1.8948062048914279e-07,
+    "status": 0,
+    "source": "bases/n61_1190_base31.json",
+    "source_sha256": "f5f7a7ee4f8d55c10c669ffc7622eb15eead1427035214b93e885bd65bc95d7f",
+    "proposal": "research\\openmath-seven-hour-2026-10-05\\constructions\\contestant-limit-fits\\n061-epsilon1e-07.json"
+  },
+  {
+    "n": 61,
+    "epsilon": 0.0001,
+    "margin": 2.1998960607587856e-07,
+    "status": 0,
+    "source": "bases/n61_1190_base31.json",
+    "source_sha256": "f5f7a7ee4f8d55c10c669ffc7622eb15eead1427035214b93e885bd65bc95d7f",
+    "proposal": "research\\openmath-seven-hour-2026-10-05\\constructions\\contestant-limit-fits\\n061-epsilon0.0001.json"
+  },
+  {
+    "n": 61,
+    "epsilon": 0.01,
+    "margin": 1.1814279699761813e-06,
+    "status": 0,
+    "source": "bases/n61_1190_base31.json",
+    "source_sha256": "f5f7a7ee4f8d55c10c669ffc7622eb15eead1427035214b93e885bd65bc95d7f",
+    "proposal": "research\\openmath-seven-hour-2026-10-05\\constructions\\contestant-limit-fits\\n061-epsilon0.01.json"
+  }
+]

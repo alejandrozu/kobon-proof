@@ -1,0 +1,44 @@
+[Elab.async] [0.256815] ✅️ Lean.Elab.Command.runLintersAsync
+  [Elab.lint] [0.256776] ✅️ running linters
+    [Elab.lint] [0.014382] ✅️ running linter: Mathlib.Linter.AuxLemma.auxLemmaLinter✝
+    [Elab.lint] [0.011539] ✅️ running linter: Mathlib.Linter.OverlappingInstances.overlappingInstances✝
+    [Elab.lint] [0.031086] ✅️ running linter: Mathlib.Linter.UnusedTactic.unusedTacticLinter✝
+    [Elab.lint] [0.011452] ✅️ running linter: Mathlib.Linter.Style.nameCheck.doubleUnderscore✝
+    [Elab.lint] [0.052489] ✅️ running linter: Mathlib.TacticAnalysis.tacticAnalysis
+    [Elab.lint] [0.026404] ✅️ running linter: Batteries.Linter.UnreachableTactic.unreachableTacticLinter
+    [Elab.lint] [0.022265] ✅️ running linter: Batteries.Linter.UnnecessarySeqFocus.unnecessarySeqFocusLinter
+[Elab.command] [0.211758] ✅️ theorem directions_bool : OpenMathConstructionBoolean.directionsBool 33 lineAt = true := by
+      native_decide
+  [Elab.definition.value] [0.207768] ✅️ Kobon.OpenMathConstructionSeed33.directions_bool
+    [Elab.step] [0.207362] ✅️ native_decide
+      [Elab.step] [0.207303] ✅️ native_decide
+        [Elab.step] [0.207244] ✅️ native_decide
+'Kobon.OpenMathConstructionSeed33.directions' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ directions_bool._native.native_decide.ax_1]
+33 directions complete; starting Boolean simplicity
+[Elab.command] [0.053355] ✅️ #eval do
+      IO.println "33 directions complete; starting Boolean simplicity"
+      (← IO.getStdout).flush
+  [Meta.appBuilder] [0.012843] ✅️ f: MonadEvalT.monadEval, xs: [<not-available>,
+       Lean.Elab.Command.CommandElabM,
+       <not-available>,
+       <not-available>,
+       do
+         IO.println "33 directions complete; starting Boolean simplicity"
+         let __do_lift ← liftM IO.getStdout
+         __do_lift.flush]
+    [Meta.synthInstance] [0.012576] ✅️ MonadEvalT IO Lean.Elab.Command.CommandElabM
+  [Elab.def.processPreDef] [0.025846] ✅️ process pre-definitions
+    [Compiler] [0.024657] ✅️ compiling: [_private.Kobon.OpenMathConstructionSeed33Simple.0._eval]
+[Elab.command] [5.864371] ✅️ theorem simple_bool :
+        OpenMathConstructionBooleanMemo.simpleBool 33 lo hi 15 lineAt = true := by native_decide
+  [Elab.definition.value] [5.859874] ✅️ Kobon.OpenMathConstructionSeed33.simple_bool
+    [Elab.step] [5.859617] ✅️ native_decide
+      [Elab.step] [5.859588] ✅️ native_decide
+        [Elab.step] [5.859544] ✅️ native_decide
+'Kobon.OpenMathConstructionSeed33.simple' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ simple_bool._native.native_decide.ax_1]

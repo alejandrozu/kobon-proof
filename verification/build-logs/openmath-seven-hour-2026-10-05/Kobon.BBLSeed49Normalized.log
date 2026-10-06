@@ -1,0 +1,10 @@
+'Kobon.BBLSeed49Normalized.graph_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.BBLSeed49Normalized.central_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.BBLSeed49Normalized.compatible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ BBLSeed49Checks.distinguished_subset._native.native_decide.ax_1_1,
+ BBLSeed49Checks.ordered._native.native_decide.ax_1_1,
+ Kobon.BBLSeed49Checks.directions_bool._native.native_decide.ax_1_1✝,
+ Kobon.BBLSeed49Checks.simple_bool._native.native_decide.ax_1_1✝,
+ Kobon.BBLSeed49Checks.triangle_bool._native.native_decide.ax_1_1✝]

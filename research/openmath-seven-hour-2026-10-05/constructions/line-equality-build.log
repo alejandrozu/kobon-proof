@@ -1,0 +1,2 @@
+'Kobon.OpenMathConstructionLineEquality.lineMapMatches_sound' depends on axioms: [propext, Quot.sound]
+'Kobon.OpenMathConstructionLineEquality.triangleCheck_congr' depends on axioms: [propext, Classical.choice, Quot.sound]

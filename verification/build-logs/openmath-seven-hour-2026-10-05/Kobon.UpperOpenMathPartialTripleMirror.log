@@ -1,0 +1,3 @@
+'Kobon.UpperOpenMathPartialTripleMirror.incompatible_following_partial_triple_fans_card' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

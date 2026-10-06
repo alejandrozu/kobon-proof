@@ -1,0 +1,9 @@
+'Kobon.UpperOpenMathMarkedCurvatureBound.certificate_closed_marked_cost_pos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathMarkedCurvatureBound.certificate_marked_component_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathMarkedCurvatureBound.certificate_unmarked_exception_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

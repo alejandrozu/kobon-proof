@@ -1,0 +1,3 @@
+'Kobon.UpperOpenMathCutHalfplane.off_pencil_intersection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathCutHalfplane.common_side_except_pencil' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathCutHalfplane.blocked_line_on_pencil' depends on axioms: [propext, Classical.choice, Quot.sound]

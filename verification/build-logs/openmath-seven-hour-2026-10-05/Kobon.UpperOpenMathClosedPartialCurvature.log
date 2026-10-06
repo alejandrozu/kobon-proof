@@ -1,0 +1,6 @@
+'Kobon.UpperOpenMathClosedPartialCurvature.certificate_closed_partial_recipient_gain' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathClosedPartialCurvature.certificate_hybrid_partial_component_defect' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

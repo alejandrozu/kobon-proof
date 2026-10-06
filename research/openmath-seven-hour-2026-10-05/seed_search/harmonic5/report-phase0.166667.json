@@ -1,0 +1,74 @@
+[
+  {
+    "n": 13,
+    "harmonic": 5,
+    "phase": 0.16666666666666666,
+    "current_G": 45,
+    "best_float": 44,
+    "walls": 223,
+    "events": 223,
+    "wins": [],
+    "seconds": 0.015058517456054688,
+    "scope": "Finite floating wall sweep plus exact rational point replays for improvements; no exact harmonic or universal theorem"
+  },
+  {
+    "n": 18,
+    "harmonic": 5,
+    "phase": 0.16666666666666666,
+    "current_G": 91,
+    "best_float": 91,
+    "walls": 655,
+    "events": 655,
+    "wins": [],
+    "seconds": 0.04857468605041504,
+    "scope": "Finite floating wall sweep plus exact rational point replays for improvements; no exact harmonic or universal theorem"
+  },
+  {
+    "n": 19,
+    "harmonic": 5,
+    "phase": 0.16666666666666666,
+    "current_G": 103,
+    "best_float": 102,
+    "walls": 786,
+    "events": 786,
+    "wins": [],
+    "seconds": 0.05568671226501465,
+    "scope": "Finite floating wall sweep plus exact rational point replays for improvements; no exact harmonic or universal theorem"
+  },
+  {
+    "n": 26,
+    "harmonic": 5,
+    "phase": 0.16666666666666666,
+    "current_G": 200,
+    "best_float": 200,
+    "walls": 2113,
+    "events": 2113,
+    "wins": [],
+    "seconds": 0.2059156894683838,
+    "scope": "Finite floating wall sweep plus exact rational point replays for improvements; no exact harmonic or universal theorem"
+  },
+  {
+    "n": 31,
+    "harmonic": 5,
+    "phase": 0.16666666666666666,
+    "current_G": 291,
+    "best_float": 290,
+    "walls": 3652,
+    "events": 3652,
+    "wins": [],
+    "seconds": 0.6115806102752686,
+    "scope": "Finite floating wall sweep plus exact rational point replays for improvements; no exact harmonic or universal theorem"
+  },
+  {
+    "n": 61,
+    "harmonic": 5,
+    "phase": 0.16666666666666666,
+    "current_G": 1181,
+    "best_float": 1180,
+    "walls": 29355,
+    "events": 29355,
+    "wins": [],
+    "seconds": 8.62280559539795,
+    "scope": "Finite floating wall sweep plus exact rational point replays for improvements; no exact harmonic or universal theorem"
+  }
+]

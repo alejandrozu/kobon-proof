@@ -1,0 +1,23 @@
+Kobon/UpperOpenMathTripleDegreeThree.lean:145:25: warning: This simp argument is unused:
+  ite_true
+
+Hint: Omit it from the simp argument list.
+  simp only [̵h̵e̵,̵h̵b̵,̵i̵t̵e̵_̵t̵r̵u̵e̵,̵i̵t̵e̵_̵f̵a̵l̵s̵e̵]̵[̲h̲e̲,̲ ̲h̲b̲,̲ ̲i̲t̲e̲_̲f̲a̲l̲s̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Kobon.UpperOpenMathTripleDegreeThree.finite_shared_not_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathTripleDegreeThree.certificate_triple_not_five' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathTripleDegreeThree.closed_extremal_capacity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathTripleDegreeThree.finite_weight_discharge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathTripleDegreeThree.certificate_closed_degree_three_cost_pos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathTripleDegreeThree.certificate_degree_three_component_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,16 @@
+Kobon/UpperOpenMathTripleCurvatureConsequences.lean:73:2: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+'Kobon.UpperOpenMathTripleCurvatureConsequences.certificate_no_bad_fan_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathTripleCurvatureConsequences.certificate_no_bad_fan_perfect_simple' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathTripleCurvatureConsequences.certificate_perfect_nonsimple_has_bad_fan' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

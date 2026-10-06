@@ -1,0 +1,12 @@
+'Kobon.UpperOpenMathPerfectRigidity.certificate_perfect_resources' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathPerfectRigidity.certificate_balanced_resources' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathPerfectRigidity.certificate_balanced_local_rigidity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathPerfectRigidity.certificate_perfect_local_rigidity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,4 @@
+'Kobon.OpenMathConstructionRescale.triangle_descaling' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathConstructionRescale.clearedSimple_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathConstructionRescale.clearedTriangles_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathConstructionRescale.clearedVisibles_sound' depends on axioms: [propext, Classical.choice, Quot.sound]

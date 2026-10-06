@@ -1,0 +1,8 @@
+Kobon/UpperOpenMathNormalizedActualFull.lean:27:17: warning: Variable name `hd` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'Kobon.UpperOpenMathNormalizedActualFull.certificate_normalized_neighbor_not_full' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

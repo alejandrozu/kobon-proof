@@ -1,0 +1,6 @@
+'Kobon.UpperOpenMathFullTripleChart.certificate_full_triple_chart' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathFullTripleChart.normalized_two_or_full_neighbors_no_full' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

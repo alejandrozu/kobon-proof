@@ -1,0 +1,20 @@
+Diagnostic profiler trace from a stopped unpromoted dense rational matching probe.
+Original size: 1306931 bytes. The full deeply nested trace is replaced with its terminal checkpoint; no successful proof depended on this run.
+                            c :=
+                              ![0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1250000000, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0] } ::
+                          y
+    [Compiler] [0.270585] ✅️ compiling: [Kobon.OpenMathConstructionSeed61.intLines]
+      [Compiler] [0.021425] ✅️ compiler phase: base, pass: simp
+      [Compiler] [0.010792] ✅️ compiler phase: mono, pass: simp
+      [Compiler] [0.019085] ✅️ compiler phase: mono, pass: extendJoinPointContext
+      [Compiler] [0.013422] ✅️ compiler phase: mono, pass: lambdaLifting
+      [Compiler] [0.020596] ✅️ compiler phase: mono, pass: extractClosed
+[Elab.command] [0.025323] ✅️ theorem lineFactor_pos (i : Nat) : 0 < lineFactor i :=
+      by
+      unfold lineFactor
+      exact_mod_cast (lineAt i).a.den_pos
+  [Elab.definition.value] [0.021803] ✅️ Kobon.OpenMathConstructionSeed61.lineFactor_pos
+    [Elab.step] [0.021531] ✅️ 
+          unfold lineFactor
+          exact_mod_cast (line

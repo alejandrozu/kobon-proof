@@ -1,0 +1,13 @@
+'Kobon.UpperOpenMathCoreGraphCounts.certificate_graph_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathCoreGraphCounts.certificate_graph_edge_card' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathCoreGraphCounts.certificate_component_degree' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathCoreGraphCounts.certificate_component_vertex_card' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathCoreGraphCounts.certificate_component_edge_card' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

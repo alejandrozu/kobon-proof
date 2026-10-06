@@ -1,0 +1,5 @@
+'Kobon.OpenMathSparseBoxes.bounds_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathSparseBoxes.simple_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathSparseBoxes.triangles_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathSparseBoxes.simpleMemo_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathSparseBoxes.trianglesMemo_sound' depends on axioms: [propext, Classical.choice, Quot.sound]

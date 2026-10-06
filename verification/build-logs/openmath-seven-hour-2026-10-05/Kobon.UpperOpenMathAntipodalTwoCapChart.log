@@ -1,0 +1,5 @@
+'Kobon.UpperOpenMathAntipodalTwoCapChart.certificate_antipodal_chart' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathAntipodalTwoCapChart.closed_star_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathAntipodalTwoCapChart.shift_three_data' depends on axioms: [propext, Classical.choice, Quot.sound]

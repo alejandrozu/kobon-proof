@@ -1,0 +1,76 @@
+Kobon/UpperOpenMathAntipodalAdjacency.lean:69:6: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  f.point (z + ↑3)
+in the target expression
+  affineEval w (f.point (z + 3)) = 0
+
+n : ℕ
+L : ℕ → Line ℝ
+f : Sectors n 3 L
+w : Line ℝ
+z : ZMod 6
+hc : affineEval w f.center = 0
+hp : affineEval w (f.point z) = 0
+s : ℝ
+hs : 0 < s
+he : f.point (z + ↑3) = (f.center.1 - s * ((f.point z).1 - f.center.1), f.center.2 - s * ((f.point z).2 - f.center.2))
+⊢ affineEval w (f.point (z + 3)) = 0
+Kobon/UpperOpenMathAntipodalAdjacency.lean:77:6: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  f.point (z + ↑3)
+in the target expression
+  affineEval w (f.point (z + 3)) = 0
+
+n : ℕ
+L : ℕ → Line ℝ
+f : Sectors n 3 L
+w : Line ℝ
+z : ZMod 6
+hp : affineEval w (f.point z) = 0
+hq : affineEval w (f.point (z + 3)) = 0
+s : ℝ
+hs : 0 < s
+he : f.point (z + ↑3) = (f.center.1 - s * ((f.point z).1 - f.center.1), f.center.2 - s * ((f.point z).2 - f.center.2))
+⊢ affineEval w f.center = 0
+Kobon/UpperOpenMathAntipodalAdjacency.lean:96:4: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Kobon/UpperOpenMathAntipodalAdjacency.lean:121:4: error: Type mismatch: After simplification, term
+  cap_eq_at_ordinary f df.triangular_eq 3 fo3
+ has type
+  @Eq (Fin n) (f.opposite (3 - 1)) (f.opposite 3)
+but is expected to have type
+  @Eq (Fin n) (f.opposite 2) (f.opposite 3)
+Kobon/UpperOpenMathAntipodalAdjacency.lean:123:4: error: Type mismatch: After simplification, term
+  cap_eq_at_ordinary g dg.triangular_eq 0 go0
+ has type
+  @Eq (Fin n) (g.opposite (-1)) (g.opposite 0)
+but is expected to have type
+  @Eq (Fin n) (g.opposite 5) (g.opposite 0)
+Kobon/UpperOpenMathAntipodalAdjacency.lean:129:4: error: Type mismatch: After simplification, term
+  cap_right f df.triangular_eq 3
+ has type
+  @Eq ℝ (affineEval (L ↑(f.opposite 3)) (f.point (3 + 1))) 0
+but is expected to have type
+  @Eq ℝ (affineEval (L ↑(f.opposite 3)) (f.point 4)) 0
+Kobon/UpperOpenMathAntipodalAdjacency.lean:149:15: error: Function expected at
+  dg.injective he
+but this term has type
+  1 = 2
+
+Note: Expected a function because this term is being applied to the argument
+  (by decide)
+Kobon/UpperOpenMathAntipodalAdjacency.lean:178:59: error: Type mismatch: After simplification, term
+  gh5
+ has type
+  @Eq ℝ (affineEval (L ↑(g.opposite 0)) (g.point 5)) 0
+but is expected to have type
+  @Eq ℝ (affineEval (L ↑(g.opposite 0)) (g.point (2 + 3))) 0
+Kobon/UpperOpenMathAntipodalAdjacency.lean:189:4: error: Type mismatch: After simplification, term
+  antipodal_line_point g (L ↑(g.radial 2)) 2 (g.radial_center 2) (g.radial_point 2)
+ has type
+  @Eq ℝ (affineEval (L ↑(g.radial 2)) (g.point (2 + 3))) 0
+but is expected to have type
+  @Eq ℝ (affineEval (L ↑(g.radial 2)) (g.point 5)) 0
+'Kobon.UpperOpenMathAntipodalAdjacency.normalized_pair_incompatible' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]

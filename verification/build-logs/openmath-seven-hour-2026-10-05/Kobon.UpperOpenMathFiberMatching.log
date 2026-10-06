@@ -1,0 +1,2 @@
+'Kobon.UpperOpenMathFiberMatching.no_three_origins_on_edge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathFiberMatching.neighboring_points_match' depends on axioms: [propext, Classical.choice, Quot.sound]

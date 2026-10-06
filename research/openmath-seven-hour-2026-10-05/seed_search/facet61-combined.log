@@ -1,0 +1,296 @@
+{"event": "state", "T": 1190, "caps": 59, "depth": 0, "mutations": {"-2": 62, "-1": 54, "0": 8}, "elapsed": 0.09437704086303711}
+{"event": "progress", "tested": 10, "accepted": 6, "best": 1190, "elapsed": 5.4500181674957275}
+{"event": "progress", "tested": 20, "accepted": 14, "best": 1190, "elapsed": 11.121746301651001}
+{"event": "state", "T": 1189, "caps": 59, "depth": 1, "mutations": {"-2": 64, "-1": 52, "0": 9, "1": 1}, "elapsed": 12.955674648284912}
+{"event": "progress", "tested": 30, "accepted": 18, "best": 1190, "elapsed": 17.112785577774048}
+{"event": "progress", "tested": 40, "accepted": 27, "best": 1190, "elapsed": 23.14203453063965}
+{"event": "state", "T": 1188, "caps": 59, "depth": 2, "mutations": {"-2": 63, "-1": 51, "0": 9, "1": 2}, "elapsed": 26.029776573181152}
+{"event": "progress", "tested": 50, "accepted": 33, "best": 1190, "elapsed": 28.74467706680298}
+{"event": "progress", "tested": 60, "accepted": 40, "best": 1190, "elapsed": 34.299338579177856}
+{"event": "progress", "tested": 70, "accepted": 44, "best": 1190, "elapsed": 39.851327419281006}
+{"event": "state", "T": 1187, "caps": 59, "depth": 3, "mutations": {"-1": 52, "0": 9, "1": 3}, "elapsed": 42.46075797080994}
+{"event": "progress", "tested": 80, "accepted": 50, "best": 1190, "elapsed": 45.246519565582275}
+{"event": "progress", "tested": 90, "accepted": 55, "best": 1190, "elapsed": 50.807347774505615}
+{"event": "state", "T": 1186, "caps": 59, "depth": 4, "mutations": {"0": 9, "1": 4}, "elapsed": 53.68922233581543}
+{"event": "progress", "tested": 100, "accepted": 65, "best": 1190, "elapsed": 56.40713334083557}
+{"event": "state", "T": 1186, "caps": 59, "depth": 5, "mutations": {"0": 9, "1": 4}, "elapsed": 59.40462946891785}
+{"event": "progress", "tested": 110, "accepted": 70, "best": 1190, "elapsed": 61.64517903327942}
+{"event": "state", "T": 1186, "caps": 59, "depth": 6, "mutations": {"0": 9, "1": 4}, "elapsed": 65.14023327827454}
+{"event": "progress", "tested": 120, "accepted": 75, "best": 1190, "elapsed": 66.81122899055481}
+{"event": "state", "T": 1186, "caps": 59, "depth": 7, "mutations": {"0": 9, "1": 4}, "elapsed": 70.9261429309845}
+{"event": "progress", "tested": 130, "accepted": 80, "best": 1190, "elapsed": 72.427894115448}
+{"event": "state", "T": 1186, "caps": 59, "depth": 8, "mutations": {"0": 9, "1": 4}, "elapsed": 77.443514585495}
+{"event": "progress", "tested": 140, "accepted": 85, "best": 1190, "elapsed": 78.02894520759583}
+{"event": "state", "T": 1186, "caps": 59, "depth": 9, "mutations": {"0": 9, "1": 4}, "elapsed": 82.639732837677}
+{"event": "progress", "tested": 150, "accepted": 90, "best": 1190, "elapsed": 83.23388624191284}
+{"event": "progress", "tested": 160, "accepted": 95, "best": 1190, "elapsed": 88.21363353729248}
+{"event": "state", "T": 1186, "caps": 59, "depth": 10, "mutations": {"0": 9, "1": 4}, "elapsed": 88.27630662918091}
+{"event": "state", "T": 1187, "caps": 59, "depth": 11, "mutations": {"-1": 49, "0": 8, "1": 3}, "elapsed": 92.82832956314087}
+{"event": "progress", "tested": 170, "accepted": 100, "best": 1190, "elapsed": 93.34982633590698}
+{"event": "progress", "tested": 180, "accepted": 106, "best": 1190, "elapsed": 98.33831071853638}
+{"event": "progress", "tested": 190, "accepted": 113, "best": 1190, "elapsed": 104.07902097702026}
+{"event": "state", "T": 1186, "caps": 59, "depth": 12, "mutations": {"0": 8, "1": 4}, "elapsed": 105.28846287727356}
+{"event": "progress", "tested": 200, "accepted": 120, "best": 1190, "elapsed": 109.44300508499146}
+{"event": "state", "T": 1186, "caps": 59, "depth": 13, "mutations": {"0": 8, "1": 4}, "elapsed": 110.94584131240845}
+{"event": "progress", "tested": 210, "accepted": 127, "best": 1190, "elapsed": 114.70443964004517}
+{"event": "state", "T": 1186, "caps": 59, "depth": 14, "mutations": {"0": 8, "1": 4}, "elapsed": 116.18639183044434}
+{"event": "progress", "tested": 220, "accepted": 133, "best": 1190, "elapsed": 120.12949800491333}
+{"event": "state", "T": 1186, "caps": 59, "depth": 15, "mutations": {"0": 8, "1": 4}, "elapsed": 121.75874853134155}
+{"event": "progress", "tested": 230, "accepted": 138, "best": 1190, "elapsed": 125.71478652954102}
+{"event": "state", "T": 1186, "caps": 59, "depth": 16, "mutations": {"0": 8, "1": 4}, "elapsed": 126.68393564224243}
+{"event": "progress", "tested": 240, "accepted": 142, "best": 1190, "elapsed": 130.5789725780487}
+{"event": "state", "T": 1186, "caps": 59, "depth": 17, "mutations": {"0": 8, "1": 4}, "elapsed": 130.64845943450928}
+{"event": "progress", "tested": 250, "accepted": 148, "best": 1190, "elapsed": 135.84257793426514}
+{"event": "state", "T": 1186, "caps": 59, "depth": 18, "mutations": {"0": 8, "1": 4}, "elapsed": 135.91318726539612}
+{"event": "state", "T": 1186, "caps": 59, "depth": 19, "mutations": {"0": 8, "1": 4}, "elapsed": 140.15649604797363}
+{"event": "progress", "tested": 260, "accepted": 154, "best": 1190, "elapsed": 141.21187901496887}
+{"event": "state", "T": 1187, "caps": 59, "depth": 20, "mutations": {"-1": 52, "0": 8, "1": 3}, "elapsed": 143.7534477710724}
+{"event": "progress", "tested": 270, "accepted": 160, "best": 1190, "elapsed": 146.69766330718994}
+{"event": "progress", "tested": 280, "accepted": 166, "best": 1190, "elapsed": 151.8453176021576}
+{"event": "state", "T": 1186, "caps": 59, "depth": 21, "mutations": {"0": 8, "1": 4}, "elapsed": 154.03027296066284}
+{"event": "progress", "tested": 290, "accepted": 176, "best": 1190, "elapsed": 157.07214546203613}
+{"event": "state", "T": 1186, "caps": 59, "depth": 22, "mutations": {"0": 8, "1": 4}, "elapsed": 159.48844623565674}
+{"event": "progress", "tested": 300, "accepted": 182, "best": 1190, "elapsed": 162.10546016693115}
+{"event": "state", "T": 1186, "caps": 59, "depth": 23, "mutations": {"0": 8, "1": 4}, "elapsed": 164.8070752620697}
+{"event": "progress", "tested": 310, "accepted": 187, "best": 1190, "elapsed": 167.44831013679504}
+{"event": "state", "T": 1186, "caps": 59, "depth": 24, "mutations": {"0": 8, "1": 4}, "elapsed": 169.91651892662048}
+{"event": "progress", "tested": 320, "accepted": 193, "best": 1190, "elapsed": 173.29635095596313}
+{"event": "state", "T": 1186, "caps": 59, "depth": 25, "mutations": {"0": 8, "1": 4}, "elapsed": 174.7264015674591}
+{"event": "progress", "tested": 330, "accepted": 199, "best": 1190, "elapsed": 178.662122964859}
+{"event": "state", "T": 1186, "caps": 59, "depth": 26, "mutations": {"0": 8, "1": 4}, "elapsed": 180.08371901512146}
+{"event": "progress", "tested": 340, "accepted": 203, "best": 1190, "elapsed": 183.6589548587799}
+{"event": "state", "T": 1186, "caps": 59, "depth": 27, "mutations": {"0": 8, "1": 4}, "elapsed": 184.1956205368042}
+{"event": "state", "T": 1187, "caps": 59, "depth": 28, "mutations": {"-1": 51, "0": 8, "1": 3}, "elapsed": 188.15140867233276}
+{"event": "progress", "tested": 350, "accepted": 208, "best": 1190, "elapsed": 188.6880180835724}
+{"event": "progress", "tested": 360, "accepted": 214, "best": 1190, "elapsed": 194.06560850143433}
+{"event": "state", "T": 1186, "caps": 59, "depth": 29, "mutations": {"0": 8, "1": 4}, "elapsed": 198.5875232219696}
+{"event": "progress", "tested": 370, "accepted": 224, "best": 1190, "elapsed": 199.71697902679443}
+{"event": "state", "T": 1186, "caps": 59, "depth": 30, "mutations": {"0": 8, "1": 4}, "elapsed": 204.84073734283447}
+{"event": "progress", "tested": 380, "accepted": 230, "best": 1190, "elapsed": 205.38573384284973}
+{"event": "state", "T": 1186, "caps": 59, "depth": 31, "mutations": {"0": 8, "1": 4}, "elapsed": 210.48387837409973}
+{"event": "progress", "tested": 390, "accepted": 236, "best": 1190, "elapsed": 211.31211018562317}
+{"event": "state", "T": 1186, "caps": 59, "depth": 32, "mutations": {"0": 8, "1": 4}, "elapsed": 217.84206414222717}
+{"event": "progress", "tested": 400, "accepted": 242, "best": 1190, "elapsed": 218.51546573638916}
+{"event": "state", "T": 1186, "caps": 59, "depth": 33, "mutations": {"0": 8, "1": 4}, "elapsed": 224.3486840724945}
+{"event": "progress", "tested": 410, "accepted": 248, "best": 1190, "elapsed": 225.0233051776886}
+{"event": "state", "T": 1186, "caps": 59, "depth": 34, "mutations": {"0": 8, "1": 4}, "elapsed": 230.23441982269287}
+{"event": "progress", "tested": 420, "accepted": 254, "best": 1190, "elapsed": 231.47513389587402}
+{"event": "state", "T": 1186, "caps": 59, "depth": 35, "mutations": {"0": 8, "1": 4}, "elapsed": 235.04022121429443}
+{"event": "progress", "tested": 430, "accepted": 260, "best": 1190, "elapsed": 237.56786918640137}
+{"event": "state", "T": 1187, "caps": 59, "depth": 36, "mutations": {"-1": 54, "0": 8, "1": 3}, "elapsed": 240.1168875694275}
+{"event": "progress", "tested": 440, "accepted": 265, "best": 1190, "elapsed": 243.89844298362732}
+{"event": "progress", "tested": 450, "accepted": 272, "best": 1190, "elapsed": 249.91185808181763}
+{"event": "state", "T": 1186, "caps": 59, "depth": 37, "mutations": {"0": 10, "1": 3}, "elapsed": 251.8605558872223}
+{"event": "progress", "tested": 460, "accepted": 281, "best": 1190, "elapsed": 256.17156624794006}
+{"event": "state", "T": 1186, "caps": 59, "depth": 38, "mutations": {"0": 10, "1": 3}, "elapsed": 259.08120346069336}
+{"event": "progress", "tested": 470, "accepted": 288, "best": 1190, "elapsed": 262.19768595695496}
+{"event": "state", "T": 1186, "caps": 59, "depth": 39, "mutations": {"0": 10, "1": 3}, "elapsed": 265.9552173614502}
+{"event": "progress", "tested": 480, "accepted": 294, "best": 1190, "elapsed": 268.54542207717896}
+{"event": "state", "T": 1186, "caps": 59, "depth": 40, "mutations": {"0": 10, "1": 2, "2": 1}, "elapsed": 272.6542999744415}
+{"event": "progress", "tested": 490, "accepted": 300, "best": 1190, "elapsed": 275.2275378704071}
+{"event": "state", "T": 1186, "caps": 59, "depth": 41, "mutations": {"0": 10, "1": 2, "2": 1}, "elapsed": 280.430912733078}
+{"event": "progress", "tested": 500, "accepted": 305, "best": 1190, "elapsed": 282.65764117240906}
+{"event": "state", "T": 1186, "caps": 59, "depth": 42, "mutations": {"0": 10, "1": 2, "2": 1}, "elapsed": 286.7127709388733}
+{"event": "progress", "tested": 510, "accepted": 310, "best": 1190, "elapsed": 288.98554134368896}
+{"event": "state", "T": 1186, "caps": 59, "depth": 43, "mutations": {"0": 10, "1": 2, "2": 1}, "elapsed": 294.401620388031}
+{"event": "progress", "tested": 520, "accepted": 315, "best": 1190, "elapsed": 295.60849261283875}
+{"event": "state", "T": 1186, "caps": 59, "depth": 44, "mutations": {"0": 10, "1": 2, "2": 1}, "elapsed": 301.1921935081482}
+{"event": "progress", "tested": 530, "accepted": 320, "best": 1190, "elapsed": 302.4235026836395}
+{"event": "state", "T": 1186, "caps": 59, "depth": 45, "mutations": {"0": 10, "1": 2, "2": 1}, "elapsed": 307.56885838508606}
+{"event": "progress", "tested": 540, "accepted": 325, "best": 1190, "elapsed": 310.2059009075165}
+{"event": "state", "T": 1186, "caps": 59, "depth": 46, "mutations": {"0": 10, "1": 2, "2": 1}, "elapsed": 314.9438784122467}
+{"event": "progress", "tested": 550, "accepted": 330, "best": 1190, "elapsed": 316.2294645309448}
+{"event": "state", "T": 1186, "caps": 59, "depth": 47, "mutations": {"0": 10, "1": 3}, "elapsed": 320.92486357688904}
+{"event": "progress", "tested": 560, "accepted": 335, "best": 1190, "elapsed": 322.80478739738464}
+{"event": "state", "T": 1186, "caps": 59, "depth": 48, "mutations": {"0": 9, "1": 2}, "elapsed": 326.01694083213806}
+{"event": "progress", "tested": 570, "accepted": 341, "best": 1190, "elapsed": 329.13568234443665}
+{"event": "state", "T": 1186, "caps": 59, "depth": 49, "mutations": {"0": 9, "1": 2}, "elapsed": 332.7113239765167}
+{"event": "progress", "tested": 580, "accepted": 346, "best": 1190, "elapsed": 335.83308362960815}
+{"event": "state", "T": 1186, "caps": 59, "depth": 50, "mutations": {"0": 9, "1": 2}, "elapsed": 337.73536229133606}
+{"event": "progress", "tested": 590, "accepted": 349, "best": 1190, "elapsed": 341.71319794654846}
+{"event": "state", "T": 1186, "caps": 59, "depth": 51, "mutations": {"0": 9, "1": 2}, "elapsed": 341.801794052124}
+{"event": "state", "T": 1186, "caps": 59, "depth": 52, "mutations": {"0": 9, "1": 2}, "elapsed": 346.31115794181824}
+{"event": "progress", "tested": 600, "accepted": 355, "best": 1190, "elapsed": 348.1764256954193}
+{"event": "state", "T": 1186, "caps": 59, "depth": 53, "mutations": {"0": 9, "1": 2}, "elapsed": 350.6542670726776}
+{"event": "progress", "tested": 610, "accepted": 358, "best": 1190, "elapsed": 353.26994132995605}
+{"event": "state", "T": 1186, "caps": 59, "depth": 54, "mutations": {"0": 9, "1": 2}, "elapsed": 354.87052297592163}
+{"event": "state", "T": 1187, "caps": 59, "depth": 55, "mutations": {"-1": 52, "0": 9, "1": 1}, "elapsed": 357.95597553253174}
+{"event": "progress", "tested": 620, "accepted": 363, "best": 1190, "elapsed": 358.5068471431732}
+{"event": "progress", "tested": 630, "accepted": 369, "best": 1190, "elapsed": 363.6486625671387}
+{"event": "state", "T": 1186, "caps": 59, "depth": 56, "mutations": {"0": 9, "1": 2}, "elapsed": 368.57166934013367}
+{"event": "progress", "tested": 640, "accepted": 378, "best": 1190, "elapsed": 369.09300327301025}
+{"event": "state", "T": 1186, "caps": 59, "depth": 57, "mutations": {"0": 9, "1": 2}, "elapsed": 374.3505582809448}
+{"event": "progress", "tested": 650, "accepted": 384, "best": 1190, "elapsed": 374.9843542575836}
+{"event": "state", "T": 1186, "caps": 59, "depth": 58, "mutations": {"0": 9, "1": 2}, "elapsed": 380.0365369319916}
+{"event": "progress", "tested": 660, "accepted": 390, "best": 1190, "elapsed": 381.58889055252075}
+{"event": "state", "T": 1186, "caps": 59, "depth": 59, "mutations": {"0": 9, "1": 2}, "elapsed": 386.75308418273926}
+{"event": "progress", "tested": 670, "accepted": 396, "best": 1190, "elapsed": 388.7304027080536}
+{"event": "state", "T": 1186, "caps": 59, "depth": 60, "mutations": {"0": 9, "1": 2}, "elapsed": 391.59549355506897}
+{"event": "progress", "tested": 680, "accepted": 400, "best": 1190, "elapsed": 394.493896484375}
+{"event": "state", "T": 1186, "caps": 59, "depth": 61, "mutations": {"0": 10, "1": 3}, "elapsed": 395.49857211112976}
+{"event": "progress", "tested": 690, "accepted": 407, "best": 1190, "elapsed": 399.9581341743469}
+{"event": "state", "T": 1186, "caps": 59, "depth": 62, "mutations": {"0": 10, "1": 3}, "elapsed": 401.3803884983063}
+{"event": "progress", "tested": 700, "accepted": 411, "best": 1190, "elapsed": 405.04631876945496}
+{"event": "state", "T": 1186, "caps": 59, "depth": 63, "mutations": {"0": 10, "1": 2, "2": 1}, "elapsed": 405.5918776988983}
+{"event": "progress", "tested": 710, "accepted": 416, "best": 1190, "elapsed": 410.98685455322266}
+{"event": "state", "T": 1186, "caps": 59, "depth": 64, "mutations": {"0": 10, "1": 2, "2": 1}, "elapsed": 412.362548828125}
+{"event": "progress", "tested": 720, "accepted": 422, "best": 1190, "elapsed": 417.66885256767273}
+{"event": "state", "T": 1186, "caps": 59, "depth": 65, "mutations": {"0": 10, "1": 2, "2": 1}, "elapsed": 418.6496012210846}
+{"event": "progress", "tested": 730, "accepted": 427, "best": 1190, "elapsed": 423.0737431049347}
+{"event": "state", "T": 1186, "caps": 59, "depth": 66, "mutations": {"0": 10, "1": 2, "2": 1}, "elapsed": 424.06654834747314}
+{"event": "progress", "tested": 740, "accepted": 432, "best": 1190, "elapsed": 428.2391595840454}
+{"event": "state", "T": 1186, "caps": 59, "depth": 67, "mutations": {"0": 10, "1": 2, "2": 1}, "elapsed": 429.220721244812}
+{"event": "progress", "tested": 750, "accepted": 436, "best": 1190, "elapsed": 433.4439082145691}
+{"event": "state", "T": 1186, "caps": 59, "depth": 68, "mutations": {"0": 10, "1": 3}, "elapsed": 433.9880084991455}
+{"event": "state", "T": 1186, "caps": 59, "depth": 69, "mutations": {"0": 10, "1": 3}, "elapsed": 438.3937373161316}
+{"event": "progress", "tested": 760, "accepted": 441, "best": 1190, "elapsed": 439.14150190353394}
+{"event": "state", "T": 1186, "caps": 59, "depth": 70, "mutations": {"0": 10, "1": 3}, "elapsed": 443.91097497940063}
+{"event": "progress", "tested": 770, "accepted": 447, "best": 1190, "elapsed": 445.0331995487213}
+{"event": "state", "T": 1186, "caps": 59, "depth": 71, "mutations": {"0": 10, "1": 3}, "elapsed": 449.2341821193695}
+{"event": "progress", "tested": 780, "accepted": 453, "best": 1190, "elapsed": 450.2679841518402}
+{"event": "state", "T": 1186, "caps": 59, "depth": 72, "mutations": {"0": 10, "1": 2, "2": 1}, "elapsed": 452.7713577747345}
+{"event": "progress", "tested": 790, "accepted": 457, "best": 1190, "elapsed": 455.70912432670593}
+{"event": "state", "T": 1186, "caps": 59, "depth": 73, "mutations": {"0": 10, "1": 2, "2": 1}, "elapsed": 457.294193983078}
+{"event": "progress", "tested": 800, "accepted": 459, "best": 1190, "elapsed": 461.10162472724915}
+{"event": "state", "T": 1187, "caps": 59, "depth": 74, "mutations": {"-1": 46, "0": 10, "1": 1, "2": 1}, "elapsed": 461.1820845603943}
+{"event": "progress", "tested": 810, "accepted": 466, "best": 1190, "elapsed": 466.5321500301361}
+{"event": "state", "T": 1186, "caps": 59, "depth": 75, "mutations": {"0": 10, "1": 2, "2": 1}, "elapsed": 472.48549032211304}
+{"event": "progress", "tested": 820, "accepted": 475, "best": 1190, "elapsed": 473.1089653968811}
+{"event": "progress", "tested": 830, "accepted": 481, "best": 1190, "elapsed": 478.9313123226166}
+{"event": "state", "T": 1186, "caps": 59, "depth": 76, "mutations": {"0": 10, "1": 2, "2": 1}, "elapsed": 479.03642749786377}
+{"event": "progress", "tested": 840, "accepted": 487, "best": 1190, "elapsed": 484.8338406085968}
+{"event": "state", "T": 1186, "caps": 59, "depth": 77, "mutations": {"0": 10, "1": 3}, "elapsed": 484.91336822509766}
+{"event": "progress", "tested": 850, "accepted": 494, "best": 1190, "elapsed": 490.42670369148254}
+{"event": "state", "T": 1186, "caps": 59, "depth": 78, "mutations": {"0": 10, "1": 3}, "elapsed": 490.9552185535431}
+{"event": "progress", "tested": 860, "accepted": 499, "best": 1190, "elapsed": 497.2203018665314}
+{"event": "state", "T": 1186, "caps": 59, "depth": 79, "mutations": {"0": 10, "1": 3}, "elapsed": 498.24392318725586}
+{"event": "progress", "tested": 870, "accepted": 504, "best": 1190, "elapsed": 502.9640369415283}
+{"event": "state", "T": 1186, "caps": 59, "depth": 80, "mutations": {"0": 10, "1": 3}, "elapsed": 504.39816880226135}
+{"event": "progress", "tested": 880, "accepted": 509, "best": 1190, "elapsed": 508.2745373249054}
+{"event": "state", "T": 1186, "caps": 59, "depth": 81, "mutations": {"0": 10, "1": 3}, "elapsed": 510.3106908798218}
+{"event": "progress", "tested": 890, "accepted": 514, "best": 1190, "elapsed": 513.5020022392273}
+{"event": "state", "T": 1186, "caps": 59, "depth": 82, "mutations": {"0": 10, "1": 3}, "elapsed": 514.9290814399719}
+{"event": "progress", "tested": 900, "accepted": 518, "best": 1190, "elapsed": 518.325840473175}
+{"event": "state", "T": 1186, "caps": 59, "depth": 83, "mutations": {"0": 10, "1": 3}, "elapsed": 520.0658533573151}
+{"event": "progress", "tested": 910, "accepted": 523, "best": 1190, "elapsed": 522.7059164047241}
+{"event": "state", "T": 1187, "caps": 59, "depth": 84, "mutations": {"-1": 50, "0": 8, "1": 3}, "elapsed": 523.928023815155}
+{"event": "progress", "tested": 920, "accepted": 527, "best": 1190, "elapsed": 526.9864056110382}
+{"event": "progress", "tested": 930, "accepted": 533, "best": 1190, "elapsed": 531.7911531925201}
+{"event": "progress", "tested": 940, "accepted": 535, "best": 1190, "elapsed": 536.7621891498566}
+{"event": "state", "T": 1186, "caps": 59, "depth": 85, "mutations": {"0": 8, "1": 4}, "elapsed": 539.934410572052}
+{"event": "progress", "tested": 950, "accepted": 541, "best": 1190, "elapsed": 541.4520194530487}
+{"event": "state", "T": 1186, "caps": 59, "depth": 86, "mutations": {"0": 8, "1": 4}, "elapsed": 545.1773672103882}
+{"event": "progress", "tested": 960, "accepted": 546, "best": 1190, "elapsed": 546.2971816062927}
+{"event": "state", "T": 1186, "caps": 59, "depth": 87, "mutations": {"0": 8, "1": 4}, "elapsed": 550.0826900005341}
+{"event": "progress", "tested": 970, "accepted": 551, "best": 1190, "elapsed": 551.0217435359955}
+{"event": "state", "T": 1186, "caps": 59, "depth": 88, "mutations": {"0": 8, "1": 4}, "elapsed": 554.6596746444702}
+{"event": "progress", "tested": 980, "accepted": 556, "best": 1190, "elapsed": 555.725958108902}
+{"event": "state", "T": 1186, "caps": 59, "depth": 89, "mutations": {"0": 8, "1": 4}, "elapsed": 559.554719209671}
+{"event": "progress", "tested": 990, "accepted": 562, "best": 1190, "elapsed": 560.6364433765411}
+{"event": "state", "T": 1186, "caps": 59, "depth": 90, "mutations": {"0": 8, "1": 4}, "elapsed": 563.4301733970642}
+{"event": "progress", "tested": 1000, "accepted": 567, "best": 1190, "elapsed": 565.9918084144592}
+{"event": "state", "T": 1186, "caps": 59, "depth": 91, "mutations": {"0": 8, "1": 4}, "elapsed": 568.1839203834534}
+{"event": "progress", "tested": 1010, "accepted": 573, "best": 1190, "elapsed": 570.6441223621368}
+{"event": "state", "T": 1186, "caps": 59, "depth": 92, "mutations": {"0": 8, "1": 4}, "elapsed": 572.4289908409119}
+{"event": "progress", "tested": 1020, "accepted": 576, "best": 1190, "elapsed": 575.3899745941162}
+{"event": "state", "T": 1187, "caps": 59, "depth": 93, "mutations": {"-1": 45, "0": 8, "1": 3}, "elapsed": 576.0601692199707}
+{"event": "progress", "tested": 1030, "accepted": 581, "best": 1190, "elapsed": 580.4355828762054}
+{"event": "progress", "tested": 1040, "accepted": 589, "best": 1190, "elapsed": 585.0201165676117}
+{"event": "state", "T": 1186, "caps": 59, "depth": 94, "mutations": {"0": 8, "1": 4}, "elapsed": 588.5611042976379}
+{"event": "progress", "tested": 1050, "accepted": 593, "best": 1190, "elapsed": 589.4850726127625}
+{"event": "state", "T": 1186, "caps": 59, "depth": 95, "mutations": {"0": 8, "1": 4}, "elapsed": 593.545560836792}
+{"event": "progress", "tested": 1060, "accepted": 598, "best": 1190, "elapsed": 593.9847207069397}
+{"event": "state", "T": 1186, "caps": 59, "depth": 96, "mutations": {"0": 8, "1": 4}, "elapsed": 598.3022799491882}
+{"event": "progress", "tested": 1070, "accepted": 603, "best": 1190, "elapsed": 598.7593760490417}
+{"event": "state", "T": 1186, "caps": 59, "depth": 97, "mutations": {"0": 8, "1": 4}, "elapsed": 602.8476765155792}
+{"event": "progress", "tested": 1080, "accepted": 609, "best": 1190, "elapsed": 603.3149676322937}
+{"event": "state", "T": 1186, "caps": 59, "depth": 98, "mutations": {"0": 8, "1": 4}, "elapsed": 606.8084568977356}
+{"event": "progress", "tested": 1090, "accepted": 615, "best": 1190, "elapsed": 608.3826684951782}
+{"event": "state", "T": 1186, "caps": 59, "depth": 99, "mutations": {"0": 8, "1": 4}, "elapsed": 611.9041602611542}
+{"event": "progress", "tested": 1100, "accepted": 621, "best": 1190, "elapsed": 613.9658062458038}
+{"event": "state", "T": 1186, "caps": 59, "depth": 100, "mutations": {"0": 8, "1": 4}, "elapsed": 616.9136319160461}
+{"event": "progress", "tested": 1110, "accepted": 624, "best": 1190, "elapsed": 619.5248942375183}
+{"event": "state", "T": 1187, "caps": 59, "depth": 101, "mutations": {"-1": 44, "0": 8, "1": 3}, "elapsed": 620.5356154441833}
+{"event": "progress", "tested": 1120, "accepted": 629, "best": 1190, "elapsed": 624.6207242012024}
+{"event": "progress", "tested": 1130, "accepted": 638, "best": 1190, "elapsed": 630.2661421298981}
+{"event": "state", "T": 1186, "caps": 59, "depth": 102, "mutations": {"0": 8, "1": 4}, "elapsed": 631.5103147029877}
+{"event": "progress", "tested": 1140, "accepted": 645, "best": 1190, "elapsed": 636.0052988529205}
+{"event": "state", "T": 1186, "caps": 59, "depth": 103, "mutations": {"0": 8, "1": 4}, "elapsed": 637.5147278308868}
+{"event": "progress", "tested": 1150, "accepted": 652, "best": 1190, "elapsed": 641.2223172187805}
+{"event": "state", "T": 1186, "caps": 59, "depth": 104, "mutations": {"0": 8, "1": 4}, "elapsed": 642.7015492916107}
+{"event": "progress", "tested": 1160, "accepted": 656, "best": 1190, "elapsed": 646.5521326065063}
+{"event": "state", "T": 1186, "caps": 59, "depth": 105, "mutations": {"0": 8, "1": 4}, "elapsed": 647.7575237751007}
+{"event": "progress", "tested": 1170, "accepted": 660, "best": 1190, "elapsed": 652.9818851947784}
+{"event": "state", "T": 1186, "caps": 59, "depth": 106, "mutations": {"0": 8, "1": 4}, "elapsed": 653.7204933166504}
+{"event": "progress", "tested": 1180, "accepted": 664, "best": 1190, "elapsed": 659.7864134311676}
+{"event": "state", "T": 1187, "caps": 59, "depth": 107, "mutations": {"-1": 48, "0": 8, "1": 3}, "elapsed": 659.9312329292297}
+{"event": "progress", "tested": 1190, "accepted": 669, "best": 1190, "elapsed": 666.4398021697998}
+{"event": "progress", "tested": 1200, "accepted": 676, "best": 1190, "elapsed": 675.3185436725616}
+{"event": "progress", "tested": 1210, "accepted": 678, "best": 1190, "elapsed": 682.5978889465332}
+{"event": "state", "T": 1186, "caps": 59, "depth": 108, "mutations": {"0": 8, "1": 4}, "elapsed": 685.1219992637634}
+{"event": "progress", "tested": 1220, "accepted": 684, "best": 1190, "elapsed": 689.1963310241699}
+{"event": "state", "T": 1186, "caps": 59, "depth": 109, "mutations": {"0": 8, "1": 4}, "elapsed": 692.6377766132355}
+{"event": "progress", "tested": 1230, "accepted": 690, "best": 1190, "elapsed": 696.3371796607971}
+{"event": "state", "T": 1186, "caps": 59, "depth": 110, "mutations": {"0": 8, "1": 4}, "elapsed": 700.1397676467896}
+{"event": "progress", "tested": 1240, "accepted": 694, "best": 1190, "elapsed": 703.7320528030396}
+{"event": "state", "T": 1186, "caps": 59, "depth": 111, "mutations": {"0": 8, "1": 4}, "elapsed": 707.3194901943207}
+{"event": "progress", "tested": 1250, "accepted": 699, "best": 1190, "elapsed": 712.42231798172}
+{"event": "state", "T": 1186, "caps": 59, "depth": 112, "mutations": {"0": 8, "1": 4}, "elapsed": 714.5365655422211}
+{"event": "progress", "tested": 1260, "accepted": 705, "best": 1190, "elapsed": 719.06906914711}
+{"event": "state", "T": 1186, "caps": 59, "depth": 113, "mutations": {"0": 8, "1": 4}, "elapsed": 720.9192299842834}
+{"event": "progress", "tested": 1270, "accepted": 710, "best": 1190, "elapsed": 725.5835740566254}
+{"event": "state", "T": 1186, "caps": 59, "depth": 114, "mutations": {"0": 8, "1": 4}, "elapsed": 727.0284097194672}
+{"event": "progress", "tested": 1280, "accepted": 714, "best": 1190, "elapsed": 732.5799548625946}
+{"event": "state", "T": 1187, "caps": 59, "depth": 115, "mutations": {"-1": 49, "0": 8, "1": 3}, "elapsed": 732.7182276248932}
+{"event": "progress", "tested": 1290, "accepted": 720, "best": 1190, "elapsed": 739.9086647033691}
+{"event": "state", "T": 1186, "caps": 59, "depth": 116, "mutations": {"0": 8, "1": 4}, "elapsed": 747.4000284671783}
+{"event": "progress", "tested": 1300, "accepted": 730, "best": 1190, "elapsed": 748.4743852615356}
+{"event": "progress", "tested": 1310, "accepted": 736, "best": 1190, "elapsed": 755.6826474666595}
+{"event": "state", "T": 1186, "caps": 59, "depth": 117, "mutations": {"0": 8, "1": 4}, "elapsed": 755.7779326438904}
+{"event": "progress", "tested": 1320, "accepted": 742, "best": 1190, "elapsed": 762.0853991508484}
+{"event": "state", "T": 1186, "caps": 59, "depth": 118, "mutations": {"0": 8, "1": 4}, "elapsed": 762.2214896678925}
+{"event": "state", "T": 1186, "caps": 59, "depth": 119, "mutations": {"0": 8, "1": 4}, "elapsed": 768.0248551368713}
+{"event": "progress", "tested": 1330, "accepted": 748, "best": 1190, "elapsed": 768.9027416706085}
+{"event": "state", "T": 1186, "caps": 59, "depth": 120, "mutations": {"0": 8, "1": 4}, "elapsed": 774.8778853416443}
+{"event": "progress", "tested": 1340, "accepted": 754, "best": 1190, "elapsed": 775.5219559669495}
+{"event": "state", "T": 1186, "caps": 59, "depth": 121, "mutations": {"0": 8, "1": 4}, "elapsed": 780.5700714588165}
+{"event": "progress", "tested": 1350, "accepted": 760, "best": 1190, "elapsed": 781.6726608276367}
+{"event": "state", "T": 1186, "caps": 59, "depth": 122, "mutations": {"0": 8, "1": 4}, "elapsed": 786.4079899787903}
+{"event": "progress", "tested": 1360, "accepted": 766, "best": 1190, "elapsed": 787.4718775749207}
+{"event": "state", "T": 1186, "caps": 59, "depth": 123, "mutations": {"0": 8, "1": 4}, "elapsed": 791.9925861358643}
+{"event": "progress", "tested": 1370, "accepted": 771, "best": 1190, "elapsed": 795.2166545391083}
+{"event": "state", "T": 1187, "caps": 59, "depth": 124, "mutations": {"-1": 46, "0": 8, "1": 3}, "elapsed": 796.9921734333038}
+{"event": "progress", "tested": 1380, "accepted": 776, "best": 1190, "elapsed": 802.5934753417969}
+{"event": "progress", "tested": 1390, "accepted": 784, "best": 1190, "elapsed": 808.9922852516174}
+{"event": "state", "T": 1186, "caps": 59, "depth": 125, "mutations": {"0": 8, "1": 4}, "elapsed": 810.588329076767}
+{"event": "progress", "tested": 1400, "accepted": 792, "best": 1190, "elapsed": 815.7282254695892}
+{"event": "state", "T": 1186, "caps": 59, "depth": 126, "mutations": {"0": 8, "1": 4}, "elapsed": 818.015832901001}
+{"event": "progress", "tested": 1410, "accepted": 798, "best": 1190, "elapsed": 822.6461806297302}
+{"event": "state", "T": 1186, "caps": 59, "depth": 127, "mutations": {"0": 8, "1": 4}, "elapsed": 823.8383493423462}
+{"event": "progress", "tested": 1420, "accepted": 802, "best": 1190, "elapsed": 829.2075395584106}
+{"event": "state", "T": 1186, "caps": 59, "depth": 128, "mutations": {"0": 8, "1": 4}, "elapsed": 829.3072123527527}
+{"event": "state", "T": 1186, "caps": 59, "depth": 129, "mutations": {"0": 8, "1": 4}, "elapsed": 834.4507732391357}
+{"event": "progress", "tested": 1430, "accepted": 808, "best": 1190, "elapsed": 834.9976711273193}
+{"event": "state", "T": 1186, "caps": 59, "depth": 130, "mutations": {"0": 8, "1": 4}, "elapsed": 838.6663730144501}
+{"event": "progress", "tested": 1440, "accepted": 814, "best": 1190, "elapsed": 840.3827128410339}
+{"event": "state", "T": 1186, "caps": 59, "depth": 131, "mutations": {"0": 8, "1": 4}, "elapsed": 843.4220728874207}
+{"event": "progress", "tested": 1450, "accepted": 819, "best": 1190, "elapsed": 845.7325427532196}
+{"event": "state", "T": 1187, "caps": 59, "depth": 132, "mutations": {"-1": 53, "0": 8, "1": 3}, "elapsed": 847.4428944587708}
+{"event": "progress", "tested": 1460, "accepted": 822, "best": 1190, "elapsed": 851.3946986198425}
+{"event": "progress", "tested": 1470, "accepted": 832, "best": 1190, "elapsed": 857.2968196868896}
+{"event": "state", "T": 1186, "caps": 59, "depth": 133, "mutations": {"0": 10, "1": 3}, "elapsed": 858.5255749225616}
+{"event": "progress", "tested": 1480, "accepted": 841, "best": 1190, "elapsed": 863.2709045410156}
+{"event": "state", "T": 1186, "caps": 59, "depth": 134, "mutations": {"0": 10, "1": 3}, "elapsed": 865.520617723465}
+{"event": "progress", "tested": 1490, "accepted": 848, "best": 1190, "elapsed": 869.5431261062622}
+{"event": "state", "T": 1186, "caps": 59, "depth": 135, "mutations": {"0": 10, "1": 3}, "elapsed": 872.1702599525452}
+{"event": "progress", "tested": 1500, "accepted": 854, "best": 1190, "elapsed": 874.981504201889}
+{"event": "state", "T": 1186, "caps": 59, "depth": 136, "mutations": {"0": 9, "1": 2}, "elapsed": 877.0583124160767}
+{"event": "progress", "tested": 1510, "accepted": 859, "best": 1190, "elapsed": 880.5583388805389}
+{"event": "state", "T": 1186, "caps": 59, "depth": 137, "mutations": {"0": 9, "1": 2}, "elapsed": 882.3911457061768}
+{"event": "progress", "tested": 1520, "accepted": 863, "best": 1190, "elapsed": 886.7386775016785}
+{"event": "state", "T": 1186, "caps": 59, "depth": 138, "mutations": {"0": 9, "1": 2}, "elapsed": 887.3695869445801}
+{"event": "state", "T": 1186, "caps": 59, "depth": 139, "mutations": {"0": 10, "1": 3}, "elapsed": 892.3052723407745}
+{"event": "progress", "tested": 1530, "accepted": 868, "best": 1190, "elapsed": 892.971873998642}
+{"event": "state", "T": 1186, "caps": 59, "depth": 140, "mutations": {"0": 10, "1": 2, "2": 1}, "elapsed": 897.6180596351624}
+{"event": "progress", "tested": 1540, "accepted": 874, "best": 1190, "elapsed": 899.6343810558319}
+{"event": "finished", "best": 1190, "tested": 1541, "accepted": 875, "elapsed": 900.3074185848236}

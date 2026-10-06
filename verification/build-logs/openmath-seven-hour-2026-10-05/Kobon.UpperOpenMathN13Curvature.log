@@ -1,0 +1,15 @@
+'Kobon.UpperOpenMathN13Curvature.certificate_no_double_recipients' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathN13Curvature.certificate_n13_anti_degree_le_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathN13Curvature.certificate_source_free_defect_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathN13Curvature.certificate_closed_source_free_gain' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathN13Curvature.certificate_source_free_hybrid_component_defect' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

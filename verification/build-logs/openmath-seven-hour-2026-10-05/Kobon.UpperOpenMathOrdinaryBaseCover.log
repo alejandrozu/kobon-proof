@@ -1,0 +1,6 @@
+'Kobon.UpperOpenMathOrdinaryBaseCover.actual_ordinary_base_cover' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathOrdinaryBaseCover.selected_degree_or_core_base' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

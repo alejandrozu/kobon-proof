@@ -1,0 +1,3 @@
+'Kobon.UpperOpenMathClosedTripleFull.certificate_closed_triple_two_or_full_impossible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

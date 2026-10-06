@@ -1,0 +1,32 @@
+{
+  "research_start_utc": "2026-10-05T21:57:07Z",
+  "research_deadline_utc": "2026-10-06T04:57:07Z",
+  "proof_source_freeze_utc": "2026-10-06T04:38:00Z",
+  "local_verified_at_utc": "2026-10-06T04:41:08.922634+00:00",
+  "complete": true,
+  "active_sources": 635,
+  "baseline": "git:112409e2c62b78ecff7adcad49f1e014ea5f0773",
+  "verification_modes": {
+    "fresh-direct-compile": 262,
+    "baseline-reuse": 373
+  },
+  "audit": {
+    "theorems": 9006,
+    "standard_axioms_only": 7994,
+    "native_evaluation_dependent": 1012,
+    "approved_standard_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "admitted_proofs": 0,
+    "unapproved_axioms": 0,
+    "log": "verification/build-logs/openmath-seven-hour-2026-10-05/Kobon.Audit.log",
+    "log_sha256": "b5288312da6101a5a2ea7b10e2d0fed76b82634085bb833b0fa6d33d357a8595"
+  },
+  "whole_project_summary": "verification/lean-summary.json",
+  "research_snapshot_summary": "verification/openmath-incremental-summary.json",
+  "manuscript_integration": "Deferred at author request. Earlier long and journal manuscripts were not edited.",
+  "unrestricted_kobon_problem": "Open; no unrestricted numerical upper improvement or world record priority asserted.",
+  "clean_ci_rebuild": "Pending: triggered upon publication of the research branch. Incremental local verification does not claim a clean rebuild of unchanged baseline closures."
+}

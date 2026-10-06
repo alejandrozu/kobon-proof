@@ -1,0 +1,8 @@
+Kobon/UpperOpenMathAntipodalCenterUniqueness.lean:83:45: warning: Variable name `s` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'Kobon.UpperOpenMathAntipodalCenterUniqueness.four_point_center_unique' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

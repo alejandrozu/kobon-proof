@@ -1,0 +1,72 @@
+Kobon/OpenMathConstructionFamily61.lean:107:4: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  b ≥ 0
+  a ≥ 10
+where
+ a := Lean.Omega.bmod_div_term 3 [0, 0, 0, 2, -3]
+  (Lean.Omega.Coeffs.ofList [↑(q t), ↑(oddCount t), ↑(q t ^ 2), ↑(q t) / 2, ↑(q t) / 3])
+ b := ↑(evenCount t)
+Kobon/OpenMathConstructionFamily61.lean:141:2: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  f ≥ 20
+  d ≥ 0
+  2 ≤ d - 3*e + 6*f ≤ 4
+  d + 6*f ≥ 2
+  d + 9*f ≥ 1
+  c ≥ 2
+  b ≥ 0
+  b - e - f ≥ -10
+  -36 ≤ 3*b - d - 9*f ≤ -34
+  a ≥ 1
+where
+ a := ↑t
+ b := ↑(evenCount t)
+ c := ↑2 ^ t
+ d := ↑(q t ^ 2)
+ e := ↑((q t + 2) * (q t + 2 - 3)) / 3
+ f := ↑(q t) / 6
+'Kobon.OpenMathConstructionFamily61.uniform_seed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ OpenMathConstructionSeed61.directions_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed61.distinguished_subset_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed61.ordered_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed61Fast.int_simple_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed61Fast.int_triangles_bool._native.native_decide.ax_1]
+'Kobon.OpenMathConstructionFamily61.odd_family' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ OpenMathConstructionSeed61.directions_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed61.distinguished_subset_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed61.ordered_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed61Fast.int_simple_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed61Fast.int_triangles_bool._native.native_decide.ax_1]
+'Kobon.OpenMathConstructionFamily61.even_family' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ OpenMathConstructionSeed61.admissible_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed61.directions_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed61.distinguished_subset_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed61.ordered_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed61.visible_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed61Fast.int_simple_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed61Fast.int_triangles_bool._native.native_decide.ax_1]
+'Kobon.OpenMathConstructionFamily61.odd_window' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ OpenMathConstructionSeed61.directions_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed61.distinguished_subset_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed61.ordered_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed61Fast.int_simple_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed61Fast.int_triangles_bool._native.native_decide.ax_1]
+'Kobon.OpenMathConstructionFamily61.even_window' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound,
+ OpenMathConstructionSeed61.admissible_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed61.directions_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed61.distinguished_subset_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed61.ordered_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed61.visible_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed61Fast.int_simple_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed61Fast.int_triangles_bool._native.native_decide.ax_1]

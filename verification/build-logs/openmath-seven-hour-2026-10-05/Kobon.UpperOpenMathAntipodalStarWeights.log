@@ -1,0 +1,14 @@
+Kobon/UpperOpenMathAntipodalStarWeights.lean:60:5: warning: Variable name `sub` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'Kobon.UpperOpenMathAntipodalStarWeights.certificate_outer_weight' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathAntipodalStarWeights.certificate_first_pair_not_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathAntipodalStarWeights.certificate_first_pair_weight' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

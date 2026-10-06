@@ -1,0 +1,3 @@
+'Kobon.UpperOpenMathClosedHighSharing.certificate_closed_high_zero_marks' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,11 @@
+Kobon/OpenMathConstructionSeed61IntegerFastData.lean:26:2: error: Tactic `native_decide` failed: Cannot native decide proposition with free variables:
+  decide (matchingBool = true)
+Kobon/OpenMathConstructionSeed61IntegerFastData.lean:38:2: error: Tactic `native_decide` failed: Cannot native decide proposition with free variables:
+  decide (gridMatchingBool = true)
+Kobon/OpenMathConstructionSeed61IntegerFastData.lean:42:44: error(lean.unknownIdentifier): Unknown constant `Bool.and_eq_true.mp`
+Kobon/OpenMathConstructionSeed61IntegerFastData.lean:45:44: error(lean.unknownIdentifier): Unknown constant `Bool.and_eq_true.mp`
+'Kobon.OpenMathConstructionSeed61Fast.line_matching' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'Kobon.OpenMathConstructionSeed61Fast.intSimple_transfer' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,13 @@
+Kobon/UpperOpenMathUnmarkedPoorResources.lean:30:17: warning: Variable name `hc` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Kobon/UpperOpenMathUnmarkedPoorResources.lean:32:5: warning: Variable name `notPoor` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'Kobon.UpperOpenMathUnmarkedPoorResources.certificate_marked_capacity_reserved' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

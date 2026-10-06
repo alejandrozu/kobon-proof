@@ -1,0 +1,28 @@
+research/openmath-seven-hour-2026-10-05/corpus/scratch/Kobon/UpperOpenMathN12Recipient.lean:105:79: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+research/openmath-seven-hour-2026-10-05/corpus/scratch/Kobon/UpperOpenMathN12Recipient.lean:106:79: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+research/openmath-seven-hour-2026-10-05/corpus/scratch/Kobon/UpperOpenMathN12Recipient.lean:109:79: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+research/openmath-seven-hour-2026-10-05/corpus/scratch/Kobon/UpperOpenMathN12Recipient.lean:110:79: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+research/openmath-seven-hour-2026-10-05/corpus/scratch/Kobon/UpperOpenMathN12Recipient.lean:120:79: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+research/openmath-seven-hour-2026-10-05/corpus/scratch/Kobon/UpperOpenMathN12Recipient.lean:121:79: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+research/openmath-seven-hour-2026-10-05/corpus/scratch/Kobon/UpperOpenMathN12Recipient.lean:142:2: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+'Kobon.UpperOpenMathN12Recipient.certificate_n12_anti_degree_le_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

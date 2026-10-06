@@ -1,0 +1,28 @@
+'Kobon.OpenMathConstructionSeed33.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ directions_bool._native.native_decide.ax_1,
+ simple_bool._native.native_decide.ax_1,
+ triangles_bool._native.native_decide.ax_1]
+'Kobon.OpenMathConstructionSeed33.exterior_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ admissible_bool._native.native_decide.ax_1,
+ directions_bool._native.native_decide.ax_1,
+ simple_bool._native.native_decide.ax_1,
+ triangles_bool._native.native_decide.ax_1,
+ visible_bool._native.native_decide.ax_1]
+'Kobon.OpenMathConstructionSeed33.arbitrarily_small' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ admissible_bool._native.native_decide.ax_1,
+ directions_bool._native.native_decide.ax_1,
+ simple_bool._native.native_decide.ax_1,
+ triangles_bool._native.native_decide.ax_1,
+ visible_bool._native.native_decide.ax_1]
+'Kobon.OpenMathConstructionSeed33.rightmost_last' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ admissible_bool._native.native_decide.ax_1,
+ directions_bool._native.native_decide.ax_1,
+ visible_bool._native.native_decide.ax_1]

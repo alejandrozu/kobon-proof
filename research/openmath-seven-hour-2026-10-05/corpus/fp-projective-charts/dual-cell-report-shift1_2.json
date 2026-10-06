@@ -1,0 +1,355 @@
+{
+  "results": [
+    {
+      "n": 8,
+      "shift": "1/2",
+      "projective_triangles": 16,
+      "default": 14,
+      "current_G": 14,
+      "best_numerical": {
+        "count": 14,
+        "phi": [
+          0,
+          0,
+          1
+        ]
+      },
+      "unique_poles": 193,
+      "adjacent_cells": 886,
+      "degenerate_poles": 19,
+      "histogram": {
+        "13": 407,
+        "14": 133,
+        "12": 346
+      },
+      "seconds": 0.06764841079711914,
+      "scope": "Floating full/partial dual arrangement cell screen with exact projective triangle combinatorics; no exact new chart or universal maximum theorem"
+    },
+    {
+      "n": 9,
+      "shift": "1/2",
+      "projective_triangles": 21,
+      "default": 18,
+      "current_G": 20,
+      "best_numerical": {
+        "count": 20,
+        "phi": [
+          -0.33223416037687953,
+          -0.5100050607133753,
+          0.7934200027888232
+        ],
+        "rational_phi": [
+          "-284128601296/855205861353",
+          "-164310665611/322174578780",
+          "639603275627/806134548384"
+        ],
+        "min_vertex_abs_eval": 7.919235075481956e-06,
+        "wall_vertices": [
+          6,
+          15
+        ],
+        "wall_concurrency": 2,
+        "step": 1e-05
+      },
+      "unique_poles": 342,
+      "adjacent_cells": 1512,
+      "degenerate_poles": 18,
+      "histogram": {
+        "17": 1278,
+        "18": 183,
+        "19": 39,
+        "20": 12
+      },
+      "seconds": 0.10423946380615234,
+      "scope": "Floating full/partial dual arrangement cell screen with exact projective triangle combinatorics; no exact new chart or universal maximum theorem"
+    },
+    {
+      "n": 12,
+      "shift": "1/2",
+      "projective_triangles": 36,
+      "default": 36,
+      "current_G": 37,
+      "best_numerical": {
+        "count": 36,
+        "phi": [
+          0,
+          0,
+          1
+        ]
+      },
+      "unique_poles": 1362,
+      "adjacent_cells": 5778,
+      "degenerate_poles": 27,
+      "histogram": {
+        "31": 2212,
+        "32": 1758,
+        "30": 564,
+        "33": 782,
+        "34": 390,
+        "35": 42,
+        "36": 30
+      },
+      "seconds": 0.4243147373199463,
+      "scope": "Floating full/partial dual arrangement cell screen with exact projective triangle combinatorics; no exact new chart or universal maximum theorem"
+    },
+    {
+      "n": 14,
+      "shift": "1/2",
+      "projective_triangles": 54,
+      "default": 52,
+      "current_G": 52,
+      "best_numerical": {
+        "count": 52,
+        "phi": [
+          0,
+          0,
+          1
+        ]
+      },
+      "unique_poles": 2781,
+      "adjacent_cells": 11602,
+      "degenerate_poles": 30,
+      "histogram": {
+        "48": 5606,
+        "49": 2896,
+        "47": 1344,
+        "50": 1298,
+        "51": 332,
+        "52": 126
+      },
+      "seconds": 0.9048311710357666,
+      "scope": "Floating full/partial dual arrangement cell screen with exact projective triangle combinatorics; no exact new chart or universal maximum theorem"
+    },
+    {
+      "n": 15,
+      "shift": "1/2",
+      "projective_triangles": 63,
+      "default": 60,
+      "current_G": 62,
+      "best_numerical": {
+        "count": 62,
+        "phi": [
+          -0.2980530634047237,
+          -0.49166655021526795,
+          0.8181860270711528
+        ],
+        "rational_phi": [
+          "-88057175332/295441269169",
+          "-444586829569/904244613294",
+          "751460809321/918447375606"
+        ],
+        "min_vertex_abs_eval": 8.140139123275695e-06,
+        "wall_vertices": [
+          12,
+          50
+        ],
+        "wall_concurrency": 2,
+        "step": 1e-05
+      },
+      "unique_poles": 3747,
+      "adjacent_cells": 15558,
+      "degenerate_poles": 57,
+      "histogram": {
+        "56": 5070,
+        "57": 8178,
+        "58": 1428,
+        "59": 654,
+        "60": 177,
+        "61": 39,
+        "62": 12
+      },
+      "seconds": 1.1681771278381348,
+      "scope": "Floating full/partial dual arrangement cell screen with exact projective triangle combinatorics; no exact new chart or universal maximum theorem"
+    },
+    {
+      "n": 18,
+      "shift": "1/2",
+      "projective_triangles": 90,
+      "default": 90,
+      "current_G": 91,
+      "best_numerical": {
+        "count": 90,
+        "phi": [
+          0,
+          0,
+          1
+        ]
+      },
+      "unique_poles": 8426,
+      "adjacent_cells": 34754,
+      "degenerate_poles": 146,
+      "histogram": {
+        "82": 10180,
+        "83": 8752,
+        "81": 2586,
+        "85": 3942,
+        "84": 5886,
+        "88": 426,
+        "86": 2226,
+        "87": 684,
+        "89": 42,
+        "90": 30
+      },
+      "seconds": 2.6643035411834717,
+      "scope": "Floating full/partial dual arrangement cell screen with exact projective triangle combinatorics; no exact new chart or universal maximum theorem"
+    },
+    {
+      "n": 20,
+      "shift": "1/2",
+      "projective_triangles": 116,
+      "default": 114,
+      "current_G": 114,
+      "best_numerical": {
+        "count": 114,
+        "phi": [
+          0,
+          0,
+          1
+        ]
+      },
+      "unique_poles": 13648,
+      "adjacent_cells": 55754,
+      "degenerate_poles": 103,
+      "histogram": {
+        "107": 17516,
+        "108": 15758,
+        "106": 4394,
+        "109": 9374,
+        "111": 1926,
+        "110": 5096,
+        "112": 1240,
+        "113": 326,
+        "114": 124
+      },
+      "seconds": 5.274279356002808,
+      "scope": "Floating full/partial dual arrangement cell screen with exact projective triangle combinatorics; no exact new chart or universal maximum theorem"
+    },
+    {
+      "n": 21,
+      "shift": "1/2",
+      "projective_triangles": 129,
+      "default": 126,
+      "current_G": 128,
+      "best_numerical": {
+        "count": 128,
+        "phi": [
+          -0.28820592137788986,
+          -0.4862913446008964,
+          0.8248988272200257
+        ],
+        "rational_phi": [
+          "-184406972033/639844494351",
+          "-413728513133/850783214068",
+          "812679890667/985187351285"
+        ],
+        "min_vertex_abs_eval": 8.182035548751838e-06,
+        "wall_vertices": [
+          18,
+          105
+        ],
+        "wall_concurrency": 2,
+        "step": 1e-05
+      },
+      "unique_poles": 17053,
+      "adjacent_cells": 69340,
+      "degenerate_poles": 43,
+      "histogram": {
+        "119": 15583,
+        "120": 22022,
+        "121": 20155,
+        "123": 3810,
+        "122": 5286,
+        "124": 1566,
+        "125": 618,
+        "126": 249,
+        "127": 39,
+        "128": 12
+      },
+      "seconds": 6.211328029632568,
+      "scope": "Floating full/partial dual arrangement cell screen with exact projective triangle combinatorics; no exact new chart or universal maximum theorem"
+    },
+    {
+      "n": 24,
+      "shift": "1/2",
+      "projective_triangles": 168,
+      "default": 168,
+      "current_G": 169,
+      "best_numerical": {
+        "count": 168,
+        "phi": [
+          0,
+          0,
+          1
+        ]
+      },
+      "unique_poles": 30189,
+      "adjacent_cells": 122566,
+      "degenerate_poles": 195,
+      "histogram": {
+        "157": 29114,
+        "158": 25680,
+        "156": 7510,
+        "159": 19738,
+        "160": 15066,
+        "161": 11640,
+        "162": 5988,
+        "163": 4152,
+        "164": 2574,
+        "165": 570,
+        "166": 462,
+        "167": 42,
+        "168": 30
+      },
+      "seconds": 10.651450395584106,
+      "scope": "Floating full/partial dual arrangement cell screen with exact projective triangle combinatorics; no exact new chart or universal maximum theorem"
+    },
+    {
+      "n": 27,
+      "shift": "1/2",
+      "projective_triangles": 219,
+      "default": 216,
+      "current_G": 218,
+      "best_numerical": {
+        "count": 218,
+        "phi": [
+          -0.28403112619325477,
+          -0.48401299841464446,
+          0.8276821472153768
+        ],
+        "rational_phi": [
+          "-227475617396/800882707627",
+          "-465024945443/960769539178",
+          "341919495738/413104833647"
+        ],
+        "min_vertex_abs_eval": 8.1968108628516e-06,
+        "wall_vertices": [
+          24,
+          180
+        ],
+        "wall_concurrency": 2,
+        "step": 1e-05
+      },
+      "unique_poles": 50598,
+      "adjacent_cells": 204282,
+      "degenerate_poles": 54,
+      "histogram": {
+        "206": 36366,
+        "207": 49380,
+        "208": 43752,
+        "209": 36930,
+        "210": 17550,
+        "211": 9642,
+        "212": 4692,
+        "213": 3282,
+        "214": 1770,
+        "215": 594,
+        "216": 273,
+        "217": 39,
+        "218": 12
+      },
+      "seconds": 19.94445037841797,
+      "scope": "Floating full/partial dual arrangement cell screen with exact projective triangle combinatorics; no exact new chart or universal maximum theorem"
+    }
+  ],
+  "trust": "Numerical chart screen, exact incidence inputs; positive poles need a separate exact verification"
+}

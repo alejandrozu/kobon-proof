@@ -1,0 +1,6 @@
+'Kobon.UpperOpenMathComponentPenalty.certificate_closed_component_cost_pos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathComponentPenalty.certificate_degree_two_component_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

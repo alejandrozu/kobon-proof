@@ -1,0 +1,3 @@
+'Kobon.OpenMathTripleBirth.support_side_germ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathTripleBirth.tiny_triangle_germ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathTripleBirth.triangle_free_triple_gain' depends on axioms: [propext, Classical.choice, Quot.sound]

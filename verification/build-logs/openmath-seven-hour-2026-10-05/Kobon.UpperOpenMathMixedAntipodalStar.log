@@ -1,0 +1,3 @@
+'Kobon.UpperOpenMathMixedAntipodalStar.certificate_mixed_antipodal_star_cost' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

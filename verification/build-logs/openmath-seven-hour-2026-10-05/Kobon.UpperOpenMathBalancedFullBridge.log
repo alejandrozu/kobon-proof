@@ -1,0 +1,8 @@
+Kobon/UpperOpenMathBalancedFullBridge.lean:38:39: warning: Variable name `hq` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'Kobon.UpperOpenMathBalancedFullBridge.certificate_balanced_pair_next_to_full_impossible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

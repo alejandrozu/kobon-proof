@@ -1,0 +1,8 @@
+Kobon/OpenMathParametricDual.lean:36:50: error(lean.unknownIdentifier): Unknown identifier `abs_add`
+Kobon/OpenMathParametricDual.lean:48:35: error: Type mismatch
+  add_le_add_right (abs_evaluate_le lo hi (f i) x hx) ?m.186
+has type
+  ?m.186 + |evaluate (f i) x| ≤ ?m.186 + ↑(envelope lo hi (f i))
+but is expected to have type
+  |evaluate (f i) x| + e * |↑(w i)| ≤ ↑(envelope lo hi (f i)) + e * |↑(w i)|
+'Kobon.OpenMathParametricDual.no_budget' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]

@@ -1,0 +1,40 @@
+Kobon/OpenMathConstructionSeed61.lean:137:4: error: Type mismatch: After simplification, term
+  ⟨le_of_lt he, hu⟩
+ has type
+  0 ≤ epsilon ∧ epsilon ≤ 100000000⁻¹
+but is expected to have type
+  0 ≤ epsilon ∧ epsilon ≤ 1000000000000 / 100000000000000000000
+'Kobon.OpenMathConstructionSeed61.simple_lower_bound' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound,
+ directions_bool._native.native_decide.ax_1,
+ ordered_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed61Fast.int_simple_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed61Fast.int_triangles_bool._native.native_decide.ax_1]
+'Kobon.OpenMathConstructionSeed61.exterior_lower_bound' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound,
+ admissible_bool._native.native_decide.ax_1,
+ directions_bool._native.native_decide.ax_1,
+ ordered_bool._native.native_decide.ax_1,
+ visible_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed61Fast.int_simple_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed61Fast.int_triangles_bool._native.native_decide.ax_1]
+'Kobon.OpenMathConstructionSeed61.arbitrarily_small' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound,
+ admissible_bool._native.native_decide.ax_1,
+ directions_bool._native.native_decide.ax_1,
+ visible_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed61Fast.int_simple_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed61Fast.int_triangles_bool._native.native_decide.ax_1]
+'Kobon.OpenMathConstructionSeed61.rightmost_last' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound,
+ admissible_bool._native.native_decide.ax_1,
+ directions_bool._native.native_decide.ax_1,
+ visible_bool._native.native_decide.ax_1]

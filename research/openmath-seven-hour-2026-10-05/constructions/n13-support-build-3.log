@@ -1,0 +1,13 @@
+research/openmath-seven-hour-2026-10-05/constructions/N13SupportScratch.lean:108:42: error: Application type mismatch: The argument
+  weakAt (z - 1) hm
+has type
+  ∀ (i : Fin n), WeakSide (L ↑i) f.center (f.point (z - 1)) (f.point (z - 1 + 1))
+but is expected to have type
+  ∀ (i : Fin n), WeakSide (L ↑i) f.center (f.point (z - 1)) (f.point z)
+in the application
+  selected_core_cap_ne hL f z hm hz ?m.145 (df.positive z) (df.noncentral z) df.injective triple (weakAt (z - 1) hm)
+'Kobon.UpperOpenMathN13SupportScratch.certificate_selected_core_cap_ne' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathN13SupportScratch.selected_core_cap_ne' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,29 @@
+Kobon/OpenMathParametricDual.lean:32:12: error: unexpected token '|*'; expected '|' or '|ₘ'
+Kobon/OpenMathParametricDual.lean:29:27: error: unsolved goals
+case calc.step
+a w u e : ℝ
+he : 0 ≤ e
+hu : |u| ≤ 1
+⊢ |a + e * w| ≤ |a| + e * |w|
+Kobon/OpenMathParametricDual.lean:45:38: error(lean.unknownIdentifier): Unknown identifier `i`
+Kobon/OpenMathParametricDual.lean:47:44: error(lean.unknownIdentifier): Unknown identifier `i`
+Kobon/OpenMathParametricDual.lean:49:72: error: unsolved goals
+d q : ℕ
+lo hi : Form d
+f : Fin q → Form d
+w : Fin q → ℚ
+x : Fin d → ℝ
+hx : InBox lo hi x
+u : Fin q → ℝ
+hu : ∀ (i : Fin q), |u i| ≤ 1
+e : ℝ
+he : 0 ≤ e
+⊢ ∑ i, ↑(envelope lo hi (f i)) + e * |↑(w sorry)| = ∑ i, ↑(envelope lo hi (f i)) + ∑ i, e * |↑(w i)|
+Kobon/OpenMathParametricDual.lean:50:17: warning: This simp argument is unused:
+  sum_add_distrib
+
+Hint: Omit it from the simp argument list.
+  simp only [̵s̵u̵m̵_̵a̵d̵d̵_̵d̵i̵s̵t̵r̵i̵b̵,̵m̵u̵l̵_̵s̵u̵m̵,̵R̵a̵t̵.̵c̵a̵s̵t̵_̵s̵u̵m̵,̵R̵a̵t̵.̵c̵a̵s̵t̵_̵a̵b̵s̵]̵[̲m̲u̲l̲_̲s̲u̲m̲,̲ ̲R̲a̲t̲.̲c̲a̲s̲t̲_̲s̲u̲m̲,̲ ̲R̲a̲t̲.̲c̲a̲s̲t̲_̲a̲b̲s̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Kobon.OpenMathParametricDual.no_budget' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]

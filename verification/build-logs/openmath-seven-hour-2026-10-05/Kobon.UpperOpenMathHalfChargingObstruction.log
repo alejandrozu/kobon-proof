@@ -1,0 +1,9 @@
+'Kobon.UpperOpenMathHalfChargingObstruction.numerical_hypotheses' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathHalfChargingObstruction.graph_incidence_hypotheses' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathHalfChargingObstruction.equality_and_stronger_coefficient_failure' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

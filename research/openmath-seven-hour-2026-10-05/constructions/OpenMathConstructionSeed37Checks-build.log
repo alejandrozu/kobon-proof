@@ -1,0 +1,8 @@
+'Kobon.OpenMathConstructionSeed37.simple' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ OpenMathConstructionSeed37Fast.int_simple_bool._native.native_decide.ax_1]
+'Kobon.OpenMathConstructionSeed37.triangle_checks' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ OpenMathConstructionSeed37Fast.int_triangles_bool._native.native_decide.ax_1]

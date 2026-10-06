@@ -1,0 +1,870 @@
+{
+  "records": [
+    {
+      "n": 8,
+      "cubic_parameter": -0.8,
+      "mixed_component": false,
+      "phase": "1/6",
+      "projective_triangles": 16,
+      "default": 14,
+      "best_chart": 14,
+      "pole": [
+        0,
+        0,
+        1
+      ],
+      "G": 14,
+      "gain": 0
+    },
+    {
+      "n": 8,
+      "cubic_parameter": -0.8,
+      "mixed_component": true,
+      "phase": "1/6",
+      "projective_triangles": 15,
+      "default": 12,
+      "best_chart": 14,
+      "pole": [
+        -1.4909215383306906,
+        1.338297068048081,
+        -0.85322436076992
+      ],
+      "G": 14,
+      "gain": 0
+    },
+    {
+      "n": 8,
+      "cubic_parameter": 0.0,
+      "mixed_component": false,
+      "phase": "1/6",
+      "projective_triangles": 16,
+      "default": 14,
+      "best_chart": 14,
+      "pole": [
+        0,
+        0,
+        1
+      ],
+      "G": 14,
+      "gain": 0
+    },
+    {
+      "n": 8,
+      "cubic_parameter": 0.0,
+      "mixed_component": true,
+      "phase": "1/6",
+      "projective_triangles": 15,
+      "default": 12,
+      "best_chart": 14,
+      "pole": [
+        0.6549998983690702,
+        -0.8423913620335891,
+        0.04268251616131976
+      ],
+      "G": 14,
+      "gain": 0
+    },
+    {
+      "n": 8,
+      "cubic_parameter": 0.8,
+      "mixed_component": false,
+      "phase": "1/6",
+      "projective_triangles": 16,
+      "default": 14,
+      "best_chart": 14,
+      "pole": [
+        0,
+        0,
+        1
+      ],
+      "G": 14,
+      "gain": 0
+    },
+    {
+      "n": 8,
+      "cubic_parameter": 0.8,
+      "mixed_component": true,
+      "phase": "1/6",
+      "projective_triangles": 15,
+      "default": 12,
+      "best_chart": 14,
+      "pole": [
+        -1.2178600364356669,
+        -0.3223570668316333,
+        -0.40646851068776674
+      ],
+      "G": 14,
+      "gain": 0
+    },
+    {
+      "n": 14,
+      "cubic_parameter": -0.8,
+      "mixed_component": false,
+      "phase": "1/6",
+      "projective_triangles": 54,
+      "default": 52,
+      "best_chart": 52,
+      "pole": [
+        0,
+        0,
+        1
+      ],
+      "G": 52,
+      "gain": 0
+    },
+    {
+      "n": 14,
+      "cubic_parameter": -0.8,
+      "mixed_component": true,
+      "phase": "1/6",
+      "projective_triangles": 53,
+      "default": 49,
+      "best_chart": 50,
+      "pole": [
+        0.4636116277502082,
+        -1.4100877960720093,
+        -0.47155057567103165
+      ],
+      "G": 52,
+      "gain": -2
+    },
+    {
+      "n": 14,
+      "cubic_parameter": 0.0,
+      "mixed_component": false,
+      "phase": "1/6",
+      "projective_triangles": 54,
+      "default": 52,
+      "best_chart": 52,
+      "pole": [
+        0,
+        0,
+        1
+      ],
+      "G": 52,
+      "gain": 0
+    },
+    {
+      "n": 14,
+      "cubic_parameter": 0.0,
+      "mixed_component": true,
+      "phase": "1/6",
+      "projective_triangles": 53,
+      "default": 49,
+      "best_chart": 50,
+      "pole": [
+        -0.9959149673090756,
+        1.5648667032595394,
+        -0.8651918585787907
+      ],
+      "G": 52,
+      "gain": -2
+    },
+    {
+      "n": 14,
+      "cubic_parameter": 0.8,
+      "mixed_component": false,
+      "phase": "1/6",
+      "projective_triangles": 54,
+      "default": 52,
+      "best_chart": 52,
+      "pole": [
+        0,
+        0,
+        1
+      ],
+      "G": 52,
+      "gain": 0
+    },
+    {
+      "n": 14,
+      "cubic_parameter": 0.8,
+      "mixed_component": true,
+      "phase": "1/6",
+      "projective_triangles": 53,
+      "default": 48,
+      "best_chart": 50,
+      "pole": [
+        -0.39683134279304927,
+        1.565224418583996,
+        0.13942393214681728
+      ],
+      "G": 52,
+      "gain": -2
+    },
+    {
+      "n": 18,
+      "cubic_parameter": -0.8,
+      "mixed_component": false,
+      "phase": "1/6",
+      "projective_triangles": 94,
+      "default": 91,
+      "best_chart": 91,
+      "pole": [
+        0,
+        0,
+        1
+      ],
+      "G": 91,
+      "gain": 0
+    },
+    {
+      "n": 18,
+      "cubic_parameter": -0.8,
+      "mixed_component": true,
+      "phase": "1/6",
+      "projective_triangles": 91,
+      "default": 87,
+      "best_chart": 87,
+      "pole": [
+        0,
+        0,
+        1
+      ],
+      "G": 91,
+      "gain": -4
+    },
+    {
+      "n": 18,
+      "cubic_parameter": 0.0,
+      "mixed_component": false,
+      "phase": "1/6",
+      "projective_triangles": 94,
+      "default": 91,
+      "best_chart": 91,
+      "pole": [
+        0,
+        0,
+        1
+      ],
+      "G": 91,
+      "gain": 0
+    },
+    {
+      "n": 18,
+      "cubic_parameter": 0.0,
+      "mixed_component": true,
+      "phase": "1/6",
+      "projective_triangles": 91,
+      "default": 86,
+      "best_chart": 87,
+      "pole": [
+        -0.4492428462633407,
+        -1.2667051091799488,
+        0.6657434652800853
+      ],
+      "G": 91,
+      "gain": -4
+    },
+    {
+      "n": 18,
+      "cubic_parameter": 0.8,
+      "mixed_component": false,
+      "phase": "1/6",
+      "projective_triangles": 94,
+      "default": 91,
+      "best_chart": 91,
+      "pole": [
+        0,
+        0,
+        1
+      ],
+      "G": 91,
+      "gain": 0
+    },
+    {
+      "n": 18,
+      "cubic_parameter": 0.8,
+      "mixed_component": true,
+      "phase": "1/6",
+      "projective_triangles": 91,
+      "default": 84,
+      "best_chart": 87,
+      "pole": [
+        0.35542618534452003,
+        0.515900602581401,
+        -0.020204676786261998
+      ],
+      "G": 91,
+      "gain": -4
+    },
+    {
+      "n": 20,
+      "cubic_parameter": -0.8,
+      "mixed_component": false,
+      "phase": "1/6",
+      "projective_triangles": 116,
+      "default": 114,
+      "best_chart": 114,
+      "pole": [
+        0,
+        0,
+        1
+      ],
+      "G": 114,
+      "gain": 0
+    },
+    {
+      "n": 20,
+      "cubic_parameter": -0.8,
+      "mixed_component": true,
+      "phase": "1/6",
+      "projective_triangles": 115,
+      "default": 109,
+      "best_chart": 111,
+      "pole": [
+        1.3793169679036463,
+        -0.9780962718855223,
+        -0.36520285128830904
+      ],
+      "G": 114,
+      "gain": -3
+    },
+    {
+      "n": 20,
+      "cubic_parameter": 0.0,
+      "mixed_component": false,
+      "phase": "1/6",
+      "projective_triangles": 116,
+      "default": 114,
+      "best_chart": 114,
+      "pole": [
+        0,
+        0,
+        1
+      ],
+      "G": 114,
+      "gain": 0
+    },
+    {
+      "n": 20,
+      "cubic_parameter": 0.0,
+      "mixed_component": true,
+      "phase": "1/6",
+      "projective_triangles": 115,
+      "default": 109,
+      "best_chart": 111,
+      "pole": [
+        -0.5983830200248539,
+        -2.6973797881281425,
+        0.3361348553079445
+      ],
+      "G": 114,
+      "gain": -3
+    },
+    {
+      "n": 20,
+      "cubic_parameter": 0.8,
+      "mixed_component": false,
+      "phase": "1/6",
+      "projective_triangles": 116,
+      "default": 114,
+      "best_chart": 114,
+      "pole": [
+        0,
+        0,
+        1
+      ],
+      "G": 114,
+      "gain": 0
+    },
+    {
+      "n": 20,
+      "cubic_parameter": 0.8,
+      "mixed_component": true,
+      "phase": "1/6",
+      "projective_triangles": 115,
+      "default": 108,
+      "best_chart": 111,
+      "pole": [
+        -0.28053653567511583,
+        -0.6771187039658576,
+        0.044084333810815245
+      ],
+      "G": 114,
+      "gain": -3
+    },
+    {
+      "n": 26,
+      "cubic_parameter": -0.8,
+      "mixed_component": false,
+      "phase": "1/6",
+      "projective_triangles": 202,
+      "default": 200,
+      "best_chart": 200,
+      "pole": [
+        0,
+        0,
+        1
+      ],
+      "G": 200,
+      "gain": 0
+    },
+    {
+      "n": 26,
+      "cubic_parameter": -0.8,
+      "mixed_component": true,
+      "phase": "1/6",
+      "projective_triangles": 201,
+      "default": 193,
+      "best_chart": 195,
+      "pole": [
+        1.8878895915894969,
+        0.013509118925848574,
+        -0.05113005248641562
+      ],
+      "G": 200,
+      "gain": -5
+    },
+    {
+      "n": 26,
+      "cubic_parameter": 0.0,
+      "mixed_component": false,
+      "phase": "1/6",
+      "projective_triangles": 202,
+      "default": 200,
+      "best_chart": 200,
+      "pole": [
+        0,
+        0,
+        1
+      ],
+      "G": 200,
+      "gain": 0
+    },
+    {
+      "n": 26,
+      "cubic_parameter": 0.0,
+      "mixed_component": true,
+      "phase": "1/6",
+      "projective_triangles": 201,
+      "default": 193,
+      "best_chart": 195,
+      "pole": [
+        -0.7599647043942905,
+        1.2857422189373107,
+        -0.01648210311166174
+      ],
+      "G": 200,
+      "gain": -5
+    },
+    {
+      "n": 26,
+      "cubic_parameter": 0.8,
+      "mixed_component": false,
+      "phase": "1/6",
+      "projective_triangles": 202,
+      "default": 200,
+      "best_chart": 200,
+      "pole": [
+        0,
+        0,
+        1
+      ],
+      "G": 200,
+      "gain": 0
+    },
+    {
+      "n": 26,
+      "cubic_parameter": 0.8,
+      "mixed_component": true,
+      "phase": "1/6",
+      "projective_triangles": 201,
+      "default": 192,
+      "best_chart": 194,
+      "pole": [
+        0.1157742500066899,
+        -3.462572705333884,
+        1.1492692702123677
+      ],
+      "G": 200,
+      "gain": -6
+    },
+    {
+      "n": 32,
+      "cubic_parameter": -0.8,
+      "mixed_component": false,
+      "phase": "1/6",
+      "projective_triangles": 312,
+      "default": 310,
+      "best_chart": 310,
+      "pole": [
+        0,
+        0,
+        1
+      ],
+      "G": 310,
+      "gain": 0
+    },
+    {
+      "n": 32,
+      "cubic_parameter": -0.8,
+      "mixed_component": true,
+      "phase": "1/6",
+      "projective_triangles": 311,
+      "default": 303,
+      "best_chart": 304,
+      "pole": [
+        -0.9918994719712839,
+        -0.5832303066954011,
+        -0.38082861576337773
+      ],
+      "G": 310,
+      "gain": -6
+    },
+    {
+      "n": 32,
+      "cubic_parameter": 0.0,
+      "mixed_component": false,
+      "phase": "1/6",
+      "projective_triangles": 312,
+      "default": 310,
+      "best_chart": 310,
+      "pole": [
+        0,
+        0,
+        1
+      ],
+      "G": 310,
+      "gain": 0
+    },
+    {
+      "n": 32,
+      "cubic_parameter": 0.0,
+      "mixed_component": true,
+      "phase": "1/6",
+      "projective_triangles": 311,
+      "default": 301,
+      "best_chart": 303,
+      "pole": [
+        -0.22618789970756972,
+        1.0962219823358845,
+        0.1899794458649688
+      ],
+      "G": 310,
+      "gain": -7
+    },
+    {
+      "n": 32,
+      "cubic_parameter": 0.8,
+      "mixed_component": false,
+      "phase": "1/6",
+      "projective_triangles": 312,
+      "default": 310,
+      "best_chart": 310,
+      "pole": [
+        0,
+        0,
+        1
+      ],
+      "G": 310,
+      "gain": 0
+    },
+    {
+      "n": 32,
+      "cubic_parameter": 0.8,
+      "mixed_component": true,
+      "phase": "1/6",
+      "projective_triangles": 311,
+      "default": 299,
+      "best_chart": 303,
+      "pole": [
+        -1.3582760351611092,
+        1.5888842103141871,
+        -0.040309190299387704
+      ],
+      "G": 310,
+      "gain": -7
+    },
+    {
+      "n": 38,
+      "cubic_parameter": -0.8,
+      "mixed_component": false,
+      "phase": "1/6",
+      "projective_triangles": 446,
+      "default": 444,
+      "best_chart": 444,
+      "pole": [
+        0,
+        0,
+        1
+      ],
+      "G": 444,
+      "gain": 0
+    },
+    {
+      "n": 38,
+      "cubic_parameter": -0.8,
+      "mixed_component": true,
+      "phase": "1/6",
+      "projective_triangles": 445,
+      "default": 435,
+      "best_chart": 436,
+      "pole": [
+        -0.5057952725312698,
+        1.0681636988351733,
+        0.48788687308419965
+      ],
+      "G": 444,
+      "gain": -8
+    },
+    {
+      "n": 38,
+      "cubic_parameter": 0.0,
+      "mixed_component": false,
+      "phase": "1/6",
+      "projective_triangles": 446,
+      "default": 444,
+      "best_chart": 444,
+      "pole": [
+        0,
+        0,
+        1
+      ],
+      "G": 444,
+      "gain": 0
+    },
+    {
+      "n": 38,
+      "cubic_parameter": 0.0,
+      "mixed_component": true,
+      "phase": "1/6",
+      "projective_triangles": 445,
+      "default": 433,
+      "best_chart": 436,
+      "pole": [
+        -0.7821428584813718,
+        1.85311556478113,
+        0.03324060982083666
+      ],
+      "G": 444,
+      "gain": -8
+    },
+    {
+      "n": 38,
+      "cubic_parameter": 0.8,
+      "mixed_component": false,
+      "phase": "1/6",
+      "projective_triangles": 446,
+      "default": 444,
+      "best_chart": 444,
+      "pole": [
+        0,
+        0,
+        1
+      ],
+      "G": 444,
+      "gain": 0
+    },
+    {
+      "n": 38,
+      "cubic_parameter": 0.8,
+      "mixed_component": true,
+      "phase": "1/6",
+      "projective_triangles": 445,
+      "default": 431,
+      "best_chart": 434,
+      "pole": [
+        1.7908412569250467,
+        -2.159479720316853,
+        -0.027178183841721163
+      ],
+      "G": 444,
+      "gain": -10
+    },
+    {
+      "n": 50,
+      "cubic_parameter": -0.8,
+      "mixed_component": false,
+      "phase": "1/6",
+      "projective_triangles": 786,
+      "default": 784,
+      "best_chart": 784,
+      "pole": [
+        0,
+        0,
+        1
+      ],
+      "G": 784,
+      "gain": 0
+    },
+    {
+      "n": 50,
+      "cubic_parameter": -0.8,
+      "mixed_component": true,
+      "phase": "1/6",
+      "projective_triangles": 785,
+      "default": 771,
+      "best_chart": 773,
+      "pole": [
+        -1.335244558632059,
+        0.4439485088843108,
+        0.34795058729890027
+      ],
+      "G": 784,
+      "gain": -11
+    },
+    {
+      "n": 50,
+      "cubic_parameter": 0.0,
+      "mixed_component": false,
+      "phase": "1/6",
+      "projective_triangles": 786,
+      "default": 784,
+      "best_chart": 784,
+      "pole": [
+        0,
+        0,
+        1
+      ],
+      "G": 784,
+      "gain": 0
+    },
+    {
+      "n": 50,
+      "cubic_parameter": 0.0,
+      "mixed_component": true,
+      "phase": "1/6",
+      "projective_triangles": 785,
+      "default": 770,
+      "best_chart": 773,
+      "pole": [
+        0.2131596594090645,
+        -0.4486729438020631,
+        -0.022699415608993054
+      ],
+      "G": 784,
+      "gain": -11
+    },
+    {
+      "n": 50,
+      "cubic_parameter": 0.8,
+      "mixed_component": false,
+      "phase": "1/6",
+      "projective_triangles": 786,
+      "default": 784,
+      "best_chart": 784,
+      "pole": [
+        0,
+        0,
+        1
+      ],
+      "G": 784,
+      "gain": 0
+    },
+    {
+      "n": 50,
+      "cubic_parameter": 0.8,
+      "mixed_component": true,
+      "phase": "1/6",
+      "projective_triangles": 785,
+      "default": 766,
+      "best_chart": 772,
+      "pole": [
+        -0.15816835460876186,
+        -1.070622746216063,
+        0.2668950677023492
+      ],
+      "G": 784,
+      "gain": -12
+    },
+    {
+      "n": 60,
+      "cubic_parameter": -0.8,
+      "mixed_component": false,
+      "phase": "1/6",
+      "projective_triangles": 1144,
+      "default": 1141,
+      "best_chart": 1141,
+      "pole": [
+        0,
+        0,
+        1
+      ],
+      "G": 1141,
+      "gain": 0
+    },
+    {
+      "n": 60,
+      "cubic_parameter": -0.8,
+      "mixed_component": true,
+      "phase": "1/6",
+      "projective_triangles": 1141,
+      "default": 1126,
+      "best_chart": 1127,
+      "pole": [
+        0.7152707684633736,
+        1.6065357481336642,
+        -0.04626813754557257
+      ],
+      "G": 1141,
+      "gain": -14
+    },
+    {
+      "n": 60,
+      "cubic_parameter": 0.0,
+      "mixed_component": false,
+      "phase": "1/6",
+      "projective_triangles": 1144,
+      "default": 1141,
+      "best_chart": 1141,
+      "pole": [
+        0,
+        0,
+        1
+      ],
+      "G": 1141,
+      "gain": 0
+    },
+    {
+      "n": 60,
+      "cubic_parameter": 0.0,
+      "mixed_component": true,
+      "phase": "1/6",
+      "projective_triangles": 1141,
+      "default": 1123,
+      "best_chart": 1126,
+      "pole": [
+        0.5017670414508484,
+        1.6454910513575405,
+        -0.27968620801726807
+      ],
+      "G": 1141,
+      "gain": -15
+    },
+    {
+      "n": 60,
+      "cubic_parameter": 0.8,
+      "mixed_component": false,
+      "phase": "1/6",
+      "projective_triangles": 1144,
+      "default": 1141,
+      "best_chart": 1141,
+      "pole": [
+        0,
+        0,
+        1
+      ],
+      "G": 1141,
+      "gain": 0
+    },
+    {
+      "n": 60,
+      "cubic_parameter": 0.8,
+      "mixed_component": true,
+      "phase": "1/6",
+      "projective_triangles": 1141,
+      "default": 1119,
+      "best_chart": 1125,
+      "pole": [
+        -0.6405855781241199,
+        -1.066805348120536,
+        0.02535080620352391
+      ],
+      "G": 1141,
+      "gain": -16
+    }
+  ],
+  "seconds": 26.528335332870483,
+  "status": "Numerical screening only: no exact certificate, no new lower bound claimed"
+}

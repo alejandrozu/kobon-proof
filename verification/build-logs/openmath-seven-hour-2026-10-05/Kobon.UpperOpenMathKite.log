@@ -1,0 +1,6 @@
+'Kobon.UpperOpenMathKite.opposite_exterior_apices_incompatible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathKite.opposite_shared_kite_sides_incompatible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

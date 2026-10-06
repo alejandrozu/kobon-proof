@@ -1,0 +1,175 @@
+research/openmath-seven-hour-2026-10-05/corpus/scratch/Kobon/N13OrdinaryMiddleScratch.lean:136:8: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  w - 2 + 3
+in the target expression
+  a.point (w - 2 + ↑3) =
+    (a.center.1 - s * ((a.point (w - 2)).1 - a.center.1), a.center.2 - s * ((a.point (w - 2)).2 - a.center.2))
+
+α : Type u_1
+inst✝ : Fintype α
+n : ℕ
+L : ℕ → Line ℝ
+hL : NoParallel n L
+G : α → TriangleGeometry
+a b : Sectors n 3 L
+ad : AntipodalData G a
+bd : AntipodalData G b
+c U R : Point
+w x : ZMod 6
+ac : a.point w = c
+bc : b.point x = c
+aU : a.point (w - 1) = U
+bU : b.point (x + 1) = U
+aR : a.point (w - 2) = R
+bR : b.point (x + 2) = R
+ordU : OrdinaryAt n L U
+rc : #(supports n L c) = 3
+rr : #(supports n L R) = 3
+axis : Fin n
+axisA : affineEval (L ↑axis) a.center = 0
+axisB : affineEval (L ↑axis) b.center = 0
+axisU : affineEval (L ↑axis) U = 0
+axisC : affineEval (L ↑axis) c ≠ 0
+ab : a.center ≠ b.center
+ca : Fin n := a.radial w
+cb : Fin n := b.radial x
+cu : Fin n := a.opposite (w - 1)
+ar : Fin n := a.radial (w - 2)
+br : Fin n := b.radial (x + 2)
+wprev : w - 1 - 1 = w - 2
+wnext : w - 2 + 1 = w - 1
+xnext : x + 1 + 1 = x + 2
+hOrdA : OrdinaryAt n L (a.point (w - 1))
+hOrdB : OrdinaryAt n L (b.point (x + 1))
+aCaps : a.opposite (w - 2) = cu
+caC : affineEval (L ↑ca) c = 0
+cbC : affineEval (L ↑cb) c = 0
+cuC : affineEval (L ↑cu) c = 0
+cuU : affineEval (L ↑cu) U = 0
+cuR : affineEval (L ↑cu) R = 0
+cUne : c ≠ U
+bCap : b.opposite x = cu
+cuA : affineEval (L ↑cu) a.center ≠ 0
+cuB : affineEval (L ↑cu) b.center ≠ 0
+t : ℝ
+ht0 : 0 < t
+ht1 : t < 1
+Ueq : U = segmentPoint R c t
+axisRel : (1 - t) * affineEval (L ↑axis) R + t * affineEval (L ↑axis) c = 0
+axisR : affineEval (L ↑axis) R ≠ 0
+ca_cb : ca ≠ cb
+ca_cu : ca ≠ cu
+cb_cu : cb ≠ cu
+arR : affineEval (L ↑ar) R = 0
+brR : affineEval (L ↑br) R = 0
+ar_br : ar ≠ br
+ar_cu : ar ≠ cu
+br_cu : br ≠ cu
+aCapChoice : a.opposite w = ca ∨ a.opposite w = cb ∨ a.opposite w = cu
+aCap : a.opposite w = cb
+bCapChoice : b.opposite (x + 2) = ar ∨ b.opposite (x + 2) = br ∨ b.opposite (x + 2) = cu
+bCapR : b.opposite (x + 2) = ar
+ra_cb : affineEval (L ↑cb) (a.point (w + 1)) = 0
+ra_ar : affineEval (L ↑ar) (a.point (w + 1)) = 0
+cb_ar : affineEval (L ↑ar) (b.point (x + 3)) = 0
+cb_cb : affineEval (L ↑cb) (b.point (x + 3)) = 0
+distinct : cb ≠ ar
+same : a.point (w + 1) = b.point (x + 3)
+s : ℝ
+hs : 0 < s
+sa :
+  a.point (w - 2 + ↑3) =
+    (a.center.1 - s * ((a.point (w - 2)).1 - a.center.1), a.center.2 - s * ((a.point (w - 2)).2 - a.center.2))
+u : ℝ
+hu : 0 < u
+sb : b.point (x + ↑3) = (b.center.1 - u * ((b.point x).1 - b.center.1), b.center.2 - u * ((b.point x).2 - b.center.2))
+he : w - 2 + 3 = w + 1
+⊢ affineEval (L ↑axis) (a.point (w + 1)) = -s * affineEval (L ↑axis) R
+research/openmath-seven-hour-2026-10-05/corpus/scratch/Kobon/N13OrdinaryMiddleScratch.lean:140:8: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  b.point (x + ↑3)
+in the target expression
+  affineEval (L ↑axis) (b.point (x + 3)) = -u * affineEval (L ↑axis) c
+
+α : Type u_1
+inst✝ : Fintype α
+n : ℕ
+L : ℕ → Line ℝ
+hL : NoParallel n L
+G : α → TriangleGeometry
+a b : Sectors n 3 L
+ad : AntipodalData G a
+bd : AntipodalData G b
+c U R : Point
+w x : ZMod 6
+ac : a.point w = c
+bc : b.point x = c
+aU : a.point (w - 1) = U
+bU : b.point (x + 1) = U
+aR : a.point (w - 2) = R
+bR : b.point (x + 2) = R
+ordU : OrdinaryAt n L U
+rc : #(supports n L c) = 3
+rr : #(supports n L R) = 3
+axis : Fin n
+axisA : affineEval (L ↑axis) a.center = 0
+axisB : affineEval (L ↑axis) b.center = 0
+axisU : affineEval (L ↑axis) U = 0
+axisC : affineEval (L ↑axis) c ≠ 0
+ab : a.center ≠ b.center
+ca : Fin n := a.radial w
+cb : Fin n := b.radial x
+cu : Fin n := a.opposite (w - 1)
+ar : Fin n := a.radial (w - 2)
+br : Fin n := b.radial (x + 2)
+wprev : w - 1 - 1 = w - 2
+wnext : w - 2 + 1 = w - 1
+xnext : x + 1 + 1 = x + 2
+hOrdA : OrdinaryAt n L (a.point (w - 1))
+hOrdB : OrdinaryAt n L (b.point (x + 1))
+aCaps : a.opposite (w - 2) = cu
+caC : affineEval (L ↑ca) c = 0
+cbC : affineEval (L ↑cb) c = 0
+cuC : affineEval (L ↑cu) c = 0
+cuU : affineEval (L ↑cu) U = 0
+cuR : affineEval (L ↑cu) R = 0
+cUne : c ≠ U
+bCap : b.opposite x = cu
+cuA : affineEval (L ↑cu) a.center ≠ 0
+cuB : affineEval (L ↑cu) b.center ≠ 0
+t : ℝ
+ht0 : 0 < t
+ht1 : t < 1
+Ueq : U = segmentPoint R c t
+axisRel : (1 - t) * affineEval (L ↑axis) R + t * affineEval (L ↑axis) c = 0
+axisR : affineEval (L ↑axis) R ≠ 0
+ca_cb : ca ≠ cb
+ca_cu : ca ≠ cu
+cb_cu : cb ≠ cu
+arR : affineEval (L ↑ar) R = 0
+brR : affineEval (L ↑br) R = 0
+ar_br : ar ≠ br
+ar_cu : ar ≠ cu
+br_cu : br ≠ cu
+aCapChoice : a.opposite w = ca ∨ a.opposite w = cb ∨ a.opposite w = cu
+aCap : a.opposite w = cb
+bCapChoice : b.opposite (x + 2) = ar ∨ b.opposite (x + 2) = br ∨ b.opposite (x + 2) = cu
+bCapR : b.opposite (x + 2) = ar
+ra_cb : affineEval (L ↑cb) (a.point (w + 1)) = 0
+ra_ar : affineEval (L ↑ar) (a.point (w + 1)) = 0
+cb_ar : affineEval (L ↑ar) (b.point (x + 3)) = 0
+cb_cb : affineEval (L ↑cb) (b.point (x + 3)) = 0
+distinct : cb ≠ ar
+same : a.point (w + 1) = b.point (x + 3)
+s : ℝ
+hs : 0 < s
+sa :
+  a.point (w - 2 + ↑3) =
+    (a.center.1 - s * ((a.point (w - 2)).1 - a.center.1), a.center.2 - s * ((a.point (w - 2)).2 - a.center.2))
+u : ℝ
+hu : 0 < u
+sb : b.point (x + ↑3) = (b.center.1 - u * ((b.point x).1 - b.center.1), b.center.2 - u * ((b.point x).2 - b.center.2))
+aEval : affineEval (L ↑axis) (a.point (w + 1)) = -s * affineEval (L ↑axis) R
+⊢ affineEval (L ↑axis) (b.point (x + 3)) = -u * affineEval (L ↑axis) c
+'Kobon.N13OrdinaryMiddleScratch.ordinary_middle_pair_impossible' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]

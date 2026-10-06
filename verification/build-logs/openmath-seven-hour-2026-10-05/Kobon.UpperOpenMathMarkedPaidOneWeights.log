@@ -1,0 +1,3 @@
+'Kobon.UpperOpenMathMarkedPaidOneWeights.finite_paid_one_types' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,17 @@
+Kobon/UpperOpenMathMarkedPorts.lean:88:24: warning: Variable name `hi` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'Kobon.UpperOpenMathMarkedPorts.marked_edge_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathMarkedPorts.closed_marked_port_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathMarkedPorts.marked_count_of_extremal_triple' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathMarkedPorts.marked_count_of_partial_triple' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathMarkedPorts.tight_marked_edge_coverage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathMarkedPorts.certificate_normalized_two_two_of_zero_marks' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

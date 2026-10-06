@@ -1,0 +1,10 @@
+Kobon/OpenMathBoundarySectors.lean:41:10: warning: This simp argument is unused:
+  mul_pos_iff
+
+Hint: Omit it from the simp argument list.
+  simp [̵m̵u̵l̵_̵p̵o̵s̵_̵i̵f̵f̵,̵h̵p̵,̵h̵n̵]̵[̲h̲p̲,̲ ̲h̲n̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Kobon.OpenMathBoundarySectors.choiceCount_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathBoundarySectors.adjacent_sector_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathBoundarySectors.first_root_count' depends on axioms: [propext, Classical.choice, Quot.sound]

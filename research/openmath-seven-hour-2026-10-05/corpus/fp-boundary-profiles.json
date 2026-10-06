@@ -1,0 +1,5967 @@
+{
+  "passed": true,
+  "trust": "Exact sign-combinatorial endpoint audit; no Lean all-n ray-profile theorem",
+  "profiles": [
+    {
+      "n": 8,
+      "q": 7,
+      "T": 14,
+      "D1": 5,
+      "D2": 10,
+      "U": 0,
+      "deficit": 6,
+      "core_graph_components": 1,
+      "core_graph_component_sizes": [
+        7
+      ],
+      "core_graph_cyclomatic": 4,
+      "clean_lines": 0,
+      "core_ray_totals": {
+        "core_shared": 20,
+        "unbounded": 7,
+        "single": 10,
+        "ordinary_shared": 5
+      },
+      "ordinary_opposite_ray_profiles": {
+        "unbounded": 5
+      },
+      "ordinary_triangle_sector_profile": {
+        "2": 5,
+        "1": 2
+      },
+      "core_triangle_sector_profile": {
+        "4": 4,
+        "2": 1,
+        "6": 2
+      },
+      "extremal_triple_fans": 0,
+      "ray_profiles": [
+        {
+          "core": [
+            0,
+            1,
+            7
+          ],
+          "triangle_sectors": 2,
+          "core_shared": 1,
+          "unbounded": 3,
+          "single": 2
+        },
+        {
+          "core": [
+            0,
+            2,
+            6
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 4,
+          "ordinary_shared": 2
+        },
+        {
+          "core": [
+            0,
+            3,
+            5
+          ],
+          "triangle_sectors": 6,
+          "ordinary_shared": 1,
+          "core_shared": 5
+        },
+        {
+          "core": [
+            1,
+            2,
+            5
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "single": 2,
+          "unbounded": 1
+        },
+        {
+          "core": [
+            1,
+            3,
+            4
+          ],
+          "triangle_sectors": 4,
+          "unbounded": 1,
+          "core_shared": 2,
+          "single": 2,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            3,
+            6,
+            7
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "unbounded": 1,
+          "single": 2
+        },
+        {
+          "core": [
+            4,
+            5,
+            7
+          ],
+          "triangle_sectors": 4,
+          "single": 2,
+          "ordinary_shared": 1,
+          "core_shared": 2,
+          "unbounded": 1
+        }
+      ],
+      "observed_balance": {
+        "two_deficit": 12,
+        "single_plus_unbounded_minus_D1": 12,
+        "D1_plus_unbounded": 12
+      }
+    },
+    {
+      "n": 18,
+      "q": 46,
+      "T": 90,
+      "D1": 15,
+      "D2": 105,
+      "U": 0,
+      "deficit": 18,
+      "core_graph_components": 1,
+      "core_graph_component_sizes": [
+        46
+      ],
+      "core_graph_cyclomatic": 60,
+      "clean_lines": 0,
+      "core_ray_totals": {
+        "core_shared": 210,
+        "unbounded": 21,
+        "single": 30,
+        "ordinary_shared": 15
+      },
+      "ordinary_opposite_ray_profiles": {
+        "unbounded": 15
+      },
+      "ordinary_triangle_sector_profile": {
+        "2": 15
+      },
+      "core_triangle_sector_profile": {
+        "6": 31,
+        "4": 12,
+        "2": 3
+      },
+      "extremal_triple_fans": 0,
+      "ray_profiles": [
+        {
+          "core": [
+            0,
+            1,
+            17
+          ],
+          "triangle_sectors": 2,
+          "core_shared": 1,
+          "unbounded": 3,
+          "single": 2
+        },
+        {
+          "core": [
+            0,
+            2,
+            16
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 4,
+          "ordinary_shared": 2
+        },
+        {
+          "core": [
+            0,
+            3,
+            15
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            0,
+            4,
+            14
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            0,
+            5,
+            13
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            0,
+            6,
+            12
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            0,
+            7,
+            11
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            0,
+            8,
+            10
+          ],
+          "triangle_sectors": 6,
+          "ordinary_shared": 1,
+          "core_shared": 5
+        },
+        {
+          "core": [
+            1,
+            2,
+            15
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "single": 2,
+          "unbounded": 1
+        },
+        {
+          "core": [
+            1,
+            3,
+            14
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            1,
+            4,
+            13
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            1,
+            5,
+            12
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            1,
+            6,
+            11
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            1,
+            7,
+            10
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            1,
+            8,
+            9
+          ],
+          "triangle_sectors": 4,
+          "unbounded": 1,
+          "core_shared": 3,
+          "single": 2
+        },
+        {
+          "core": [
+            2,
+            3,
+            13
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "single": 2,
+          "unbounded": 1
+        },
+        {
+          "core": [
+            2,
+            4,
+            12
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            2,
+            5,
+            11
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            2,
+            6,
+            10
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            2,
+            7,
+            9
+          ],
+          "triangle_sectors": 6,
+          "ordinary_shared": 1,
+          "core_shared": 5
+        },
+        {
+          "core": [
+            3,
+            4,
+            11
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "single": 2,
+          "unbounded": 1
+        },
+        {
+          "core": [
+            3,
+            5,
+            10
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            3,
+            6,
+            9
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            3,
+            7,
+            8
+          ],
+          "triangle_sectors": 4,
+          "unbounded": 1,
+          "core_shared": 3,
+          "single": 2
+        },
+        {
+          "core": [
+            3,
+            16,
+            17
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "unbounded": 1,
+          "single": 2
+        },
+        {
+          "core": [
+            4,
+            5,
+            9
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "single": 2,
+          "unbounded": 1
+        },
+        {
+          "core": [
+            4,
+            6,
+            8
+          ],
+          "triangle_sectors": 6,
+          "ordinary_shared": 2,
+          "core_shared": 4
+        },
+        {
+          "core": [
+            4,
+            15,
+            17
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            5,
+            6,
+            7
+          ],
+          "triangle_sectors": 2,
+          "unbounded": 3,
+          "single": 2,
+          "core_shared": 1
+        },
+        {
+          "core": [
+            5,
+            14,
+            17
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            5,
+            15,
+            16
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "unbounded": 1,
+          "single": 2
+        },
+        {
+          "core": [
+            6,
+            13,
+            17
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            6,
+            14,
+            16
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            7,
+            12,
+            17
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            7,
+            13,
+            16
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            7,
+            14,
+            15
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "unbounded": 1,
+          "single": 2
+        },
+        {
+          "core": [
+            8,
+            11,
+            17
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            8,
+            12,
+            16
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            8,
+            13,
+            15
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            9,
+            10,
+            17
+          ],
+          "triangle_sectors": 4,
+          "single": 2,
+          "core_shared": 3,
+          "unbounded": 1
+        },
+        {
+          "core": [
+            9,
+            11,
+            16
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            9,
+            12,
+            15
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            9,
+            13,
+            14
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "unbounded": 1,
+          "single": 2
+        },
+        {
+          "core": [
+            10,
+            11,
+            15
+          ],
+          "triangle_sectors": 4,
+          "single": 2,
+          "core_shared": 3,
+          "unbounded": 1
+        },
+        {
+          "core": [
+            10,
+            12,
+            14
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 4,
+          "ordinary_shared": 2
+        },
+        {
+          "core": [
+            11,
+            12,
+            13
+          ],
+          "triangle_sectors": 2,
+          "single": 2,
+          "unbounded": 3,
+          "core_shared": 1
+        }
+      ],
+      "observed_balance": {
+        "two_deficit": 36,
+        "single_plus_unbounded_minus_D1": 36,
+        "D1_plus_unbounded": 36
+      }
+    },
+    {
+      "n": 60,
+      "q": 571,
+      "T": 1140,
+      "D1": 57,
+      "D2": 1596,
+      "U": 0,
+      "deficit": 60,
+      "core_graph_components": 1,
+      "core_graph_component_sizes": [
+        571
+      ],
+      "core_graph_cyclomatic": 1026,
+      "clean_lines": 0,
+      "core_ray_totals": {
+        "core_shared": 3192,
+        "unbounded": 63,
+        "single": 114,
+        "ordinary_shared": 57
+      },
+      "ordinary_opposite_ray_profiles": {
+        "unbounded": 57
+      },
+      "ordinary_triangle_sector_profile": {
+        "2": 57
+      },
+      "core_triangle_sector_profile": {
+        "6": 514,
+        "4": 54,
+        "2": 3
+      },
+      "extremal_triple_fans": 0,
+      "ray_profiles": [
+        {
+          "core": [
+            0,
+            1,
+            59
+          ],
+          "triangle_sectors": 2,
+          "core_shared": 1,
+          "unbounded": 3,
+          "single": 2
+        },
+        {
+          "core": [
+            0,
+            2,
+            58
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 4,
+          "ordinary_shared": 2
+        },
+        {
+          "core": [
+            0,
+            3,
+            57
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            0,
+            4,
+            56
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            0,
+            5,
+            55
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            0,
+            6,
+            54
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            0,
+            7,
+            53
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            0,
+            8,
+            52
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            0,
+            9,
+            51
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            0,
+            10,
+            50
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            0,
+            11,
+            49
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            0,
+            12,
+            48
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            0,
+            13,
+            47
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            0,
+            14,
+            46
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            0,
+            15,
+            45
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            0,
+            16,
+            44
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            0,
+            17,
+            43
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            0,
+            18,
+            42
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            0,
+            19,
+            41
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            0,
+            20,
+            40
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            0,
+            21,
+            39
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            0,
+            22,
+            38
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            0,
+            23,
+            37
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            0,
+            24,
+            36
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            0,
+            25,
+            35
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            0,
+            26,
+            34
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            0,
+            27,
+            33
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            0,
+            28,
+            32
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            0,
+            29,
+            31
+          ],
+          "triangle_sectors": 6,
+          "ordinary_shared": 1,
+          "core_shared": 5
+        },
+        {
+          "core": [
+            1,
+            2,
+            57
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "single": 2,
+          "unbounded": 1
+        },
+        {
+          "core": [
+            1,
+            3,
+            56
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            1,
+            4,
+            55
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            1,
+            5,
+            54
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            1,
+            6,
+            53
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            1,
+            7,
+            52
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            1,
+            8,
+            51
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            1,
+            9,
+            50
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            1,
+            10,
+            49
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            1,
+            11,
+            48
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            1,
+            12,
+            47
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            1,
+            13,
+            46
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            1,
+            14,
+            45
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            1,
+            15,
+            44
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            1,
+            16,
+            43
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            1,
+            17,
+            42
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            1,
+            18,
+            41
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            1,
+            19,
+            40
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            1,
+            20,
+            39
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            1,
+            21,
+            38
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            1,
+            22,
+            37
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            1,
+            23,
+            36
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            1,
+            24,
+            35
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            1,
+            25,
+            34
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            1,
+            26,
+            33
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            1,
+            27,
+            32
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            1,
+            28,
+            31
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            1,
+            29,
+            30
+          ],
+          "triangle_sectors": 4,
+          "unbounded": 1,
+          "core_shared": 3,
+          "single": 2
+        },
+        {
+          "core": [
+            2,
+            3,
+            55
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "single": 2,
+          "unbounded": 1
+        },
+        {
+          "core": [
+            2,
+            4,
+            54
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            2,
+            5,
+            53
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            2,
+            6,
+            52
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            2,
+            7,
+            51
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            2,
+            8,
+            50
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            2,
+            9,
+            49
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            2,
+            10,
+            48
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            2,
+            11,
+            47
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            2,
+            12,
+            46
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            2,
+            13,
+            45
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            2,
+            14,
+            44
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            2,
+            15,
+            43
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            2,
+            16,
+            42
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            2,
+            17,
+            41
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            2,
+            18,
+            40
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            2,
+            19,
+            39
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            2,
+            20,
+            38
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            2,
+            21,
+            37
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            2,
+            22,
+            36
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            2,
+            23,
+            35
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            2,
+            24,
+            34
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            2,
+            25,
+            33
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            2,
+            26,
+            32
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            2,
+            27,
+            31
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            2,
+            28,
+            30
+          ],
+          "triangle_sectors": 6,
+          "ordinary_shared": 1,
+          "core_shared": 5
+        },
+        {
+          "core": [
+            3,
+            4,
+            53
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "single": 2,
+          "unbounded": 1
+        },
+        {
+          "core": [
+            3,
+            5,
+            52
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            3,
+            6,
+            51
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            3,
+            7,
+            50
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            3,
+            8,
+            49
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            3,
+            9,
+            48
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            3,
+            10,
+            47
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            3,
+            11,
+            46
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            3,
+            12,
+            45
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            3,
+            13,
+            44
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            3,
+            14,
+            43
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            3,
+            15,
+            42
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            3,
+            16,
+            41
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            3,
+            17,
+            40
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            3,
+            18,
+            39
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            3,
+            19,
+            38
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            3,
+            20,
+            37
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            3,
+            21,
+            36
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            3,
+            22,
+            35
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            3,
+            23,
+            34
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            3,
+            24,
+            33
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            3,
+            25,
+            32
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            3,
+            26,
+            31
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            3,
+            27,
+            30
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            3,
+            28,
+            29
+          ],
+          "triangle_sectors": 4,
+          "unbounded": 1,
+          "core_shared": 3,
+          "single": 2
+        },
+        {
+          "core": [
+            3,
+            58,
+            59
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "unbounded": 1,
+          "single": 2
+        },
+        {
+          "core": [
+            4,
+            5,
+            51
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "single": 2,
+          "unbounded": 1
+        },
+        {
+          "core": [
+            4,
+            6,
+            50
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            4,
+            7,
+            49
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            4,
+            8,
+            48
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            4,
+            9,
+            47
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            4,
+            10,
+            46
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            4,
+            11,
+            45
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            4,
+            12,
+            44
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            4,
+            13,
+            43
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            4,
+            14,
+            42
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            4,
+            15,
+            41
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            4,
+            16,
+            40
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            4,
+            17,
+            39
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            4,
+            18,
+            38
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            4,
+            19,
+            37
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            4,
+            20,
+            36
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            4,
+            21,
+            35
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            4,
+            22,
+            34
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            4,
+            23,
+            33
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            4,
+            24,
+            32
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            4,
+            25,
+            31
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            4,
+            26,
+            30
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            4,
+            27,
+            29
+          ],
+          "triangle_sectors": 6,
+          "ordinary_shared": 1,
+          "core_shared": 5
+        },
+        {
+          "core": [
+            4,
+            57,
+            59
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            5,
+            6,
+            49
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "single": 2,
+          "unbounded": 1
+        },
+        {
+          "core": [
+            5,
+            7,
+            48
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            5,
+            8,
+            47
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            5,
+            9,
+            46
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            5,
+            10,
+            45
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            5,
+            11,
+            44
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            5,
+            12,
+            43
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            5,
+            13,
+            42
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            5,
+            14,
+            41
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            5,
+            15,
+            40
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            5,
+            16,
+            39
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            5,
+            17,
+            38
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            5,
+            18,
+            37
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            5,
+            19,
+            36
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            5,
+            20,
+            35
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            5,
+            21,
+            34
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            5,
+            22,
+            33
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            5,
+            23,
+            32
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            5,
+            24,
+            31
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            5,
+            25,
+            30
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            5,
+            26,
+            29
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            5,
+            27,
+            28
+          ],
+          "triangle_sectors": 4,
+          "unbounded": 1,
+          "core_shared": 3,
+          "single": 2
+        },
+        {
+          "core": [
+            5,
+            56,
+            59
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            5,
+            57,
+            58
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "unbounded": 1,
+          "single": 2
+        },
+        {
+          "core": [
+            6,
+            7,
+            47
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "single": 2,
+          "unbounded": 1
+        },
+        {
+          "core": [
+            6,
+            8,
+            46
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            6,
+            9,
+            45
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            6,
+            10,
+            44
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            6,
+            11,
+            43
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            6,
+            12,
+            42
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            6,
+            13,
+            41
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            6,
+            14,
+            40
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            6,
+            15,
+            39
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            6,
+            16,
+            38
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            6,
+            17,
+            37
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            6,
+            18,
+            36
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            6,
+            19,
+            35
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            6,
+            20,
+            34
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            6,
+            21,
+            33
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            6,
+            22,
+            32
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            6,
+            23,
+            31
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            6,
+            24,
+            30
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            6,
+            25,
+            29
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            6,
+            26,
+            28
+          ],
+          "triangle_sectors": 6,
+          "ordinary_shared": 1,
+          "core_shared": 5
+        },
+        {
+          "core": [
+            6,
+            55,
+            59
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            6,
+            56,
+            58
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            7,
+            8,
+            45
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "single": 2,
+          "unbounded": 1
+        },
+        {
+          "core": [
+            7,
+            9,
+            44
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            7,
+            10,
+            43
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            7,
+            11,
+            42
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            7,
+            12,
+            41
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            7,
+            13,
+            40
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            7,
+            14,
+            39
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            7,
+            15,
+            38
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            7,
+            16,
+            37
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            7,
+            17,
+            36
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            7,
+            18,
+            35
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            7,
+            19,
+            34
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            7,
+            20,
+            33
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            7,
+            21,
+            32
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            7,
+            22,
+            31
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            7,
+            23,
+            30
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            7,
+            24,
+            29
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            7,
+            25,
+            28
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            7,
+            26,
+            27
+          ],
+          "triangle_sectors": 4,
+          "unbounded": 1,
+          "core_shared": 3,
+          "single": 2
+        },
+        {
+          "core": [
+            7,
+            54,
+            59
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            7,
+            55,
+            58
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            7,
+            56,
+            57
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "unbounded": 1,
+          "single": 2
+        },
+        {
+          "core": [
+            8,
+            9,
+            43
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "single": 2,
+          "unbounded": 1
+        },
+        {
+          "core": [
+            8,
+            10,
+            42
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            8,
+            11,
+            41
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            8,
+            12,
+            40
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            8,
+            13,
+            39
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            8,
+            14,
+            38
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            8,
+            15,
+            37
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            8,
+            16,
+            36
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            8,
+            17,
+            35
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            8,
+            18,
+            34
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            8,
+            19,
+            33
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            8,
+            20,
+            32
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            8,
+            21,
+            31
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            8,
+            22,
+            30
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            8,
+            23,
+            29
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            8,
+            24,
+            28
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            8,
+            25,
+            27
+          ],
+          "triangle_sectors": 6,
+          "ordinary_shared": 1,
+          "core_shared": 5
+        },
+        {
+          "core": [
+            8,
+            53,
+            59
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            8,
+            54,
+            58
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            8,
+            55,
+            57
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            9,
+            10,
+            41
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "single": 2,
+          "unbounded": 1
+        },
+        {
+          "core": [
+            9,
+            11,
+            40
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            9,
+            12,
+            39
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            9,
+            13,
+            38
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            9,
+            14,
+            37
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            9,
+            15,
+            36
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            9,
+            16,
+            35
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            9,
+            17,
+            34
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            9,
+            18,
+            33
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            9,
+            19,
+            32
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            9,
+            20,
+            31
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            9,
+            21,
+            30
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            9,
+            22,
+            29
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            9,
+            23,
+            28
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            9,
+            24,
+            27
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            9,
+            25,
+            26
+          ],
+          "triangle_sectors": 4,
+          "unbounded": 1,
+          "core_shared": 3,
+          "single": 2
+        },
+        {
+          "core": [
+            9,
+            52,
+            59
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            9,
+            53,
+            58
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            9,
+            54,
+            57
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            9,
+            55,
+            56
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "unbounded": 1,
+          "single": 2
+        },
+        {
+          "core": [
+            10,
+            11,
+            39
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "single": 2,
+          "unbounded": 1
+        },
+        {
+          "core": [
+            10,
+            12,
+            38
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            10,
+            13,
+            37
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            10,
+            14,
+            36
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            10,
+            15,
+            35
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            10,
+            16,
+            34
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            10,
+            17,
+            33
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            10,
+            18,
+            32
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            10,
+            19,
+            31
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            10,
+            20,
+            30
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            10,
+            21,
+            29
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            10,
+            22,
+            28
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            10,
+            23,
+            27
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            10,
+            24,
+            26
+          ],
+          "triangle_sectors": 6,
+          "ordinary_shared": 1,
+          "core_shared": 5
+        },
+        {
+          "core": [
+            10,
+            51,
+            59
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            10,
+            52,
+            58
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            10,
+            53,
+            57
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            10,
+            54,
+            56
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            11,
+            12,
+            37
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "single": 2,
+          "unbounded": 1
+        },
+        {
+          "core": [
+            11,
+            13,
+            36
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            11,
+            14,
+            35
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            11,
+            15,
+            34
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            11,
+            16,
+            33
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            11,
+            17,
+            32
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            11,
+            18,
+            31
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            11,
+            19,
+            30
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            11,
+            20,
+            29
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            11,
+            21,
+            28
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            11,
+            22,
+            27
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            11,
+            23,
+            26
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            11,
+            24,
+            25
+          ],
+          "triangle_sectors": 4,
+          "unbounded": 1,
+          "core_shared": 3,
+          "single": 2
+        },
+        {
+          "core": [
+            11,
+            50,
+            59
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            11,
+            51,
+            58
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            11,
+            52,
+            57
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            11,
+            53,
+            56
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            11,
+            54,
+            55
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "unbounded": 1,
+          "single": 2
+        },
+        {
+          "core": [
+            12,
+            13,
+            35
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "single": 2,
+          "unbounded": 1
+        },
+        {
+          "core": [
+            12,
+            14,
+            34
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            12,
+            15,
+            33
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            12,
+            16,
+            32
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            12,
+            17,
+            31
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            12,
+            18,
+            30
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            12,
+            19,
+            29
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            12,
+            20,
+            28
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            12,
+            21,
+            27
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            12,
+            22,
+            26
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            12,
+            23,
+            25
+          ],
+          "triangle_sectors": 6,
+          "ordinary_shared": 1,
+          "core_shared": 5
+        },
+        {
+          "core": [
+            12,
+            49,
+            59
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            12,
+            50,
+            58
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            12,
+            51,
+            57
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            12,
+            52,
+            56
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            12,
+            53,
+            55
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            13,
+            14,
+            33
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "single": 2,
+          "unbounded": 1
+        },
+        {
+          "core": [
+            13,
+            15,
+            32
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            13,
+            16,
+            31
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            13,
+            17,
+            30
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            13,
+            18,
+            29
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            13,
+            19,
+            28
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            13,
+            20,
+            27
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            13,
+            21,
+            26
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            13,
+            22,
+            25
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            13,
+            23,
+            24
+          ],
+          "triangle_sectors": 4,
+          "unbounded": 1,
+          "core_shared": 3,
+          "single": 2
+        },
+        {
+          "core": [
+            13,
+            48,
+            59
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            13,
+            49,
+            58
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            13,
+            50,
+            57
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            13,
+            51,
+            56
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            13,
+            52,
+            55
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            13,
+            53,
+            54
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "unbounded": 1,
+          "single": 2
+        },
+        {
+          "core": [
+            14,
+            15,
+            31
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "single": 2,
+          "unbounded": 1
+        },
+        {
+          "core": [
+            14,
+            16,
+            30
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            14,
+            17,
+            29
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            14,
+            18,
+            28
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            14,
+            19,
+            27
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            14,
+            20,
+            26
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            14,
+            21,
+            25
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            14,
+            22,
+            24
+          ],
+          "triangle_sectors": 6,
+          "ordinary_shared": 1,
+          "core_shared": 5
+        },
+        {
+          "core": [
+            14,
+            47,
+            59
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            14,
+            48,
+            58
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            14,
+            49,
+            57
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            14,
+            50,
+            56
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            14,
+            51,
+            55
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            14,
+            52,
+            54
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            15,
+            16,
+            29
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "single": 2,
+          "unbounded": 1
+        },
+        {
+          "core": [
+            15,
+            17,
+            28
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            15,
+            18,
+            27
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            15,
+            19,
+            26
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            15,
+            20,
+            25
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            15,
+            21,
+            24
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            15,
+            22,
+            23
+          ],
+          "triangle_sectors": 4,
+          "unbounded": 1,
+          "core_shared": 3,
+          "single": 2
+        },
+        {
+          "core": [
+            15,
+            46,
+            59
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            15,
+            47,
+            58
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            15,
+            48,
+            57
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            15,
+            49,
+            56
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            15,
+            50,
+            55
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            15,
+            51,
+            54
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            15,
+            52,
+            53
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "unbounded": 1,
+          "single": 2
+        },
+        {
+          "core": [
+            16,
+            17,
+            27
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "single": 2,
+          "unbounded": 1
+        },
+        {
+          "core": [
+            16,
+            18,
+            26
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            16,
+            19,
+            25
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            16,
+            20,
+            24
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            16,
+            21,
+            23
+          ],
+          "triangle_sectors": 6,
+          "ordinary_shared": 1,
+          "core_shared": 5
+        },
+        {
+          "core": [
+            16,
+            45,
+            59
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            16,
+            46,
+            58
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            16,
+            47,
+            57
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            16,
+            48,
+            56
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            16,
+            49,
+            55
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            16,
+            50,
+            54
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            16,
+            51,
+            53
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            17,
+            18,
+            25
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "single": 2,
+          "unbounded": 1
+        },
+        {
+          "core": [
+            17,
+            19,
+            24
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            17,
+            20,
+            23
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            17,
+            21,
+            22
+          ],
+          "triangle_sectors": 4,
+          "unbounded": 1,
+          "core_shared": 3,
+          "single": 2
+        },
+        {
+          "core": [
+            17,
+            44,
+            59
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            17,
+            45,
+            58
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            17,
+            46,
+            57
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            17,
+            47,
+            56
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            17,
+            48,
+            55
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            17,
+            49,
+            54
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            17,
+            50,
+            53
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            17,
+            51,
+            52
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "unbounded": 1,
+          "single": 2
+        },
+        {
+          "core": [
+            18,
+            19,
+            23
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "single": 2,
+          "unbounded": 1
+        },
+        {
+          "core": [
+            18,
+            20,
+            22
+          ],
+          "triangle_sectors": 6,
+          "ordinary_shared": 2,
+          "core_shared": 4
+        },
+        {
+          "core": [
+            18,
+            43,
+            59
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            18,
+            44,
+            58
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            18,
+            45,
+            57
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            18,
+            46,
+            56
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            18,
+            47,
+            55
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            18,
+            48,
+            54
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            18,
+            49,
+            53
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            18,
+            50,
+            52
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            19,
+            20,
+            21
+          ],
+          "triangle_sectors": 2,
+          "unbounded": 3,
+          "single": 2,
+          "core_shared": 1
+        },
+        {
+          "core": [
+            19,
+            42,
+            59
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            19,
+            43,
+            58
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            19,
+            44,
+            57
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            19,
+            45,
+            56
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            19,
+            46,
+            55
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            19,
+            47,
+            54
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            19,
+            48,
+            53
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            19,
+            49,
+            52
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            19,
+            50,
+            51
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "unbounded": 1,
+          "single": 2
+        },
+        {
+          "core": [
+            20,
+            41,
+            59
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            20,
+            42,
+            58
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            20,
+            43,
+            57
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            20,
+            44,
+            56
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            20,
+            45,
+            55
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            20,
+            46,
+            54
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            20,
+            47,
+            53
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            20,
+            48,
+            52
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            20,
+            49,
+            51
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            21,
+            40,
+            59
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            21,
+            41,
+            58
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            21,
+            42,
+            57
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            21,
+            43,
+            56
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            21,
+            44,
+            55
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            21,
+            45,
+            54
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            21,
+            46,
+            53
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            21,
+            47,
+            52
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            21,
+            48,
+            51
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            21,
+            49,
+            50
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "unbounded": 1,
+          "single": 2
+        },
+        {
+          "core": [
+            22,
+            39,
+            59
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            22,
+            40,
+            58
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            22,
+            41,
+            57
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            22,
+            42,
+            56
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            22,
+            43,
+            55
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            22,
+            44,
+            54
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            22,
+            45,
+            53
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            22,
+            46,
+            52
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            22,
+            47,
+            51
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            22,
+            48,
+            50
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            23,
+            38,
+            59
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            23,
+            39,
+            58
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            23,
+            40,
+            57
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            23,
+            41,
+            56
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            23,
+            42,
+            55
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            23,
+            43,
+            54
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            23,
+            44,
+            53
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            23,
+            45,
+            52
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            23,
+            46,
+            51
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            23,
+            47,
+            50
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            23,
+            48,
+            49
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "unbounded": 1,
+          "single": 2
+        },
+        {
+          "core": [
+            24,
+            37,
+            59
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            24,
+            38,
+            58
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            24,
+            39,
+            57
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            24,
+            40,
+            56
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            24,
+            41,
+            55
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            24,
+            42,
+            54
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            24,
+            43,
+            53
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            24,
+            44,
+            52
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            24,
+            45,
+            51
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            24,
+            46,
+            50
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            24,
+            47,
+            49
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            25,
+            36,
+            59
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            25,
+            37,
+            58
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            25,
+            38,
+            57
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            25,
+            39,
+            56
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            25,
+            40,
+            55
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            25,
+            41,
+            54
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            25,
+            42,
+            53
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            25,
+            43,
+            52
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            25,
+            44,
+            51
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            25,
+            45,
+            50
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            25,
+            46,
+            49
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            25,
+            47,
+            48
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "unbounded": 1,
+          "single": 2
+        },
+        {
+          "core": [
+            26,
+            35,
+            59
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            26,
+            36,
+            58
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            26,
+            37,
+            57
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            26,
+            38,
+            56
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            26,
+            39,
+            55
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            26,
+            40,
+            54
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            26,
+            41,
+            53
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            26,
+            42,
+            52
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            26,
+            43,
+            51
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            26,
+            44,
+            50
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            26,
+            45,
+            49
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            26,
+            46,
+            48
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            27,
+            34,
+            59
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            27,
+            35,
+            58
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            27,
+            36,
+            57
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            27,
+            37,
+            56
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            27,
+            38,
+            55
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            27,
+            39,
+            54
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            27,
+            40,
+            53
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            27,
+            41,
+            52
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            27,
+            42,
+            51
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            27,
+            43,
+            50
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            27,
+            44,
+            49
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            27,
+            45,
+            48
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            27,
+            46,
+            47
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "unbounded": 1,
+          "single": 2
+        },
+        {
+          "core": [
+            28,
+            33,
+            59
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            28,
+            34,
+            58
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            28,
+            35,
+            57
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            28,
+            36,
+            56
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            28,
+            37,
+            55
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            28,
+            38,
+            54
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            28,
+            39,
+            53
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            28,
+            40,
+            52
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            28,
+            41,
+            51
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            28,
+            42,
+            50
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            28,
+            43,
+            49
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            28,
+            44,
+            48
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            28,
+            45,
+            47
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            29,
+            32,
+            59
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            29,
+            33,
+            58
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            29,
+            34,
+            57
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            29,
+            35,
+            56
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            29,
+            36,
+            55
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            29,
+            37,
+            54
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            29,
+            38,
+            53
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            29,
+            39,
+            52
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            29,
+            40,
+            51
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            29,
+            41,
+            50
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            29,
+            42,
+            49
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            29,
+            43,
+            48
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            29,
+            44,
+            47
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            29,
+            45,
+            46
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "unbounded": 1,
+          "single": 2
+        },
+        {
+          "core": [
+            30,
+            31,
+            59
+          ],
+          "triangle_sectors": 4,
+          "single": 2,
+          "core_shared": 3,
+          "unbounded": 1
+        },
+        {
+          "core": [
+            30,
+            32,
+            58
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            30,
+            33,
+            57
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            30,
+            34,
+            56
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            30,
+            35,
+            55
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            30,
+            36,
+            54
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            30,
+            37,
+            53
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            30,
+            38,
+            52
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            30,
+            39,
+            51
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            30,
+            40,
+            50
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            30,
+            41,
+            49
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            30,
+            42,
+            48
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            30,
+            43,
+            47
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            30,
+            44,
+            46
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            31,
+            32,
+            57
+          ],
+          "triangle_sectors": 4,
+          "single": 2,
+          "core_shared": 3,
+          "unbounded": 1
+        },
+        {
+          "core": [
+            31,
+            33,
+            56
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            31,
+            34,
+            55
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            31,
+            35,
+            54
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            31,
+            36,
+            53
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            31,
+            37,
+            52
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            31,
+            38,
+            51
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            31,
+            39,
+            50
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            31,
+            40,
+            49
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            31,
+            41,
+            48
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            31,
+            42,
+            47
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            31,
+            43,
+            46
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            31,
+            44,
+            45
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "unbounded": 1,
+          "single": 2
+        },
+        {
+          "core": [
+            32,
+            33,
+            55
+          ],
+          "triangle_sectors": 4,
+          "single": 2,
+          "core_shared": 3,
+          "unbounded": 1
+        },
+        {
+          "core": [
+            32,
+            34,
+            54
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            32,
+            35,
+            53
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            32,
+            36,
+            52
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            32,
+            37,
+            51
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            32,
+            38,
+            50
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            32,
+            39,
+            49
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            32,
+            40,
+            48
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            32,
+            41,
+            47
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            32,
+            42,
+            46
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            32,
+            43,
+            45
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            33,
+            34,
+            53
+          ],
+          "triangle_sectors": 4,
+          "single": 2,
+          "core_shared": 3,
+          "unbounded": 1
+        },
+        {
+          "core": [
+            33,
+            35,
+            52
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            33,
+            36,
+            51
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            33,
+            37,
+            50
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            33,
+            38,
+            49
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            33,
+            39,
+            48
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            33,
+            40,
+            47
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            33,
+            41,
+            46
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            33,
+            42,
+            45
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            33,
+            43,
+            44
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "unbounded": 1,
+          "single": 2
+        },
+        {
+          "core": [
+            34,
+            35,
+            51
+          ],
+          "triangle_sectors": 4,
+          "single": 2,
+          "core_shared": 3,
+          "unbounded": 1
+        },
+        {
+          "core": [
+            34,
+            36,
+            50
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            34,
+            37,
+            49
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            34,
+            38,
+            48
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            34,
+            39,
+            47
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            34,
+            40,
+            46
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            34,
+            41,
+            45
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            34,
+            42,
+            44
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            35,
+            36,
+            49
+          ],
+          "triangle_sectors": 4,
+          "single": 2,
+          "core_shared": 3,
+          "unbounded": 1
+        },
+        {
+          "core": [
+            35,
+            37,
+            48
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            35,
+            38,
+            47
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            35,
+            39,
+            46
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            35,
+            40,
+            45
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            35,
+            41,
+            44
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            35,
+            42,
+            43
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "unbounded": 1,
+          "single": 2
+        },
+        {
+          "core": [
+            36,
+            37,
+            47
+          ],
+          "triangle_sectors": 4,
+          "single": 2,
+          "core_shared": 3,
+          "unbounded": 1
+        },
+        {
+          "core": [
+            36,
+            38,
+            46
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            36,
+            39,
+            45
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            36,
+            40,
+            44
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            36,
+            41,
+            43
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            37,
+            38,
+            45
+          ],
+          "triangle_sectors": 4,
+          "single": 2,
+          "core_shared": 3,
+          "unbounded": 1
+        },
+        {
+          "core": [
+            37,
+            39,
+            44
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 5,
+          "ordinary_shared": 1
+        },
+        {
+          "core": [
+            37,
+            40,
+            43
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 6
+        },
+        {
+          "core": [
+            37,
+            41,
+            42
+          ],
+          "triangle_sectors": 4,
+          "core_shared": 3,
+          "unbounded": 1,
+          "single": 2
+        },
+        {
+          "core": [
+            38,
+            39,
+            43
+          ],
+          "triangle_sectors": 4,
+          "single": 2,
+          "core_shared": 3,
+          "unbounded": 1
+        },
+        {
+          "core": [
+            38,
+            40,
+            42
+          ],
+          "triangle_sectors": 6,
+          "core_shared": 4,
+          "ordinary_shared": 2
+        },
+        {
+          "core": [
+            39,
+            40,
+            41
+          ],
+          "triangle_sectors": 2,
+          "single": 2,
+          "unbounded": 3,
+          "core_shared": 1
+        }
+      ],
+      "observed_balance": {
+        "two_deficit": 120,
+        "single_plus_unbounded_minus_D1": 120,
+        "D1_plus_unbounded": 120
+      }
+    }
+  ]
+}

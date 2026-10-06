@@ -1,0 +1,2 @@
+'Kobon.UpperOpenMathN13Mirror.mirror' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathN13Mirror.mirror_area' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'Kobon.UpperOpenMathHighNeighborCharts.certificate_high_neighbor_normalized_chart' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,6 @@
+'Kobon.UpperOpenMathNonAntipodalStarDegree.certificate_star_blocks' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathNonAntipodalStarDegree.certificate_outer_degrees' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

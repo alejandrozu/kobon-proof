@@ -1,0 +1,12 @@
+'Kobon.OpenMathConstructionPareto61.simple' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ OpenMathConstructionPareto61Fast.int_simple_bool._native.native_decide.ax_1]
+'Kobon.OpenMathConstructionPareto61.triangle_checks' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ OpenMathConstructionPareto61Fast.int_triangles_bool._native.native_decide.ax_1]
+'Kobon.OpenMathConstructionPareto61.visible_checks' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ visible_bool._native.native_decide.ax_1]

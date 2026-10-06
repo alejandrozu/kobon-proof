@@ -1,0 +1,6 @@
+'Kobon.UpperOpenMathN13ExtractionHelpers.antipodal_previous_ordinary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathN13ExtractionHelpers.certificate_same_side_used_endpoints_unique' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

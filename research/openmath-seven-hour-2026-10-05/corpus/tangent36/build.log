@@ -1,0 +1,14 @@
+Kobon/BBLTangent36Bounds.lean:24:4: error: Type mismatch: After simplification, term
+  LE.le.trans low hl
+ has type
+  4374433176296150261 / 50000000000000000000 ≤ tan (↑1 * π / 36)
+but is expected to have type
+  4374433176296150261 / 50000000000000000000 ≤ tan (1 * π / 36)
+Kobon/BBLTangent36Bounds.lean:25:4: error: Type mismatch: After simplification, term
+  LE.le.trans hu high
+ has type
+  tan (↑1 * π / 36) ≤ 8748866352592500523 / 100000000000000000000
+but is expected to have type
+  tan (1 * π / 36) ≤ 8748866352592500523 / 100000000000000000000
+'Kobon.BBLTangent36Bounds.tan_1_bounds' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'Kobon.BBLTangent36Bounds.tan_17_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

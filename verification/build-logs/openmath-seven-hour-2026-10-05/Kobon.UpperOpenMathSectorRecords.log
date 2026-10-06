@@ -1,0 +1,33 @@
+Kobon/UpperOpenMathSectorRecords.lean:35:33: warning: Variable name `i` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Kobon/UpperOpenMathSectorRecords.lean:58:37: warning: Variable name `i` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Kobon/UpperOpenMathSectorRecords.lean:59:37: warning: Variable name `i` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Kobon/UpperOpenMathSectorRecords.lean:101:37: warning: Variable name `i` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Kobon/UpperOpenMathSectorRecords.lean:102:37: warning: Variable name `i` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Kobon/UpperOpenMathSectorRecords.lean:139:36: warning: Variable name `i` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'Kobon.UpperOpenMathSectorRecords.aligned_triangle_has_rays' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathSectorRecords.aligned_triangle_occurs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathSectorRecords.sectors' depends on axioms: [propext, Classical.choice, Quot.sound]

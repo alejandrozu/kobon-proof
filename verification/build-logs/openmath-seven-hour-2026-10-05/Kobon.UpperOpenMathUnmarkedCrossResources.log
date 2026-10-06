@@ -1,0 +1,12 @@
+Kobon/UpperOpenMathUnmarkedCrossResources.lean:99:45: warning: Variable name `sSub` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'Kobon.UpperOpenMathUnmarkedCrossResources.cross_endpoint_sum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathUnmarkedCrossResources.degreeFrom_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathUnmarkedCrossResources.certificate_unmarked_cross_capacity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,15 @@
+'Kobon.UpperOpenMathMixedFiveCoreComponents.certificate_closed_mixed_five_cost' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathMixedFiveCoreComponents.certificate_mixed_five_component_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathMixedFiveCoreComponents.certificate_mixed_five_total_core_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathMixedFiveCoreComponents.certificate_mixed_five_component_perfect_simple' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathMixedFiveCoreComponents.certificate_mixed_five_total_perfect_simple' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

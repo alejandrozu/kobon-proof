@@ -1,0 +1,9 @@
+'Kobon.UpperOpenMathComponentBoundaryConsequences.certificate_component_minimum_resources' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathComponentBoundaryConsequences.certificate_component_count_resources' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathComponentBoundaryConsequences.certificate_component_boundary_deficit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

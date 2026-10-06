@@ -1,0 +1,6 @@
+'Kobon.UpperOpenMathMixedDegreeThreeResources.closed_mixed_extremal_edge_injection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathMixedDegreeThreeResources.closed_mixed_extremal_counts' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

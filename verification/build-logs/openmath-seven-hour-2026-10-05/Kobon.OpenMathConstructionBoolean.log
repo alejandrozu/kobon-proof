@@ -1,0 +1,4 @@
+'Kobon.OpenMathConstructionBoolean.directions_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathConstructionBoolean.simple_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathConstructionBoolean.triangle_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathConstructionBoolean.visible_sound' depends on axioms: [propext, Classical.choice, Quot.sound]

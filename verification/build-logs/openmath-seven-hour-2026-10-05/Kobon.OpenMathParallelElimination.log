@@ -1,0 +1,1 @@
+'Kobon.OpenMathParallelElimination.arbitrary_iff_lowerBound' depends on axioms: [propext, Classical.choice, Quot.sound]

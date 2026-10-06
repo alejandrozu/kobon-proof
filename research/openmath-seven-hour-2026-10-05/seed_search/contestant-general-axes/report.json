@@ -1,0 +1,2053 @@
+{
+  "records": [
+    {
+      "n": 53,
+      "T": 901,
+      "simple": true,
+      "odd_upper": 901,
+      "source": "work\\openmath-rohith\\kobon-triangles\\submissions\\n53\\solution.json",
+      "source_sha256": "c861f9f9baae4b628b9aaa809d7dae4883af4032484a3fdbdd8050a819645a3f",
+      "source_commit": "f462d8e18aea2a458376c523c9b6c2980237071f",
+      "saturated_axes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "incidences": [
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51,
+        51
+      ],
+      "fits": [
+        {
+          "axis": 0,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 1,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 2,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 3,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 4,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 5,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 6,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 7,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 8,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 9,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 10,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 11,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 12,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 13,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 14,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 15,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 16,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 17,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 18,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 19,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 20,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 21,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 22,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 23,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 24,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 25,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 26,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 27,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 28,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 29,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 30,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 31,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 32,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 33,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 34,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 35,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 36,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 37,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 38,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 39,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 40,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 41,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 42,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 43,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 44,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 45,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 46,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 47,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 48,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 49,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 50,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 51,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 52,
+          "passed": false,
+          "status": 0
+        }
+      ]
+    },
+    {
+      "n": 41,
+      "T": 533,
+      "simple": true,
+      "odd_upper": 533,
+      "source": "work\\openmath-rohith\\kobon-triangles\\submissions\\n41\\solution.json",
+      "source_sha256": "bc89a8299866de4cbbd655ffe320ef507d42b7973797a939f1c85a6d494547df",
+      "source_commit": "f462d8e18aea2a458376c523c9b6c2980237071f",
+      "saturated_axes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "incidences": [
+        39,
+        39,
+        39,
+        39,
+        39,
+        39,
+        39,
+        39,
+        39,
+        39,
+        39,
+        39,
+        39,
+        39,
+        39,
+        39,
+        39,
+        39,
+        39,
+        39,
+        39,
+        39,
+        39,
+        39,
+        39,
+        39,
+        39,
+        39,
+        39,
+        39,
+        39,
+        39,
+        39,
+        39,
+        39,
+        39,
+        39,
+        39,
+        39,
+        39,
+        39
+      ],
+      "fits": [
+        {
+          "axis": 0,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 1,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 2,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 3,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 4,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 5,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 6,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 7,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 8,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 9,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 10,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 11,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 12,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 13,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 14,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 15,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 16,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 17,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 18,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 19,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 20,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 21,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 22,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 23,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 24,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 25,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 26,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 27,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 28,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 29,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 30,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 31,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 32,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 33,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 34,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 35,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 36,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 37,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 38,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 39,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 40,
+          "passed": false,
+          "status": 0
+        }
+      ]
+    },
+    {
+      "n": 45,
+      "T": 645,
+      "simple": true,
+      "odd_upper": 645,
+      "source": "work\\openmath-rohith\\kobon-triangles\\submissions\\n45\\solution.json",
+      "source_sha256": "1ac9434a213f209d5ece0f03a68da590f1656156a54977c46d8761b26836687a",
+      "source_commit": "f462d8e18aea2a458376c523c9b6c2980237071f",
+      "saturated_axes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "incidences": [
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43,
+        43
+      ],
+      "fits": [
+        {
+          "axis": 0,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 1,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 2,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 3,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 4,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 5,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 6,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 7,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 8,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 9,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 10,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 11,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 12,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 13,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 14,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 15,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 16,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 17,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 18,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 19,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 20,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 21,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 22,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 23,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 24,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 25,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 26,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 27,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 28,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 29,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 30,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 31,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 32,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 33,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 34,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 35,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 36,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 37,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 38,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 39,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 40,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 41,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 42,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 43,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 44,
+          "passed": false,
+          "status": 0
+        }
+      ]
+    },
+    {
+      "n": 57,
+      "T": 1045,
+      "simple": true,
+      "odd_upper": 1045,
+      "source": "work\\openmath-rohith\\kobon-triangles\\submissions\\n57\\solution.json",
+      "source_sha256": "0b2d876d92a2200b6e9acd28f1735435d8a6711561c55d3f16f7fa00909d70d5",
+      "source_commit": "f462d8e18aea2a458376c523c9b6c2980237071f",
+      "saturated_axes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "incidences": [
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55
+      ],
+      "fits": [
+        {
+          "axis": 0,
+          "passed": true,
+          "status": 2.720103974840349e-07,
+          "proposal": "research\\openmath-seven-hour-2026-10-05\\seed_search\\contestant-general-axes\\n057-axis000-proposal.json"
+        },
+        {
+          "axis": 1,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 2,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 3,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 4,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 5,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 6,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 7,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 8,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 9,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 10,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 11,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 12,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 13,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 14,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 15,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 16,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 17,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 18,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 19,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 20,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 21,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 22,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 23,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 24,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 25,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 26,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 27,
+          "passed": true,
+          "status": 4.869466617263285e-06,
+          "proposal": "research\\openmath-seven-hour-2026-10-05\\seed_search\\contestant-general-axes\\n057-axis027-proposal.json"
+        },
+        {
+          "axis": 28,
+          "passed": true,
+          "status": 4.4781720811570835e-06,
+          "proposal": "research\\openmath-seven-hour-2026-10-05\\seed_search\\contestant-general-axes\\n057-axis028-proposal.json"
+        },
+        {
+          "axis": 29,
+          "passed": true,
+          "status": 5.823542632281409e-06,
+          "proposal": "research\\openmath-seven-hour-2026-10-05\\seed_search\\contestant-general-axes\\n057-axis029-proposal.json"
+        },
+        {
+          "axis": 30,
+          "passed": true,
+          "status": 4.403620560200494e-06,
+          "proposal": "research\\openmath-seven-hour-2026-10-05\\seed_search\\contestant-general-axes\\n057-axis030-proposal.json"
+        },
+        {
+          "axis": 31,
+          "passed": true,
+          "status": 2.910171312958676e-06,
+          "proposal": "research\\openmath-seven-hour-2026-10-05\\seed_search\\contestant-general-axes\\n057-axis031-proposal.json"
+        },
+        {
+          "axis": 32,
+          "passed": true,
+          "status": 3.057861557770325e-06,
+          "proposal": "research\\openmath-seven-hour-2026-10-05\\seed_search\\contestant-general-axes\\n057-axis032-proposal.json"
+        },
+        {
+          "axis": 33,
+          "passed": true,
+          "status": 7.074488566904957e-07,
+          "proposal": "research\\openmath-seven-hour-2026-10-05\\seed_search\\contestant-general-axes\\n057-axis033-proposal.json"
+        },
+        {
+          "axis": 34,
+          "passed": true,
+          "status": 7.298639901898163e-07,
+          "proposal": "research\\openmath-seven-hour-2026-10-05\\seed_search\\contestant-general-axes\\n057-axis034-proposal.json"
+        },
+        {
+          "axis": 35,
+          "passed": true,
+          "status": 5.915585303759019e-07,
+          "proposal": "research\\openmath-seven-hour-2026-10-05\\seed_search\\contestant-general-axes\\n057-axis035-proposal.json"
+        },
+        {
+          "axis": 36,
+          "passed": true,
+          "status": 1.2364208916253172e-06,
+          "proposal": "research\\openmath-seven-hour-2026-10-05\\seed_search\\contestant-general-axes\\n057-axis036-proposal.json"
+        },
+        {
+          "axis": 37,
+          "passed": true,
+          "status": 2.5227225663379538e-06,
+          "proposal": "research\\openmath-seven-hour-2026-10-05\\seed_search\\contestant-general-axes\\n057-axis037-proposal.json"
+        },
+        {
+          "axis": 38,
+          "passed": true,
+          "status": 3.1268033083347788e-06,
+          "proposal": "research\\openmath-seven-hour-2026-10-05\\seed_search\\contestant-general-axes\\n057-axis038-proposal.json"
+        },
+        {
+          "axis": 39,
+          "passed": true,
+          "status": 3.1249773698787883e-06,
+          "proposal": "research\\openmath-seven-hour-2026-10-05\\seed_search\\contestant-general-axes\\n057-axis039-proposal.json"
+        },
+        {
+          "axis": 40,
+          "passed": true,
+          "status": 6.973947932614744e-07,
+          "proposal": "research\\openmath-seven-hour-2026-10-05\\seed_search\\contestant-general-axes\\n057-axis040-proposal.json"
+        },
+        {
+          "axis": 41,
+          "passed": true,
+          "status": 1.8556649472459621e-06,
+          "proposal": "research\\openmath-seven-hour-2026-10-05\\seed_search\\contestant-general-axes\\n057-axis041-proposal.json"
+        },
+        {
+          "axis": 42,
+          "passed": true,
+          "status": 2.751285580413973e-06,
+          "proposal": "research\\openmath-seven-hour-2026-10-05\\seed_search\\contestant-general-axes\\n057-axis042-proposal.json"
+        },
+        {
+          "axis": 43,
+          "passed": true,
+          "status": 2.653380719096904e-06,
+          "proposal": "research\\openmath-seven-hour-2026-10-05\\seed_search\\contestant-general-axes\\n057-axis043-proposal.json"
+        },
+        {
+          "axis": 44,
+          "passed": true,
+          "status": 1.995249034568436e-06,
+          "proposal": "research\\openmath-seven-hour-2026-10-05\\seed_search\\contestant-general-axes\\n057-axis044-proposal.json"
+        },
+        {
+          "axis": 45,
+          "passed": true,
+          "status": 1.3906836343821616e-06,
+          "proposal": "research\\openmath-seven-hour-2026-10-05\\seed_search\\contestant-general-axes\\n057-axis045-proposal.json"
+        },
+        {
+          "axis": 46,
+          "passed": true,
+          "status": 6.861592600770905e-07,
+          "proposal": "research\\openmath-seven-hour-2026-10-05\\seed_search\\contestant-general-axes\\n057-axis046-proposal.json"
+        },
+        {
+          "axis": 47,
+          "passed": true,
+          "status": 7.851428929228632e-07,
+          "proposal": "research\\openmath-seven-hour-2026-10-05\\seed_search\\contestant-general-axes\\n057-axis047-proposal.json"
+        },
+        {
+          "axis": 48,
+          "passed": true,
+          "status": 6.501846029627334e-07,
+          "proposal": "research\\openmath-seven-hour-2026-10-05\\seed_search\\contestant-general-axes\\n057-axis048-proposal.json"
+        },
+        {
+          "axis": 49,
+          "passed": true,
+          "status": 2.0213908259181235e-06,
+          "proposal": "research\\openmath-seven-hour-2026-10-05\\seed_search\\contestant-general-axes\\n057-axis049-proposal.json"
+        },
+        {
+          "axis": 50,
+          "passed": true,
+          "status": 3.5248520465769317e-06,
+          "proposal": "research\\openmath-seven-hour-2026-10-05\\seed_search\\contestant-general-axes\\n057-axis050-proposal.json"
+        },
+        {
+          "axis": 51,
+          "passed": true,
+          "status": 5.5685258402945505e-06,
+          "proposal": "research\\openmath-seven-hour-2026-10-05\\seed_search\\contestant-general-axes\\n057-axis051-proposal.json"
+        },
+        {
+          "axis": 52,
+          "passed": true,
+          "status": 6.500447919222108e-06,
+          "proposal": "research\\openmath-seven-hour-2026-10-05\\seed_search\\contestant-general-axes\\n057-axis052-proposal.json"
+        },
+        {
+          "axis": 53,
+          "passed": true,
+          "status": 5.064621950878756e-06,
+          "proposal": "research\\openmath-seven-hour-2026-10-05\\seed_search\\contestant-general-axes\\n057-axis053-proposal.json"
+        },
+        {
+          "axis": 54,
+          "passed": true,
+          "status": 1.806181088020043e-06,
+          "proposal": "research\\openmath-seven-hour-2026-10-05\\seed_search\\contestant-general-axes\\n057-axis054-proposal.json"
+        },
+        {
+          "axis": 55,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 56,
+          "passed": false,
+          "status": 0
+        }
+      ]
+    },
+    {
+      "n": 69,
+      "T": 1494,
+      "simple": true,
+      "odd_upper": 1541,
+      "source": "work\\openmath-rohith\\kobon-triangles\\submissions\\n69\\solution.json",
+      "source_sha256": "d08ae8e1ec4508a6ab8588f244d63a57f2ed15c37f83ef817735f3797d8ebedd",
+      "source_commit": "f462d8e18aea2a458376c523c9b6c2980237071f",
+      "saturated_axes": [
+        0,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66
+      ],
+      "incidences": [
+        67,
+        59,
+        60,
+        61,
+        62,
+        63,
+        61,
+        63,
+        65,
+        63,
+        64,
+        61,
+        63,
+        64,
+        64,
+        62,
+        65,
+        64,
+        63,
+        65,
+        62,
+        64,
+        61,
+        64,
+        65,
+        64,
+        62,
+        62,
+        65,
+        62,
+        64,
+        62,
+        62,
+        67,
+        67,
+        67,
+        67,
+        67,
+        67,
+        67,
+        67,
+        67,
+        67,
+        67,
+        67,
+        67,
+        67,
+        67,
+        67,
+        67,
+        67,
+        67,
+        67,
+        67,
+        67,
+        67,
+        67,
+        67,
+        67,
+        67,
+        67,
+        67,
+        67,
+        67,
+        67,
+        67,
+        67,
+        63,
+        63
+      ],
+      "fits": [
+        {
+          "axis": 0,
+          "passed": true,
+          "status": 2.728280305869246e-06,
+          "proposal": "research\\openmath-seven-hour-2026-10-05\\seed_search\\contestant-general-axes\\n069-axis000-proposal.json"
+        },
+        {
+          "axis": 33,
+          "passed": true,
+          "status": 5.138595732812057e-07,
+          "proposal": "research\\openmath-seven-hour-2026-10-05\\seed_search\\contestant-general-axes\\n069-axis033-proposal.json"
+        },
+        {
+          "axis": 34,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 35,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 36,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 37,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 38,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 39,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 40,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 41,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 42,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 43,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 44,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 45,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 46,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 47,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 48,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 49,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 50,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 51,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 52,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 53,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 54,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 55,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 56,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 57,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 58,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 59,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 60,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 61,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 62,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 63,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 64,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 65,
+          "passed": false,
+          "status": 0
+        },
+        {
+          "axis": 66,
+          "passed": false,
+          "status": 0
+        }
+      ]
+    },
+    {
+      "n": 77,
+      "T": 1595,
+      "simple": true,
+      "odd_upper": 1925,
+      "source": "work\\openmath-rohith\\kobon-triangles\\submissions\\n77\\solution.json",
+      "source_sha256": "b3140bb882913c1255109e975bd8609756ff53c7cfc291ceabd2b0bce407f8e0",
+      "source_commit": "f462d8e18aea2a458376c523c9b6c2980237071f",
+      "saturated_axes": [],
+      "incidences": [
+        55,
+        64,
+        64,
+        64,
+        67,
+        67,
+        64,
+        63,
+        63,
+        65,
+        69,
+        69,
+        65,
+        63,
+        63,
+        64,
+        63,
+        64,
+        64,
+        65,
+        66,
+        68,
+        71,
+        71,
+        68,
+        66,
+        65,
+        64,
+        64,
+        63,
+        64,
+        63,
+        62,
+        60,
+        59,
+        59,
+        59,
+        59,
+        60,
+        62,
+        63,
+        63,
+        62,
+        62,
+        62,
+        62,
+        60,
+        58,
+        56,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        56,
+        58,
+        60,
+        62,
+        62,
+        62,
+        62,
+        63,
+        63,
+        62,
+        60,
+        59,
+        59,
+        59,
+        59,
+        60,
+        62,
+        63,
+        74,
+        74
+      ],
+      "fits": []
+    },
+    {
+      "n": 85,
+      "T": 2090,
+      "simple": true,
+      "odd_upper": 2351,
+      "source": "work\\openmath-rohith\\kobon-triangles\\submissions\\n85\\solution.json",
+      "source_sha256": "5c707717bd7ac811df1c604e1a13f611a2b91dd9a357732a62b8b6dba98f366c",
+      "source_commit": "f462d8e18aea2a458376c523c9b6c2980237071f",
+      "saturated_axes": [],
+      "incidences": [
+        71,
+        76,
+        80,
+        76,
+        77,
+        80,
+        78,
+        76,
+        76,
+        76,
+        78,
+        80,
+        80,
+        79,
+        78,
+        77,
+        77,
+        79,
+        80,
+        80,
+        79,
+        79,
+        79,
+        78,
+        76,
+        74,
+        73,
+        73,
+        74,
+        74,
+        74,
+        72,
+        71,
+        71,
+        73,
+        71,
+        71,
+        71,
+        71,
+        71,
+        71,
+        71,
+        71,
+        71,
+        71,
+        71,
+        71,
+        73,
+        74,
+        75,
+        74,
+        72,
+        71,
+        71,
+        71,
+        71,
+        71,
+        71,
+        71,
+        71,
+        71,
+        71,
+        71,
+        71,
+        71,
+        71,
+        71,
+        71,
+        71,
+        71,
+        72,
+        74,
+        75,
+        75,
+        74,
+        72,
+        71,
+        71,
+        71,
+        71,
+        71,
+        71,
+        71,
+        79,
+        80
+      ],
+      "fits": []
+    },
+    {
+      "n": 89,
+      "T": 2384,
+      "simple": true,
+      "odd_upper": 2581,
+      "source": "work\\openmath-rohith\\kobon-triangles\\submissions\\n89\\solution.json",
+      "source_sha256": "ddd7f51d4bf08d070b37ed68bf4e38108550ea383c7ee4db927331d8029ea875",
+      "source_commit": "f462d8e18aea2a458376c523c9b6c2980237071f",
+      "saturated_axes": [],
+      "incidences": [
+        79,
+        82,
+        86,
+        82,
+        82,
+        85,
+        84,
+        83,
+        84,
+        83,
+        83,
+        82,
+        82,
+        82,
+        81,
+        80,
+        80,
+        80,
+        80,
+        79,
+        80,
+        83,
+        83,
+        82,
+        81,
+        82,
+        83,
+        83,
+        82,
+        80,
+        79,
+        79,
+        80,
+        82,
+        82,
+        80,
+        79,
+        79,
+        79,
+        79,
+        79,
+        79,
+        79,
+        79,
+        79,
+        79,
+        79,
+        79,
+        79,
+        79,
+        79,
+        80,
+        82,
+        82,
+        80,
+        79,
+        79,
+        79,
+        79,
+        79,
+        79,
+        79,
+        79,
+        79,
+        79,
+        79,
+        79,
+        79,
+        79,
+        79,
+        79,
+        79,
+        79,
+        79,
+        79,
+        80,
+        82,
+        82,
+        80,
+        79,
+        79,
+        79,
+        79,
+        79,
+        79,
+        79,
+        79,
+        83,
+        84
+      ],
+      "fits": []
+    }
+  ],
+  "seconds": 75.97119665145874,
+  "scope": "Exact point-input recount; floating fixed-infinity epsilon-zero regular-grid LP diagnostics"
+}

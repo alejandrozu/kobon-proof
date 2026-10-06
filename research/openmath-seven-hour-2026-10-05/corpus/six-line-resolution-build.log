@@ -1,0 +1,76 @@
+Kobon/OpenMathSixLineResolution.lean:28:0: error: (deterministic) timeout at `whnf`, maximum number of heartbeats (200000) has been reached
+
+Note: Use `set_option maxHeartbeats <num>` to set the limit.
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.
+Kobon/OpenMathSixLineResolution.lean:37:8: error: (kernel) unknown constant 'Kobon.OpenMathSixLineResolution.ordered_member'
+Kobon/OpenMathSixLineResolution.lean:206:8: error: (kernel) unknown constant 'Kobon.OpenMathSixLineResolution.ordered_member'
+Kobon/OpenMathSixLineResolution.lean:390:8: error: (kernel) unknown constant 'Kobon.OpenMathSixLineResolution.ordered_member'
+Kobon/OpenMathSixLineResolution.lean:533:8: error: (kernel) unknown constant 'Kobon.OpenMathSixLineResolution.ordered_member'
+Kobon/OpenMathSixLineResolution.lean:575:60: error: unexpected token '\'; expected term
+Kobon/OpenMathSixLineResolution.lean:586:25: error: unsolved goals
+case left
+u v w : ℝ
+hu : 0 < u
+hv : 0 < v
+hw : 0 < w
+hs : u + v + w = 1
+⊢ 0 < w
+
+case right
+u v w : ℝ
+hu : 0 < u
+hv : 0 < v
+hw : 0 < w
+hs : u + v + w = 1
+⊢ 0 < v
+Kobon/OpenMathSixLineResolution.lean:591:25: error: unsolved goals
+case left
+u v w : ℝ
+hu : 0 < u
+hv : 0 < v
+hw : 0 < w
+hs : u + v + w = 1
+⊢ 0 < w
+
+case right
+u v w : ℝ
+hu : 0 < u
+hv : 0 < v
+hw : 0 < w
+hs : u + v + w = 1
+⊢ 0 < v
+Kobon/OpenMathSixLineResolution.lean:596:37: error: unsolved goals
+case left
+u v w : ℝ
+hu : 0 < u
+hv : 0 < v
+hw : 0 < w
+hs : u + v + w = 1
+⊢ -(v * (4 / 5)) < w * (4 / 3)
+
+case right
+u v w : ℝ
+hu : 0 < u
+hv : 0 < v
+hw : 0 < w
+hs : u + v + w = 1
+⊢ 0 < w ∧ -(v * (4 / 5)) + w * (4 / 3) + (-(v * (4 / 5)) + -(w * (4 / 3))) < 0
+'Kobon.OpenMathSixLineResolution.up_triangle_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ up_triangle_iff]
+'Kobon.OpenMathSixLineResolution.down_triangle_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ down_triangle_iff]
+'Kobon.OpenMathSixLineResolution.reversal_gain_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ down_triangle_iff,
+ old_triangle_iff,
+ triangle_set_complete]
+'Kobon.OpenMathSixLineResolution.downward_breaks_three' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]

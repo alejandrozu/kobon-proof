@@ -1,0 +1,118 @@
+Kobon/OpenMathFourLineResolution.lean:77:6: error: unsolved goals
+case mpr.inl.refine_2.«0».left
+ε : ℝ
+he : 0 < ε
+hsmall : ε < 1
+⊢ 0 ≤
+    orientedEval (moved ε ↑((fun i => i) ⟨0, ⋯⟩)) (moved ε { i := 0, j := 1, k := 2 }.i)
+      (moved ε { i := 0, j := 1, k := 2 }.j)
+Kobon/OpenMathFourLineResolution.lean:79:6: error: unsolved goals
+case mpr.inl.refine_2.«1».left
+ε : ℝ
+he : 0 < ε
+hsmall : ε < 1
+⊢ 0 ≤
+    orientedEval (moved ε ↑((fun i => i) ⟨1, ⋯⟩)) (moved ε { i := 0, j := 1, k := 2 }.i)
+      (moved ε { i := 0, j := 1, k := 2 }.j)
+Kobon/OpenMathFourLineResolution.lean:81:6: error: unsolved goals
+case mpr.inl.refine_2.«2».left
+ε : ℝ
+he : 0 < ε
+hsmall : ε < 1
+⊢ orientedEval (moved ε ↑((fun i => i) ⟨2, ⋯⟩)) (moved ε { i := 0, j := 1, k := 2 }.i)
+      (moved ε { i := 0, j := 1, k := 2 }.j) ≤
+    0
+Kobon/OpenMathFourLineResolution.lean:83:6: error: unsolved goals
+case mpr.inl.refine_2.«3».left
+ε : ℝ
+he : 0 < ε
+hsmall : ε < 1
+⊢ orientedEval (moved ε ↑((fun i => i) ⟨3, ⋯⟩)) (moved ε { i := 0, j := 1, k := 2 }.i)
+      (moved ε { i := 0, j := 1, k := 2 }.j) ≤
+    0
+Kobon/OpenMathFourLineResolution.lean:87:6: error: unsolved goals
+case mpr.inr.refine_2.«0».left
+ε : ℝ
+he : 0 < ε
+hsmall : ε < 1
+⊢ orientedEval (moved ε ↑((fun i => i) ⟨0, ⋯⟩)) (moved ε { i := 0, j := 2, k := 3 }.i)
+      (moved ε { i := 0, j := 2, k := 3 }.j) ≤
+    0
+Kobon/OpenMathFourLineResolution.lean:89:6: error: unsolved goals
+case mpr.inr.refine_2.«1».left
+ε : ℝ
+he : 0 < ε
+hsmall : ε < 1
+⊢ 0 ≤
+    orientedEval (moved ε ↑((fun i => i) ⟨1, ⋯⟩)) (moved ε { i := 0, j := 2, k := 3 }.i)
+      (moved ε { i := 0, j := 2, k := 3 }.j)
+Kobon/OpenMathFourLineResolution.lean:91:6: error: unsolved goals
+case mpr.inr.refine_2.«2».left
+ε : ℝ
+he : 0 < ε
+hsmall : ε < 1
+⊢ 0 ≤
+    orientedEval (moved ε ↑((fun i => i) ⟨2, ⋯⟩)) (moved ε { i := 0, j := 2, k := 3 }.i)
+      (moved ε { i := 0, j := 2, k := 3 }.j)
+Kobon/OpenMathFourLineResolution.lean:93:6: error: unsolved goals
+case mpr.inr.refine_2.«3».left
+ε : ℝ
+he : 0 < ε
+hsmall : ε < 1
+⊢ orientedEval (moved ε ↑((fun i => i) ⟨3, ⋯⟩)) (moved ε { i := 0, j := 2, k := 3 }.i)
+      (moved ε { i := 0, j := 2, k := 3 }.j) ≤
+    0
+Kobon/OpenMathFourLineResolution.lean:112:12: error: linarith failed to find a contradiction
+case «1».«2».«1»
+ε : ℝ
+he : 0 < ε
+hsmall : ε < 1
+hij : 1 < ⟨2, ⋯⟩
+hjk : ⟨2, ⋯⟩ < 1
+a✝ : -ε + -ε + ε * 2 = 0
+⊢ False
+failed
+Kobon/OpenMathFourLineResolution.lean:112:12: error: linarith failed to find a contradiction
+case «1».«3».«1»
+ε : ℝ
+he : 0 < ε
+hsmall : ε < 1
+hij : 1 < ⟨3, ⋯⟩
+hjk : ⟨3, ⋯⟩ < 1
+a✝ : -ε + 2 + (-(ε * 2) + -2) + ε * 3 = 0
+⊢ False
+failed
+Kobon/OpenMathFourLineResolution.lean:112:12: error: linarith failed to find a contradiction
+case «2».«1».«2»
+ε : ℝ
+he : 0 < ε
+hsmall : ε < 1
+hij : ⟨2, ⋯⟩ < 1
+hjk : 1 < ⟨2, ⋯⟩
+⊢ False
+failed
+Kobon/OpenMathFourLineResolution.lean:112:12: error: linarith failed to find a contradiction
+case «3».«1».«3»
+ε : ℝ
+he : 0 < ε
+hsmall : ε < 1
+hij : ⟨3, ⋯⟩ < 1
+hjk : 1 < ⟨3, ⋯⟩
+a✝ : 2 * (-2 + ε) + (-(2 * ε) - 2) + 6 = 0
+⊢ False
+failed
+Kobon/OpenMathFourLineResolution.lean:164:15: error(lean.unknownIdentifier): Unknown constant `Finset.mem_empty`
+Kobon/OpenMathFourLineResolution.lean:164:4: error: `simp` made no progress
+'Kobon.OpenMathFourLineResolution.moved_triangle_iff' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'Kobon.OpenMathFourLineResolution.old_interiors_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathFourLineResolution.negative_count_zero' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'Kobon.OpenMathFourLineResolution.halfplane_yield_fails' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,3 @@
+'Kobon.UpperOpenMathSingleSourceCurvature.certificate_closed_single_source_gain' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,7 @@
+'Kobon.UpperOpenMathMarkedFanShapes.full_two_cap_opposite_card' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathMarkedFanShapes.poor_antipodal_core_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathMarkedFanShapes.normalized_nonordinary_neighbors_incompatible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,10 @@
+'Kobon.BBLSeed49Visible.compatible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ BBLSeed49Checks.distinguished_subset._native.native_decide.ax_1_1,
+ BBLSeed49Checks.ordered._native.native_decide.ax_1_1,
+ BBLSeed49Exterior.admissible_check._native.native_decide.ax_1_1,
+ BBLSeed49Exterior.visible_checks._native.native_decide.ax_1_1,
+ Kobon.BBLSeed49Checks.directions_bool._native.native_decide.ax_1_1✝,
+ Kobon.BBLSeed49Checks.simple_bool._native.native_decide.ax_1_1✝,
+ Kobon.BBLSeed49Checks.triangle_bool._native.native_decide.ax_1_1✝]

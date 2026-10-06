@@ -1,0 +1,15 @@
+'Kobon.UpperOpenMathRadialOrder.OrderedDirections.rayPoint_eq_of_incident_edge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathRadialOrder.OrderedDirections.rayPoint_positive_orientation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathRadialOrder.OrderedDirections.rayPoint_antipodal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathRadialOrder.OrderedDirections.rayPoint_injective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathRadialOrder.OrderedDirections.incident_edge_has_ray' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

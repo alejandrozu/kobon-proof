@@ -1,0 +1,279 @@
+{
+  "passed": true,
+  "attribution": "New explicit geometric scope witness supplied by the root research branch",
+  "ledger": {
+    "n": 7,
+    "T": 9,
+    "q": 5,
+    "multiplicities": {
+      "3": 5
+    },
+    "D1": 4,
+    "D2": 5,
+    "U": 2,
+    "C": 9,
+    "Rc": 7,
+    "H": 0,
+    "deficit": 8,
+    "first_slack": null,
+    "second_slack": 7
+  },
+  "lines_frac": [
+    [
+      "1",
+      "-10",
+      "0"
+    ],
+    [
+      "1",
+      "-1",
+      "0"
+    ],
+    [
+      "1",
+      "1",
+      "0"
+    ],
+    [
+      "2",
+      "1",
+      "3"
+    ],
+    [
+      "3",
+      "-1",
+      "-4"
+    ],
+    [
+      "0",
+      "1",
+      "1"
+    ],
+    [
+      "1",
+      "5",
+      "-12"
+    ]
+  ],
+  "triangles": [
+    [
+      0,
+      4,
+      6
+    ],
+    [
+      0,
+      1,
+      4
+    ],
+    [
+      0,
+      2,
+      4
+    ],
+    [
+      0,
+      1,
+      3
+    ],
+    [
+      0,
+      2,
+      3
+    ],
+    [
+      1,
+      2,
+      6
+    ],
+    [
+      0,
+      3,
+      5
+    ],
+    [
+      3,
+      4,
+      5
+    ],
+    [
+      1,
+      2,
+      5
+    ]
+  ],
+  "center": {
+    "core": [
+      "0",
+      "0",
+      "1"
+    ],
+    "triangle_sectors": 6,
+    "ordinary_shared_axes": [
+      0,
+      0
+    ],
+    "ordinary_caps_antipodal": true,
+    "core_neighbors": [
+      [
+        "-2",
+        "-2",
+        "1"
+      ],
+      [
+        "1",
+        "1",
+        "1"
+      ],
+      [
+        "-1",
+        "1",
+        "1"
+      ],
+      [
+        "3",
+        "-3",
+        "1"
+      ]
+    ],
+    "ordinary_shared": 2,
+    "core_shared": 4
+  },
+  "core_fans": [
+    {
+      "core": [
+        "-1",
+        "1",
+        "1"
+      ],
+      "triangle_sectors": 3,
+      "ordinary_shared_axes": [],
+      "ordinary_caps_antipodal": false,
+      "core_neighbors": [
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "1",
+          "1",
+          "1"
+        ]
+      ],
+      "unbounded": 1,
+      "core_shared": 2,
+      "single": 2,
+      "unused": 1
+    },
+    {
+      "core": [
+        "-2",
+        "-2",
+        "1"
+      ],
+      "triangle_sectors": 3,
+      "ordinary_shared_axes": [
+        4
+      ],
+      "ordinary_caps_antipodal": false,
+      "core_neighbors": [
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "unbounded": 2,
+      "core_shared": 1,
+      "ordinary_shared": 1,
+      "single": 2
+    },
+    {
+      "core": [
+        "3",
+        "-3",
+        "1"
+      ],
+      "triangle_sectors": 2,
+      "ordinary_shared_axes": [],
+      "ordinary_caps_antipodal": false,
+      "core_neighbors": [
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "core_shared": 1,
+      "unbounded": 3,
+      "single": 2
+    },
+    {
+      "core": [
+        "0",
+        "0",
+        "1"
+      ],
+      "triangle_sectors": 6,
+      "ordinary_shared_axes": [
+        0,
+        0
+      ],
+      "ordinary_caps_antipodal": true,
+      "core_neighbors": [
+        [
+          "-2",
+          "-2",
+          "1"
+        ],
+        [
+          "1",
+          "1",
+          "1"
+        ],
+        [
+          "-1",
+          "1",
+          "1"
+        ],
+        [
+          "3",
+          "-3",
+          "1"
+        ]
+      ],
+      "ordinary_shared": 2,
+      "core_shared": 4
+    },
+    {
+      "core": [
+        "1",
+        "1",
+        "1"
+      ],
+      "triangle_sectors": 4,
+      "ordinary_shared_axes": [
+        3
+      ],
+      "ordinary_caps_antipodal": false,
+      "core_neighbors": [
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "-1",
+          "1",
+          "1"
+        ]
+      ],
+      "core_shared": 2,
+      "unbounded": 1,
+      "single": 2,
+      "ordinary_shared": 1
+    }
+  ],
+  "status": "Exact rational finite incidence verification, no new lower-bound record or all-order theorem"
+}

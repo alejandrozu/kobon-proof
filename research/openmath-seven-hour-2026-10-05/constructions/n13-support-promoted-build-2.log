@@ -1,0 +1,4 @@
+'Kobon.UpperOpenMathN13Support.certificate_selected_core_cap_ne' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathN13Support.selected_core_cap_ne' depends on axioms: [propext, Classical.choice, Quot.sound]

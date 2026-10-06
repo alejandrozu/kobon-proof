@@ -1,0 +1,505 @@
+Kobon/OpenMathSixLineResolution.lean:36:3: error: unknown tactic
+Kobon/OpenMathSixLineResolution.lean:29:14: error: unsolved goals
+i j k : ℕ
+hi : i < j
+hj : j < k
+hk : k < 6
+h1 : i ≤ 3
+h2 : j ≤ 4
+h3 : k ≤ 5
+⊢ i = 0 ∧ j = 1 ∧ k = 2 ∨
+    i = 0 ∧ j = 1 ∧ k = 3 ∨
+      i = 0 ∧ j = 1 ∧ k = 4 ∨
+        i = 0 ∧ j = 1 ∧ k = 5 ∨
+          i = 0 ∧ j = 2 ∧ k = 3 ∨
+            i = 0 ∧ j = 2 ∧ k = 4 ∨
+              i = 0 ∧ j = 2 ∧ k = 5 ∨
+                i = 0 ∧ j = 3 ∧ k = 4 ∨
+                  i = 0 ∧ j = 3 ∧ k = 5 ∨
+                    i = 0 ∧ j = 4 ∧ k = 5 ∨
+                      i = 1 ∧ j = 2 ∧ k = 3 ∨
+                        i = 1 ∧ j = 2 ∧ k = 4 ∨
+                          i = 1 ∧ j = 2 ∧ k = 5 ∨
+                            i = 1 ∧ j = 3 ∧ k = 4 ∨
+                              i = 1 ∧ j = 3 ∧ k = 5 ∨
+                                i = 1 ∧ j = 4 ∧ k = 5 ∨
+                                  i = 2 ∧ j = 3 ∧ k = 4 ∨
+                                    i = 2 ∧ j = 3 ∧ k = 5 ∨ i = 2 ∧ j = 4 ∧ k = 5 ∨ i = 3 ∧ j = 4 ∧ k = 5
+Kobon/OpenMathSixLineResolution.lean:112:8: warning: 'all_goals linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:115:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:117:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:119:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:121:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:123:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:125:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:128:8: warning: 'all_goals linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:131:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:133:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:135:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:137:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:139:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:141:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:144:8: warning: 'all_goals linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:147:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:149:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:151:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:153:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:155:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:157:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:160:8: warning: 'all_goals linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:163:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:165:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:167:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:169:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:171:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:173:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:176:8: warning: 'all_goals linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:179:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:181:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:183:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:185:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:187:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:189:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:192:8: warning: 'all_goals linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:195:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:197:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:199:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:201:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:203:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:205:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:112:18: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:115:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:117:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:119:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:121:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:123:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:125:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:128:18: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:131:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:133:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:135:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:137:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:139:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:141:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:144:18: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:147:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:149:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:151:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:153:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:155:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:157:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:160:18: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:163:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:165:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:167:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:169:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:171:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:173:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:176:18: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:179:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:181:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:183:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:185:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:187:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:189:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:192:18: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:195:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:197:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:199:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:201:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:203:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:205:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:344:8: warning: 'all_goals linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:349:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:351:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:353:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:355:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:357:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:360:8: warning: 'all_goals linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:365:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:367:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:369:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:371:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:373:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:376:8: warning: 'all_goals linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:381:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:383:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:385:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:387:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:389:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:344:18: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:349:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:351:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:353:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:355:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:357:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:360:18: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:365:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:367:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:369:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:371:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:373:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:376:18: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:381:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:383:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:385:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:387:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:389:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:283:70: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/OpenMathSixLineResolution.lean:285:70: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/OpenMathSixLineResolution.lean:287:70: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/OpenMathSixLineResolution.lean:299:70: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/OpenMathSixLineResolution.lean:301:70: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/OpenMathSixLineResolution.lean:315:70: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/OpenMathSixLineResolution.lean:319:70: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/OpenMathSixLineResolution.lean:331:70: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/OpenMathSixLineResolution.lean:505:8: warning: 'all_goals linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:510:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:512:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:514:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:516:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:518:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:521:8: warning: 'all_goals linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:526:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:528:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:530:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:532:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:534:74: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathSixLineResolution.lean:505:18: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:510:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:512:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:514:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:516:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:518:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:521:18: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:526:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:528:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:530:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:532:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:534:74: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathSixLineResolution.lean:476:70: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/OpenMathSixLineResolution.lean:478:70: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/OpenMathSixLineResolution.lean:480:70: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/OpenMathSixLineResolution.lean:492:70: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/OpenMathSixLineResolution.lean:578:60: error(lean.invalidField): Invalid field `sdiff`: The environment does not contain `Finset.sdiff`, so it is not possible to project the field `sdiff` from an expression
+  oldTriangles
+of type `Finset Triple`
+'Kobon.OpenMathSixLineResolution.up_triangle_iff' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'Kobon.OpenMathSixLineResolution.down_triangle_iff' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'Kobon.OpenMathSixLineResolution.reversal_gain_two' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'Kobon.OpenMathSixLineResolution.downward_breaks_three' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]

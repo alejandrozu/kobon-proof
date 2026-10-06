@@ -1,0 +1,137 @@
+Kobon/OpenMathBoundarySectorGeometry.lean:80:6: error: Type mismatch: After simplification, term
+  ne_of_gt hnorm
+ has type
+  ¬(L 0).a ^ 2 + (L 0).b ^ 2 = 0
+but is expected to have type
+  ¬(L 0).a * (L 0).a + (L 0).b * (L 0).b = 0
+Kobon/OpenMathBoundarySectorGeometry.lean:107:74: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  f ≥ 0
+  e ≥ 0
+  d ≥ 1
+  d - e ≥ 2
+  d - f ≥ 0
+  c ≥ 1
+  c ≥ 1
+  c - d ≤ 0
+  c - f ≤ -1
+where
+ c := ↑↑j
+ d := ↑(n - 1)
+ e := ↑↑⟨n - 2, ⋯⟩
+ f := ↑↑⟨0, ⋯⟩
+Kobon/OpenMathBoundarySectorGeometry.lean:131:6: error: Type mismatch
+  critical_injective_pair (L 0) (L ↑i) (L ↑j) hnorm hdi hdj (hp i j hij)
+has type
+  critical (L 0) (L ↑i) ≠ critical (L 0) (L ↑j)
+but is expected to have type
+  D.roots ri ≠ D.roots rj
+Kobon/OpenMathBoundarySectorGeometry.lean:138:12: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  roots n L hp hn r
+in the target expression
+  ¬(D.roots ri < D.roots r ∧ D.roots r < D.roots rj) ∧ ¬(D.roots rj < D.roots r ∧ D.roots r < D.roots ri)
+
+case pos
+n : ℕ
+L : ℕ → Line ℝ
+hp : NoParallel n L
+hn : 2 ≤ n
+i j : Fin n
+hij : i < j
+p q : Point
+hpn : p ≠ (0, 0)
+hqn : q ≠ (0, 0)
+hpi : projection (L ↑i) p = 0
+hqj : projection (L ↑j) q = 0
+hc : ∀ (r : Fin n), r ≠ i → r ≠ j → 0 < projection (L ↑r) p * projection (L ↑r) q
+D : Samples n := samples n L hp hn
+hnorm : 0 < normSquare (L 0)
+hijne : i ≠ j
+hj0 : ↑j ≠ 0
+hjpole : j ≠ ⟨0, ⋯⟩
+hdj : det (L ↑j) (L ↑⟨0, ⋯⟩) ≠ 0
+rj : Fin (n - 1)
+hrj : roots n L hp hn rj = critical (L 0) (L ↑j)
+hfq : ∀ (s : ℝ), projection (normalAt (L 0) s) q = projection (L 0) q * (s - D.roots rj)
+hi0 : ¬↑i = 0
+hipole : i ≠ ⟨0, ⋯⟩
+hdi : det (L ↑i) (L ↑⟨0, ⋯⟩) ≠ 0
+ri : Fin (n - 1)
+hri : roots n L hp hn ri = critical (L 0) (L ↑i)
+hfp : ∀ (s : ℝ), projection (normalAt (L 0) s) p = projection (L 0) p * (s - D.roots ri)
+hbase : 0 < projection (L 0) p * projection (L 0) q
+hneq : D.roots ri ≠ D.roots rj
+r : Fin (n - 1)
+l : Fin n
+hl0 : ↑l ≠ 0
+hli : l = i
+hlr : critical (L 0) (L ↑i) = roots n L hp hn r
+⊢ ¬(D.roots ri < D.roots r ∧ D.roots r < D.roots rj) ∧ ¬(D.roots rj < D.roots r ∧ D.roots r < D.roots ri)
+Kobon/OpenMathBoundarySectorGeometry.lean:142:12: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  roots n L hp hn r
+in the target expression
+  ¬(D.roots ri < D.roots r ∧ D.roots r < D.roots rj) ∧ ¬(D.roots rj < D.roots r ∧ D.roots r < D.roots ri)
+
+case pos
+n : ℕ
+L : ℕ → Line ℝ
+hp : NoParallel n L
+hn : 2 ≤ n
+i j : Fin n
+hij : i < j
+p q : Point
+hpn : p ≠ (0, 0)
+hqn : q ≠ (0, 0)
+hpi : projection (L ↑i) p = 0
+hqj : projection (L ↑j) q = 0
+hc : ∀ (r : Fin n), r ≠ i → r ≠ j → 0 < projection (L ↑r) p * projection (L ↑r) q
+D : Samples n := samples n L hp hn
+hnorm : 0 < normSquare (L 0)
+hijne : i ≠ j
+hj0 : ↑j ≠ 0
+hjpole : j ≠ ⟨0, ⋯⟩
+hdj : det (L ↑j) (L ↑⟨0, ⋯⟩) ≠ 0
+rj : Fin (n - 1)
+hrj : roots n L hp hn rj = critical (L 0) (L ↑j)
+hfq : ∀ (s : ℝ), projection (normalAt (L 0) s) q = projection (L 0) q * (s - D.roots rj)
+hi0 : ¬↑i = 0
+hipole : i ≠ ⟨0, ⋯⟩
+hdi : det (L ↑i) (L ↑⟨0, ⋯⟩) ≠ 0
+ri : Fin (n - 1)
+hri : roots n L hp hn ri = critical (L 0) (L ↑i)
+hfp : ∀ (s : ℝ), projection (normalAt (L 0) s) p = projection (L 0) p * (s - D.roots ri)
+hbase : 0 < projection (L 0) p * projection (L 0) q
+hneq : D.roots ri ≠ D.roots rj
+r : Fin (n - 1)
+l : Fin n
+hl0 : ↑l ≠ 0
+hli : ¬l = i
+hlj : l = j
+hlr : critical (L 0) (L ↑j) = roots n L hp hn r
+⊢ ¬(D.roots ri < D.roots r ∧ D.roots r < D.roots rj) ∧ ¬(D.roots rj < D.roots r ∧ D.roots r < D.roots ri)
+Kobon/OpenMathBoundarySectorGeometry.lean:149:6: error: Type mismatch: After simplification, term
+  ⟨hb, hb'⟩
+ has type
+  And (¬(roots n L hp hn ri < roots n L hp hn r ∧ roots n L hp hn r < roots n L hp hn rj))
+    ¬(roots n L hp hn rj < roots n L hp hn r ∧ roots n L hp hn r < roots n L hp hn ri)
+but is expected to have type
+  And (¬(D.roots ri < D.roots r ∧ D.roots r < D.roots rj)) ¬(D.roots rj < D.roots r ∧ D.roots r < D.roots ri)
+Kobon/OpenMathBoundarySectorGeometry.lean:137:23: warning: This simp argument is unused:
+  hri
+
+Hint: Omit it from the simp argument list.
+  simp only [hli,̵h̵r̵i̵] at hlr
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Kobon/OpenMathBoundarySectorGeometry.lean:141:23: warning: This simp argument is unused:
+  hrj
+
+Hint: Omit it from the simp argument list.
+  simp only [hlj,̵h̵r̵j̵] at hlr
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Kobon.OpenMathBoundarySectorGeometry.sample_admissible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathBoundarySectorGeometry.pair_sector_count' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]

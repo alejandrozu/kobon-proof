@@ -1,0 +1,27 @@
+{
+  "q": 24,
+  "backbone_T": 191,
+  "target": 204,
+  "best": 202,
+  "tested": 37843,
+  "possible_pairs": 44850,
+  "unique_candidates": 37915,
+  "histogram": {
+    "194": 12429,
+    "195": 7333,
+    "196": 1910,
+    "193": 10933,
+    "192": 4069,
+    "191": 368,
+    "197": 455,
+    "198": 161,
+    "199": 98,
+    "200": 54,
+    "201": 22,
+    "202": 11
+  },
+  "wins": [],
+  "seconds": 78.2971179485321,
+  "completed": true,
+  "scope": "All ordinary-vertex pair support lines if completed; fixed rational BBL point only"
+}

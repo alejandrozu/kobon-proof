@@ -1,0 +1,3 @@
+'Kobon.BBLRationalTangentBounds.atanPoly_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.BBLRationalTangentBounds.quarter_atan_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.BBLRationalTangentBounds.quarterCheck_sound' depends on axioms: [propext, Classical.choice, Quot.sound]

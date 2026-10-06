@@ -1,0 +1,27 @@
+{"event": "chart", "infinity": 53, "T": 901, "axes": 53, "seconds": 0.33820652961730957}
+{"event": "chart", "infinity": 0, "T": 901, "axes": 53, "seconds": 23.56399178504944}
+{"event": "chart", "infinity": 1, "T": 901, "axes": 53, "seconds": 45.71098303794861}
+{"event": "chart", "infinity": 2, "T": 901, "axes": 53, "seconds": 67.85502672195435}
+{"event": "chart", "infinity": 3, "T": 901, "axes": 53, "seconds": 89.46206426620483}
+{"event": "chart", "infinity": 4, "T": 901, "axes": 53, "seconds": 110.86744403839111}
+{"event": "chart", "infinity": 5, "T": 901, "axes": 53, "seconds": 132.91076278686523}
+{"event": "chart", "infinity": 6, "T": 901, "axes": 53, "seconds": 154.052800655365}
+{"event": "chart", "infinity": 7, "T": 901, "axes": 53, "seconds": 175.8927595615387}
+{"event": "chart", "infinity": 8, "T": 901, "axes": 53, "seconds": 198.3591330051422}
+{"event": "chart", "infinity": 9, "T": 901, "axes": 53, "seconds": 219.66730117797852}
+{"event": "chart", "infinity": 10, "T": 901, "axes": 53, "seconds": 240.4793643951416}
+{"event": "chart", "infinity": 11, "T": 901, "axes": 53, "seconds": 266.9682695865631}
+{"event": "chart", "infinity": 12, "T": 901, "axes": 53, "seconds": 294.4435305595398}
+{"event": "chart", "infinity": 13, "T": 901, "axes": 53, "seconds": 320.22637581825256}
+{"event": "chart", "infinity": 14, "T": 901, "axes": 53, "seconds": 349.22499680519104}
+{"event": "chart", "infinity": 15, "T": 901, "axes": 53, "seconds": 376.939240694046}
+{"event": "chart", "infinity": 16, "T": 901, "axes": 53, "seconds": 402.61278319358826}
+{"event": "chart", "infinity": 17, "T": 901, "axes": 53, "seconds": 427.4548692703247}
+{"event": "chart", "infinity": 18, "T": 901, "axes": 53, "seconds": 450.09192514419556}
+{"event": "chart", "infinity": 19, "T": 901, "axes": 53, "seconds": 472.3474371433258}
+{"event": "chart", "infinity": 20, "T": 901, "axes": 53, "seconds": 494.42485523223877}
+{"event": "chart", "infinity": 21, "T": 901, "axes": 53, "seconds": 518.3954441547394}
+{"event": "chart", "infinity": 22, "T": 901, "axes": 53, "seconds": 539.4741542339325}
+{"event": "chart", "infinity": 23, "T": 901, "axes": 53, "seconds": 561.9612805843353}
+{"event": "chart", "infinity": 24, "T": 901, "axes": 53, "seconds": 585.5205767154694}
+{"charts": 26, "cells": 1362, "positive": 0, "seconds": 600.1619806289673}

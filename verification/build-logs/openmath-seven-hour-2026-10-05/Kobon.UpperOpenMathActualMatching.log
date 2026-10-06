@@ -1,0 +1,3 @@
+'Kobon.UpperOpenMathActualMatching.certificate_neighbor_matching' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,4 @@
+'Kobon.OpenMathBoundaryVisibility.tangent_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathBoundaryVisibility.pair_visible_of_terminal_signs' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

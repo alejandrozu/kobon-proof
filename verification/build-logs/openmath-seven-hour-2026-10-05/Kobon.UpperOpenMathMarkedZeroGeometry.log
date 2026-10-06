@@ -1,0 +1,9 @@
+'Kobon.UpperOpenMathMarkedZeroGeometry.normalized_nonordinary_port_not_adjacent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathMarkedZeroGeometry.marked_poor_antipodal_neighbor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathMarkedZeroGeometry.unmarked_target_not_poor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

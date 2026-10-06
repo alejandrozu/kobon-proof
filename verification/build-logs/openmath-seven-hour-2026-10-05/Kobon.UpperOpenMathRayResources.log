@@ -1,0 +1,9 @@
+'Kobon.UpperOpenMathRayResources.inventory_core_endpoint_exact' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathRayResources.certificate_ray_resource_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathRayResources.certificate_defect_ray_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

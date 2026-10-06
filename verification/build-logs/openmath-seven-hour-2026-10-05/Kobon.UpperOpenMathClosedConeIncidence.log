@@ -1,0 +1,3 @@
+'Kobon.UpperOpenMathClosedConeIncidence.certificate_closed_two_anti_cone' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

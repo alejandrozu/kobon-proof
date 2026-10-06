@@ -1,0 +1,365 @@
+{
+  "author": "Alejandro Zarzuelo Urdiales",
+  "geometric_scope": "Actual simple real straight-line arrangements; lower bounds remain valid for unrestricted Kobon arrangements, upper-window optimality claims are scoped to simple arrangements",
+  "n": 61,
+  "T": 1190,
+  "visible_pairs": 28,
+  "axis_caps": 59,
+  "epsilon_interval": "0<epsilon<=1/100000000",
+  "parameter_grid": "actual tan(k*pi/60), k=1..29; final parameter epsilon",
+  "integer_grid_denominator": "100000000000000000000",
+  "seed_credit": "Rohith Poola point61:1190, pinned f462d8e18aea2a458376c523c9b6c2980237071f; independent reciprocal-slope refit supplies the compatible uniform seed",
+  "iteration_credit": "Bartholdi, Blanc, Loisel; existing genuine BBL geometry in this repository",
+  "novelty_scope": "Lean-certified compatible uniform seed and infinite q60 orbit; finite1190 count is not claimed new; wider numerical priority remains subject to source review",
+  "odd_native_roots": [
+    "OpenMathConstructionSeed61.directions_bool._native.native_decide.ax_1",
+    "OpenMathConstructionSeed61.distinguished_subset_bool._native.native_decide.ax_1",
+    "OpenMathConstructionSeed61.ordered_bool._native.native_decide.ax_1",
+    "OpenMathConstructionSeed61Fast.int_simple_bool._native.native_decide.ax_1",
+    "OpenMathConstructionSeed61Fast.int_triangles_bool._native.native_decide.ax_1"
+  ],
+  "even_native_roots": [
+    "OpenMathConstructionSeed61.directions_bool._native.native_decide.ax_1",
+    "OpenMathConstructionSeed61.distinguished_subset_bool._native.native_decide.ax_1",
+    "OpenMathConstructionSeed61.ordered_bool._native.native_decide.ax_1",
+    "OpenMathConstructionSeed61Fast.int_simple_bool._native.native_decide.ax_1",
+    "OpenMathConstructionSeed61Fast.int_triangles_bool._native.native_decide.ax_1",
+    "OpenMathConstructionSeed61.admissible_bool._native.native_decide.ax_1",
+    "OpenMathConstructionSeed61.visible_bool._native.native_decide.ax_1"
+  ],
+  "other_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "unpromoted_drafts": [
+    "OpenMathConstructionSparse.lean",
+    "OpenMathConstructionSeed61IntegerRaw.lean",
+    "OpenMathConstructionSeed61IntegerData.lean",
+    "OpenMathConstructionSeed61IntegerSimple.lean"
+  ],
+  "active_compiled_modules": [
+    {
+      "path": "Kobon/OpenMathConstructionBoolean.lean",
+      "sha256": "45d7cc7bd692b73fa9497ea8aa81a72815d380fce0e9e965f06f60015420d59e",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionRescale.lean",
+      "sha256": "df7a1bc8778218fe0b9480faed19f1af110a81a8d1a824236f37018c5b55b3d6",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionLineEquality.lean",
+      "sha256": "797ee6f87727e15dcd2a0f245172eb73daf36494650d6d268dd4ff389f5021ca",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionLineBEq.lean",
+      "sha256": "814473ec9f94f08dd8e36eb474a26bfa31f6c26433cf0f5191dbff0af7651976",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionSeed33Data.lean",
+      "sha256": "c04c233ee77860cae3b000c1fcfef4690a188563dfc487d28aa5ff7496332ca7",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionSeed33Simple.lean",
+      "sha256": "d28b8baf4e1df8e4e6c234b3e9fe21b93dc59249d0c5b1b9e76d45a000b92163",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionSeed33Checks.lean",
+      "sha256": "67868f2eaf98e6de042b916787261d150d9dbc9c52fe870dcb741c914f01c0a9",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionSeed33.lean",
+      "sha256": "7df9c03fb0d4b067cede7c34837faa57691cb85ed07b01a5f4e75108efae8b0e",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionSeed33Normalized.lean",
+      "sha256": "21fa4d9d83ae87e4875951d369176c2de5ba6a792b1ebb914a292b43c70648f3",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionSeed33Visible.lean",
+      "sha256": "10ff31fa625445fc5375c49c93b5350d81a6c831d1332410330bd9808141a05b",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionForgeFamily.lean",
+      "sha256": "e145cbff8a74f83f03e6628930497b3d931445c89259cc90ceb9e350f0d11f9f",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathBoundaryNormals.lean",
+      "sha256": "3a69ac5f15b2ceb716199f98b7912c3e06b1d78feb25458cfcdc7f49932da24c",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathBoundarySectors.lean",
+      "sha256": "225c557b86e41eed6bef5ccca120748c81ca0cff585dcf8ade797c08bc2f4a65",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathBoundaryChart.lean",
+      "sha256": "19713c9491153dfee08e25d49e0c93b01bcbacdcfeb5e969331a5fbb50c9f020",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathBoundarySectorGeometry.lean",
+      "sha256": "5abb72286a372d644eb0e94cfc982af4d3965d347818fc574b99d5ddf6a8b912",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathBoundarySignedSamples.lean",
+      "sha256": "0049a24fb2bd4696935bfd2cd36c91b4579f4bedaad229b19535bda2bc208119",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionSeed61IntegerFastRaw.lean",
+      "sha256": "cd2712aac40a290ba369882c660dfa8c7cf223c468c7c8b906405aa71ec4b480",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionSeed61Data.lean",
+      "sha256": "770503bb70dfa6fda6faade41a163880079aa5a05c6543dc7d55e8c46b4356b9",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionSeed61IntegerFastData.lean",
+      "sha256": "f291ebab434ddf97a1d6bc593584aa2b94f6d3f00c8e5195061518b3b8c82d42",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionSeed61IntegerFastSimple.lean",
+      "sha256": "37271af2b26f705e63c9c85f397b925460520fb54c9d8131855fe4a527749885",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionSeed61IntegerFastTriangles.lean",
+      "sha256": "246707aa46edbf7f5944cf2abc2b15f0bc72bc63cd960e36d37b73e49ca6d107",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionSeed61Simple.lean",
+      "sha256": "efa37c49a9a4dba6b9a217104b7613198f824acae9ce049a650763a5a14bb8a7",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionSeed61Triangles.lean",
+      "sha256": "7c159680efb7f719fe1166fecb5e416c2c0623f9a26031c444ddfd6bddf333bd",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionSeed61Checks.lean",
+      "sha256": "c3833cf41949f1a41b54f7d732f7836b416d847bc74ff34824ca3765966db8ad",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionSeed61.lean",
+      "sha256": "9076edda057e0e448c5a9fec687271cdb40fd2864b5e4df6276f4481680a34f7",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionSeed61Normalized.lean",
+      "sha256": "39727d4ac8d4525084137402e649390f0de1e7d7419378f326778199fa2e0156",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionSeed61Visible.lean",
+      "sha256": "cf3e9fcd496de1ede70b6982171ec599ecbbcb1b603391d58ec3160547e2a888",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionFamily61.lean",
+      "sha256": "4725fe510e23a679138e0ccc27c522ac80c2daf754b5c3a397a0250dd75b7221",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathAxisCapCone.lean",
+      "sha256": "9585d54df58ffbb360c41b7118130a095a774c4e7ed93b24fd34b05739541c48",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionPareto61IntegerFastRaw.lean",
+      "sha256": "5876a5fe4a9f82d76c362cc552ca3b28fc3b4e833076cd76acd78dfbe5f29139",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionPareto61Data.lean",
+      "sha256": "e60501be4bcfe6c4acae5112156232822f59dd9a81bd8131fb2de438824b41e5",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionPareto61IntegerFastData.lean",
+      "sha256": "443719cda1c7a1a1ac9ff17f684e8ce63a9c9f225c01771446477e7bf99da718",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionPareto61IntegerFastSimple.lean",
+      "sha256": "10a80a915b83c197e7c02c0dc7e8b7e8ab43667c49d1ee97162b7d6b0961b9ac",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionPareto61IntegerFastTriangles.lean",
+      "sha256": "3325ca3411eb2d784cc2cf38176b65367e431fffe117f7ffc18c3826e233f636",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionPareto61Simple.lean",
+      "sha256": "b240213e034a525f50c20967a8d5795108e4fcaddc376ac5e96eaba167351c60",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionPareto61Triangles.lean",
+      "sha256": "1dc69aa941549c11a8ab40415a8948d2f7898675d6350621a3deb7e5ebc89eb1",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionPareto61Checks.lean",
+      "sha256": "92cef73c0331659ff08b71b88be8946e00e4d45e6ec000a959e0bfecb48f68c3",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionPareto61.lean",
+      "sha256": "b12a2ea7442f17cbfdbe3d74c600c661d80a7188947f6beed7be3f99c2c303d1",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionPareto61Normalized.lean",
+      "sha256": "dba784ab924e0e93b203baa6e4020b3948fee5758e11e75ee6b319036587bc26",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionPareto61Visible.lean",
+      "sha256": "462894c4d7a88d948dd9c43fb7b1d73496a7be18a571a2d39fa65cc589710c93",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionParetoFamily61.lean",
+      "sha256": "e43bc279dc157472c2c8cb08730bb614186a84bd5291f9e5bb83d6145f61c01b",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionEnvelope.lean",
+      "sha256": "9163eacd509891b92f0f3ec5d695a711ff4e472a6927e4f114236e53bd04d9cb",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathParametricDual.lean",
+      "sha256": "b0c17bcdf995e79c83f4041514582315d5b45ef092bf2ee846c64b93e3fc6e36",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionSeed37IntegerFastRaw.lean",
+      "sha256": "75d5870d54cb67d48c63935ca2e21060de9110c13f82152fdb93bf726e8c9dfc",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionSeed37Data.lean",
+      "sha256": "e0c6749f57ce3bd78c2a0034752dcc42cd2c8535386d0f55804699e05b6923c1",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionSeed37IntegerFastData.lean",
+      "sha256": "927ba2f8609a4fe2dbdee3292d05cfce09e2d922c704daac67943245df4bd48d",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionSeed37IntegerFastSimple.lean",
+      "sha256": "0e615f126db67fd37641a1fee5858c3e3375be563271b91c2b2b05ca5aae0206",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionSeed37IntegerFastTriangles.lean",
+      "sha256": "13a60275c726f88e3b2c11be20252530c42231f9447ea861b80984534c50b207",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionSeed37Simple.lean",
+      "sha256": "e4fb02a4e70628488d5864c506ae11e7af56ed000666113a8e20aa9d1987b956",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionSeed37Triangles.lean",
+      "sha256": "f0c62953d3c9d4262d30ad2533f15cfa8c0a020604fff42ab806fd29a8ff2478",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionSeed37Checks.lean",
+      "sha256": "adfb4f1f2db4ebe01c16dc45b88ab05e28c16b6c8ae3f9c9be0ae471e203ece0",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionSeed37.lean",
+      "sha256": "2a70ec04cff2b42490c68761378c38191d6d5a767cc0a88510880c01067046fb",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionSeed37Normalized.lean",
+      "sha256": "2918f726d5a468abbf7493bc8d6a74be242b13bf7494db7ffce322a387e9d3ac",
+      "status": "Compiled PASS"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionFamily37.lean",
+      "sha256": "d0aba38dabe484c4a0bd7911d86e286ec1bd94f3c4090cdf8dfa08802cd94edc",
+      "status": "Compiled PASS"
+    }
+  ],
+  "pareto_improvement": {
+    "status": "Full Lean PASS",
+    "visible_pairs": 29,
+    "normal": [
+      "1",
+      "-8000441397/4000000000"
+    ],
+    "central_height_coefficient": "20000000000/8777037",
+    "right_slope": "10000000000/29500000091",
+    "source": "contestant61-pareto-sparse-uniform-box.json",
+    "epsilon_interval": "0<epsilon<=1/100000000",
+    "even_formula": "1200*4^t+30*2^t-11 at n=60*2^t+2",
+    "native_roots": [
+      "OpenMathConstructionPareto61.directions_bool._native.native_decide.ax_1",
+      "OpenMathConstructionPareto61.distinguished_subset_bool._native.native_decide.ax_1",
+      "OpenMathConstructionPareto61.ordered_bool._native.native_decide.ax_1",
+      "OpenMathConstructionPareto61.admissible_bool._native.native_decide.ax_1",
+      "OpenMathConstructionPareto61.visible_bool._native.native_decide.ax_1",
+      "OpenMathConstructionPareto61Fast.int_simple_bool._native.native_decide.ax_1",
+      "OpenMathConstructionPareto61Fast.int_triangles_bool._native.native_decide.ax_1"
+    ],
+    "simple_upper_gap": 10,
+    "prior_even_family_gain": 1,
+    "scope": "New stronger compatible uniform boundary resource and infinite even lower family; not a new finite record at61 or62"
+  },
+  "known_orbit37": {
+    "status": "Full Lean PASS",
+    "source": "contestant37-uniform-box.json",
+    "seed_T": 431,
+    "axis_caps": 35,
+    "epsilon_interval": "0<epsilon<=1/100000000",
+    "odd_formula": "432*4^t-1 at n=36*2^t+1",
+    "even_formula": "432*4^t-1+18*2^t at n=36*2^t+2",
+    "scope": "Known q18 numerical orbit credited to Parpalak-Utkin/Blanc; compatible fixed-slope source refit plus generic deficit-two successor verified here",
+    "simple_optimality": true,
+    "native_roots_both_parities": [
+      "OpenMathConstructionSeed37.directions_bool._native.native_decide.ax_1",
+      "OpenMathConstructionSeed37.distinguished_subset_bool._native.native_decide.ax_1",
+      "OpenMathConstructionSeed37.ordered_bool._native.native_decide.ax_1",
+      "OpenMathConstructionSeed37Fast.int_simple_bool._native.native_decide.ax_1",
+      "OpenMathConstructionSeed37Fast.int_triangles_bool._native.native_decide.ax_1"
+    ],
+    "tangent_bounds": "BBLTangent36Bounds, standard axioms only"
+  },
+  "all_n_envelope": {
+    "module": "Kobon/OpenMathConstructionEnvelope.lean",
+    "status": "Full Lean PASS",
+    "formula": "max RecursiveEnvelope(n), finite maxima of matching33/49/37/61 dyadic candidates",
+    "pointwise_retains_prior": true,
+    "quadratic_quality": "n^2 <=3*(bound(n)+n)",
+    "interpretation": "Certified portfolio lower formula for every natural order; neither a full-gain arbitrary successor rule nor a new leading asymptotic constant"
+  }
+}

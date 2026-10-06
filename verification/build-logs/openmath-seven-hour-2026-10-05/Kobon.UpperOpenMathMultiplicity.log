@@ -1,0 +1,14 @@
+'Kobon.UpperOpenMathMultiplicity.certificate_defect_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathMultiplicity.certificate_defect_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathMultiplicity.certificate_defect_all_with_nonshared' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathMultiplicity.certificate_defect_even_with_nonshared' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathMultiplicity.certificate_even_high_multiplicity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathMultiplicity.certificate_all_high_multiplicity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

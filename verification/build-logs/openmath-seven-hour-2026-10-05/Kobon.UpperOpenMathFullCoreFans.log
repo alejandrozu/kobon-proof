@@ -1,0 +1,7 @@
+'Kobon.UpperOpenMathFullCoreFans.core_full' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathFullCoreFans.certificate_full_core_neighbors_surround' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathFullCoreFans.certificate_closed_full_core_impossible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

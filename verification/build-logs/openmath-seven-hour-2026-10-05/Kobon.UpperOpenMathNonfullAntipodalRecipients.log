@@ -1,0 +1,6 @@
+'Kobon.UpperOpenMathNonfullAntipodalRecipients.certificate_nonfull_anti_degree_le_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathNonfullAntipodalRecipients.certificate_zero_cap_four_core_anti_degree_le_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,36 @@
+{
+  "scope": "Bounded floating multi-coordinate cone-ray search, no ceiling or verified bound claim",
+  "records": [
+    {
+      "rays": 10,
+      "events": 7855,
+      "accepted": 8,
+      "failures": 0,
+      "current": 1190,
+      "best": 1190,
+      "best_combined": 1218,
+      "archive": 2,
+      "elapsed": 3.372195243835449
+    },
+    {
+      "rays": 20,
+      "events": 10087,
+      "accepted": 18,
+      "failures": 0,
+      "current": 1189,
+      "best": 1190,
+      "best_combined": 1218,
+      "archive": 4,
+      "elapsed": 5.000459671020508
+    }
+  ],
+  "rays": 20,
+  "events": 10087,
+  "accepted": 18,
+  "failures": 0,
+  "current": 1189,
+  "best": 1190,
+  "best_combined": 1218,
+  "archive": 4,
+  "elapsed": 5.000459671020508
+}

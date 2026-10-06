@@ -1,0 +1,13 @@
+Kobon/UpperOpenMathMixedCapBudget.lean:173:33: warning: This simp argument is unused:
+  ite_true
+
+Hint: Omit it from the simp argument list.
+  simp only [̵h̵e̵,̵h̵h̵,̵h̵b̵,̵h̵k̵,̵i̵t̵e̵_̵t̵r̵u̵e̵,̵i̵t̵e̵_̵f̵a̵l̵s̵e̵,̵w̵,̵r̵p̵]̵[̲h̲e̲,̲ ̲h̲h̲,̲ ̲h̲b̲,̲ ̲h̲k̲,̲ ̲i̲t̲e̲_̲f̲a̲l̲s̲e̲,̲ ̲w̲,̲ ̲r̲p̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Kobon.UpperOpenMathMixedCapBudget.certificate_mixed_weighted_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathMixedCapBudget.certificate_mixed_core_defect' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

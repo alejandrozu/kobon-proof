@@ -1,0 +1,178 @@
+{
+  "results": [
+    {
+      "n": 8,
+      "vertices": 14,
+      "projective_triangles": 18,
+      "default_bounded": 14,
+      "noncontractible_three_cycles": 0,
+      "best_numerical_chart": {
+        "count": 14,
+        "phi": [
+          0,
+          0,
+          1
+        ]
+      },
+      "wrap_count_profile": {
+        "0": 14,
+        "2": 4
+      }
+    },
+    {
+      "n": 14,
+      "vertices": 39,
+      "projective_triangles": 56,
+      "default_bounded": 52,
+      "noncontractible_three_cycles": 0,
+      "best_numerical_chart": {
+        "count": 52,
+        "phi": [
+          0,
+          0,
+          1
+        ]
+      },
+      "wrap_count_profile": {
+        "0": 52,
+        "2": 4
+      }
+    },
+    {
+      "n": 18,
+      "vertices": 61,
+      "projective_triangles": 96,
+      "default_bounded": 90,
+      "noncontractible_three_cycles": 0,
+      "best_numerical_chart": {
+        "count": 90,
+        "phi": [
+          0,
+          0,
+          1
+        ]
+      },
+      "wrap_count_profile": {
+        "0": 90,
+        "2": 6
+      }
+    },
+    {
+      "n": 20,
+      "vertices": 76,
+      "projective_triangles": 118,
+      "default_bounded": 114,
+      "noncontractible_three_cycles": 0,
+      "best_numerical_chart": {
+        "count": 114,
+        "phi": [
+          0,
+          0,
+          1
+        ]
+      },
+      "wrap_count_profile": {
+        "0": 114,
+        "2": 4
+      }
+    },
+    {
+      "n": 26,
+      "vertices": 125,
+      "projective_triangles": 204,
+      "default_bounded": 200,
+      "noncontractible_three_cycles": 0,
+      "best_numerical_chart": {
+        "count": 200,
+        "phi": [
+          0,
+          0,
+          1
+        ]
+      },
+      "wrap_count_profile": {
+        "0": 200,
+        "2": 4
+      }
+    },
+    {
+      "n": 32,
+      "vertices": 186,
+      "projective_triangles": 314,
+      "default_bounded": 310,
+      "noncontractible_three_cycles": 0,
+      "best_numerical_chart": {
+        "count": 310,
+        "phi": [
+          0,
+          0,
+          1
+        ]
+      },
+      "wrap_count_profile": {
+        "0": 310,
+        "2": 4
+      }
+    },
+    {
+      "n": 38,
+      "vertices": 259,
+      "projective_triangles": 448,
+      "default_bounded": 444,
+      "noncontractible_three_cycles": 0,
+      "best_numerical_chart": {
+        "count": 444,
+        "phi": [
+          0,
+          0,
+          1
+        ]
+      },
+      "wrap_count_profile": {
+        "0": 444,
+        "2": 4
+      }
+    },
+    {
+      "n": 50,
+      "vertices": 441,
+      "projective_triangles": 788,
+      "default_bounded": 784,
+      "noncontractible_three_cycles": 0,
+      "best_numerical_chart": {
+        "count": 784,
+        "phi": [
+          0,
+          0,
+          1
+        ]
+      },
+      "wrap_count_profile": {
+        "0": 784,
+        "2": 4
+      }
+    },
+    {
+      "n": 60,
+      "vertices": 628,
+      "projective_triangles": 1146,
+      "default_bounded": 1140,
+      "noncontractible_three_cycles": 0,
+      "best_numerical_chart": {
+        "count": 1140,
+        "phi": [
+          0,
+          0,
+          1
+        ]
+      },
+      "wrap_count_profile": {
+        "0": 1140,
+        "2": 6
+      }
+    }
+  ],
+  "seconds": 2.1593072414398193,
+  "projective_trust": "Exact cyclic row incidence and edge-lift parity",
+  "chart_trust": "Floating preliminary chart count; no exact proposed chart or all-order improvement claimed"
+}

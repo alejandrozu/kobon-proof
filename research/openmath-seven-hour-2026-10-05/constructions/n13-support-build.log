@@ -1,0 +1,48 @@
+research/openmath-seven-hour-2026-10-05/constructions/N13SupportScratch.lean:77:27: error: unsolved goals
+n : ℕ
+L : ℕ → Line ℝ
+hL : NoParallel n L
+f : Sectors n 3 L
+z : ZMod 6
+hm : z - 1 ∈ f.triangular
+hz : z ∈ f.triangular
+posM : 0 < areaDet f.center (f.point (z - 1)) (f.point z)
+posZ : 0 < areaDet f.center (f.point z) (f.point (z + 1))
+nc : f.point z ≠ f.center
+inj : Function.Injective f.point
+triple : #(supports n L (f.point z)) = 3
+weakM : ∀ (i : Fin n), WeakSide (L ↑i) f.center (f.point (z - 1)) (f.point z)
+weakZ : ∀ (i : Fin n), WeakSide (L ↑i) f.center (f.point z) (f.point (z + 1))
+he : f.opposite (z - 1) = f.opposite z
+capM : affineEval (L ↑(f.opposite (z - 1))) (f.point (z - 1)) = 0
+capZ : affineEval (L ↑(f.opposite z)) (f.point z) = 0
+capP : affineEval (L ↑(f.opposite z)) (f.point (z + 1)) = 0
+capC : affineEval (L ↑(f.opposite z)) f.center ≠ 0
+col : areaDet (f.point (z - 1)) (f.point z) (f.point (z + 1)) = 0
+i : Fin n
+hi : i ∈ supports n L (f.point z)
+iq : affineEval (L ↑i) (f.point z) = 0
+ic : ¬affineEval (L ↑i) f.center = 0
+hsum :
+  areaDet f.center (f.point z) (f.point (z + 1)) * affineEval (L ↑i) (f.point (z - 1)) +
+      areaDet f.center (f.point (z - 1)) (f.point z) * affineEval (L ↑i) (f.point (z + 1)) =
+    0
+hprodM : 0 ≤ affineEval (L ↑i) f.center * affineEval (L ↑i) (f.point (z - 1))
+hprodZ : 0 ≤ affineEval (L ↑i) f.center * affineEval (L ↑i) (f.point (z + 1))
+hnonM :
+  0 ≤
+    areaDet f.center (f.point z) (f.point (z + 1)) * (affineEval (L ↑i) f.center * affineEval (L ↑i) (f.point (z - 1)))
+hnonZ :
+  0 ≤
+    areaDet f.center (f.point (z - 1)) (f.point z) * (affineEval (L ↑i) f.center * affineEval (L ↑i) (f.point (z + 1)))
+hp : affineEval (L ↑i) f.center * affineEval (L ↑i) (f.point (z - 1)) = 0
+ip : affineEval (L ↑i) (f.point (z - 1)) = 0
+eq : f.point (z - 1) = f.point z
+h✝ : z - 1 = z
+h : z - 1 = z
+this : 1 = 0
+⊢ False
+'Kobon.UpperOpenMathN13SupportScratch.selected_core_cap_ne' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,1426 @@
+{
+  "passed": true,
+  "tested": 173,
+  "distinct_orders": 50,
+  "conjecture": "For every even n>=4,6T<=n(2n-5)+6 for arbitrary real line-arrangement multiplicities",
+  "status": "No proof, only bounded sanity testing; no general upper theorem follows",
+  "tight_cases": [
+    {
+      "n": 38,
+      "T": 450,
+      "source": "Rohith66 point-count table; independent archive recounts, not rerun by this script",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 50,
+      "T": 792,
+      "source": "Rohith66 point-count table; independent archive recounts, not rerun by this script",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "source": "Kobon.Certificates.N014T00054Hd47aea63",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "source": "Kobon.Certificates.N014T00054H18bbcff4",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "source": "Kobon.Certificates.N014T00054H78f750c0",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "source": "Kobon.Certificates.N014T00054H912da8ec",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "source": "Kobon.Certificates.N014T00054H91349990",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "source": "Kobon.Certificates.N014T00054H9c871e10",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "source": "Kobon.Certificates.N014T00054Hb3dcae0b",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "source": "Kobon.Certificates.N014T00054H9219cdaa",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "source": "Kobon.Certificates.N014T00054Hd2babc1b",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "source": "Kobon.Certificates.N014T00054H2b34ca22",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "source": "Kobon.Certificates.N014T00054Hfa427b3d",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "source": "Kobon.Certificates.N014T00054H1ec1fd5c",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "source": "Kobon.Certificates.N014T00054H3e5d182f",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "source": "Kobon.Certificates.N014T00054H17f8c052",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "source": "Kobon.Certificates.N014T00054Hc472f972",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 8,
+      "T": 15,
+      "source": "Kobon.Certificates.N008T00015Ha1380810",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "source": "Kobon.Certificates.N014T00054H10576514",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 20,
+      "T": 117,
+      "source": "Kobon.Certificates.N020T00117H382171ac",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 26,
+      "T": 204,
+      "source": "Kobon.Certificates.N026T00204Hf71379c4",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 32,
+      "T": 315,
+      "source": "Kobon.Certificates.N032T00315H5914f2bb",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 38,
+      "T": 450,
+      "source": "Kobon.Certificates.N038T00450H8ba2bdb1",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 50,
+      "T": 792,
+      "source": "Kobon.Certificates.N050T00792H3d40cb58",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 8,
+      "T": 15,
+      "source": "Classical finite benchmark/literature count; no new priority assertion",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "source": "Classical finite benchmark/literature count; no new priority assertion",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 20,
+      "T": 117,
+      "source": "Classical finite benchmark/literature count; no new priority assertion",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 38,
+      "T": 450,
+      "source": "Classical finite benchmark/literature count; no new priority assertion",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 50,
+      "T": 792,
+      "source": "Classical finite benchmark/literature count; no new priority assertion",
+      "slack": 4,
+      "compatible": true
+    }
+  ],
+  "violations": [],
+  "cases": [
+    {
+      "n": 18,
+      "T": 93,
+      "source": "Rohith66 point-count table; independent archive recounts, not rerun by this script",
+      "slack": 6,
+      "compatible": true
+    },
+    {
+      "n": 38,
+      "T": 450,
+      "source": "Rohith66 point-count table; independent archive recounts, not rerun by this script",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 40,
+      "T": 494,
+      "source": "Rohith66 point-count table; independent archive recounts, not rerun by this script",
+      "slack": 42,
+      "compatible": true
+    },
+    {
+      "n": 44,
+      "T": 608,
+      "source": "Rohith66 point-count table; independent archive recounts, not rerun by this script",
+      "slack": 10,
+      "compatible": true
+    },
+    {
+      "n": 46,
+      "T": 667,
+      "source": "Rohith66 point-count table; independent archive recounts, not rerun by this script",
+      "slack": 6,
+      "compatible": true
+    },
+    {
+      "n": 48,
+      "T": 721,
+      "source": "Rohith66 point-count table; independent archive recounts, not rerun by this script",
+      "slack": 48,
+      "compatible": true
+    },
+    {
+      "n": 50,
+      "T": 792,
+      "source": "Rohith66 point-count table; independent archive recounts, not rerun by this script",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 52,
+      "T": 850,
+      "source": "Rohith66 point-count table; independent archive recounts, not rerun by this script",
+      "slack": 54,
+      "compatible": true
+    },
+    {
+      "n": 54,
+      "T": 927,
+      "source": "Rohith66 point-count table; independent archive recounts, not rerun by this script",
+      "slack": 6,
+      "compatible": true
+    },
+    {
+      "n": 56,
+      "T": 990,
+      "source": "Rohith66 point-count table; independent archive recounts, not rerun by this script",
+      "slack": 58,
+      "compatible": true
+    },
+    {
+      "n": 58,
+      "T": 1036,
+      "source": "Rohith66 point-count table; independent archive recounts, not rerun by this script",
+      "slack": 228,
+      "compatible": true
+    },
+    {
+      "n": 60,
+      "T": 1137,
+      "source": "Rohith66 point-count table; independent archive recounts, not rerun by this script",
+      "slack": 84,
+      "compatible": true
+    },
+    {
+      "n": 62,
+      "T": 1185,
+      "source": "Rohith66 point-count table; independent archive recounts, not rerun by this script",
+      "slack": 274,
+      "compatible": true
+    },
+    {
+      "n": 64,
+      "T": 1302,
+      "source": "Rohith66 point-count table; independent archive recounts, not rerun by this script",
+      "slack": 66,
+      "compatible": true
+    },
+    {
+      "n": 66,
+      "T": 1329,
+      "source": "Rohith66 point-count table; independent archive recounts, not rerun by this script",
+      "slack": 414,
+      "compatible": true
+    },
+    {
+      "n": 68,
+      "T": 1438,
+      "source": "Rohith66 point-count table; independent archive recounts, not rerun by this script",
+      "slack": 286,
+      "compatible": true
+    },
+    {
+      "n": 70,
+      "T": 1525,
+      "source": "Rohith66 point-count table; independent archive recounts, not rerun by this script",
+      "slack": 306,
+      "compatible": true
+    },
+    {
+      "n": 72,
+      "T": 1657,
+      "source": "Rohith66 point-count table; independent archive recounts, not rerun by this script",
+      "slack": 72,
+      "compatible": true
+    },
+    {
+      "n": 74,
+      "T": 1438,
+      "source": "Rohith66 point-count table; independent archive recounts, not rerun by this script",
+      "slack": 1960,
+      "compatible": true
+    },
+    {
+      "n": 76,
+      "T": 1540,
+      "source": "Rohith66 point-count table; independent archive recounts, not rerun by this script",
+      "slack": 1938,
+      "compatible": true
+    },
+    {
+      "n": 78,
+      "T": 1650,
+      "source": "Rohith66 point-count table; independent archive recounts, not rerun by this script",
+      "slack": 1884,
+      "compatible": true
+    },
+    {
+      "n": 80,
+      "T": 1767,
+      "source": "Rohith66 point-count table; independent archive recounts, not rerun by this script",
+      "slack": 1804,
+      "compatible": true
+    },
+    {
+      "n": 82,
+      "T": 1891,
+      "source": "Rohith66 point-count table; independent archive recounts, not rerun by this script",
+      "slack": 1698,
+      "compatible": true
+    },
+    {
+      "n": 84,
+      "T": 2021,
+      "source": "Rohith66 point-count table; independent archive recounts, not rerun by this script",
+      "slack": 1572,
+      "compatible": true
+    },
+    {
+      "n": 86,
+      "T": 2159,
+      "source": "Rohith66 point-count table; independent archive recounts, not rerun by this script",
+      "slack": 1414,
+      "compatible": true
+    },
+    {
+      "n": 88,
+      "T": 2307,
+      "source": "Rohith66 point-count table; independent archive recounts, not rerun by this script",
+      "slack": 1212,
+      "compatible": true
+    },
+    {
+      "n": 90,
+      "T": 2461,
+      "source": "Rohith66 point-count table; independent archive recounts, not rerun by this script",
+      "slack": 990,
+      "compatible": true
+    },
+    {
+      "n": 92,
+      "T": 2623,
+      "source": "Rohith66 point-count table; independent archive recounts, not rerun by this script",
+      "slack": 736,
+      "compatible": true
+    },
+    {
+      "n": 94,
+      "T": 2795,
+      "source": "Rohith66 point-count table; independent archive recounts, not rerun by this script",
+      "slack": 438,
+      "compatible": true
+    },
+    {
+      "n": 96,
+      "T": 2977,
+      "source": "Rohith66 point-count table; independent archive recounts, not rerun by this script",
+      "slack": 96,
+      "compatible": true
+    },
+    {
+      "n": 4,
+      "T": 2,
+      "source": "Kobon.Certificates.N004T00002H0e541bd5",
+      "slack": 6,
+      "compatible": true
+    },
+    {
+      "n": 6,
+      "T": 7,
+      "source": "Kobon.Certificates.N006T00007H6ea9ebaa",
+      "slack": 6,
+      "compatible": true
+    },
+    {
+      "n": 8,
+      "T": 14,
+      "source": "Kobon.Certificates.N008T00014H2a63f4d9",
+      "slack": 10,
+      "compatible": true
+    },
+    {
+      "n": 10,
+      "T": 25,
+      "source": "Kobon.Certificates.N010T00025Hb767c427",
+      "slack": 6,
+      "compatible": true
+    },
+    {
+      "n": 12,
+      "T": 38,
+      "source": "Kobon.Certificates.N012T00038H38f69f38",
+      "slack": 6,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 53,
+      "source": "Kobon.Certificates.N014T00053H45157b2f",
+      "slack": 10,
+      "compatible": true
+    },
+    {
+      "n": 16,
+      "T": 72,
+      "source": "Kobon.Certificates.N016T00072H391cf79a",
+      "slack": 6,
+      "compatible": true
+    },
+    {
+      "n": 18,
+      "T": 93,
+      "source": "Kobon.Certificates.N018T00093Hedb6246a",
+      "slack": 6,
+      "compatible": true
+    },
+    {
+      "n": 20,
+      "T": 116,
+      "source": "Kobon.Certificates.N020T00116Hadc03eed",
+      "slack": 10,
+      "compatible": true
+    },
+    {
+      "n": 22,
+      "T": 143,
+      "source": "Kobon.Certificates.N022T00143H54396c64",
+      "slack": 6,
+      "compatible": true
+    },
+    {
+      "n": 24,
+      "T": 172,
+      "source": "Kobon.Certificates.N024T00172He63e906b",
+      "slack": 6,
+      "compatible": true
+    },
+    {
+      "n": 26,
+      "T": 203,
+      "source": "Kobon.Certificates.N026T00203He61b423c",
+      "slack": 10,
+      "compatible": true
+    },
+    {
+      "n": 28,
+      "T": 238,
+      "source": "Kobon.Certificates.N028T00238H56ef2acb",
+      "slack": 6,
+      "compatible": true
+    },
+    {
+      "n": 30,
+      "T": 275,
+      "source": "Kobon.Certificates.N030T00275Hdcfe649a",
+      "slack": 6,
+      "compatible": true
+    },
+    {
+      "n": 32,
+      "T": 314,
+      "source": "Kobon.Certificates.N032T00314H9ab78b00",
+      "slack": 10,
+      "compatible": true
+    },
+    {
+      "n": 34,
+      "T": 357,
+      "source": "Kobon.Certificates.N034T00357Hfbde0a76",
+      "slack": 6,
+      "compatible": true
+    },
+    {
+      "n": 36,
+      "T": 402,
+      "source": "Kobon.Certificates.N036T00402H3fc01b7d",
+      "slack": 6,
+      "compatible": true
+    },
+    {
+      "n": 38,
+      "T": 449,
+      "source": "Kobon.Certificates.N038T00449H46ad5a32",
+      "slack": 10,
+      "compatible": true
+    },
+    {
+      "n": 40,
+      "T": 494,
+      "source": "Kobon.Certificates.N040T00494H785374ca",
+      "slack": 42,
+      "compatible": true
+    },
+    {
+      "n": 42,
+      "T": 553,
+      "source": "Kobon.Certificates.N042T00553H2bdc9d67",
+      "slack": 6,
+      "compatible": true
+    },
+    {
+      "n": 44,
+      "T": 608,
+      "source": "Kobon.Certificates.N044T00608Hb5277675",
+      "slack": 10,
+      "compatible": true
+    },
+    {
+      "n": 46,
+      "T": 667,
+      "source": "Kobon.Certificates.N046T00667H32b8ca2f",
+      "slack": 6,
+      "compatible": true
+    },
+    {
+      "n": 48,
+      "T": 720,
+      "source": "Kobon.Certificates.N048T00720H5e9767e7",
+      "slack": 54,
+      "compatible": true
+    },
+    {
+      "n": 50,
+      "T": 791,
+      "source": "Kobon.Certificates.N050T00791H2ea22b55",
+      "slack": 10,
+      "compatible": true
+    },
+    {
+      "n": 52,
+      "T": 850,
+      "source": "Kobon.Certificates.N052T00850H4b0d823a",
+      "slack": 54,
+      "compatible": true
+    },
+    {
+      "n": 54,
+      "T": 918,
+      "source": "Kobon.Certificates.N054T00918H915abb8e",
+      "slack": 60,
+      "compatible": true
+    },
+    {
+      "n": 56,
+      "T": 990,
+      "source": "Kobon.Certificates.N056T00990Hde8a415c",
+      "slack": 58,
+      "compatible": true
+    },
+    {
+      "n": 58,
+      "T": 1073,
+      "source": "Kobon.Certificates.N058T01073Hd988db55",
+      "slack": 6,
+      "compatible": true
+    },
+    {
+      "n": 60,
+      "T": 1140,
+      "source": "Kobon.Certificates.N060T01140H16af6d0b",
+      "slack": 66,
+      "compatible": true
+    },
+    {
+      "n": 12,
+      "T": 37,
+      "source": "Kobon.Certificates.N012T00037H8c718a33",
+      "slack": 12,
+      "compatible": true
+    },
+    {
+      "n": 6,
+      "T": 4,
+      "source": "Kobon.Certificates.N006T00004H7e060e9a",
+      "slack": 24,
+      "compatible": true
+    },
+    {
+      "n": 22,
+      "T": 142,
+      "source": "Kobon.Certificates.N022T00142He683945e",
+      "slack": 12,
+      "compatible": true
+    },
+    {
+      "n": 42,
+      "T": 552,
+      "source": "Kobon.Certificates.N042T00552H7b29a6bd",
+      "slack": 12,
+      "compatible": true
+    },
+    {
+      "n": 82,
+      "T": 2172,
+      "source": "Kobon.Certificates.N082T02172Hd75c9101",
+      "slack": 12,
+      "compatible": true
+    },
+    {
+      "n": 162,
+      "T": 8612,
+      "source": "Kobon.Certificates.N162T08612H1512e696",
+      "slack": 12,
+      "compatible": true
+    },
+    {
+      "n": 48,
+      "T": 715,
+      "source": "Kobon.Certificates.N048T00715Hba6f5baa",
+      "slack": 84,
+      "compatible": true
+    },
+    {
+      "n": 44,
+      "T": 602,
+      "source": "Kobon.Certificates.N044T00602H0b0250bf",
+      "slack": 46,
+      "compatible": true
+    },
+    {
+      "n": 48,
+      "T": 721,
+      "source": "Kobon.Certificates.N048T00721H2fb5ef0d",
+      "slack": 48,
+      "compatible": true
+    },
+    {
+      "n": 54,
+      "T": 919,
+      "source": "Kobon.Certificates.N054T00919Ha254c1b4",
+      "slack": 54,
+      "compatible": true
+    },
+    {
+      "n": 60,
+      "T": 1141,
+      "source": "Kobon.Certificates.N060T01141H9bc5096c",
+      "slack": 60,
+      "compatible": true
+    },
+    {
+      "n": 66,
+      "T": 1397,
+      "source": "Kobon.Certificates.N066T01397H327ecbb9",
+      "slack": 6,
+      "compatible": true
+    },
+    {
+      "n": 130,
+      "T": 5525,
+      "source": "Kobon.Certificates.N130T05525He0559b54",
+      "slack": 6,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "source": "Kobon.Certificates.N014T00054Hd47aea63",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "source": "Kobon.Certificates.N014T00054H18bbcff4",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "source": "Kobon.Certificates.N014T00054H78f750c0",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "source": "Kobon.Certificates.N014T00054H912da8ec",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "source": "Kobon.Certificates.N014T00054H91349990",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "source": "Kobon.Certificates.N014T00054H9c871e10",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "source": "Kobon.Certificates.N014T00054Hb3dcae0b",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "source": "Kobon.Certificates.N014T00054H9219cdaa",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "source": "Kobon.Certificates.N014T00054Hd2babc1b",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "source": "Kobon.Certificates.N014T00054H2b34ca22",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "source": "Kobon.Certificates.N014T00054Hfa427b3d",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "source": "Kobon.Certificates.N014T00054H1ec1fd5c",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "source": "Kobon.Certificates.N014T00054H3e5d182f",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "source": "Kobon.Certificates.N014T00054H17f8c052",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "source": "Kobon.Certificates.N014T00054Hc472f972",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 52,
+      "source": "Kobon.Certificates.N014T00052H2eb83dc2",
+      "slack": 16,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 53,
+      "source": "Kobon.Certificates.N014T00053H5e6068f5",
+      "slack": 10,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 52,
+      "source": "Kobon.Certificates.N014T00052Hb3f4749f",
+      "slack": 16,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 52,
+      "source": "Kobon.Certificates.N014T00052Hc6615430",
+      "slack": 16,
+      "compatible": true
+    },
+    {
+      "n": 8,
+      "T": 14,
+      "source": "Kobon.Certificates.N008T00014Hebff5868",
+      "slack": 10,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 51,
+      "source": "Kobon.Certificates.N014T00051Hd67e7a6b",
+      "slack": 22,
+      "compatible": true
+    },
+    {
+      "n": 20,
+      "T": 114,
+      "source": "Kobon.Certificates.N020T00114Hbc312fc8",
+      "slack": 22,
+      "compatible": true
+    },
+    {
+      "n": 26,
+      "T": 203,
+      "source": "Kobon.Certificates.N026T00203H5452b4ff",
+      "slack": 10,
+      "compatible": true
+    },
+    {
+      "n": 32,
+      "T": 313,
+      "source": "Kobon.Certificates.N032T00313H018f9fc6",
+      "slack": 16,
+      "compatible": true
+    },
+    {
+      "n": 38,
+      "T": 448,
+      "source": "Kobon.Certificates.N038T00448H7d59f504",
+      "slack": 16,
+      "compatible": true
+    },
+    {
+      "n": 50,
+      "T": 791,
+      "source": "Kobon.Certificates.N050T00791H6bde86a3",
+      "slack": 10,
+      "compatible": true
+    },
+    {
+      "n": 8,
+      "T": 15,
+      "source": "Kobon.Certificates.N008T00015Ha1380810",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "source": "Kobon.Certificates.N014T00054H10576514",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 20,
+      "T": 117,
+      "source": "Kobon.Certificates.N020T00117H382171ac",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 26,
+      "T": 204,
+      "source": "Kobon.Certificates.N026T00204Hf71379c4",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 32,
+      "T": 315,
+      "source": "Kobon.Certificates.N032T00315H5914f2bb",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 36,
+      "T": 402,
+      "source": "Kobon.Certificates.N036T00402Hce43a107",
+      "slack": 6,
+      "compatible": true
+    },
+    {
+      "n": 38,
+      "T": 450,
+      "source": "Kobon.Certificates.N038T00450H8ba2bdb1",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 42,
+      "T": 553,
+      "source": "Kobon.Certificates.N042T00553H9849e255",
+      "slack": 6,
+      "compatible": true
+    },
+    {
+      "n": 50,
+      "T": 792,
+      "source": "Kobon.Certificates.N050T00792H3d40cb58",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 6,
+      "T": 6,
+      "source": "Kobon.Certificates.N006T00006Haf8f599e",
+      "slack": 12,
+      "compatible": true
+    },
+    {
+      "n": 4,
+      "T": 2,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 6,
+      "compatible": true
+    },
+    {
+      "n": 6,
+      "T": 6,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 12,
+      "compatible": true
+    },
+    {
+      "n": 8,
+      "T": 14,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 10,
+      "compatible": true
+    },
+    {
+      "n": 10,
+      "T": 24,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 12,
+      "compatible": true
+    },
+    {
+      "n": 12,
+      "T": 36,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 18,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 52,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 16,
+      "compatible": true
+    },
+    {
+      "n": 16,
+      "T": 70,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 18,
+      "compatible": true
+    },
+    {
+      "n": 18,
+      "T": 90,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 24,
+      "compatible": true
+    },
+    {
+      "n": 20,
+      "T": 114,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 22,
+      "compatible": true
+    },
+    {
+      "n": 22,
+      "T": 140,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 24,
+      "compatible": true
+    },
+    {
+      "n": 24,
+      "T": 168,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 30,
+      "compatible": true
+    },
+    {
+      "n": 26,
+      "T": 200,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 28,
+      "compatible": true
+    },
+    {
+      "n": 28,
+      "T": 234,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 30,
+      "compatible": true
+    },
+    {
+      "n": 30,
+      "T": 270,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 36,
+      "compatible": true
+    },
+    {
+      "n": 32,
+      "T": 310,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 34,
+      "compatible": true
+    },
+    {
+      "n": 34,
+      "T": 352,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 36,
+      "compatible": true
+    },
+    {
+      "n": 36,
+      "T": 396,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 42,
+      "compatible": true
+    },
+    {
+      "n": 38,
+      "T": 444,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 40,
+      "compatible": true
+    },
+    {
+      "n": 40,
+      "T": 494,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 42,
+      "compatible": true
+    },
+    {
+      "n": 42,
+      "T": 546,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 48,
+      "compatible": true
+    },
+    {
+      "n": 44,
+      "T": 602,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 46,
+      "compatible": true
+    },
+    {
+      "n": 46,
+      "T": 660,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 48,
+      "compatible": true
+    },
+    {
+      "n": 48,
+      "T": 720,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 54,
+      "compatible": true
+    },
+    {
+      "n": 50,
+      "T": 784,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 52,
+      "compatible": true
+    },
+    {
+      "n": 52,
+      "T": 850,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 54,
+      "compatible": true
+    },
+    {
+      "n": 54,
+      "T": 918,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 60,
+      "compatible": true
+    },
+    {
+      "n": 56,
+      "T": 990,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 58,
+      "compatible": true
+    },
+    {
+      "n": 58,
+      "T": 1064,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 60,
+      "compatible": true
+    },
+    {
+      "n": 60,
+      "T": 1140,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 66,
+      "compatible": true
+    },
+    {
+      "n": 62,
+      "T": 1220,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 64,
+      "compatible": true
+    },
+    {
+      "n": 64,
+      "T": 1302,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 66,
+      "compatible": true
+    },
+    {
+      "n": 66,
+      "T": 1386,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 72,
+      "compatible": true
+    },
+    {
+      "n": 68,
+      "T": 1474,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 70,
+      "compatible": true
+    },
+    {
+      "n": 70,
+      "T": 1564,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 72,
+      "compatible": true
+    },
+    {
+      "n": 72,
+      "T": 1656,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 78,
+      "compatible": true
+    },
+    {
+      "n": 74,
+      "T": 1752,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 76,
+      "compatible": true
+    },
+    {
+      "n": 76,
+      "T": 1850,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 78,
+      "compatible": true
+    },
+    {
+      "n": 78,
+      "T": 1950,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 84,
+      "compatible": true
+    },
+    {
+      "n": 80,
+      "T": 2054,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 82,
+      "compatible": true
+    },
+    {
+      "n": 120,
+      "T": 4680,
+      "source": "Exact phase-zero FP chirotope checker",
+      "slack": 126,
+      "compatible": true
+    },
+    {
+      "n": 6,
+      "T": 7,
+      "source": "Classical finite benchmark/literature count; no new priority assertion",
+      "slack": 6,
+      "compatible": true
+    },
+    {
+      "n": 8,
+      "T": 15,
+      "source": "Classical finite benchmark/literature count; no new priority assertion",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 10,
+      "T": 25,
+      "source": "Classical finite benchmark/literature count; no new priority assertion",
+      "slack": 6,
+      "compatible": true
+    },
+    {
+      "n": 12,
+      "T": 38,
+      "source": "Classical finite benchmark/literature count; no new priority assertion",
+      "slack": 6,
+      "compatible": true
+    },
+    {
+      "n": 14,
+      "T": 54,
+      "source": "Classical finite benchmark/literature count; no new priority assertion",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 16,
+      "T": 72,
+      "source": "Classical finite benchmark/literature count; no new priority assertion",
+      "slack": 6,
+      "compatible": true
+    },
+    {
+      "n": 18,
+      "T": 93,
+      "source": "Classical finite benchmark/literature count; no new priority assertion",
+      "slack": 6,
+      "compatible": true
+    },
+    {
+      "n": 20,
+      "T": 117,
+      "source": "Classical finite benchmark/literature count; no new priority assertion",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 22,
+      "T": 143,
+      "source": "Classical finite benchmark/literature count; no new priority assertion",
+      "slack": 6,
+      "compatible": true
+    },
+    {
+      "n": 24,
+      "T": 172,
+      "source": "Classical finite benchmark/literature count; no new priority assertion",
+      "slack": 6,
+      "compatible": true
+    },
+    {
+      "n": 26,
+      "T": 203,
+      "source": "Classical finite benchmark/literature count; no new priority assertion",
+      "slack": 10,
+      "compatible": true
+    },
+    {
+      "n": 28,
+      "T": 238,
+      "source": "Classical finite benchmark/literature count; no new priority assertion",
+      "slack": 6,
+      "compatible": true
+    },
+    {
+      "n": 30,
+      "T": 275,
+      "source": "Classical finite benchmark/literature count; no new priority assertion",
+      "slack": 6,
+      "compatible": true
+    },
+    {
+      "n": 32,
+      "T": 311,
+      "source": "Classical finite benchmark/literature count; no new priority assertion",
+      "slack": 28,
+      "compatible": true
+    },
+    {
+      "n": 34,
+      "T": 357,
+      "source": "Classical finite benchmark/literature count; no new priority assertion",
+      "slack": 6,
+      "compatible": true
+    },
+    {
+      "n": 36,
+      "T": 397,
+      "source": "Classical finite benchmark/literature count; no new priority assertion",
+      "slack": 36,
+      "compatible": true
+    },
+    {
+      "n": 38,
+      "T": 450,
+      "source": "Classical finite benchmark/literature count; no new priority assertion",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 44,
+      "T": 608,
+      "source": "Classical finite benchmark/literature count; no new priority assertion",
+      "slack": 10,
+      "compatible": true
+    },
+    {
+      "n": 46,
+      "T": 667,
+      "source": "Classical finite benchmark/literature count; no new priority assertion",
+      "slack": 6,
+      "compatible": true
+    },
+    {
+      "n": 48,
+      "T": 721,
+      "source": "Classical finite benchmark/literature count; no new priority assertion",
+      "slack": 48,
+      "compatible": true
+    },
+    {
+      "n": 50,
+      "T": 792,
+      "source": "Classical finite benchmark/literature count; no new priority assertion",
+      "slack": 4,
+      "compatible": true
+    },
+    {
+      "n": 52,
+      "T": 850,
+      "source": "Classical finite benchmark/literature count; no new priority assertion",
+      "slack": 54,
+      "compatible": true
+    },
+    {
+      "n": 54,
+      "T": 927,
+      "source": "Classical finite benchmark/literature count; no new priority assertion",
+      "slack": 6,
+      "compatible": true
+    },
+    {
+      "n": 56,
+      "T": 990,
+      "source": "Classical finite benchmark/literature count; no new priority assertion",
+      "slack": 58,
+      "compatible": true
+    },
+    {
+      "n": 60,
+      "T": 1141,
+      "source": "Classical finite benchmark/literature count; no new priority assertion",
+      "slack": 60,
+      "compatible": true
+    }
+  ]
+}

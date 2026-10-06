@@ -1,0 +1,3 @@
+'Kobon.UpperOpenMathAntipodalThreeNeighbors.certificate_common_neighbor_card_le_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

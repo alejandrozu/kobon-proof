@@ -1,0 +1,10 @@
+{
+  "event": "finished",
+  "rays": 10,
+  "events": 3784,
+  "accepted": 10,
+  "failures": 0,
+  "current": 1187,
+  "best": 1190,
+  "elapsed": 0.6874046325683594
+}

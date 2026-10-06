@@ -1,0 +1,3 @@
+'Kobon.UpperOpenMathAntipodalFullNeighborPair.matched_full_neighbor_pair_impossible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

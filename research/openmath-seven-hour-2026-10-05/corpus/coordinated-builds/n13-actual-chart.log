@@ -1,0 +1,12 @@
+'Kobon.UpperOpenMathN13ActualChart.certificate_n13_chart' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathN13ActualChart.shift_chart_data' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathN13ActualChart.normalize_n13_chart' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathN13ActualChart.certificate_anti_neighbor_chart' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathN13ActualChart.certificate_chart_core_endpoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathN13ActualChart.certificate_chart_anti_nonadjacent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

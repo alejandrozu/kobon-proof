@@ -1,0 +1,39 @@
+Kobon/UpperOpenMathAntipodalConeIncidence.lean:45:43: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  (fun q => {c, q}) q
+in the target expression
+  p ∈ {c, q}
+
+β : Type u_1
+inst✝ : DecidableEq β
+c p q : β
+he : (fun q => {c, q}) p = (fun q => {c, q}) q
+⊢ p ∈ {c, q}
+Kobon/UpperOpenMathAntipodalConeIncidence.lean:46:43: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  (fun q => {c, q}) p
+in the target expression
+  q ∈ {c, p}
+
+β : Type u_1
+inst✝ : DecidableEq β
+c p q : β
+he : (fun q => {c, q}) p = (fun q => {c, q}) q
+hp : p ∈ {c, q}
+⊢ q ∈ {c, p}
+Kobon/UpperOpenMathAntipodalConeIncidence.lean:114:4: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  d ≥ 0
+  b ≥ 0
+  b + d ≤ 5
+  a ≥ 2
+where
+ a := ↑n
+ b := ↑(UpperOpenMathCapHeavyTriples.ordinaryDegree n L G c)
+ d := ↑(UpperOpenMathCapHeavyTriples.coreDegree n L G c)
+'Kobon.UpperOpenMathAntipodalConeIncidence.two_cone_edge_budget' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathAntipodalConeIncidence.certificate_two_anti_le_nonfull_cross_edges' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]

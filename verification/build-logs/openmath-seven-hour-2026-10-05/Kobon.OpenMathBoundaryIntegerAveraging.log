@@ -1,0 +1,6 @@
+'Kobon.OpenMathBoundaryIntegerAveraging.exists_ceiling_of_sum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.OpenMathBoundaryIntegerAveraging.exists_ceiling_selected_of_card_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

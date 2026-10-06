@@ -1,0 +1,4 @@
+'Kobon.OpenMathQuantitativeSuccessor.extension_of_boundary_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.OpenMathQuantitativeSuccessor.successor' depends on axioms: [propext, Classical.choice, Quot.sound]

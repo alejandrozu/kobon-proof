@@ -1,0 +1,18 @@
+'Kobon.UpperOpenMathAntipodalFullNeighborPair.matched_full_neighbor_pair_impossible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathAntipodalFullNeighborPair.certificate_any_triple_chart' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathAntipodalFullNeighborPair.chart_first_pair_not_full' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathAntipodalFullNeighborPair.chart_second_pair_not_full' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathAntipodalFullNeighborPair.chart_first_pair_not_full_triples' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathAntipodalFullNeighborPair.certificate_two_nonfull_or_higher_neighbors' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,24 @@
+'Kobon.UpperOpenMathOrdinaryCutParity.crossing_weight_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathOrdinaryCutParity.not_concurrent_of_triples' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathOrdinaryCutParity.common_positive_cut_ordinary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathOrdinaryCutParity.ordinary_endpoint_selectors' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathOrdinaryCutParity.triple_ordinary_crossing_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathOrdinaryCutParity.triple_even_ordinary_crossings_odd' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathOrdinaryCutParity.triple_even_no_ordinary_pair_partition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathOrdinaryCutParity.ordinary_crossings_common_side' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

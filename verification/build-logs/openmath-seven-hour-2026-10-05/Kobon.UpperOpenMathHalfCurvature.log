@@ -1,0 +1,9 @@
+'Kobon.UpperOpenMathHalfCurvature.certificate_recipient_le_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathHalfCurvature.certificate_triple_recipient_count_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathHalfCurvature.certificate_half_defect_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

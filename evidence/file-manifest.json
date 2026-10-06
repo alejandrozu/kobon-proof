@@ -8878,41 +8878,21 @@
       "bytes": 8865,
       "sha256": "519e9955ec1d7cdd387d7ad5ccccddf0412adc796a1349936086b8d2544ba803"
     },
-    "research/openmath-seven-hour-2026-10-05/corpus/scratch/Kobon/N13OrdinaryMiddleScratch.olean": {
-      "bytes": 312440,
-      "sha256": "ebd9a6559a18bea7dc0e7ad77bb60e2ad6b4742a9d1444307dc3fafa0c4682ea"
-    },
     "research/openmath-seven-hour-2026-10-05/corpus/scratch/Kobon/UpperOpenMathClosedDoubleRecipientCurvature.lean": {
       "bytes": 11564,
       "sha256": "00745d4bd95d9de5d7c4aaecb0fc3bb415e493c2a1e774ac9f443b2eadb2f757"
-    },
-    "research/openmath-seven-hour-2026-10-05/corpus/scratch/Kobon/UpperOpenMathClosedDoubleRecipientCurvature.olean": {
-      "bytes": 403920,
-      "sha256": "108b80d516356be6478f064cda8a348910672885dd5f1001cb4cd1dce3f2f532"
     },
     "research/openmath-seven-hour-2026-10-05/corpus/scratch/Kobon/UpperOpenMathN12Recipient.lean": {
       "bytes": 10715,
       "sha256": "f20d13173c94888e862aff35d170c9847b6af655457ddfbda74cb7a5773a6908"
     },
-    "research/openmath-seven-hour-2026-10-05/corpus/scratch/Kobon/UpperOpenMathN12Recipient.olean": {
-      "bytes": 385968,
-      "sha256": "630e3d92696a93852e8ee1265846283cffa4f82355cf190058ce5465eb023e6f"
-    },
     "research/openmath-seven-hour-2026-10-05/corpus/scratch/Kobon/UpperOpenMathN13ExtractionHelpers.lean": {
       "bytes": 3607,
       "sha256": "2ccba6b7f507c175adfe3aaabe89582f5b2b15db4041f860ed71c6aa1bc83743"
     },
-    "research/openmath-seven-hour-2026-10-05/corpus/scratch/Kobon/UpperOpenMathN13ExtractionHelpers.olean": {
-      "bytes": 154664,
-      "sha256": "7fa5e49c0f01e2820b591e0d0b080566e92d98ebc458f9131e610cfba76254ef"
-    },
     "research/openmath-seven-hour-2026-10-05/corpus/scratch/Kobon/UpperOpenMathN13OrdinaryActual.lean": {
       "bytes": 6939,
       "sha256": "4449127da3c53615f0072d11bc3b0d19e0998363b8d2fdb93faebc6c761bd0a8"
-    },
-    "research/openmath-seven-hour-2026-10-05/corpus/scratch/Kobon/UpperOpenMathN13OrdinaryActual.olean": {
-      "bytes": 265008,
-      "sha256": "4763618b265eb97d1f92e42a6602ceb5caa15280ea8d40bd427c355181a7790d"
     },
     "research/openmath-seven-hour-2026-10-05/corpus/seed61-variant-visibility.json": {
       "bytes": 544194,
@@ -12091,8 +12071,8 @@
       "sha256": "3cbd05854b908835e3f6bad3368696046eba14ee2bdefe446c840a6cbd48ab9c"
     },
     "scripts/evidence_manifest.py": {
-      "bytes": 2041,
-      "sha256": "87e6ec90ef9b46b63360395093e6559025769d8495450492dc475774f76e8a32"
+      "bytes": 2063,
+      "sha256": "d50a9bbad904653f0cf07a816f9d31b2d8ac4b060664ce14b50e11248c80c25b"
     },
     "scripts/generate_all_n.py": {
       "bytes": 6808,

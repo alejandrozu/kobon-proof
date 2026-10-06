@@ -12,7 +12,7 @@ def records():
     result={}
     for p in sorted(set(paths)):
         rel=p.relative_to(ROOT).as_posix()
-        if rel in EXCLUDED or '__pycache__' in p.parts or p.suffix=='.pyc':continue
+        if rel in EXCLUDED or '__pycache__' in p.parts or p.suffix in {'.pyc','.olean','.ilean'}:continue
         if rel.startswith('paper/') and 'build' in p.relative_to(ROOT/'paper').parts:continue
         if rel.startswith('manuscripts/') and 'build' in p.relative_to(ROOT/'manuscripts').parts:continue
         result[rel]=dict(bytes=p.stat().st_size,sha256=hashlib.sha256(p.read_bytes()).hexdigest())

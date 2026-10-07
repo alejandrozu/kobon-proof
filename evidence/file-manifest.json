@@ -1,6 +1,6 @@
 {
   "algorithm": "SHA-256",
-  "scope": "Stable source/evidence files, including frozen research logs and summaries. Regenerated verification/ build logs and timestamped summaries are excluded; lean-summary hashes its checked sources separately.",
+  "scope": "Versioned stable source/evidence files, including frozen research logs and summaries. Stage new evidence before regeneration. Untracked work, compiler products, regenerated verification/ build logs and timestamped summaries are excluded; lean-summary hashes its checked sources separately.",
   "files": {
     ".gitattributes": {
       "bytes": 151,
@@ -4099,12 +4099,12 @@
       "sha256": "5876a5fe4a9f82d76c362cc552ca3b28fc3b4e833076cd76acd78dfbe5f29139"
     },
     "Kobon/OpenMathConstructionPareto61IntegerFastSimple.lean": {
-      "bytes": 568,
-      "sha256": "10a80a915b83c197e7c02c0dc7e8b7e8ab43667c49d1ee97162b7d6b0961b9ac"
+      "bytes": 388,
+      "sha256": "f153c1187ac026f8a7393a182c421d948828151fb27398c36d5ab406430c97f1"
     },
     "Kobon/OpenMathConstructionPareto61IntegerFastTriangles.lean": {
-      "bytes": 665,
-      "sha256": "3325ca3411eb2d784cc2cf38176b65367e431fffe117f7ffc18c3826e233f636"
+      "bytes": 480,
+      "sha256": "3794773720364c697e0660bbafd28969942098baa68b0e3e16270f1ad064361e"
     },
     "Kobon/OpenMathConstructionPareto61Normalized.lean": {
       "bytes": 3709,
@@ -4175,12 +4175,12 @@
       "sha256": "75d5870d54cb67d48c63935ca2e21060de9110c13f82152fdb93bf726e8c9dfc"
     },
     "Kobon/OpenMathConstructionSeed37IntegerFastSimple.lean": {
-      "bytes": 561,
-      "sha256": "0e615f126db67fd37641a1fee5858c3e3375be563271b91c2b2b05ca5aae0206"
+      "bytes": 382,
+      "sha256": "d1c53e285c550aca2356d18fa6e98be779808506c693a51bfc038fdc96023c56"
     },
     "Kobon/OpenMathConstructionSeed37IntegerFastTriangles.lean": {
-      "bytes": 655,
-      "sha256": "13a60275c726f88e3b2c11be20252530c42231f9447ea861b80984534c50b207"
+      "bytes": 470,
+      "sha256": "1ca6410459900229de886c9e552b64ec9657617b675cee80c5372f2a9237d62f"
     },
     "Kobon/OpenMathConstructionSeed37Normalized.lean": {
       "bytes": 3716,
@@ -4215,12 +4215,12 @@
       "sha256": "cd2712aac40a290ba369882c660dfa8c7cf223c468c7c8b906405aa71ec4b480"
     },
     "Kobon/OpenMathConstructionSeed61IntegerFastSimple.lean": {
-      "bytes": 551,
-      "sha256": "37271af2b26f705e63c9c85f397b925460520fb54c9d8131855fe4a527749885"
+      "bytes": 382,
+      "sha256": "048a22d921507485e896d469f778995197c45f0b41d056187e6c07c5297b69ac"
     },
     "Kobon/OpenMathConstructionSeed61IntegerFastTriangles.lean": {
-      "bytes": 643,
-      "sha256": "246707aa46edbf7f5944cf2abc2b15f0bc72bc63cd960e36d37b73e49ca6d107"
+      "bytes": 470,
+      "sha256": "ed5a78f1b7387bb0cfb54c0252c9037a7792e2507d0d325edbbe3680666991f5"
     },
     "Kobon/OpenMathConstructionSeed61Normalized.lean": {
       "bytes": 3658,
@@ -9067,8 +9067,8 @@
       "sha256": "a7a311cdb2bc01298c76258561f71787f8cc09d1c31722ddd4298c7e631cb122"
     },
     "research/openmath-seven-hour-2026-10-05/README.md": {
-      "bytes": 30375,
-      "sha256": "632a7e75aef6b40e0617505a27529cfbf8cf554bfdcc644a0fd60338b012b118"
+      "bytes": 30399,
+      "sha256": "368c2f4e4b0fe367bf699685565e00e443e0735ea10d977860a84697b98de85d"
     },
     "research/openmath-seven-hour-2026-10-05/RELEASE_VERIFICATION.json": {
       "bytes": 1701,
@@ -12115,8 +12115,8 @@
       "sha256": "3cbd05854b908835e3f6bad3368696046eba14ee2bdefe446c840a6cbd48ab9c"
     },
     "scripts/evidence_manifest.py": {
-      "bytes": 2063,
-      "sha256": "d50a9bbad904653f0cf07a816f9d31b2d8ac4b060664ce14b50e11248c80c25b"
+      "bytes": 2305,
+      "sha256": "0891a90afc5c7868167d7b9b4c059229b01661d1b9786ce11009fcd51aaeeb16"
     },
     "scripts/generate_all_n.py": {
       "bytes": 6808,

@@ -36,8 +36,8 @@ Blanc and Loisel. An absolute first-in-literature claim for the numerical
 orbit is not established by the bounded source review.
 
 Relative to the previously verified quadratic baseline
-`G(n)=floor(n(n−3)/3)+1+(n mod 2)` for `n≥3` in this repository
-(the executable baseline is zero at `n<3`):
+`G(n)=floor(n(n−3)/3)+1+(n mod 2)` for `n≥4` in this repository
+(the executable baseline is zero at `n<3` and equals one at `n=3`):
 
 | Lines | Baseline G | New family bound | Improvement over G |
 |---:|---:|---:|---:|

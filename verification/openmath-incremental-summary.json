@@ -1,6 +1,6 @@
 {
   "checked_at_utc": "2026-10-06T04:54:51.322489+00:00",
-  "complete": true,
+  "complete": false,
   "mode": "incremental-hash-pinned-baseline-plus-direct-compilation",
   "baseline": "git:112409e2c62b78ecff7adcad49f1e014ea5f0773",
   "baseline_sha256": "86e44c6e0577b9487a10d63c243a587d109edacc90cf68bb645d51d56fef0cc7",
@@ -6547,5 +6547,6 @@
     "Kobon/UpperTriangleIncidence.lean": "53317cf09a269ddfcbb337f3e5984e91f5e73e278dbff9a8ef9de06e4531703f",
     "Kobon/UpperTripleFan.lean": "2ffd6fd6f0fe7213b36607182c07b56235dc08ba6c1f69436138babdbfbed02b",
     "Kobon/UpperVertexBudget.lean": "770e6acfe6b37dfa9d63b069cb6068562c56aa11ce88b3fcedacd6bf066b4f6b"
-  }
+  },
+  "status_note": "Fresh replay in progress after removal of diagnostic file writes; mathematical proof statements unchanged."
 }

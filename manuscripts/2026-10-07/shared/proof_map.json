@@ -3,10 +3,15 @@
   "math_commit": "f44f23ee062a255f5cad7d39188fd55c0feb83a8",
   "scope": "Updated claim-to-source and coverage audit for both October manuscripts. Preserves all 89 historical and all 160 October 3 claim identities, and all 138 finite coordinate identities. Completed Lean, conditional Lean, ordinary arguments, external exact computations and unfinished drafts are distinguished; manuscript editing adds no Lean theorem.",
   "latest_confirmed_proof_ci": {
-    "commit": "2d69a71e32d3eaa59399b0e5bc61720ec3b00ac8",
-    "run": 37056093885,
+    "commit": "fc45f5213e6382c1304760f5227ba8affc8bd2f7",
+    "mathematical_source_commit": "f44f23ee062a255f5cad7d39188fd55c0feb83a8",
+    "run": 37620972643,
     "conclusion": "success",
-    "url": "https://github.com/alejandrozu/kobon-proof/actions/runs/37056093885"
+    "scope": "Source-equivalent clean Lean receipt plus separate corrected exact replays and manuscript checks",
+    "lean_build_run": 37613706987,
+    "original_lean_workflow_conclusion": "failure",
+    "url": "https://github.com/alejandrozu/kobon-proof/actions/runs/37620972643",
+    "lean_build_url": "https://github.com/alejandrozu/kobon-proof/actions/runs/37613706987"
   },
   "claims": [
     {
@@ -4557,7 +4562,7 @@
       "id": "oct:release",
       "title": "Complete active-source build and trust audit",
       "status": "verification-metadata",
-      "scope": "Current local verification covers 638 active sources in incremental-hash-pinned-baseline-plus-direct-compilation mode, with 9058 audited theorems: 8046 standard-only and 1012 explicit finite-native descendants. Baseline reuse and clean CI are reported separately. This is implementation provenance, not a count of new mathematical discoveries. Local summary complete=True; no passing final CI is inferred from that field.",
+      "scope": "Current local verification covers 638 active sources in incremental-hash-pinned-baseline-plus-direct-compilation mode, with 9058 audited theorems: 8046 standard-only and 1012 explicit finite-native descendants. Baseline reuse and clean CI are reported separately. This is implementation provenance, not a count of new mathematical discoveries. Local summary complete=True. The separately confirmed publication workflow 37620972643 checks the source-equivalent clean Lean receipt from 37613706987 and completes the corrected exact replays and manuscript checks. The original Lean workflow's overall conclusion remains failure: its clean Lean/audit/coordinate/interval steps passed, but the later old export parser failed.",
       "refs": [
         {
           "path": "verification/lean-summary.json",

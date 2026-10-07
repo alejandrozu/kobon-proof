@@ -83,8 +83,13 @@ def generate():
                 "Preserves all 89 historical and all 160 October 3 claim identities, and all 138 finite coordinate identities. "
                 "Completed Lean, conditional Lean, ordinary arguments, external exact computations "
                 "and unfinished drafts are distinguished; manuscript editing adds no Lean theorem.")
-    data["latest_confirmed_proof_ci"] = dict(commit="2d69a71e32d3eaa59399b0e5bc61720ec3b00ac8", run=37056093885,
-        conclusion="success", url="https://github.com/alejandrozu/kobon-proof/actions/runs/37056093885")
+    data["latest_confirmed_proof_ci"] = dict(
+        commit="fc45f5213e6382c1304760f5227ba8affc8bd2f7", mathematical_source_commit=PIN,
+        run=37620972643, conclusion="success",
+        scope="Source-equivalent clean Lean receipt plus separate corrected exact replays and manuscript checks",
+        lean_build_run=37613706987, original_lean_workflow_conclusion="failure",
+        url="https://github.com/alejandrozu/kobon-proof/actions/runs/37620972643",
+        lean_build_url="https://github.com/alejandrozu/kobon-proof/actions/runs/37613706987")
     summary = json.loads(read("verification/lean-summary.json"))
     audit = summary["whole_project_axiom_audit"]
     data["proof_verification"] = dict(complete=summary["complete"], mode=summary["mode"],
@@ -380,7 +385,11 @@ def generate():
         f"{audit['standard_axioms_only']} standard-only and {audit['native_evaluation_dependent']} "
         "explicit finite-native descendants. Baseline reuse and clean CI are reported separately. "
         "This is implementation provenance, not a count of new mathematical discoveries. "
-        f"Local summary complete={summary['complete']}; no passing final CI is inferred from that field.",
+        f"Local summary complete={summary['complete']}. The separately confirmed publication "
+        "workflow 37620972643 checks the source-equivalent clean Lean receipt from 37613706987 "
+        "and completes the corrected exact replays and manuscript checks. The original Lean "
+        "workflow's overall conclusion remains failure: its clean Lean/audit/coordinate/interval "
+        "steps passed, but the later old export parser failed.",
         artifact("verification/lean-summary.json")+
         artifact("research/openmath-seven-hour-2026-10-05/RELEASE_VERIFICATION.json"))
 
@@ -483,9 +492,16 @@ def generate():
            f"{audit['theorems']} theorem declarations ({audit['standard_axioms_only']} standard-only, "
            f"{audit['native_evaluation_dependent']} finite-native descendants). "
            f"Local mode: `{summary['mode']}`; complete: `{summary['complete']}`. "
-           "Unchanged baseline source/import closures are reused. The last confirmed CI listed in the JSON "
-           "is identified by its own commit; a successful older run is not attributed to this mathematical pin. "
-           "These are audit counts, not mathematical-discovery counts.", "",
+           "Unchanged baseline source/import closures are reused locally. These are audit counts, "
+           "not mathematical-discovery counts.", "",
+           f"The [successful publication workflow]({data['latest_confirmed_proof_ci']['url']}) "
+           "at `fc45f5213e6382c1304760f5227ba8affc8bd2f7` verifies that all 638 mathematical "
+           f"source hashes match `{PIN}`, accepts the clean Lean/audit/coordinate/interval receipt "
+           "from [run 37613706987](https://github.com/alejandrozu/kobon-proof/actions/runs/37613706987), "
+           "and passes the separately corrected exact replays and manuscript checks. "
+           "The original run's **overall conclusion was failure** because the later old 49-line export "
+           "parser failed; its successful proof steps are not relabeled as an overall successful workflow. "
+           "The JSON records both runs and the precise composite verification scope.", "",
            "The [machine-readable map](proof_map.json) binds every declaration line to its source SHA-256 "
            "and immutable Git blob. Rebuild with `python manuscripts/2026-10-07/shared/build_proof_map.py`; "
            "validate without editing with `python manuscripts/2026-10-07/shared/validate_proof_map.py`.", "",

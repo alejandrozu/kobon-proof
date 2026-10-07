@@ -10,8 +10,13 @@ Lean theorem or every earlier numerical value was a new record.
 The [proof map](proof_map.md) preserves all 89 historical and all 160 October 3
 claim IDs, and all 138 coordinate identities, of which 104 have simple witnesses.
 Mathematical sources are frozen at `f44f23ee062a255f5cad7d39188fd55c0feb83a8`;
-verification metadata records its own revision and replay scope. A source link
-or map-validation pass does not itself establish a successful clean CI build.
+verification metadata records its own revision and replay scope. The
+[successful publication workflow 37620972643](https://github.com/alejandrozu/kobon-proof/actions/runs/37620972643)
+at `fc45f5213e6382c1304760f5227ba8affc8bd2f7` verifies all 638 source hashes,
+checks the clean proof-step receipt from 37613706987, and completes corrected
+exact replays and manuscript checks. Run 37613706987's overall conclusion
+remains **failure** because the later old export parser failed. A source link
+or map-validation pass alone is not a substitute for this composite evidence.
 
 ## Contributions retained from the earlier papers
 

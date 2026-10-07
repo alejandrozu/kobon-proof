@@ -7,10 +7,10 @@ and the completed October 5–6 research. Earlier sources and PDFs remain in
 [`paper/`](../../paper/README.md) and
 [`manuscripts/2026-10-03/`](../2026-10-03/README.md).
 
-- [Comprehensive edition](long/Kobon_comprehensive_2026-10-07.pdf): detailed
+- [Comprehensive edition](long/Kobon_comprehensive_2026-10-07.pdf), **88 pages with 21 scientific figures and 35 references**: detailed
   proofs, source comparison, all 138 finite coordinate identities, the 3–60
   inventory, scientific figures, exact experiments and remaining research.
-- [Journal edition](journal/Kobon_journal_2026-10-07.pdf): a concise article
+- [Journal edition](journal/Kobon_journal_2026-10-07.pdf), **15 pages including references and proof index**: a concise article
   with readable proofs, attribution, references and clickable theorem roots.
   The supplied 11-point, 25 mm-margin layout is limited to 15 pages including
   references; the actual page count is recorded in its compilation report.
@@ -75,8 +75,15 @@ The completed local replay covers 638 active modules and audits 9,058 theorem
 declarations: 8,046 use standard axioms only and 1,012 additionally descend
 from explicit finite native-evaluation roots. Its evidence is frozen at
 [`af74635d8b25b32703088460bc41854bb18e1a05`](https://github.com/alejandrozu/kobon-proof/blob/af74635d8b25b32703088460bc41854bb18e1a05/verification/lean-summary.json).
-The shared JSON records any confirmed clean CI run by its own commit;
-the historical successful run is not attributed to the new mathematical pin.
+The [successful publication workflow, run 37620972643](https://github.com/alejandrozu/kobon-proof/actions/runs/37620972643),
+at `fc45f5213e6382c1304760f5227ba8affc8bd2f7`, verifies that all 638 active
+Lean source hashes match the mathematical pin. It checks the clean
+Lean/audit/coordinate/interval receipt from
+[run 37613706987](https://github.com/alejandrozu/kobon-proof/actions/runs/37613706987)
+and passes the separately repaired exact replays, generators and manuscript
+checks. The original run's **overall conclusion remains failure**: those
+proof steps passed, but its later old 49-line export parser failed.
+The shared JSON records both runs and this exact composite scope.
 
 The incremental local replay records 265 directly compiled modules and reuses
 373 unchanged source/import closures from the hash-pinned verified baseline,

@@ -1,14 +1,19 @@
 {
   "passed": true,
-  "publication_ready": false,
+  "publication_ready": true,
   "date": "2026-10-07",
   "math_commit": "f44f23ee062a255f5cad7d39188fd55c0feb83a8",
   "verification_commit": "af74635d8b25b32703088460bc41854bb18e1a05",
   "proof_ci": {
-    "commit": "2d69a71e32d3eaa59399b0e5bc61720ec3b00ac8",
-    "run": 37056093885,
+    "commit": "fc45f5213e6382c1304760f5227ba8affc8bd2f7",
+    "mathematical_source_commit": "f44f23ee062a255f5cad7d39188fd55c0feb83a8",
+    "run": 37620972643,
     "conclusion": "success",
-    "url": "https://github.com/alejandrozu/kobon-proof/actions/runs/37056093885"
+    "scope": "Source-equivalent clean Lean receipt plus separate corrected exact replays and manuscript checks",
+    "lean_build_run": 37613706987,
+    "original_lean_workflow_conclusion": "failure",
+    "url": "https://github.com/alejandrozu/kobon-proof/actions/runs/37620972643",
+    "lean_build_url": "https://github.com/alejandrozu/kobon-proof/actions/runs/37613706987"
   },
   "checked_lean_sources": 638,
   "axiom_audit": {

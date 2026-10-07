@@ -1,6 +1,6 @@
 # Manuscript release verification - 7 October 2026
 
-Both updated editions compile and have been visually reviewed. The clean proof CI is still running; this intermediate report does not claim publication readiness.
+Both updated editions compile and have been visually reviewed. [Publication workflow 37620972643](https://github.com/alejandrozu/kobon-proof/actions/runs/37620972643) passed every publication check. It verifies source-equivalence to the already successful clean Lean build and audit, then independently runs the corrected exact-data replays, generators, evidence hashes and document checks.
 
 | Check | Comprehensive | Journal |
 |---|---:|---:|
@@ -39,4 +39,4 @@ long: d56f87ce5989dec24e0b58700e9d49fadd2e75b64d19420204375a681cd49f81
 journal: 7b3ff0bde1a5cd3083eafab2d8d87c9a9dc98e4ce4f7d4f1be8c588c19bc7221
 ```
 
-The final release validator must be run without `--allow-pending-ci` after the exact mathematical pin passes the clean workflow.
+The original workflow 37613706987 passed its clean Lean build, axiom audit, coordinate checks and interval checks, but its overall conclusion remains failure because its old export parser no longer matched the split source files. The parser was repaired without weakening its exact assertions. The successful separate publication workflow verifies all 638 current Lean source hashes against that clean receipt and reruns every remaining check. This composite status is recorded explicitly, rather than relabelling the original workflow. The final release validator is run without `--allow-pending-ci`.

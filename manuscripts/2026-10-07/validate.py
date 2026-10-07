@@ -26,7 +26,7 @@ def main():
     proof_map=json.loads((HERE/'shared/proof_map.json').read_text(encoding='utf-8'))
     assert proof_map['math_commit']==PIN
     ci=proof_map.get('latest_confirmed_proof_ci',{})
-    ci_passed=ci.get('commit')==PIN and ci.get('conclusion')=='success'
+    ci_passed=ci.get('mathematical_source_commit',ci.get('commit'))==PIN and ci.get('conclusion')=='success'
     if not args.allow_pending_ci:assert ci_passed,'The exact source pin has not yet passed clean proof CI.'
     names=subprocess.check_output(['git','ls-tree','-r','--name-only',BASELINE,'--','manuscripts/2026-10-03','paper/Kobon_triangle_constructions.pdf','paper/journal/Kobon_journal_version.pdf'],cwd=ROOT,text=True).splitlines()
     old={}

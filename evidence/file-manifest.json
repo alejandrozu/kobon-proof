@@ -7,8 +7,8 @@
       "sha256": "20965459e6e640ad14629653942f0ee20c234f3ab662ca17112567c3e320609c"
     },
     ".github/workflows/publication_checks.yml": {
-      "bytes": 2298,
-      "sha256": "11d86ff6e033758923eb3e5f97e5ebc9049c8639fae0255ddd2f25431e9f17d7"
+      "bytes": 2323,
+      "sha256": "fbe8f5d7843e29d980b48b420551d5a943be5bc6e8ae985ad5b24583330d17db"
     },
     ".github/workflows/verify.yml": {
       "bytes": 2490,

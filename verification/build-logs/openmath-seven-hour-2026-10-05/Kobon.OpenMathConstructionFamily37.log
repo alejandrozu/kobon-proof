@@ -1,0 +1,42 @@
+Kobon/OpenMathConstructionFamily37.lean:75:46: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/OpenMathConstructionFamily37.lean:113:41: warning: This simp argument is unused:
+  Nat.add_mod
+
+Hint: Omit it from the simp argument list.
+  simp [̵q̵,̵N̵a̵t̵.̵a̵d̵d̵_̵m̵o̵d̵,̵N̵a̵t̵.̵m̵u̵l̵_̵m̵o̵d̵]̵[̲q̲,̲ ̲N̲a̲t̲.̲m̲u̲l̲_̲m̲o̲d̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Kobon.OpenMathConstructionFamily37.uniform_seed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ OpenMathConstructionSeed37.directions_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed37.distinguished_subset_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed37.ordered_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed37Fast.int_simple_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed37Fast.int_triangles_bool._native.native_decide.ax_1]
+'Kobon.OpenMathConstructionFamily37.odd_family' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ OpenMathConstructionSeed37.directions_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed37.distinguished_subset_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed37.ordered_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed37Fast.int_simple_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed37Fast.int_triangles_bool._native.native_decide.ax_1]
+'Kobon.OpenMathConstructionFamily37.even_family' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ OpenMathConstructionSeed37.directions_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed37.distinguished_subset_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed37.ordered_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed37Fast.int_simple_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed37Fast.int_triangles_bool._native.native_decide.ax_1]
+'Kobon.OpenMathConstructionFamily37.even_optimal_in_simple_arrangements' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ OpenMathConstructionSeed37.directions_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed37.distinguished_subset_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed37.ordered_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed37Fast.int_simple_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed37Fast.int_triangles_bool._native.native_decide.ax_1]

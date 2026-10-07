@@ -1,0 +1,24 @@
+Kobon/UpperOpenMathAntipodalAdjacency.lean:118:4: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Kobon/UpperOpenMathAntipodalAdjacency.lean:130:35: warning: Variable name `left` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'Kobon.UpperOpenMathAntipodalAdjacency.normalized_pair_incompatible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathAntipodalAdjacency.charts_neighbor_matching' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathAntipodalAdjacency.charts_not_adjacent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathAntipodalAdjacency.certificate_unmarked_full_not_adjacent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathAntipodalAdjacency.certificate_unmarked_incidence_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathAntipodalAdjacency.certificate_four_times_unmarked_card' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,42 @@
+Kobon/UpperOpenMathActualFans.lean:55:0: warning: automatically included section variable(s) unused in theorem `Kobon.UpperOpenMathActualFans.fan_positive`:
+  [Fintype α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Kobon/UpperOpenMathActualFans.lean:59:56: warning: Variable name `i` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Kobon/UpperOpenMathActualFans.lean:61:0: warning: automatically included section variable(s) unused in theorem `Kobon.UpperOpenMathActualFans.fan_point_injective`:
+  [Fintype α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Kobon/UpperOpenMathActualFans.lean:62:45: warning: Variable name `i` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Kobon/UpperOpenMathActualFans.lean:64:0: warning: automatically included section variable(s) unused in theorem `Kobon.UpperOpenMathActualFans.fan_point_ne_center`:
+  [Fintype α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Kobon/UpperOpenMathActualFans.lean:66:69: warning: Variable name `i` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'Kobon.UpperOpenMathActualFans.fan_ordinary_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathActualFans.fan_core_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathActualFans.certificate_local_fan_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathActualFans.certificate_local_weighted_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathActualFans.certificate_local_fan_bound_small_core' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

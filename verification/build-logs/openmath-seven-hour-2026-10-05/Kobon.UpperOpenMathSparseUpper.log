@@ -1,0 +1,11 @@
+Kobon/UpperOpenMathSparseUpper.lean:103:74: warning: This simp argument is unused:
+  nsmul_eq_mul
+
+Hint: Omit it from the simp argument list.
+  simp [̵s̵u̵m̵_̵a̵d̵d̵_̵d̵i̵s̵t̵r̵i̵b̵,̵s̵u̵m̵_̵s̵u̵b̵_̵d̵i̵s̵t̵r̵i̵b̵,̵←̵ ̵m̵u̵l̵_̵s̵u̵m̵,̵s̵u̵m̵_̵c̵o̵n̵s̵t̵,̵n̵s̵m̵u̵l̵_̵e̵q̵_̵m̵u̵l̵,̵m̵u̵l̵_̵c̵o̵m̵m̵]̵[̲s̲u̲m̲_̲a̲d̲d̲_̲d̲i̲s̲t̲r̲i̲b̲,̲ ̲s̲u̲m̲_̲s̲u̲b̲_̲d̲i̲s̲t̲r̲i̲b̲,̲ ̲←̲ ̲m̲u̲l̲_̲s̲u̲m̲,̲ ̲s̲u̲m̲_̲c̲o̲n̲s̲t̲,̲ ̲m̲u̲l̲_̲c̲o̲m̲m̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Kobon.UpperOpenMathSparseUpper.certificate_one_core_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathSparseUpper.certificate_two_core_at_most_one_triple_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

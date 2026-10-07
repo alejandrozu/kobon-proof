@@ -1,0 +1,4 @@
+C:\Users\Propietario\Documents\Codex\2026-09-20\lo-2\work\kobon-repository\experiments\2026-10-05\constructions\certify_parametric_farkas.py:25: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  r=linprog(obj,A_eq=EQ,b_eq=eqrhs,bounds=[(0,None)]*B.shape[0],method='highs',options={'time_limit':30,'threads':1});assert r.success,r.message
+dual 11 0.9999999999999999 0.028478323309134766
+{"n": 41, "axis": 0, "threshold_float": 0.014015551084678267, "strict_verified": true, "seconds": 0.5279324054718018}

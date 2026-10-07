@@ -1,0 +1,146 @@
+research/openmath-seven-hour-2026-10-05/corpus/scratch/Kobon/UpperOpenMathN12Recipient.lean:105:43: error: unsolved goals
+α : Type u_1
+inst✝ : Fintype α
+n : ℕ
+L : ℕ → Line ℝ
+hL : NoParallel n L
+hn : 2 ≤ n
+tri : α → Triple
+hi : Function.Injective tri
+ht : ∀ (a : α), TrianglePredicate n L (tri a)
+triples : ∀ p ∈ core n L, #(supports n L p) = 3
+f : Sectors n 3 L
+df : AnyChartData (fun a => ofPredicate n L (tri a) hL ⋯) f
+hc : f.center ∈ core n L
+ac : #f.ordinaryShared = 1
+ft : f.triangular = {5, 0, 1, 2}
+fs : f.shared = {0, 1, 2}
+allAnti : ∀ z ∈ f.coreShared, f.point z ∈ unmarkedFullTwoCapSet n L hL hn tri ht
+oeq : f.ordinaryShared = {0}
+om : 0 ∈ f.ordinaryShared
+os : 0 ∈ {0, 1, 2}
+⊢ ¬1 = 0
+research/openmath-seven-hour-2026-10-05/corpus/scratch/Kobon/UpperOpenMathN12Recipient.lean:106:43: error: unsolved goals
+α : Type u_1
+inst✝ : Fintype α
+n : ℕ
+L : ℕ → Line ℝ
+hL : NoParallel n L
+hn : 2 ≤ n
+tri : α → Triple
+hi : Function.Injective tri
+ht : ∀ (a : α), TrianglePredicate n L (tri a)
+triples : ∀ p ∈ core n L, #(supports n L p) = 3
+f : Sectors n 3 L
+df : AnyChartData (fun a => ofPredicate n L (tri a) hL ⋯) f
+hc : f.center ∈ core n L
+ac : #f.ordinaryShared = 1
+ft : f.triangular = {5, 0, 1, 2}
+fs : f.shared = {0, 1, 2}
+allAnti : ∀ z ∈ f.coreShared, f.point z ∈ unmarkedFullTwoCapSet n L hL hn tri ht
+oeq : f.ordinaryShared = {0}
+om : 0 ∈ f.ordinaryShared
+os : 0 ∈ {0, 1, 2}
+h1 : 1 ∈ f.coreShared
+⊢ ¬2 = 0
+research/openmath-seven-hour-2026-10-05/corpus/scratch/Kobon/UpperOpenMathN12Recipient.lean:109:43: error: unsolved goals
+α : Type u_1
+inst✝ : Fintype α
+n : ℕ
+L : ℕ → Line ℝ
+hL : NoParallel n L
+hn : 2 ≤ n
+tri : α → Triple
+hi : Function.Injective tri
+ht : ∀ (a : α), TrianglePredicate n L (tri a)
+triples : ∀ p ∈ core n L, #(supports n L p) = 3
+f : Sectors n 3 L
+df : AnyChartData (fun a => ofPredicate n L (tri a) hL ⋯) f
+hc : f.center ∈ core n L
+ac : #f.ordinaryShared = 1
+ft : f.triangular = {5, 0, 1, 2}
+fs : f.shared = {0, 1, 2}
+allAnti : ∀ z ∈ f.coreShared, f.point z ∈ unmarkedFullTwoCapSet n L hL hn tri ht
+oeq : f.ordinaryShared = {1}
+om : 1 ∈ f.ordinaryShared
+os : 1 ∈ {0, 1, 2}
+⊢ ¬0 = 1
+research/openmath-seven-hour-2026-10-05/corpus/scratch/Kobon/UpperOpenMathN12Recipient.lean:110:43: error: unsolved goals
+α : Type u_1
+inst✝ : Fintype α
+n : ℕ
+L : ℕ → Line ℝ
+hL : NoParallel n L
+hn : 2 ≤ n
+tri : α → Triple
+hi : Function.Injective tri
+ht : ∀ (a : α), TrianglePredicate n L (tri a)
+triples : ∀ p ∈ core n L, #(supports n L p) = 3
+f : Sectors n 3 L
+df : AnyChartData (fun a => ofPredicate n L (tri a) hL ⋯) f
+hc : f.center ∈ core n L
+ac : #f.ordinaryShared = 1
+ft : f.triangular = {5, 0, 1, 2}
+fs : f.shared = {0, 1, 2}
+allAnti : ∀ z ∈ f.coreShared, f.point z ∈ unmarkedFullTwoCapSet n L hL hn tri ht
+oeq : f.ordinaryShared = {1}
+om : 1 ∈ f.ordinaryShared
+os : 1 ∈ {0, 1, 2}
+h0 : 0 ∈ f.coreShared
+⊢ ¬2 = 1
+research/openmath-seven-hour-2026-10-05/corpus/scratch/Kobon/UpperOpenMathN12Recipient.lean:120:43: error: unsolved goals
+α : Type u_1
+inst✝ : Fintype α
+n : ℕ
+L : ℕ → Line ℝ
+hL : NoParallel n L
+hn : 2 ≤ n
+tri : α → Triple
+hi : Function.Injective tri
+ht : ∀ (a : α), TrianglePredicate n L (tri a)
+triples : ∀ p ∈ core n L, #(supports n L p) = 3
+f : Sectors n 3 L
+df : AnyChartData (fun a => ofPredicate n L (tri a) hL ⋯) f
+hc : f.center ∈ core n L
+ac : #f.ordinaryShared = 1
+ft : f.triangular = {5, 0, 1, 2}
+fs : f.shared = {0, 1, 2}
+allAnti : ∀ z ∈ f.coreShared, f.point z ∈ unmarkedFullTwoCapSet n L hL hn tri ht
+oeq : f.ordinaryShared = {2}
+om : 2 ∈ f.ordinaryShared
+os : 2 ∈ {0, 1, 2}
+⊢ ¬0 = 2
+research/openmath-seven-hour-2026-10-05/corpus/scratch/Kobon/UpperOpenMathN12Recipient.lean:121:43: error: unsolved goals
+α : Type u_1
+inst✝ : Fintype α
+n : ℕ
+L : ℕ → Line ℝ
+hL : NoParallel n L
+hn : 2 ≤ n
+tri : α → Triple
+hi : Function.Injective tri
+ht : ∀ (a : α), TrianglePredicate n L (tri a)
+triples : ∀ p ∈ core n L, #(supports n L p) = 3
+f : Sectors n 3 L
+df : AnyChartData (fun a => ofPredicate n L (tri a) hL ⋯) f
+hc : f.center ∈ core n L
+ac : #f.ordinaryShared = 1
+ft : f.triangular = {5, 0, 1, 2}
+fs : f.shared = {0, 1, 2}
+allAnti : ∀ z ∈ f.coreShared, f.point z ∈ unmarkedFullTwoCapSet n L hL hn tri ht
+oeq : f.ordinaryShared = {2}
+om : 2 ∈ f.ordinaryShared
+os : 2 ∈ {0, 1, 2}
+h0 : 0 ∈ f.coreShared
+⊢ ¬1 = 2
+research/openmath-seven-hour-2026-10-05/corpus/scratch/Kobon/UpperOpenMathN12Recipient.lean:142:2: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+'Kobon.UpperOpenMathN12Recipient.certificate_n12_anti_degree_le_one' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]

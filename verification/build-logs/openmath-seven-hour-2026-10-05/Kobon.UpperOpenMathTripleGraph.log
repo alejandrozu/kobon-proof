@@ -1,0 +1,5 @@
+'Kobon.UpperOpenMathTripleGraph.independent_incidence_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathTripleGraph.MatchedTripleFamily.three_exceptional_le_edges' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathTripleGraph.weighted_defect_nonnegative_exception' depends on axioms: [propext, Quot.sound]

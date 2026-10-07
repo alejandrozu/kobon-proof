@@ -1,0 +1,160 @@
+{
+  "scope": "Bounded saturated-axis searches. Floating discrepancies were rejected. No global ceiling is inferred.",
+  "verified_outcome": "1190 triangles and29 visible pairs, exact whole actualtan60 box and completed Lean infinite even family",
+  "higher_proposals": "No completed1191 or1190/30 certificate",
+  "runs": [
+    {
+      "best": 1190,
+      "best_combined": 1219,
+      "accepted": 17,
+      "rays": 20,
+      "events": 10126,
+      "failures": 0,
+      "elapsed": 3.409792423248291,
+      "directory": "capcone-boundary-pareto-ray-seed61027",
+      "scope": "Bounded numerical proposals; crossed facets may repeat and are not unique cells",
+      "termination": "finished"
+    },
+    {
+      "best": 1190,
+      "best_combined": 1219,
+      "accepted": 15320,
+      "rays": 23620,
+      "events": 10989016,
+      "failures": 3,
+      "elapsed": 3599.718985557556,
+      "directory": "capcone-boundary-pareto-ray-seed61029",
+      "scope": "Bounded numerical proposals; crossed facets may repeat and are not unique cells",
+      "termination": "finished"
+    },
+    {
+      "best": 1190,
+      "best_combined": 1218,
+      "accepted": 18,
+      "rays": 20,
+      "events": 10087,
+      "failures": 0,
+      "elapsed": 5.000459671020508,
+      "directory": "capcone-matching-pareto-ray-seed61031",
+      "scope": "Bounded numerical proposals; crossed facets may repeat and are not unique cells",
+      "termination": "finished"
+    },
+    {
+      "best": 1190,
+      "best_combined": 1218,
+      "accepted": 372,
+      "rays": 570,
+      "events": 240197,
+      "failures": 0,
+      "elapsed": 131.43035197257996,
+      "directory": "capcone-matching-pareto-ray-seed61033",
+      "scope": "Bounded numerical proposals; crossed facets may repeat and are not unique cells",
+      "termination": "Stopped or pilot; final recorded checkpoint retained"
+    },
+    {
+      "best": 1190,
+      "best_combined": 1219,
+      "accepted": 20,
+      "rays": 20,
+      "events": 7009,
+      "failures": 0,
+      "elapsed": 2.640085220336914,
+      "directory": "capcone-pareto-ray-seed61021",
+      "scope": "Bounded numerical proposals; crossed facets may repeat and are not unique cells",
+      "termination": "finished"
+    },
+    {
+      "best": 1190,
+      "best_combined": 1219,
+      "accepted": 23822,
+      "rays": 27340,
+      "events": 12328500,
+      "failures": 6,
+      "elapsed": 4199.979501485825,
+      "directory": "capcone-pareto-ray-seed61023",
+      "scope": "Bounded numerical proposals; crossed facets may repeat and are not unique cells",
+      "termination": "finished"
+    },
+    {
+      "best": 1190,
+      "accepted": 8735,
+      "rays": 9880,
+      "events": 4572576,
+      "failures": 1,
+      "elapsed": 870.6316108703613,
+      "directory": "capcone-ray-seed61013",
+      "scope": "Bounded numerical proposals; crossed facets may repeat and are not unique cells",
+      "termination": "finished"
+    },
+    {
+      "best": 1190,
+      "best_combined": 1219,
+      "accepted": 6,
+      "rays": 10,
+      "events": 6425,
+      "failures": 0,
+      "elapsed": 3.537060260772705,
+      "directory": "capcone-strongseed-pareto-ray-seed61037",
+      "scope": "Bounded numerical proposals; crossed facets may repeat and are not unique cells",
+      "termination": "finished"
+    },
+    {
+      "best": 1190,
+      "best_combined": 1219,
+      "accepted": 8398,
+      "rays": 13440,
+      "events": 6258186,
+      "failures": 0,
+      "elapsed": 2999.744040250778,
+      "directory": "capcone-strongseed-pareto-ray-seed61039",
+      "scope": "Bounded numerical proposals; crossed facets may repeat and are not unique cells",
+      "termination": "finished"
+    },
+    {
+      "best": 1190,
+      "tested": 38903,
+      "accepted": 10076,
+      "visited": 349,
+      "elapsed": 5100.20491194725,
+      "directory": "facet-reduced-heap-seed61009-floor1187-parallel1",
+      "scope": "Bounded numerical proposals; crossed facets may repeat and are not unique cells",
+      "termination": "Stopped or pilot; final recorded checkpoint retained"
+    },
+    {
+      "best": 1190,
+      "tested": 420,
+      "accepted": 88,
+      "visited": 89,
+      "elapsed": 36.918779134750366,
+      "directory": "facet-reduced-seed61003",
+      "scope": "Bounded numerical proposals; crossed facets may repeat and are not unique cells",
+      "termination": "Stopped or pilot; final recorded checkpoint retained"
+    },
+    {
+      "best": 1190,
+      "tested": 38359,
+      "accepted": 22592,
+      "visited": 3298,
+      "elapsed": 5700.061379671097,
+      "directory": "facet-reduced-seed61007-floor1185-parallel1",
+      "scope": "Bounded numerical proposals; crossed facets may repeat and are not unique cells",
+      "termination": "Stopped or pilot; final recorded checkpoint retained"
+    }
+  ],
+  "parametric_screens": {
+    "first_order_cases": 16,
+    "second_order_cases": 16,
+    "positive": 0,
+    "interpretation": "Numerical diagnostics only"
+  },
+  "dual_cell": {
+    "n": 41,
+    "axis": 0,
+    "weights": 11,
+    "epsilon_threshold": 0.014015551084678267,
+    "exact_fraction_verified": true,
+    "generic_lean_separation": "OpenMathParametricDual.no_budget compiled standard axioms",
+    "concrete_lean_replay": "Pending, not promoted",
+    "scope": "This exported normalized cell only"
+  }
+}

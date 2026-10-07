@@ -1,0 +1,1513 @@
+{
+  "passed": true,
+  "trust": "External exact finite deletion profiles; no infinite deletion theorem",
+  "results": [
+    {
+      "source": "work\\openmath-rohith\\kobon-triangles\\doubled\\n49_767_b7_d4.json",
+      "n": 49,
+      "triangles": 767,
+      "simple": true,
+      "best_remaining": 721,
+      "profiles": [
+        {
+          "removed": 0,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 1,
+          "lost": 46,
+          "created": 0,
+          "triangles": 721,
+          "new_triangles": []
+        },
+        {
+          "removed": 2,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 3,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 4,
+          "lost": 46,
+          "created": 0,
+          "triangles": 721,
+          "new_triangles": []
+        },
+        {
+          "removed": 5,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 6,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 7,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 8,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 9,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 10,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 11,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 12,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 13,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 14,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 15,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 16,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 17,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 18,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 19,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 20,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 21,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 22,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 23,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 24,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 25,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 26,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 27,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 28,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 29,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 30,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 31,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 32,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 33,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 34,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 35,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 36,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 37,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 38,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 39,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 40,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 41,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 42,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 43,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 44,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 45,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 46,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 47,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        },
+        {
+          "removed": 48,
+          "lost": 47,
+          "created": 0,
+          "triangles": 720,
+          "new_triangles": []
+        }
+      ],
+      "seconds": 0.1694939136505127
+    },
+    {
+      "source": "work\\openmath-rohith\\kobon-triangles\\doubled\\n65_1365_b3_d4.json",
+      "n": 65,
+      "triangles": 1365,
+      "simple": true,
+      "best_remaining": 1302,
+      "profiles": [
+        {
+          "removed": 0,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 1,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 2,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 3,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 4,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 5,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 6,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 7,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 8,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 9,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 10,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 11,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 12,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 13,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 14,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 15,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 16,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 17,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 18,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 19,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 20,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 21,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 22,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 23,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 24,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 25,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 26,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 27,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 28,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 29,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 30,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 31,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 32,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 33,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 34,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 35,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 36,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 37,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 38,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 39,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 40,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 41,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 42,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 43,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 44,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 45,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 46,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 47,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 48,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 49,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 50,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 51,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 52,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 53,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 54,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 55,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 56,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 57,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 58,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 59,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 60,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 61,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 62,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 63,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        },
+        {
+          "removed": 64,
+          "lost": 63,
+          "created": 0,
+          "triangles": 1302,
+          "new_triangles": []
+        }
+      ],
+      "seconds": 0.4845256805419922
+    },
+    {
+      "source": "work\\openmath-rohith\\kobon-triangles\\doubled\\n97_3071_b7_d4.json",
+      "n": 97,
+      "triangles": 3071,
+      "simple": true,
+      "best_remaining": 2977,
+      "profiles": [
+        {
+          "removed": 0,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 1,
+          "lost": 94,
+          "created": 0,
+          "triangles": 2977,
+          "new_triangles": []
+        },
+        {
+          "removed": 2,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 3,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 4,
+          "lost": 94,
+          "created": 0,
+          "triangles": 2977,
+          "new_triangles": []
+        },
+        {
+          "removed": 5,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 6,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 7,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 8,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 9,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 10,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 11,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 12,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 13,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 14,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 15,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 16,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 17,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 18,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 19,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 20,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 21,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 22,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 23,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 24,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 25,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 26,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 27,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 28,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 29,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 30,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 31,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 32,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 33,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 34,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 35,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 36,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 37,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 38,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 39,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 40,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 41,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 42,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 43,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 44,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 45,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 46,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 47,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 48,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 49,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 50,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 51,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 52,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 53,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 54,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 55,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 56,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 57,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 58,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 59,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 60,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 61,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 62,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 63,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 64,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 65,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 66,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 67,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 68,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 69,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 70,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 71,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 72,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 73,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 74,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 75,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 76,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 77,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 78,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 79,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 80,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 81,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 82,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 83,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 84,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 85,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 86,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 87,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 88,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 89,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 90,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 91,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 92,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 93,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 94,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 95,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        },
+        {
+          "removed": 96,
+          "lost": 95,
+          "created": 0,
+          "triangles": 2976,
+          "new_triangles": []
+        }
+      ],
+      "seconds": 1.5361104011535645
+    }
+  ]
+}

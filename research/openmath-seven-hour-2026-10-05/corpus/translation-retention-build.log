@@ -1,0 +1,18 @@
+Kobon/OpenMathTranslationRetention.lean:85:34: error(lean.unknownIdentifier): Unknown identifier `i`
+Kobon/OpenMathTranslationRetention.lean:86:37: error(lean.unknownIdentifier): Unknown identifier `j`
+Kobon/OpenMathTranslationRetention.lean:109:4: error: Type mismatch: After simplification, term
+  hnot
+ has type
+  Not (TrianglePredicate n L t)
+but is expected to have type
+  Not (TrianglePredicate n L (tripleOf a))
+'Kobon.OpenMathTranslationRetention.old_triangle_germ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathTranslationRetention.no_loss_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathTranslationRetention.untouched_corners_stationary' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'Kobon.OpenMathTranslationRetention.classical_gain_one' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]

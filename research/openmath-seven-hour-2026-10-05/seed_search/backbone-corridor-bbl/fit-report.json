@@ -1,0 +1,267 @@
+{
+  "saturated_backbone_axes": [
+    0,
+    2,
+    3,
+    5,
+    7
+  ],
+  "records": [
+    {
+      "axis": 0,
+      "corridor": 6,
+      "coincident_source_line": 2,
+      "corridor_root": null,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "axis": 2,
+      "passed": false,
+      "reason": "Corridor coincides with a special root; constant-h strict limit has three merged graph roots"
+    },
+    {
+      "axis": 3,
+      "passed": false,
+      "reason": "Corridor coincides with a special root; constant-h strict limit has three merged graph roots"
+    },
+    {
+      "axis": 5,
+      "corridor": 6,
+      "coincident_source_line": 3,
+      "corridor_root": null,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "axis": 7,
+      "corridor": 6,
+      "coincident_source_line": null,
+      "corridor_root": -2,
+      "margin": 0.13117062122454193,
+      "status": 0,
+      "passed": true,
+      "exact_ledger": {
+        "n": 8,
+        "T": 15,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 1,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 3,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "backbone_T": 11,
+      "seed": "research\\openmath-seven-hour-2026-10-05\\seed_search\\backbone-corridor-bbl\\seed-axis7-root-2.json"
+    },
+    {
+      "axis": 7,
+      "corridor": 6,
+      "coincident_source_line": null,
+      "corridor_root": -3,
+      "margin": 0.10872306174140227,
+      "status": 0,
+      "passed": true,
+      "exact_ledger": {
+        "n": 8,
+        "T": 15,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 1,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 3,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "backbone_T": 11,
+      "seed": "research\\openmath-seven-hour-2026-10-05\\seed_search\\backbone-corridor-bbl\\seed-axis7-root-3.json"
+    },
+    {
+      "axis": 7,
+      "corridor": 6,
+      "coincident_source_line": null,
+      "corridor_root": -5,
+      "margin": 0.07720966152677478,
+      "status": 0,
+      "passed": true,
+      "exact_ledger": {
+        "n": 8,
+        "T": 15,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 1,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 3,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "backbone_T": 11,
+      "seed": "research\\openmath-seven-hour-2026-10-05\\seed_search\\backbone-corridor-bbl\\seed-axis7-root-5.json"
+    },
+    {
+      "axis": 7,
+      "corridor": 6,
+      "coincident_source_line": null,
+      "corridor_root": -10,
+      "margin": 0.043724155964871336,
+      "status": 0,
+      "passed": true,
+      "exact_ledger": {
+        "n": 8,
+        "T": 15,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 1,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 3,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "backbone_T": 11,
+      "seed": "research\\openmath-seven-hour-2026-10-05\\seed_search\\backbone-corridor-bbl\\seed-axis7-root-10.json"
+    }
+  ],
+  "seeds": [
+    {
+      "axis": 7,
+      "corridor": 6,
+      "coincident_source_line": null,
+      "corridor_root": -2,
+      "margin": 0.13117062122454193,
+      "status": 0,
+      "passed": true,
+      "exact_ledger": {
+        "n": 8,
+        "T": 15,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 1,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 3,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "backbone_T": 11,
+      "seed": "research\\openmath-seven-hour-2026-10-05\\seed_search\\backbone-corridor-bbl\\seed-axis7-root-2.json"
+    },
+    {
+      "axis": 7,
+      "corridor": 6,
+      "coincident_source_line": null,
+      "corridor_root": -3,
+      "margin": 0.10872306174140227,
+      "status": 0,
+      "passed": true,
+      "exact_ledger": {
+        "n": 8,
+        "T": 15,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 1,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 3,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "backbone_T": 11,
+      "seed": "research\\openmath-seven-hour-2026-10-05\\seed_search\\backbone-corridor-bbl\\seed-axis7-root-3.json"
+    },
+    {
+      "axis": 7,
+      "corridor": 6,
+      "coincident_source_line": null,
+      "corridor_root": -5,
+      "margin": 0.07720966152677478,
+      "status": 0,
+      "passed": true,
+      "exact_ledger": {
+        "n": 8,
+        "T": 15,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 1,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 3,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "backbone_T": 11,
+      "seed": "research\\openmath-seven-hour-2026-10-05\\seed_search\\backbone-corridor-bbl\\seed-axis7-root-5.json"
+    },
+    {
+      "axis": 7,
+      "corridor": 6,
+      "coincident_source_line": null,
+      "corridor_root": -10,
+      "margin": 0.043724155964871336,
+      "status": 0,
+      "passed": true,
+      "exact_ledger": {
+        "n": 8,
+        "T": 15,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 1,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 3,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "backbone_T": 11,
+      "seed": "research\\openmath-seven-hour-2026-10-05\\seed_search\\backbone-corridor-bbl\\seed-axis7-root-10.json"
+    }
+  ],
+  "seconds": 0.044680118560791016,
+  "scope": "Bounded actual-type coupled BBL backbone/corridor fitting, no iteration claim"
+}

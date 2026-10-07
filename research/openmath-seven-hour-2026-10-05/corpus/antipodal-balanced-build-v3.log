@@ -1,0 +1,17 @@
+Kobon/UpperOpenMathAntipodalBalancedAdjacency.lean:84:35: warning: Variable name `left` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'Kobon.UpperOpenMathAntipodalBalancedAdjacency.normalized_right_pair_incompatible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathAntipodalBalancedAdjacency.normalized_left_pair_incompatible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathAntipodalBalancedAdjacency.mixed_neighbor_matching' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathAntipodalBalancedAdjacency.mixed_charts_not_adjacent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

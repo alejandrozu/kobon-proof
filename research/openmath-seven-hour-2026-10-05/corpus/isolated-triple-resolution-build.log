@@ -1,0 +1,7 @@
+'Kobon.OpenMathIsolatedTripleResolution.germ_old_or_degenerate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.OpenMathIsolatedTripleResolution.unique_birth_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathIsolatedTripleResolution.isolated_resolution_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

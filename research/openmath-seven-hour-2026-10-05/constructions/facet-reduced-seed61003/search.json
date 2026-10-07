@@ -1,0 +1,5051 @@
+{
+  "scope": "Bounded floating search; not a lower-bound certificate or a global ceiling",
+  "best": 1190,
+  "tested": 420,
+  "accepted": 88,
+  "visited": 89,
+  "queued": 0,
+  "elapsed": 36.918779134750366,
+  "records": [
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1190,
+      "expected": 1190,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        30,
+        57
+      ],
+      "source": 1190,
+      "expected": 1190,
+      "depth": 0,
+      "feasible": true,
+      "lp": 2.1666993675612109e-07
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1190,
+      "expected": 1190,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        22,
+        49,
+        59
+      ],
+      "source": 1190,
+      "expected": 1189,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        30,
+        41,
+        59
+      ],
+      "source": 1190,
+      "expected": 1189,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        33,
+        41
+      ],
+      "source": 1190,
+      "expected": 1189,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        6,
+        37
+      ],
+      "source": 1190,
+      "expected": 1189,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        6,
+        37,
+        41
+      ],
+      "source": 1190,
+      "expected": 1189,
+      "depth": 0,
+      "feasible": true,
+      "lp": 1.5419510614005094e-07
+    },
+    {
+      "labels": [
+        4,
+        12,
+        59
+      ],
+      "source": 1190,
+      "expected": 1189,
+      "depth": 0,
+      "feasible": true,
+      "lp": 3.700355060698435e-07
+    },
+    {
+      "labels": [
+        2,
+        8,
+        12
+      ],
+      "source": 1190,
+      "expected": 1189,
+      "depth": 0,
+      "feasible": true,
+      "lp": 1.8806985374597573e-07
+    },
+    {
+      "labels": [
+        33,
+        37,
+        59
+      ],
+      "source": 1190,
+      "expected": 1189,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        26,
+        45,
+        59
+      ],
+      "source": 1190,
+      "expected": 1189,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        4,
+        14,
+        26
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        39,
+        47
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": true,
+      "lp": 1.3802269516194343e-07
+    },
+    {
+      "labels": [
+        14,
+        20,
+        31
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        42,
+        50
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        18,
+        57,
+        59
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        9,
+        23
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        11,
+        19,
+        59
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        6,
+        33,
+        45
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        38,
+        54
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        7,
+        23,
+        59
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        6,
+        35,
+        59
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": true,
+      "lp": 7.117892697689268e-08
+    },
+    {
+      "labels": [
+        2,
+        22,
+        53
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        16,
+        55
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        28,
+        47
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": true,
+      "lp": 2.2546154206792976e-07
+    },
+    {
+      "labels": [
+        2,
+        15,
+        17
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": true,
+      "lp": 1.880698523406871e-07
+    },
+    {
+      "labels": [
+        6,
+        43,
+        51
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        5,
+        25,
+        59
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        36,
+        56
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        5,
+        27
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        13,
+        19
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        6,
+        28,
+        39
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        4,
+        16,
+        30
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        37,
+        49
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": true,
+      "lp": 1.8806985155797444e-07
+    },
+    {
+      "labels": [
+        1,
+        29,
+        59
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        34,
+        58
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        4,
+        6,
+        18
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        3,
+        27,
+        59
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        6,
+        16,
+        24
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": true,
+      "lp": 1.8806985291330847e-07
+    },
+    {
+      "labels": [
+        6,
+        31,
+        47
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": true,
+      "lp": 1.5313451739995543e-07
+    },
+    {
+      "labels": [
+        42,
+        48,
+        59
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        4,
+        10,
+        22
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        22,
+        57
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        9,
+        21,
+        59
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        13,
+        17,
+        59
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": true,
+      "lp": 1.8806983730643503e-07
+    },
+    {
+      "labels": [
+        2,
+        32,
+        60
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        38,
+        52,
+        59
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        33,
+        49
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        6,
+        10,
+        24
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        16,
+        37,
+        53
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        13,
+        15,
+        59
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": true,
+      "lp": 1.8806984665442616e-07
+    },
+    {
+      "labels": [
+        6,
+        14,
+        55
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        44,
+        46,
+        59
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": true,
+      "lp": 1.88069854578643e-07
+    },
+    {
+      "labels": [
+        2,
+        11,
+        21
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        4,
+        17
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        46,
+        48
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": true,
+      "lp": 1.8730975009928486e-07
+    },
+    {
+      "labels": [
+        36,
+        54,
+        59
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        35,
+        43,
+        55
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": true,
+      "lp": 1.2149296302799064e-07
+    },
+    {
+      "labels": [
+        2,
+        7,
+        25
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        6,
+        22,
+        57
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        40,
+        50,
+        59
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        34,
+        56,
+        59
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        18,
+        53,
+        59
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        35,
+        51,
+        55
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": true,
+      "lp": 1.8806982973740283e-07
+    },
+    {
+      "labels": [
+        2,
+        30,
+        45
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        37,
+        45
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": true,
+      "lp": 1.8806985335739768e-07
+    },
+    {
+      "labels": [
+        2,
+        44,
+        48
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": true,
+      "lp": 1.88069854578643e-07
+    },
+    {
+      "labels": [
+        2,
+        24,
+        55
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        8,
+        55,
+        59
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        6,
+        20,
+        47
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 0,
+      "feasible": true,
+      "lp": 8.875104334223971e-08
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        30,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": true,
+      "lp": 1.670541589069872e-07
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        30,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": true,
+      "lp": 2.166699416646838e-07
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        6,
+        37,
+        41
+      ],
+      "source": 1188,
+      "expected": 1189,
+      "depth": 1,
+      "feasible": true,
+      "lp": 1.5419509019620747e-07
+    },
+    {
+      "labels": [
+        14,
+        30,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": true,
+      "lp": 2.1666994193259015e-07
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        37,
+        49
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": true,
+      "lp": 1.880698544676207e-07
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        6,
+        37,
+        41
+      ],
+      "source": 1188,
+      "expected": 1189,
+      "depth": 2,
+      "feasible": true,
+      "lp": 1.8806985417618716e-07
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        16,
+        37,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        30,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": true,
+      "lp": 2.1666993549587159e-07
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        6,
+        37,
+        41
+      ],
+      "source": 1188,
+      "expected": 1189,
+      "depth": 3,
+      "feasible": true,
+      "lp": 2.1666994175602782e-07
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 3,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 3,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        37,
+        45
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 3,
+      "feasible": true,
+      "lp": 2.166699417660567e-07
+    },
+    {
+      "labels": [
+        16,
+        37,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 3,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 4,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 4,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        16,
+        37,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 4,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        16,
+        37,
+        53
+      ],
+      "source": 1189,
+      "expected": 1189,
+      "depth": 4,
+      "feasible": true,
+      "lp": 2.1666990877855508e-07
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1189,
+      "expected": 1189,
+      "depth": 4,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        37,
+        49
+      ],
+      "source": 1189,
+      "expected": 1189,
+      "depth": 4,
+      "feasible": true,
+      "lp": 2.166699406280781e-07
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1189,
+      "expected": 1189,
+      "depth": 4,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        14,
+        41
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 4,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        33,
+        37,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 4,
+      "feasible": true,
+      "lp": 1.593018073009489e-07
+    },
+    {
+      "labels": [
+        2,
+        37,
+        41
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 4,
+      "feasible": true,
+      "lp": 2.1666993488126448e-07
+    },
+    {
+      "labels": [
+        4,
+        12,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 4,
+      "feasible": true,
+      "lp": 8.986398192245559e-07
+    },
+    {
+      "labels": [
+        26,
+        45,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 4,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        22,
+        49,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 4,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        30,
+        41,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 4,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        8,
+        12
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 4,
+      "feasible": true,
+      "lp": 2.3096402977608108e-07
+    },
+    {
+      "labels": [
+        14,
+        41,
+        45
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 4,
+      "feasible": true,
+      "lp": 2.165873260850503e-07
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 5,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        16,
+        41,
+        49
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 5,
+      "feasible": true,
+      "lp": 2.0491590213556066e-07
+    },
+    {
+      "labels": [
+        14,
+        30,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 5,
+      "feasible": true,
+      "lp": 1.88069854578643e-07
+    },
+    {
+      "labels": [
+        14,
+        37,
+        49
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 5,
+      "feasible": true,
+      "lp": 2.1666993287714387e-07
+    },
+    {
+      "labels": [
+        16,
+        37,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 5,
+      "feasible": true,
+      "lp": 2.1666994048347263e-07
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 5,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        30,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 6,
+      "feasible": true,
+      "lp": 1.8806984977969314e-07
+    },
+    {
+      "labels": [
+        16,
+        41,
+        49
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 6,
+      "feasible": true,
+      "lp": 2.166699403503055e-07
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 6,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        30,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 7,
+      "feasible": true,
+      "lp": 1.880698497097079e-07
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 7,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        20,
+        41,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 7,
+      "feasible": true,
+      "lp": 1.8379451400103936e-07
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 8,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        30,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 8,
+      "feasible": true,
+      "lp": 1.751630894775147e-07
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 9,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        16,
+        37,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 8,
+      "feasible": true,
+      "lp": 1.880698541345538e-07
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 8,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 9,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 9,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        41,
+        45
+      ],
+      "source": 1188,
+      "expected": 1189,
+      "depth": 7,
+      "feasible": true,
+      "lp": 1.88069854578643e-07
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 7,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1189,
+      "expected": 1189,
+      "depth": 8,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        26,
+        45,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 8,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        14,
+        41
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 8,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        30,
+        41,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 8,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        4,
+        12,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 8,
+      "feasible": true,
+      "lp": 4.3272193439580775e-07
+    },
+    {
+      "labels": [
+        22,
+        49,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 8,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        33,
+        37,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 8,
+      "feasible": true,
+      "lp": 1.434562238999959e-07
+    },
+    {
+      "labels": [
+        2,
+        37,
+        41
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 8,
+      "feasible": true,
+      "lp": 1.8806985424644346e-07
+    },
+    {
+      "labels": [
+        2,
+        8,
+        12
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 8,
+      "feasible": true,
+      "lp": 1.880698471940607e-07
+    },
+    {
+      "labels": [
+        14,
+        30,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 9,
+      "feasible": true,
+      "lp": 2.3096403190867964e-07
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 9,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        16,
+        37,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 9,
+      "feasible": true,
+      "lp": 1.880698514129624e-07
+    },
+    {
+      "labels": [
+        14,
+        37,
+        49
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 10,
+      "feasible": true,
+      "lp": 1.5419510714114902e-07
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 10,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 10,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 11,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        30,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 11,
+      "feasible": true,
+      "lp": 2.2929324458575984e-07
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 11,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        37,
+        45
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 11,
+      "feasible": true,
+      "lp": 1.5419510407209793e-07
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 12,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 12,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        30,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 12,
+      "feasible": true,
+      "lp": 2.292932483882737e-07
+    },
+    {
+      "labels": [
+        2,
+        8,
+        12
+      ],
+      "source": 1188,
+      "expected": 1189,
+      "depth": 13,
+      "feasible": true,
+      "lp": 2.1666993681992638e-07
+    },
+    {
+      "labels": [
+        6,
+        37,
+        41
+      ],
+      "source": 1188,
+      "expected": 1189,
+      "depth": 13,
+      "feasible": true,
+      "lp": 2.309640048103745e-07
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 13,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 13,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1189,
+      "expected": 1189,
+      "depth": 14,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1189,
+      "expected": 1189,
+      "depth": 14,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        22,
+        49,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 14,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        30,
+        41,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 14,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        6,
+        37
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 14,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        4,
+        12,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 14,
+      "feasible": true,
+      "lp": 4.494509373564881e-07
+    },
+    {
+      "labels": [
+        26,
+        45,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 14,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        33,
+        41
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 14,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        33,
+        37,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 14,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        8,
+        12
+      ],
+      "source": 1188,
+      "expected": 1189,
+      "depth": 15,
+      "feasible": true,
+      "lp": 5.142422275783431e-07
+    },
+    {
+      "labels": [
+        14,
+        30,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 15,
+      "feasible": true,
+      "lp": 3.301879002897204e-07
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 15,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 15,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 16,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 16,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1189,
+      "expected": 1189,
+      "depth": 16,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1189,
+      "expected": 1189,
+      "depth": 16,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        22,
+        49,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 16,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        4,
+        8,
+        55
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 16,
+      "feasible": true,
+      "lp": 9.96810360753505e-07
+    },
+    {
+      "labels": [
+        26,
+        45,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 16,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        30,
+        41,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 16,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        33,
+        37,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 16,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        6,
+        37,
+        41
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 16,
+      "feasible": true,
+      "lp": 3.303330547987926e-07
+    },
+    {
+      "labels": [
+        2,
+        6,
+        37
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 16,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        8,
+        55,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 16,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        33,
+        41
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 16,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 17,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        37,
+        45
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 17,
+      "feasible": true,
+      "lp": 3.3033300454146826e-07
+    },
+    {
+      "labels": [
+        14,
+        30,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 17,
+      "feasible": true,
+      "lp": 1.6178759850327563e-07
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 17,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        37,
+        45
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 18,
+      "feasible": true,
+      "lp": 1.6178760028049983e-07
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 18,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 18,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 19,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 19,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        37,
+        49
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 19,
+      "feasible": true,
+      "lp": 8.076890222752375e-07
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 20,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 20,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 18,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 18,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 17,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        30,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 17,
+      "feasible": true,
+      "lp": 3.7003550551473197e-07
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 17,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 18,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 18,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1189,
+      "expected": 1189,
+      "depth": 14,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1189,
+      "expected": 1189,
+      "depth": 14,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        33,
+        37,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 14,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        37,
+        41
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 14,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        22,
+        49,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 14,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        30,
+        41,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 14,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        26,
+        45,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 14,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 12,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 12,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 10,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        16,
+        37,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 9,
+      "feasible": true,
+      "lp": 1.8806985347210627e-07
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 9,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        30,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 9,
+      "feasible": true,
+      "lp": 2.166699372141423e-07
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 10,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        37,
+        49
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 10,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 10,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 10,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        16,
+        37,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 9,
+      "feasible": true,
+      "lp": 1.43456233233784e-07
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 9,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        30,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 9,
+      "feasible": true,
+      "lp": 1.5930182309788297e-07
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 10,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        37,
+        49
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 10,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 10,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 10,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        30,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 9,
+      "feasible": true,
+      "lp": 4.719635383073446e-07
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 9,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 10,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        30,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 6,
+      "feasible": true,
+      "lp": 1.5419510779324241e-07
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 6,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 6,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 7,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 7,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 6,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 6,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 6,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 6,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 5,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 5,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 5,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 5,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 5,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 5,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        37,
+        49
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 5,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 5,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        37,
+        49
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 5,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 5,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1189,
+      "expected": 1189,
+      "depth": 5,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1189,
+      "expected": 1189,
+      "depth": 5,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        30,
+        41,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 5,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        26,
+        45,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 5,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        22,
+        49,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 5,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        14,
+        41
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 5,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1189,
+      "expected": 1189,
+      "depth": 5,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        26,
+        45,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 5,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        14,
+        41
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 5,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        30,
+        41,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 5,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        22,
+        49,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 5,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1189,
+      "expected": 1189,
+      "depth": 3,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1189,
+      "expected": 1189,
+      "depth": 3,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        26,
+        45,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 3,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        14,
+        41
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 3,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        30,
+        41,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 3,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        22,
+        49,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 3,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1189,
+      "expected": 1189,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1189,
+      "expected": 1189,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        30,
+        41,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        26,
+        45,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        14,
+        41
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        22,
+        49,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        30,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": true,
+      "lp": 2.166699416342177e-07
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        30,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": true,
+      "lp": 1.3869441713238915e-07
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        30,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": true,
+      "lp": 2.1557184803607052e-07
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        30,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": true,
+      "lp": 2.1666993749169805e-07
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        30,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": true,
+      "lp": 2.1666993278460721e-07
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        30,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": true,
+      "lp": 2.1666956698251916e-07
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        30,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": true,
+      "lp": 1.7618867537985087e-07
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        30,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": true,
+      "lp": 2.166699411413394e-07
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        16,
+        37,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        30,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": true,
+      "lp": 2.1635128010027646e-07
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        30,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": true,
+      "lp": 2.539823543701303e-07
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        30,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": true,
+      "lp": 1.3234589246735595e-07
+    },
+    {
+      "labels": [
+        2,
+        6,
+        37
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        6,
+        37
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        30,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": true,
+      "lp": 1.6145989195637256e-07
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1189,
+      "expected": 1189,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1189,
+      "expected": 1189,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        6,
+        37
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        33,
+        37,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        26,
+        45,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        30,
+        41,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        33,
+        41
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        22,
+        49,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1189,
+      "expected": 1189,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1189,
+      "expected": 1189,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        26,
+        45,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        30,
+        41,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        22,
+        49,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        33,
+        41
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        8,
+        55,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        33,
+        37,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        6,
+        37
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1189,
+      "expected": 1189,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1189,
+      "expected": 1189,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        30,
+        41,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        37,
+        41
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        22,
+        49,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        26,
+        45,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        33,
+        37,
+        59
+      ],
+      "source": 1189,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1190,
+      "expected": 1190,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1190,
+      "expected": 1190,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        22,
+        49,
+        59
+      ],
+      "source": 1190,
+      "expected": 1189,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        26,
+        45,
+        59
+      ],
+      "source": 1190,
+      "expected": 1189,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        33,
+        41
+      ],
+      "source": 1190,
+      "expected": 1189,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        33,
+        37,
+        59
+      ],
+      "source": 1190,
+      "expected": 1189,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        30,
+        41,
+        59
+      ],
+      "source": 1190,
+      "expected": 1189,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        6,
+        37
+      ],
+      "source": 1190,
+      "expected": 1189,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        16,
+        37,
+        53
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        40,
+        52
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        36,
+        56
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        22,
+        57
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        34,
+        56,
+        59
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        16,
+        55
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        11,
+        19,
+        59
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        42,
+        50
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        32,
+        60
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        42,
+        48,
+        59
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        4,
+        6,
+        18
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        4,
+        14,
+        26
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        7,
+        25
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        11,
+        21
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        6,
+        28,
+        39
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        13,
+        19
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        30,
+        53
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": true,
+      "lp": 2.1635127912393885e-07
+    },
+    {
+      "labels": [
+        9,
+        21,
+        59
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        8,
+        55,
+        59
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        1,
+        29,
+        59
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        4,
+        10,
+        22
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        24,
+        55
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        6,
+        10,
+        24
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        9,
+        23
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        18,
+        53,
+        59
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        18,
+        57,
+        59
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        40,
+        50,
+        59
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        34,
+        58
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        26,
+        49
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        20,
+        31
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        6,
+        43,
+        51
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        5,
+        25,
+        59
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        4,
+        17
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        38,
+        52,
+        59
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        6,
+        14,
+        55
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        22,
+        53
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        33,
+        49
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        38,
+        54
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        7,
+        23,
+        59
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        30,
+        45
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        36,
+        54,
+        59
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        6,
+        33,
+        45
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        6,
+        22,
+        57
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        2,
+        5,
+        27
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        3,
+        27,
+        59
+      ],
+      "source": 1190,
+      "expected": 1188,
+      "depth": 1,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "source": 1188,
+      "expected": 1190,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "source": 1188,
+      "expected": 1188,
+      "depth": 2,
+      "feasible": false,
+      "lp": 0
+    }
+  ]
+}

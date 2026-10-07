@@ -1,0 +1,6 @@
+'Kobon.UpperOpenMathPaidZeroRigidity.closed_paid_zero_no_rigid' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathPaidZeroRigidity.closed_paid_zero_impossible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

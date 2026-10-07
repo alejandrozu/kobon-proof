@@ -1,0 +1,7 @@
+C:\Users\Propietario\Documents\Codex\2026-09-20\lo-2\work\kobon-repository\experiments\2026-10-05\seed_search\axis_coordinate_sweep61.py:41: RuntimeWarning: divide by zero encountered in divide
+  thresholds=(safety-(cv[indices]-cs*old))/cs
+C:\Users\Propietario\Documents\Codex\2026-09-20\lo-2\work\kobon-repository\experiments\2026-10-05\seed_search\axis_coordinate_sweep61.py:47: RuntimeWarning: divide by zero encountered in divide
+  breaks=-(av[rr]-dd*old)/dd
+{"event": "progress", "sweep": 0, "coordinates": 10, "evaluated": 5228, "best": 1190, "current": 1190, "elapsed": 130.18347358703613}
+{"event": "progress", "sweep": 0, "coordinates": 20, "evaluated": 10479, "best": 1190, "current": 1190, "elapsed": 240.6297197341919}
+{"event": "finished", "best": 1190, "current": 1190, "evaluated": 13564, "elapsed": 305.8857593536377}

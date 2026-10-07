@@ -1,0 +1,10 @@
+Kobon/UpperOpenMathFullCoreSides.lean:49:2: error: Type mismatch: After simplification, term
+  h
+ has type
+  {c, (fan n L hL hn tri ht c ⋯ D ⋯).point z} ∈ twoCoreEdges n L fun a => ofPredicate n L (tri a) hL ⋯
+but is expected to have type
+  {c, q} ∈ twoCoreEdges n L fun a => ofPredicate n L (tri a) hL ⋯
+'Kobon.UpperOpenMathFullCoreSides.certificate_full_core_side_shared' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]

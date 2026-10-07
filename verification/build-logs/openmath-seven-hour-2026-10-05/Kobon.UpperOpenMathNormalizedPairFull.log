@@ -1,0 +1,6 @@
+'Kobon.UpperOpenMathNormalizedPairFull.retained_matching_general' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathNormalizedPairFull.normalized_pair_full_third_impossible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

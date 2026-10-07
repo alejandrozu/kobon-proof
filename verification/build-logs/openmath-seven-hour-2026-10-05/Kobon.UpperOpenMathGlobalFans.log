@@ -1,0 +1,33 @@
+Kobon/UpperOpenMathGlobalFans.lean:42:0: warning: automatically included section variable(s) unused in theorem `Kobon.UpperOpenMathGlobalFans.one_degree_sum`:
+  hn
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hn in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Kobon/UpperOpenMathGlobalFans.lean:51:0: warning: automatically included section variable(s) unused in theorem `Kobon.UpperOpenMathGlobalFans.two_degree_sum`:
+  hn
+  hi
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hn hi in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Kobon/UpperOpenMathGlobalFans.lean:114:0: warning: automatically included section variable(s) unused in theorem `Kobon.UpperOpenMathGlobalFans.exceptional_core_count`:
+  hn
+  hi
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hn hi in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'Kobon.UpperOpenMathGlobalFans.certificate_ordinary_fan_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathGlobalFans.certificate_weighted_fan_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathGlobalFans.exceptional_edge_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathGlobalFans.exceptional_boundary_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathGlobalFans.certificate_defect_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathGlobalFans.certificate_defect_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathGlobalFans.certificate_fourfold_defect' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathGlobalFans.certificate_fourfold_defect_boundary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathGlobalFans.certificate_even_multiplicity_five' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

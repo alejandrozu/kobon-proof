@@ -1,0 +1,28 @@
+Kobon/OpenMathFourLineResolution.lean:88:66: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathFourLineResolution.lean:92:66: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathFourLineResolution.lean:94:66: warning: 'linarith' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathFourLineResolution.lean:88:66: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathFourLineResolution.lean:92:66: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathFourLineResolution.lean:94:66: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathFourLineResolution.lean:78:62: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Kobon/OpenMathFourLineResolution.lean:82:62: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'Kobon.OpenMathFourLineResolution.moved_triangle_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathFourLineResolution.old_interiors_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathFourLineResolution.negative_count_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathFourLineResolution.halfplane_yield_fails' depends on axioms: [propext, Classical.choice, Quot.sound]

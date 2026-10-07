@@ -1,0 +1,9 @@
+'Kobon.UpperOpenMathFiveCoreComponents.certificate_closed_five_cost_positive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathFiveCoreComponents.certificate_five_core_component_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathFiveCoreComponents.certificate_five_total_core_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

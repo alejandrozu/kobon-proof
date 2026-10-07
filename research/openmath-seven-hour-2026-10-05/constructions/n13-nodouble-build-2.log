@@ -1,0 +1,227 @@
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:27:2: error(lean.unknownIdentifier): Unknown identifier `triples`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:35:82: error(lean.unknownIdentifier): Unknown identifier `hi`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:35:88: error(lean.unknownIdentifier): Unknown identifier `triples`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:35:98: error(lean.unknownIdentifier): Unknown identifier `df`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:36:82: error(lean.unknownIdentifier): Unknown identifier `hi`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:36:88: error(lean.unknownIdentifier): Unknown identifier `triples`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:36:98: error(lean.unknownIdentifier): Unknown identifier `df`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:37:33: error: Application type mismatch: The argument
+  hL
+has type
+  NoParallel n L
+of sort `Prop` but is expected to have type
+  Sectors n 3 L
+of sort `Type` in the application
+  endpoint_triple n L hL
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:34:103: error: unsolved goals
+α : Type u_1
+inst✝ : Fintype α
+n : ℕ
+L : ℕ → Line ℝ
+hL : NoParallel n L
+hn : 2 ≤ n
+tri : α → Triple
+ht : ∀ (a : α), TrianglePredicate n L (tri a)
+f : Sectors n 3 L
+s0 : 0 ∈ f.triangular
+s1 : 1 ∈ f.triangular
+h0 : 0 ∈ f.coreShared
+h1 : 1 ∈ f.coreShared
+h2 : 2 ∈ f.coreShared
+ord3 : OrdinaryAt n L (f.point 3)
+q0 : f.point 0 ∈ unmarkedFullTwoCapSet n L hL hn tri ht
+q2 : f.point 2 ∈ unmarkedFullTwoCapSet n L hL hn tri ht
+g : Sectors n 3 L
+w : ZMod 6
+dg : AntipodalData (fun a => ofPredicate n L (tri a) hL ⋯) g
+gc : g.center = f.point 0
+hw : w ∈ g.coreShared
+gp : g.point w = f.center
+gr : g.point (w - 1) = f.point (0 + 1)
+gl : g.point (w + 1) = f.point (0 - 1)
+k : Sectors n 3 L
+x : ZMod 6
+dk : AntipodalData (fun a => ofPredicate n L (tri a) hL ⋯) k
+kc : k.center = f.point 2
+hx : x ∈ k.coreShared
+kp : k.point x = f.center
+kr : k.point (x - 1) = f.point (2 + 1)
+kl : k.point (x + 1) = f.point (2 - 1)
+⊢ False
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:52:82: error(lean.unknownIdentifier): Unknown identifier `hi`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:52:88: error(lean.unknownIdentifier): Unknown identifier `triples`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:52:98: error(lean.unknownIdentifier): Unknown identifier `df`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:53:33: error: Application type mismatch: The argument
+  hL
+has type
+  NoParallel n L
+of sort `Prop` but is expected to have type
+  Sectors n 3 L
+of sort `Type` in the application
+  endpoint_triple n L hL
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:51:71: error: unsolved goals
+α : Type u_1
+inst✝ : Fintype α
+n : ℕ
+L : ℕ → Line ℝ
+hL : NoParallel n L
+hn : 2 ≤ n
+tri : α → Triple
+ht : ∀ (a : α), TrianglePredicate n L (tri a)
+f : Sectors n 3 L
+s0 : 0 ∈ f.triangular
+s1 : 1 ∈ f.triangular
+s2 : 2 ∈ f.triangular
+h2 : 2 ∈ f.coreShared
+h3 : 3 ∈ f.coreShared
+ord1 : OrdinaryAt n L (f.point 1)
+q3 : f.point 3 ∈ unmarkedFullTwoCapSet n L hL hn tri ht
+g : Sectors n 3 L
+w : ZMod 6
+dg : AntipodalData (fun a => ofPredicate n L (tri a) hL ⋯) g
+gc : g.center = f.point 3
+hw : w ∈ g.coreShared
+gp : g.point w = f.center
+gr : g.point (w - 1) = f.point (3 + 1)
+gl : g.point (w + 1) = f.point (3 - 1)
+⊢ False
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:69:82: error(lean.unknownIdentifier): Unknown identifier `hi`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:69:88: error(lean.unknownIdentifier): Unknown identifier `triples`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:69:98: error(lean.unknownIdentifier): Unknown identifier `df`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:70:33: error: Application type mismatch: The argument
+  hL
+has type
+  NoParallel n L
+of sort `Prop` but is expected to have type
+  Sectors n 3 L
+of sort `Type` in the application
+  endpoint_triple n L hL
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:68:71: error: unsolved goals
+α : Type u_1
+inst✝ : Fintype α
+n : ℕ
+L : ℕ → Line ℝ
+hL : NoParallel n L
+hn : 2 ≤ n
+tri : α → Triple
+ht : ∀ (a : α), TrianglePredicate n L (tri a)
+f : Sectors n 3 L
+s0 : 0 ∈ f.triangular
+s1 : 1 ∈ f.triangular
+s2 : 2 ∈ f.triangular
+h0 : 0 ∈ f.coreShared
+h1 : 1 ∈ f.coreShared
+ord2 : OrdinaryAt n L (f.point 2)
+q0 : f.point 0 ∈ unmarkedFullTwoCapSet n L hL hn tri ht
+g : Sectors n 3 L
+w : ZMod 6
+dg : AntipodalData (fun a => ofPredicate n L (tri a) hL ⋯) g
+gc : g.center = f.point 0
+hw : w ∈ g.coreShared
+gp : g.point w = f.center
+gr : g.point (w - 1) = f.point (0 + 1)
+gl : g.point (w + 1) = f.point (0 - 1)
+⊢ False
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:92:82: error(lean.unknownIdentifier): Unknown identifier `hi`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:92:88: error(lean.unknownIdentifier): Unknown identifier `triples`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:92:98: error(lean.unknownIdentifier): Unknown identifier `df`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:93:82: error(lean.unknownIdentifier): Unknown identifier `hi`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:93:88: error(lean.unknownIdentifier): Unknown identifier `triples`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:93:98: error(lean.unknownIdentifier): Unknown identifier `df`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:94:91: error(lean.unknownIdentifier): Unknown identifier `triples`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:95:10: error(lean.unknownIdentifier): Unknown identifier `df`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:104:82: error(lean.unknownIdentifier): Unknown identifier `hi`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:104:88: error(lean.unknownIdentifier): Unknown identifier `triples`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:104:98: error(lean.unknownIdentifier): Unknown identifier `df`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:105:82: error(lean.unknownIdentifier): Unknown identifier `hi`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:105:88: error(lean.unknownIdentifier): Unknown identifier `triples`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:105:98: error(lean.unknownIdentifier): Unknown identifier `df`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:106:33: error: Application type mismatch: The argument
+  hL
+has type
+  NoParallel n L
+of sort `Prop` but is expected to have type
+  Sectors n 3 L
+of sort `Type` in the application
+  endpoint_triple n L hL
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:103:71: error: unsolved goals
+α : Type u_1
+inst✝ : Fintype α
+n : ℕ
+L : ℕ → Line ℝ
+hL : NoParallel n L
+hn : 2 ≤ n
+tri : α → Triple
+ht : ∀ (a : α), TrianglePredicate n L (tri a)
+f : Sectors n 3 L
+s1 : 1 ∈ f.triangular
+s2 : 2 ∈ f.triangular
+h1 : 1 ∈ f.coreShared
+h2 : 2 ∈ f.coreShared
+h3 : 3 ∈ f.coreShared
+ord0 : OrdinaryAt n L (f.point 0)
+q1 : f.point 1 ∈ unmarkedFullTwoCapSet n L hL hn tri ht
+q3 : f.point 3 ∈ unmarkedFullTwoCapSet n L hL hn tri ht
+g : Sectors n 3 L
+w : ZMod 6
+dg : AntipodalData (fun a => ofPredicate n L (tri a) hL ⋯) g
+gc : g.center = f.point 3
+hw : w ∈ g.coreShared
+gp : g.point w = f.center
+gr : g.point (w - 1) = f.point (3 + 1)
+gl : g.point (w + 1) = f.point (3 - 1)
+k : Sectors n 3 L
+x : ZMod 6
+dk : AntipodalData (fun a => ofPredicate n L (tri a) hL ⋯) k
+kc : k.center = f.point 1
+hx : x ∈ k.coreShared
+kp : k.point x = f.center
+kr : k.point (x - 1) = f.point (1 + 1)
+kl : k.point (x + 1) = f.point (1 - 1)
+⊢ False
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:157:34: error(lean.unknownIdentifier): Unknown identifier `df`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:155:71: error: unsolved goals
+α : Type u_1
+inst✝ : Fintype α
+n : ℕ
+L : ℕ → Line ℝ
+hL : NoParallel n L
+hn : 2 ≤ n
+tri : α → Triple
+ht : ∀ (a : α), TrianglePredicate n L (tri a)
+f : Sectors n 3 L
+hc : f.center ∈ core n L
+s1 : 1 ∈ f.triangular
+s2 : 2 ∈ f.triangular
+h1 : 1 ∈ f.coreShared
+h3 : 3 ∈ f.coreShared
+ord2 : OrdinaryAt n L (f.point 2)
+q1 : f.point 1 ∈ unmarkedFullTwoCapSet n L hL hn tri ht
+q3 : f.point 3 ∈ unmarkedFullTwoCapSet n L hL hn tri ht
+F : Sectors n 3 L := UpperOpenMathRotation.Sectors.shift f 1
+⊢ False
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:208:59: error(lean.unknownIdentifier): Unknown identifier `hi`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:208:65: error(lean.unknownIdentifier): Unknown identifier `triples`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:208:75: error(lean.unknownIdentifier): Unknown identifier `df`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:227:42: error(lean.unknownIdentifier): Unknown identifier `hi`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:227:48: error(lean.unknownIdentifier): Unknown identifier `triples`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:227:58: error(lean.unknownIdentifier): Unknown identifier `df`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:229:38: error(lean.unknownIdentifier): Unknown identifier `hi`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:229:44: error(lean.unknownIdentifier): Unknown identifier `triples`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:229:54: error(lean.unknownIdentifier): Unknown identifier `df`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:235:38: error(lean.unknownIdentifier): Unknown identifier `hi`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:235:44: error(lean.unknownIdentifier): Unknown identifier `triples`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:235:54: error(lean.unknownIdentifier): Unknown identifier `df`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:238:42: error(lean.unknownIdentifier): Unknown identifier `hi`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:238:48: error(lean.unknownIdentifier): Unknown identifier `triples`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:238:58: error(lean.unknownIdentifier): Unknown identifier `df`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:243:44: error(lean.unknownIdentifier): Unknown identifier `hi`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:243:50: error(lean.unknownIdentifier): Unknown identifier `triples`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:243:60: error(lean.unknownIdentifier): Unknown identifier `df`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:245:44: error(lean.unknownIdentifier): Unknown identifier `hi`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:245:50: error(lean.unknownIdentifier): Unknown identifier `triples`
+research/openmath-seven-hour-2026-10-05/constructions/N13NoDoubleScratch.lean:245:60: error(lean.unknownIdentifier): Unknown identifier `df`
+'Kobon.UpperOpenMathN13NoDouble.certificate_chart_no_two_anti' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]

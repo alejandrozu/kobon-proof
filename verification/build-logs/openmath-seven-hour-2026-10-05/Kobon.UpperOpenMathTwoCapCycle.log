@@ -1,0 +1,5 @@
+'Kobon.UpperOpenMathTwoCapCycle.three_two_cap_fans_incompatible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathTwoCapCycle.certificate_no_mark' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathTwoCapCycle.normalized_two_cap_anchor' depends on axioms: [propext, Classical.choice, Quot.sound]

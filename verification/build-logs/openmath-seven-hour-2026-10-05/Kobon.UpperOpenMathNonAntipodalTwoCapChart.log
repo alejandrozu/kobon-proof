@@ -1,0 +1,3 @@
+'Kobon.UpperOpenMathNonAntipodalTwoCapChart.certificate_nonantipodal_chart' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

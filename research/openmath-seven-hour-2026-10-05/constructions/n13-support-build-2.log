@@ -1,0 +1,1 @@
+'Kobon.UpperOpenMathN13SupportScratch.selected_core_cap_ne' depends on axioms: [propext, Classical.choice, Quot.sound]

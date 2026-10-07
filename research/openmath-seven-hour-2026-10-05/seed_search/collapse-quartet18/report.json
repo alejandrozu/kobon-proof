@@ -1,0 +1,10 @@
+{
+  "n": 18,
+  "source_T": 93,
+  "contiguous_blocks": 0,
+  "tested": 0,
+  "wins": [],
+  "records": [],
+  "seconds": 0.031925201416015625,
+  "scope": "A single source affine type, quartet collapse preserving other orientation signs; no exhaustive geometry ceiling"
+}

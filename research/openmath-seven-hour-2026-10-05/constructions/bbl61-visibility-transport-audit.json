@@ -1,0 +1,53 @@
+{
+  "scope": "Exact rational finite diagnostics with high precision tangent approximations; not a uniform certificate",
+  "records": [
+    {
+      "depth": 0,
+      "n": 61,
+      "T": 1190,
+      "B": 52,
+      "max_visible": 28,
+      "distribution": {
+        "26": 34,
+        "27": 26,
+        "28": 2,
+        "25": 38,
+        "24": 22
+      },
+      "transported_visible": 28,
+      "elapsed": 0.13153743743896484
+    },
+    {
+      "depth": 1,
+      "n": 121,
+      "T": 4790,
+      "B": 112,
+      "max_visible": 58,
+      "distribution": {
+        "56": 94,
+        "57": 26,
+        "58": 2,
+        "55": 98,
+        "54": 22
+      },
+      "transported_visible": 58,
+      "elapsed": 1.649160385131836
+    },
+    {
+      "depth": 2,
+      "n": 241,
+      "T": 19190,
+      "B": 232,
+      "max_visible": 118,
+      "distribution": {
+        "116": 214,
+        "117": 26,
+        "118": 2,
+        "115": 218,
+        "114": 22
+      },
+      "transported_visible": 118,
+      "elapsed": 10.944256067276001
+    }
+  ]
+}

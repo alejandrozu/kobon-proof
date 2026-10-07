@@ -1,0 +1,6 @@
+'Kobon.UpperOpenMathComponentHullDeficit.certificate_component_ordinary_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathComponentHullDeficit.certificate_component_hull_deficit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

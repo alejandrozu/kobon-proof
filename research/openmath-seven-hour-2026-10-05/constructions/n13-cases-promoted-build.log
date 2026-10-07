@@ -1,0 +1,2 @@
+'Kobon.UpperOpenMathN13Cases.four_shared_run' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathN13Cases.two_nonadjacent_core_positions' depends on axioms: [propext, Classical.choice, Quot.sound]

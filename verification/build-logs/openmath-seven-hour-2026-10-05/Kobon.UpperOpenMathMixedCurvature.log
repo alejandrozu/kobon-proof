@@ -1,0 +1,3 @@
+'Kobon.UpperOpenMathMixedCurvature.certificate_closed_mixed_paid_positive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

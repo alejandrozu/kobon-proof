@@ -1,0 +1,8 @@
+'Kobon.OpenMathEveryOrderExtension.certificate_boundary_resource' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.OpenMathEveryOrderExtension.successor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathEveryOrderExtension.successor_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathEveryOrderExtension.infinite_quantitative_extension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

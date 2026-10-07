@@ -1,0 +1,5 @@
+'Kobon.UpperOpenMathVertexBlocks.oriented_collinear_between' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathVertexBlocks.ordinary_cap_between' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathVertexBlocks.certificate_vertex_blocks_used_edge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

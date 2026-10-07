@@ -1,0 +1,17 @@
+Kobon/OpenMathIntegerSparseBoxes.lean:125:15: warning: This simp argument is unused:
+  OpenMathIntegerBoxes.simpleBool
+
+Hint: Omit it from the simp argument list.
+  simp only [̵O̵p̵e̵n̵M̵a̵t̵h̵I̵n̵t̵e̵g̵e̵r̵B̵o̵x̵e̵s̵.̵s̵i̵m̵p̵l̵e̵B̵o̵o̵l̵,̵i̵f̵_̵p̵o̵s̵[̲i̲f̲_̲p̲o̲s̲ ho]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Kobon/OpenMathIntegerSparseBoxes.lean:127:15: warning: This simp argument is unused:
+  OpenMathIntegerBoxes.simpleBool
+
+Hint: Omit it from the simp argument list.
+  simp only [̵O̵p̵e̵n̵M̵a̵t̵h̵I̵n̵t̵e̵g̵e̵r̵B̵o̵x̵e̵s̵.̵s̵i̵m̵p̵l̵e̵B̵o̵o̵l̵,̵i̵f̵_̵n̵e̵g̵[̲i̲f̲_̲n̲e̲g̲ ho]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Kobon.OpenMathIntegerSparseBoxes.lowerSparse_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathIntegerSparseBoxes.nonzeroSparse_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathIntegerSparseBoxes.simpleSparse_sound' depends on axioms: [propext, Classical.choice, Quot.sound]

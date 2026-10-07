@@ -1,0 +1,9 @@
+'Kobon.UpperOpenMathCommonNeighbor.certificate_common_used_center_between' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathCommonNeighbor.certificate_intervening_vertex_no_common_used_neighbor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathCommonNeighbor.certificate_collinear_used_triangle_impossible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,3 @@
+'Kobon.UpperOpenMathOneCapActualData.certificate_single_one_cap_zero_data' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

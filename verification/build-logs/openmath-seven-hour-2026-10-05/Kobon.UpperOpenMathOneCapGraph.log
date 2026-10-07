@@ -1,0 +1,2 @@
+'Kobon.UpperOpenMathOneCapGraph.neighbor_degree_tradeoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathOneCapGraph.five_three_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]

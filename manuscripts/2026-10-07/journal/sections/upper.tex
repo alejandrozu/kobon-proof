@@ -1,0 +1,130 @@
+\section{Actual incidence and component bounds}
+\label{jup:section}
+
+Here the $n\ge2$ real lines are pairwise nonparallel. Multiple points are allowed except in explicitly simple or all-triple statements. All counts refer to a finite injective family of certified triangular cells, which may be a subset of all cells. A \emph{core} is an intersection of multiplicity $r\ge3$. Put
+\[
+ q=\sum_{r\ge3}t_r,\quad I=\sum_{r\ge3}rt_r,\quad
+ S=\sum_{r\ge3}r(r-2)t_r,\quad\delta=n(n-2)-3T.
+\]
+Let $h$ count lines meeting a core, $E$ bounded elementary segments, $U$ unused segments, and $D_1,D_2$ shared sides with one and two core endpoints. Actual geometry gives
+\begin{equation}\label{jup:identity}
+ E=n(n-2)-S,\quad3T=E-U+D_1+D_2,\quad
+ \delta=S+U-D_1-D_2.
+\end{equation}
+It also gives $D_2+h\le I$, $D_2\le\binom q2$, and $2S-7I+15q\ge0$.
+
+\begin{lemma}[Actual clean-line charging]\label{jup:clean}
+For even $n\ge4$, $n-h\le2U+D_1$; hence
+\begin{equation}\label{jup:budget}
+ 2\delta\ge n+2S-h-3D_1-2D_2.
+\end{equation}
+\end{lemma}
+\begin{proof}
+A clean line has $n-1$ crossings. Select bounded transverse segments on one common side. If all had triangle degree one, their triangle bases would partition the crossings into pairs, contradicting odd cardinality. Thus some chosen segment is unused or shared. Ordinary-endpoint uniqueness permits at most two charges on an unused side and one on a one-core shared side. The choices and fibers are extracted in Lean.
+\end{proof}
+Nonparallelism is used to obtain transverse intersections; this statement is distinct from the completed exterior-ray charging of Section~\ref{jext:section}.
+
+\begin{theorem}[Formal classical simple bounds]\label{jup:simple}
+Every simple certificate satisfies $3T\le n(n-2)$, and for even $n\ge4$, $6T\le n(2n-5)$.
+\end{theorem}
+\begin{proof}
+The core is empty, so $\delta=U\ge0$; the even charge budget gives $2U\ge n$.
+\end{proof}
+These retain the classical attribution, including Blanc's even bound~\cite{blanc2011}.
+
+\begin{lemma}[Extracted local fans]\label{jup:fan}
+At an $r$-fold core let $a,d$ be the ordinary-ended and core-ended shared-ray degrees. Then $a\le2r-3$ and $3a+d\le6r-6$. Equality $a=2r-3$ forces every sector triangular and $d=3$. In particular $d\le2$ implies $a\le2r-4$, and
+\begin{equation}\label{jup:sharp-fan}
+ 3a+d\le6r-8+2e_v,
+\end{equation}
+where $e_v$ indicates $a=2r-3$.
+\end{lemma}
+\begin{proof}
+A run of $r-1$ ordinary-ended shared rays would force an opposite support through the center. Cyclic window counting bounds $a$; a missing sector improves it by one. The canonical ray order, antipodes, endpoint correspondence and neighboring triangle matches are now extracted from the actual arrangement, completing the former local-interface gap.
+\end{proof}
+A finite support extreme cannot carry the full exceptional fan; two exceptional full triple fans cannot be adjacent. Summation now proves
+\begin{equation}\label{jup:exceptional}
+ 2\delta\ge n+2S-7I+8q+D_2-2\sum_v e_v
+ \qquad(n\ge4\text{ even}),
+\end{equation}
+in \proofref{Kobon/UpperOpenMathGlobalFans.lean}{204}{\lean{certificate_defect_even}}, without a supplied fan premise.
+
+\begin{theorem}[Retained restricted estimates, now extracted]\label{jup:upper}
+For even $n\ge4$ and nonparallel arrangements,
+\begin{equation}\label{jup:weighted}
+ 2\delta\ge n+\sum_{r\ge3}(2r^2-11r+6)t_r.
+\end{equation}
+If there are at most two cores,
+\begin{equation}\label{jup:two-core}
+ T\le\floor{n(n-5/2)/3}+1.
+\end{equation}
+The zero/one-core defects satisfy $\delta\ge n/2$ and $\delta\ge n/2-1$. With at most three cores, $T\le\floor{n(2n-5)/6}+2$.
+\end{theorem}
+\begin{proof}
+Sum the fan bounds and use~\eqref{jup:budget}. With at most three cores each core has $d\le2$, giving $D_1\le2I-4q$. Core-path incidence and $D_2\le\binom q2$ give the stated bounds, with integer parity rounding. Actual two/three-core wrappers are
+\proofref{Kobon/UpperOpenMathBoundaryBudgets.lean}{137}{\lean{certificate_two_core_upper}} and
+\proofref{Kobon/UpperOpenMathBoundaryBudgets.lean}{128}{\lean{certificate_three_core_upper}}.
+\end{proof}
+The two-core bound is attained at $8,14,26,50$ lines by attributed $15,54,204,792$ witnesses~\cite{maiorana2026,parpalakutkinGallery2026}. Multiplicities at least five make the old weight nonnegative; triple and quadruple weights remain negative.
+
+For the new component estimates, join cores exactly when a shared elementary side joins them. Let $c$ count components, including isolated cores, and let $\Sigma=\sum_{r\ge4}r(r-4)t_r$. Let $A$ count triple cores of type $(a,d)=(2,4)$ and $B_s$ count those of type $(1,5)$ in component $s$.
+
+\begin{theorem}[Mixed-multiplicity component penalty]\label{jup:mixed}
+For arbitrary core multiplicities, degrees and component sizes,
+\begin{equation}\label{jup:mixed-formula}
+ \delta+A+\sum_s\ceil{B_s/2}\ge U+c+\Sigma.
+\end{equation}
+If every core degree is at most three, or every component has at most five cores, the corrections disappear: $\delta\ge U+c+\Sigma$.
+\end{theorem}
+\begin{proof}[Charging and escape]
+Actual cap-neighbor maps pay extremal sources against poor recipients. Higher multiplicities supply quadratic surplus. A finite support extreme and the geometric exclusion of closed balanced triple cycles force a positive unit in each component after the displayed corrections. Connected-component partitions and integer rounding give
+\proofref{Kobon/UpperOpenMathMixedCurvatureBound.lean}{41}{\lean{certificate_mixed_curvature_component_bound}}.
+The correction-free cases use
+\proofref{Kobon/UpperOpenMathMixedDegreeThree.lean}{158}{\lean{certificate_mixed_degree_three_component_bound}} and
+\proofref{Kobon/UpperOpenMathMixedFiveCoreComponents.lean}{96}{\lean{certificate_mixed_five_component_bound}}.
+\end{proof}
+
+In the all-triple class, a \emph{marked port} is a core-ended shared ray whose two immediate neighboring rays are ordinary-ended shared rays. Let $A_0$ count unmarked $(2,4)$ cores, $B=\sum_s B_s$, $E_3$ count $a=3$ cores, $P_{21}$ count $(2,1)$ cores, $N_{12}$ count $(1,2)$ cores, and $M_{22}$ count marked $(2,2)$ cores. Subscripts $s$ restrict these counts to a component.
+
+\begin{theorem}[All-triple refinements]\label{jup:triple}
+Without degree or component-size restrictions,
+\begin{equation}\label{jup:m22}
+ 2\delta+B\ge2U+3(E_3+P_{21})+N_{12}+M_{22}.
+\end{equation}
+A separately completed component estimate is
+\begin{equation}\label{jup:hybrid}
+ \delta\ge U+\sum_s\max\!\left(
+ 1-A_s-\ceil{B_s/2},
+ \ceil{\frac{3E_s+3P_s+N_{12,s}-B_s}{2}}\right),
+\end{equation}
+where $A_s$ counts the $A_0$ cores in $s$. If each component satisfies
+$B_s+1\le3E_s+3P_s+N_{12,s}$, then $\delta\ge U+c$.
+\end{theorem}
+\begin{proof}[Actual recipient exclusions]
+An unmarked full $(2,4)$ source has antipodal ordinary rays. Actual side matching excludes source adjacency and limits their recipient incidence. A $(1,3)$ or $(1,2)$ recipient has at most one such source neighbor; a $(2,1)$ recipient has none. These geometric exclusions remove the former double-recipient correction. Marked and incoming antipodal-source edges are disjoint, so $m+x\le d$ locally; at a marked $(2,2)$ core this retains a further unit. The global root is
+\proofref{Kobon/UpperOpenMathM22Curvature.lean}{117}{\lean{certificate_m22_source_free_defect_bound}};
+the component root is
+\proofref{Kobon/UpperOpenMathClosedN12Curvature.lean}{282}{\lean{certificate_n12_source_free_hybrid_component_defect}}.
+The last implication follows by rounding, and is independently checked.
+\end{proof}
+All structural endpoints use only standard logical axioms. Equation~\eqref{jup:m22} includes $M_{22}$ globally; no component $M_{22}$ refinement is claimed. Earlier paid-component and half-curvature bounds remain proved and are dominated by the retained component portfolio. Mixed forests also satisfy $\delta\ge U+c+\sum_{r\ge4}(r(r-4)+1)t_r$; degree-four mixed components retain only the $A$ correction. The broad assertion that exact Tamura equality forces simplicity already appears in Cl\'ement--Bader~\cite{clementbader2007}; our sufficient-class corollaries do not claim its first discovery. Local cap and kite mechanisms also retain OpenMath-source credit~\cite{srirangam2026}.
+
+The residual $B$ correction and the profile hypothesis cannot be dropped. General strict component positivity, the all-triple token targets $C_{\rm end}\ge2D_1$ and $n\le2U+D_1+R_c+2$, and a new unrestricted even numerical bound remain open. Here $C_{\rm end}$ counts nonshared core-end incidences and $R_c$ unbounded core rays. The safe extracted all-line budget is $n\le2U+2D_1+C_{\rm end}$ for even $n\ge4$ all-triple arrangements.
+
+The six-line triangle-and-medians arrangement $x=0$, $y=0$, $x+y=3$, $x-y=0$, $2x+y=3$, $x+2y=3$ retains six cells and six shared radial sides at $(1,1)$, with $a=d=3$. Its exact certificate challenges only a literal local incidence reading of a shared-pair assertion~\cite{clementbader2007}, not the final upper theorem.
+\begin{figure}[tb]
+\centering\includegraphics[width=.36\linewidth]{shared-fan.pdf}
+\caption{The retained verified shared-fan example. Separating ordinary-ended and core-ended sides is essential.}\label{jup:figure}
+\end{figure}
+
+\begin{proposition}[Exact translation surgery]\label{jup:surgery}
+For sufficiently small positive parallel translation of one line in a finite nonparallel arrangement, triangle predicates are determined by affine determinant germs. With the exact sets of lost and born support triples,
+\begin{equation}\label{jup:surgery-identity}
+ T(\varepsilon)+\#\mathrm{lost}=T(0)+\#\mathrm{born}.
+\end{equation}
+\end{proposition}
+This follows from simultaneous sign stability and
+\proofref{Kobon/OpenMathTranslationCounting.lean}{98}{\lean{translated_birth_loss_identity}}.
+Exactly one concurrent supporting triple gives one birth, with retention requiring global conditions. Loss is not a half-plane triangle count~\cite{liuDesingularization2026}: a four-line witness remains at two cells despite zero proposed half-plane loss. For the six lines
+$y=0$, $x-y=0$, $x+y=0$, $x+2y=3$, $-2x+y=2$, $x+4y=-4$,
+replacing $y=0$ by $y=\varepsilon$ or $y=-\varepsilon$ gives seven or four cells for every $0<\varepsilon<1/100$, from six initially. The downward resolution breaks three old triangles and creates one. These standard-axiom interval proofs refute a general loss cap of two. Earlier Maiorana $14:54$ resolutions $52,52,53,52$, and 132 gallery resolutions with best nearby simple counts $14,51,114,203,313,448,791$ at orders $8,14,20,26,32,38,50$, remain exact external diagnostics, not bounds on every simple arrangement.

@@ -1,0 +1,13 @@
+Kobon/UpperOpenMathAntipodalAdjacency.lean:109:4: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Kobon/UpperOpenMathAntipodalAdjacency.lean:136:4: error: Type mismatch: After simplification, term
+  cap_eq_at_ordinary g dg.triangular_eq 0 go0
+ has type
+  @Eq (Fin n) (g.opposite (-1)) (g.opposite 0)
+but is expected to have type
+  @Eq (Fin n) (g.opposite 5) (g.opposite 0)
+'Kobon.UpperOpenMathAntipodalAdjacency.normalized_pair_incompatible' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]

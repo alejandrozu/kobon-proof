@@ -1,0 +1,10 @@
+Kobon/OpenMathBoundarySuccessor.lean:114:25: warning: 'omega' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathBoundarySuccessor.lean:114:25: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+'Kobon.OpenMathBoundarySuccessor.boundary_selection_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathBoundarySuccessor.selected_visible_list' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathBoundarySuccessor.extension_of_selected' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathBoundarySuccessor.odd_defect_two_successor' depends on axioms: [propext, Classical.choice, Quot.sound]

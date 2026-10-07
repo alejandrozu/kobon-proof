@@ -1,0 +1,1057 @@
+{
+  "unique_types": 20,
+  "records": [
+    {
+      "source": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M01-n8-T15-axis0-subset0_1_2_3_4_10_11_12.json",
+      "axis": 3,
+      "corridor": 0,
+      "croot": -2.0,
+      "position": 0,
+      "equal_rank": null,
+      "margin": 0.13117062122454193,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 8,
+        "T": 15,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 1,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 3,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/1000",
+          "ledger": {
+            "n": 14,
+            "T": 52,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 10,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 12,
+            "first_slack": 10,
+            "second_slack": 6
+          },
+          "backbone_T": 47,
+          "corridor_triangles": 7,
+          "recovered_on_deletion": 2,
+          "axis_triangles": 11,
+          "backbone_axis_triangles": 11
+        },
+        {
+          "delta": "1/1000000",
+          "ledger": {
+            "n": 14,
+            "T": 52,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 10,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 12,
+            "first_slack": 10,
+            "second_slack": 6
+          },
+          "backbone_T": 47,
+          "corridor_triangles": 7,
+          "recovered_on_deletion": 2,
+          "axis_triangles": 11,
+          "backbone_axis_triangles": 11
+        }
+      ]
+    },
+    {
+      "source": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M01-n8-T15-axis0-subset0_1_2_3_4_10_11_12.json",
+      "axis": 3,
+      "corridor": 0,
+      "croot": -5.0,
+      "position": 0,
+      "equal_rank": null,
+      "margin": 0.07720966152677478,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 8,
+        "T": 15,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 1,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 3,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/1000",
+          "ledger": {
+            "n": 14,
+            "T": 53,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 7,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 9,
+            "first_slack": 4,
+            "second_slack": 6
+          },
+          "backbone_T": 47,
+          "corridor_triangles": 7,
+          "recovered_on_deletion": 1,
+          "axis_triangles": 12,
+          "backbone_axis_triangles": 11
+        },
+        {
+          "delta": "1/1000000",
+          "ledger": {
+            "n": 14,
+            "T": 53,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 7,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 9,
+            "first_slack": 4,
+            "second_slack": 6
+          },
+          "backbone_T": 47,
+          "corridor_triangles": 7,
+          "recovered_on_deletion": 1,
+          "axis_triangles": 12,
+          "backbone_axis_triangles": 11
+        }
+      ]
+    },
+    {
+      "source": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M01-n8-T15-axis0-subset0_1_2_3_4_10_11_12.json",
+      "axis": 3,
+      "corridor": 0,
+      "croot": -10.0,
+      "position": 0,
+      "equal_rank": null,
+      "margin": 0.043724155964871336,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 8,
+        "T": 15,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 1,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 3,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/1000",
+          "ledger": {
+            "n": 14,
+            "T": 53,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 7,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 9,
+            "first_slack": 4,
+            "second_slack": 6
+          },
+          "backbone_T": 47,
+          "corridor_triangles": 7,
+          "recovered_on_deletion": 1,
+          "axis_triangles": 12,
+          "backbone_axis_triangles": 11
+        },
+        {
+          "delta": "1/1000000",
+          "ledger": {
+            "n": 14,
+            "T": 53,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 7,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 9,
+            "first_slack": 4,
+            "second_slack": 6
+          },
+          "backbone_T": 47,
+          "corridor_triangles": 7,
+          "recovered_on_deletion": 1,
+          "axis_triangles": 12,
+          "backbone_axis_triangles": 11
+        }
+      ]
+    },
+    {
+      "source": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M01-n8-T15-axis0-subset0_1_2_3_4_10_11_12.json",
+      "axis": 5,
+      "corridor": 0,
+      "croot": -0.5773502691896258,
+      "position": 1,
+      "equal_rank": 1,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M01-n8-T15-axis0-subset0_1_2_3_4_10_11_12.json",
+      "axis": 7,
+      "corridor": 0,
+      "croot": -0.5773502691896258,
+      "position": 1,
+      "equal_rank": 1,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M01-n8-T15-axis0-subset0_1_2_4_10_11_12_13.json",
+      "axis": 4,
+      "corridor": 0,
+      "croot": -0.5773502691896258,
+      "position": 1,
+      "equal_rank": 1,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M01-n8-T15-axis0-subset0_1_2_4_10_11_12_13.json",
+      "axis": 6,
+      "corridor": 0,
+      "croot": -0.5773502691896258,
+      "position": 1,
+      "equal_rank": 1,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M01-n8-T15-axis0-subset0_1_2_4_10_11_12_13.json",
+      "axis": 7,
+      "corridor": 0,
+      "croot": -2.0,
+      "position": 0,
+      "equal_rank": null,
+      "margin": 0.13117062122454193,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 8,
+        "T": 15,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 1,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 3,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/1000",
+          "ledger": {
+            "n": 14,
+            "T": 52,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 10,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 12,
+            "first_slack": 10,
+            "second_slack": 6
+          },
+          "backbone_T": 47,
+          "corridor_triangles": 7,
+          "recovered_on_deletion": 2,
+          "axis_triangles": 11,
+          "backbone_axis_triangles": 11
+        },
+        {
+          "delta": "1/1000000",
+          "ledger": {
+            "n": 14,
+            "T": 52,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 10,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 12,
+            "first_slack": 10,
+            "second_slack": 6
+          },
+          "backbone_T": 47,
+          "corridor_triangles": 7,
+          "recovered_on_deletion": 2,
+          "axis_triangles": 11,
+          "backbone_axis_triangles": 11
+        }
+      ]
+    },
+    {
+      "source": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M01-n8-T15-axis0-subset0_1_2_4_10_11_12_13.json",
+      "axis": 7,
+      "corridor": 0,
+      "croot": -5.0,
+      "position": 0,
+      "equal_rank": null,
+      "margin": 0.07720966152677478,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 8,
+        "T": 15,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 1,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 3,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/1000",
+          "ledger": {
+            "n": 14,
+            "T": 53,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 7,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 9,
+            "first_slack": 4,
+            "second_slack": 6
+          },
+          "backbone_T": 47,
+          "corridor_triangles": 7,
+          "recovered_on_deletion": 1,
+          "axis_triangles": 12,
+          "backbone_axis_triangles": 11
+        },
+        {
+          "delta": "1/1000000",
+          "ledger": {
+            "n": 14,
+            "T": 53,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 7,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 9,
+            "first_slack": 4,
+            "second_slack": 6
+          },
+          "backbone_T": 47,
+          "corridor_triangles": 7,
+          "recovered_on_deletion": 1,
+          "axis_triangles": 12,
+          "backbone_axis_triangles": 11
+        }
+      ]
+    },
+    {
+      "source": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M01-n8-T15-axis0-subset0_1_2_4_10_11_12_13.json",
+      "axis": 7,
+      "corridor": 0,
+      "croot": -10.0,
+      "position": 0,
+      "equal_rank": null,
+      "margin": 0.043724155964871336,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 8,
+        "T": 15,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 1,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 3,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/1000",
+          "ledger": {
+            "n": 14,
+            "T": 53,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 7,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 9,
+            "first_slack": 4,
+            "second_slack": 6
+          },
+          "backbone_T": 47,
+          "corridor_triangles": 7,
+          "recovered_on_deletion": 1,
+          "axis_triangles": 12,
+          "backbone_axis_triangles": 11
+        },
+        {
+          "delta": "1/1000000",
+          "ledger": {
+            "n": 14,
+            "T": 53,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 7,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 9,
+            "first_slack": 4,
+            "second_slack": 6
+          },
+          "backbone_T": 47,
+          "corridor_triangles": 7,
+          "recovered_on_deletion": 1,
+          "axis_triangles": 12,
+          "backbone_axis_triangles": 11
+        }
+      ]
+    },
+    {
+      "source": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M02-n8-T15-axis2-subset0_2_4_6_8_11_12_13.json",
+      "axis": 5,
+      "corridor": 1,
+      "croot": 0.5773502691896258,
+      "position": 4,
+      "equal_rank": 4,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M02-n8-T15-axis2-subset0_2_4_6_8_11_12_13.json",
+      "axis": 7,
+      "corridor": 1,
+      "croot": 0.5773502691896258,
+      "position": 4,
+      "equal_rank": 4,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M03-n8-T15-axis8-subset0_1_4_6_7_8_10_11.json",
+      "axis": 1,
+      "corridor": 5,
+      "croot": 2.0,
+      "position": 6,
+      "equal_rank": null,
+      "margin": 0.13117062122454193,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 8,
+        "T": 15,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 1,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 3,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/1000",
+          "ledger": {
+            "n": 14,
+            "T": 52,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 10,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 12,
+            "first_slack": 10,
+            "second_slack": 6
+          },
+          "backbone_T": 47,
+          "corridor_triangles": 7,
+          "recovered_on_deletion": 2,
+          "axis_triangles": 11,
+          "backbone_axis_triangles": 11
+        },
+        {
+          "delta": "1/1000000",
+          "ledger": {
+            "n": 14,
+            "T": 52,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 10,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 12,
+            "first_slack": 10,
+            "second_slack": 6
+          },
+          "backbone_T": 47,
+          "corridor_triangles": 7,
+          "recovered_on_deletion": 2,
+          "axis_triangles": 11,
+          "backbone_axis_triangles": 11
+        }
+      ]
+    },
+    {
+      "source": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M03-n8-T15-axis8-subset0_1_4_6_7_8_10_11.json",
+      "axis": 1,
+      "corridor": 5,
+      "croot": 5.0,
+      "position": 6,
+      "equal_rank": null,
+      "margin": 0.07720966152677478,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 8,
+        "T": 15,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 1,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 3,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/1000",
+          "ledger": {
+            "n": 14,
+            "T": 53,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 7,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 9,
+            "first_slack": 4,
+            "second_slack": 6
+          },
+          "backbone_T": 47,
+          "corridor_triangles": 7,
+          "recovered_on_deletion": 1,
+          "axis_triangles": 12,
+          "backbone_axis_triangles": 11
+        },
+        {
+          "delta": "1/1000000",
+          "ledger": {
+            "n": 14,
+            "T": 53,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 7,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 9,
+            "first_slack": 4,
+            "second_slack": 6
+          },
+          "backbone_T": 47,
+          "corridor_triangles": 7,
+          "recovered_on_deletion": 1,
+          "axis_triangles": 12,
+          "backbone_axis_triangles": 11
+        }
+      ]
+    },
+    {
+      "source": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M03-n8-T15-axis8-subset0_1_4_6_7_8_10_11.json",
+      "axis": 1,
+      "corridor": 5,
+      "croot": 10.0,
+      "position": 6,
+      "equal_rank": null,
+      "margin": 0.04372415596487145,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 8,
+        "T": 15,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 1,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 3,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/1000",
+          "ledger": {
+            "n": 14,
+            "T": 53,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 7,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 9,
+            "first_slack": 4,
+            "second_slack": 6
+          },
+          "backbone_T": 47,
+          "corridor_triangles": 7,
+          "recovered_on_deletion": 1,
+          "axis_triangles": 12,
+          "backbone_axis_triangles": 11
+        },
+        {
+          "delta": "1/1000000",
+          "ledger": {
+            "n": 14,
+            "T": 53,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 7,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 9,
+            "first_slack": 4,
+            "second_slack": 6
+          },
+          "backbone_T": 47,
+          "corridor_triangles": 7,
+          "recovered_on_deletion": 1,
+          "axis_triangles": 12,
+          "backbone_axis_triangles": 11
+        }
+      ]
+    },
+    {
+      "source": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M04-n8-T15-axis5-subset0_1_3_5_6_8_11_13.json",
+      "axis": 5,
+      "corridor": 3,
+      "croot": 0.5773502691896258,
+      "position": 4,
+      "equal_rank": 4,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M05-n8-T15-axis13-subset0_1_4_8_10_11_12_13.json",
+      "axis": 0,
+      "corridor": 7,
+      "croot": 2.0,
+      "position": 6,
+      "equal_rank": null,
+      "margin": 0.13117062122454193,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 8,
+        "T": 15,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 1,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 3,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/1000",
+          "ledger": {
+            "n": 14,
+            "T": 52,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 10,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 12,
+            "first_slack": 10,
+            "second_slack": 6
+          },
+          "backbone_T": 47,
+          "corridor_triangles": 7,
+          "recovered_on_deletion": 2,
+          "axis_triangles": 11,
+          "backbone_axis_triangles": 11
+        },
+        {
+          "delta": "1/1000000",
+          "ledger": {
+            "n": 14,
+            "T": 52,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 10,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 12,
+            "first_slack": 10,
+            "second_slack": 6
+          },
+          "backbone_T": 47,
+          "corridor_triangles": 7,
+          "recovered_on_deletion": 2,
+          "axis_triangles": 11,
+          "backbone_axis_triangles": 11
+        }
+      ]
+    },
+    {
+      "source": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M05-n8-T15-axis13-subset0_1_4_8_10_11_12_13.json",
+      "axis": 0,
+      "corridor": 7,
+      "croot": 5.0,
+      "position": 6,
+      "equal_rank": null,
+      "margin": 0.07720966152677478,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 8,
+        "T": 15,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 1,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 3,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/1000",
+          "ledger": {
+            "n": 14,
+            "T": 53,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 7,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 9,
+            "first_slack": 4,
+            "second_slack": 6
+          },
+          "backbone_T": 47,
+          "corridor_triangles": 7,
+          "recovered_on_deletion": 1,
+          "axis_triangles": 12,
+          "backbone_axis_triangles": 11
+        },
+        {
+          "delta": "1/1000000",
+          "ledger": {
+            "n": 14,
+            "T": 53,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 7,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 9,
+            "first_slack": 4,
+            "second_slack": 6
+          },
+          "backbone_T": 47,
+          "corridor_triangles": 7,
+          "recovered_on_deletion": 1,
+          "axis_triangles": 12,
+          "backbone_axis_triangles": 11
+        }
+      ]
+    },
+    {
+      "source": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M05-n8-T15-axis13-subset0_1_4_8_10_11_12_13.json",
+      "axis": 0,
+      "corridor": 7,
+      "croot": 10.0,
+      "position": 6,
+      "equal_rank": null,
+      "margin": 0.04372415596487145,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 8,
+        "T": 15,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 1,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 3,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/1000",
+          "ledger": {
+            "n": 14,
+            "T": 53,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 7,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 9,
+            "first_slack": 4,
+            "second_slack": 6
+          },
+          "backbone_T": 47,
+          "corridor_triangles": 7,
+          "recovered_on_deletion": 1,
+          "axis_triangles": 12,
+          "backbone_axis_triangles": 11
+        },
+        {
+          "delta": "1/1000000",
+          "ledger": {
+            "n": 14,
+            "T": 53,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 7,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 9,
+            "first_slack": 4,
+            "second_slack": 6
+          },
+          "backbone_T": 47,
+          "corridor_triangles": 7,
+          "recovered_on_deletion": 1,
+          "axis_triangles": 12,
+          "backbone_axis_triangles": 11
+        }
+      ]
+    },
+    {
+      "source": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M09-n8-T15-axis1-subset0_1_3_5_8_9_10_11.json",
+      "axis": 3,
+      "corridor": 1,
+      "croot": 0.5773502691896258,
+      "position": 4,
+      "equal_rank": 4,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    }
+  ],
+  "best": 53,
+  "wins": [],
+  "seconds": 2.6498236656188965,
+  "scope": "Distinct available 8-line affine types and bounded BBL point controls, no exhaustive geometric impossibility claim"
+}

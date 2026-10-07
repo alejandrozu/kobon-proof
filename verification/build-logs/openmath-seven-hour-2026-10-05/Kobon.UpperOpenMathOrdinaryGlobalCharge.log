@@ -1,0 +1,12 @@
+'Kobon.UpperOpenMathOrdinaryGlobalCharge.transverse_charge_count' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathOrdinaryGlobalCharge.core_base_charge_count' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathOrdinaryGlobalCharge.certificate_all_line_parity_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathOrdinaryGlobalCharge.certificate_triple_even_no_ordinary_core_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

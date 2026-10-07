@@ -1,0 +1,4 @@
+'Kobon.OpenMathConstructionSeed61.simple' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ OpenMathConstructionSeed61Fast.int_simple_bool._native.native_decide.ax_1]

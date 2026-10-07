@@ -1,0 +1,9 @@
+'Kobon.UpperOpenMathHighMultiplicityHull.certificate_minimum_multiplicity_hull' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathHighMultiplicityHull.certificate_no_triple_hull' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathHighMultiplicityHull.certificate_five_plus_hull' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

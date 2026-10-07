@@ -1,0 +1,4049 @@
+{
+  "records": [
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 0,
+      "corridor": 1,
+      "croot": 5.0,
+      "eps": "1/1000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 0,
+      "corridor": 1,
+      "croot": 10.0,
+      "eps": "1/1000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": 0.003442941571205635,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 0,
+      "corridor": 1,
+      "croot": 100.0,
+      "eps": "1/1000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": 0.005839900236226489,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 0,
+      "corridor": 1,
+      "croot": 5.0,
+      "eps": "1/1000000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 0,
+      "corridor": 1,
+      "croot": 10.0,
+      "eps": "1/1000000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": 0.003344293157346761,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 0,
+      "corridor": 1,
+      "croot": 100.0,
+      "eps": "1/1000000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": 0.005838201662868448,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 2,
+      "corridor": 1,
+      "croot": 5.0,
+      "eps": "1/1000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": 0.0054882100294578835,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000",
+          "ledger": {
+            "n": 26,
+            "T": 200,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 22,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 24,
+            "first_slack": 22,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 4,
+          "axis_triangles": 23,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 200,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 22,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 24,
+            "first_slack": 22,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 4,
+          "axis_triangles": 23,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 2,
+      "corridor": 1,
+      "croot": 10.0,
+      "eps": "1/1000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": 0.007521275283084197,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 2,
+      "corridor": 1,
+      "croot": 100.0,
+      "eps": "1/1000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": 0.001232985864086896,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 2,
+      "corridor": 1,
+      "croot": 5.0,
+      "eps": "1/1000000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": 0.005458653878741858,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 200,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 22,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 24,
+            "first_slack": 22,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 4,
+          "axis_triangles": 23,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000000",
+          "ledger": {
+            "n": 26,
+            "T": 200,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 22,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 24,
+            "first_slack": 22,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 4,
+          "axis_triangles": 23,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 2,
+      "corridor": 1,
+      "croot": 10.0,
+      "eps": "1/1000000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": 0.007497912762744124,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 2,
+      "corridor": 1,
+      "croot": 100.0,
+      "eps": "1/1000000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": 0.001232629943125092,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 3,
+      "corridor": 1,
+      "croot": 0.9999999999999999,
+      "eps": "1/1000",
+      "position": 9,
+      "equal_rank": 9,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 3,
+      "corridor": 1,
+      "croot": 0.9999999999999999,
+      "eps": "1/1000000",
+      "position": 9,
+      "equal_rank": 9,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 4,
+      "corridor": 1,
+      "croot": -5.0,
+      "eps": "1/1000",
+      "position": 0,
+      "equal_rank": null,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 4,
+      "corridor": 1,
+      "croot": -10.0,
+      "eps": "1/1000",
+      "position": 0,
+      "equal_rank": null,
+      "margin": 0.011310125134105101,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 4,
+      "corridor": 1,
+      "croot": -100.0,
+      "eps": "1/1000",
+      "position": 0,
+      "equal_rank": null,
+      "margin": 0.00430977338315792,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 4,
+      "corridor": 1,
+      "croot": -5.0,
+      "eps": "1/1000000",
+      "position": 0,
+      "equal_rank": null,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 4,
+      "corridor": 1,
+      "croot": -10.0,
+      "eps": "1/1000000",
+      "position": 0,
+      "equal_rank": null,
+      "margin": 0.011284672948750966,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 4,
+      "corridor": 1,
+      "croot": -100.0,
+      "eps": "1/1000000",
+      "position": 0,
+      "equal_rank": null,
+      "margin": 0.004306639075278674,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 5,
+      "corridor": 1,
+      "croot": 1.7320508075688767,
+      "eps": "1/1000",
+      "position": 10,
+      "equal_rank": 10,
+      "margin": 0.01833854361511209,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000",
+          "ledger": {
+            "n": 26,
+            "T": 198,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 3,
+            "D2": 0,
+            "U": 27,
+            "C": 9,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 30,
+            "first_slack": 31,
+            "second_slack": 9
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 6,
+          "axis_triangles": 23,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 198,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 3,
+            "D2": 0,
+            "U": 27,
+            "C": 9,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 30,
+            "first_slack": 31,
+            "second_slack": 9
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 6,
+          "axis_triangles": 23,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 5,
+      "corridor": 1,
+      "croot": 1.7320508075688767,
+      "eps": "1/1000000",
+      "position": 10,
+      "equal_rank": 10,
+      "margin": 0.018052188880365094,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 198,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 3,
+            "D2": 0,
+            "U": 27,
+            "C": 9,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 30,
+            "first_slack": 31,
+            "second_slack": 9
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 6,
+          "axis_triangles": 23,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000000",
+          "ledger": {
+            "n": 26,
+            "T": 198,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 3,
+            "D2": 0,
+            "U": 27,
+            "C": 9,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 30,
+            "first_slack": 31,
+            "second_slack": 9
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 6,
+          "axis_triangles": 23,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 6,
+      "corridor": 1,
+      "croot": 5.0,
+      "eps": "1/1000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": 0.02235366787887832,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000",
+          "ledger": {
+            "n": 26,
+            "T": 200,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 22,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 24,
+            "first_slack": 22,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 4,
+          "axis_triangles": 23,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 200,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 22,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 24,
+            "first_slack": 22,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 4,
+          "axis_triangles": 23,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 6,
+      "corridor": 1,
+      "croot": 10.0,
+      "eps": "1/1000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": 0.023260458535533855,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 6,
+      "corridor": 1,
+      "croot": 100.0,
+      "eps": "1/1000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": 0.004517701486659501,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 6,
+      "corridor": 1,
+      "croot": 5.0,
+      "eps": "1/1000000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": 0.022139304753769986,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 200,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 22,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 24,
+            "first_slack": 22,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 4,
+          "axis_triangles": 23,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000000",
+          "ledger": {
+            "n": 26,
+            "T": 200,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 22,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 24,
+            "first_slack": 22,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 4,
+          "axis_triangles": 23,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 6,
+      "corridor": 1,
+      "croot": 10.0,
+      "eps": "1/1000000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": 0.023166918594051993,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 6,
+      "corridor": 1,
+      "croot": 100.0,
+      "eps": "1/1000000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": 0.004512663366767812,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 7,
+      "corridor": 1,
+      "croot": 5.0,
+      "eps": "1/1000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": 0.021952815663985485,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000",
+          "ledger": {
+            "n": 26,
+            "T": 200,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 22,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 24,
+            "first_slack": 22,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 4,
+          "axis_triangles": 23,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 200,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 22,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 24,
+            "first_slack": 22,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 4,
+          "axis_triangles": 23,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 7,
+      "corridor": 1,
+      "croot": 10.0,
+      "eps": "1/1000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": 0.023240371012324616,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 7,
+      "corridor": 1,
+      "croot": 100.0,
+      "eps": "1/1000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": 0.0024638036934735543,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 7,
+      "corridor": 1,
+      "croot": 5.0,
+      "eps": "1/1000000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": 0.021924683109595406,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 200,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 22,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 24,
+            "first_slack": 22,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 4,
+          "axis_triangles": 23,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000000",
+          "ledger": {
+            "n": 26,
+            "T": 200,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 22,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 24,
+            "first_slack": 22,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 4,
+          "axis_triangles": 23,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 7,
+      "corridor": 1,
+      "croot": 10.0,
+      "eps": "1/1000000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": 0.02319005113373569,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 7,
+      "corridor": 1,
+      "croot": 100.0,
+      "eps": "1/1000000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": 0.0024581210805454225,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 8,
+      "corridor": 1,
+      "croot": 0.9999999999999999,
+      "eps": "1/1000",
+      "position": 9,
+      "equal_rank": 9,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 8,
+      "corridor": 1,
+      "croot": 0.9999999999999999,
+      "eps": "1/1000000",
+      "position": 9,
+      "equal_rank": 9,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 11,
+      "corridor": 1,
+      "croot": 1.7320508075688767,
+      "eps": "1/1000",
+      "position": 10,
+      "equal_rank": 10,
+      "margin": 0.0003393003025677722,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000",
+          "ledger": {
+            "n": 26,
+            "T": 198,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 3,
+            "D2": 0,
+            "U": 27,
+            "C": 9,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 30,
+            "first_slack": 31,
+            "second_slack": 9
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 6,
+          "axis_triangles": 23,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 198,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 3,
+            "D2": 0,
+            "U": 27,
+            "C": 9,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 30,
+            "first_slack": 31,
+            "second_slack": 9
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 6,
+          "axis_triangles": 23,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 11,
+      "corridor": 1,
+      "croot": 1.7320508075688767,
+      "eps": "1/1000000",
+      "position": 10,
+      "equal_rank": 10,
+      "margin": 3.3974551596211835e-07,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 198,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 3,
+            "D2": 0,
+            "U": 27,
+            "C": 9,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 30,
+            "first_slack": 31,
+            "second_slack": 9
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 6,
+          "axis_triangles": 23,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000000",
+          "ledger": {
+            "n": 26,
+            "T": 198,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 3,
+            "D2": 0,
+            "U": 27,
+            "C": 9,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 30,
+            "first_slack": 31,
+            "second_slack": 9
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 6,
+          "axis_triangles": 23,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 12,
+      "corridor": 1,
+      "croot": 5.0,
+      "eps": "1/1000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": 0.023938624612309296,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000",
+          "ledger": {
+            "n": 26,
+            "T": 200,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 22,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 24,
+            "first_slack": 22,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 4,
+          "axis_triangles": 23,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 200,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 22,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 24,
+            "first_slack": 22,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 4,
+          "axis_triangles": 23,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 12,
+      "corridor": 1,
+      "croot": 10.0,
+      "eps": "1/1000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": 0.015671878437655832,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 12,
+      "corridor": 1,
+      "croot": 100.0,
+      "eps": "1/1000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": 0.001443800149548126,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 12,
+      "corridor": 1,
+      "croot": 5.0,
+      "eps": "1/1000000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": 0.023843134764703924,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 200,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 22,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 24,
+            "first_slack": 22,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 4,
+          "axis_triangles": 23,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000000",
+          "ledger": {
+            "n": 26,
+            "T": 200,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 22,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 24,
+            "first_slack": 22,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 4,
+          "axis_triangles": 23,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 12,
+      "corridor": 1,
+      "croot": 10.0,
+      "eps": "1/1000000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": 0.015626336842442898,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 12,
+      "corridor": 1,
+      "croot": 100.0,
+      "eps": "1/1000000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": 0.001440184601873972,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 13,
+      "corridor": 1,
+      "croot": 5.0,
+      "eps": "1/1000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": 0.01240091088763624,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000",
+          "ledger": {
+            "n": 26,
+            "T": 200,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 22,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 24,
+            "first_slack": 22,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 4,
+          "axis_triangles": 23,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 200,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 22,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 24,
+            "first_slack": 22,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 4,
+          "axis_triangles": 23,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 13,
+      "corridor": 1,
+      "croot": 10.0,
+      "eps": "1/1000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": 0.006809778413392499,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 13,
+      "corridor": 1,
+      "croot": 100.0,
+      "eps": "1/1000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": 0.0007190868857393786,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 13,
+      "corridor": 1,
+      "croot": 5.0,
+      "eps": "1/1000000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": 0.012374079026885032,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 200,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 22,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 24,
+            "first_slack": 22,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 4,
+          "axis_triangles": 23,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000000",
+          "ledger": {
+            "n": 26,
+            "T": 200,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 22,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 24,
+            "first_slack": 22,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 4,
+          "axis_triangles": 23,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 13,
+      "corridor": 1,
+      "croot": 10.0,
+      "eps": "1/1000000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": 0.006808626649766062,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "axis": 13,
+      "corridor": 1,
+      "croot": 100.0,
+      "eps": "1/1000000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": 0.0007189584588318887,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 2,
+        "multiplicities": {
+          "3": 2
+        },
+        "D1": 4,
+        "D2": 0,
+        "U": 4,
+        "C": 8,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000000",
+          "ledger": {
+            "n": 26,
+            "T": 201,
+            "q": 2,
+            "multiplicities": {
+              "3": 2
+            },
+            "D1": 4,
+            "D2": 0,
+            "U": 19,
+            "C": 8,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 21,
+            "first_slack": 16,
+            "second_slack": 6
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 3,
+          "axis_triangles": 24,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-014.json",
+      "axis": 1,
+      "corridor": 4,
+      "croot": 0.5773502691896257,
+      "eps": "1/1000",
+      "position": 8,
+      "equal_rank": 8,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-014.json",
+      "axis": 1,
+      "corridor": 4,
+      "croot": 0.5773502691896257,
+      "eps": "1/1000000",
+      "position": 8,
+      "equal_rank": 8,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-014.json",
+      "axis": 2,
+      "corridor": 4,
+      "croot": -0.001,
+      "eps": "1/1000",
+      "position": 5,
+      "equal_rank": 5,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-014.json",
+      "axis": 2,
+      "corridor": 4,
+      "croot": -1e-06,
+      "eps": "1/1000000",
+      "position": 5,
+      "equal_rank": 5,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-014.json",
+      "axis": 3,
+      "corridor": 4,
+      "croot": 5.0,
+      "eps": "1/1000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-014.json",
+      "axis": 3,
+      "corridor": 4,
+      "croot": 10.0,
+      "eps": "1/1000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-014.json",
+      "axis": 3,
+      "corridor": 4,
+      "croot": 100.0,
+      "eps": "1/1000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-014.json",
+      "axis": 3,
+      "corridor": 4,
+      "croot": 5.0,
+      "eps": "1/1000000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-014.json",
+      "axis": 3,
+      "corridor": 4,
+      "croot": 10.0,
+      "eps": "1/1000000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-014.json",
+      "axis": 3,
+      "corridor": 4,
+      "croot": 100.0,
+      "eps": "1/1000000",
+      "position": 12,
+      "equal_rank": null,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-014.json",
+      "axis": 5,
+      "corridor": 4,
+      "croot": -5.0,
+      "eps": "1/1000",
+      "position": 0,
+      "equal_rank": null,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-014.json",
+      "axis": 5,
+      "corridor": 4,
+      "croot": -10.0,
+      "eps": "1/1000",
+      "position": 0,
+      "equal_rank": null,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-014.json",
+      "axis": 5,
+      "corridor": 4,
+      "croot": -100.0,
+      "eps": "1/1000",
+      "position": 0,
+      "equal_rank": null,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-014.json",
+      "axis": 5,
+      "corridor": 4,
+      "croot": -5.0,
+      "eps": "1/1000000",
+      "position": 0,
+      "equal_rank": null,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-014.json",
+      "axis": 5,
+      "corridor": 4,
+      "croot": -10.0,
+      "eps": "1/1000000",
+      "position": 0,
+      "equal_rank": null,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-014.json",
+      "axis": 5,
+      "corridor": 4,
+      "croot": -100.0,
+      "eps": "1/1000000",
+      "position": 0,
+      "equal_rank": null,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-014.json",
+      "axis": 6,
+      "corridor": 4,
+      "croot": -1.7320508075688767,
+      "eps": "1/1000",
+      "position": 1,
+      "equal_rank": 1,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-014.json",
+      "axis": 6,
+      "corridor": 4,
+      "croot": -1.7320508075688767,
+      "eps": "1/1000000",
+      "position": 1,
+      "equal_rank": 1,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-014.json",
+      "axis": 8,
+      "corridor": 4,
+      "croot": -0.001,
+      "eps": "1/1000",
+      "position": 5,
+      "equal_rank": 5,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-014.json",
+      "axis": 8,
+      "corridor": 4,
+      "croot": -1e-06,
+      "eps": "1/1000000",
+      "position": 5,
+      "equal_rank": 5,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-014.json",
+      "axis": 9,
+      "corridor": 4,
+      "croot": 0.2679491924311227,
+      "eps": "1/1000",
+      "position": 7,
+      "equal_rank": 7,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-014.json",
+      "axis": 9,
+      "corridor": 4,
+      "croot": 0.2679491924311227,
+      "eps": "1/1000000",
+      "position": 7,
+      "equal_rank": 7,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-014.json",
+      "axis": 10,
+      "corridor": 4,
+      "croot": -0.001,
+      "eps": "1/1000",
+      "position": 5,
+      "equal_rank": 5,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-014.json",
+      "axis": 10,
+      "corridor": 4,
+      "croot": -1e-06,
+      "eps": "1/1000000",
+      "position": 5,
+      "equal_rank": 5,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-014.json",
+      "axis": 11,
+      "corridor": 4,
+      "croot": -0.001,
+      "eps": "1/1000",
+      "position": 5,
+      "equal_rank": 5,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-014.json",
+      "axis": 11,
+      "corridor": 4,
+      "croot": -1e-06,
+      "eps": "1/1000000",
+      "position": 5,
+      "equal_rank": 5,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-014.json",
+      "axis": 12,
+      "corridor": 4,
+      "croot": 0.001,
+      "eps": "1/1000",
+      "position": 6,
+      "equal_rank": 6,
+      "margin": 0.008470882619132085,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 5,
+        "multiplicities": {
+          "3": 5
+        },
+        "D1": 10,
+        "D2": 0,
+        "U": 1,
+        "C": 20,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000",
+          "ledger": {
+            "n": 26,
+            "T": 198,
+            "q": 5,
+            "multiplicities": {
+              "3": 5
+            },
+            "D1": 9,
+            "D2": 0,
+            "U": 24,
+            "C": 21,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 30,
+            "first_slack": 31,
+            "second_slack": 9
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 6,
+          "axis_triangles": 23,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 198,
+            "q": 5,
+            "multiplicities": {
+              "3": 5
+            },
+            "D1": 9,
+            "D2": 0,
+            "U": 24,
+            "C": 21,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 30,
+            "first_slack": 31,
+            "second_slack": 9
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 6,
+          "axis_triangles": 23,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-014.json",
+      "axis": 12,
+      "corridor": 4,
+      "croot": 1e-06,
+      "eps": "1/1000000",
+      "position": 6,
+      "equal_rank": 6,
+      "margin": 0.008417532631357937,
+      "status": 0,
+      "passed": true,
+      "source_ledger": {
+        "n": 14,
+        "T": 54,
+        "q": 5,
+        "multiplicities": {
+          "3": 5
+        },
+        "D1": 10,
+        "D2": 0,
+        "U": 1,
+        "C": 20,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": -2,
+        "second_slack": 6
+      },
+      "doubling": [
+        {
+          "delta": "1/10000000",
+          "ledger": {
+            "n": 26,
+            "T": 198,
+            "q": 5,
+            "multiplicities": {
+              "3": 5
+            },
+            "D1": 9,
+            "D2": 0,
+            "U": 24,
+            "C": 21,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 30,
+            "first_slack": 31,
+            "second_slack": 9
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 6,
+          "axis_triangles": 23,
+          "backbone_axis_triangles": 23
+        },
+        {
+          "delta": "1/10000000000",
+          "ledger": {
+            "n": 26,
+            "T": 198,
+            "q": 5,
+            "multiplicities": {
+              "3": 5
+            },
+            "D1": 9,
+            "D2": 0,
+            "U": 24,
+            "C": 21,
+            "Rc": 0,
+            "H": 0,
+            "deficit": 30,
+            "first_slack": 31,
+            "second_slack": 9
+          },
+          "backbone_T": 191,
+          "corridor_triangles": 13,
+          "recovered_on_deletion": 6,
+          "axis_triangles": 23,
+          "backbone_axis_triangles": 23
+        }
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-014.json",
+      "axis": 13,
+      "corridor": 4,
+      "croot": -0.2679491924311227,
+      "eps": "1/1000",
+      "position": 4,
+      "equal_rank": 4,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-014.json",
+      "axis": 13,
+      "corridor": 4,
+      "croot": -0.2679491924311227,
+      "eps": "1/1000000",
+      "position": 4,
+      "equal_rank": 4,
+      "margin": -0.0,
+      "status": 0,
+      "passed": false
+    }
+  ],
+  "wins": [
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis0-eps1000-root10.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis0-eps1000-root100.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis0-eps1000000-root10.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis0-eps1000000-root100.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis2-eps1000-root5.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis2-eps1000-root10.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis2-eps1000-root100.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis2-eps1000000-root5.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis2-eps1000000-root10.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis2-eps1000000-root100.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis4-eps1000-root-10.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis4-eps1000-root-100.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis4-eps1000000-root-10.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis4-eps1000000-root-100.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis5-eps1000-root1.7320508075688767.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis5-eps1000000-root1.7320508075688767.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis6-eps1000-root5.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis6-eps1000-root10.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis6-eps1000-root100.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis6-eps1000000-root5.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis6-eps1000000-root10.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis6-eps1000000-root100.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis7-eps1000-root5.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis7-eps1000-root10.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis7-eps1000-root100.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis7-eps1000000-root5.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis7-eps1000000-root10.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis7-eps1000000-root100.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis11-eps1000-root1.7320508075688767.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis11-eps1000000-root1.7320508075688767.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis12-eps1000-root5.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis12-eps1000-root10.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis12-eps1000-root100.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis12-eps1000000-root5.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis12-eps1000000-root10.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis12-eps1000000-root100.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis13-eps1000-root5.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis13-eps1000-root10.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis13-eps1000-root100.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis13-eps1000000-root5.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis13-eps1000000-root10.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\maiorana14-axis13-eps1000000-root100.0.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\parpalak-utkin-current-axis12-eps1000-root0.001.json",
+    "research\\openmath-seven-hour-2026-10-05\\seed_search\\larger-backbone-corridors\\parpalak-utkin-current-axis12-eps1000000-root1e-06.json"
+  ],
+  "best_doubling": 201,
+  "seconds": 5.459634065628052,
+  "scope": "Known fourteen-line sources, all saturated backbone axes and bounded root choices/two epsilon scales"
+}

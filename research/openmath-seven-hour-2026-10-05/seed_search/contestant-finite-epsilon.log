@@ -1,0 +1,6 @@
+{"event": "input", "n": 53, "T": 901, "simple": true, "axes": 53}
+{"event": "finish", "n": 53, "tested": 159, "proposals": 0, "seconds": 28.524012088775635}
+{"event": "input", "n": 41, "T": 533, "simple": true, "axes": 41}
+{"event": "finish", "n": 41, "tested": 123, "proposals": 0, "seconds": 38.006959676742554}
+{"event": "input", "n": 45, "T": 645, "simple": true, "axes": 45}
+{"event": "finish", "n": 45, "tested": 135, "proposals": 0, "seconds": 54.06340765953064}

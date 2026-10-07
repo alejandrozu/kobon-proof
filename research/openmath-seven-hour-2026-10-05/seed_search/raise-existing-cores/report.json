@@ -1,0 +1,1004 @@
+{
+  "reports": [
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-01.json",
+      "n": 14,
+      "T": 54,
+      "candidates": 22,
+      "contiguous": 2,
+      "records": [
+        {
+          "quartet": [
+            0,
+            1,
+            11,
+            12
+          ],
+          "screen_T": 52,
+          "D1": 3,
+          "D2": 0,
+          "U": 4,
+          "C": 10,
+          "Rc": 1,
+          "first_token_gap": 2,
+          "passed": false
+        },
+        {
+          "quartet": [
+            0,
+            2,
+            4,
+            10
+          ],
+          "screen_T": 52,
+          "D1": 3,
+          "D2": 0,
+          "U": 4,
+          "C": 10,
+          "Rc": 1,
+          "first_token_gap": 2,
+          "passed": false
+        }
+      ],
+      "wins": []
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-02.json",
+      "n": 14,
+      "T": 54,
+      "candidates": 22,
+      "contiguous": 2,
+      "records": [
+        {
+          "quartet": [
+            2,
+            4,
+            6,
+            13
+          ],
+          "screen_T": 52,
+          "D1": 3,
+          "D2": 0,
+          "U": 4,
+          "C": 10,
+          "Rc": 1,
+          "first_token_gap": 2,
+          "passed": false
+        },
+        {
+          "quartet": [
+            2,
+            8,
+            11,
+            12
+          ],
+          "screen_T": 52,
+          "D1": 3,
+          "D2": 0,
+          "U": 4,
+          "C": 10,
+          "Rc": 1,
+          "first_token_gap": 2,
+          "passed": false
+        }
+      ],
+      "wins": []
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-03.json",
+      "n": 14,
+      "T": 54,
+      "candidates": 22,
+      "contiguous": 2,
+      "records": [
+        {
+          "quartet": [
+            0,
+            4,
+            8,
+            10
+          ],
+          "screen_T": 52,
+          "D1": 3,
+          "D2": 0,
+          "U": 4,
+          "C": 9,
+          "Rc": 2,
+          "first_token_gap": 1,
+          "passed": false
+        },
+        {
+          "quartet": [
+            6,
+            7,
+            8,
+            11
+          ],
+          "screen_T": 52,
+          "D1": 3,
+          "D2": 0,
+          "U": 4,
+          "C": 10,
+          "Rc": 1,
+          "first_token_gap": 2,
+          "passed": false
+        }
+      ],
+      "wins": []
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-04.json",
+      "n": 14,
+      "T": 54,
+      "candidates": 22,
+      "contiguous": 2,
+      "records": [
+        {
+          "quartet": [
+            0,
+            5,
+            6,
+            11
+          ],
+          "screen_T": 52,
+          "D1": 3,
+          "D2": 0,
+          "U": 4,
+          "C": 10,
+          "Rc": 1,
+          "first_token_gap": 2,
+          "passed": false
+        },
+        {
+          "quartet": [
+            1,
+            5,
+            8,
+            13
+          ],
+          "screen_T": 52,
+          "D1": 3,
+          "D2": 0,
+          "U": 4,
+          "C": 10,
+          "Rc": 1,
+          "first_token_gap": 2,
+          "passed": false
+        }
+      ],
+      "wins": []
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-05.json",
+      "n": 14,
+      "T": 54,
+      "candidates": 22,
+      "contiguous": 2,
+      "records": [
+        {
+          "quartet": [
+            1,
+            8,
+            11,
+            13
+          ],
+          "screen_T": 52,
+          "D1": 3,
+          "D2": 0,
+          "U": 4,
+          "C": 10,
+          "Rc": 1,
+          "first_token_gap": 2,
+          "passed": false
+        },
+        {
+          "quartet": [
+            4,
+            10,
+            12,
+            13
+          ],
+          "screen_T": 52,
+          "D1": 3,
+          "D2": 0,
+          "U": 4,
+          "C": 10,
+          "Rc": 1,
+          "first_token_gap": 2,
+          "passed": false
+        }
+      ],
+      "wins": []
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-06.json",
+      "n": 14,
+      "T": 54,
+      "candidates": 22,
+      "contiguous": 2,
+      "records": [
+        {
+          "quartet": [
+            1,
+            5,
+            7,
+            10
+          ],
+          "screen_T": 52,
+          "D1": 3,
+          "D2": 0,
+          "U": 4,
+          "C": 10,
+          "Rc": 1,
+          "first_token_gap": 2,
+          "passed": false
+        },
+        {
+          "quartet": [
+            2,
+            3,
+            9,
+            10
+          ],
+          "screen_T": 52,
+          "D1": 3,
+          "D2": 0,
+          "U": 4,
+          "C": 10,
+          "Rc": 1,
+          "first_token_gap": 2,
+          "passed": false
+        }
+      ],
+      "wins": []
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-07.json",
+      "n": 14,
+      "T": 54,
+      "candidates": 22,
+      "contiguous": 2,
+      "records": [
+        {
+          "quartet": [
+            0,
+            2,
+            6,
+            8
+          ],
+          "screen_T": 52,
+          "D1": 3,
+          "D2": 0,
+          "U": 4,
+          "C": 10,
+          "Rc": 1,
+          "first_token_gap": 2,
+          "passed": false
+        },
+        {
+          "quartet": [
+            2,
+            5,
+            7,
+            9
+          ],
+          "screen_T": 52,
+          "D1": 3,
+          "D2": 0,
+          "U": 4,
+          "C": 10,
+          "Rc": 1,
+          "first_token_gap": 2,
+          "passed": false
+        }
+      ],
+      "wins": []
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-08.json",
+      "n": 14,
+      "T": 54,
+      "candidates": 22,
+      "contiguous": 2,
+      "records": [
+        {
+          "quartet": [
+            0,
+            3,
+            4,
+            8
+          ],
+          "screen_T": 52,
+          "D1": 3,
+          "D2": 0,
+          "U": 4,
+          "C": 10,
+          "Rc": 1,
+          "first_token_gap": 2,
+          "passed": false
+        },
+        {
+          "quartet": [
+            2,
+            7,
+            8,
+            11
+          ],
+          "screen_T": 52,
+          "D1": 3,
+          "D2": 0,
+          "U": 4,
+          "C": 10,
+          "Rc": 1,
+          "first_token_gap": 2,
+          "passed": false
+        }
+      ],
+      "wins": []
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json",
+      "n": 14,
+      "T": 54,
+      "candidates": 22,
+      "contiguous": 2,
+      "records": [
+        {
+          "quartet": [
+            1,
+            3,
+            10,
+            11
+          ],
+          "screen_T": 52,
+          "D1": 3,
+          "D2": 0,
+          "U": 4,
+          "C": 10,
+          "Rc": 1,
+          "first_token_gap": 2,
+          "passed": false
+        },
+        {
+          "quartet": [
+            1,
+            5,
+            8,
+            9
+          ],
+          "screen_T": 52,
+          "D1": 3,
+          "D2": 0,
+          "U": 4,
+          "C": 10,
+          "Rc": 1,
+          "first_token_gap": 2,
+          "passed": false
+        }
+      ],
+      "wins": []
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-10.json",
+      "n": 14,
+      "T": 54,
+      "candidates": 22,
+      "contiguous": 2,
+      "records": [
+        {
+          "quartet": [
+            2,
+            5,
+            6,
+            8
+          ],
+          "screen_T": 52,
+          "D1": 3,
+          "D2": 0,
+          "U": 4,
+          "C": 10,
+          "Rc": 1,
+          "first_token_gap": 2,
+          "passed": false
+        },
+        {
+          "quartet": [
+            8,
+            9,
+            11,
+            12
+          ],
+          "screen_T": 52,
+          "D1": 3,
+          "D2": 0,
+          "U": 4,
+          "C": 10,
+          "Rc": 1,
+          "first_token_gap": 2,
+          "passed": false
+        }
+      ],
+      "wins": []
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-11.json",
+      "n": 14,
+      "T": 54,
+      "candidates": 44,
+      "contiguous": 4,
+      "records": [
+        {
+          "quartet": [
+            0,
+            2,
+            6,
+            7
+          ],
+          "screen_T": 52,
+          "D1": 7,
+          "D2": 0,
+          "U": 2,
+          "C": 19,
+          "Rc": 0,
+          "first_token_gap": 3,
+          "passed": true,
+          "lp_status": 0,
+          "margin": 0.052521714064031694,
+          "exact_ledger": {
+            "n": 14,
+            "T": 52,
+            "q": 4,
+            "multiplicities": {
+              "4": 1,
+              "3": 3
+            },
+            "D1": 7,
+            "D2": 0,
+            "U": 2,
+            "C": 19,
+            "Rc": 0,
+            "H": 4,
+            "deficit": 12,
+            "first_slack": -3,
+            "second_slack": 19
+          }
+        },
+        {
+          "quartet": [
+            2,
+            9,
+            10,
+            11
+          ],
+          "screen_T": 52,
+          "D1": 7,
+          "D2": 0,
+          "U": 2,
+          "C": 18,
+          "Rc": 1,
+          "first_token_gap": 2,
+          "passed": false
+        },
+        {
+          "quartet": [
+            3,
+            4,
+            6,
+            12
+          ],
+          "screen_T": 52,
+          "D1": 7,
+          "D2": 0,
+          "U": 2,
+          "C": 17,
+          "Rc": 2,
+          "first_token_gap": 1,
+          "passed": false
+        },
+        {
+          "quartet": [
+            3,
+            6,
+            8,
+            12
+          ],
+          "screen_T": 52,
+          "D1": 7,
+          "D2": 0,
+          "U": 2,
+          "C": 19,
+          "Rc": 0,
+          "first_token_gap": 3,
+          "passed": true,
+          "lp_status": 0,
+          "margin": 0.015178593854984731,
+          "exact_ledger": {
+            "n": 14,
+            "T": 52,
+            "q": 4,
+            "multiplicities": {
+              "3": 3,
+              "4": 1
+            },
+            "D1": 7,
+            "D2": 0,
+            "U": 2,
+            "C": 19,
+            "Rc": 0,
+            "H": 4,
+            "deficit": 12,
+            "first_slack": -3,
+            "second_slack": 19
+          }
+        }
+      ],
+      "wins": [
+        "research\\openmath-seven-hour-2026-10-05\\seed_search\\raise-existing-cores\\scertificate-11-T52-Q0_2_6_7.json",
+        "research\\openmath-seven-hour-2026-10-05\\seed_search\\raise-existing-cores\\scertificate-11-T52-Q3_6_8_12.json"
+      ]
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-12.json",
+      "n": 14,
+      "T": 54,
+      "candidates": 22,
+      "contiguous": 2,
+      "records": [
+        {
+          "quartet": [
+            1,
+            6,
+            9,
+            12
+          ],
+          "screen_T": 52,
+          "D1": 3,
+          "D2": 0,
+          "U": 4,
+          "C": 10,
+          "Rc": 1,
+          "first_token_gap": 2,
+          "passed": false
+        },
+        {
+          "quartet": [
+            3,
+            5,
+            8,
+            12
+          ],
+          "screen_T": 52,
+          "D1": 3,
+          "D2": 0,
+          "U": 4,
+          "C": 9,
+          "Rc": 2,
+          "first_token_gap": 1,
+          "passed": false
+        }
+      ],
+      "wins": []
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-13.json",
+      "n": 14,
+      "T": 54,
+      "candidates": 22,
+      "contiguous": 2,
+      "records": [
+        {
+          "quartet": [
+            0,
+            2,
+            11,
+            13
+          ],
+          "screen_T": 52,
+          "D1": 3,
+          "D2": 0,
+          "U": 4,
+          "C": 10,
+          "Rc": 1,
+          "first_token_gap": 2,
+          "passed": false
+        },
+        {
+          "quartet": [
+            0,
+            7,
+            9,
+            12
+          ],
+          "screen_T": 52,
+          "D1": 3,
+          "D2": 0,
+          "U": 4,
+          "C": 10,
+          "Rc": 1,
+          "first_token_gap": 2,
+          "passed": false
+        }
+      ],
+      "wins": []
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-14.json",
+      "n": 14,
+      "T": 54,
+      "candidates": 22,
+      "contiguous": 2,
+      "records": [
+        {
+          "quartet": [
+            0,
+            6,
+            8,
+            10
+          ],
+          "screen_T": 52,
+          "D1": 3,
+          "D2": 0,
+          "U": 4,
+          "C": 10,
+          "Rc": 1,
+          "first_token_gap": 2,
+          "passed": false
+        },
+        {
+          "quartet": [
+            2,
+            3,
+            8,
+            11
+          ],
+          "screen_T": 52,
+          "D1": 3,
+          "D2": 0,
+          "U": 4,
+          "C": 9,
+          "Rc": 2,
+          "first_token_gap": 1,
+          "passed": false
+        }
+      ],
+      "wins": []
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-15.json",
+      "n": 14,
+      "T": 54,
+      "candidates": 22,
+      "contiguous": 2,
+      "records": [
+        {
+          "quartet": [
+            0,
+            7,
+            9,
+            12
+          ],
+          "screen_T": 52,
+          "D1": 3,
+          "D2": 0,
+          "U": 4,
+          "C": 10,
+          "Rc": 1,
+          "first_token_gap": 2,
+          "passed": false
+        },
+        {
+          "quartet": [
+            1,
+            2,
+            12,
+            13
+          ],
+          "screen_T": 52,
+          "D1": 3,
+          "D2": 0,
+          "U": 4,
+          "C": 9,
+          "Rc": 2,
+          "first_token_gap": 1,
+          "passed": false
+        }
+      ],
+      "wins": []
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-008.json",
+      "n": 8,
+      "T": 15,
+      "candidates": 10,
+      "contiguous": 2,
+      "records": [
+        {
+          "quartet": [
+            0,
+            2,
+            4,
+            6
+          ],
+          "screen_T": 13,
+          "D1": 3,
+          "D2": 0,
+          "U": 1,
+          "C": 10,
+          "Rc": 1,
+          "first_token_gap": 2,
+          "passed": false
+        },
+        {
+          "quartet": [
+            1,
+            3,
+            5,
+            6
+          ],
+          "screen_T": 13,
+          "D1": 3,
+          "D2": 0,
+          "U": 1,
+          "C": 9,
+          "Rc": 2,
+          "first_token_gap": 1,
+          "passed": false
+        }
+      ],
+      "wins": []
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-014.json",
+      "n": 14,
+      "T": 54,
+      "candidates": 55,
+      "contiguous": 2,
+      "records": [
+        {
+          "quartet": [
+            0,
+            4,
+            6,
+            12
+          ],
+          "screen_T": 52,
+          "D1": 9,
+          "D2": 0,
+          "U": 1,
+          "C": 22,
+          "Rc": 1,
+          "first_token_gap": 2,
+          "passed": false
+        },
+        {
+          "quartet": [
+            3,
+            4,
+            7,
+            9
+          ],
+          "screen_T": 52,
+          "D1": 9,
+          "D2": 0,
+          "U": 1,
+          "C": 21,
+          "Rc": 2,
+          "first_token_gap": 1,
+          "passed": false
+        }
+      ],
+      "wins": []
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-020.json",
+      "n": 20,
+      "T": 117,
+      "candidates": 102,
+      "contiguous": 2,
+      "records": [
+        {
+          "quartet": [
+            0,
+            3,
+            16,
+            18
+          ],
+          "screen_T": 115,
+          "D1": 11,
+          "D2": 0,
+          "U": 3,
+          "C": 26,
+          "Rc": 1,
+          "first_token_gap": 2,
+          "passed": false
+        },
+        {
+          "quartet": [
+            3,
+            7,
+            9,
+            19
+          ],
+          "screen_T": 115,
+          "D1": 11,
+          "D2": 0,
+          "U": 3,
+          "C": 26,
+          "Rc": 1,
+          "first_token_gap": 2,
+          "passed": false
+        }
+      ],
+      "wins": []
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-026.json",
+      "n": 26,
+      "T": 204,
+      "candidates": 46,
+      "contiguous": 2,
+      "records": [
+        {
+          "quartet": [
+            10,
+            11,
+            13,
+            15
+          ],
+          "screen_T": 202,
+          "D1": 3,
+          "D2": 0,
+          "U": 10,
+          "C": 9,
+          "Rc": 2,
+          "first_token_gap": 1,
+          "passed": false
+        },
+        {
+          "quartet": [
+            10,
+            12,
+            14,
+            16
+          ],
+          "screen_T": 202,
+          "D1": 3,
+          "D2": 0,
+          "U": 10,
+          "C": 10,
+          "Rc": 1,
+          "first_token_gap": 2,
+          "passed": false
+        }
+      ],
+      "wins": []
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-032.json",
+      "n": 32,
+      "T": 315,
+      "candidates": 116,
+      "contiguous": 2,
+      "records": [
+        {
+          "quartet": [
+            0,
+            2,
+            6,
+            26
+          ],
+          "screen_T": 313,
+          "D1": 7,
+          "D2": 0,
+          "U": 11,
+          "C": 18,
+          "Rc": 1,
+          "first_token_gap": 2,
+          "passed": false
+        },
+        {
+          "quartet": [
+            6,
+            25,
+            27,
+            29
+          ],
+          "screen_T": 313,
+          "D1": 7,
+          "D2": 0,
+          "U": 11,
+          "C": 18,
+          "Rc": 1,
+          "first_token_gap": 2,
+          "passed": false
+        }
+      ],
+      "wins": []
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-038.json",
+      "n": 38,
+      "T": 450,
+      "candidates": 105,
+      "contiguous": 2,
+      "records": [
+        {
+          "quartet": [
+            12,
+            14,
+            16,
+            20
+          ],
+          "screen_T": 448,
+          "D1": 5,
+          "D2": 0,
+          "U": 15,
+          "C": 14,
+          "Rc": 1,
+          "first_token_gap": 2,
+          "passed": false
+        },
+        {
+          "quartet": [
+            13,
+            17,
+            19,
+            20
+          ],
+          "screen_T": 448,
+          "D1": 5,
+          "D2": 0,
+          "U": 15,
+          "C": 13,
+          "Rc": 2,
+          "first_token_gap": 1,
+          "passed": false
+        }
+      ],
+      "wins": []
+    },
+    {
+      "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-050.json",
+      "n": 50,
+      "T": 792,
+      "candidates": 94,
+      "contiguous": 2,
+      "records": [
+        {
+          "quartet": [
+            22,
+            23,
+            25,
+            27
+          ],
+          "screen_T": 790,
+          "D1": 3,
+          "D2": 0,
+          "U": 22,
+          "C": 9,
+          "Rc": 2,
+          "first_token_gap": 1,
+          "passed": false
+        },
+        {
+          "quartet": [
+            22,
+            24,
+            26,
+            28
+          ],
+          "screen_T": 790,
+          "D1": 3,
+          "D2": 0,
+          "U": 22,
+          "C": 10,
+          "Rc": 1,
+          "first_token_gap": 2,
+          "passed": false
+        }
+      ],
+      "wins": []
+    }
+  ],
+  "scope": "Bounded exact topology and LP proposals, no numerical or upper-bound novelty inferred without exact ledger"
+}

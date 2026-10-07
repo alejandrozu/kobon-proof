@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "math_commit": "f44f23ee062a255f5cad7d39188fd55c0feb83a8",
+  "clean_lean_run": 37613706987,
+  "clean_lean_run_url": "https://github.com/alejandrozu/kobon-proof/actions/runs/37613706987",
+  "original_workflow_conclusion": "failure",
+  "verified_successful_steps": [
+    "Build all results and audit axioms",
+    "Check all finite coordinates independently",
+    "Recheck the separate rational interval argument"
+  ],
+  "active_sources": 638,
+  "requested_build_targets": 533,
+  "audited_declarations": 9058,
+  "clean_summary_sha256": "4f7d6a839f1cb2a5097a5abbb7df22e115733b838d73403ab7b213004ede4060",
+  "scope": "Exact current source hashes equal a fresh successful Lean build and axiom audit; coordinate and interval steps also passed. Overall original workflow status is preserved. Remaining publication checks run independently."
+}

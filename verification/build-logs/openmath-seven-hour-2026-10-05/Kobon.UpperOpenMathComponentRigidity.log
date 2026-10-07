@@ -1,0 +1,12 @@
+'Kobon.UpperOpenMathComponentRigidity.finite_component_rigidity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathComponentRigidity.finite_component_cost_nonnegative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathComponentRigidity.certificate_closed_cost_nonnegative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathComponentRigidity.certificate_closed_balanced_rigidity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

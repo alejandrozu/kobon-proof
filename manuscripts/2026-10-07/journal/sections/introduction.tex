@@ -1,0 +1,25 @@
+\section{Introduction and relation to previous work}
+
+Let $\K(n)$ count the largest possible number of bounded triangular cells formed by $n$ distinct straight lines in $\R^2$, allowing parallel pairs and multiple intersections. Let $\Ks(n)$ restrict to \emph{simple} arrangements, with no parallel pair and no three concurrent lines. Thus $\K(n)\ge\Ks(n)$. A triangular cell is a component of the complement whose closure is a nondegenerate triangle; arbitrary intersecting triples are not counted.
+
+F\"uredi--Pal\'asti's trigonometric arrangements imply the all-order affine bound $\B(n)=\ceil{n(n-3)/3}$ for $n\ge3$; its ceiling form is explicit in Erickson, and related affine counts appear in Felsner--Kriegel~\cite{furedipalasti1984,erickson1999,felsnerkriegel1999}. Our first complete construction refines its constant term.
+
+\begin{theorem}[Uniform affine refinement]\label{j:main}
+For every $n\in\N$, $\Ks(n)\ge\G(n)$, where $\G(n)=0$ for $n<3$, $\G(3)=1$, and
+\begin{equation}\label{j:G}
+ \G(n)=\floor{\frac{n(n-3)}3}+1+(n\bmod2),\qquad n\ge4.
+\end{equation}
+For $n\ge4$, the gains $\G(n)-\B(n)$ in residue classes $0,1,\ldots,5$ modulo six are $1,1,0,2,0,1$.
+\end{theorem}
+
+Section~\ref{j:construction} constructs actual real lines and triangular interiors; its general Lean proof uses only the standard logical axioms. The gain is at most two and leaves the leading terms $n^2/3-n$ unchanged. Related constants already occur in projective F\"uredi--Pal\'asti counts. We claim an explicit affine refinement and its verification, without establishing first numerical priority for the formula.
+
+Stronger special families predate this work. Forge--Ram\'irez Alfons\'in give a projective construction yielding optimal affine orders $2\cdot2^t+1$~\cite{forge1998}. Bartholdi--Blanc--Loisel (BBL) give compatible doubling and straight-line optimal families at $6\cdot2^t+1$ and $14\cdot2^t+1$~\cite{bbl2008}. Parpalak--Utkin establish the straight-line family $18\cdot2^t+1$~\cite{parpalakutkin2026}, with $108\cdot4^t-1$ triangles. Taking a maximum and adding distant lines already yields further all-order guarantees. All-order validity therefore differs from numerical optimality at every order.
+
+The classical comparison polynomial is $U_{\mathrm T}(n)=\floor{n(n-2)/3}$; Cl\'ement--Bader discuss unrestricted upper bounds and residue refinements~\cite{clementbader2007}. Blanc proves the stronger simple even bound~\cite{blanc2011}
+\begin{equation}\label{j:blanc}
+ \Ks(n)\le U_{\rm e}(n):=\floor{\frac{n(2n-5)}6},\qquad n\ge4\text{ even}.
+\end{equation}
+Nonsimple $14$-line examples with $54$ triangles exceed $U_{\rm e}(14)=53$; simplicity cannot be suppressed. Our formal versions of these two \emph{simple} bounds give one-triangle windows for the retained $q=10\cdot2^t$ family and exact simple optimality for the completed known orbits (Section~\ref{jfam:section}). The 5--6 October development adds a compatible 61-line orbit and closes the earlier exterior-boundary and whole-arrangement fan proof gaps. Its structural upper estimates retain explicit local corrections (Section~\ref{jup:section}); they do not imply a new unrestricted numerical upper formula.
+
+The March proposal~\cite{zarzuelo2026} sought a general one-line successor rule. Its unrestricted recurrence remains unproved; its historical finite conclusions have independent certificates. The present account also retains exterior-extension geometry and its boundary-resource obstruction, exact finite gains, multiplicity-sensitive arguments and smoothing diagnostics. Recent SAT and straightening work~\cite{savchuk2025}, coordinate releases~\cite{maiorana2026,parpalakutkinGallery2026}, and pseudoline enumeration~\cite{parpalakutkinEnumeration2026} supply attributed inputs and methods. Our contribution includes exact obstruction certificates for one prescribed tangent grid; it does not turn pseudoline enumeration into an unproved straight-line classification. The companion research manuscript~\cite{zarzueloFull2026} gives full proofs, all individual certificates, historical comparisons and unsuccessful searches.

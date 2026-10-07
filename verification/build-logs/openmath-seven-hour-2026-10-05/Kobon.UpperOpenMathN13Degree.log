@@ -1,0 +1,10 @@
+'Kobon.UpperOpenMathN13Degree.degreeFrom_le_one_of_unique_neighbors' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathN13Degree.certificate_no_source_correction_of_unique' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathN13Degree.certificate_hybrid_no_source_component_defect_of_unique' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathN13Degree.unrestricted_score_simplifies' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,12 @@
+'Kobon.UpperOpenMathPaidCurvatureBound.certificate_closed_paid_positive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathPaidCurvatureBound.certificate_closed_half_penalty_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathPaidCurvatureBound.certificate_component_half_penalty_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathPaidCurvatureBound.certificate_half_exception_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

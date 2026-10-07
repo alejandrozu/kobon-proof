@@ -1,0 +1,37 @@
+Kobon/UpperOpenMathSharedRays.lean:29:29: warning: Variable name `i` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Kobon/UpperOpenMathSharedRays.lean:32:8: warning: automatically included section variable(s) unused in theorem `_private.Kobon.UpperOpenMathSharedRays.0.Kobon.UpperOpenMathSharedRays.disjoint_geometry`:
+  [Fintype α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Kobon/UpperOpenMathSharedRays.lean:39:45: warning: Variable name `i` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Kobon/UpperOpenMathSharedRays.lean:43:69: warning: Variable name `i` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Kobon/UpperOpenMathSharedRays.lean:84:34: warning: Variable name `i` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Kobon/UpperOpenMathSharedRays.lean:87:36: warning: Variable name `i` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Kobon/UpperOpenMathSharedRays.lean:89:36: warning: Variable name `i` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'Kobon.UpperOpenMathSharedRays.certificate_shared_ray_iff' depends on axioms: [propext, Classical.choice, Quot.sound]

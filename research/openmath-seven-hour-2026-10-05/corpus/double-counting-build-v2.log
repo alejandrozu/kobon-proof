@@ -1,0 +1,7 @@
+'Kobon.OpenMathBoundaryDoubleCounting.sum_selectedCount_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathBoundaryDoubleCounting.exists_half_gain_of_degree' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.OpenMathBoundaryDoubleCounting.exists_half_gain_of_choiceCount' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

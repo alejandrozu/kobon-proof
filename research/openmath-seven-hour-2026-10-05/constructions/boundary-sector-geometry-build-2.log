@@ -1,0 +1,25 @@
+Kobon/OpenMathBoundarySectorGeometry.lean:91:8: error: Type mismatch: After simplification, term
+  Eq.symm hlr
+ has type
+  roots n L hp hn r = critical (L 0) (L ↑j)
+but is expected to have type
+  roots n L hp hn r = roots n L hp hn rj
+Kobon/OpenMathBoundarySectorGeometry.lean:142:23: warning: This simp argument is unused:
+  hri
+
+Hint: Omit it from the simp argument list.
+  simp only [hli,̵h̵r̵i̵] at hlr
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Kobon/OpenMathBoundarySectorGeometry.lean:146:23: warning: This simp argument is unused:
+  hrj
+
+Hint: Omit it from the simp argument list.
+  simp only [hlj,̵h̵r̵j̵] at hlr
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Kobon.OpenMathBoundarySectorGeometry.sample_admissible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathBoundarySectorGeometry.pair_sector_count' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]

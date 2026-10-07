@@ -1,0 +1,9 @@
+'Kobon.OpenMathConstructionSeed33Visible.compatible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ OpenMathConstructionSeed33.admissible_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed33.directions_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed33.distinguished_subset_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed33.simple_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed33.triangles_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed33.visible_bool._native.native_decide.ax_1]

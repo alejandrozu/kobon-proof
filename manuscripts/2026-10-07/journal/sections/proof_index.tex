@@ -1,0 +1,98 @@
+\section*{Result-to-proof index}\label{j:proof-index}
+
+Immutable source anchors accompany the final mathematical revision.
+\textbf{K} denotes standard Lean axioms; \textbf{N} also inherits explicit finite native checks; \textbf{P} denotes an ordinary manuscript argument; \textbf{E} denotes exact external computation. The
+\href{https://github.com/alejandrozu/kobon-proof/blob/manuscripts-2026-10-07/manuscripts/2026-10-07/shared/proof_map.md}{complete result map}
+retains every earlier claim and all 138 coordinate identities, and lists the new endpoints, hypotheses and release evidence.
+
+\begingroup\small\renewcommand{\arraystretch}{0.96}
+\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{.27\linewidth}>{\raggedright\arraybackslash}p{\dimexpr.73\linewidth-2\tabcolsep\relax}@{}}
+\toprule
+Result & Immutable source and scope\\\midrule
+\endfirsthead
+\toprule
+Result & Immutable source and scope (continued)\\\midrule
+\endhead
+\midrule
+\endfoot
+\bottomrule
+\endlastfoot
+Theorem~\ref{j:main}; \eqref{j:G}, \eqref{j:gap} &
+\proofref{Kobon/Universal.lean}{26}{All-order construction},
+\proofref{Kobon/Universal.lean}{72}{gains},
+\proofref{Kobon/Universal.lean}{90}{gap}: K.\\
+Lemma~\ref{j:cell}; phase and caps &
+\proofref{Kobon/Cells.lean}{486}{Sign-cell equality},
+\proofref{Kobon/Cells.lean}{453}{disjointness},
+\proofref{Kobon/ShiftedFurediPalasti.lean}{274}{phase},
+\proofref{Kobon/FurediPalastiWrap.lean}{191}{one cap},
+\proofref{Kobon/FurediPalastiTwoCaps.lean}{282}{two caps}: K; complement-component interpretation P.\\
+Theorem~\ref{jext:visible} &
+\proofref{Kobon/Exterior.lean}{164}{Exterior realization}: K from certified visible pairs.\\
+Theorem~\ref{jext:defect}; \eqref{jext:closed-gain} &
+\proofref{Kobon/OpenMathEveryOrderExtension.lean}{45}{Actual successor},
+\proofref{Kobon/OpenMathExtensionFormula.lean}{56}{closed formula},
+\proofref{Kobon/OpenMathEveryOrderExtension.lean}{82}{indefinite iteration},
+\proofref{Kobon/OpenMathBoundarySuccessor.lean}{84}{odd deficit-two step}: K.\\
+Resource \eqref{jext:budget}; target \eqref{jext:49} &
+\proofref{Kobon/Iteration.lean}{105}{Conditional resource arithmetic}: K with geometric resource argument P;
+\proofref{Kobon/AllN.lean}{504}{unconditional numerical target}: N, no full-gain chain.\\
+Theorems~\ref{jfam:doubling}--\ref{jfam:windows} &
+\proofref{Kobon/BBLDoubling.lean}{15}{BBL step},
+\proofref{Kobon/BBLRecursiveSeed.lean}{61}{seed step},
+\proofref{Kobon/BBLVerifiedFamilies.lean}{24}{odd},
+\proofref{Kobon/BBLVerifiedFamilies.lean}{51}{even},
+\proofref{Kobon/BBLFamilyOptimality.lean}{29}{odd window},
+\proofref{Kobon/BBLFamilyOptimality.lean}{35}{even window}: N existence, K upper halves.\\
+Theorem~\ref{jfam:61} &
+\proofref{Kobon/OpenMathConstructionParetoFamily61.lean}{48}{Odd},
+\proofref{Kobon/OpenMathConstructionParetoFamily61.lean}{51}{even},
+\proofref{Kobon/OpenMathConstructionParetoFamily61.lean}{59}{one-unit improvement}: N existence; finite count credited to Poola.\\
+Corollary~\ref{jfam:known}; Table~\ref{jfam:orbits} &
+\proofref{Kobon/OpenMathConstructionForgeFamily.lean}{25}{33 odd},
+\proofref{Kobon/OpenMathConstructionForgeFamily.lean}{28}{33 even},
+\proofref{Kobon/OpenMathConstructionFamily37.lean}{54}{37 odd},
+\proofref{Kobon/OpenMathConstructionFamily37.lean}{58}{37 even},
+\proofref{Kobon/BBL49VerifiedFamilies.lean}{36}{49 odd},
+\proofref{Kobon/BBL49VerifiedFamilies.lean}{48}{49 even}: N; simple optimality follows from K upper bounds.\\
+Theorem~\ref{j:new-envelope} &
+\proofref{Kobon/RecursiveEnvelope.lean}{51}{Retained envelope},
+\proofref{Kobon/RecursiveEnvelope.lean}{73}{strict old gains},
+\proofref{Kobon/OpenMathConstructionEnvelope.lean}{97}{new portfolio},
+\proofref{Kobon/OpenMathConstructionEnvelope.lean}{100}{pointwise retention}: N witnesses, K comparisons.\\
+Identity~\eqref{jup:identity}; Lemma~\ref{jup:clean}; Theorem~\ref{jup:simple} &
+\proofref{Kobon/UpperEdgeInventory.lean}{345}{Defect},
+\proofref{Kobon/UpperCleanCharging.lean}{100}{clean charge},
+\proofref{Kobon/UpperSimpleOptimality.lean}{70}{simple floor},
+\proofref{Kobon/UpperEvenSimpleOptimality.lean}{69}{even floor}: K.\\
+Lemma~\ref{jup:fan}; Theorem~\ref{jup:upper} &
+\proofref{Kobon/UpperOpenMathActualFans.lean}{197}{Actual fan extraction},
+\proofref{Kobon/UpperOpenMathGlobalFans.lean}{204}{summed defect},
+\proofref{Kobon/UpperOpenMathBoundaryBudgets.lean}{137}{two cores},
+\proofref{Kobon/UpperOpenMathBoundaryBudgets.lean}{128}{three cores}: K, no supplied fan premise.\\
+Theorem~\ref{jup:mixed} &
+\proofref{Kobon/UpperOpenMathMixedCurvatureBound.lean}{41}{Mixed correction},
+\proofref{Kobon/UpperOpenMathMixedDegreeThree.lean}{158}{degree three},
+\proofref{Kobon/UpperOpenMathMixedFiveCoreComponents.lean}{96}{five-core components}: K.\\
+Theorem~\ref{jup:triple} &
+\proofref{Kobon/UpperOpenMathM22Curvature.lean}{117}{Global M22},
+\proofref{Kobon/UpperOpenMathClosedN12Curvature.lean}{282}{component N12},
+\proofref{Kobon/UpperOpenMathPositiveProfileComponents.lean}{43}{positive profile},
+\proofref{Kobon/UpperOpenMathLocalPortBudget.lean}{10}{local port budget}: K, all cores triple.\\
+Other component/parity results &
+\proofref{Kobon/UpperOpenMathForestBudget.lean}{95}{Mixed forests},
+\proofref{Kobon/UpperOpenMathMixedDegreeFour.lean}{169}{degree four},
+\proofref{Kobon/UpperOpenMathOrdinaryGlobalCharge.lean}{146}{safe all-line charge}: K with displayed class hypotheses.\\
+Proposition~\ref{jup:surgery} &
+\proofref{Kobon/OpenMathTranslationCounting.lean}{98}{Birth/loss identity},
+\proofref{Kobon/OpenMathFourLineResolution.lean}{59}{four-line classification},
+\proofref{Kobon/OpenMathSixLineResolution.lean}{557}{seven cells},
+\proofref{Kobon/OpenMathSixLineResolution.lean}{566}{four cells},
+\proofref{Kobon/OpenMathSixLineResolution.lean}{579}{three old losses}: K real-parameter proofs.\\
+Figure~\ref{jup:figure}; Table~\ref{j:finite} &
+\proofref{Kobon/SharedFan.lean}{51}{Six shared sides}: K;
+\proofref{verification/certificate-index.json}{1}{finite certificate index}: N where recorded.\\
+Proposition~\ref{j:obstruction}; diagnostics &
+\proofref{Kobon/BBLGridObstruction.lean}{263}{Tangent-grid sign obstruction}: K for the specified system; full 236-class corpus, intercept robustness, smoothing and bounded searches E.\\
+\end{longtable}\par\endgroup

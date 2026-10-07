@@ -1,0 +1,6 @@
+'Kobon.UpperOpenMathMixedDegreeFour.certificate_closed_mixed_degree_four_cost' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathMixedDegreeFour.certificate_mixed_degree_four_component_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

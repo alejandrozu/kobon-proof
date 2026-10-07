@@ -1,0 +1,755 @@
+{
+  "source_revisions": {
+    "archive": {
+      "repo": "alejandrozu/openmath-2026-judging",
+      "commit": "3dee18bdf290e70b2f9a6bd98b889d1b1b60b51c",
+      "dir": "work/openmath-2026-judging",
+      "file_records": [
+        {
+          "path": "README.md",
+          "sha256": "46593658ee9fa8d810a321def36bc6d3ed8534dd3861027e688e7887a1bb0d03",
+          "url": "https://github.com/alejandrozu/openmath-2026-judging/blob/3dee18bdf290e70b2f9a6bd98b889d1b1b60b51c/README.md"
+        },
+        {
+          "path": "OpenMath-Judging/contestants.json",
+          "sha256": "48ae4a6611d2657b1759e6a839b56e800863e0c9d9abf18574fd010b809ca69f",
+          "url": "https://github.com/alejandrozu/openmath-2026-judging/blob/3dee18bdf290e70b2f9a6bd98b889d1b1b60b51c/OpenMath-Judging/contestants.json"
+        },
+        {
+          "path": "OpenMath-Judging/review/problems/KOBON.txt",
+          "sha256": "fc5f627a5adc9c38e3aabf9a9f461cad02d5e4136bcd3ee6f40c2adcb2a82542",
+          "url": "https://github.com/alejandrozu/openmath-2026-judging/blob/3dee18bdf290e70b2f9a6bd98b889d1b1b60b51c/OpenMath-Judging/review/problems/KOBON.txt"
+        },
+        {
+          "path": "publication-review/2026-10-05/Sources/16_KOBON39.tex",
+          "sha256": "754e53e1c8ea0a413cbc8e9f401ff13d172ca6035af4f94aec879735774c1b22",
+          "url": "https://github.com/alejandrozu/openmath-2026-judging/blob/3dee18bdf290e70b2f9a6bd98b889d1b1b60b51c/publication-review/2026-10-05/Sources/16_KOBON39.tex"
+        },
+        {
+          "path": "publication-review/2026-10-05/Verification/htpeo-kobon471-fresh-build.json",
+          "sha256": "095eb6be3b04160bcd8732c3772d022b46d5f49fd610d503e37907dfa5a86079",
+          "url": "https://github.com/alejandrozu/openmath-2026-judging/blob/3dee18bdf290e70b2f9a6bd98b889d1b1b60b51c/publication-review/2026-10-05/Verification/htpeo-kobon471-fresh-build.json"
+        }
+      ]
+    },
+    "raj": {
+      "repo": "srirangam-r/kobon_triangles",
+      "commit": "eed14659a9b2f4ca12777da5d557f2b620b966f6",
+      "dir": "work/openmath-raj",
+      "file_records": [
+        {
+          "path": "README.md",
+          "sha256": "8ae20f299e97f9e853b40bc53e8862ce10223020c8f3e427e08dbcf5d39ea7c6",
+          "url": "https://github.com/srirangam-r/kobon_triangles/blob/eed14659a9b2f4ca12777da5d557f2b620b966f6/README.md"
+        },
+        {
+          "path": "NOVELTY.md",
+          "sha256": "fdf35fee604ba3395194c8631fa4f174219856c156d8552462a41ab56a13cc32",
+          "url": "https://github.com/srirangam-r/kobon_triangles/blob/eed14659a9b2f4ca12777da5d557f2b620b966f6/NOVELTY.md"
+        },
+        {
+          "path": "paper/kobon18.tex",
+          "sha256": "1bf170a032aa8d73d2a738fde226b31315cdb3bb18db6fc98888b495eaa0074e",
+          "url": "https://github.com/srirangam-r/kobon_triangles/blob/eed14659a9b2f4ca12777da5d557f2b620b966f6/paper/kobon18.tex"
+        },
+        {
+          "path": "proofs/additional/theorem_G_even_n.md",
+          "sha256": "632e457e937a51404bbd47443b5810fa15e7dca8dd43e6c87b351c11f83db175",
+          "url": "https://github.com/srirangam-r/kobon_triangles/blob/eed14659a9b2f4ca12777da5d557f2b620b966f6/proofs/additional/theorem_G_even_n.md"
+        },
+        {
+          "path": "proofs/additional/special_column_identities.md",
+          "sha256": "9470f45fa430f74097d1b714ca4b3972afc587124ec83f1a9ba7a6623158f5ad",
+          "url": "https://github.com/srirangam-r/kobon_triangles/blob/eed14659a9b2f4ca12777da5d557f2b620b966f6/proofs/additional/special_column_identities.md"
+        },
+        {
+          "path": "proofs/all8/ALL8_NOTE3.md",
+          "sha256": "43d9a9db7ae98999cae336b71984520c04390a281a861482c14057ef6d9efb87",
+          "url": "https://github.com/srirangam-r/kobon_triangles/blob/eed14659a9b2f4ca12777da5d557f2b620b966f6/proofs/all8/ALL8_NOTE3.md"
+        },
+        {
+          "path": "proofs/all8/ALL8_NOTE8.md",
+          "sha256": "3b4497cf73a55c80d77cf8fbcf07ee8d42aecf3bd8313a83b475ed99b3fbd784",
+          "url": "https://github.com/srirangam-r/kobon_triangles/blob/eed14659a9b2f4ca12777da5d557f2b620b966f6/proofs/all8/ALL8_NOTE8.md"
+        }
+      ]
+    },
+    "rohith": {
+      "repo": "Rohith18p/rsi-kobon-triangles",
+      "commit": "f462d8e18aea2a458376c523c9b6c2980237071f",
+      "dir": "work/openmath-rohith",
+      "file_records": [
+        {
+          "path": "README.md",
+          "sha256": "633210e5bc8156e83ce9d5e0bd7d63f6cd9219e9a49f384916c7cb53e4632fde",
+          "url": "https://github.com/Rohith18p/rsi-kobon-triangles/blob/f462d8e18aea2a458376c523c9b6c2980237071f/README.md"
+        },
+        {
+          "path": "paper/kobon39.typ",
+          "sha256": "7f20a9a3ee48b436b72c7fe23373808a99189b439714eb94072bbc6ebcc00a35",
+          "url": "https://github.com/Rohith18p/rsi-kobon-triangles/blob/f462d8e18aea2a458376c523c9b6c2980237071f/paper/kobon39.typ"
+        },
+        {
+          "path": "kobon-triangles/RESULTS.md",
+          "sha256": "c3b5a854236f119f96ccb9644ab49b71fc22967bf48ea661571a8f43c24430a7",
+          "url": "https://github.com/Rohith18p/rsi-kobon-triangles/blob/f462d8e18aea2a458376c523c9b6c2980237071f/kobon-triangles/RESULTS.md"
+        },
+        {
+          "path": "kobon-triangles/src/doubling.py",
+          "sha256": "f2a5800bd8a5cd75c8204407ab9bf706d6a3c7d19e271a15845273b8b1aced79",
+          "url": "https://github.com/Rohith18p/rsi-kobon-triangles/blob/f462d8e18aea2a458376c523c9b6c2980237071f/kobon-triangles/src/doubling.py"
+        },
+        {
+          "path": "kobon-triangles/src/basesearch.py",
+          "sha256": "e3d1516c96c4d00bb1ca287331740486bf5b4190a53c9c5b38e0b81ba1b7f4d3",
+          "url": "https://github.com/Rohith18p/rsi-kobon-triangles/blob/f462d8e18aea2a458376c523c9b6c2980237071f/kobon-triangles/src/basesearch.py"
+        },
+        {
+          "path": "kobon-triangles/research/tools/edge_ledger.py",
+          "sha256": "dc5ded4936691e5325a7681b67e19f0fd754ec881c30d3a9b14a27aac08d2e53",
+          "url": "https://github.com/Rohith18p/rsi-kobon-triangles/blob/f462d8e18aea2a458376c523c9b6c2980237071f/kobon-triangles/research/tools/edge_ledger.py"
+        },
+        {
+          "path": "kobon-triangles/doubled/n19_107_bp19_d10.json",
+          "sha256": "8afe59e77a7a57ea618d6072e94ab79144e742aab6c13688143e8423bc218265",
+          "url": "https://github.com/Rohith18p/rsi-kobon-triangles/blob/f462d8e18aea2a458376c523c9b6c2980237071f/kobon-triangles/doubled/n19_107_bp19_d10.json"
+        },
+        {
+          "path": "kobon-triangles/bases/n61_1190_base31.json",
+          "sha256": "f5f7a7ee4f8d55c10c669ffc7622eb15eead1427035214b93e885bd65bc95d7f",
+          "url": "https://github.com/Rohith18p/rsi-kobon-triangles/blob/f462d8e18aea2a458376c523c9b6c2980237071f/kobon-triangles/bases/n61_1190_base31.json"
+        }
+      ]
+    }
+  },
+  "kobon_contact_records": 17,
+  "contact_inventory": [
+    {
+      "group": "E02",
+      "name": "Rachel Teo / Wenyi Wang / Hamdi Abderrahmene",
+      "repo": "SakanaAI/autolab-100",
+      "immutable_commit": null,
+      "claims": [
+        "27 proposed families: five focus dossiers plus 22 M2/M3/classification families. They are candidates, not accepted advances.",
+        "Focus Erd\u00c5\u2018s: finite 79-point L-free witness and sharp cyclic 4-AP bound six at modulus 13; 79 > 13\u00c3\u20146. Not the full Erd\u00c5\u2018s conjecture.",
+        "Focus Grothendieck: Q(A) \u00e2\u2030\u00a4 sqrt(3/2) C(A) for three-row sign matrices and sqrt(2) bounds for four named finite matrices; arbitrary real coefficients not covered.",
+        "Focus matrix: one-leg rigidity of three known rank-23 support-139 seeds; nine paired 81\u00c3\u201423 full-rank certificates. No new rank or support-138 result.",
+        "Focus Ramsey: exact weighted 1024-vertex construction Q=47,314,248; density 75525646867723584998137743109/2505750190359427899123170347008, plus generic formal blow-up lifting. Current best hill run is distinct from this retained family.",
+        "Focus BB6: exact 1,235,211-step, 1,519-one six-state halting witness; bounded kernel certificate, not a new global BB6 record."
+      ],
+      "status": "PDF and source ZIP received; review-ready with receipt/access caveats"
+    },
+    {
+      "group": "E08",
+      "name": "HTPeo \u00e2\u20ac\u201d Woohyuk Kang / Hyunjin Lee / Sanghyeon Lee / Youchan Oh",
+      "repo": "lavaskiller/openmath-2026-htpeo",
+      "immutable_commit": "76c63b8e425e551a930060a6871b84fe3b4780db",
+      "claims": [
+        "Ramsey: exact weighted 1024-block template, Q=50762939; density 200137750014677779172692777477/6640289795261907019148161833841, density_ppt=30139911990. Lean finite count and blow-up/limit upper bound claimed; c4 is not determined.",
+        "Kobon: existence of 39 distinct lines and 471 pairwise disjoint bounded triangles. Lean 4.33.1 existence/certificate claimed; K(39) maximality and historical priority not proved.",
+        "DMS star-edge-colouring: 5 colours for specified infinite families (flower/Goldberg snarks, GP(n,k), k<=15, Mobius ladders); 6 colours for all bridgeless cubic loopless multigraphs up to 14 vertices; equivalent cubic>=16 formulation and reductions to OPEN hypotheses. General conjecture remains open.",
+        "M2 selected set: 17 proposed families / 24 theorems, comprising connected Petersen/Schonberger perfect-matching family and 16 Erdos problems. Ten substantive families (G-PM,E942,E44,E123,E918,E292,E395,E698,E939,E477), seven minor/sanity families (E295,E703,E748,E1136,E358,E619,E1148). Optional and duplicate pools preserved but not promoted to selected results.",
+        "BB6 n0rang2: exact 249881-step / 554-one / 735-span halting witness with Lean certificate; baseline-tied finite witness, not global BB6 maximality.",
+        "Additional held-out hl728 Ramsey density_ppt=30141921123, n18 Youchan Kobon=93, CHSH-type Grothendieck witness, support139 known matrix scheme, 234 Collatz rules and n0rang2 Ramsey lead retained. No automatic novelty credit for baseline ties.",
+        "Erdos #1038 package explicitly NOT CLAIMED due to prior public formal proof; partial rebuild and provenance retained."
+      ],
+      "status": "Final pinned public packet received on LinkedIn; original archive retrieved; official intake unresolved"
+    },
+    {
+      "group": "E09",
+      "name": "Raj Harshit Srirangam",
+      "repo": "srirangam-r/kobon_triangles",
+      "immutable_commit": "eed14659a9b2f4ca12777da5d557f2b620b966f6",
+      "claims": [
+        "Author claims T<=94 for arbitrary 18-line/pseudoline arrangements, and T<=93 without multiplicity>=4; exact LP/DP/SAT/DRAT certificates retained. No human referee or Lean proof.",
+        "The residual all-8 fourfold-point case remains OPEN. Stage1 general capacity inequality unproved; Stage2 281/416 SAT cubes UNSAT, 0 SAT, 135 undecided. K(18)=93 is NOT established.",
+        "Additional claimed K(14)=54 and K(10)=25 for arbitrary multiplicity; n10 novelty explicitly not claimed. Restricted triple-point bounds for even n6..40 and general-n identities/automaton lemmas preserved.",
+        "Exact n18=93 constructions tie the record; 14376 wiring-word catalogue retained. Conditional guarded facts/fourfold certificate scope require human review."
+      ],
+      "status": "Author-designated final revision received 05:59 CEST; complete pinned archive retrieved"
+    },
+    {
+      "group": "E10",
+      "name": "Jamie Steeg / grandchallenge / GCL",
+      "repo": "grandchallenge/MATHSOLVE",
+      "immutable_commit": "2fd9fd643bf3e9e98d121dc2e7af1cf1be411ae2",
+      "claims": [
+        "H4: 23 retained exact Collatz rules, deterministic reduction of 309 valid rules among 1016 bounded prefixes (k=2..8, depth=1..4); finite classification only.",
+        "H7: ap_subprogression_of_le and ap_frequently_iff_every_length, exact conclusion-side equivalence; not Erd\u00c5\u2018s 3.",
+        "H1: conditional Kobon n18 hypothetical-95 q\u00e2\u2030\u00a45 exclusion depending on predecessor local-fan/clean-line lemmas. q\u00e2\u2030\u00a56 remains open.",
+        "H2: finite 89,911-step, 185-one, 541-span witness without SOTA advance; not review-ready. H3 infrastructure; H5 CHSH 275807/195025; H6 Laderman rank23/support153 baseline, no new result credit."
+      ],
+      "status": "Pinned packet arrived; official submission blocker unresolved"
+    },
+    {
+      "group": "E37",
+      "name": "alee792",
+      "repo": null,
+      "immutable_commit": null,
+      "claims": [
+        "Kobon n=18: 90 triangles, below the known 93 construction; scored September 21 before the event."
+      ],
+      "status": "Score/project/reference located; complete final artifact or receipt not established"
+    },
+    {
+      "group": "E38",
+      "name": "ashleychenyj",
+      "repo": null,
+      "immutable_commit": null,
+      "claims": [
+        "Kobon n=18: 93, tying the known lower bound; September 21 pre-event score. No inspectable final packet identified."
+      ],
+      "status": "Score/project/reference located; complete final artifact or receipt not established"
+    },
+    {
+      "group": "E39",
+      "name": "claudiagaes",
+      "repo": null,
+      "immutable_commit": null,
+      "claims": [
+        "Kobon n=18: 93, a valid benchmark tie rather than the missing 94 arrangement or an upper-bound proof."
+      ],
+      "status": "Score/project/reference located; complete final artifact or receipt not established"
+    },
+    {
+      "group": "E40",
+      "name": "claudioolmedo",
+      "repo": null,
+      "immutable_commit": null,
+      "claims": [
+        "Kobon n=18: 93, baseline tie on September 20. No current final packet identified."
+      ],
+      "status": "Score/project/reference located; complete final artifact or receipt not established"
+    },
+    {
+      "group": "E48",
+      "name": "fkaita",
+      "repo": null,
+      "immutable_commit": null,
+      "claims": [
+        "Kobon n=18: 93 on September 21, known construction tie. No final packet identified."
+      ],
+      "status": "Score/project/reference located; complete final artifact or receipt not established"
+    },
+    {
+      "group": "E49",
+      "name": "flaviabeppler",
+      "repo": null,
+      "immutable_commit": null,
+      "claims": [
+        "Kobon n=18: 93 on September 28, ties the known construction; exact final arrangement/paper not identified."
+      ],
+      "status": "Score/project/reference located; complete final artifact or receipt not established"
+    },
+    {
+      "group": "E52",
+      "name": "kevinsrun",
+      "repo": null,
+      "immutable_commit": null,
+      "claims": [
+        "Kobon n=18: 93, known lower-bound tie. AutoLab links GitHub kevinsrun (display name Icer). Likely Kevin Srun registration overlap, not conclusively confirmed."
+      ],
+      "status": "Score/project/reference located; complete final artifact or receipt not established"
+    },
+    {
+      "group": "E53",
+      "name": "luizfelipebarbosa",
+      "repo": null,
+      "immutable_commit": null,
+      "claims": [
+        "Kobon n=18: 91 on September 20, below 93. GitHub names Luiz Felipe Barbosa; no final event packet identified."
+      ],
+      "status": "Score/project/reference located; complete final artifact or receipt not established"
+    },
+    {
+      "group": "E55",
+      "name": "octavianboji",
+      "repo": null,
+      "immutable_commit": null,
+      "claims": [
+        "Kobon n=39: 468, behind current 471 and Rohith 470. A larger-n exact construction can be useful; no proof of optimality or final packet identified."
+      ],
+      "status": "Score/project/reference located; complete final artifact or receipt not established"
+    },
+    {
+      "group": "E56",
+      "name": "ottogin",
+      "repo": null,
+      "immutable_commit": null,
+      "claims": [
+        "Visible reference runs retained, not automatically judged as competitor entries."
+      ],
+      "status": "Organizer/reference account \u00e2\u20ac\u201d not classified as independent entrant"
+    },
+    {
+      "group": "E57",
+      "name": "Rohith Poola \u00e2\u20ac\u201d Kobon only",
+      "repo": "Rohith18p/rsi-kobon-triangles",
+      "immutable_commit": "f462d8e18aea2a458376c523c9b6c2980237071f",
+      "claims": [
+        "R1: K(39)\u00e2\u2030\u00a5470 via explicit integer-line arrangement, adding one line to an attributed 38-line 450-triangle gallery base; no optimality claim.",
+        "R2: 46 proposed first lower bounds at previously unpublished n values, exact arrangements retained; not officially evaluated. R3 n18=93 ties known record.",
+        "R4 generalized Blanc bound is an unproved conjecture; SAT pseudolines at 481 and 475\u00e2\u20ac\u201c480 are not straight-line realizations.",
+        "Final submission explicitly excludes Ramsey."
+      ],
+      "status": "Pinned final packet received by email"
+    },
+    {
+      "group": "E61",
+      "name": "solal24",
+      "repo": null,
+      "immutable_commit": null,
+      "claims": [
+        "Kobon n=18: 93 tie; Grothendieck gap 1.414213, area 4, 80 bits. Both are baseline-level benchmark results."
+      ],
+      "status": "Score/project/reference located; complete final artifact or receipt not established"
+    },
+    {
+      "group": "E64",
+      "name": "willow2014",
+      "repo": null,
+      "immutable_commit": null,
+      "claims": [
+        "Kobon n=18: 93. Possibly Will\u00e2\u20ac\u2122s registration (email willow.pine.2011), but blank GitHub identity/no recent public repository does not confirm it."
+      ],
+      "status": "Score/project/reference located; complete final artifact or receipt not established"
+    }
+  ],
+  "comparison_scope": "Prior repository H at manuscript proof revision2d69a71; not a world-record priority judgment",
+  "point_comparison": [
+    {
+      "n": 7,
+      "contestant_point_count": 11,
+      "previous_verified_repository_H": 11,
+      "delta": 0
+    },
+    {
+      "n": 13,
+      "contestant_point_count": 47,
+      "previous_verified_repository_H": 47,
+      "delta": 0
+    },
+    {
+      "n": 18,
+      "contestant_point_count": 93,
+      "previous_verified_repository_H": 93,
+      "delta": 0
+    },
+    {
+      "n": 19,
+      "contestant_point_count": 107,
+      "previous_verified_repository_H": 107,
+      "delta": 0
+    },
+    {
+      "n": 31,
+      "contestant_point_count": 290,
+      "previous_verified_repository_H": 299,
+      "delta": -9
+    },
+    {
+      "n": 35,
+      "contestant_point_count": 338,
+      "previous_verified_repository_H": 385,
+      "delta": -47
+    },
+    {
+      "n": 37,
+      "contestant_point_count": 431,
+      "previous_verified_repository_H": 431,
+      "delta": 0
+    },
+    {
+      "n": 38,
+      "contestant_point_count": 450,
+      "previous_verified_repository_H": 450,
+      "delta": 0
+    },
+    {
+      "n": 39,
+      "contestant_point_count": 470,
+      "previous_verified_repository_H": 470,
+      "delta": 0
+    },
+    {
+      "n": 40,
+      "contestant_point_count": 494,
+      "previous_verified_repository_H": 494,
+      "delta": 0
+    },
+    {
+      "n": 41,
+      "contestant_point_count": 533,
+      "previous_verified_repository_H": 533,
+      "delta": 0
+    },
+    {
+      "n": 43,
+      "contestant_point_count": 587,
+      "previous_verified_repository_H": 587,
+      "delta": 0
+    },
+    {
+      "n": 44,
+      "contestant_point_count": 608,
+      "previous_verified_repository_H": 608,
+      "delta": 0
+    },
+    {
+      "n": 45,
+      "contestant_point_count": 645,
+      "previous_verified_repository_H": 645,
+      "delta": 0
+    },
+    {
+      "n": 46,
+      "contestant_point_count": 667,
+      "previous_verified_repository_H": 667,
+      "delta": 0
+    },
+    {
+      "n": 47,
+      "contestant_point_count": 691,
+      "previous_verified_repository_H": 691,
+      "delta": 0
+    },
+    {
+      "n": 48,
+      "contestant_point_count": 721,
+      "previous_verified_repository_H": 721,
+      "delta": 0
+    },
+    {
+      "n": 49,
+      "contestant_point_count": 767,
+      "previous_verified_repository_H": 767,
+      "delta": 0
+    },
+    {
+      "n": 50,
+      "contestant_point_count": 792,
+      "previous_verified_repository_H": 792,
+      "delta": 0
+    },
+    {
+      "n": 51,
+      "contestant_point_count": 815,
+      "previous_verified_repository_H": 818,
+      "delta": -3
+    },
+    {
+      "n": 52,
+      "contestant_point_count": 850,
+      "previous_verified_repository_H": 850,
+      "delta": 0
+    },
+    {
+      "n": 53,
+      "contestant_point_count": 901,
+      "previous_verified_repository_H": 885,
+      "delta": 16
+    },
+    {
+      "n": 54,
+      "contestant_point_count": 927,
+      "previous_verified_repository_H": 919,
+      "delta": 8
+    },
+    {
+      "n": 55,
+      "contestant_point_count": 954,
+      "previous_verified_repository_H": 955,
+      "delta": -1
+    },
+    {
+      "n": 56,
+      "contestant_point_count": 990,
+      "previous_verified_repository_H": 990,
+      "delta": 0
+    },
+    {
+      "n": 57,
+      "contestant_point_count": 1045,
+      "previous_verified_repository_H": 1045,
+      "delta": 0
+    },
+    {
+      "n": 58,
+      "contestant_point_count": 1036,
+      "previous_verified_repository_H": 1073,
+      "delta": -37
+    },
+    {
+      "n": 59,
+      "contestant_point_count": 1086,
+      "previous_verified_repository_H": 1103,
+      "delta": -17
+    },
+    {
+      "n": 60,
+      "contestant_point_count": 1137,
+      "previous_verified_repository_H": 1141,
+      "delta": -4
+    },
+    {
+      "n": 61,
+      "contestant_point_count": 1190,
+      "previous_verified_repository_H": 1181,
+      "delta": 9
+    },
+    {
+      "n": 62,
+      "contestant_point_count": 1185,
+      "previous_verified_repository_H": 1220,
+      "delta": -35
+    },
+    {
+      "n": 63,
+      "contestant_point_count": 1243,
+      "previous_verified_repository_H": 1262,
+      "delta": -19
+    },
+    {
+      "n": 64,
+      "contestant_point_count": 1302,
+      "previous_verified_repository_H": 1302,
+      "delta": 0
+    },
+    {
+      "n": 65,
+      "contestant_point_count": 1365,
+      "previous_verified_repository_H": 1365,
+      "delta": 0
+    },
+    {
+      "n": 66,
+      "contestant_point_count": 1329,
+      "previous_verified_repository_H": 1397,
+      "delta": -68
+    },
+    {
+      "n": 67,
+      "contestant_point_count": 1383,
+      "previous_verified_repository_H": 1431,
+      "delta": -48
+    },
+    {
+      "n": 68,
+      "contestant_point_count": 1438,
+      "previous_verified_repository_H": 1474,
+      "delta": -36
+    },
+    {
+      "n": 69,
+      "contestant_point_count": 1494,
+      "previous_verified_repository_H": 1520,
+      "delta": -26
+    },
+    {
+      "n": 70,
+      "contestant_point_count": 1525,
+      "previous_verified_repository_H": 1564,
+      "delta": -39
+    },
+    {
+      "n": 71,
+      "contestant_point_count": 1590,
+      "previous_verified_repository_H": 1611,
+      "delta": -21
+    },
+    {
+      "n": 72,
+      "contestant_point_count": 1657,
+      "previous_verified_repository_H": 1657,
+      "delta": 0
+    },
+    {
+      "n": 73,
+      "contestant_point_count": 1727,
+      "previous_verified_repository_H": 1705,
+      "delta": 22
+    },
+    {
+      "n": 74,
+      "contestant_point_count": 1438,
+      "previous_verified_repository_H": 1752,
+      "delta": -314
+    },
+    {
+      "n": 75,
+      "contestant_point_count": 1489,
+      "previous_verified_repository_H": 1802,
+      "delta": -313
+    },
+    {
+      "n": 76,
+      "contestant_point_count": 1540,
+      "previous_verified_repository_H": 1850,
+      "delta": -310
+    },
+    {
+      "n": 77,
+      "contestant_point_count": 1595,
+      "previous_verified_repository_H": 1901,
+      "delta": -306
+    },
+    {
+      "n": 78,
+      "contestant_point_count": 1650,
+      "previous_verified_repository_H": 1951,
+      "delta": -301
+    },
+    {
+      "n": 79,
+      "contestant_point_count": 1708,
+      "previous_verified_repository_H": 2003,
+      "delta": -295
+    },
+    {
+      "n": 80,
+      "contestant_point_count": 1767,
+      "previous_verified_repository_H": 2054,
+      "delta": -287
+    },
+    {
+      "n": 81,
+      "contestant_point_count": 1829,
+      "previous_verified_repository_H": 2132,
+      "delta": -303
+    },
+    {
+      "n": 82,
+      "contestant_point_count": 1891,
+      "previous_verified_repository_H": 2172,
+      "delta": -281
+    },
+    {
+      "n": 83,
+      "contestant_point_count": 1956,
+      "previous_verified_repository_H": 2215,
+      "delta": -259
+    },
+    {
+      "n": 84,
+      "contestant_point_count": 2021,
+      "previous_verified_repository_H": 2269,
+      "delta": -248
+    },
+    {
+      "n": 85,
+      "contestant_point_count": 2090,
+      "previous_verified_repository_H": 2325,
+      "delta": -235
+    },
+    {
+      "n": 86,
+      "contestant_point_count": 2159,
+      "previous_verified_repository_H": 2380,
+      "delta": -221
+    },
+    {
+      "n": 87,
+      "contestant_point_count": 2233,
+      "previous_verified_repository_H": 2438,
+      "delta": -205
+    },
+    {
+      "n": 88,
+      "contestant_point_count": 2307,
+      "previous_verified_repository_H": 2494,
+      "delta": -187
+    },
+    {
+      "n": 89,
+      "contestant_point_count": 2384,
+      "previous_verified_repository_H": 2553,
+      "delta": -169
+    },
+    {
+      "n": 90,
+      "contestant_point_count": 2461,
+      "previous_verified_repository_H": 2611,
+      "delta": -150
+    },
+    {
+      "n": 91,
+      "contestant_point_count": 2542,
+      "previous_verified_repository_H": 2671,
+      "delta": -129
+    },
+    {
+      "n": 92,
+      "contestant_point_count": 2623,
+      "previous_verified_repository_H": 2730,
+      "delta": -107
+    },
+    {
+      "n": 93,
+      "contestant_point_count": 2709,
+      "previous_verified_repository_H": 2792,
+      "delta": -83
+    },
+    {
+      "n": 94,
+      "contestant_point_count": 2795,
+      "previous_verified_repository_H": 2852,
+      "delta": -57
+    },
+    {
+      "n": 95,
+      "contestant_point_count": 2885,
+      "previous_verified_repository_H": 2915,
+      "delta": -30
+    },
+    {
+      "n": 96,
+      "contestant_point_count": 2977,
+      "previous_verified_repository_H": 2977,
+      "delta": 0
+    },
+    {
+      "n": 97,
+      "contestant_point_count": 3071,
+      "previous_verified_repository_H": 3041,
+      "delta": 30
+    }
+  ],
+  "strict_improvements": [
+    {
+      "n": 53,
+      "contestant_point_count": 901,
+      "previous_verified_repository_H": 885,
+      "delta": 16
+    },
+    {
+      "n": 54,
+      "contestant_point_count": 927,
+      "previous_verified_repository_H": 919,
+      "delta": 8
+    },
+    {
+      "n": 61,
+      "contestant_point_count": 1190,
+      "previous_verified_repository_H": 1181,
+      "delta": 9
+    },
+    {
+      "n": 73,
+      "contestant_point_count": 1727,
+      "previous_verified_repository_H": 1705,
+      "delta": 22
+    },
+    {
+      "n": 97,
+      "contestant_point_count": 3071,
+      "previous_verified_repository_H": 3041,
+      "delta": 30
+    }
+  ],
+  "htpeo": {
+    "n": 39,
+    "triangle_count": 471,
+    "old_H": 470,
+    "proof_status": "55-module fresh standard-kernel receipt exists in public archive; not rerun in this corpus script"
+  }
+}

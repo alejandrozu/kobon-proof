@@ -1,0 +1,250 @@
+{
+  "source": "contestant61-uniform-box.json",
+  "central": [
+    59,
+    60
+  ],
+  "scope": "Exact finite samples only; uniform small-epsilon proof remains separate",
+  "cases": [
+    {
+      "p": 1,
+      "q": 1,
+      "samples": [
+        {
+          "epsilon": "1/1000",
+          "triangles": 1158,
+          "caps": 59,
+          "simple": true
+        },
+        {
+          "epsilon": "1/100000",
+          "triangles": 1158,
+          "caps": 59,
+          "simple": true
+        },
+        {
+          "epsilon": "1/100000000",
+          "triangles": 1156,
+          "caps": 59,
+          "simple": true
+        },
+        {
+          "epsilon": "1/1000000000000",
+          "triangles": 1156,
+          "caps": 59,
+          "simple": true
+        }
+      ]
+    },
+    {
+      "p": 1,
+      "q": 0,
+      "samples": [
+        {
+          "epsilon": "1/1000",
+          "triangles": 1166,
+          "caps": 59,
+          "simple": true
+        },
+        {
+          "epsilon": "1/100000",
+          "triangles": 1165,
+          "caps": 59,
+          "simple": true
+        },
+        {
+          "epsilon": "1/100000000",
+          "triangles": 1165,
+          "caps": 59,
+          "simple": true
+        },
+        {
+          "epsilon": "1/1000000000000",
+          "triangles": 1165,
+          "caps": 59,
+          "simple": true
+        }
+      ]
+    },
+    {
+      "p": 0,
+      "q": 1,
+      "samples": [
+        {
+          "epsilon": "1/1000",
+          "triangles": 1174,
+          "caps": 59,
+          "simple": true
+        },
+        {
+          "epsilon": "1/100000",
+          "triangles": 1174,
+          "caps": 59,
+          "simple": true
+        },
+        {
+          "epsilon": "1/100000000",
+          "triangles": 1174,
+          "caps": 59,
+          "simple": true
+        },
+        {
+          "epsilon": "1/1000000000000",
+          "triangles": 1174,
+          "caps": 59,
+          "simple": true
+        }
+      ]
+    },
+    {
+      "p": 2,
+      "q": 2,
+      "samples": [
+        {
+          "epsilon": "1/1000",
+          "triangles": 1156,
+          "caps": 58,
+          "simple": true
+        },
+        {
+          "epsilon": "1/100000",
+          "triangles": 1156,
+          "caps": 58,
+          "simple": true
+        },
+        {
+          "epsilon": "1/100000000",
+          "triangles": 1155,
+          "caps": 58,
+          "simple": true
+        },
+        {
+          "epsilon": "1/1000000000000",
+          "triangles": 1155,
+          "caps": 58,
+          "simple": true
+        }
+      ]
+    },
+    {
+      "p": 1,
+      "q": 2,
+      "samples": [
+        {
+          "epsilon": "1/1000",
+          "triangles": 1158,
+          "caps": 59,
+          "simple": true
+        },
+        {
+          "epsilon": "1/100000",
+          "triangles": 1158,
+          "caps": 59,
+          "simple": true
+        },
+        {
+          "epsilon": "1/100000000",
+          "triangles": 1156,
+          "caps": 59,
+          "simple": true
+        },
+        {
+          "epsilon": "1/1000000000000",
+          "triangles": 1156,
+          "caps": 59,
+          "simple": true
+        }
+      ]
+    },
+    {
+      "p": 2,
+      "q": 1,
+      "samples": [
+        {
+          "epsilon": "1/1000",
+          "triangles": 1156,
+          "caps": 58,
+          "simple": true
+        },
+        {
+          "epsilon": "1/100000",
+          "triangles": 1156,
+          "caps": 58,
+          "simple": true
+        },
+        {
+          "epsilon": "1/100000000",
+          "triangles": 1156,
+          "caps": 58,
+          "simple": true
+        },
+        {
+          "epsilon": "1/1000000000000",
+          "triangles": 1156,
+          "caps": 58,
+          "simple": true
+        }
+      ]
+    },
+    {
+      "p": 0,
+      "q": 0,
+      "samples": [
+        {
+          "epsilon": "1/1000",
+          "triangles": 1182,
+          "caps": 59,
+          "simple": true
+        },
+        {
+          "epsilon": "1/100000",
+          "triangles": 1182,
+          "caps": 59,
+          "simple": true
+        },
+        {
+          "epsilon": "1/100000000",
+          "triangles": 1182,
+          "caps": 59,
+          "simple": true
+        },
+        {
+          "epsilon": "1/1000000000000",
+          "triangles": 1182,
+          "caps": 59,
+          "simple": true
+        }
+      ]
+    },
+    {
+      "p": -1,
+      "q": -1,
+      "samples": [
+        {
+          "epsilon": "1/1000",
+          "triangles": 1154,
+          "caps": 59,
+          "simple": true
+        },
+        {
+          "epsilon": "1/100000",
+          "triangles": 1139,
+          "caps": 59,
+          "simple": true
+        },
+        {
+          "epsilon": "1/100000000",
+          "triangles": 1118,
+          "caps": 59,
+          "simple": true
+        },
+        {
+          "epsilon": "1/1000000000000",
+          "triangles": 1080,
+          "caps": 31,
+          "simple": true
+        }
+      ]
+    }
+  ]
+}

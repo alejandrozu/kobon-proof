@@ -1,0 +1,149 @@
+[
+  {
+    "depth": 0,
+    "n": 61,
+    "T": 1190,
+    "incidence_min": 53,
+    "least_lines": [
+      59
+    ],
+    "incidence_distribution": {
+      "53": 1,
+      "55": 1,
+      "56": 1,
+      "57": 3,
+      "58": 10,
+      "59": 45
+    },
+    "deletion_n": 60,
+    "deletion_bound": 1137,
+    "baseline": 1141,
+    "gain": -4
+  },
+  {
+    "depth": 1,
+    "n": 121,
+    "T": 4790,
+    "incidence_min": 113,
+    "least_lines": [
+      117
+    ],
+    "incidence_distribution": {
+      "113": 1,
+      "115": 1,
+      "116": 1,
+      "117": 3,
+      "118": 10,
+      "119": 105
+    },
+    "deletion_n": 120,
+    "deletion_bound": 4677,
+    "baseline": 4681,
+    "gain": -4
+  },
+  {
+    "depth": 2,
+    "n": 241,
+    "T": 19190,
+    "incidence_min": 233,
+    "least_lines": [
+      233
+    ],
+    "incidence_distribution": {
+      "233": 1,
+      "235": 1,
+      "236": 1,
+      "237": 3,
+      "238": 10,
+      "239": 225
+    },
+    "deletion_n": 240,
+    "deletion_bound": 18957,
+    "baseline": 18961,
+    "gain": -4
+  },
+  {
+    "depth": 3,
+    "n": 481,
+    "T": 76790,
+    "incidence_min": 473,
+    "least_lines": [
+      465
+    ],
+    "incidence_distribution": {
+      "473": 1,
+      "475": 1,
+      "476": 1,
+      "477": 3,
+      "478": 10,
+      "479": 465
+    },
+    "deletion_n": 480,
+    "deletion_bound": 76317,
+    "baseline": 76321,
+    "gain": -4
+  },
+  {
+    "depth": 4,
+    "n": 961,
+    "T": 307190,
+    "incidence_min": 953,
+    "least_lines": [
+      929
+    ],
+    "incidence_distribution": {
+      "953": 1,
+      "955": 1,
+      "956": 1,
+      "957": 3,
+      "958": 10,
+      "959": 945
+    },
+    "deletion_n": 960,
+    "deletion_bound": 306237,
+    "baseline": 306241,
+    "gain": -4
+  },
+  {
+    "depth": 5,
+    "n": 1921,
+    "T": 1228790,
+    "incidence_min": 1913,
+    "least_lines": [
+      1857
+    ],
+    "incidence_distribution": {
+      "1913": 1,
+      "1915": 1,
+      "1916": 1,
+      "1917": 3,
+      "1918": 10,
+      "1919": 1905
+    },
+    "deletion_n": 1920,
+    "deletion_bound": 1226877,
+    "baseline": 1226881,
+    "gain": -4
+  },
+  {
+    "depth": 6,
+    "n": 3841,
+    "T": 4915190,
+    "incidence_min": 3833,
+    "least_lines": [
+      3713
+    ],
+    "incidence_distribution": {
+      "3833": 1,
+      "3835": 1,
+      "3836": 1,
+      "3837": 3,
+      "3838": 10,
+      "3839": 3825
+    },
+    "deletion_n": 3840,
+    "deletion_bound": 4911357,
+    "baseline": 4911361,
+    "gain": -4
+  }
+]

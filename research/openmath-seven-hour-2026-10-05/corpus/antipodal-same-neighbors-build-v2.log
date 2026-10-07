@@ -1,0 +1,14 @@
+Kobon/UpperOpenMathAntipodalSameNeighbors.lean:36:29: error: invalid 'by' tactic, expected type has not been provided
+Kobon/UpperOpenMathAntipodalSameNeighbors.lean:36:29: error: invalid 'by' tactic, expected type has not been provided
+Kobon/UpperOpenMathAntipodalSameNeighbors.lean:36:29: error: invalid 'by' tactic, expected type has not been provided
+Kobon/UpperOpenMathAntipodalSameNeighbors.lean:36:29: error: invalid 'by' tactic, expected type has not been provided
+Kobon/UpperOpenMathAntipodalSameNeighbors.lean:36:29: error: invalid 'by' tactic, expected type has not been provided
+Kobon/UpperOpenMathAntipodalSameNeighbors.lean:36:29: error: invalid 'by' tactic, expected type has not been provided
+'Kobon.UpperOpenMathAntipodalSameNeighbors.charts_outer_center_unique' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathAntipodalSameNeighbors.certificate_anti_same_neighbors_unique' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]

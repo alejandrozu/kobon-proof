@@ -1,0 +1,59 @@
+{
+  "best": [
+    {
+      "T": 44,
+      "period": 1,
+      "offset_numerators": [
+        166667
+      ],
+      "denominator": 1000003,
+      "trial": "uniformcontrol",
+      "current_G": 45
+    },
+    {
+      "T": 91,
+      "period": 1,
+      "offset_numerators": [
+        166667
+      ],
+      "denominator": 1000003,
+      "trial": "uniformcontrol",
+      "current_G": 91
+    },
+    {
+      "T": 102,
+      "period": 1,
+      "offset_numerators": [
+        166667
+      ],
+      "denominator": 1000003,
+      "trial": "uniformcontrol",
+      "current_G": 103
+    },
+    {
+      "T": 200,
+      "period": 1,
+      "offset_numerators": [
+        166667
+      ],
+      "denominator": 1000003,
+      "trial": "uniformcontrol",
+      "current_G": 200
+    },
+    {
+      "T": 290,
+      "period": 1,
+      "offset_numerators": [
+        166667
+      ],
+      "denominator": 1000003,
+      "trial": "uniformcontrol",
+      "current_G": 291
+    }
+  ],
+  "trials": 18003,
+  "records": [],
+  "seconds": 120.00660729408264,
+  "source_identity": "Kobon/FurediPalasti.lean eval_line; no new curve identity assumed",
+  "scope": "Finite exact periodic nonuniform angular sample search. No all-order theorem or global optimum inferred."
+}

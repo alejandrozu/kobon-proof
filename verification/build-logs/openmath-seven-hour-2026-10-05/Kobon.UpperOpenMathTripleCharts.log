@@ -1,0 +1,6 @@
+'Kobon.UpperOpenMathTripleCharts.certificate_normalized_chart' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathTripleCharts.certificate_closed_normalized_chart' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

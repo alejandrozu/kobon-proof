@@ -1,0 +1,1 @@
+'Kobon.UpperOpenMathPaidZeroEscape.closed_paid_zero_escape' depends on axioms: [propext, Classical.choice, Quot.sound]

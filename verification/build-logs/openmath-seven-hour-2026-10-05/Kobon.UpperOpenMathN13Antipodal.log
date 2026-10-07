@@ -1,0 +1,6 @@
+Kobon/UpperOpenMathN13Antipodal.lean:64:32: warning: Variable name `nc2` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'Kobon.UpperOpenMathN13Antipodal.opposite_pair_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]

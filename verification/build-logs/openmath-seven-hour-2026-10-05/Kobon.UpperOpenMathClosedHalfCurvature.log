@@ -1,0 +1,15 @@
+'Kobon.UpperOpenMathClosedHalfCurvature.certificate_closed_half_cost' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathClosedHalfCurvature.certificate_closed_half_gain' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathClosedHalfCurvature.certificate_hybrid_component_defect' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathClosedHalfCurvature.certificate_hybrid_gain_component_defect' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathClosedHalfCurvature.hybrid_gain_dominates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

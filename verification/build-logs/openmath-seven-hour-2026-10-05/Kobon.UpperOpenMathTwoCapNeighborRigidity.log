@@ -1,0 +1,6 @@
+'Kobon.UpperOpenMathTwoCapNeighborRigidity.normalized_two_or_full_neighbors_no_full' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathTwoCapNeighborRigidity.certificate_closed_two_or_four_impossible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

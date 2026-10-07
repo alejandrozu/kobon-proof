@@ -1,0 +1,68 @@
+{
+  "trials": 4590,
+  "best": [
+    {
+      "n": 13,
+      "projective_triangles": 45,
+      "default_affine": 44,
+      "gaps": [
+        1
+      ],
+      "phase": 1,
+      "trial": "uniformcontrol"
+    },
+    {
+      "n": 14,
+      "projective_triangles": 54,
+      "default_affine": 52,
+      "gaps": [
+        1
+      ],
+      "phase": 1,
+      "trial": "uniformcontrol"
+    },
+    {
+      "n": 18,
+      "projective_triangles": 94,
+      "default_affine": 91,
+      "gaps": [
+        1
+      ],
+      "phase": 1,
+      "trial": "uniformcontrol"
+    },
+    {
+      "n": 19,
+      "projective_triangles": 103,
+      "default_affine": 102,
+      "gaps": [
+        1
+      ],
+      "phase": 1,
+      "trial": "uniformcontrol"
+    },
+    {
+      "n": 26,
+      "projective_triangles": 202,
+      "default_affine": 200,
+      "gaps": [
+        1
+      ],
+      "phase": 1,
+      "trial": "uniformcontrol"
+    },
+    {
+      "n": 31,
+      "projective_triangles": 291,
+      "default_affine": 290,
+      "gaps": [
+        1
+      ],
+      "phase": 1,
+      "trial": "uniformcontrol"
+    }
+  ],
+  "wins": [],
+  "seconds": 90.00462746620178,
+  "scope": "Finite projective counts only, no new affine lower bound or all-order formula claimed"
+}

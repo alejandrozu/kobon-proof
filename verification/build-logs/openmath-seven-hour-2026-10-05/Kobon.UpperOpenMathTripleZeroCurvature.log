@@ -1,0 +1,9 @@
+'Kobon.UpperOpenMathTripleZeroCurvature.normalized_full_incompatible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathTripleZeroCurvature.certificate_normalized_full_not_adjacent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathTripleZeroCurvature.certificate_closed_zero_types_impossible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

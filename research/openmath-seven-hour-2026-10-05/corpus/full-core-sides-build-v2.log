@@ -1,0 +1,3 @@
+'Kobon.UpperOpenMathFullCoreSides.certificate_full_core_side_shared' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

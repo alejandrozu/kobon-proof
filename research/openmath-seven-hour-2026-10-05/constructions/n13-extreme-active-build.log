@@ -1,0 +1,15 @@
+'Kobon.UpperOpenMathN13SupportExtreme.certificate_n13_anti_not_max' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathN13SupportExtreme.antipodal_back_not_both_core_neighbors' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathN13SupportExtreme.antipodal_core_pair_not_max' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathN13SupportExtreme.previous_core_escape_not_max' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathN13SupportExtreme.next_core_escape_not_max' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

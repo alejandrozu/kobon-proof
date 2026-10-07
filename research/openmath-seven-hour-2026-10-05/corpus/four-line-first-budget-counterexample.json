@@ -1,0 +1,42 @@
+{
+  "n": 4,
+  "T": 2,
+  "q": 1,
+  "multiplicities": {
+    "3": 1
+  },
+  "D1": 1,
+  "D2": 0,
+  "U": 0,
+  "C": 2,
+  "Rc": 3,
+  "H": 0,
+  "deficit": 2,
+  "first_slack": 0,
+  "second_slack": 6,
+  "lines_frac": [
+    [
+      "0",
+      "1",
+      "0"
+    ],
+    [
+      "1",
+      "-1",
+      "0"
+    ],
+    [
+      "1",
+      "1",
+      "0"
+    ],
+    [
+      "2",
+      "1",
+      "2"
+    ]
+  ],
+  "status": "Independent exact finite recount; no Lean certification claimed",
+  "refuted": "n <= 2U+D1+C",
+  "proposed_budget": 3
+}

@@ -1,0 +1,12 @@
+Kobon/OpenMathTranslationGerms.lean:114:18: warning: This simp argument is unused:
+  mul_ne_zero
+
+Hint: Omit it from the simp argument list.
+  simp [̵N̵o̵n̵z̵e̵r̵o̵,̵m̵u̵l̵_̵n̵e̵_̵z̵e̵r̵o̵,̵n̵e̵_̵o̵f̵_̵g̵t̵[̲N̲o̲n̲z̲e̲r̲o̲,̲ ̲n̲e̲_̲o̲f̲_̲g̲t̲ he]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Kobon.OpenMathTranslationGerms.eval_translate_affine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathTranslationGerms.triangle_stable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathTranslationGerms.simultaneous_triangle_stability' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

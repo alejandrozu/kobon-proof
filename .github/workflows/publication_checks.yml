@@ -1,0 +1,53 @@
+name: Check publication package
+on:
+  push:
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  publication:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Install pinned PDF checker
+        run: python -m pip install pypdf==6.10.0
+      - name: Fetch completed clean mathematical receipt
+        run: |
+          mkdir -p work/publication-receipt
+          gh run view 37613706987 --json headSha,conclusion,jobs > work/publication-receipt/run.json
+          gh run download 37613706987 --name verification-records --dir work/publication-receipt/artifact
+      - name: Validate exact source equivalence and successful proof stages
+        run: python scripts/verify_publication_receipt.py --artifact work/publication-receipt/artifact --metadata work/publication-receipt/run.json --math-commit f44f23ee062a255f5cad7d39188fd55c0feb83a8 --run-id 37613706987 --out verification/publication-receipt.json
+      - name: Check versioned evidence manifest
+        run: python scripts/evidence_manifest.py --check
+      - name: Replay all exact research certificates
+        run: python scripts/verify_research_2026_10_02.py
+      - name: Reproduce seed and successor experiments
+        run: |
+          python scripts/generate_seed_family.py
+          python scripts/audit_successor_chain.py
+          python scripts/generate_all_n.py
+          python scripts/evidence_manifest.py --check
+      - name: Check manuscript proof links and document evidence
+        run: |
+          python manuscripts/2026-10-07/shared/validate_proof_map.py
+          python manuscripts/2026-10-07/validate.py --allow-pending-ci
+      - name: Save publication records
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: publication-records
+          path: |
+            verification/publication-receipt.json
+            verification/research-2026-10-02/
+            manuscripts/2026-10-07/validation.json

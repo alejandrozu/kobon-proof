@@ -1,0 +1,5 @@
+'Kobon.OpenMathBoundaryRootOrder.exists_increasing_permutation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.OpenMathBoundaryRootOrder.adjacent_of_no_between' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathBoundaryRootOrder.exists_half_gain' depends on axioms: [propext, Classical.choice, Quot.sound]

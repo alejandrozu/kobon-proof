@@ -1,0 +1,10 @@
+Kobon/UpperOpenMathN13NoDouble.lean:27:8: warning: automatically included section variable(s) unused in theorem `_private.Kobon.UpperOpenMathN13NoDouble.0.Kobon.UpperOpenMathN13NoDouble.endpoint_triple`:
+  hn
+  hi
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hn hi in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'Kobon.UpperOpenMathN13NoDouble.certificate_chart_no_two_anti' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

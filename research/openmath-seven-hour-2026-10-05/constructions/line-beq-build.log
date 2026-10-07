@@ -1,0 +1,1 @@
+'Kobon.OpenMathConstructionLineEquality.lineBEq_sound' depends on axioms: [propext, Quot.sound]

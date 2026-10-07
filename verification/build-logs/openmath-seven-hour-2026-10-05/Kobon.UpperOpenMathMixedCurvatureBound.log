@@ -1,0 +1,9 @@
+'Kobon.UpperOpenMathMixedCurvatureBound.certificate_closed_mixed_rounded_cost' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathMixedCurvatureBound.certificate_mixed_curvature_component_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathMixedCurvatureBound.certificate_mixed_doubled_component_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,24 @@
+{"event": "state", "T": 1190, "caps": 59, "depth": 0, "mutations": {"0": 8}, "elapsed": 0.07834291458129883}
+{"event": "state", "T": 1190, "caps": 59, "depth": 1, "mutations": {"0": 8}, "elapsed": 5.1984968185424805}
+{"event": "progress", "tested": 10, "accepted": 6, "best": 1190, "elapsed": 6.444747447967529}
+{"event": "state", "T": 1190, "caps": 59, "depth": 2, "mutations": {"0": 8}, "elapsed": 9.300238370895386}
+{"event": "progress", "tested": 20, "accepted": 9, "best": 1190, "elapsed": 12.032747983932495}
+{"event": "state", "T": 1190, "caps": 59, "depth": 3, "mutations": {"0": 8}, "elapsed": 12.571481466293335}
+{"event": "state", "T": 1190, "caps": 59, "depth": 4, "mutations": {"0": 8}, "elapsed": 15.503600358963013}
+{"event": "progress", "tested": 30, "accepted": 12, "best": 1190, "elapsed": 16.89551067352295}
+{"event": "state", "T": 1190, "caps": 59, "depth": 5, "mutations": {"0": 8}, "elapsed": 17.75315809249878}
+{"event": "state", "T": 1190, "caps": 59, "depth": 6, "mutations": {"0": 8}, "elapsed": 20.40052819252014}
+{"event": "progress", "tested": 40, "accepted": 15, "best": 1190, "elapsed": 21.29401683807373}
+{"event": "state", "T": 1190, "caps": 59, "depth": 7, "mutations": {"0": 8}, "elapsed": 22.555349349975586}
+{"event": "state", "T": 1190, "caps": 59, "depth": 6, "mutations": {"0": 8}, "elapsed": 24.249238967895508}
+{"event": "progress", "tested": 50, "accepted": 15, "best": 1190, "elapsed": 25.473028659820557}
+{"event": "state", "T": 1190, "caps": 59, "depth": 4, "mutations": {"0": 8}, "elapsed": 25.928560972213745}
+{"event": "state", "T": 1190, "caps": 59, "depth": 3, "mutations": {"0": 8}, "elapsed": 27.711844205856323}
+{"event": "state", "T": 1190, "caps": 59, "depth": 2, "mutations": {"0": 8}, "elapsed": 29.52642059326172}
+{"event": "progress", "tested": 60, "accepted": 15, "best": 1190, "elapsed": 30.01529049873352}
+{"event": "state", "T": 1190, "caps": 59, "depth": 2, "mutations": {"0": 8}, "elapsed": 31.496826887130737}
+{"event": "state", "T": 1190, "caps": 59, "depth": 1, "mutations": {"0": 8}, "elapsed": 33.60994029045105}
+{"event": "progress", "tested": 70, "accepted": 15, "best": 1190, "elapsed": 35.04080271720886}
+{"event": "state", "T": 1190, "caps": 59, "depth": 1, "mutations": {"0": 8}, "elapsed": 35.54088759422302}
+{"event": "state", "T": 1190, "caps": 59, "depth": 1, "mutations": {"0": 8}, "elapsed": 37.461560010910034}
+{"event": "finished", "best": 1190, "tested": 79, "accepted": 15, "elapsed": 39.38176393508911}

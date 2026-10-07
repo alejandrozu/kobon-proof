@@ -1,18 +1,20 @@
 """Hash stable evidence, including frozen research records, not replay outputs."""
 from pathlib import Path
-import argparse,hashlib,json
+import argparse,hashlib,json,subprocess
 ROOT=Path(__file__).resolve().parents[1]
 MANIFEST=ROOT/'evidence/file-manifest.json'
 DIRS=['Kobon','research','data','experiments','archive','scripts','evidence','.github','paper','manuscripts']
 EXCLUDED={'evidence/file-manifest.json'}
 def records():
+    versioned=set(subprocess.check_output(['git','ls-files','-z'],cwd=ROOT).decode('utf-8').split('\0'))
     paths=[p for directory in DIRS for p in (ROOT/directory).rglob('*') if p.is_file()]
     paths += [p for p in ROOT.iterdir() if p.is_file() and p.name!='.gitignore']
     paths += [ROOT/'verification/certificate-index.json',ROOT/'verification/build-targets.json']
     result={}
     for p in sorted(set(paths)):
         rel=p.relative_to(ROOT).as_posix()
-        if rel in EXCLUDED or '__pycache__' in p.parts or p.suffix=='.pyc':continue
+        if rel not in versioned:continue
+        if rel in EXCLUDED or '__pycache__' in p.parts or p.suffix in {'.pyc','.olean','.ilean'}:continue
         if rel.startswith('paper/') and 'build' in p.relative_to(ROOT/'paper').parts:continue
         if rel.startswith('manuscripts/') and 'build' in p.relative_to(ROOT/'manuscripts').parts:continue
         result[rel]=dict(bytes=p.stat().st_size,sha256=hashlib.sha256(p.read_bytes()).hexdigest())
@@ -28,6 +30,6 @@ if __name__=='__main__':
     else:
         MANIFEST.parent.mkdir(exist_ok=True)
         MANIFEST.write_text(json.dumps(dict(algorithm='SHA-256',
-          scope='Stable source/evidence files, including frozen research logs and summaries. Regenerated verification/ build logs and timestamped summaries are excluded; lean-summary hashes its checked sources separately.',
+          scope='Versioned stable source/evidence files, including frozen research logs and summaries. Stage new evidence before regeneration. Untracked work, compiler products, regenerated verification/ build logs and timestamped summaries are excluded; lean-summary hashes its checked sources separately.',
           files=current),indent=2)+'\n')
         print(f'Recorded {len(current)} evidence files.')

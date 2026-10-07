@@ -1,0 +1,145 @@
+'Kobon.UpperOpenMathMarkedCurvatureBound.certificate_unmarked_exception_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathPaidCurvatureBound.certificate_half_exception_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathMixedCurvatureBound.certificate_mixed_curvature_component_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathMixedCurvatureBound.certificate_mixed_doubled_component_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathFiveCoreComponents.certificate_five_core_component_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathMixedFiveCoreComponents.certificate_mixed_five_component_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathMixedFiveCoreComponents.certificate_mixed_five_component_perfect_simple' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathHalfCurvature.certificate_half_defect_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathHalfCurvatureGain.certificate_half_gain_defect_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathClosedHalfCurvature.certificate_hybrid_gain_component_defect' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathSingleSourceCurvature.certificate_closed_single_source_gain' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathSingleSourceComponents.certificate_seven_core_single_source' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathSingleSourceComponents.certificate_adaptive_component_defect' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathSingleSourceComponents.certificate_seven_component_defect' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathSingleSourceComponents.adaptive_dominates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathDoubleRecipientCurvature.certificate_double_recipient_defect_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathClosedDoubleRecipientCurvature.certificate_hybrid_double_component_defect' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathPartialRecipients.certificate_partial_anti_degree_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathPartialCurvature.certificate_partial_defect_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathPartialHalfCurvature.certificate_partial_half_defect_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathClosedPartialCurvature.certificate_hybrid_partial_component_defect' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathN13ActualNoDouble.certificate_n13_no_two_anti_neighbors' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathN13Curvature.certificate_no_double_recipients' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathN13Curvature.certificate_n13_anti_degree_le_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathN13Curvature.certificate_source_free_defect_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathN13Curvature.certificate_closed_source_free_gain' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathN13Curvature.certificate_source_free_hybrid_component_defect' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathN13Degree.unrestricted_score_simplifies' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathN13Degree.unrestricted_dominates_half_gain' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathN12Recipient.certificate_n12_anti_degree_le_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathN12Curvature.certificate_n12_recipient_le_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathN12Curvature.certificate_n12_source_free_defect_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathClosedN12Curvature.certificate_closed_n12_source_free_gain' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathClosedN12Curvature.certificate_n12_source_free_hybrid_component_defect' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathClosedN12Curvature.source_free_n12_dominates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathPositiveProfileComponents.certificate_positive_profile_cost' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathPositiveProfileComponents.certificate_positive_profile_component_defect' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathAntipodalThreeNeighbors.certificate_common_neighbor_card_le_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathMixedDegreeThree.certificate_mixed_degree_three_component_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathForestBudget.certificate_mixed_forest_weighted_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathForestBudget.certificate_mixed_forest_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathForestBudget.certificate_triple_forest_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathMixedCapBudget.certificate_mixed_weighted_defect' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathTripleCapBudget.certificate_triple_cap_defect' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathRayResources.certificate_ray_resource_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathRayResources.certificate_defect_ray_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathOrdinaryGlobalCharge.certificate_all_line_parity_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathOrdinaryGlobalCharge.certificate_triple_even_no_ordinary_core_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathMultiplicity.certificate_defect_even_with_nonshared' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

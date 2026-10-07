@@ -1,0 +1,9 @@
+'Kobon.UpperOpenMathTripleCurvature.certificate_closed_curvature_data' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathTripleCurvature.certificate_closed_curvature_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathTripleCurvature.certificate_triple_curvature_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

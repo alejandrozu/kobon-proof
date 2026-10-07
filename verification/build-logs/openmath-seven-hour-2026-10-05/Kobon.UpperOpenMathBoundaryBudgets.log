@@ -1,0 +1,25 @@
+Kobon/UpperOpenMathBoundaryBudgets.lean:51:10: warning: This simp argument is unused:
+  Finset.sum_ite
+
+Hint: Omit it from the simp argument list.
+  simp [F̵i̵n̵s̵e̵t̵.̵s̵u̵m̵_̵i̵t̵e̵,̵UpperOpenMathCoreHull.boundary]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Kobon.UpperOpenMathBoundaryBudgets.certificate_boundary_fan_sum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathBoundaryBudgets.certificate_boundary_defect_all' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathBoundaryBudgets.certificate_boundary_defect_even' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathBoundaryBudgets.certificate_three_core_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathBoundaryBudgets.certificate_two_core_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathBoundaryBudgets.certificate_even_high_five' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,6 @@
+Kobon/OpenMathExtensionFormula.lean:30:27: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'Kobon.OpenMathExtensionFormula.ceiling_boundary_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathExtensionFormula.stepGain_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathExtensionFormula.closed_form_successor' depends on axioms: [propext, Classical.choice, Quot.sound]

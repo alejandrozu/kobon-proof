@@ -1,0 +1,3 @@
+'Kobon.UpperOpenMathN13ActualSupportExtreme.certificate_n13_with_anti_not_max' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

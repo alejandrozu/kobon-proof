@@ -1,0 +1,6 @@
+'Kobon.UpperOpenMathClosedDoubleRecipientCurvature.certificate_closed_double_recipient_gain' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathClosedDoubleRecipientCurvature.certificate_hybrid_double_component_defect' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

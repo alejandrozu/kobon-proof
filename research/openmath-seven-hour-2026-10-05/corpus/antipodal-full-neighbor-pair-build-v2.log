@@ -1,0 +1,28 @@
+'Kobon.UpperOpenMathAntipodalFullNeighborPair.matched_full_neighbor_pair_impossible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Kobon/UpperOpenMathAntipodalFullNeighborPair.lean:157:4: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  0 ≤ e ≤ 5
+  d ≥ 0
+  d - e ≤ 0
+  0 ≤ b ≤ 6
+  a ≥ 2
+where
+ a := ↑n
+ b := ↑(UpperOpenMathCapHeavyTriples.coreDegree n L G c)
+ d := ↑(#({e ∈ twoCoreEdges n L fun a => ofPredicate n L (tri a) hL ⋯ | c ∈ e}))
+ e := ↑(#f.shared)
+Kobon/UpperOpenMathAntipodalFullNeighborPair.lean:217:9: error: Tactic `rcases` failed: `G✝ : α → TriangleGeometry` is not an inductive datatype
+'Kobon.UpperOpenMathAntipodalFullNeighborPair.certificate_any_triple_chart' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathAntipodalFullNeighborPair.chart_first_pair_not_full' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathAntipodalFullNeighborPair.chart_second_pair_not_full' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]

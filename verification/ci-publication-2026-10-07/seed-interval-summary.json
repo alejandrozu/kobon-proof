@@ -1,0 +1,22 @@
+{
+  "seed_lines": 11,
+  "triangles": 32,
+  "triangles_touching_Y0": 9,
+  "simple": true,
+  "epsilon_interval": "0 < epsilon <= 1/100000",
+  "non_Y_triples": 120,
+  "endpoint_interval_checks": 240,
+  "constant_nonparallel_pairs": 45,
+  "determinant_margin_lower_bound": "34302685030761971797684709222886965108466514335391715207741/1000000000000000000000000000000000000000000000000000000000000",
+  "safe_readable_margin": "> 0.034",
+  "trigonometry": "Machin formula and Taylor remainders, rational intervals, outward rounding",
+  "independent_reference_check": {
+    "file": "seed-11-rational.json",
+    "n": 11,
+    "triangles": 32,
+    "pass_check": true
+  },
+  "family_N": "10*2^t+1",
+  "family_T": "(100*4^t-4)/3 = N*(N-2)/3-1",
+  "family_scope": "Computer-assisted seed proof plus published BBL Proposition 3.1 and Remark 3.2; not Lean formalization"
+}

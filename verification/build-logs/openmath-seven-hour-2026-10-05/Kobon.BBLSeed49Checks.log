@@ -1,0 +1,265 @@
+[Elab.async] [0.586851] ✅️ Lean.Elab.Command.runLintersAsync
+  [Elab.lint] [0.586816] ✅️ running linters
+    [Elab.lint] [0.032142] ✅️ running linter: Mathlib.Linter.AuxLemma.auxLemmaLinter✝
+    [Elab.lint] [0.014258] ✅️ running linter: Mathlib.Linter.Style.docStringLinter✝
+    [Elab.lint] [0.025470] ✅️ running linter: Mathlib.Linter.globalAttributeInLinter.globalAttributeIn✝
+    [Elab.lint] [0.018126] ✅️ running linter: Mathlib.Linter.HashCommandLinter.hashCommandLinter✝
+    [Elab.lint] [0.011576] ✅️ running linter: Mathlib.Linter.Style.oldObtainLinter✝
+    [Elab.lint] [0.035618] ✅️ running linter: Mathlib.Linter.OverlappingInstances.overlappingInstances✝
+    [Elab.lint] [0.059293] ✅️ running linter: Mathlib.Linter.UnusedTactic.unusedTacticLinter✝
+    [Elab.lint] [0.033978] ✅️ running linter: Mathlib.Linter.Style.nameCheck.doubleUnderscore✝
+    [Elab.lint] [0.086947] ✅️ running linter: Mathlib.TacticAnalysis.tacticAnalysis
+    [Elab.lint] [0.023482] ✅️ running linter: Mathlib.Linter.DupNamespaceLinter.dupNamespace✝
+    [Elab.lint] [0.057544] ✅️ running linter: Batteries.Linter.UnreachableTactic.unreachableTacticLinter
+    [Elab.lint] [0.056986] ✅️ running linter: Batteries.Linter.UnnecessarySeqFocus.unnecessarySeqFocusLinter
+    [Elab.lint] [0.012971] ✅️ running linter: Mathlib.Linter.DoubleImports.upstreamableDeclLinter✝
+[Elab.async] [0.816104] ✅️ elaborating proof of _private.Kobon.BBLSeed49Checks.0.Kobon.BBLSeed49Checks.directions_bool
+  [Elab.definition.value] [0.815383] ✅️ _private.Kobon.BBLSeed49Checks.0.Kobon.BBLSeed49Checks.directions_bool
+    [Elab.step] [0.814773] ✅️ native_decide
+      [Elab.step] [0.814690] ✅️ native_decide
+        [Elab.step] [0.814572] ✅️ native_decide
+[Elab.async] [0.171564] ✅️ Lean.Elab.Command.runLintersAsync
+  [Elab.lint] [0.171545] ✅️ running linters
+    [Elab.lint] [0.051211] ✅️ running linter: Mathlib.Linter.OverlappingInstances.overlappingInstances✝
+      [overlappingInstances] [0.031095] ✅️ linting `directions_bool`
+    [Elab.lint] [0.049932] ✅️ running linter: Mathlib.TacticAnalysis.tacticAnalysis
+    [Elab.lint] [0.032777] ✅️ running linter: Batteries.Linter.UnreachableTactic.unreachableTacticLinter
+    [Elab.lint] [0.021732] ✅️ running linter: Batteries.Linter.UnnecessarySeqFocus.unnecessarySeqFocusLinter
+[Elab.async] [0.137745] ✅️ Lean.Elab.Command.runLintersAsync
+  [Elab.lint] [0.137728] ✅️ running linters
+    [Elab.lint] [0.051114] ✅️ running linter: Mathlib.Linter.OverlappingInstances.overlappingInstances✝
+      [overlappingInstances] [0.013538] ✅️ linting `directions`
+    [Elab.lint] [0.035360] ✅️ running linter: Batteries.Linter.UnnecessarySeqFocus.unnecessarySeqFocusLinter
+    [Elab.lint] [0.024248] ✅️ running linter: Mathlib.Linter.PPRoundtrip.ppRoundtrip✝
+seed49: directions checked
+[Elab.command] [0.864667] ✅️ #eval do
+      IO.println "seed49: directions checked";
+      (← IO.getStdout).flush
+  [Elab.step] [0.013092] ✅️ expected type: ?m.1, term
+      do
+        IO.println "seed49: directions checked";
+        (← IO.getStdout).flush
+    [Elab.step] [0.012644] ✅️ expected type: IO Unit, term
+        with_annotate_term(Term.app `IO.println [(str "\"seed49: directions checked\"")])
+          Bind.bind✝ (IO.println "seed49: directions checked" : ?m✝ PUnit✝)
+            (fun (_ : PUnit✝) =>
+              with_annotate_term(Term.doLetArrow
+                   "let"
+                   []
+                   (Term.letConfig [])
+                   (Term.doIdDecl `__do_lift✝ [] "←" (Term.doExpr `IO.getStdout)))
+                Bind.bind✝¹ (IO.getStdout : ?m✝ _)
+                  (fun (__do_lift✝ : _) =>
+                    with_annotate_term(Term.proj
+                         (Term.paren (Term.hygienicLParen "(" (hygieneInfo `[anonymous])) `__do_lift✝ ")")
+                         "."
+                         `flush)
+                      (__do_lift✝).flush))
+      [Elab.step] [0.012587] ✅️ expected type: IO Unit, term
+          Bind.bind✝ (IO.println "seed49: directions checked" : ?m✝ PUnit✝)
+            (fun (_ : PUnit✝) =>
+              with_annotate_term(Term.doLetArrow
+                   "let"
+                   []
+                   (Term.letConfig [])
+                   (Term.doIdDecl `__do_lift✝ [] "←" (Term.doExpr `IO.getStdout)))
+                Bind.bind✝¹ (IO.getStdout : ?m✝ _)
+                  (fun (__do_lift✝ : _) =>
+                    with_annotate_term(Term.proj
+                         (Term.paren (Term.hygienicLParen "(" (hygieneInfo `[anonymous])) `__do_lift✝ ")")
+                         "."
+                         `flush)
+                      (__do_lift✝).flush))
+        [Elab.app.args] [0.012326] ✅️ elabAppArgs (2 args) `@bind`
+  [Meta.appBuilder] [0.018618] ✅️ f: MonadEvalT.monadEval, xs: [<not-available>,
+       Lean.Elab.Command.CommandElabM,
+       <not-available>,
+       <not-available>,
+       do
+         IO.println "seed49: directions checked"
+         let __do_lift ← liftM IO.getStdout
+         __do_lift.flush]
+    [Meta.synthInstance] [0.018345] ✅️ MonadEvalT IO Lean.Elab.Command.CommandElabM
+[Elab.async] [0.038522] ✅️ Lean.compileDecls
+  [Compiler] [0.038316] ✅️ compiling: [_private.Kobon.BBLSeed49Checks.0._eval]
+[Elab.async] [0.121023] ✅️ Lean.Elab.Command.runLintersAsync
+  [Elab.lint] [0.120997] ✅️ running linters
+    [Elab.lint] [0.042128] ✅️ running linter: Mathlib.Linter.Style.nameCheck.doubleUnderscore✝
+    [Elab.lint] [0.015195] ✅️ running linter: Mathlib.Linter.Style.openClassical.openClassicalLinter✝
+    [Elab.lint] [0.011703] ✅️ running linter: Mathlib.TacticAnalysis.tacticAnalysis
+    [Elab.lint] [0.021544] ✅️ running linter: Mathlib.Linter.DupNamespaceLinter.dupNamespace✝
+    [Elab.lint] [0.015820] ✅️ running linter: Batteries.Linter.UnreachableTactic.unreachableTacticLinter
+[Elab.async] [413.297619] ✅️ elaborating proof of _private.Kobon.BBLSeed49Checks.0.Kobon.BBLSeed49Checks.simple_bool
+  [Elab.definition.value] [413.296980] ✅️ _private.Kobon.BBLSeed49Checks.0.Kobon.BBLSeed49Checks.simple_bool
+    [Elab.step] [413.296590] ✅️ native_decide
+      [Elab.step] [413.296553] ✅️ native_decide
+        [Elab.step] [413.296511] ✅️ native_decide
+[Elab.async] [0.014150] ✅️ Lean.Elab.Command.runLintersAsync
+  [Elab.lint] [0.014134] ✅️ running linters
+seed49: simplicity checked
+[Elab.command] [413.323748] ✅️ #eval do
+      IO.println "seed49: simplicity checked";
+      (← IO.getStdout).flush
+  [Elab.step] [0.010197] ✅️ expected type: ?m.1, term
+      do
+        IO.println "seed49: simplicity checked";
+        (← IO.getStdout).flush
+    [Elab.step] [0.010009] ✅️ expected type: IO Unit, term
+        with_annotate_term(Term.app `IO.println [(str "\"seed49: simplicity checked\"")])
+          Bind.bind✝ (IO.println "seed49: simplicity checked" : ?m✝ PUnit✝)
+            (fun (_ : PUnit✝) =>
+              with_annotate_term(Term.doLetArrow
+                   "let"
+                   []
+                   (Term.letConfig [])
+                   (Term.doIdDecl `__do_lift✝ [] "←" (Term.doExpr `IO.getStdout)))
+                Bind.bind✝¹ (IO.getStdout : ?m✝ _)
+                  (fun (__do_lift✝ : _) =>
+                    with_annotate_term(Term.proj
+                         (Term.paren (Term.hygienicLParen "(" (hygieneInfo `[anonymous])) `__do_lift✝ ")")
+                         "."
+                         `flush)
+                      (__do_lift✝).flush))
+  [Meta.appBuilder] [0.011404] ✅️ f: MonadEvalT.monadEval, xs: [<not-available>,
+       Lean.Elab.Command.CommandElabM,
+       <not-available>,
+       <not-available>,
+       do
+         IO.println "seed49: simplicity checked"
+         let __do_lift ← liftM IO.getStdout
+         __do_lift.flush]
+    [Meta.synthInstance] [0.011220] ✅️ MonadEvalT IO Lean.Elab.Command.CommandElabM
+[Elab.async] [0.028628] ✅️ Lean.compileDecls
+  [Compiler] [0.028478] ✅️ compiling: [_private.Kobon.BBLSeed49Checks.0._eval]
+[Elab.async] [578.417279] ✅️ elaborating proof of _private.Kobon.BBLSeed49Checks.0.Kobon.BBLSeed49Checks.triangle_bool
+  [Elab.definition.value] [578.416652] ✅️ _private.Kobon.BBLSeed49Checks.0.Kobon.BBLSeed49Checks.triangle_bool
+    [Elab.step] [578.416337] ✅️ native_decide
+      [Elab.step] [578.416297] ✅️ native_decide
+        [Elab.step] [578.416246] ✅️ native_decide
+seed49: all 767 triangles checked
+[Elab.command] [578.441367] ✅️ #eval do
+      IO.println "seed49: all 767 triangles checked";
+      (← IO.getStdout).flush
+  [Meta.appBuilder] [0.021840] ✅️ f: MonadEvalT.monadEval, xs: [<not-available>,
+       Lean.Elab.Command.CommandElabM,
+       <not-available>,
+       <not-available>,
+       do
+         IO.println "seed49: all 767 triangles checked"
+         let __do_lift ← liftM IO.getStdout
+         __do_lift.flush]
+    [Meta.synthInstance] [0.021657] ✅️ MonadEvalT IO Lean.Elab.Command.CommandElabM
+[Elab.async] [0.030150] ✅️ Lean.compileDecls
+  [Compiler] [0.029940] ✅️ compiling: [_private.Kobon.BBLSeed49Checks.0._eval]
+[Elab.async] [0.011840] ✅️ Lean.Elab.Command.runLintersAsync
+  [Elab.lint] [0.011816] ✅️ running linters
+[Elab.async] [0.011277] ✅️ Lean.Elab.Command.runLintersAsync
+  [Elab.lint] [0.011262] ✅️ running linters
+[Elab.async] [0.021563] ✅️ elaborating proof of Kobon.BBLSeed49Checks.ordered
+  [Elab.definition.value] [0.020893] ✅️ Kobon.BBLSeed49Checks.ordered
+    [Elab.step] [0.020600] ✅️ 
+          have h : orderedBool 49 triangles = true := by native_decide
+          exact of_decide_eq_true h
+      [Elab.step] [0.020566] ✅️ 
+            have h : orderedBool 49 triangles = true := by native_decide
+            exact of_decide_eq_true h
+        [Elab.step] [0.017769] ✅️ have h : orderedBool 49 triangles = true := by native_decide
+          [Elab.step] [0.017677] ✅️ focus
+                refine
+                  no_implicit_lambda%
+                    (have h : orderedBool 49 triangles = true := ?body✝;
+                    ?_)
+                case body✝ => with_annotate_state"by" (native_decide)
+            [Elab.step] [0.017610] ✅️ 
+                  refine
+                    no_implicit_lambda%
+                      (have h : orderedBool 49 triangles = true := ?body✝;
+                      ?_)
+                  case body✝ => with_annotate_state"by" (native_decide)
+              [Elab.step] [0.017588] ✅️ 
+                    refine
+                      no_implicit_lambda%
+                        (have h : orderedBool 49 triangles = true := ?body✝;
+                        ?_)
+                    case body✝ => with_annotate_state"by" (native_decide)
+                [Elab.step] [0.015545] ✅️ case body✝ => with_annotate_state"by" (native_decide)
+                  [Elab.step] [0.015444] ✅️ with_annotate_state"by" (native_decide)
+                    [Elab.step] [0.015427] ✅️ with_annotate_state"by" (native_decide)
+                      [Elab.step] [0.015408] ✅️ with_annotate_state"by" (native_decide)
+                        [Elab.step] [0.015385] ✅️ (native_decide)
+                          [Elab.step] [0.015365] ✅️ native_decide
+                            [Elab.step] [0.015344] ✅️ native_decide
+                              [Elab.step] [0.015309] ✅️ native_decide
+[Elab.command] [0.033818] ✅️ def subsetBool (xs ys : List Triple) : Bool :=
+      xs.all (fun t => decide (t ∈ ys))
+  [Elab.definition.value] [0.031624] ✅️ Kobon.BBLSeed49Checks.subsetBool
+    [Elab.step] [0.031499] ✅️ expected type: Bool, term
+        xs.all (fun t => decide (t ∈ ys))
+      [Elab.app.args] [0.031220] ✅️ elabAppArgs (2 args) `@List.all`
+        [Elab.step] [0.030735] ✅️ expected type: Triple → Bool, term
+            (fun t => decide (t ∈ ys))
+          [Elab.step] [0.030696] ✅️ expected type: Triple → Bool, term
+              fun t => decide (t ∈ ys)
+            [Elab.step] [0.030515] ✅️ expected type: Bool, term
+                decide (t ∈ ys)
+              [Elab.app.args] [0.030205] ✅️ elabAppArgs (1 args) `decide`
+                [Elab.app.finalize] [0.028089] ✅️ decide (t ∈ ys) : Bool
+                  [Meta.synthInstance] [0.027928] ✅️ Decidable (t ∈ ys)
+[Elab.async] [0.062097] ✅️ Lean.Elab.Command.runLintersAsync
+  [Elab.lint] [0.062076] ✅️ running linters
+    [Elab.lint] [0.039658] ✅️ running linter: Mathlib.Linter.Style.docStringLinter✝
+[Elab.async] [0.077731] ✅️ elaborating proof of Kobon.BBLSeed49Checks.distinguished_subset
+  [Elab.definition.value] [0.076825] ✅️ Kobon.BBLSeed49Checks.distinguished_subset
+    [Elab.step] [0.076437] ✅️ 
+          have h : subsetBool distinguished triangles = true := by native_decide
+          simpa only [subsetBool, List.all_eq_true, decide_eq_true_eq] using h
+      [Elab.step] [0.076401] ✅️ 
+            have h : subsetBool distinguished triangles = true := by native_decide
+            simpa only [subsetBool, List.all_eq_true, decide_eq_true_eq] using h
+        [Elab.step] [0.054892] ✅️ have h : subsetBool distinguished triangles = true := by native_decide
+          [Elab.step] [0.054841] ✅️ focus
+                refine
+                  no_implicit_lambda%
+                    (have h : subsetBool distinguished triangles = true := ?body✝;
+                    ?_)
+                case body✝ => with_annotate_state"by" (native_decide)
+            [Elab.step] [0.054808] ✅️ 
+                  refine
+                    no_implicit_lambda%
+                      (have h : subsetBool distinguished triangles = true := ?body✝;
+                      ?_)
+                  case body✝ => with_annotate_state"by" (native_decide)
+              [Elab.step] [0.054790] ✅️ 
+                    refine
+                      no_implicit_lambda%
+                        (have h : subsetBool distinguished triangles = true := ?body✝;
+                        ?_)
+                    case body✝ => with_annotate_state"by" (native_decide)
+                [Elab.step] [0.053425] ✅️ case body✝ => with_annotate_state"by" (native_decide)
+                  [Elab.step] [0.053370] ✅️ with_annotate_state"by" (native_decide)
+                    [Elab.step] [0.053335] ✅️ with_annotate_state"by" (native_decide)
+                      [Elab.step] [0.053316] ✅️ with_annotate_state"by" (native_decide)
+                        [Elab.step] [0.053291] ✅️ (native_decide)
+                          [Elab.step] [0.053270] ✅️ native_decide
+                            [Elab.step] [0.053235] ✅️ native_decide
+                              [Elab.step] [0.053200] ✅️ native_decide
+        [Elab.step] [0.021424] ✅️ simpa only [subsetBool, List.all_eq_true, decide_eq_true_eq] using h
+[Elab.async] [0.012771] ✅️ Lean.Elab.Command.runLintersAsync
+  [Elab.lint] [0.012747] ✅️ running linters
+'Kobon.BBLSeed49Checks.directions' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ directions_bool._native.native_decide.ax_1_1]
+[Elab.command] [0.078121] ✅️ #print axioms directions
+'Kobon.BBLSeed49Checks.simple' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ simple_bool._native.native_decide.ax_1_1]
+'Kobon.BBLSeed49Checks.triangle_checks' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ triangle_bool._native.native_decide.ax_1_1]
+'Kobon.BBLSeed49Checks.ordered' depends on axioms: [ordered._native.native_decide.ax_1_1]
+'Kobon.BBLSeed49Checks.distinguished_subset' depends on axioms: [propext,
+ Quot.sound,
+ distinguished_subset._native.native_decide.ax_1_1]

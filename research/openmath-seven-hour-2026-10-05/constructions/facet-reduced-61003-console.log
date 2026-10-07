@@ -1,0 +1,18 @@
+{"event": "pilot", "constraints": 1219, "margin": 1.88069854578643e-07, "triangles": 1190}
+{"best": 1190, "tested": 50, "accepted": 12, "visited": 1, "queued": 12, "elapsed": 3.4242746829986572}
+{"best": 1190, "tested": 100, "accepted": 30, "visited": 10, "queued": 21, "elapsed": 7.244666576385498}
+{"event": "state", "T": 1189, "depth": 4, "visited": 10, "tested": 112, "best": 1190}
+{"event": "state", "T": 1188, "depth": 9, "visited": 20, "tested": 145, "best": 1190}
+{"best": 1190, "tested": 150, "accepted": 55, "visited": 22, "queued": 34, "elapsed": 11.636242866516113}
+{"event": "state", "T": 1188, "depth": 18, "visited": 30, "tested": 192, "best": 1190}
+{"best": 1190, "tested": 200, "accepted": 68, "visited": 34, "queued": 35, "elapsed": 16.414331436157227}
+{"event": "state", "T": 1188, "depth": 10, "visited": 40, "tested": 218, "best": 1190}
+{"event": "state", "T": 1188, "depth": 6, "visited": 50, "tested": 240, "best": 1190}
+{"best": 1190, "tested": 250, "accepted": 75, "visited": 54, "queued": 22, "elapsed": 22.08118963241577}
+{"event": "state", "T": 1188, "depth": 1, "visited": 60, "tested": 278, "best": 1190}
+{"best": 1190, "tested": 300, "accepted": 80, "visited": 69, "queued": 12, "elapsed": 27.255266427993774}
+{"event": "state", "T": 1188, "depth": 1, "visited": 70, "tested": 303, "best": 1190}
+{"event": "state", "T": 1188, "depth": 2, "visited": 80, "tested": 328, "best": 1190}
+{"best": 1190, "tested": 350, "accepted": 87, "visited": 86, "queued": 2, "elapsed": 32.11563277244568}
+{"best": 1190, "tested": 400, "accepted": 88, "visited": 88, "queued": 1, "elapsed": 35.53381276130676}
+{"event": "finished", "best": 1190, "tested": 420, "accepted": 88, "visited": 89, "elapsed": 36.92275047302246}

@@ -1,0 +1,10 @@
+Kobon/UpperOpenMathSingleSourceWeights.lean:96:35: warning: This simp argument is unused:
+  hF
+
+Hint: Omit it from the simp argument list.
+  simp [̵u̵n̵p̵a̵i̵d̵W̵e̵i̵g̵h̵t̵,̵A̵,̵F̵,̵h̵p̵,̵h̵A̵,̵h̵F̵]̵[̲u̲n̲p̲a̲i̲d̲W̲e̲i̲g̲h̲t̲,̲ ̲A̲,̲ ̲F̲,̲ ̲h̲p̲,̲ ̲h̲A̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Kobon.UpperOpenMathSingleSourceWeights.finite_single_source_curvature_gain' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

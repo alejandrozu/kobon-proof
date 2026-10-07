@@ -1,0 +1,3 @@
+'Kobon.UpperOpenMathAnyChartMatching.any_charts_neighbor_matching' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

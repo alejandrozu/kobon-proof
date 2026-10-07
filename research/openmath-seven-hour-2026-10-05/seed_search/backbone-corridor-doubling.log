@@ -1,0 +1,2 @@
+{"event": "best", "source": "research\\openmath-seven-hour-2026-10-05\\seed_search\\backbone-corridor-bbl\\seed-axis7-root-10.json", "delta": "1/1000", "kappa": "1/10000000", "ledger": {"n": 14, "T": 53, "q": 2, "multiplicities": {"3": 2}, "D1": 4, "D2": 0, "U": 7, "C": 8, "Rc": 0, "H": 0, "deficit": 9, "first_slack": 4, "second_slack": 6}, "backbone_T": 47, "corridor_triangles": 7, "recovered_on_deletion": 1, "axis_triangles": 12, "backbone_axis_triangles": 11}
+{"best": 53, "wins": 0, "seconds": 0.33178162574768066}

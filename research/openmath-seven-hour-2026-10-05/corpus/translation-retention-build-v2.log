@@ -1,0 +1,6 @@
+'Kobon.OpenMathTranslationRetention.old_triangle_germ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathTranslationRetention.no_loss_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathTranslationRetention.untouched_corners_stationary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.OpenMathTranslationRetention.classical_gain_one' depends on axioms: [propext, Classical.choice, Quot.sound]

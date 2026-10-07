@@ -1,0 +1,105 @@
+{
+  "passed": true,
+  "n": 6,
+  "lines_frac": [
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      -1,
+      0
+    ],
+    [
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      1
+    ],
+    [
+      5,
+      1,
+      -5
+    ],
+    [
+      1,
+      9,
+      10
+    ]
+  ],
+  "triangles": [
+    [
+      0,
+      1,
+      3
+    ],
+    [
+      0,
+      1,
+      4
+    ],
+    [
+      0,
+      2,
+      3
+    ],
+    [
+      0,
+      2,
+      4
+    ],
+    [
+      0,
+      3,
+      5
+    ],
+    [
+      1,
+      2,
+      5
+    ]
+  ],
+  "triangle_count": 6,
+  "center": [
+    0,
+    0,
+    1
+  ],
+  "multiplicity": 3,
+  "triangular_sectors": 5,
+  "ordinary_shared": [
+    [
+      1,
+      0,
+      1
+    ],
+    [
+      -1,
+      0,
+      1
+    ]
+  ],
+  "core_shared": [
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      -5,
+      5,
+      4
+    ]
+  ],
+  "ordinary_rays_antipodal": true,
+  "marked_core_rays": 0,
+  "conclusion": "A d1=2,d2=2 five-sector triple need not have a doubly-capped core ray",
+  "attribution": "New local construction by upper-bound research branch",
+  "trust": "Independent exact integer geometry; not a Lean witness yet"
+}

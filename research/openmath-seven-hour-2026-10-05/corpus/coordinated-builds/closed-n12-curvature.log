@@ -1,0 +1,12 @@
+'Kobon.UpperOpenMathClosedN12Curvature.certificate_closed_n12_recipient_gain' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathClosedN12Curvature.certificate_hybrid_n12_component_defect' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathClosedN12Curvature.certificate_closed_n12_source_free_gain' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathClosedN12Curvature.certificate_n12_source_free_hybrid_component_defect' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

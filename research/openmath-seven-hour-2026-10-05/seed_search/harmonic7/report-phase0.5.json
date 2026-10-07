@@ -1,0 +1,74 @@
+[
+  {
+    "n": 13,
+    "harmonic": 7,
+    "phase": 0.5,
+    "current_G": 45,
+    "best_float": 44,
+    "walls": 99,
+    "events": 246,
+    "wins": [],
+    "seconds": 0.027712345123291016,
+    "scope": "Finite floating wall sweep plus exact rational point replays for improvements; no exact harmonic or universal theorem"
+  },
+  {
+    "n": 18,
+    "harmonic": 7,
+    "phase": 0.5,
+    "current_G": 91,
+    "best_float": 90,
+    "walls": 305,
+    "events": 704,
+    "wins": [],
+    "seconds": 0.0794382095336914,
+    "scope": "Finite floating wall sweep plus exact rational point replays for improvements; no exact harmonic or universal theorem"
+  },
+  {
+    "n": 19,
+    "harmonic": 7,
+    "phase": 0.5,
+    "current_G": 103,
+    "best_float": 102,
+    "walls": 386,
+    "events": 827,
+    "wins": [],
+    "seconds": 0.09205818176269531,
+    "scope": "Finite floating wall sweep plus exact rational point replays for improvements; no exact harmonic or universal theorem"
+  },
+  {
+    "n": 26,
+    "harmonic": 7,
+    "phase": 0.5,
+    "current_G": 200,
+    "best_float": 200,
+    "walls": 1046,
+    "events": 2226,
+    "wins": [],
+    "seconds": 0.2629716396331787,
+    "scope": "Finite floating wall sweep plus exact rational point replays for improvements; no exact harmonic or universal theorem"
+  },
+  {
+    "n": 31,
+    "harmonic": 7,
+    "phase": 0.5,
+    "current_G": 291,
+    "best_float": 290,
+    "walls": 1842,
+    "events": 3857,
+    "wins": [],
+    "seconds": 0.5643362998962402,
+    "scope": "Finite floating wall sweep plus exact rational point replays for improvements; no exact harmonic or universal theorem"
+  },
+  {
+    "n": 61,
+    "harmonic": 7,
+    "phase": 0.5,
+    "current_G": 1181,
+    "best_float": 1180,
+    "walls": 15109,
+    "events": 30962,
+    "wins": [],
+    "seconds": 7.936782121658325,
+    "scope": "Finite floating wall sweep plus exact rational point replays for improvements; no exact harmonic or universal theorem"
+  }
+]

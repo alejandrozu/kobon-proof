@@ -1,0 +1,9 @@
+'Kobon.UpperOpenMathCoreCapacity.inventory_core_endpoint_capacity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathCoreCapacity.certificate_shared_core_capacity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathCoreCapacity.certificate_capacity_with_nonshared' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

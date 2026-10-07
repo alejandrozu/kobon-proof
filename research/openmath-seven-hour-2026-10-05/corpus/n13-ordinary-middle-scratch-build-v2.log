@@ -1,0 +1,3 @@
+'Kobon.N13OrdinaryMiddleScratch.ordinary_middle_pair_impossible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

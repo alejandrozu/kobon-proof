@@ -1,0 +1,17 @@
+Kobon/UpperOpenMathMixedDegreeThreeWeights.lean:67:34: warning: This simp argument is unused:
+  ite_true
+
+Hint: Omit it from the simp argument list.
+  simp only [̵R̵,̵W̵,̵h̵e̵,̵h̵b̵,̵h̵h̵,̵i̵t̵e̵_̵t̵r̵u̵e̵,̵i̵t̵e̵_̵f̵a̵l̵s̵e̵,̵h̵p̵r̵3̵]̵[̲R̲,̲ ̲W̲,̲ ̲h̲e̲,̲ ̲h̲b̲,̲ ̲h̲h̲,̲ ̲i̲t̲e̲_̲f̲a̲l̲s̲e̲,̲ ̲h̲p̲r̲3̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Kobon/UpperOpenMathMixedDegreeThreeWeights.lean:116:30: warning: This simp argument is unused:
+  ite_true
+
+Hint: Omit it from the simp argument list.
+  simp only [̵R̵,̵W̵,̵h̵e̵,̵h̵b̵,̵h̵h̵,̵i̵t̵e̵_̵t̵r̵u̵e̵,̵i̵t̵e̵_̵f̵a̵l̵s̵e̵,̵h̵p̵r̵3̵]̵[̲R̲,̲ ̲W̲,̲ ̲h̲e̲,̲ ̲h̲b̲,̲ ̲h̲h̲,̲ ̲i̲t̲e̲_̲f̲a̲l̲s̲e̲,̲ ̲h̲p̲r̲3̲]̲ at eqp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Kobon.UpperOpenMathMixedDegreeThreeWeights.finite_mixed_weight_rigidity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

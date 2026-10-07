@@ -1,0 +1,18 @@
+research/openmath-seven-hour-2026-10-05/constructions/N13SupportExtremeScratch.lean:214:75: error(lean.unknownIdentifier): Unknown identifier `Edge`
+research/openmath-seven-hour-2026-10-05/constructions/N13SupportExtremeScratch.lean:215:95: error(lean.unknownIdentifier): Unknown identifier `Edge`
+research/openmath-seven-hour-2026-10-05/constructions/N13SupportExtremeScratch.lean:215:38: error(lean.unknownIdentifier): Unknown identifier `Edge`
+research/openmath-seven-hour-2026-10-05/constructions/N13SupportExtremeScratch.lean:219:64: error: `simp` made no progress
+research/openmath-seven-hour-2026-10-05/constructions/N13SupportExtremeScratch.lean:219:82: error: `simp` made no progress
+'Kobon.UpperOpenMathN13SupportExtreme.antipodal_back_not_both_core_neighbors' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathN13SupportExtreme.antipodal_core_pair_not_max' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathN13SupportExtreme.previous_core_escape_not_max' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathN13SupportExtreme.next_core_escape_not_max' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,21 @@
+{
+  "q": 12,
+  "backbone_T": 47,
+  "target": 54,
+  "best": 52,
+  "tested": 4431,
+  "possible_pairs": 3003,
+  "unique_candidates": 4443,
+  "histogram": {
+    "49": 1797,
+    "50": 858,
+    "48": 1514,
+    "47": 127,
+    "51": 111,
+    "52": 24
+  },
+  "wins": [],
+  "seconds": 2.546180009841919,
+  "completed": true,
+  "scope": "All one-vertex normal sectors"
+}

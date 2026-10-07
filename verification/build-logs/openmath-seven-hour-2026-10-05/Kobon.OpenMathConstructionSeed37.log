@@ -1,0 +1,7 @@
+'Kobon.OpenMathConstructionSeed37.simple_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ directions_bool._native.native_decide.ax_1,
+ ordered_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed37Fast.int_simple_bool._native.native_decide.ax_1,
+ OpenMathConstructionSeed37Fast.int_triangles_bool._native.native_decide.ax_1]

@@ -1,0 +1,126 @@
+{
+  "scope": "Exact comparison against RecursiveEnvelope plus the33/49 and first61 family; worldwide numerical priority is not asserted",
+  "even_formula": "1200*4^t+30*2^t-11",
+  "rows": [
+    {
+      "t": 0,
+      "n": 62,
+      "baseline": 1220,
+      "prior_family": 1218,
+      "prior_retained": 1220,
+      "new_family": 1219,
+      "new_retained": 1220,
+      "gain_over_prior_retained": 0,
+      "baseline_gain": -1,
+      "simple_upper_gap": 10
+    },
+    {
+      "t": 1,
+      "n": 122,
+      "baseline": 4840,
+      "prior_family": 4848,
+      "prior_retained": 4848,
+      "new_family": 4849,
+      "new_retained": 4849,
+      "gain_over_prior_retained": 1,
+      "baseline_gain": 9,
+      "simple_upper_gap": 10
+    },
+    {
+      "t": 2,
+      "n": 242,
+      "baseline": 19280,
+      "prior_family": 19308,
+      "prior_retained": 19308,
+      "new_family": 19309,
+      "new_retained": 19309,
+      "gain_over_prior_retained": 1,
+      "baseline_gain": 29,
+      "simple_upper_gap": 10
+    },
+    {
+      "t": 3,
+      "n": 482,
+      "baseline": 76960,
+      "prior_family": 77028,
+      "prior_retained": 77028,
+      "new_family": 77029,
+      "new_retained": 77029,
+      "gain_over_prior_retained": 1,
+      "baseline_gain": 69,
+      "simple_upper_gap": 10
+    },
+    {
+      "t": 4,
+      "n": 962,
+      "baseline": 307520,
+      "prior_family": 307668,
+      "prior_retained": 307668,
+      "new_family": 307669,
+      "new_retained": 307669,
+      "gain_over_prior_retained": 1,
+      "baseline_gain": 149,
+      "simple_upper_gap": 10
+    },
+    {
+      "t": 5,
+      "n": 1922,
+      "baseline": 1229440,
+      "prior_family": 1229748,
+      "prior_retained": 1229748,
+      "new_family": 1229749,
+      "new_retained": 1229749,
+      "gain_over_prior_retained": 1,
+      "baseline_gain": 309,
+      "simple_upper_gap": 10
+    },
+    {
+      "t": 6,
+      "n": 3842,
+      "baseline": 4916480,
+      "prior_family": 4917108,
+      "prior_retained": 4917108,
+      "new_family": 4917109,
+      "new_retained": 4917109,
+      "gain_over_prior_retained": 1,
+      "baseline_gain": 629,
+      "simple_upper_gap": 10
+    },
+    {
+      "t": 7,
+      "n": 7682,
+      "baseline": 19663360,
+      "prior_family": 19664628,
+      "prior_retained": 19664628,
+      "new_family": 19664629,
+      "new_retained": 19664629,
+      "gain_over_prior_retained": 1,
+      "baseline_gain": 1269,
+      "simple_upper_gap": 10
+    },
+    {
+      "t": 8,
+      "n": 15362,
+      "baseline": 78648320,
+      "prior_family": 78650868,
+      "prior_retained": 78650868,
+      "new_family": 78650869,
+      "new_retained": 78650869,
+      "gain_over_prior_retained": 1,
+      "baseline_gain": 2549,
+      "simple_upper_gap": 10
+    },
+    {
+      "t": 9,
+      "n": 30722,
+      "baseline": 314583040,
+      "prior_family": 314588148,
+      "prior_retained": 314588148,
+      "new_family": 314588149,
+      "new_retained": 314588149,
+      "gain_over_prior_retained": 1,
+      "baseline_gain": 5109,
+      "simple_upper_gap": 10
+    }
+  ]
+}

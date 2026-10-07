@@ -1,0 +1,56 @@
+{
+  "recordedUTC": "2026-10-06 04:36 UTC",
+  "frozen": true,
+  "primaryTheorem": "Kobon.UpperOpenMathN13ActualSupportExtreme.certificate_n13_positive_anti_degree_not_max",
+  "result": "An actual N13 core p with at least one shared-core incidence from an A0 core cannot maximize any affine functional injective on a finite SharedCoreClosed set containing p.",
+  "assumptions": [
+    "NoParallel n L",
+    "Actual injective selected triangle certificate",
+    "Every core has exactly three indexed supports",
+    "ordinaryDegree(p)=1 and coreDegree(p)=3",
+    "degreeFrom(A0,p)>=1",
+    "Finite shared-core-closed P contains p",
+    "Affine functional injective on P"
+  ],
+  "nativeEvaluationRoots": [],
+  "modules": [
+    {
+      "module": "Kobon.UpperOpenMathN13SupportExtreme",
+      "source": "Kobon/UpperOpenMathN13SupportExtreme.lean",
+      "sha256": "3b43da7da8f6fea08dcd1658967cf72ea907661d02f4490b3382c7e9fb7e6a04",
+      "oleanExists": true,
+      "status": "FULL PASS",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "forbiddenTokensFound": false
+    },
+    {
+      "module": "Kobon.UpperOpenMathN13ActualSupportExtreme",
+      "source": "Kobon/UpperOpenMathN13ActualSupportExtreme.lean",
+      "sha256": "b38581f9428da7a1f129c156fc2bc118ce2e31aa390c6ee6da5aaed749602d6b",
+      "oleanExists": true,
+      "status": "FULL PASS",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "forbiddenTokensFound": false
+    }
+  ],
+  "intermediateResults": [
+    "Previous and next ordinary cap continuations force additional actual core endpoints in the same closed set.",
+    "Opposite-area collinear endpoints exclude an injective affine maximum.",
+    "An A0 back ray cannot have two adjacent triple-core tips.",
+    "Two antipodal actual shared-core tips exclude an injective affine maximum.",
+    "All normalized N13 ordinary-tip and A0-tip positions are discharged."
+  ],
+  "limitations": [
+    "No global additive-per-component defect inequality is asserted.",
+    "The global all-core-triple assumption has not been removed.",
+    "This is structural upper-bound progress, not a numerical Kobon upper-bound record by itself."
+  ]
+}

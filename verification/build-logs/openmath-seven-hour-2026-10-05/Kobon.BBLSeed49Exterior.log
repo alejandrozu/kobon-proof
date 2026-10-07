@@ -1,0 +1,21 @@
+'Kobon.BBLSeed49Exterior.all_visible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ admissible_check._native.native_decide.ax_1_1,
+ visible_checks._native.native_decide.ax_1_1,
+ Kobon.BBLSeed49Checks.directions_bool._native.native_decide.ax_1_1✝]
+'Kobon.BBLSeed49Exterior.rightmost_last' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ admissible_check._native.native_decide.ax_1_1,
+ visible_checks._native.native_decide.ax_1_1,
+ Kobon.BBLSeed49Checks.directions_bool._native.native_decide.ax_1_1✝]
+'Kobon.BBLSeed49Exterior.exterior_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ BBLSeed49Checks.ordered._native.native_decide.ax_1_1,
+ admissible_check._native.native_decide.ax_1_1,
+ visible_checks._native.native_decide.ax_1_1,
+ Kobon.BBLSeed49Checks.directions_bool._native.native_decide.ax_1_1✝,
+ Kobon.BBLSeed49Checks.simple_bool._native.native_decide.ax_1_1✝,
+ Kobon.BBLSeed49Checks.triangle_bool._native.native_decide.ax_1_1✝]

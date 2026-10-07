@@ -1,0 +1,9 @@
+'Kobon.UpperOpenMathPartialRecipients.certificate_partial_anti_degree_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathPartialRecipients.certificate_partial_recipient_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathPartialRecipients.certificate_closed_partial_recipient_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,3 @@
+'Kobon.UpperOpenMathN13OrdinaryActual.canonical_ordinary_pair_impossible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

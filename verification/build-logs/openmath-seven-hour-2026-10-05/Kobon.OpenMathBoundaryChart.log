@@ -1,0 +1,3 @@
+'Kobon.OpenMathBoundaryChart.criticalValues_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathBoundaryChart.roots_strictMono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathBoundaryChart.roots_cover' depends on axioms: [propext, Classical.choice, Quot.sound]

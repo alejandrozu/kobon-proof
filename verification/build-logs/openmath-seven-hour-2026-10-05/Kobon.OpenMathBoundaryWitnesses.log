@@ -1,0 +1,4 @@
+'Kobon.OpenMathBoundaryWitnesses.exists_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathBoundaryWitnesses.Witness.compatible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathBoundaryWitnesses.Witness.visible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathBoundaryWitnesses.witness_triple_injective' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,55 @@
+Kobon/UpperOpenMathAntipodalAdjacency.lean:116:4: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Kobon/UpperOpenMathAntipodalAdjacency.lean:128:35: warning: Variable name `left` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Kobon/UpperOpenMathAntipodalAdjacency.lean:253:7: error: unexpected token 'matches'; expected '(', ':=', '|' or term
+Kobon/UpperOpenMathAntipodalAdjacency.lean:253:7: error: Missing cases:
+Kobon/UpperOpenMathAntipodalAdjacency.lean:230:67: error: unsolved goals
+α : Type u_1
+inst✝ : Fintype α
+n : ℕ
+L : ℕ → Line ℝ
+hL : NoParallel n L
+tri : α → Triple
+hi : Function.Injective tri
+ht : ∀ (a : α), TrianglePredicate n L (tri a)
+f g : Sectors n 3 L
+df : AntipodalData (fun a => ofPredicate n L (tri a) hL ⋯) f
+dg : AntipodalData (fun a => ofPredicate n L (tri a) hL ⋯) g
+z : ZMod 6
+hz : z ∈ f.coreShared
+center : g.center = f.point z
+G : α → TriangleGeometry := fun a => ofPredicate n L (tri a) hL ⋯
+he : {g.center, f.center} ∈ twoCoreEdges n L G
+hm : {g.center, f.center} ∈ image (fun w => {g.center, g.point w}) g.coreShared
+w : ZMod (2 * 3)
+hw : w ∈ g.coreShared
+hpair : {g.center, g.point w} = {g.center, f.center}
+hc : g.point w = f.center
+o : Occurrence (fun a => ofPredicate n L (tri a) hL ⋯) f.center f.point (z - 1)
+p : Occurrence (fun a => ofPredicate n L (tri a) hL ⋯) f.center f.point z
+a : Occurrence (fun a => ofPredicate n L (tri a) hL ⋯) g.center g.point (w - 1)
+b : Occurrence (fun a => ofPredicate n L (tri a) hL ⋯) g.center g.point w
+disjoint : Pairwise fun a b => Disjoint (G a).interior (G b).interior
+⊢ ∃ w ∈ g.coreShared, g.point w = f.center ∧ g.point (w - 1) = f.point (z + 1) ∧ g.point (w + 1) = f.point (z - 1)
+Kobon/UpperOpenMathAntipodalAdjacency.lean:285:30: error: Type mismatch: After simplification, term
+  hl
+ has type
+  @Eq Point (g.point (2 + 1)) (f.point 0)
+but is expected to have type
+  @Eq Point (g.point 3) (f.point 0)
+'Kobon.UpperOpenMathAntipodalAdjacency.normalized_pair_incompatible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathAntipodalAdjacency.charts_neighbor_matching' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathAntipodalAdjacency.charts_not_adjacent' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]

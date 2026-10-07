@@ -1,0 +1,15 @@
+Kobon/OpenMathAxisCapCone.lean:186:36: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  d ≥ 0
+  c ≥ 0
+  c - d ≥ 1
+  b ≥ 0
+  b - c ≥ 2
+  b - d ≥ 1
+where
+ b := ↑q
+ c := ↑j
+ d := ↑r
+'Kobon.OpenMathAxisCapCone.capRegion_convex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathAxisCapCone.capRegion_triangle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathAxisCapCone.capRegion_iff' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]

@@ -1,0 +1,24 @@
+Kobon/UpperOpenMathDegreeBudgets.lean:63:82: warning: This simp argument is unused:
+  nsmul_eq_mul
+
+Hint: Omit it from the simp argument list.
+  simp [̵s̵u̵m̵_̵c̵o̵n̵s̵t̵,̵n̵s̵m̵u̵l̵_̵e̵q̵_̵m̵u̵l̵,̵m̵u̵l̵_̵c̵o̵m̵m̵]̵[̲s̲u̲m̲_̲c̲o̲n̲s̲t̲,̲ ̲m̲u̲l̲_̲c̲o̲m̲m̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Kobon.UpperOpenMathDegreeBudgets.certificate_local_degree_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathDegreeBudgets.certificate_degree_two_fan_sum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathDegreeBudgets.certificate_degree_two_square_defect' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathDegreeBudgets.certificate_no_core_sides' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathDegreeBudgets.perfect_requires_core_cycle_count' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathDegreeBudgets.core_empty_iff_simple' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathDegreeBudgets.perfect_no_core_sides_simple' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

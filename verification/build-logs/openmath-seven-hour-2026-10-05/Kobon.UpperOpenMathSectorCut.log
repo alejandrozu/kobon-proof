@@ -1,0 +1,5 @@
+'Kobon.UpperOpenMathSectorCut.no_intermediate_ray' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathSectorCut.certificate_no_intermediate_ray' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathSectorCut.ordered_no_intermediate_ray' depends on axioms: [propext, Classical.choice, Quot.sound]

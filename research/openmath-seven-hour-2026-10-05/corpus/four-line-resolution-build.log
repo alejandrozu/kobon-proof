@@ -1,0 +1,102 @@
+Kobon/OpenMathFourLineResolution.lean:68:21: error: Tactic `rcases` failed: `left✝ : Real.le✝ ε 0` is not an inductive datatype
+Kobon/OpenMathFourLineResolution.lean:72:21: error: Tactic `rcases` failed: `left✝ : Real.le✝ (ε * 2) 0` is not an inductive datatype
+Kobon/OpenMathFourLineResolution.lean:79:21: error: Invalid `⟨...⟩` notation: The expected type `Real.le✝ (ε * 2) 0` is not an inductive type
+
+Note: This notation can only be used when the expected type is an inductive type with a single constructor
+Kobon/OpenMathFourLineResolution.lean:79:21: error: Invalid `⟨...⟩` notation: The expected type
+  Real.le✝ ((-ε + -ε + ε * 2) * 2) 0
+is not an inductive type
+
+Note: This notation can only be used when the expected type is an inductive type with a single constructor
+Kobon/OpenMathFourLineResolution.lean:79:25: error: linarith failed to find a contradiction
+ε : ℝ
+he : 0 < ε
+hsmall : ε < 1
+a✝ : 0 < ε
+⊢ False
+failed
+Kobon/OpenMathFourLineResolution.lean:79:21: error: Invalid `⟨...⟩` notation: The expected type `Real.le✝ 0 ε` is not an inductive type
+
+Note: This notation can only be used when the expected type is an inductive type with a single constructor
+Kobon/OpenMathFourLineResolution.lean:79:21: error: Invalid `⟨...⟩` notation: The expected type of this term could not be determined
+Kobon/OpenMathFourLineResolution.lean:81:4: error: unsolved goals
+case mpr.inr.refine_2.«1»
+ε : ℝ
+he : 0 < ε
+hsmall : ε < 1
+⊢ 0 ≤ ε ∧ (-2 - ε * 2) * 2 ≤ 0 ∧ 0 ≤ ε + 4 ∨ ε ≤ 0 ∧ ε * 2 ≤ -2 ∧ ε + 4 ≤ 0
+Kobon/OpenMathFourLineResolution.lean:89:34: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:89:34: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:89:34: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:89:34: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:89:34: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:89:34: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:89:34: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:89:34: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:95:4: error: No goals to be solved
+Kobon/OpenMathFourLineResolution.lean:91:8: error: (kernel) declaration has metavariables 'Kobon.OpenMathFourLineResolution.moved_no_concurrent'
+Kobon/OpenMathFourLineResolution.lean:147:10: error(lean.unknownIdentifier): Unknown constant `Finset.eq_empty_iff_forall_not_mem.mpr`
+Kobon/OpenMathFourLineResolution.lean:148:10: error: No goals to be solved
+'Kobon.OpenMathFourLineResolution.moved_triangle_iff' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'Kobon.OpenMathFourLineResolution.old_interiors_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathFourLineResolution.negative_count_zero' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'Kobon.OpenMathFourLineResolution.halfplane_yield_fails' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]

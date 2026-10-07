@@ -1,0 +1,13 @@
+Kobon/OpenMathBoundaryRays.lean:29:26: warning: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Kobon/OpenMathBoundaryRays.lean:29:26: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Kobon/OpenMathBoundaryRays.lean:57:5: warning: Variable name `hn` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'Kobon.OpenMathBoundaryRays.ray_avoids_of_extreme' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathBoundaryRays.terminal_outward_signs' depends on axioms: [propext, Classical.choice, Quot.sound]

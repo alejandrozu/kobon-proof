@@ -1,0 +1,12 @@
+'Kobon.UpperOpenMathMarkedPoverty.marked_neighbor_poverty_sum_card' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathMarkedPoverty.certificate_extremal_neighbor_sum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathMarkedPoverty.certificate_extremal_neighbor_low' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathMarkedPoverty.certificate_cap_heavy_neighbor_sum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

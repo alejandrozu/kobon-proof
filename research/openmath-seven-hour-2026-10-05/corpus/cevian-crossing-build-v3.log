@@ -1,0 +1,8 @@
+Kobon/UpperOpenMathCevianCrossing.lean:87:5: warning: Variable name `vc` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'Kobon.UpperOpenMathCevianCrossing.certificate_boundary_pair_centers_unique' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

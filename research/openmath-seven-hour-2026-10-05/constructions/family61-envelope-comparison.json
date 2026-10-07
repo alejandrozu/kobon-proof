@@ -1,0 +1,206 @@
+{
+  "scope": "Exact executable values of RecursiveEnvelope plus the closed33/49 families; does not assert worldwide numerical priority",
+  "source": "Kobon/AllN.lean, Universal.lean, RecursiveEnvelope.lean",
+  "rows": [
+    {
+      "t": 0,
+      "parity": "odd",
+      "n": 61,
+      "prior_certified": 1181,
+      "new_family": 1190,
+      "retained_max": 1190,
+      "gain": 9,
+      "simple_upper_gap": 9
+    },
+    {
+      "t": 0,
+      "parity": "even",
+      "n": 62,
+      "prior_certified": 1220,
+      "new_family": 1218,
+      "retained_max": 1220,
+      "gain": -2,
+      "simple_upper_gap": 11
+    },
+    {
+      "t": 1,
+      "parity": "odd",
+      "n": 121,
+      "prior_certified": 4761,
+      "new_family": 4790,
+      "retained_max": 4790,
+      "gain": 29,
+      "simple_upper_gap": 9
+    },
+    {
+      "t": 1,
+      "parity": "even",
+      "n": 122,
+      "prior_certified": 4840,
+      "new_family": 4848,
+      "retained_max": 4848,
+      "gain": 8,
+      "simple_upper_gap": 11
+    },
+    {
+      "t": 2,
+      "parity": "odd",
+      "n": 241,
+      "prior_certified": 19121,
+      "new_family": 19190,
+      "retained_max": 19190,
+      "gain": 69,
+      "simple_upper_gap": 9
+    },
+    {
+      "t": 2,
+      "parity": "even",
+      "n": 242,
+      "prior_certified": 19280,
+      "new_family": 19308,
+      "retained_max": 19308,
+      "gain": 28,
+      "simple_upper_gap": 11
+    },
+    {
+      "t": 3,
+      "parity": "odd",
+      "n": 481,
+      "prior_certified": 76641,
+      "new_family": 76790,
+      "retained_max": 76790,
+      "gain": 149,
+      "simple_upper_gap": 9
+    },
+    {
+      "t": 3,
+      "parity": "even",
+      "n": 482,
+      "prior_certified": 76960,
+      "new_family": 77028,
+      "retained_max": 77028,
+      "gain": 68,
+      "simple_upper_gap": 11
+    },
+    {
+      "t": 4,
+      "parity": "odd",
+      "n": 961,
+      "prior_certified": 306881,
+      "new_family": 307190,
+      "retained_max": 307190,
+      "gain": 309,
+      "simple_upper_gap": 9
+    },
+    {
+      "t": 4,
+      "parity": "even",
+      "n": 962,
+      "prior_certified": 307520,
+      "new_family": 307668,
+      "retained_max": 307668,
+      "gain": 148,
+      "simple_upper_gap": 11
+    },
+    {
+      "t": 5,
+      "parity": "odd",
+      "n": 1921,
+      "prior_certified": 1228161,
+      "new_family": 1228790,
+      "retained_max": 1228790,
+      "gain": 629,
+      "simple_upper_gap": 9
+    },
+    {
+      "t": 5,
+      "parity": "even",
+      "n": 1922,
+      "prior_certified": 1229440,
+      "new_family": 1229748,
+      "retained_max": 1229748,
+      "gain": 308,
+      "simple_upper_gap": 11
+    },
+    {
+      "t": 6,
+      "parity": "odd",
+      "n": 3841,
+      "prior_certified": 4913921,
+      "new_family": 4915190,
+      "retained_max": 4915190,
+      "gain": 1269,
+      "simple_upper_gap": 9
+    },
+    {
+      "t": 6,
+      "parity": "even",
+      "n": 3842,
+      "prior_certified": 4916480,
+      "new_family": 4917108,
+      "retained_max": 4917108,
+      "gain": 628,
+      "simple_upper_gap": 11
+    },
+    {
+      "t": 7,
+      "parity": "odd",
+      "n": 7681,
+      "prior_certified": 19658241,
+      "new_family": 19660790,
+      "retained_max": 19660790,
+      "gain": 2549,
+      "simple_upper_gap": 9
+    },
+    {
+      "t": 7,
+      "parity": "even",
+      "n": 7682,
+      "prior_certified": 19663360,
+      "new_family": 19664628,
+      "retained_max": 19664628,
+      "gain": 1268,
+      "simple_upper_gap": 11
+    },
+    {
+      "t": 8,
+      "parity": "odd",
+      "n": 15361,
+      "prior_certified": 78638081,
+      "new_family": 78643190,
+      "retained_max": 78643190,
+      "gain": 5109,
+      "simple_upper_gap": 9
+    },
+    {
+      "t": 8,
+      "parity": "even",
+      "n": 15362,
+      "prior_certified": 78648320,
+      "new_family": 78650868,
+      "retained_max": 78650868,
+      "gain": 2548,
+      "simple_upper_gap": 11
+    },
+    {
+      "t": 9,
+      "parity": "odd",
+      "n": 30721,
+      "prior_certified": 314562561,
+      "new_family": 314572790,
+      "retained_max": 314572790,
+      "gain": 10229,
+      "simple_upper_gap": 9
+    },
+    {
+      "t": 9,
+      "parity": "even",
+      "n": 30722,
+      "prior_certified": 314583040,
+      "new_family": 314588148,
+      "retained_max": 314588148,
+      "gain": 5108,
+      "simple_upper_gap": 11
+    }
+  ]
+}

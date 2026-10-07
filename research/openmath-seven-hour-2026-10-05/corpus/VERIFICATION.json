@@ -1,0 +1,953 @@
+{
+  "recorded_at": "2026-10-06T04:38:53.140575+00:00",
+  "lean_builds": [
+    {
+      "source": "Kobon\\BBLTangent60Bounds.lean",
+      "source_sha256": "2b41b72b25199277644417c36442bc007ee791f10e7884ef6dc6d6c55df08929",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\tangent60\\build.log",
+      "log_sha256": "a4d68ef5da1a9c859e2461faa48aad7ebc235d631261a017df61107f5b4462a2",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 31
+    },
+    {
+      "source": "Kobon\\BBLRationalTangentBounds.lean",
+      "source_sha256": "2427a2eb48405cad5e73f40bd245df924da6c72c96d80b58556a8becb4eddc01",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\tangent60\\generic-build.log",
+      "log_sha256": "4b438681beab36cc535cababc0d80b6d01a8309b19671416732e31ef8fc4eb0f",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 14
+    },
+    {
+      "source": "Kobon\\BBLTangent36Bounds.lean",
+      "source_sha256": "22bde8f6aa9e249eede7bc01539379972dbc175e773a4da9e10d77df8c65f081",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\tangent36\\build-v2.log",
+      "log_sha256": "583947bde5ce83298951fd8750e3e66369e61ec8799362afaa99381878a615ed",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 34
+    },
+    {
+      "source": "Kobon\\OpenMathConstructionBooleanMemo.lean",
+      "source_sha256": "5cef6c48297c44b9c5ff70b0253e7de7349e545c4346b164e1e6ee77ff4876a8",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\tangent60\\memo-build.log",
+      "log_sha256": "e539bcc1725953bad4c4faa5012e210b5201931c118f1d218e6711dda6769988",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 9
+    },
+    {
+      "source": "Kobon\\OpenMathBoundarySampleExistence.lean",
+      "source_sha256": "85bab1f55f2218862428a3af81c96032da99380b96241bbea8fd3f1d1617b0a6",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\sample-existence-build.log",
+      "log_sha256": "34da2df5e42567afedd8cb9aa746af54c7486c2b53e306cae875a23d1748599b",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 4
+    },
+    {
+      "source": "Kobon\\OpenMathBoundaryRootOrder.lean",
+      "source_sha256": "e8b90c8e5434b5ad66a46d415b672ed4102c555f97a5c40347872fe2e402d5f6",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\root-order-build.log",
+      "log_sha256": "272082080b1509456b800e2cba6cb931b0ab2629bc3c9fa6f8a58a7490fbcb48",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 5
+    },
+    {
+      "source": "Kobon\\OpenMathBoundaryDoubleCounting.lean",
+      "source_sha256": "30275923b5309a60b170ab6ddaac3128ba8f3ac6b8075390582f22e01abe2946",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\double-counting-build-v2.log",
+      "log_sha256": "e4f72ce7f3bad5534a9309cd095ba7ce75a5dba70ca3fc31256d4e9670fbd2e8",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 4
+    },
+    {
+      "source": "Kobon\\OpenMathBoundaryIntegerAveraging.lean",
+      "source_sha256": "f25828c0608ead05ef2907e992a13a5e186e6bf2fc3b52e736c34102a0e106fb",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\integer-averaging-build-v2.log",
+      "log_sha256": "ea6a9ffe1ceaacee1b970cf1eb7008cd844847bf55906dc426832c66317a79b0",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 4
+    },
+    {
+      "source": "Kobon\\OpenMathIntegerSparseBoxes.lean",
+      "source_sha256": "3119bad0c7e2eeab0ed20247a6cca2b3b59bd8833ae16a1ab2c4b089dcb0c4b7",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\integer-sparse-build.log",
+      "log_sha256": "8043c098a96dc50dc740dfd66e70504661615e1665fdf727ee9e1a1c96c64ffd",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 8
+    },
+    {
+      "source": "Kobon\\OpenMathFourLineResolution.lean",
+      "source_sha256": "f0eb22c189b20bf52c39756eaba9963b0173457eb9e642b21449d77791c4d9cf",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\four-line-resolution-build-v4.log",
+      "log_sha256": "6328ae91d14b54f2febfb7ef5eb28129d512f8ad1b45ecd9efc7c3ad8de3ab1c",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 14
+    },
+    {
+      "source": "Kobon\\OpenMathSixLineResolution.lean",
+      "source_sha256": "056454f0bc15b3a23645666ed631eb47699d8fba7d1282a4020722e558c8721a",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\six-line-resolution-build-v4.log",
+      "log_sha256": "6803a8260c2ae317b2a8b0625bc8e47b6a2eb267a5492d3eee886787cb675399",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 24
+    },
+    {
+      "source": "Kobon\\OpenMathTranslationGerms.lean",
+      "source_sha256": "4a96e223a42034b30056fc4609e0dd5f41f7473ba95b418dbdeaaf83595e4c57",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\translation-germs-build-v2.log",
+      "log_sha256": "17a697878ac6d48fa10a4d57b5b7fff6522211352db837afdcc0777f9320c532",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 19
+    },
+    {
+      "source": "Kobon\\OpenMathTranslationCounting.lean",
+      "source_sha256": "2e85a84ce97fa4632897482071f814fb0412d5248ce65078c033e40b159a0d5a",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\translation-counting-build.log",
+      "log_sha256": "be7a490d448c16cb7c8326c2f4a45cedc49e030286287b7f7c314bec0378a0a6",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 7
+    },
+    {
+      "source": "Kobon\\OpenMathTranslationRetention.lean",
+      "source_sha256": "63212b45a1d0b81bf09df69ba9261e0abc96a0132c156cb2aba128dd88cfaf7f",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\translation-retention-build-v2.log",
+      "log_sha256": "67631863c4b09eda46a7b486f0318095312ed7be6ee9667f01196ad70bf883c0",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 11
+    },
+    {
+      "source": "Kobon\\OpenMathTripleBirth.lean",
+      "source_sha256": "c7b13d75004d43f8db320f719c60543992e796f8acb62a824026750607bff143",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\triple-birth-build-v3.log",
+      "log_sha256": "af43db9d31e468f8db3dffa94a52bd8a13ff0b02b42fb449d18a0b48f934a2ef",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 7
+    },
+    {
+      "source": "Kobon\\OpenMathIsolatedTripleResolution.lean",
+      "source_sha256": "866e84dc6f3de46222a38731dd5e75f57252a91d850905ac6008b2b0d5459ccf",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\isolated-triple-resolution-build.log",
+      "log_sha256": "cf6119c8480c73d7314452d5a9c2b660e78944a9adaa65dd14aee660e023da74",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 7
+    },
+    {
+      "source": "Kobon\\UpperOpenMathAntipodalAdjacency.lean",
+      "source_sha256": "3a09625fbc694047bda4b40717c5202ea1399f2e1d202bd630c35016ab0d9757",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\antipodal-adjacency-build-v5.log",
+      "log_sha256": "cc1d6457d6194a8720eea0bb62a53679f00e6c79b34d7a88e24d603643cd3484",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 17
+    },
+    {
+      "source": "Kobon\\UpperOpenMathAntipodalBalancedAdjacency.lean",
+      "source_sha256": "bdf77091b1f8394e11f2ec9780d2e8ae839719fa658a05c0db810454fd9973bb",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\antipodal-balanced-build-v4.log",
+      "log_sha256": "13d838b6b573d22d50aeb1877ec9ca6522bcf12157521887e192f3215607926f",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 14
+    },
+    {
+      "source": "Kobon\\UpperOpenMathAntipodalFullNeighborPair.lean",
+      "source_sha256": "47824ae0fe840f8b93ed2e289ab3c01fe4f1e84a24caaecce9780b9ae8cf680c",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\antipodal-full-neighbor-pair-build-v4.log",
+      "log_sha256": "66a9c17b5fa4666cd141d8fa0969885a3ec906bd4b88fe09d86aadbff5dacc6a",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 10
+    },
+    {
+      "source": "Kobon\\UpperOpenMathAntipodalConeIncidence.lean",
+      "source_sha256": "f51c6bac30c8cd32e42c5838f17c4641a6921b18689f4c9f4402de59e4824759",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\antipodal-cone-incidence-build-v3.log",
+      "log_sha256": "b651f24ce8e2955987b4f141c13e080e00eaf1361745cef1f3579e727bcc8412",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 5
+    },
+    {
+      "source": "Kobon\\UpperOpenMathFullCoreSides.lean",
+      "source_sha256": "a65c2916623c1df0f40b28072e4fd9003ede712b5308684fdb441cdba5ac95a4",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\full-core-sides-build-v2.log",
+      "log_sha256": "d246068124eccf519af5dab69691c07a7f0eda8234fc318e65d9fa75c8b0eff6",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 1
+    },
+    {
+      "source": "Kobon\\UpperOpenMathOneCapThreeCore.lean",
+      "source_sha256": "bbc5cbe1bd4b6f6137c53415adc893add8fb3126b49094c55362a1099fa9ab3c",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\one-cap-three-core-build.log",
+      "log_sha256": "63b40dd0a4d915d24ef0aa454af93a8505b618e58a3908775f1cbe9f916723b9",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 3
+    },
+    {
+      "source": "Kobon\\UpperOpenMathOneCapThreeCoreDegree.lean",
+      "source_sha256": "e342df0d991509b872bb353324c73f59dfb323a978ef452cf223d30083d58df4",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\one-cap-three-core-degree-build-v2.log",
+      "log_sha256": "f9920c8b136a540428c8a5a6d20619cb121cdd3cc94e5286d4fe02917583c847",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 1
+    },
+    {
+      "source": "Kobon\\UpperOpenMathAntipodalCenterUniqueness.lean",
+      "source_sha256": "b1d5f28e736551a028eb8da83ee234b02f4e353452cbe41df25a8d4b673489f9",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\antipodal-center-uniqueness-build-v2.log",
+      "log_sha256": "a499790a9e7119f224763cfec92dcb0b66ea6cdc28ba7b5f4764670a503c4700",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 9
+    },
+    {
+      "source": "Kobon\\UpperOpenMathAntipodalSameNeighbors.lean",
+      "source_sha256": "f0f1b2208adc123ff6abe8daa181763a6dfeb524ba575551534ae4f0dd88232f",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\antipodal-same-neighbors-build-v3.log",
+      "log_sha256": "2711d1d1d46ced91cea63b4ad9536d951804c2e48f072ca5367d060a70d494a8",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 3
+    },
+    {
+      "source": "Kobon\\UpperOpenMathCevianCrossing.lean",
+      "source_sha256": "21ed650ef45509c11c97e1ad1817ee2768eee121466bc3046467874906293b38",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\cevian-crossing-build-v3.log",
+      "log_sha256": "a47d294502ff4a34d657dbf7e5847e6b6e3d123548d3a54a3a994e9601c1d1fe",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 5
+    },
+    {
+      "source": "Kobon\\UpperOpenMathQuadThreeBoundary.lean",
+      "source_sha256": "95be19e30320e511cb3086e5d0a7c00c3e00cecee79fe1428a42e32e36dc1010",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\quad-three-boundary-build-v2.log",
+      "log_sha256": "b6c1b3385d1ca18fff956ce0543b6c6e893460ba5549b3a26c4585fe3b84c71a",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 3
+    },
+    {
+      "source": "Kobon\\UpperOpenMathAntipodalThreeNeighbors.lean",
+      "source_sha256": "11fa8539f8cf0f1e07e823faf50b72e49f60c6f99924297d417d28c85336c437",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\antipodal-three-neighbors-build.log",
+      "log_sha256": "22338cb06207a92d092699eb84856a08017b0bba83fb1db1b3c270f44ecf6057",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 3
+    },
+    {
+      "source": "Kobon\\UpperOpenMathNonfullAntipodalRecipients.lean",
+      "source_sha256": "7832ac6170442746fa3e844959d1a8dd4fdc8aeab0d3a8696d582c7268114bbc",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\nonfull-antipodal-recipients-build-v2.log",
+      "log_sha256": "dd5fe698612b053d4e8fb3c03aeea91e5a347aaa06d936459c62235d56011cf7",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 4
+    },
+    {
+      "source": "Kobon\\UpperOpenMathDoubleRecipientCurvature.lean",
+      "source_sha256": "99b2abfa2ea26ebea96d9efae9a8340ef2894754e492cd3258e067fc2da3159b",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\double-recipient-curvature-build.log",
+      "log_sha256": "fc0e08033b8f3fb893572d9ac1fccf7ad2d69d4ecf6cff7f9f612a4cfa3db075",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 3
+    },
+    {
+      "source": "Kobon\\UpperOpenMathAnyChartMatching.lean",
+      "source_sha256": "d172bed9b89f55289df102149098a20a6bd406c1f8cb1382792df6a910530174",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\any-chart-matching-build.log",
+      "log_sha256": "f9368c62dcda553a7df96e71414c0e92b4ce5e2a1ecf0833af8dc866cb9b2991",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 1
+    },
+    {
+      "source": "Kobon\\UpperOpenMathClosedDoubleRecipientCurvature.lean",
+      "source_sha256": "00745d4bd95d9de5d7c4aaecb0fc3bb415e493c2a1e774ac9f443b2eadb2f757",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\closed-double-recipient-build.log",
+      "log_sha256": "af67479976f7badd87924cebe6ebe51dead9ef3d144f02a47ea3cfe0e7cb7f42",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 5
+    },
+    {
+      "source": "Kobon\\UpperOpenMathN13ExtractionHelpers.lean",
+      "source_sha256": "2ccba6b7f507c175adfe3aaabe89582f5b2b15db4041f860ed71c6aa1bc83743",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\n13-extraction-helpers-build.log",
+      "log_sha256": "a87fbf9d913d34eef9164217b9f69cc5cf91650407d5efcfd7dc49a199a0dc78",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 3
+    },
+    {
+      "source": "Kobon\\UpperOpenMathN13OrdinaryMiddle.lean",
+      "source_sha256": "22649fe98024deb0dc9927c6397e19b9fa84aa0a78421eaa49281c2aaba341a1",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\n13-ordinary-middle-build.log",
+      "log_sha256": "01e5af11ce3ebc2aa5ee8acccfc52df1fae652c5d9db90e6245e3df9a0f277a0",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 1
+    },
+    {
+      "source": "Kobon\\UpperOpenMathN13OrdinaryActual.lean",
+      "source_sha256": "4449127da3c53615f0072d11bc3b0d19e0998363b8d2fdb93faebc6c761bd0a8",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\n13-ordinary-actual-build.log",
+      "log_sha256": "0da6f164670978f49885e70934447786fa729f6150d19f675ae662567b41ddc6",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 1
+    },
+    {
+      "source": "Kobon\\UpperOpenMathN12Recipient.lean",
+      "source_sha256": "f20d13173c94888e862aff35d170c9847b6af655457ddfbda74cb7a5773a6908",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\n12-recipient-build.log",
+      "log_sha256": "8d2240b9975af9b463843c73c56421684b833d76940836e92c251d67cef803ea",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 9
+    },
+    {
+      "source": "Kobon\\UpperOpenMathN13ActualChart.lean",
+      "source_sha256": "176c48b4a7a1e3182a9a37e9cc2ef2bc6df01331c99368e7fa87e64fea7cda74",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\coordinated-builds\\n13-actual-chart.log",
+      "log_sha256": "667b3721135b797bcebe78343b793a9af9ac263b6246805205678de4c19b2cb7",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 9
+    },
+    {
+      "source": "Kobon\\UpperOpenMathN13ActualNoDouble.lean",
+      "source_sha256": "9760ca6c5c94e1c8b8ae096aea4185c697e791fb9e27d76cfb170114a534a67e",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\coordinated-builds\\n13-actual-no-double.log",
+      "log_sha256": "80e8ff8435854b3eff2a91b1184d5baee7306505f0fd86043f2d9e05c7e0908e",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 1
+    },
+    {
+      "source": "Kobon\\UpperOpenMathN13Degree.lean",
+      "source_sha256": "ecf859aa490ce7f9c0fa05ceb78ed54a3bdf07f2e0c15f47220e8818dcf36753",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\coordinated-builds\\n13-degree.log",
+      "log_sha256": "884de2c6bbb99c38cb24ec0706cab4d8f299e25d6ecea80042a4f88e355d066f",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 11
+    },
+    {
+      "source": "Kobon\\UpperOpenMathN13Curvature.lean",
+      "source_sha256": "85fe331c405f35457768e304cacdc9078a039a3b0cedea54e6d0d2b984bdfefd",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\coordinated-builds\\n13-curvature.log",
+      "log_sha256": "51534a52e93327fb936ef68e00f90a6c2f7ba3e8fed61d19673e5ddbf4e9c79a",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 5
+    },
+    {
+      "source": "Kobon\\UpperOpenMathN12Curvature.lean",
+      "source_sha256": "21da36da562bebbccd45c8079ad0bd6b38da786f18d7179b9dd24dbb123f2167",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\coordinated-builds\\n12-curvature.log",
+      "log_sha256": "822b20f1aacad84be116bad22c33ae12fb60d6837b2b120f460fc21d0174a3d5",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 4
+    },
+    {
+      "source": "Kobon\\UpperOpenMathClosedN12Curvature.lean",
+      "source_sha256": "8c5e8836b06b4be02c2861e6a9bd6b8dd1a95685f456c724090cf3930a64ed55",
+      "log": "research\\openmath-seven-hour-2026-10-05\\corpus\\coordinated-builds\\closed-n12-curvature.log",
+      "log_sha256": "dad2d15e41ba84e14fb8b3c13aadcf1076b30180a4db57a2cb4e3cdd5fbbd2e6",
+      "completed": true,
+      "trust": "standard logical axioms only; selected declarations printed in log",
+      "theorem_declarations": 9
+    }
+  ],
+  "total_theorem_declarations": 342,
+  "external_exact_artifact_hashes": [
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\adjacent-antipodal-full15.json",
+      "sha256": "6c5017373fff2b937d70f0310a237cec7ed5947198856033fb133a7d27143ae7"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\adjacent-antipodal-marked-full24.json",
+      "sha256": "cd0291c41447e69268d766c2074dac434f4c355f4147e0091335555c2ea69d98"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\adjacent-extremal-fans-r5.json",
+      "sha256": "630770c8954dc3949ad36910fbf6b714f9c97db1e469b42a47ec2f69d9ec5e49"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\antipodal-full-two-cap-fan.json",
+      "sha256": "e97560e27864c14357e7a0ca0cbb74e7f2052b416cdb87529c07091aaf88a070"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\antipodal-two-cap-five-sector.json",
+      "sha256": "d680a1b4fc194b0f2839340174c6f1e430fea115402f1f4d4c68ec4537ab9756"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\collinear-core-predecessors.json",
+      "sha256": "8aa5cdb70c2666e471960e5267841bd8eab6c8ff9eae2463b1c5774fcccaa932"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-axis-profiles.json",
+      "sha256": "e3962da08d1ad537438b008328b23d47094cf576fb4b2d52520bf305ccc0e34b"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M01-n8-T15-axis0-subset0_1_2_3_4_10_11_12.json",
+      "sha256": "1c4c40be42e5400f9210a64bae0d64ed31278406b2522f95319aca63fc00dbe7"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M01-n8-T15-axis0-subset0_1_2_4_10_11_12_13.json",
+      "sha256": "81cfe135388c1d0178fe18359f23161cb6516144144a58d4be47a86fee24b92c"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M01-n8-T15-axis0-subset0_1_2_4_5_10_11_12.json",
+      "sha256": "7bdf27673826a2e3d80bd90083849b80f8588631fbe3692237be545b8292cdee"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M01-n8-T15-axis0-subset0_1_2_4_6_10_11_12.json",
+      "sha256": "b6d03b75506d07530e1e75a54652eead527433da26dc9fd0c359299c2e0832f0"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M01-n8-T15-axis0-subset0_1_2_4_7_10_11_12.json",
+      "sha256": "4d00ba972790354fba850f7b5bb383b336e28ac914431eeebb0546df59c99f95"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M01-n8-T15-axis0-subset0_1_2_4_8_10_11_12.json",
+      "sha256": "359d121303512a14b2b65e9aa6c5c92efc6aa3be093f0dc755bebeabe4d4b506"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M01-n8-T15-axis0-subset0_1_2_4_9_10_11_12.json",
+      "sha256": "8705927c64852328e71abd255125bbff7d8798054cb6201051413de5d89863c2"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M02-n8-T15-axis2-subset0_2_4_6_8_11_12_13.json",
+      "sha256": "3940c9c52262e3ddefb189a73728ba36aee16cae08486eb1f805a46aef914426"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M02-n8-T15-axis2-subset1_2_4_6_8_11_12_13.json",
+      "sha256": "489a98c0f9c35124ef4dd1a325487ed275c74e4d5d3fdc484dbe662b6d6a5a9f"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M02-n8-T15-axis2-subset2_3_4_6_8_11_12_13.json",
+      "sha256": "65cea54b6ae1948babe0381adec1ba1562db81dec05f7d842174ba01773d6147"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M02-n8-T15-axis2-subset2_4_5_6_8_11_12_13.json",
+      "sha256": "bdc794c80f3171c16889cac6e9a857e36c0abf4fe5a0c6962cf5c4f00d2eab2a"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M02-n8-T15-axis2-subset2_4_6_7_8_11_12_13.json",
+      "sha256": "b28a16662840a498a814730e88f6075bb193d87be655fe8437f80505667d2a53"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M02-n8-T15-axis2-subset2_4_6_8_10_11_12_13.json",
+      "sha256": "87615e4bb33af21dd735d68ec718eee87597c53943926e7e1bd7d2f4ff48685d"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M02-n8-T15-axis2-subset2_4_6_8_9_11_12_13.json",
+      "sha256": "06b152447ef13dca08aefbe9bab0f7413c70f4f8768d44cc874dee9d00a0f808"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M03-n8-T15-axis8-subset0_1_4_6_7_8_10_11.json",
+      "sha256": "deb70b5ccedf6b1c7d50850a87130670b1b7bbe19bf6d88c187c35e4e0f676fc"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M03-n8-T15-axis8-subset0_2_4_6_7_8_10_11.json",
+      "sha256": "768500beedb5bf2f0df7fadb30434ad23d35ee42f4c0965fe9a9e5817ff4859e"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M03-n8-T15-axis8-subset0_3_4_6_7_8_10_11.json",
+      "sha256": "0db02e753431e3e193cfa0981cb12e4870a43225813f8aeccc074506bb62d6bd"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M03-n8-T15-axis8-subset0_4_5_6_7_8_10_11.json",
+      "sha256": "2851005cc65e01f8da4142e22b53496e198413ba30a112478e3bccb620e72867"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M03-n8-T15-axis8-subset0_4_6_7_8_10_11_12.json",
+      "sha256": "49769b8f9b3303738c715c363c1220b608431a11c36e87dad2cd709a5f5d46c5"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M03-n8-T15-axis8-subset0_4_6_7_8_10_11_13.json",
+      "sha256": "fee63c1c316dc223bc3f7babc008818738512b24373b0c303de35aaad0cf5d49"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M03-n8-T15-axis8-subset0_4_6_7_8_9_10_11.json",
+      "sha256": "dc0a1aeac3505a7a126ef9a2ddbd086d4593e5c14cd723d317e9d9bff66b5db9"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M04-n8-T15-axis5-subset0_1_2_5_6_8_11_13.json",
+      "sha256": "ab62a61528330701500653657e197641e17f0b000cad7dcec0fd3e423ee5609a"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M04-n8-T15-axis5-subset0_1_3_5_6_8_11_13.json",
+      "sha256": "9baffb2d9c8bcdca2e475e56271a572fa09cdf5d76f2d43c3f47e8e6dcfc114d"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M04-n8-T15-axis5-subset0_1_4_5_6_8_11_13.json",
+      "sha256": "ec3ed05b0c8133d762980167f1aca5190e427b9e9e370635f57302fa5b7e2471"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M04-n8-T15-axis5-subset0_1_5_6_7_8_11_13.json",
+      "sha256": "4454ad0ab8481d5453e6d38935a9297fdd413f4fabbb89df325251f4cfd80748"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M04-n8-T15-axis5-subset0_1_5_6_8_10_11_13.json",
+      "sha256": "4cb844cfec561a0eaba8c52870ad149aa08c336357f1f0498ced231bff022782"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M04-n8-T15-axis5-subset0_1_5_6_8_11_12_13.json",
+      "sha256": "e50c0557ab6e2d5ca404396cf4e4567e44328819966b5343a76f48abb1569b06"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M04-n8-T15-axis5-subset0_1_5_6_8_9_11_13.json",
+      "sha256": "6c26e0f6f723ee2e2534a187863a049f516e20c01e8325c249b8642a996b4a20"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M05-n8-T15-axis13-subset0_1_4_8_10_11_12_13.json",
+      "sha256": "0ed0d38d75a63172418087212d41da80fe7dced1583c0e8e00e569b06756adf1"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M05-n8-T15-axis13-subset1_2_4_8_10_11_12_13.json",
+      "sha256": "7aee305b6343c90ac3b6d191c9869bbbc49632aa95d326f451fd25c395cbd909"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M05-n8-T15-axis13-subset1_3_4_8_10_11_12_13.json",
+      "sha256": "8d37c6259c7e55428a12ce608e1b3df08ad9f79655d606640dd33619fb9f99a3"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M05-n8-T15-axis13-subset1_4_5_8_10_11_12_13.json",
+      "sha256": "e78b94e616d15a716a2847f6d11660c343314e28a9c0e682bd7151ff004e3854"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M05-n8-T15-axis13-subset1_4_6_8_10_11_12_13.json",
+      "sha256": "c509e3b09f2a2a0f37aa4720868ed2ea0d947f7a1d9bc005c843e4d255fb6cd8"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M05-n8-T15-axis13-subset1_4_7_8_10_11_12_13.json",
+      "sha256": "2d95510b94082e2b64fb45d87b9ca8891056e5287e91d8936efda864dc059b73"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M05-n8-T15-axis13-subset1_4_8_9_10_11_12_13.json",
+      "sha256": "e836e44fb3e9a7340dd313aa586f30e031e777254ac3adcaf8b84cca8977a2e0"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M06-n8-T15-axis10-subset0_1_2_3_5_7_9_10.json",
+      "sha256": "91ccef6fd0320e70e05415724bec18ddc5ce14aea91e64d576147a024cc5d11e"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M06-n8-T15-axis10-subset1_2_3_4_5_7_9_10.json",
+      "sha256": "26d42e0e8681b23d8f672053766e82ad341cd73819c360841a4e9d3250d31ea9"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M06-n8-T15-axis10-subset1_2_3_5_6_7_9_10.json",
+      "sha256": "ce7ac212c22e19a81509d87c2e76274a76708725a505b5fdc7517afeb6facd3f"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M06-n8-T15-axis10-subset1_2_3_5_7_8_9_10.json",
+      "sha256": "ce5a50fa950cfffc84ae5786744861dcd183ec5a2e6f89044d9ff22d008d5fd6"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M06-n8-T15-axis10-subset1_2_3_5_7_9_10_11.json",
+      "sha256": "699c804f6ee2d887095f367dcef81ca143151d6f1ec4eefa50add181276ac7c6"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M06-n8-T15-axis10-subset1_2_3_5_7_9_10_12.json",
+      "sha256": "620264df12b3e8a702ee00b59962529ec47d22c5bea8a852f40ef9b96b0231d4"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M06-n8-T15-axis10-subset1_2_3_5_7_9_10_13.json",
+      "sha256": "5c121ef0a44ace4ba0751d7e3d09d28b2a601817b7af57b671b9ae68b1e4486f"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M07-n8-T15-axis2-subset0_1_2_5_6_7_8_9.json",
+      "sha256": "fd2e95ef847e0892143f6c1d0164b7c2b03e0bb859f7481ccf9c0ad01e1e00c6"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M07-n8-T15-axis2-subset0_2_3_5_6_7_8_9.json",
+      "sha256": "eb242d4bf4c9462b110fa035ef965aa3d47161165b923e789fd9265977afc8f1"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M07-n8-T15-axis2-subset0_2_4_5_6_7_8_9.json",
+      "sha256": "5d9e935148e0616c0c6b6d7c934dca3a1a5c51b7d3ebe4d0f60b86965bb181d4"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M07-n8-T15-axis2-subset0_2_5_6_7_8_9_10.json",
+      "sha256": "be62be4f27d36ec07c4343437b274f2b18dfc071c096c3ee70cea71b1fde23eb"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M07-n8-T15-axis2-subset0_2_5_6_7_8_9_11.json",
+      "sha256": "3e093171fa2ce3b793eda95f3a01aa2220214e6d98e19a3eb35e336e21ef4976"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M07-n8-T15-axis2-subset0_2_5_6_7_8_9_12.json",
+      "sha256": "a76444a597a2d3b83ad06e761f096523267579d4359d3686a05896b343c39fe7"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M07-n8-T15-axis2-subset0_2_5_6_7_8_9_13.json",
+      "sha256": "74db4f217779b8b3dd409ebe05edc0640099af61aa4f1f5ff0c3fe301b7a6a1f"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M08-n8-T15-axis8-subset0_1_2_3_4_7_8_11.json",
+      "sha256": "f6777103fc1205eb9c23aaee6ef92d9fc10523f94e639568614dd825749413ab"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M08-n8-T15-axis8-subset0_2_3_4_5_7_8_11.json",
+      "sha256": "d01c6c693cbb685dcad25338632ce20da8f58b23bcb795000bc9e21e8a1143ca"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M08-n8-T15-axis8-subset0_2_3_4_6_7_8_11.json",
+      "sha256": "762db419011674638f35d25f6ab5cdc59348c779a94149e82e3825cfcefa1948"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M08-n8-T15-axis8-subset0_2_3_4_7_8_10_11.json",
+      "sha256": "ebbc1a4f2892de5be17f1f57316c95c826730fcb89bf4c7085c8aa7e03b321b4"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M08-n8-T15-axis8-subset0_2_3_4_7_8_11_12.json",
+      "sha256": "368698c859cc6d29f12ed799e06c876c9e6c25c32b2d1cd45f5c45a56917c66e"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M08-n8-T15-axis8-subset0_2_3_4_7_8_11_13.json",
+      "sha256": "838f94fd0e565a68cd5b42525bf963d7aeecbdf0c44f5fe27cd685c8ceb220ed"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M08-n8-T15-axis8-subset0_2_3_4_7_8_9_11.json",
+      "sha256": "8c04cb53bae7949b1efd612d4eb3007bc9be1399ce7702174da9f15d2b48bf8e"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M09-n8-T15-axis1-subset0_1_3_5_8_9_10_11.json",
+      "sha256": "911419d3f74461858ad7bb5a20501caa072b35b15ba2b6dd20a0a9979dc5e8f6"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M09-n8-T15-axis1-subset1_2_3_5_8_9_10_11.json",
+      "sha256": "348771bffc351d7ed9e1f207fd4bf71f1f2e7a55be55107055c369b0c9c2fd1e"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M09-n8-T15-axis1-subset1_3_4_5_8_9_10_11.json",
+      "sha256": "dfc43520f137a8835741817ba915c0b9fb4004021d816706e7e10fd5e1da8f35"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M09-n8-T15-axis1-subset1_3_5_6_8_9_10_11.json",
+      "sha256": "a0e5b77972458c90202034fe3dcdd0887fed35f0e941b402b8cc8a5d1da5e3c8"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M09-n8-T15-axis1-subset1_3_5_7_8_9_10_11.json",
+      "sha256": "85431f7480eb32800778200a99fee52e267ca2ebf844be9fc4e6552b9cd51ffe"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M09-n8-T15-axis1-subset1_3_5_8_9_10_11_12.json",
+      "sha256": "58822331dc52641b8c380e5e6e583497be02f27f4dca65017755e2f0daddf0c3"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M09-n8-T15-axis1-subset1_3_5_8_9_10_11_13.json",
+      "sha256": "189d92bdf4b7fe020123bd805cef534481f8f58f54cc6de71fc419128a159b62"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M10-n8-T15-axis8-subset0_2_5_6_8_9_11_12.json",
+      "sha256": "dba6a4e429f3ab09c8dbff17c71cb2f721ec6383a25b6ebc718614b15d3b7d30"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M10-n8-T15-axis8-subset1_2_5_6_8_9_11_12.json",
+      "sha256": "8e602406b886ca1670f62e68374e5c32003544cca8e7620873456272990425c1"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M10-n8-T15-axis8-subset2_3_5_6_8_9_11_12.json",
+      "sha256": "74d28437dd50c68e06891c2269ef703575e2264c8f37d009700b8ed35bbf55e7"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M10-n8-T15-axis8-subset2_4_5_6_8_9_11_12.json",
+      "sha256": "625fceae5315803ae06a409c11a8c47e721d92f4895eb7b3dee8e0a42428672d"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M10-n8-T15-axis8-subset2_5_6_7_8_9_11_12.json",
+      "sha256": "ed7cab407f68b02cdb8498cef171d1ca4ea65beeaaf59fc2bf375401fca3716d"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M10-n8-T15-axis8-subset2_5_6_8_9_10_11_12.json",
+      "sha256": "baa9567c395f7f9640511a079ae45f0ef1d0295021dcefe7b854bcb101c06773"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M10-n8-T15-axis8-subset2_5_6_8_9_11_12_13.json",
+      "sha256": "23b72426a7f723ae7a0395ac70556dfbedee7bda91ec45cd227ad4ea40980601"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M11-n8-T15-axis2-subset2_5_6_9_10_11_12_13.json",
+      "sha256": "45efda97fa575114b711ad6cfc7d2bc421ebc843c790dcaa696d54073c44447e"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M12-n8-T15-axis12-subset0_1_3_5_6_8_9_12.json",
+      "sha256": "1723b6fb432ad6b7a740a90b3a9e45d06007cc3cb7031d982b885cf61f5f117e"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M12-n8-T15-axis12-subset1_2_3_5_6_8_9_12.json",
+      "sha256": "f23a784005e6cb544ad5a678839dfd4d0ac98dd16c427e8d64176b260da2ea7a"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M12-n8-T15-axis12-subset1_3_4_5_6_8_9_12.json",
+      "sha256": "79f6a93b6ccbc38a4c5b49c5c3bcaa040c70ea00a91f4fb6e4240afc169eab87"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M12-n8-T15-axis12-subset1_3_5_6_7_8_9_12.json",
+      "sha256": "3607f1ec1a96d140ab14920ca431fd76c3bd25babee333fc23bdd71230946b21"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M12-n8-T15-axis12-subset1_3_5_6_8_9_10_12.json",
+      "sha256": "c61f96e52350f02b3e2221496aff1e8ffc2bd9e705d04bf7618cef7b441f6d9b"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M12-n8-T15-axis12-subset1_3_5_6_8_9_11_12.json",
+      "sha256": "3b0db3f7d18db4f2938adaab68a8fbad581d7d6d551550bb5b886e07281ad6ff"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M12-n8-T15-axis12-subset1_3_5_6_8_9_12_13.json",
+      "sha256": "dd3f6434071e6c6796094cc45f99056c765dbf8937cee31afa567f177e0ea72f"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M13-n8-T15-axis0-subset0_1_2_7_9_11_12_13.json",
+      "sha256": "8527f816e5b92306d9f8c72e15c4329cdbe6cdb6d5ae36d1afc33789a8ac3024"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M13-n8-T15-axis0-subset0_2_3_7_9_11_12_13.json",
+      "sha256": "7c42d4c54ae5d4fef57510619f6d734afe3643de8231de75531bf2d2f6fdc783"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M13-n8-T15-axis0-subset0_2_4_7_9_11_12_13.json",
+      "sha256": "ee6f3ab06bcbd894b5993b51cece16f4ef72cc0ec03a8ae88e7ab72d2fffde14"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M13-n8-T15-axis0-subset0_2_5_7_9_11_12_13.json",
+      "sha256": "aeef258647d2593f68fc9ba675af965f9aa2a4a098b1c8144fbb6c17f6af10ef"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M13-n8-T15-axis0-subset0_2_6_7_9_11_12_13.json",
+      "sha256": "a94492e6854c367eddf08ed893239634b7cb62c11135d01243e9c5fe806c27e7"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M13-n8-T15-axis0-subset0_2_7_8_9_11_12_13.json",
+      "sha256": "23414a4af950629be7309d6d9b2419484cf1939590a03a0da1c00c815506b402"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M13-n8-T15-axis0-subset0_2_7_9_10_11_12_13.json",
+      "sha256": "bd4d68b49664af4ff5590171f81ddc22683c5990da2dcf9f5284b94e08938eaf"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M14-n8-T15-axis8-subset0_1_2_3_6_8_10_11.json",
+      "sha256": "c4ddd84b4c7fd372d563d210028d30933b4f4dc2b16918c8b69d08047e9bfa38"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M14-n8-T15-axis8-subset0_2_3_4_6_8_10_11.json",
+      "sha256": "6a7c42c86b72ceeda291bf13d750099a51015ba6a1fdd581c3df375913e8b53b"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M14-n8-T15-axis8-subset0_2_3_5_6_8_10_11.json",
+      "sha256": "9e5e2f2bc21fb6b51f6d1f07b4e9d224a36d91194bc488ee1d46bd4d17b03469"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M14-n8-T15-axis8-subset0_2_3_6_7_8_10_11.json",
+      "sha256": "c734277faab1820fdbf49885cf6185c643814b6fa9f995c035728a7f2ff248eb"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M14-n8-T15-axis8-subset0_2_3_6_8_10_11_12.json",
+      "sha256": "ddd43cb795e4d96aa1bd8c393b806b702ed683590f4f9dd1932757d6a96a5204"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M14-n8-T15-axis8-subset0_2_3_6_8_10_11_13.json",
+      "sha256": "91999b8ae9877c5facdadd245df81d8e33778a04b0bbd270795e603924bb9f2b"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M14-n8-T15-axis8-subset0_2_3_6_8_9_10_11.json",
+      "sha256": "4d39c14f0f5f6a86f9bd6c02a6013735102ad79b0772fb0cb29824f1a6798bb2"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M15-n8-T15-axis12-subset0_1_2_3_7_9_12_13.json",
+      "sha256": "b302600df6255586f984c1276bd6538528d3a0b0503486479b8aa019502591f6"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M15-n8-T15-axis12-subset0_1_2_4_7_9_12_13.json",
+      "sha256": "5cfdf34d4e64711c6d6dba81fd3c8094732dee48757ed9d787446afa19fd4030"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M15-n8-T15-axis12-subset0_1_2_5_7_9_12_13.json",
+      "sha256": "3d58844dda2f83d2a78ce160e311526b06b9d49ee1a3736338c4b15f286089ef"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M15-n8-T15-axis12-subset0_1_2_6_7_9_12_13.json",
+      "sha256": "b10438e5753be8985e284e1bc4a8b919ca5324d2df1d9e89a0835fae55cfa574"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M15-n8-T15-axis12-subset0_1_2_7_8_9_12_13.json",
+      "sha256": "fdc78521c81ed8955e4d33ceac7bb8dbd054e0bf298ca48328e8e3e557a6dbe0"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M15-n8-T15-axis12-subset0_1_2_7_9_10_12_13.json",
+      "sha256": "6b94c2bf25536ff9002f0cd8559c11250aad895216e7f76fc064cdedbeb69f66"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\M15-n8-T15-axis12-subset0_1_2_7_9_11_12_13.json",
+      "sha256": "39bd05b6e967a5973048317bc4cb5eeeb7c7fe33aeb2214329681b7ce625fb45"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\corridor-subarrangements\\report.json",
+      "sha256": "3f5a7cb80644d2c36b66b1f7d0f69915b5936564c16bb33f20be6c1c52d5e8de"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\desingularization-audit.json",
+      "sha256": "e7ce0c950e28d1dd2203ebc33404904ae599f8f9af33fab3ed4f4017bb2d3b87"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\even-plus-one-sanity.json",
+      "sha256": "96b9db6c316bb43abc24edfaf50a53c4a90943984f19d8e7a6374f1fdf5c2a02"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\first-token-maximum.json",
+      "sha256": "e237c4e6d50aea0da6a660170a7d832e723e1b38de5c005e97d528d6dda9cb8b"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\four-line-first-budget-counterexample.json",
+      "sha256": "51d67b11ed49fd74a62767b6ae39e2358088f6981cfce4fb8a56b40d07225fa9"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\fp-boundary-profiles.json",
+      "sha256": "3c29019e05c580bc91ff4981ddef72bcf41bf1198c49ded43f4817f48c44fd19"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\fp-deletion-curvature\\report.json",
+      "sha256": "1f99759e0ad33b17d09d64b2b0ab9407d5d41b30cb7a8e3786de40b988de1b2c"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\fp-deletion-curvature\\worst-no-boundary.json",
+      "sha256": "83e106469e3f76ea86af82cf589669609c4edad9d2a173a9145ffb141fb65275"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\fp-shared-rule.json",
+      "sha256": "e1c3c29a023ff04610a916366f1b7c3f03c9964dbd1e0d7b753e12bd0848bbee"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\full24-star-completions.json",
+      "sha256": "56ecd7f8f3671151eff446043a6a24b53793a3b8602aaef896d9e4ab81490abd"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\global-token-sanity.json",
+      "sha256": "757b0eb771956fd2d4b8235ab66dedafc62643dea1139e6652a036d2ff845d46"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\insertion-counter-controls.json",
+      "sha256": "bd1c3226b7e76caf2b5c8fd4b0bae8a9ed32adac47016c4ba47f82ee7ad3bef2"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\marked-component-curvature.json",
+      "sha256": "2d4d16d30c3689cb9dc2305812e8da3986fd1985c8845c6fbd1cc344bbb22036"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\perfect-seed-deletions.json",
+      "sha256": "3ac6b16f918c4f7e5f6b51ef405da655509d0aa20f5e63df73c26d235df10369"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\seed61-variant-visibility.json",
+      "sha256": "0ebeb893b7353e96e90461149d53140d92d00082af09945dca5696326c87e9fe"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\shared-rule8.json",
+      "sha256": "46fa2e82e15977ab1214a006925fb2adf4fcba95a92ed38b13cedd0628f3b831"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\shared-segment-counterexamples.json",
+      "sha256": "84d81d94a51e72ef28889b764c64c405f0f5296f075fb630ce72ce2edf4b5f76"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\singular-grid-nesting.json",
+      "sha256": "3a4c13f57a651d9ee79551e088de9a38620df4aedcc6d9dfdf47b55c0f6f3343"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\source-inventory.json",
+      "sha256": "6fcb95a239bf8a6547e90b29b958286c8518dfa3f4b684173fe784f9f87d159d"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\triple-curvature-sanity.json",
+      "sha256": "bff1f476bd50925841bcbb371285fc950848934c6cbf74ff494dc393060e36e3"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\triple-fan-type-census.json",
+      "sha256": "9c5de58b7203111b68d611f38d4c92a071fe6df6e112e016b3af27cc5633ac35"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\triple-ordinary-shared-sanity.json",
+      "sha256": "3e91b6dbba28f43a98b5a601e6d3f784022bac2c3cef4487d00657af905f6b1f"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\two-antipodal-recipient-stress.json",
+      "sha256": "ed6cb11ed66d4d877518d749971b5f2d62f06a5cc5510d3f4cf40badad2b72eb"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\two-antipodal-star-candidates.json",
+      "sha256": "9c8324361edef83ce22483216018acafa071db1e097c4a97fca78bc9bdb35e2e"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\uniform-seed19\\uniform-seed.json",
+      "sha256": "f1981b127b79af33da80e538cf1353a0e24b259bfdd69580cfa79acd9e977124"
+    }
+  ],
+  "numerical_search_diagnostics": [
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\seed_search\\optimal31-bbl-axes\\report.json",
+      "sha256": "ffacc197de67e961d18bead0bf3e58891ee6165c01f64fd1b7328cf2108b3e71"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\seed_search\\optimal31-projective-charts\\report.json",
+      "sha256": "d721933aced5fe87feb5702042b66b34105795401d1028d1ac58326338ceaf07"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\seed_search\\forge31-leading-fit\\report.json",
+      "sha256": "ab63714ec62a410935d622d6ddd48bf01a824ec1e15083b94a6afb0a3797d8c2"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\seed_search\\contestant-general-axes\\report.json",
+      "sha256": "c53bb8776563af5ab24fe7825a0c6020a2ca3f4a07d6a569ee5b755ff7f9c1fb"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\seed_search\\contestant-finite-epsilon\\report.json",
+      "sha256": "7532cf019cb25972d3c08b0433c0e1758ee6d83187f6c8cdeef0b3072c074cd9"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\seed_search\\dual-mutation53\\report.json",
+      "sha256": "a633844673f01d12224607201d666c7c61e3106dc9b58e7b9f549c6b8de1e695"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\fp-projective-charts\\dual-cell-report-shift1_2.json",
+      "sha256": "cdfaa4af4c831734c559e1283b79c45f3fa61c98587bfffab1e94f171a7b2077"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\fp-projective-charts\\dual-cell-report-shift1_6.json",
+      "sha256": "105b43a0657ea15aca0d9027471006d2e01a7f27adda04dd2c3f4d00bbe69d26"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\fp-projective-charts\\dual-cell-report.json",
+      "sha256": "c5511f701a364e4b4e837dc461d0bb456df1a8b29c9d7dc8e201b4e281c91189"
+    },
+    {
+      "path": "research\\openmath-seven-hour-2026-10-05\\corpus\\fp-projective-charts\\initial-report.json",
+      "sha256": "69ec46dd131c0ce855949360251f6b89f3f666360021c9b227145a2aebd6216a"
+    }
+  ],
+  "scope": "Completed branch builds and artifact identities; consult each artifact for exact scope. Numerical searches do not prove infeasibility, and no concrete lower-bound family is inferred from them."
+}

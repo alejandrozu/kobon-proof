@@ -1,0 +1,15 @@
+Kobon/UpperOpenMathSectorIncidence.lean:49:64: warning: This simp argument is unused:
+  ite_false
+
+Hint: Omit it from the simp argument list.
+  simp only [̵e̵d̵g̵e̵,̵s̵i̵d̵e̵T̵r̵i̵a̵n̵g̵l̵e̵,̵c̵y̵c̵l̵e̵,̵F̵i̵n̵.̵r̵e̵d̵u̵c̵e̵F̵i̵n̵M̵k̵,̵i̵t̵e̵_̵t̵r̵u̵e̵,̵i̵t̵e̵_̵f̵a̵l̵s̵e̵,̵
+  ̵ ̵ ̵ ̵ ̵ ̵ ̵m̵e̵m̵_̵i̵n̵s̵e̵r̵t̵,̵m̵e̵m̵_̵s̵i̵n̵g̵l̵e̵t̵o̵n̵]̵[̲e̲d̲g̲e̲,̲ ̲s̲i̲d̲e̲T̲r̲i̲a̲n̲g̲l̲e̲,̲ ̲c̲y̲c̲l̲e̲,̲ ̲F̲i̲n̲.̲r̲e̲d̲u̲c̲e̲F̲i̲n̲M̲k̲,̲ ̲i̲t̲e̲_̲t̲r̲u̲e̲,̲ ̲m̲e̲m̲_̲i̲n̲s̲e̲r̲t̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲m̲e̲m̲_̲s̲i̲n̲g̲l̲e̲t̲o̲n̲]̲ at hx
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Kobon.UpperOpenMathSectorIncidence.occurrence_index_injective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathSectorIncidence.shared_of_adjacent_occurrences' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

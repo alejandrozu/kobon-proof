@@ -1,0 +1,6 @@
+'Kobon.UpperOpenMathTwoTwoCore.certificate_two_two_core_empty' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathTwoTwoCore.certificate_closed_two_two_impossible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,24 @@
+{"event": "finish", "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-01.json", "contiguous": 2, "wins": 0, "max_gap": 2}
+{"event": "finish", "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-02.json", "contiguous": 2, "wins": 0, "max_gap": 2}
+{"event": "finish", "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-03.json", "contiguous": 2, "wins": 0, "max_gap": 2}
+{"event": "finish", "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-04.json", "contiguous": 2, "wins": 0, "max_gap": 2}
+{"event": "finish", "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-05.json", "contiguous": 2, "wins": 0, "max_gap": 2}
+{"event": "finish", "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-06.json", "contiguous": 2, "wins": 0, "max_gap": 2}
+{"event": "finish", "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-07.json", "contiguous": 2, "wins": 0, "max_gap": 2}
+{"event": "finish", "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-08.json", "contiguous": 2, "wins": 0, "max_gap": 2}
+{"event": "finish", "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-09.json", "contiguous": 2, "wins": 0, "max_gap": 2}
+{"event": "finish", "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-10.json", "contiguous": 2, "wins": 0, "max_gap": 2}
+{"event": "candidate", "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-11.json", "Q": [0, 2, 6, 7], "margin": 0.052521714064031694, "actual": {"n": 14, "T": 52, "q": 4, "multiplicities": {"4": 1, "3": 3}, "D1": 7, "D2": 0, "U": 2, "C": 19, "Rc": 0, "H": 4, "deficit": 12, "first_slack": -3, "second_slack": 19}}
+{"event": "candidate", "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-11.json", "Q": [3, 6, 8, 12], "margin": 0.015178593854984731, "actual": {"n": 14, "T": 52, "q": 4, "multiplicities": {"3": 3, "4": 1}, "D1": 7, "D2": 0, "U": 2, "C": 19, "Rc": 0, "H": 4, "deficit": 12, "first_slack": -3, "second_slack": 19}}
+{"event": "finish", "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-11.json", "contiguous": 4, "wins": 2, "max_gap": 3}
+{"event": "finish", "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-12.json", "contiguous": 2, "wins": 0, "max_gap": 2}
+{"event": "finish", "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-13.json", "contiguous": 2, "wins": 0, "max_gap": 2}
+{"event": "finish", "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-14.json", "contiguous": 2, "wins": 0, "max_gap": 2}
+{"event": "finish", "source": "research\\six-hour-2026-09-21\\general-bounds\\maiorana14\\certificate-15.json", "contiguous": 2, "wins": 0, "max_gap": 2}
+{"event": "finish", "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-008.json", "contiguous": 2, "wins": 0, "max_gap": 2}
+{"event": "finish", "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-014.json", "contiguous": 2, "wins": 0, "max_gap": 2}
+{"event": "finish", "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-020.json", "contiguous": 2, "wins": 0, "max_gap": 2}
+{"event": "finish", "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-026.json", "contiguous": 2, "wins": 0, "max_gap": 2}
+{"event": "finish", "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-032.json", "contiguous": 2, "wins": 0, "max_gap": 2}
+{"event": "finish", "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-038.json", "contiguous": 2, "wins": 0, "max_gap": 2}
+{"event": "finish", "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-050.json", "contiguous": 2, "wins": 0, "max_gap": 2}

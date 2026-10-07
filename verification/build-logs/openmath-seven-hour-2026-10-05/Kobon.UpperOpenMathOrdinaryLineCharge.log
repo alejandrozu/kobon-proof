@@ -1,0 +1,6 @@
+'Kobon.UpperOpenMathOrdinaryLineCharge.certificate_selected_line_charge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathOrdinaryLineCharge.certificate_all_line_charge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

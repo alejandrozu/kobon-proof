@@ -1,0 +1,6 @@
+'Kobon.UpperOpenMathClosedExtremal.union_closed_of_equal_endpoint_counts' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathClosedExtremal.certificate_closed_extremal_impossible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

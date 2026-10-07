@@ -1,0 +1,82 @@
+Kobon/OpenMathConstructionParetoFamily61.lean:81:2: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  i ≥ 0
+  g ≥ 12
+  -5 ≤ 6*g - i ≤ 0
+  f ≥ 11
+  e ≥ 0
+  d ≥ 120
+  0 ≤ d - 6*f ≤ 5
+  c ≥ 2
+  b ≥ 0
+  b - e - f + g ≤ -1
+  b + g ≥ 12
+  a ≥ 1
+where
+ a := ↑t
+ b := ↑(Universal.baseline (OpenMathConstructionFamily61.q t + 2))
+ c := ↑2 ^ t
+ d := ↑(q t)
+ e := ↑(Universal.baseline (q t + 2))
+ f := ↑(q t) / 6
+ g := ↑(OpenMathConstructionFamily61.q t) / 6
+ i := ↑(OpenMathConstructionFamily61.q t)
+Kobon/OpenMathConstructionParetoFamily61.lean:90:33: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  b ≥ 1
+  a ≥ 10
+where
+ a := Lean.Omega.bmod_div_term 3 [0, 2, -3]
+  (Lean.Omega.Coeffs.ofList
+    [↑(OpenMathConstructionFamily61.q t), ↑(OpenMathConstructionFamily61.q t) / 2,
+      ↑(OpenMathConstructionFamily61.q t) / 3])
+ b := ↑(q t + 2) / 2
+Kobon/OpenMathConstructionParetoFamily61.lean:92:8: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  a ≥ 10
+where
+ a := Lean.Omega.bmod_div_term 3 [0, 2, -3]
+  (Lean.Omega.Coeffs.ofList
+    [↑(OpenMathConstructionFamily61.q t), ↑(OpenMathConstructionFamily61.q t) / 2,
+      ↑(OpenMathConstructionFamily61.q t) / 3])
+'Kobon.OpenMathConstructionParetoFamily61.uniform_visible_seed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ OpenMathConstructionPareto61.admissible_bool._native.native_decide.ax_1,
+ OpenMathConstructionPareto61.directions_bool._native.native_decide.ax_1,
+ OpenMathConstructionPareto61.distinguished_subset_bool._native.native_decide.ax_1,
+ OpenMathConstructionPareto61.ordered_bool._native.native_decide.ax_1,
+ OpenMathConstructionPareto61.visible_bool._native.native_decide.ax_1,
+ OpenMathConstructionPareto61Fast.int_simple_bool._native.native_decide.ax_1,
+ OpenMathConstructionPareto61Fast.int_triangles_bool._native.native_decide.ax_1]
+'Kobon.OpenMathConstructionParetoFamily61.even_family' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ OpenMathConstructionPareto61.admissible_bool._native.native_decide.ax_1,
+ OpenMathConstructionPareto61.directions_bool._native.native_decide.ax_1,
+ OpenMathConstructionPareto61.distinguished_subset_bool._native.native_decide.ax_1,
+ OpenMathConstructionPareto61.ordered_bool._native.native_decide.ax_1,
+ OpenMathConstructionPareto61.visible_bool._native.native_decide.ax_1,
+ OpenMathConstructionPareto61Fast.int_simple_bool._native.native_decide.ax_1,
+ OpenMathConstructionPareto61Fast.int_triangles_bool._native.native_decide.ax_1]
+'Kobon.OpenMathConstructionParetoFamily61.even_classical' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ OpenMathConstructionPareto61.admissible_bool._native.native_decide.ax_1,
+ OpenMathConstructionPareto61.directions_bool._native.native_decide.ax_1,
+ OpenMathConstructionPareto61.distinguished_subset_bool._native.native_decide.ax_1,
+ OpenMathConstructionPareto61.ordered_bool._native.native_decide.ax_1,
+ OpenMathConstructionPareto61.visible_bool._native.native_decide.ax_1,
+ OpenMathConstructionPareto61Fast.int_simple_bool._native.native_decide.ax_1,
+ OpenMathConstructionPareto61Fast.int_triangles_bool._native.native_decide.ax_1]
+'Kobon.OpenMathConstructionParetoFamily61.even_window' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound,
+ OpenMathConstructionPareto61.admissible_bool._native.native_decide.ax_1,
+ OpenMathConstructionPareto61.directions_bool._native.native_decide.ax_1,
+ OpenMathConstructionPareto61.distinguished_subset_bool._native.native_decide.ax_1,
+ OpenMathConstructionPareto61.ordered_bool._native.native_decide.ax_1,
+ OpenMathConstructionPareto61.visible_bool._native.native_decide.ax_1,
+ OpenMathConstructionPareto61Fast.int_simple_bool._native.native_decide.ax_1,
+ OpenMathConstructionPareto61Fast.int_triangles_bool._native.native_decide.ax_1]

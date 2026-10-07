@@ -1,0 +1,4 @@
+'Kobon.UpperOpenMathTripleGeometry.point_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathTripleGeometry.extremal_core_endpoint_card' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

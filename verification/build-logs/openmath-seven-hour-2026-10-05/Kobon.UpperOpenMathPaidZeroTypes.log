@@ -1,0 +1,3 @@
+'Kobon.UpperOpenMathPaidZeroTypes.certificate_rigid_neighbor_classification' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

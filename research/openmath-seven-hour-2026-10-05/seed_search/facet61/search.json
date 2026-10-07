@@ -1,0 +1,73 @@
+{
+  "source": "research\\openmath-seven-hour-2026-10-05\\constructions\\contestant61-refitted-uniform-box.json",
+  "source_sha256": "38c3b1564166014bfd5f3df531a667f942197716a6413eddd83f4bdf76740cde",
+  "scope": "Floating chirotope/LP proposals; exact verification required",
+  "records": [
+    {
+      "labels": [
+        14,
+        30,
+        57
+      ],
+      "expected_delta": 0,
+      "source_T": 1190,
+      "depth": 0,
+      "lp": 2.1635128009145376e-07,
+      "passed": true,
+      "proposal": "research\\openmath-seven-hour-2026-10-05\\seed_search\\facet61\\proposal-T1190-0001.json"
+    },
+    {
+      "labels": [
+        16,
+        33,
+        57
+      ],
+      "expected_delta": 0,
+      "source_T": 1190,
+      "depth": 0,
+      "lp": 0,
+      "passed": false
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "expected_delta": 0,
+      "source_T": 1190,
+      "depth": 0,
+      "lp": 0,
+      "passed": false
+    },
+    {
+      "labels": [
+        14,
+        33,
+        53
+      ],
+      "expected_delta": 0,
+      "source_T": 1190,
+      "depth": 1,
+      "lp": 0,
+      "passed": false
+    },
+    {
+      "labels": [
+        10,
+        26,
+        57
+      ],
+      "expected_delta": 0,
+      "source_T": 1190,
+      "depth": 1,
+      "lp": 0,
+      "passed": false
+    }
+  ],
+  "best": 1190,
+  "tested": 5,
+  "accepted": 1,
+  "elapsed": 2.383570671081543,
+  "states": 0
+}

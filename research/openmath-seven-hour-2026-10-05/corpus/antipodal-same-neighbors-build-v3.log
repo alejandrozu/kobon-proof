@@ -1,0 +1,6 @@
+'Kobon.UpperOpenMathAntipodalSameNeighbors.charts_outer_center_unique' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathAntipodalSameNeighbors.certificate_anti_same_neighbors_unique' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,653 @@
+{
+  "tested": 67437,
+  "distinct_arrangements": 61938,
+  "all_triple_nonparallel": 25753,
+  "old_antipodal_stars_preserved": 16890,
+  "depth_limit": 3,
+  "records": [
+    {
+      "source": "antipodal-full-two-cap-fan.json",
+      "lines": 7,
+      "A0": 1,
+      "max_N13_A0": 0
+    },
+    {
+      "source": "adjacent-antipodal-marked-full24.json",
+      "lines": 8,
+      "A0": 1,
+      "max_N13_A0": 0
+    },
+    {
+      "source": "adjacent-antipodal-full15.json",
+      "lines": 9,
+      "A0": 1,
+      "max_N13_A0": 0
+    },
+    {
+      "source": "adjacent-antipodal-full15.json plus (155, -65, -1188) plus (113, -401, -2322)",
+      "added_line": [
+        "19",
+        "53",
+        "-774"
+      ],
+      "depth": 3,
+      "n": 12,
+      "A0": 2,
+      "recipients": [
+        {
+          "vertex": "(-1, 17, 5)",
+          "anti_neighbors": []
+        }
+      ],
+      "max_N13_A0": 0
+    },
+    {
+      "source": "adjacent-antipodal-full15.json plus (16, -25, -108) plus (343, 1754, 7776)",
+      "added_line": [
+        "1727",
+        "-719",
+        "-4671"
+      ],
+      "depth": 3,
+      "n": 12,
+      "A0": 2,
+      "recipients": [
+        {
+          "vertex": "(-1, 17, 5)",
+          "anti_neighbors": [
+            "(-1, 8, 2)"
+          ]
+        }
+      ],
+      "max_N13_A0": 1
+    },
+    {
+      "source": "adjacent-antipodal-full15.json plus (16, -25, -108) plus (293, 1633, 7236)",
+      "added_line": [
+        "1597",
+        "-688",
+        "-4401"
+      ],
+      "depth": 3,
+      "n": 12,
+      "A0": 2,
+      "recipients": [
+        {
+          "vertex": "(-1, 17, 5)",
+          "anti_neighbors": [
+            "(-1, 8, 2)"
+          ]
+        }
+      ],
+      "max_N13_A0": 1
+    },
+    {
+      "source": "adjacent-antipodal-full15.json plus (16, -25, -108) plus (227, -1649, -7236)",
+      "added_line": [
+        "1397",
+        "-1064",
+        "-5481"
+      ],
+      "depth": 3,
+      "n": 12,
+      "A0": 2,
+      "recipients": [
+        {
+          "vertex": "(-1, 17, 5)",
+          "anti_neighbors": [
+            "(-1, 8, 2)"
+          ]
+        }
+      ],
+      "max_N13_A0": 1
+    },
+    {
+      "source": "adjacent-antipodal-full15.json plus (16, -25, -108) plus (133, -466, -1809)",
+      "added_line": [
+        "1613",
+        "10924",
+        "40581"
+      ],
+      "depth": 3,
+      "n": 12,
+      "A0": 2,
+      "recipients": [
+        {
+          "vertex": "(3, 3, 1)",
+          "anti_neighbors": []
+        }
+      ],
+      "max_N13_A0": 0
+    },
+    {
+      "source": "adjacent-antipodal-full15.json plus (16, -25, -108) plus (133, -466, -1809)",
+      "added_line": [
+        "2921",
+        "-4397",
+        "-17712"
+      ],
+      "depth": 3,
+      "n": 12,
+      "A0": 2,
+      "recipients": [
+        {
+          "vertex": "(-1, 89, 23)",
+          "anti_neighbors": [
+            "(-137, 1339, 355)"
+          ]
+        }
+      ],
+      "max_N13_A0": 1
+    },
+    {
+      "source": "adjacent-antipodal-full15.json plus (16, -25, -108) plus (133, -466, -1809)",
+      "added_line": [
+        "1445",
+        "4450",
+        "16227"
+      ],
+      "depth": 3,
+      "n": 12,
+      "A0": 2,
+      "recipients": [],
+      "max_N13_A0": 0
+    },
+    {
+      "source": "adjacent-antipodal-full15.json plus (16, -25, -108) plus (133, -466, -1809)",
+      "added_line": [
+        "106",
+        "4313",
+        "16227"
+      ],
+      "depth": 3,
+      "n": 12,
+      "A0": 2,
+      "recipients": [],
+      "max_N13_A0": 0
+    },
+    {
+      "source": "adjacent-antipodal-full15.json plus (16, -25, -108) plus (133, -466, -1809)",
+      "added_line": [
+        "16559",
+        "-32723",
+        "-129816"
+      ],
+      "depth": 3,
+      "n": 12,
+      "A0": 2,
+      "recipients": [
+        {
+          "vertex": "(-1, 89, 23)",
+          "anti_neighbors": [
+            "(-137, 1339, 355)"
+          ]
+        }
+      ],
+      "max_N13_A0": 1
+    },
+    {
+      "source": "adjacent-antipodal-full15.json plus (16, -25, -108) plus (133, -466, -1809)",
+      "added_line": [
+        "403",
+        "-331",
+        "-1404"
+      ],
+      "depth": 3,
+      "n": 12,
+      "A0": 2,
+      "recipients": [
+        {
+          "vertex": "(-1, 89, 23)",
+          "anti_neighbors": [
+            "(-137, 1339, 355)"
+          ]
+        }
+      ],
+      "max_N13_A0": 1
+    },
+    {
+      "source": "adjacent-antipodal-full15.json plus (16, -25, -108) plus (133, -466, -1809)",
+      "added_line": [
+        "164",
+        "-983",
+        "-3771"
+      ],
+      "depth": 3,
+      "n": 12,
+      "A0": 2,
+      "recipients": [],
+      "max_N13_A0": 0
+    },
+    {
+      "source": "adjacent-antipodal-full15.json plus (16, -25, -108) plus (133, -466, -1809)",
+      "added_line": [
+        "164",
+        "1147",
+        "4263"
+      ],
+      "depth": 3,
+      "n": 12,
+      "A0": 2,
+      "recipients": [],
+      "max_N13_A0": 0
+    },
+    {
+      "source": "adjacent-antipodal-full15.json plus (16, -25, -108) plus (133, -466, -1809)",
+      "added_line": [
+        "5248",
+        "-9091",
+        "-36315"
+      ],
+      "depth": 3,
+      "n": 12,
+      "A0": 2,
+      "recipients": [
+        {
+          "vertex": "(-1, 89, 23)",
+          "anti_neighbors": [
+            "(-137, 1339, 355)"
+          ]
+        }
+      ],
+      "max_N13_A0": 1
+    },
+    {
+      "source": "adjacent-antipodal-full15.json plus (16, -25, -108) plus (133, -466, -1809)",
+      "added_line": [
+        "1229",
+        "4342",
+        "15903"
+      ],
+      "depth": 3,
+      "n": 12,
+      "A0": 2,
+      "recipients": [],
+      "max_N13_A0": 0
+    },
+    {
+      "source": "adjacent-antipodal-full15.json plus (16, -25, -108) plus (133, -466, -1809)",
+      "added_line": [
+        "182",
+        "1511",
+        "5629"
+      ],
+      "depth": 3,
+      "n": 12,
+      "A0": 2,
+      "recipients": [],
+      "max_N13_A0": 0
+    },
+    {
+      "source": "adjacent-antipodal-full15.json plus (16, -25, -108) plus (67, -337, -1476)",
+      "added_line": [
+        "277",
+        "-232",
+        "-1161"
+      ],
+      "depth": 3,
+      "n": 12,
+      "A0": 2,
+      "recipients": [
+        {
+          "vertex": "(-1, 17, 5)",
+          "anti_neighbors": [
+            "(-1, 8, 2)"
+          ]
+        }
+      ],
+      "max_N13_A0": 1
+    },
+    {
+      "source": "adjacent-antipodal-full15.json plus (16, -25, -108) plus (67, 371, 1644)",
+      "added_line": [
+        "121",
+        "-52",
+        "-333"
+      ],
+      "depth": 3,
+      "n": 12,
+      "A0": 2,
+      "recipients": [
+        {
+          "vertex": "(-1, 17, 5)",
+          "anti_neighbors": [
+            "(-1, 8, 2)"
+          ]
+        }
+      ],
+      "max_N13_A0": 1
+    },
+    {
+      "source": "adjacent-antipodal-full15.json plus (16, -25, -108) plus (421, 1433, 6372)",
+      "added_line": [
+        "1469",
+        "-488",
+        "-3537"
+      ],
+      "depth": 3,
+      "n": 12,
+      "A0": 2,
+      "recipients": [
+        {
+          "vertex": "(-1, 17, 5)",
+          "anti_neighbors": [
+            "(-1, 8, 2)"
+          ]
+        }
+      ],
+      "max_N13_A0": 1
+    },
+    {
+      "source": "adjacent-antipodal-full15.json plus (16, -25, -108) plus (169, 1517, 6708)",
+      "added_line": [
+        "1441",
+        "-712",
+        "-4293"
+      ],
+      "depth": 3,
+      "n": 12,
+      "A0": 2,
+      "recipients": [
+        {
+          "vertex": "(-1, 17, 5)",
+          "anti_neighbors": [
+            "(-1, 8, 2)"
+          ]
+        }
+      ],
+      "max_N13_A0": 1
+    },
+    {
+      "source": "adjacent-antipodal-full15.json plus (179, -305, -1188) plus (1153, 8072, 29403)",
+      "added_line": [
+        "206",
+        "-89",
+        "-459"
+      ],
+      "depth": 3,
+      "n": 12,
+      "A0": 2,
+      "recipients": [
+        {
+          "vertex": "(3, 3, 1)",
+          "anti_neighbors": []
+        }
+      ],
+      "max_N13_A0": 0
+    },
+    {
+      "source": "adjacent-antipodal-full15.json plus (179, -305, -1188) plus (1123, 3323, 11880)",
+      "added_line": [
+        "206",
+        "-89",
+        "-459"
+      ],
+      "depth": 3,
+      "n": 12,
+      "A0": 2,
+      "recipients": [],
+      "max_N13_A0": 0
+    },
+    {
+      "source": "adjacent-antipodal-full15.json plus (179, -305, -1188) plus (19, 404, 1485)",
+      "added_line": [
+        "206",
+        "-89",
+        "-459"
+      ],
+      "depth": 3,
+      "n": 12,
+      "A0": 2,
+      "recipients": [],
+      "max_N13_A0": 0
+    },
+    {
+      "source": "adjacent-antipodal-full15.json plus (179, -305, -1188) plus (206, -89, -459)",
+      "added_line": [
+        "25118",
+        "-12689",
+        "-55539"
+      ],
+      "depth": 3,
+      "n": 12,
+      "A0": 2,
+      "recipients": [
+        {
+          "vertex": "(-1, 89, 23)",
+          "anti_neighbors": [
+            "(-91, 971, 263)"
+          ]
+        }
+      ],
+      "max_N13_A0": 1
+    },
+    {
+      "source": "adjacent-antipodal-full15.json plus (179, -305, -1188) plus (206, -89, -459)",
+      "added_line": [
+        "13018",
+        "-6115",
+        "-27081"
+      ],
+      "depth": 3,
+      "n": 12,
+      "A0": 2,
+      "recipients": [
+        {
+          "vertex": "(-1, 89, 23)",
+          "anti_neighbors": [
+            "(-91, 971, 263)"
+          ]
+        }
+      ],
+      "max_N13_A0": 1
+    },
+    {
+      "source": "adjacent-antipodal-full15.json plus (179, -305, -1188) plus (206, -89, -459)",
+      "added_line": [
+        "10358",
+        "-5867",
+        "-25245"
+      ],
+      "depth": 3,
+      "n": 12,
+      "A0": 2,
+      "recipients": [
+        {
+          "vertex": "(-1, 89, 23)",
+          "anti_neighbors": [
+            "(-91, 971, 263)"
+          ]
+        }
+      ],
+      "max_N13_A0": 1
+    },
+    {
+      "source": "adjacent-antipodal-full15.json plus (179, -305, -1188) plus (206, -89, -459)",
+      "added_line": [
+        "449",
+        "-170",
+        "-783"
+      ],
+      "depth": 3,
+      "n": 12,
+      "A0": 2,
+      "recipients": [
+        {
+          "vertex": "(-1, 89, 23)",
+          "anti_neighbors": [
+            "(-91, 971, 263)"
+          ]
+        }
+      ],
+      "max_N13_A0": 1
+    },
+    {
+      "source": "adjacent-antipodal-full15.json plus (179, -305, -1188) plus (206, -89, -459)",
+      "added_line": [
+        "59",
+        "-365",
+        "-1368"
+      ],
+      "depth": 3,
+      "n": 12,
+      "A0": 2,
+      "recipients": [],
+      "max_N13_A0": 0
+    },
+    {
+      "source": "adjacent-antipodal-full15.json plus (179, -305, -1188) plus (206, -89, -459)",
+      "added_line": [
+        "59",
+        "424",
+        "1545"
+      ],
+      "depth": 3,
+      "n": 12,
+      "A0": 2,
+      "recipients": [],
+      "max_N13_A0": 0
+    },
+    {
+      "source": "adjacent-antipodal-full15.json plus (179, -305, -1188) plus (206, -89, -459)",
+      "added_line": [
+        "12154",
+        "-6547",
+        "-28377"
+      ],
+      "depth": 3,
+      "n": 12,
+      "A0": 2,
+      "recipients": [
+        {
+          "vertex": "(-1, 89, 23)",
+          "anti_neighbors": [
+            "(-91, 971, 263)"
+          ]
+        }
+      ],
+      "max_N13_A0": 1
+    },
+    {
+      "source": "adjacent-antipodal-full15.json plus (179, -305, -1188) plus (206, -89, -459)",
+      "added_line": [
+        "907",
+        "3215",
+        "11556"
+      ],
+      "depth": 3,
+      "n": 12,
+      "A0": 2,
+      "recipients": [],
+      "max_N13_A0": 0
+    },
+    {
+      "source": "adjacent-antipodal-full15.json plus (179, -305, -1188) plus (206, -89, -459)",
+      "added_line": [
+        "17",
+        "140",
+        "511"
+      ],
+      "depth": 3,
+      "n": 12,
+      "A0": 2,
+      "recipients": [],
+      "max_N13_A0": 0
+    },
+    {
+      "source": "adjacent-antipodal-full15.json plus (179, -305, -1188) plus (206, -89, -459)",
+      "added_line": [
+        "11222",
+        "-5435",
+        "-23949"
+      ],
+      "depth": 3,
+      "n": 12,
+      "A0": 2,
+      "recipients": [
+        {
+          "vertex": "(-1, 89, 23)",
+          "anti_neighbors": [
+            "(-91, 971, 263)"
+          ]
+        }
+      ],
+      "max_N13_A0": 1
+    },
+    {
+      "source": "adjacent-antipodal-full15.json plus (13, 68, 297) plus (50, -89, -381)",
+      "added_line": [
+        "19",
+        "-11",
+        "-64"
+      ],
+      "depth": 3,
+      "n": 12,
+      "A0": 2,
+      "recipients": [
+        {
+          "vertex": "(-1, 17, 5)",
+          "anti_neighbors": [
+            "(-1, 8, 2)"
+          ]
+        }
+      ],
+      "max_N13_A0": 1
+    },
+    {
+      "source": "adjacent-antipodal-full15.json plus (13, 68, 297) plus (101, 112, 429)",
+      "added_line": [
+        "940",
+        "1061",
+        "4719"
+      ],
+      "depth": 3,
+      "n": 12,
+      "A0": 2,
+      "recipients": [
+        {
+          "vertex": "(-1, 89, 23)",
+          "anti_neighbors": [
+            "(-31, 185, 41)"
+          ]
+        }
+      ],
+      "max_N13_A0": 1
+    },
+    {
+      "source": "adjacent-antipodal-full15.json plus (13, 68, 297) plus (101, 112, 429)",
+      "added_line": [
+        "461",
+        "208",
+        "957"
+      ],
+      "depth": 3,
+      "n": 12,
+      "A0": 2,
+      "recipients": [],
+      "max_N13_A0": 0
+    },
+    {
+      "source": "adjacent-antipodal-full15.json plus (10, 62, 243) plus (1447, 5267, 20628)",
+      "added_line": [
+        "961",
+        "5537",
+        "21384"
+      ],
+      "depth": 3,
+      "n": 12,
+      "A0": 2,
+      "recipients": [
+        {
+          "vertex": "(-1, 89, 23)",
+          "anti_neighbors": [
+            "(-1, 8, 2)"
+          ]
+        }
+      ],
+      "max_N13_A0": 1
+    }
+  ],
+  "witnesses": [],
+  "seconds": 90.00022268295288,
+  "scope": "Bounded exact old-vertex-pair cap completions of three fixed source stars. Negative output does not prove an all-order exclusion."
+}

@@ -1,0 +1,10 @@
+Kobon/UpperOpenMathOneCapThreeCoreDegree.lean:51:15: warning: This simp argument is unused:
+  degreeFrom
+
+Hint: Omit it from the simp argument list.
+  simp only [̵d̵e̵g̵r̵e̵e̵F̵r̵o̵m̵,̵X̵,̵E̵,̵m̵e̵m̵_̵f̵i̵l̵t̵e̵r̵,̵a̵n̵d̵_̵a̵s̵s̵o̵c̵]̵[̲X̲,̲ ̲E̲,̲ ̲m̲e̲m̲_̲f̲i̲l̲t̲e̲r̲,̲ ̲a̲n̲d̲_̲a̲s̲s̲o̲c̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Kobon.UpperOpenMathOneCapThreeCoreDegree.certificate_n13_anti_degree_le_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

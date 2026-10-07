@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "date": "2026-10-07",
+  "pdf_sha256": "7b3ff0bde1a5cd3083eafab2d8d87c9a9dc98e4ce4f7d4f1be8c588c19bc7221",
+  "pages": 15,
+  "reviewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "method": "Every page inspected in labeled Poppler contact sheets; selected scientific/formula/reference pages inspected as full images. Changed pages re-rendered and reviewed; unchanged body renders confirmed pixel-identical.",
+  "full_page_inspections": [
+    7,
+    10,
+    13,
+    14,
+    15
+  ],
+  "rendered_page_sha256": {
+    "page-01.png": "00f34b0985a134ff1058088ade394e6e05c2df377c6a441302881427e8b0310a",
+    "page-02.png": "9e525e0f3bc6b89f50cf5d8fb6994bed8b4cf200b1ec60964262b689a36af6f5",
+    "page-03.png": "41cf6f0650c91317446a044689177d90a630f044dcc2b27b77839b22bd73108f",
+    "page-04.png": "383f3a6f93e2023d8e1e1218bfd68e4d9d1b483c8afcd50367a094a11962d65d",
+    "page-05.png": "3da4fd5a4edb66a681610da8ee735c6cb43e3cea65a311d4c543f0edea9c2d6a",
+    "page-06.png": "f5930deb3c7c3f6a8675ee2d58ea6b4233119722d2ff0f78c0ae652441d6e873",
+    "page-07.png": "a65325032f2bc0baba5483461b8c91e0fb91fc4b2a5a4e870244d35b193c5384",
+    "page-08.png": "3c6ca123c26033024b6b9bb9f1242ec58f66ca6b0449fe365005006db7416a8c",
+    "page-09.png": "cf7b56fb9e719d5ac65688824a460c7bd303b9094ee5f19a585b6ad8d6ca49be",
+    "page-10.png": "f650447fe261aeeb31a0d4b0ba8b5e688f58ebdf5a1aceef306cca89126c9d84",
+    "page-11.png": "0f7d03ba932f18d5c6bee1535e0d87e14ccb5dd90e1542d649643817cae8c29d",
+    "page-12.png": "7c95795de9082f9418d57e975921cffa8d1b9685a6132c0be7a616496a9ac6fc",
+    "page-13.png": "ac9f22a2ab13da1924217e7063c89fef1c9ba0926dd2580ac85d96487e0ee9a6",
+    "page-14.png": "e1e80d931da4ae9627ecea653eec2b9aaa1ca4b00c59031c3c42944f48903b4b",
+    "page-15.png": "d652562d73a3d8158eed79276f41fd56aa013505022ff3880b591c3e904f8faa"
+  },
+  "issues_found_and_resolved": [
+    "Oversized aligned definition displays split into proper rows.",
+    "Long contents subsection number width enlarged.",
+    "Journal proof index made nonfloating with legible table rows.",
+    "All source-map/companion links point to fixed publication tag."
+  ],
+  "remaining_visual_defects": []
+}

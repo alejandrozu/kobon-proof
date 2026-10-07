@@ -1,0 +1,19 @@
+Kobon/OpenMathAxisCapCone.lean:138:27: warning: This simp argument is unused:
+  if_pos rfl
+
+Hint: Omit it from the simp argument list.
+  s̵i̵m̵p̵ ̵o̵n̵l̵y̵ ̵[̵a̵r̵r̵a̵n̵g̵e̵m̵e̵n̵t̵,̵i̵f̵_̵p̵o̵s̵ ̵r̵f̵l̵,̵s̵h̵o̵w̵ ̵j̵+̵1̵≠̵0̵ ̵b̵y̵ ̵o̵m̵e̵g̵a̵,̵s̵h̵o̵w̵ ̵j̵+̵2̵≠̵0̵ ̵b̵y̵ ̵o̵m̵e̵g̵a̵,̵
+  ̵ ̵ ̵ ̵ ̵ ̵ ̵i̵f̵_̵f̵a̵l̵s̵e̵,̵i̵f̵_̵t̵r̵u̵e̵,̵N̵a̵t̵.̵a̵d̵d̵_̵s̵u̵b̵_̵c̵a̵n̵c̵e̵l̵,̵s̵h̵o̵w̵ ̵j̵+̵2̵-̵1̵=̵j̵+̵1̵ ̵b̵y̵ ̵o̵m̵e̵g̵a̵]̵s̲i̲m̲p̲ ̲o̲n̲l̲y̲ ̲[̲a̲r̲r̲a̲n̲g̲e̲m̲e̲n̲t̲,̲ ̲s̲h̲o̲w̲ ̲j̲ ̲+̲ ̲1̲ ̲≠̲ ̲0̲ ̲b̲y̲ ̲o̲m̲e̲g̲a̲,̲ ̲s̲h̲o̲w̲ ̲j̲ ̲+̲ ̲2̲ ̲≠̲ ̲0̲ ̲b̲y̲ ̲o̲m̲e̲g̲a̲,̲ ̲i̲f̲_̲f̲a̲l̲s̲e̲,̲ ̲i̲f̲_̲t̲r̲u̲e̲,̲
+  ̲ ̲ ̲ ̲ ̲N̲a̲t̲.̲a̲d̲d̲_̲s̲u̲b̲_̲c̲a̲n̲c̲e̲l̲,̲ ̲s̲h̲o̲w̲ ̲j̲ ̲+̲ ̲2̲ ̲-̲ ̲1̲ ̲=̲ ̲j̲ ̲+̲ ̲1̲ ̲b̲y̲ ̲o̲m̲e̲g̲a̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Kobon/OpenMathAxisCapCone.lean:144:32: warning: This simp argument is unused:
+  if_pos rfl
+
+Hint: Omit it from the simp argument list.
+  simp only [̵h̵z̵,̵a̵r̵r̵a̵n̵g̵e̵m̵e̵n̵t̵,̵i̵f̵_̵p̵o̵s̵ ̵r̵f̵l̵,̵s̵h̵o̵w̵ ̵j̵+̵1̵≠̵0̵[̲h̲z̲,̲ ̲a̲r̲r̲a̲n̲g̲e̲m̲e̲n̲t̲,̲ ̲s̲h̲o̲w̲ ̲j̲ ̲+̲ ̲1̲ ̲≠̲ ̲0̲ by o̵m̵e̵g̵a̵,̵s̵h̵o̵w̵ ̵j̵+̵2̵≠̵0̵o̲m̲e̲g̲a̲,̲ ̲s̲h̲o̲w̲ ̲j̲ ̲+̲ ̲2̲ ̲≠̲ ̲0̲ by omega, i̵f̵_̵f̵a̵l̵s̵e̵,̵i̵f̵_̵t̵r̵u̵e̵,̵N̵a̵t̵.̵a̵d̵d̵_̵s̵u̵b̵_̵c̵a̵n̵c̵e̵l̵,̵s̵h̵o̵w̵ ̵j̵+̵2̵-̵1̵=̵j̵+̵1̵i̲f̲_̲f̲a̲l̲s̲e̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲i̲f̲_̲t̲r̲u̲e̲,̲ ̲N̲a̲t̲.̲a̲d̲d̲_̲s̲u̲b̲_̲c̲a̲n̲c̲e̲l̲,̲ ̲s̲h̲o̲w̲ ̲j̲ ̲+̲ ̲2̲ ̲-̲ ̲1̲ ̲=̲ ̲j̲ ̲+̲ ̲1̲ by omega]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Kobon.OpenMathAxisCapCone.capRegion_convex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathAxisCapCone.capRegion_triangle' depends on axioms: [propext, Classical.choice, Quot.sound]

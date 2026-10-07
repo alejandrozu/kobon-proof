@@ -1,0 +1,19 @@
+Kobon/UpperOpenMathTripleOrdinaryBudget.lean:113:25: warning: This simp argument is unused:
+  ite_true
+
+Hint: Omit it from the simp argument list.
+  simp only [̵h̵e̵,̵h̵b̵,̵i̵t̵e̵_̵t̵r̵u̵e̵,̵i̵t̵e̵_̵f̵a̵l̵s̵e̵]̵[̲h̲e̲,̲ ̲h̲b̲,̲ ̲i̲t̲e̲_̲f̲a̲l̲s̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Kobon.UpperOpenMathTripleOrdinaryBudget.certificate_ordinary_budget_with_extremals' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathTripleOrdinaryBudget.certificate_ordinary_to_core_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathTripleOrdinaryBudget.certificate_triple_defect_core_density_with_extremals' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathTripleOrdinaryBudget.certificate_triple_defect_core_density' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

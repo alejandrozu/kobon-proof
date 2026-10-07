@@ -1,0 +1,19 @@
+Kobon/OpenMathBoundaryMinimum.lean:21:50: warning: This simp argument is unused:
+  if_false
+
+Hint: Omit it from the simp argument list.
+  simp only [̵p̵a̵r̵a̵m̵e̵t̵e̵r̵,̵c̵o̵o̵r̵d̵i̵n̵a̵t̵e̵R̵a̵y̵,̵h̵b̵,̵i̵f̵_̵t̵r̵u̵e̵,̵i̵f̵_̵f̵a̵l̵s̵e̵,̵p̵r̵o̵j̵e̵c̵t̵i̵o̵n̵]̵[̲p̲a̲r̲a̲m̲e̲t̲e̲r̲,̲ ̲c̲o̲o̲r̲d̲i̲n̲a̲t̲e̲R̲a̲y̲,̲ ̲h̲b̲,̲ ̲i̲f̲_̲t̲r̲u̲e̲,̲ ̲p̲r̲o̲j̲e̲c̲t̲i̲o̲n̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Kobon/OpenMathBoundaryMinimum.lean:23:42: warning: This simp argument is unused:
+  if_true
+
+Hint: Omit it from the simp argument list.
+  simp only [parameter, ̲coordinateRay, ̲hb, ̲if_t̵r̵u̵e̵,̵i̵f_̵f̵alse, ̲projection]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Kobon.OpenMathBoundaryMinimum.terminal_of_max_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathBoundaryMinimum.maximal_vertex_double' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathBoundaryMinimum.tangent_positive_at_maximum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathBoundaryMinimum.normal_selects_vertex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathBoundaryMinimum.double_terminal_minimum' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,21 @@
+Kobon/UpperOpenMathComponentBoundary.lean:26:18: warning: Variable name `s` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Kobon/UpperOpenMathComponentBoundary.lean:94:19: warning: This simp argument is unused:
+  sum_ite
+
+Hint: Omit it from the simp argument list.
+  simp [boundary,̵s̵u̵m̵_̵i̵t̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Kobon.UpperOpenMathComponentBoundary.certificate_closed_boundary_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathComponentBoundary.certificate_component_boundary_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathComponentBoundary.certificate_component_boundary_resources' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

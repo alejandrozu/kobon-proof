@@ -1,0 +1,94 @@
+{
+  "axis": 7,
+  "corridor": 6,
+  "coincident_source_line": null,
+  "corridor_root": -3,
+  "margin": 0.10872306174140227,
+  "status": 0,
+  "passed": true,
+  "exact_ledger": {
+    "n": 8,
+    "T": 15,
+    "q": 2,
+    "multiplicities": {
+      "3": 2
+    },
+    "D1": 4,
+    "D2": 0,
+    "U": 1,
+    "C": 8,
+    "Rc": 0,
+    "H": 0,
+    "deficit": 3,
+    "first_slack": -2,
+    "second_slack": 6
+  },
+  "backbone_T": 11,
+  "n": 8,
+  "q": 6,
+  "source": "research\\six-hour-2026-09-21\\general-bounds\\parpalak-utkin-current\\certificate-008.json",
+  "backbone_indices": [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "corridor_index": 1,
+  "source_labels": [
+    7,
+    6,
+    4,
+    5,
+    2,
+    3,
+    0,
+    1
+  ],
+  "epsilon": "1/10000",
+  "lines_frac": [
+    [
+      "0",
+      "1",
+      "0"
+    ],
+    [
+      "1",
+      "-155681390692544539023736242731/155627489084946681190157129452",
+      "-3"
+    ],
+    [
+      "1",
+      "-311775705156/135600080411",
+      "-1623568120121303/937367491199729"
+    ],
+    [
+      "1",
+      "-147159281442055970527465616147744414990717/68861887620547723092865125235239237653364",
+      "-308240993349296/533889061456481"
+    ],
+    [
+      "1",
+      "-2162343015469/807682516672",
+      "-1/10000"
+    ],
+    [
+      "1",
+      "-205078152716/85167023607",
+      "1/10000"
+    ],
+    [
+      "1",
+      "-3",
+      "308240993349296/533889061456481"
+    ],
+    [
+      "1",
+      "-1688170937219/605960523549",
+      "1623568120121303/937367491199729"
+    ]
+  ],
+  "status_note": "Exact rational coupled8/15 and7/11 point with genuine BBL root layout; actual tangent uniform parameter and corridor transfer theorem pending"
+}

@@ -1,0 +1,6 @@
+'Kobon.UpperOpenMathAntipodalConeIncidence.two_cone_edge_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Kobon.UpperOpenMathAntipodalConeIncidence.certificate_two_anti_le_nonfull_cross_edges' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

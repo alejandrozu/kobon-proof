@@ -1,0 +1,3 @@
+'Kobon.UpperOpenMathPerfectCoreCycle.certificate_perfect_degree_two_is_simple' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

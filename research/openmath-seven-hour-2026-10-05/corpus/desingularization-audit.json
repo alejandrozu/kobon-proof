@@ -1,0 +1,369 @@
+{
+  "source": {
+    "url": "https://zenodo.org/records/21181452",
+    "version": "v1",
+    "record_date": "2026-07-03",
+    "pdf_date": "2026-06-29",
+    "pdf_sha256": "c8e399a0ed3f0078d3d2f8799699829ebc85cbb5f6f6bdbbc70f731179f87e06",
+    "statement": "Theorem1.1, printed page2; proof printed page3",
+    "short_exact_definition": "whose interior lies in H_i",
+    "formula": "T(A_prime)=T(A)+1-tau_i",
+    "scope": "An isolated triple point, with every other vertex ordinary; translate one incident line into a chosen open half-plane"
+  },
+  "four_line": {
+    "old_lines": [
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        -1,
+        0
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        2,
+        1,
+        2
+      ]
+    ],
+    "new_lines": [
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        100,
+        -100,
+        -1
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        2,
+        1,
+        2
+      ]
+    ],
+    "old_ledger": {
+      "n": 4,
+      "T": 2,
+      "q": 1,
+      "multiplicities": {
+        "3": 1
+      },
+      "D1": 1,
+      "D2": 0,
+      "U": 0,
+      "C": 2,
+      "Rc": 3,
+      "H": 0,
+      "deficit": 2,
+      "first_slack": 0,
+      "second_slack": 6
+    },
+    "new_ledger": {
+      "n": 4,
+      "T": 2,
+      "q": 0,
+      "multiplicities": {},
+      "D1": 0,
+      "D2": 0,
+      "U": 2,
+      "C": 0,
+      "Rc": 0,
+      "H": 0,
+      "deficit": 2,
+      "first_slack": 0,
+      "second_slack": 6
+    },
+    "old_triangles": [
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3
+      ]
+    ],
+    "new_triangles": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        2,
+        3
+      ]
+    ],
+    "shift": "y=x -> y=x+1/100",
+    "tau_opposite_halfplane": 0,
+    "lean_interval": "Every0<epsilon<1, not just a finite example"
+  },
+  "six_line": [
+    {
+      "label": "old",
+      "lines": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          -1,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          -2,
+          1,
+          2
+        ],
+        [
+          1,
+          4,
+          -4
+        ]
+      ],
+      "ledger": {
+        "n": 6,
+        "T": 6,
+        "q": 1,
+        "multiplicities": {
+          "3": 1
+        },
+        "D1": 0,
+        "D2": 0,
+        "U": 3,
+        "C": 6,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 6,
+        "first_slack": 0,
+        "second_slack": 12
+      },
+      "triangles": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          5
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          0,
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "label": "up",
+      "lines": [
+        [
+          0,
+          100,
+          1
+        ],
+        [
+          1,
+          -1,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          -2,
+          1,
+          2
+        ],
+        [
+          1,
+          4,
+          -4
+        ]
+      ],
+      "ledger": {
+        "n": 6,
+        "T": 7,
+        "q": 0,
+        "multiplicities": {},
+        "D1": 0,
+        "D2": 0,
+        "U": 3,
+        "C": 0,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 3,
+        "first_slack": 0,
+        "second_slack": 6
+      },
+      "triangles": [
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          5
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "label": "down",
+      "lines": [
+        [
+          0,
+          100,
+          -1
+        ],
+        [
+          1,
+          -1,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          -2,
+          1,
+          2
+        ],
+        [
+          1,
+          4,
+          -4
+        ]
+      ],
+      "ledger": {
+        "n": 6,
+        "T": 4,
+        "q": 0,
+        "multiplicities": {},
+        "D1": 0,
+        "D2": 0,
+        "U": 12,
+        "C": 0,
+        "Rc": 0,
+        "H": 0,
+        "deficit": 12,
+        "first_slack": 18,
+        "second_slack": 6
+      },
+      "triangles": [
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ]
+    }
+  ],
+  "broken_alternating_sectors": [
+    0,
+    2,
+    4
+  ],
+  "status": "Exact rational independent geometry plus separately audited Lean interval proofs; no broader preprint-invalidity claim"
+}

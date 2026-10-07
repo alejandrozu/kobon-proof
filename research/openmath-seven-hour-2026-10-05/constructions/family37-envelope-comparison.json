@@ -1,0 +1,181 @@
+{
+  "scope": "Known numerical q18 orbit, now fully verified as an additional portfolio branch; unrestricted even finite witnesses may be stronger",
+  "rows": [
+    {
+      "t": 0,
+      "parity": "odd",
+      "n": 37,
+      "prior_certified": 431,
+      "new_family": 431,
+      "retained_max": 431,
+      "gain": 0,
+      "baseline_gain": 10,
+      "simple_upper_gap": 0
+    },
+    {
+      "t": 0,
+      "parity": "even",
+      "n": 38,
+      "prior_certified": 450,
+      "new_family": 449,
+      "retained_max": 450,
+      "gain": 0,
+      "baseline_gain": 5,
+      "simple_upper_gap": 0
+    },
+    {
+      "t": 1,
+      "parity": "odd",
+      "n": 73,
+      "prior_certified": 1705,
+      "new_family": 1727,
+      "retained_max": 1727,
+      "gain": 22,
+      "baseline_gain": 22,
+      "simple_upper_gap": 0
+    },
+    {
+      "t": 1,
+      "parity": "even",
+      "n": 74,
+      "prior_certified": 1752,
+      "new_family": 1763,
+      "retained_max": 1763,
+      "gain": 11,
+      "baseline_gain": 11,
+      "simple_upper_gap": 0
+    },
+    {
+      "t": 2,
+      "parity": "odd",
+      "n": 145,
+      "prior_certified": 6865,
+      "new_family": 6911,
+      "retained_max": 6911,
+      "gain": 46,
+      "baseline_gain": 46,
+      "simple_upper_gap": 0
+    },
+    {
+      "t": 2,
+      "parity": "even",
+      "n": 146,
+      "prior_certified": 6960,
+      "new_family": 6983,
+      "retained_max": 6983,
+      "gain": 23,
+      "baseline_gain": 23,
+      "simple_upper_gap": 0
+    },
+    {
+      "t": 3,
+      "parity": "odd",
+      "n": 289,
+      "prior_certified": 27553,
+      "new_family": 27647,
+      "retained_max": 27647,
+      "gain": 94,
+      "baseline_gain": 94,
+      "simple_upper_gap": 0
+    },
+    {
+      "t": 3,
+      "parity": "even",
+      "n": 290,
+      "prior_certified": 27744,
+      "new_family": 27791,
+      "retained_max": 27791,
+      "gain": 47,
+      "baseline_gain": 47,
+      "simple_upper_gap": 0
+    },
+    {
+      "t": 4,
+      "parity": "odd",
+      "n": 577,
+      "prior_certified": 110401,
+      "new_family": 110591,
+      "retained_max": 110591,
+      "gain": 190,
+      "baseline_gain": 190,
+      "simple_upper_gap": 0
+    },
+    {
+      "t": 4,
+      "parity": "even",
+      "n": 578,
+      "prior_certified": 110784,
+      "new_family": 110879,
+      "retained_max": 110879,
+      "gain": 95,
+      "baseline_gain": 95,
+      "simple_upper_gap": 0
+    },
+    {
+      "t": 5,
+      "parity": "odd",
+      "n": 1153,
+      "prior_certified": 441985,
+      "new_family": 442367,
+      "retained_max": 442367,
+      "gain": 382,
+      "baseline_gain": 382,
+      "simple_upper_gap": 0
+    },
+    {
+      "t": 5,
+      "parity": "even",
+      "n": 1154,
+      "prior_certified": 442752,
+      "new_family": 442943,
+      "retained_max": 442943,
+      "gain": 191,
+      "baseline_gain": 191,
+      "simple_upper_gap": 0
+    },
+    {
+      "t": 6,
+      "parity": "odd",
+      "n": 2305,
+      "prior_certified": 1768705,
+      "new_family": 1769471,
+      "retained_max": 1769471,
+      "gain": 766,
+      "baseline_gain": 766,
+      "simple_upper_gap": 0
+    },
+    {
+      "t": 6,
+      "parity": "even",
+      "n": 2306,
+      "prior_certified": 1770240,
+      "new_family": 1770623,
+      "retained_max": 1770623,
+      "gain": 383,
+      "baseline_gain": 383,
+      "simple_upper_gap": 0
+    },
+    {
+      "t": 7,
+      "parity": "odd",
+      "n": 4609,
+      "prior_certified": 7076353,
+      "new_family": 7077887,
+      "retained_max": 7077887,
+      "gain": 1534,
+      "baseline_gain": 1534,
+      "simple_upper_gap": 0
+    },
+    {
+      "t": 7,
+      "parity": "even",
+      "n": 4610,
+      "prior_certified": 7079424,
+      "new_family": 7080191,
+      "retained_max": 7080191,
+      "gain": 767,
+      "baseline_gain": 767,
+      "simple_upper_gap": 0
+    }
+  ]
+}

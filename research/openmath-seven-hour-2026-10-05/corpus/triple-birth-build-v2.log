@@ -1,0 +1,81 @@
+Kobon/OpenMathTripleBirth.lean:114:29: error: don't know how to synthesize implicit argument `b`
+  @mul_neg_of_neg_of_pos ℝ instMulZeroClassOfSemiring (affineEval (L ↑r) (intersection (L ↑i) (L ↑j))) ?m.324
+    Real.instPreorder Real.instIsStrictOrderedRing.toMulPosStrictMono hn
+context:
+n : ℕ
+L : ℕ → Line ℝ
+i j k : Fin n
+hi : i < j
+hj : j < k
+hp : NoParallel n L
+hc : affineEval (L ↑k) (intersection (L ↑i) (L ↑j)) = 0
+hother : ∀ (r : Fin n), r ≠ i → r ≠ j → r ≠ k → affineEval (L ↑r) (intersection (L ↑i) (L ↑j)) ≠ 0
+hij : det (L ↑i) (L ↑j) ≠ 0
+hik : det (L ↑i) (L ↑k) ≠ 0
+hjk : det (L ↑j) (L ↑k) ≠ 0
+c : Point := ⋯
+hci : affineEval (L ↑i) c = 0
+hcj : affineEval (L ↑j) c = 0
+hck : affineEval (L ↑k) c = 0
+eik : c = intersection (L ↑i) (L ↑k)
+ejk : c = intersection (L ↑j) (L ↑k)
+hz : evalVertex (L ↑k) (L ↑i) (L ↑j) = 0
+r : Fin n
+hri : ¬r = i
+hrj : ¬r = j
+hrk : ¬r = k
+hrc : affineEval (L ↑r) (intersection (L ↑i) (L ↑j)) ≠ 0
+hs1 : orientedEval (L ↑r) (L ↑i) (L ↑j) = affineEval (L ↑r) c * det (L ↑i) (L ↑j) ^ 2
+hs2 : orientedEval (L ↑r) (L ↑i) (L ↑k) = affineEval (L ↑r) c * det (L ↑i) (L ↑k) ^ 2
+hs3 : orientedEval (L ↑r) (L ↑j) (L ↑k) = affineEval (L ↑r) c * det (L ↑j) (L ↑k) ^ 2
+hn : affineEval (L ↑r) (intersection (L ↑i) (L ↑j)) < 0
+⊢ ℝ
+Kobon/OpenMathTripleBirth.lean:114:21: error: failed to infer `have` declaration type
+Kobon/OpenMathTripleBirth.lean:91:2: error: unsolved goals
+case neg.inr
+n : ℕ
+L : ℕ → Line ℝ
+i j k : Fin n
+hi : i < j
+hj : j < k
+hp : NoParallel n L
+hc : affineEval (L ↑k) (intersection (L ↑i) (L ↑j)) = 0
+hother : ∀ (r : Fin n), r ≠ i → r ≠ j → r ≠ k → affineEval (L ↑r) (intersection (L ↑i) (L ↑j)) ≠ 0
+hij : det (L ↑i) (L ↑j) ≠ 0
+hik : det (L ↑i) (L ↑k) ≠ 0
+hjk : det (L ↑j) (L ↑k) ≠ 0
+c : Point := intersection (L ↑i) (L ↑j)
+hci : affineEval (L ↑i) c = 0
+hcj : affineEval (L ↑j) c = 0
+hck : affineEval (L ↑k) c = 0
+eik : c = intersection (L ↑i) (L ↑k)
+ejk : c = intersection (L ↑j) (L ↑k)
+hz : evalVertex (L ↑k) (L ↑i) (L ↑j) = 0
+r : Fin n
+hri : ¬r = i
+hrj : ¬r = j
+hrk : ¬r = k
+hrc : affineEval (L ↑r) (intersection (L ↑i) (L ↑j)) ≠ 0
+hs1 : orientedEval (L ↑r) (L ↑i) (L ↑j) = affineEval (L ↑r) c * det (L ↑i) (L ↑j) ^ 2
+hs2 : orientedEval (L ↑r) (L ↑i) (L ↑k) = affineEval (L ↑r) c * det (L ↑i) (L ↑k) ^ 2
+hs3 : orientedEval (L ↑r) (L ↑j) (L ↑k) = affineEval (L ↑r) c * det (L ↑j) (L ↑k) ^ 2
+hpos : 0 < affineEval (L ↑r) (intersection (L ↑i) (L ↑j))
+⊢ Nonnegative (orientedEval (L ↑r) (L { i := ↑i, j := ↑j, k := ↑k }.i) (L { i := ↑i, j := ↑j, k := ↑k }.j))
+        (sideSlope L ↑k ↑r { i := ↑i, j := ↑j, k := ↑k }.i { i := ↑i, j := ↑j, k := ↑k }.j) ∧
+      Nonnegative (orientedEval (L ↑r) (L { i := ↑i, j := ↑j, k := ↑k }.i) (L { i := ↑i, j := ↑j, k := ↑k }.k))
+          (sideSlope L ↑k ↑r { i := ↑i, j := ↑j, k := ↑k }.i { i := ↑i, j := ↑j, k := ↑k }.k) ∧
+        Nonnegative (orientedEval (L ↑r) (L { i := ↑i, j := ↑j, k := ↑k }.j) (L { i := ↑i, j := ↑j, k := ↑k }.k))
+          (sideSlope L ↑k ↑r { i := ↑i, j := ↑j, k := ↑k }.j { i := ↑i, j := ↑j, k := ↑k }.k) ∨
+    Nonpositive (orientedEval (L ↑r) (L { i := ↑i, j := ↑j, k := ↑k }.i) (L { i := ↑i, j := ↑j, k := ↑k }.j))
+        (sideSlope L ↑k ↑r { i := ↑i, j := ↑j, k := ↑k }.i { i := ↑i, j := ↑j, k := ↑k }.j) ∧
+      Nonpositive (orientedEval (L ↑r) (L { i := ↑i, j := ↑j, k := ↑k }.i) (L { i := ↑i, j := ↑j, k := ↑k }.k))
+          (sideSlope L ↑k ↑r { i := ↑i, j := ↑j, k := ↑k }.i { i := ↑i, j := ↑j, k := ↑k }.k) ∧
+        Nonpositive (orientedEval (L ↑r) (L { i := ↑i, j := ↑j, k := ↑k }.j) (L { i := ↑i, j := ↑j, k := ↑k }.k))
+          (sideSlope L ↑k ↑r { i := ↑i, j := ↑j, k := ↑k }.j { i := ↑i, j := ↑j, k := ↑k }.k)
+Kobon/OpenMathTripleBirth.lean:115:8: error: unexpected token '('; expected command
+'Kobon.OpenMathTripleBirth.support_side_germ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathTripleBirth.tiny_triangle_germ' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'Kobon.OpenMathTripleBirth.triangle_free_triple_gain' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]

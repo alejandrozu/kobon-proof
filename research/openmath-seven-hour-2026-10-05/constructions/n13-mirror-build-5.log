@@ -1,0 +1,29 @@
+research/openmath-seven-hour-2026-10-05/constructions/N13MirrorScratch.lean:60:2: error: 'change' tactic failed, pattern
+  z ∈ (mirror f a).triangular ∧ z - 1 ∈ (mirror f a).triangular ↔ a - z ∈ f.triangular ∧ a - z - 1 ∈ f.triangular
+is not definitionally equal to target
+  z ∈ (mirror f a).shared ↔ a - z ∈ f.shared
+research/openmath-seven-hour-2026-10-05/constructions/N13MirrorScratch.lean:69:2: error: 'change' tactic failed, pattern
+  z ∈ (mirror f a).shared ∧ OrdinaryAt n L (f.point (a - z)) ↔ a - z ∈ f.shared ∧ OrdinaryAt n L (f.point (a - z))
+is not definitionally equal to target
+  z ∈ (mirror f a).ordinaryShared ↔ a - z ∈ f.ordinaryShared
+research/openmath-seven-hour-2026-10-05/constructions/N13MirrorScratch.lean:75:2: error: 'change' tactic failed, pattern
+  z ∈ (mirror f a).shared ∧ z ∉ (mirror f a).ordinaryShared ↔ a - z ∈ f.shared ∧ a - z ∉ f.ordinaryShared
+is not definitionally equal to target
+  z ∈ (mirror f a).coreShared ↔ a - z ∈ f.coreShared
+research/openmath-seven-hour-2026-10-05/constructions/N13MirrorScratch.lean:81:36: error: unsolved goals
+n : ℕ
+L : ℕ → Line ℝ
+f : Sectors n 3 L
+a : ZMod 6
+full : f.triangular = univ
+z : ZMod (2 * 3)
+⊢ z ∈ (mirror f a).triangular
+research/openmath-seven-hour-2026-10-05/constructions/N13MirrorScratch.lean:83:8: warning: This simp argument is unused:
+  full
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵f̵u̵l̵l̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Kobon.UpperOpenMathN13MirrorScratch.mirror' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathN13MirrorScratch.mirror_area' depends on axioms: [propext, Classical.choice, Quot.sound]

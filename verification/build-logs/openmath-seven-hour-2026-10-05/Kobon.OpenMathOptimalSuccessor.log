@@ -1,0 +1,3 @@
+'Kobon.OpenMathOptimalSuccessor.successor_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathOptimalSuccessor.optimal_odd_to_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Kobon.OpenMathOptimalSuccessor.even_optimality' depends on axioms: [propext, Classical.choice, Quot.sound]

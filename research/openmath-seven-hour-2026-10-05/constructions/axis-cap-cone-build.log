@@ -1,0 +1,257 @@
+Kobon/OpenMathAxisCapCone.lean:48:26: error: linarith failed to find a contradiction
+x y t : ℝ
+hx : 0 < x
+hy : 0 < y
+ht : 0 ≤ t
+ht1 : t ≤ 1
+he : ¬t = 1
+a✝ : 1 - t ≤ 0
+⊢ False
+failed
+Kobon/OpenMathAxisCapCone.lean:135:13: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  e ≥ 0
+  d ≥ 0
+  d - e ≥ 0
+  c ≥ 0
+  b ≥ 0
+  b - c ≥ 2
+where
+ b := ↑q
+ c := ↑j
+ d := ↑{ i := 0, j := j + 1, k := j + 2 }.i
+ e := ↑{ i := 0, j := j + 1, k := j + 2 }.j
+Kobon/OpenMathAxisCapCone.lean:135:22: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  e ≥ 0
+  d ≥ 0
+  d - e ≥ 0
+  c ≥ 0
+  b ≥ 0
+  b - c ≥ 2
+where
+ b := ↑q
+ c := ↑j
+ d := ↑{ i := 0, j := j + 1, k := j + 2 }.j
+ e := ↑{ i := 0, j := j + 1, k := j + 2 }.k
+Kobon/OpenMathAxisCapCone.lean:135:31: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  d ≥ 0
+  c ≥ 0
+  b ≥ 0
+  b - c ≥ 2
+  b - d ≤ -1
+where
+ b := ↑q
+ c := ↑j
+ d := ↑{ i := 0, j := j + 1, k := j + 2 }.k
+Kobon/OpenMathAxisCapCone.lean:157:25: error: linarith failed to find a contradiction
+q : ℕ
+a : ℕ → ℝ
+above : ℕ → Bool
+u : ℕ → ℝ
+ha : StrictMonoOn a (Set.Iio q)
+hu : CapRegion q a above u
+j : ℕ
+hj : j + 1 < q
+hajn : j < q
+haj : a j < a (j + 1)
+hp :
+  u j - u (j + 1) ≠ 0 ∧
+    ∀ r < q, (r < j → 0 ≤ wall a u j r * (u j - u (j + 1))) ∧ (j + 1 < r → wall a u j r * (u j - u (j + 1)) ≤ 0)
+r : Fin (q + 1)
+hz : ¬↑r = 0
+hr : ↑r - 1 < q
+hl : ↑r - 1 < j
+har : a (↑r - 1) < a j
+a✝ :
+  orientedEval (reciprocalLine a u (↑r - 1)) (if True then axis else reciprocalLine a u (0 - 1))
+      (reciprocalLine a u j) <
+    0
+⊢ False
+failed
+Kobon/OpenMathAxisCapCone.lean:157:37: error: linarith failed to find a contradiction
+q : ℕ
+a : ℕ → ℝ
+above : ℕ → Bool
+u : ℕ → ℝ
+ha : StrictMonoOn a (Set.Iio q)
+hu : CapRegion q a above u
+j : ℕ
+hj : j + 1 < q
+hajn : j < q
+haj : a j < a (j + 1)
+hp :
+  u j - u (j + 1) ≠ 0 ∧
+    ∀ r < q, (r < j → 0 ≤ wall a u j r * (u j - u (j + 1))) ∧ (j + 1 < r → wall a u j r * (u j - u (j + 1)) ≤ 0)
+r : Fin (q + 1)
+hz : ¬↑r = 0
+hr : ↑r - 1 < q
+hl : ↑r - 1 < j
+har : a (↑r - 1) < a j
+a✝ :
+  orientedEval (reciprocalLine a u (↑r - 1)) (if True then axis else reciprocalLine a u (0 - 1))
+      (reciprocalLine a u (j + 1)) <
+    0
+⊢ False
+failed
+Kobon/OpenMathAxisCapCone.lean:160:27: error: linarith failed to find a contradiction
+q : ℕ
+a : ℕ → ℝ
+above : ℕ → Bool
+u : ℕ → ℝ
+ha : StrictMonoOn a (Set.Iio q)
+hu : CapRegion q a above u
+j : ℕ
+hj : j + 1 < q
+hajn : j < q
+haj : a j < a (j + 1)
+hp :
+  u j - u (j + 1) ≠ 0 ∧
+    ∀ r < q, (r < j → 0 ≤ wall a u j r * (u j - u (j + 1))) ∧ (j + 1 < r → wall a u j r * (u j - u (j + 1)) ≤ 0)
+r : Fin (q + 1)
+hz : ¬↑r = 0
+hr : ↑r - 1 < q
+hl : ¬↑r - 1 < j
+hh : j + 1 < ↑r - 1
+har : a (j + 1) < a (↑r - 1)
+a✝ :
+  0 <
+    orientedEval (reciprocalLine a u (↑r - 1)) (if True then axis else reciprocalLine a u (0 - 1))
+      (reciprocalLine a u j)
+⊢ False
+failed
+Kobon/OpenMathAxisCapCone.lean:160:39: error: linarith failed to find a contradiction
+q : ℕ
+a : ℕ → ℝ
+above : ℕ → Bool
+u : ℕ → ℝ
+ha : StrictMonoOn a (Set.Iio q)
+hu : CapRegion q a above u
+j : ℕ
+hj : j + 1 < q
+hajn : j < q
+haj : a j < a (j + 1)
+hp :
+  u j - u (j + 1) ≠ 0 ∧
+    ∀ r < q, (r < j → 0 ≤ wall a u j r * (u j - u (j + 1))) ∧ (j + 1 < r → wall a u j r * (u j - u (j + 1)) ≤ 0)
+r : Fin (q + 1)
+hz : ¬↑r = 0
+hr : ↑r - 1 < q
+hl : ¬↑r - 1 < j
+hh : j + 1 < ↑r - 1
+har : a (j + 1) < a (↑r - 1)
+a✝ :
+  0 <
+    orientedEval (reciprocalLine a u (↑r - 1)) (if True then axis else reciprocalLine a u (0 - 1))
+      (reciprocalLine a u (j + 1))
+⊢ False
+failed
+Kobon/OpenMathAxisCapCone.lean:164:36: error: linarith failed to find a contradiction
+q : ℕ
+a : ℕ → ℝ
+above : ℕ → Bool
+u : ℕ → ℝ
+ha : StrictMonoOn a (Set.Iio q)
+hu : CapRegion q a above u
+j : ℕ
+hj : j + 1 < q
+hajn : j < q
+haj : a j < a (j + 1)
+hp :
+  u j - u (j + 1) ≠ 0 ∧
+    ∀ r < q, (r < j → 0 ≤ wall a u j r * (u j - u (j + 1))) ∧ (j + 1 < r → wall a u j r * (u j - u (j + 1)) ≤ 0)
+r : Fin (q + 1)
+hz : ¬↑r = 0
+hr : ↑r - 1 < q
+hl : ¬↑r - 1 < j
+hh : ¬j + 1 < ↑r - 1
+he : ↑r - 1 = j
+a✝ :
+  orientedEval (reciprocalLine a u j) (if True then axis else reciprocalLine a u (0 - 1)) (reciprocalLine a u (j + 1)) <
+    0
+⊢ False
+failed
+Kobon/OpenMathAxisCapCone.lean:164:26: error: Application type mismatch: The argument
+  le_rfl
+has type
+  ?m.380 ≤ ?m.380
+but is expected to have type
+  0 ≤ orientedEval (reciprocalLine a u j) (if True then axis else reciprocalLine a u (0 - 1)) (reciprocalLine a u j)
+in the application
+  And.intro le_rfl
+Kobon/OpenMathAxisCapCone.lean:166:29: error: linarith failed to find a contradiction
+q : ℕ
+a : ℕ → ℝ
+above : ℕ → Bool
+u : ℕ → ℝ
+ha : StrictMonoOn a (Set.Iio q)
+hu : CapRegion q a above u
+j : ℕ
+hj : j + 1 < q
+hajn : j < q
+haj : a j < a (j + 1)
+hp :
+  u j - u (j + 1) ≠ 0 ∧
+    ∀ r < q, (r < j → 0 ≤ wall a u j r * (u j - u (j + 1))) ∧ (j + 1 < r → wall a u j r * (u j - u (j + 1)) ≤ 0)
+r : Fin (q + 1)
+hz : ¬↑r = 0
+hr : ↑r - 1 < q
+hl : ¬↑r - 1 < j
+hh : ¬j + 1 < ↑r - 1
+he : ↑r - 1 = j + 1
+a✝ :
+  0 <
+    orientedEval (reciprocalLine a u (j + 1)) (if True then axis else reciprocalLine a u (0 - 1)) (reciprocalLine a u j)
+⊢ False
+failed
+Kobon/OpenMathAxisCapCone.lean:166:38: error: Application type mismatch: The argument
+  le_rfl
+has type
+  ?m.398 ≤ ?m.398
+but is expected to have type
+  orientedEval (reciprocalLine a u (j + 1)) (if True then axis else reciprocalLine a u (0 - 1))
+      (reciprocalLine a u (j + 1)) ≤
+    0
+in the application
+  And.intro le_rfl
+Kobon/OpenMathAxisCapCone.lean:136:27: warning: This simp argument is unused:
+  if_pos rfl
+
+Hint: Omit it from the simp argument list.
+  simp only [̵a̵r̵r̵a̵n̵g̵e̵m̵e̵n̵t̵,̵i̵f̵_̵p̵o̵s̵ ̵r̵f̵l̵,̵s̵h̵o̵w̵ ̵j̵+̵1̵≠̵0̵[̲a̲r̲r̲a̲n̲g̲e̲m̲e̲n̲t̲,̲ ̲s̲h̲o̲w̲ ̲j̲ ̲+̲ ̲1̲ ̲≠̲ ̲0̲ by o̵m̵e̵g̵a̵,̵s̵h̵o̵w̵ ̵j̵+̵2̵≠̵0̵o̲m̲e̲g̲a̲,̲ ̲s̲h̲o̲w̲ ̲j̲ ̲+̲ ̲2̲ ̲≠̲ ̲0̲ by omega, i̵f̵_̵f̵a̵l̵s̵e̵,̵N̵a̵t̵.̵a̵d̵d̵_̵s̵u̵b̵_̵c̵a̵n̵c̵e̵l̵,̵s̵h̵o̵w̵ ̵j̵+̵2̵-̵1̵=̵j̵+̵1̵i̲f̲_̲f̲a̲l̲s̲e̲,̲
+  ̲ ̲ ̲ ̲ ̲N̲a̲t̲.̲a̲d̲d̲_̲s̲u̲b̲_̲c̲a̲n̲c̲e̲l̲,̲ ̲s̲h̲o̲w̲ ̲j̲ ̲+̲ ̲2̲ ̲-̲ ̲1̲ ̲=̲ ̲j̲ ̲+̲ ̲1̲ by omega]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Kobon/OpenMathAxisCapCone.lean:142:32: warning: This simp argument is unused:
+  if_pos rfl
+
+Hint: Omit it from the simp argument list.
+  simp only [̵h̵z̵,̵a̵r̵r̵a̵n̵g̵e̵m̵e̵n̵t̵,̵i̵f̵_̵p̵o̵s̵ ̵r̵f̵l̵,̵s̵h̵o̵w̵ ̵j̵+̵1̵≠̵0̵[̲h̲z̲,̲ ̲a̲r̲r̲a̲n̲g̲e̲m̲e̲n̲t̲,̲ ̲s̲h̲o̲w̲ ̲j̲ ̲+̲ ̲1̲ ̲≠̲ ̲0̲ by o̵m̵e̵g̵a̵,̵s̵h̵o̵w̵ ̵j̵+̵2̵≠̵0̵o̲m̲e̲g̲a̲,̲ ̲s̲h̲o̲w̲ ̲j̲ ̲+̲ ̲2̲ ̲≠̲ ̲0̲ by omega, i̵f̵_̵f̵a̵l̵s̵e̵,̵N̵a̵t̵.̵a̵d̵d̵_̵s̵u̵b̵_̵c̵a̵n̵c̵e̵l̵,̵s̵h̵o̵w̵ ̵j̵+̵2̵-̵1̵=̵j̵+̵1̵i̲f̲_̲f̲a̲l̲s̲e̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲N̲a̲t̲.̲a̲d̲d̲_̲s̲u̲b̲_̲c̲a̲n̲c̲e̲l̲,̲ ̲s̲h̲o̲w̲ ̲j̲ ̲+̲ ̲2̲ ̲-̲ ̲1̲ ̲=̲ ̲j̲ ̲+̲ ̲1̲ by omega]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Kobon/OpenMathAxisCapCone.lean:154:51: warning: This simp argument is unused:
+  axis_oriented
+
+Hint: Omit it from the simp argument list.
+  simp only [̵a̵r̵r̵a̵n̵g̵e̵m̵e̵n̵t̵,̵h̵z̵,̵i̵f̵_̵f̵a̵l̵s̵e̵,̵s̵h̵o̵w̵ ̵j̵+̵1̵≠̵0̵[̲a̲r̲r̲a̲n̲g̲e̲m̲e̲n̲t̲,̲ ̲h̲z̲,̲ ̲i̲f̲_̲f̲a̲l̲s̲e̲,̲ ̲s̲h̲o̲w̲ ̲j̲ ̲+̲ ̲1̲ ̲≠̲ ̲0̲ by o̵m̵e̵g̵a̵,̵s̵h̵o̵w̵ ̵j̵+̵2̵≠̵0̵o̲m̲e̲g̲a̲,̲ ̲s̲h̲o̲w̲ ̲j̲ ̲+̲ ̲2̲ ̲≠̲ ̲0̲ by omega,
+          N̵a̵t̵.̵a̵d̵d̵_̵s̵u̵b̵_̵c̵a̵n̵c̵e̵l̵,̵s̵h̵o̵w̵ ̵j̵+̵2̵-̵1̵=̵j̵+̵1̵ ̵b̵y̵ ̵o̵m̵e̵g̵a̵,̵a̵x̵i̵s̵_̵o̵r̵i̵e̵n̵t̵e̵d̵,̵c̵a̵p̵_̵o̵r̵i̵e̵n̵t̵e̵d̵]̵N̲a̲t̲.̲a̲d̲d̲_̲s̲u̲b̲_̲c̲a̲n̲c̲e̲l̲,̲ ̲s̲h̲o̲w̲ ̲j̲ ̲+̲ ̲2̲ ̲-̲ ̲1̲ ̲=̲ ̲j̲ ̲+̲ ̲1̲ ̲b̲y̲ ̲o̲m̲e̲g̲a̲,̲ ̲c̲a̲p̲_̲o̲r̲i̲e̲n̲t̲e̲d̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Kobon/OpenMathAxisCapCone.lean:163:26: warning: This simp argument is unused:
+  sub_self
+
+Hint: Omit it from the simp argument list.
+  simp only [̵h̵e̵,̵s̵u̵b̵_̵s̵e̵l̵f̵,̵w̵a̵l̵l̵_̵s̵e̵l̵f̵_̵l̵e̵f̵t̵,̵z̵e̵r̵o̵_̵m̵u̵l̵]̵[̲h̲e̲,̲ ̲w̲a̲l̲l̲_̲s̲e̲l̲f̲_̲l̲e̲f̲t̲,̲ ̲z̲e̲r̲o̲_̲m̲u̲l̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Kobon/OpenMathAxisCapCone.lean:165:26: warning: This simp argument is unused:
+  sub_self
+
+Hint: Omit it from the simp argument list.
+  simp only [̵h̵e̵,̵s̵u̵b̵_̵s̵e̵l̵f̵,̵w̵a̵l̵l̵_̵s̵e̵l̵f̵_̵r̵i̵g̵h̵t̵,̵z̵e̵r̵o̵_̵m̵u̵l̵]̵[̲h̲e̲,̲ ̲w̲a̲l̲l̲_̲s̲e̲l̲f̲_̲r̲i̲g̲h̲t̲,̲ ̲z̲e̲r̲o̲_̲m̲u̲l̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Kobon.OpenMathAxisCapCone.capRegion_convex' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'Kobon.OpenMathAxisCapCone.capRegion_triangle' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]

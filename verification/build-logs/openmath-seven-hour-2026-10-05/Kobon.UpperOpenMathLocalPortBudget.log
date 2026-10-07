@@ -1,0 +1,3 @@
+'Kobon.UpperOpenMathLocalPortBudget.certificate_marked_plus_anti_degree_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

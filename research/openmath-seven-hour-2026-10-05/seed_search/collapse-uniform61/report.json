@@ -1,0 +1,12 @@
+{
+  "screened": 1072,
+  "histogram": {
+    "1189": 1067,
+    "1190": 5
+  },
+  "LPs": 0,
+  "records": [],
+  "wins": [],
+  "seconds": 11.649599313735962,
+  "scope": "Only reachable empty-triangle collapses with all strict axis-cap apices untouched; no concurrent infinite family asserted"
+}

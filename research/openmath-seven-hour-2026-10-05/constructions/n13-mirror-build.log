@@ -1,0 +1,120 @@
+research/openmath-seven-hour-2026-10-05/constructions/N13MirrorScratch.lean:17:30: error: Application type mismatch: The argument
+  a
+has type
+  ZMod 6
+of sort `Type` but is expected to have type
+  (fun a => ?m.121 - a) ?m.122 = (fun a => ?m.121 - a) ?m.123
+of sort `Prop` in the application
+  sub_right_injective a
+research/openmath-seven-hour-2026-10-05/constructions/N13MirrorScratch.lean:27:21: error: unsolved goals
+n : ℕ
+L : ℕ → Line ℝ
+f : Sectors n 3 L
+a : ZMod 6
+z : ZMod (2 * 3)
+hz : z ∈ f.triangular.preimage (fun z => a - z - 1) ⋯
+⊢ (reverse (f.triangle (a - z - 1))).p = f.center
+research/openmath-seven-hour-2026-10-05/constructions/N13MirrorScratch.lean:30:19: error: unsolved goals
+n : ℕ
+L : ℕ → Line ℝ
+f : Sectors n 3 L
+a : ZMod 6
+z : ZMod (2 * 3)
+hz : z ∈ f.triangular.preimage (fun z => a - z - 1) ⋯
+hi : a - z - 1 + 1 = a - z
+⊢ (f.triangle (a - z - 1)).r = f.point (a - z)
+research/openmath-seven-hour-2026-10-05/constructions/N13MirrorScratch.lean:35:20: error: unsolved goals
+n : ℕ
+L : ℕ → Line ℝ
+f : Sectors n 3 L
+a : ZMod 6
+z : ZMod (2 * 3)
+hz : z ∈ f.triangular.preimage (fun z => a - z - 1) ⋯
+hi : a - (z + 1) = a - z - 1
+⊢ (f.triangle (a - z - 1)).q = f.point (a - z - 1)
+research/openmath-seven-hour-2026-10-05/constructions/N13MirrorScratch.lean:41:22: error: unsolved goals
+n : ℕ
+L : ℕ → Line ℝ
+f : Sectors n 3 L
+a : ZMod 6
+z : ZMod (2 * 3)
+hz : z ∈ f.triangular.preimage (fun z => a - z - 1) ⋯
+⊢ (reverse (f.triangle (a - z - 1))).A = L ↑(f.opposite (a - z - 1))
+research/openmath-seven-hour-2026-10-05/constructions/N13MirrorScratch.lean:54:8: warning: declaration uses `sorry`
+research/openmath-seven-hour-2026-10-05/constructions/N13MirrorScratch.lean:51:16: warning: declaration uses `sorry`
+research/openmath-seven-hour-2026-10-05/constructions/N13MirrorScratch.lean:60:6: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  a - (z - 1) - 1
+in the target expression
+  z ∈ (mirror f a).triangular ∧ z - 1 ∈ (mirror f a).triangular ↔ a - z ∈ f.triangular ∧ a - z - 1 ∈ f.triangular
+
+n : ℕ
+L : ℕ → Line ℝ
+f : Sectors n 3 L
+a z : ZMod 6
+hi : a - (z - 1) - 1 = a - z
+⊢ z ∈ (mirror f a).triangular ∧ z - 1 ∈ (mirror f a).triangular ↔ a - z ∈ f.triangular ∧ a - z - 1 ∈ f.triangular
+research/openmath-seven-hour-2026-10-05/constructions/N13MirrorScratch.lean:58:39: warning: This simp argument is unused:
+  mirror_mem_triangular
+
+Hint: Omit it from the simp argument list.
+  simp only [̵S̵e̵c̵t̵o̵r̵s̵.̵s̵h̵a̵r̵e̵d̵,̵m̵e̵m̵_̵f̵i̵l̵t̵e̵r̵,̵m̵i̵r̵r̵o̵r̵_̵m̵e̵m̵_̵t̵r̵i̵a̵n̵g̵u̵l̵a̵r̵]̵[̲S̲e̲c̲t̲o̲r̲s̲.̲s̲h̲a̲r̲e̲d̲,̲ ̲m̲e̲m̲_̲f̲i̲l̲t̲e̲r̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+research/openmath-seven-hour-2026-10-05/constructions/N13MirrorScratch.lean:63:97: error: unsolved goals
+n : ℕ
+L : ℕ → Line ℝ
+f : Sectors n 3 L
+a z : ZMod 6
+⊢ z ∈ (mirror f a).shared ∧ OrdinaryAt n L (f.point (a - z)) ↔ a - z ∈ f.shared ∧ OrdinaryAt n L (f.point (a - z))
+research/openmath-seven-hour-2026-10-05/constructions/N13MirrorScratch.lean:65:47: warning: This simp argument is unused:
+  mirror_mem_shared
+
+Hint: Omit it from the simp argument list.
+  simp only [̵S̵e̵c̵t̵o̵r̵s̵.̵o̵r̵d̵i̵n̵a̵r̵y̵S̵h̵a̵r̵e̵d̵,̵m̵e̵m̵_̵f̵i̵l̵t̵e̵r̵,̵m̵i̵r̵r̵o̵r̵_̵m̵e̵m̵_̵s̵h̵a̵r̵e̵d̵,̵m̵i̵r̵r̵o̵r̵_̵p̵o̵i̵n̵t̵]̵[̲S̲e̲c̲t̲o̲r̲s̲.̲o̲r̲d̲i̲n̲a̲r̲y̲S̲h̲a̲r̲e̲d̲,̲ ̲m̲e̲m̲_̲f̲i̲l̲t̲e̲r̲,̲ ̲m̲i̲r̲r̲o̲r̲_̲p̲o̲i̲n̲t̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+research/openmath-seven-hour-2026-10-05/constructions/N13MirrorScratch.lean:67:89: error: unsolved goals
+n : ℕ
+L : ℕ → Line ℝ
+f : Sectors n 3 L
+a z : ZMod 6
+⊢ z ∈ (mirror f a).shared ∧ z ∉ (mirror f a).ordinaryShared ↔ a - z ∈ f.shared ∧ a - z ∉ f.ordinaryShared
+research/openmath-seven-hour-2026-10-05/constructions/N13MirrorScratch.lean:69:42: warning: This simp argument is unused:
+  mirror_mem_shared
+
+Hint: Omit it from the simp argument list.
+  simp only [̵S̵e̵c̵t̵o̵r̵s̵.̵c̵o̵r̵e̵S̵h̵a̵r̵e̵d̵,̵m̵e̵m̵_̵s̵d̵i̵f̵f̵,̵m̵i̵r̵r̵o̵r̵_̵m̵e̵m̵_̵s̵h̵a̵r̵e̵d̵,̵m̵i̵r̵r̵o̵r̵_̵m̵e̵m̵_̵o̵r̵d̵i̵n̵a̵r̵y̵S̵h̵a̵r̵e̵d̵]̵[̲S̲e̲c̲t̲o̲r̲s̲.̲c̲o̲r̲e̲S̲h̲a̲r̲e̲d̲,̲ ̲m̲e̲m̲_̲s̲d̲i̲f̲f̲,̲ ̲m̲i̲r̲r̲o̲r̲_̲m̲e̲m̲_̲o̲r̲d̲i̲n̲a̲r̲y̲S̲h̲a̲r̲e̲d̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+research/openmath-seven-hour-2026-10-05/constructions/N13MirrorScratch.lean:69:60: warning: This simp argument is unused:
+  mirror_mem_ordinaryShared
+
+Hint: Omit it from the simp argument list.
+  simp only [̵S̵e̵c̵t̵o̵r̵s̵.̵c̵o̵r̵e̵S̵h̵a̵r̵e̵d̵,̵m̵e̵m̵_̵s̵d̵i̵f̵f̵,̵m̵i̵r̵r̵o̵r̵_̵m̵e̵m̵_̵s̵h̵a̵r̵e̵d̵,̵m̵i̵r̵r̵o̵r̵_̵m̵e̵m̵_̵o̵r̵d̵i̵n̵a̵r̵y̵S̵h̵a̵r̵e̵d̵]̵[̲S̲e̲c̲t̲o̲r̲s̲.̲c̲o̲r̲e̲S̲h̲a̲r̲e̲d̲,̲ ̲m̲e̲m̲_̲s̲d̲i̲f̲f̲,̲ ̲m̲i̲r̲r̲o̲r̲_̲m̲e̲m̲_̲s̲h̲a̲r̲e̲d̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+research/openmath-seven-hour-2026-10-05/constructions/N13MirrorScratch.lean:73:36: error: unsolved goals
+n : ℕ
+L : ℕ → Line ℝ
+f : Sectors n 3 L
+a : ZMod 6
+full : f.triangular = univ
+z : ZMod (2 * 3)
+⊢ z ∈ (mirror f a).triangular
+research/openmath-seven-hour-2026-10-05/constructions/N13MirrorScratch.lean:75:8: warning: This simp argument is unused:
+  full
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵f̵u̵l̵l̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+research/openmath-seven-hour-2026-10-05/constructions/N13MirrorScratch.lean:81:28: error: Application type mismatch: The argument
+  a
+has type
+  ZMod 6
+of sort `Type` but is expected to have type
+  (fun a => ?m.29 - a) ?m.30 = (fun a => ?m.29 - a) ?m.31
+of sort `Prop` in the application
+  sub_right_injective a
+'Kobon.UpperOpenMathN13MirrorScratch.mirror' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'Kobon.UpperOpenMathN13MirrorScratch.mirror_area' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]

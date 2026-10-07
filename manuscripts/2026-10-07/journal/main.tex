@@ -1,0 +1,63 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=25mm]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\renewcommand{\qedsymbol}{\textnormal{\small Q.E.D.}}
+\usepackage{graphicx,booktabs,array,tabularx,longtable}
+\usepackage{microtype}
+\usepackage{caption}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{xurl}
+\usepackage{xcolor}
+\usepackage[colorlinks=true,linkcolor=blue!40!black,citecolor=blue!40!black,urlcolor=blue!40!black]{hyperref}
+\hypersetup{pdftitle={Verified affine constructions, recursive families, and incidence bounds for Kobon triangles},pdfauthor={Alejandro Zarzuelo Urdiales}}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\K}{K}
+\newcommand{\Ks}{K_{\mathrm s}}
+\newcommand{\G}{G}
+\newcommand{\B}{B}
+\newcommand{\N}{\mathbb N}
+\newcommand{\R}{\mathbb R}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\floor}[1]{\left\lfloor#1\right\rfloor}
+\newcommand{\ceil}[1]{\left\lceil#1\right\rceil}
+\newcommand{\lean}[1]{{\small\nolinkurl{#1}}}
+\newcommand{\proofref}[3]{\href{https://github.com/alejandrozu/kobon-proof/blob/f44f23ee062a255f5cad7d39188fd55c0feb83a8/#1\#L#2}{#3}}
+\DeclareMathOperator{\sgn}{sgn}
+\setlength{\emergencystretch}{2em}
+\captionsetup{font=small,labelfont=bf}
+\setcounter{topnumber}{3}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\textfraction}{0.08}
+\renewcommand{\floatpagefraction}{0.75}
+\graphicspath{{figures/}}
+\title{Verified constructions and incidence bounds\\for Kobon triangles}
+\author{Alejandro Zarzuelo Urdiales}
+\date{7 October 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+We give explicit real-line constructions and a Lean development for lower and structural upper bounds on triangular cells. A phase correction and affine chart refine the F\"uredi--Pal\'asti all-order guarantee to $\lfloor n(n-3)/3\rfloor+1+(n\bmod2)$ for $n\ge4$. Compatible Bartholdi--Blanc--Loisel iteration retains the earlier $q=10\cdot2^t$ families and completes known 33-, 37- and 49-line seed orbits. A uniform refit of Poola's 61-line input gives $1200\,4^t-10$ triangles on $60\cdot2^t+1$ lines and $1200\,4^t+30\,2^t-11$ on the adjacent even order. We prove an actual deficit-dependent successor rule, iterable through both parities. Whole-arrangement fan and component extraction yields quantified mixed-multiplicity bounds and stronger all-triple discharging estimates. A total lower envelope preserves earlier certificates; prescribed-grid obstructions, exterior resource limitations and exact surgery counterexamples retain their stated scope. No unrestricted Kobon solution or absolute numerical priority is claimed.
+\end{abstract}
+\input{sections/introduction}
+\input{sections/construction}
+\input{sections/extensions}
+\input{sections/families}
+\input{sections/upper}
+\input{sections/certificates}
+\input{sections/proof_index}
+\begingroup
+\small
+\setlength{\bibsep}{3pt}
+\bibliographystyle{plainnat}
+\bibliography{references}
+\endgroup
+\end{document}

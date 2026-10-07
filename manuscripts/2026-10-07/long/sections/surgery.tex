@@ -1,0 +1,140 @@
+\section{Exact translation germs and local resolution losses}
+\label{sec:surgery}
+
+A small perturbation of a multiple point can create a tiny triangle and
+destroy distant old cells simultaneously. This section gives an exact
+description of that wall crossing. It does not assume that smoothing
+preserves or increases the triangle count.
+
+\subsection{Simultaneous classification by affine coefficients}
+
+Translate one indexed line parallel to itself, writing its equation as
+$a_px+b_py=c_p+\varepsilon$ and leaving the others fixed. Pairwise
+nonparallelism is preserved. Every determinant nondegeneracy test and
+oriented half-plane test in the triangle certificate has the form
+$u+v\varepsilon$: multilinearity and the single changed constant term
+exclude higher powers. For positive sufficiently small $\varepsilon$,
+\[
+ u+v\varepsilon\ge0\quad\Longleftrightarrow\quad
+ (u>0)\ \text{or}\ (u=0\text{ and }v\ge0),
+\]
+with analogous rules for nonpositivity and nonzero tests. A
+\emph{triangle germ} is the static conjunction of these coefficient
+conditions for one ordered supporting triple.
+
+\begin{theorem}[Exact eventual translation count]\label{surgery:germs}
+For any finite pairwise nonparallel arrangement and one translated line,
+there is $\eta>0$ such that, simultaneously for every supporting triple
+and every $0<\varepsilon<\eta$, the moved triangle predicate is equivalent
+to its germ. Let $T(0)$ be the old count, and let $\mathrm{born}$ and
+$\mathrm{lost}$ count germs absent from the old triangle set and old
+triangles absent from the germ set, respectively. Then throughout that
+interval,
+\begin{equation}
+ T(\varepsilon)+\mathrm{lost}=T(0)+\mathrm{born}.
+ \label{surgery:birth-loss}
+\end{equation}
+\end{theorem}
+\begin{proof}
+For each affine test with nonzero constant coefficient, choose a positive
+threshold preserving its sign; zero constants are decided exactly by the
+linear coefficient. There are finitely many tests, supporting triples
+and transverse lines. Intersect their positive neighborhoods to obtain
+one simultaneous threshold. Nondegeneracy and the common half-plane
+tests then give exactly the original geometric certificate predicate.
+The finite set identity follows by partitioning both the old and germ
+sets into their intersection and their differences. These are
+\proofref{Kobon/OpenMathTranslationGerms.lean}{205}{\lean{simultaneous_triangle_stability}}
+and \proofref{Kobon/OpenMathTranslationCounting.lean}{98}{\lean{translated_birth_loss_identity}}.
+The lower-bound wrappers supply actual real-line witnesses from germ
+counts, rather than treating a formal count as a geometric oracle.
+\end{proof}
+
+Explicit corner-incidence conditions make every old triangle's zero
+side tests stationary; their other signs persist. This proves no loss
+and a one-triangle gain when a new germ is present, in
+\proofref{Kobon/OpenMathTranslationRetention.lean}{98}{\lean{germ_gain_one}}.
+If there is exactly one concurrent supporting triple and no other line
+through its center, translating one of its supports creates exactly one
+tiny-triangle germ. Other new germs would have to be old degenerate
+supporting triples and are excluded by uniqueness. Consequently
+\begin{equation}
+ T(\varepsilon)+\mathrm{lost}=T(0)+1.
+ \label{surgery:isolated}
+\end{equation}
+This is
+\proofref{Kobon/OpenMathIsolatedTripleResolution.lean}{78}{\lean{isolated_resolution_identity}},
+using the local birth theorem in \lean{OpenMathTripleBirth}.
+The loss set remains the \emph{global} germ difference. These theorems
+use only the standard logical axioms and permit arbitrary finite order.
+
+\subsection{A four-line counterexample to a stated half-plane yield}
+\label{surgery:four}
+
+Liu's versioned desingularization preprint, Theorem~1.1 on printed page
+2, states a formula $T(A')=T(A)+1-\tau_i$, with $\tau_i$ defined by
+old triangle interiors lying in the selected open half-plane
+\cite{liuDesingularization2026}. Its hypotheses include one isolated
+triple point and otherwise ordinary vertices. The following example
+satisfies those hypotheses:
+\begin{equation}
+ y=0,\qquad y=x,\qquad y=-x,\qquad 2x+y=2.
+ \label{surgery:four-lines}
+\end{equation}
+Index these supports $0,1,2,3$. The old triangular cells have supports
+$013$ and $023$, and both interiors satisfy $x-y>0$.
+Move support 1 to $y=x+\varepsilon$, so its motion is into $x-y<0$.
+The stated half-plane count is zero. Yet for every $0<\varepsilon<1$
+the moved arrangement has exactly two triangles, with supports $012$
+and $023$. One old cell is lost and one is born; the proposed yield
+would instead predict three triangles.
+
+This is an interval counterexample within the formula's stated scope,
+not a criticism of unrelated results in the preprint. Completeness of
+the old and moved support lists, the unique triple, the whole parameter
+interval, and positivity throughout the old triangle interiors are
+proved in
+\proofref{Kobon/OpenMathFourLineResolution.lean}{190}{\lean{halfplane_yield_fails}}.
+The exact germ identity~\eqref{surgery:birth-loss} accounts for the loss
+without replacing it by the half-plane count.
+
+\subsection{Three losses and a reversed gain of two}
+\label{surgery:six}
+
+A second arrangement is
+\begin{equation}
+ y=0,\quad y=x,\quad y=-x,\quad x+2y=3,\quad
+ -2x+y=2,\quad x+4y=-4.
+ \label{surgery:six-lines}
+\end{equation}
+It has one concurrent triple and six old triangles. For every
+$0<\varepsilon<1/100$, replacing the first line by $y=\varepsilon$
+retains all six and creates one, whereas replacing it by
+$y=-\varepsilon$ destroys three old triangles and creates one. The
+old affected cells occupy alternating radial sectors $0,2,4$.
+\begin{table}[tb]
+\centering\small
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Motion & Old count & Lost & Born & Moved count\\
+\midrule
+Four-line positive resolution & 2 & 1 & 1 & 2\\
+Six-line upward resolution & 6 & 0 & 1 & 7\\
+Six-line downward resolution & 6 & 3 & 1 & 4\\
+\bottomrule
+\end{tabular}
+\caption{Complete real-parameter interval counts for the displayed
+arrangements. Birth and loss refer to supporting-triple sets, and the
+interval conclusions are Lean theorems.}
+\label{surgery:counts}
+\end{table}
+The complete support classification is proved in
+\proofref{Kobon/OpenMathSixLineResolution.lean}{557}{\lean{up_count}}
+and \proofref{Kobon/OpenMathSixLineResolution.lean}{566}{\lean{down_count}}.
+The reverse collapse from the downward arrangement to the singular
+one gains two triangles, in
+\proofref{Kobon/OpenMathSixLineResolution.lean}{570}{\lean{reversal_gain_two}}.
+Thus neither a universal cap of two destroyed cells nor a one-unit
+reverse yield is valid in this scope. The positive direction also shows
+that resolution can be useful when a genuine global retention proof
+accompanies its local birth certificate.

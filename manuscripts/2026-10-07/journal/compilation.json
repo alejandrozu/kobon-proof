@@ -1,0 +1,30 @@
+{
+  "edition": "journal",
+  "pages": 15,
+  "author": "Alejandro Zarzuelo Urdiales",
+  "resolved_references": true,
+  "overflowing_boxes": 0,
+  "missing_character_warnings": 0,
+  "pdf_sha256": "7b3ff0bde1a5cd3083eafab2d8d87c9a9dc98e4ce4f7d4f1be8c588c19bc7221",
+  "compiler_log_sha256": "dc4da3b7aa39a2bc062c9ed770fb996794f9e1d5218c9050a043e503330e635c",
+  "source_sha256": {
+    "figures/affine-chart.pdf": "982861f578087cc5a4b24552abb84740bd3191883a329b8955c19ed33a3cd36d",
+    "figures/new-family-orbits.pdf": "7fb1fd634f64d41c1b2173f83f0c4bfcffccbb52ace771b3a0eaa95a7a0dbad5",
+    "figures/new-family61-gaps.pdf": "d0e5dd06e69b2bce3d5fa6df48ddf58e44dfe21774062b86b2459c37d5ca4d9c",
+    "figures/new-upper-profile-coefficients.pdf": "7a3301d78c9a9fd76fcff03194b33a5e9994234e7f34ce440823926809f13526",
+    "figures/normalized-gap.pdf": "0382d4fec39c3fc8424bd2b9b79fe92216a611c49daec986dd94c983ca703f86",
+    "figures/recursive-envelope.pdf": "57e2dd5409ce2d0807f7ab8805755623476c21abd38c7a503f2af4abcac3a5e7",
+    "figures/shared-fan.pdf": "b5d53cec5ebdadbd638acd47981c9d392d47b8b9cec3314e6d0d766832b9759e",
+    "figures/successor-49-resource.pdf": "cbf3be3eb316a89abb73f6ee2c675e99e0cf9e1685b6c43c96de277b24777446",
+    "figures/uniform49.pdf": "2b0ddced8615b4d1e17896631b0bbe07bee5c1e90b095069216e48141e752b0e",
+    "main.tex": "24ec47ceaec3de16cf5f3a8db923ce8df3efec3a235846ff280d0874ebf7b524",
+    "references.bib": "98d591fce472a315a1df2ae5b810386a273ca16dcaab57564ee38642747911e4",
+    "sections/certificates.tex": "1b907d74e5aaa0968fe3f7af94e8463796f48bc5d17c6173a05f0540de83efd2",
+    "sections/construction.tex": "6e0edfc6854e5e2e67b5b03a55f470629a76ee94b243b64be1745fd0510d4928",
+    "sections/extensions.tex": "d98b3cf2a46460d3b1544cf5ee4deebbfcb10e75418f156f922af4e28c7c1dfc",
+    "sections/families.tex": "15d07fd7e68aec08ab2fa5c636572c6cc7a6547ac5ee93f4da1d09f135dc6d38",
+    "sections/introduction.tex": "8530a239c170b75c7d28720723a905eb2bcfe7fd79fe1bef4fa891837222aae2",
+    "sections/proof_index.tex": "8cbd87ffa0e6b9dc996036127b0bafc50e84c6605a7ee5f31b141b7aafb7219b",
+    "sections/upper.tex": "fbe0e9f821906da9e1341210e7e00799b7af8ce5cb6bb554ca7ed5de19fd2d70"
+  }
+}

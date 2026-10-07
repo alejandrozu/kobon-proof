@@ -1,0 +1,103 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=27mm]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\renewcommand{\qedsymbol}{\textnormal{\small Q.E.D.}}
+\usepackage{graphicx,booktabs,longtable,array,tabularx,multirow}
+\newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
+\renewcommand{\tabularxcolumn}[1]{P{#1}}
+\usepackage[table]{xcolor}
+\usepackage{microtype}
+\usepackage{enumitem}
+\usepackage{caption,subcaption}
+\usepackage[section]{placeins}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{xurl}
+\usepackage[colorlinks=true,linkcolor=blue!45!black,citecolor=blue!45!black,urlcolor=blue!45!black]{hyperref}
+\hypersetup{pdftitle={Kobon Triangle Constructions: Uniform Lower Bounds, Structural Defect Bounds, and Formal Verification},pdfauthor={Alejandro Zarzuelo Urdiales},pdfsubject={Exact constructions, geometric successor rules, structural upper bounds, and Lean verification}}
+\usepackage[nameinlink,noabbrev]{cleveref}
+\usepackage{listings}
+\usepackage{fancyhdr}
+\setlength{\headheight}{14pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small Kobon triangle constructions and formal verification}
+\fancyhead[R]{\small A. Zarzuelo Urdiales}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.25pt}
+\setlength{\emergencystretch}{2em}
+\makeatletter
+\renewcommand{\l@subsection}{\@dottedtocline{2}{1.5em}{3.4em}}
+\makeatother
+\setlength{\parskip}{3pt}
+\setlist{itemsep=2pt,topsep=4pt}
+\captionsetup{font=small,labelfont=bf,margin=5mm}
+\setcounter{topnumber}{3}
+\setcounter{bottomnumber}{2}
+\setcounter{totalnumber}{5}
+\renewcommand{\topfraction}{0.92}
+\renewcommand{\bottomfraction}{0.85}
+\renewcommand{\textfraction}{0.07}
+\renewcommand{\floatpagefraction}{0.7}
+\graphicspath{{figures/}}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\K}{K}
+\newcommand{\Ks}{K_{\mathrm{s}}}
+\newcommand{\G}{G}
+\newcommand{\B}{B}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\U}{U}
+\newcommand{\Lbound}{L}
+\newcommand{\floor}[1]{\left\lfloor#1\right\rfloor}
+\newcommand{\ceil}[1]{\left\lceil#1\right\rceil}
+\newcommand{\lean}[1]{{\small\nolinkurl{#1}}}
+\newcommand{\repo}{\url{https://github.com/alejandrozu/kobon-proof}}
+\newcommand{\proofref}[3]{\href{https://github.com/alejandrozu/kobon-proof/blob/f44f23ee062a255f5cad7d39188fd55c0feb83a8/#1\#L#2}{#3}}
+\newcommand{\sourcefile}[2]{\href{https://github.com/alejandrozu/kobon-proof/blob/f44f23ee062a255f5cad7d39188fd55c0feb83a8/#1}{#2}}
+\newcommand{\status}[1]{\textsf{\small[#1]}}
+\DeclareMathOperator{\sgn}{sgn}
+\DeclareMathOperator{\conv}{conv}
+\DeclareMathOperator{\intt}{int}
+\lstset{basicstyle=\ttfamily\footnotesize,breaklines=true,columns=fullflexible,keepspaces=true,frame=single,framerule=0.3pt,rulecolor=\color{black!25},xleftmargin=4pt,xrightmargin=4pt}
+\title{Kobon Triangle Constructions:\\Uniform Lower Bounds, Structural Defect Bounds,\\and Formal Verification}
+\author{Alejandro Zarzuelo Urdiales}
+\date{Comprehensive research edition, 7 October 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+The Kobon triangle problem asks for the largest number of bounded triangular cells determined by real affine lines. We consolidate a construction and verification program begun in March 2026, including the research of 5--6 October. An all-order simple construction gives $G(n)=\floor{n(n-3)/3}+1+(n\bmod2)$ for $n\ge4$. Compatible geometric seeds now instantiate the proved Bartholdi--Blanc--Loisel recursion at orders based on $32$, $36$, $48$, and $60$, alongside the earlier eleven-derived family. For $q=60\cdot2^t$, actual simple arrangements give $1200\cdot4^t-10$ triangles at $q+1$ and $1200\cdot4^t+30\cdot2^t-11$ at $q+2$, respectively nine and ten below the simple upper floors. Poola supplied the finite $61:1190$ count; the uniform compatible refit and its 29-pair visibility certificate are the developments here. An executable portfolio retains the earlier all-order envelope. The quantitative deficit-dependent successor stated in the previous edition now has a complete actual-geometric Lean proof and indefinite iteration for both parities. We also extract nonsimple core fans, matching and components from actual arrangements, proving degree-free mixed-multiplicity defect bounds and sharper all-triple bounds with positive local contributions. Exact translation germs yield birth/loss identities and interval counterexamples to a specific desingularization loss formula. The inherited numerical families, standard axioms, finite native checks, external classifications and bounded unsuccessful searches are distinguished throughout. The unrestricted Kobon problem and the arbitrary full half-order successor remain unresolved; no worldwide numerical-priority claim is made.
+\end{abstract}
+\vspace{0.4em}
+\noindent\textbf{Keywords.} Line arrangements; triangular cells; Kobon problem; constructive lower bounds; projective transformations; exact computation; Lean formalization.
+\clearpage
+\tableofcontents
+\clearpage
+\input{sections/introduction}
+\input{sections/literature}
+\input{sections/geometry}
+\input{sections/universal}
+\input{sections/finite_results}
+\input{sections/extensions}
+\input{sections/families}
+\input{sections/upper_bounds}
+\input{sections/surgery}
+\input{sections/experiments}
+\input{sections/formalization}
+\input{sections/discussion}
+\bibliographystyle{plainnat}
+\bibliography{references}
+\clearpage
+\appendix
+\input{sections/appendices}
+\end{document}

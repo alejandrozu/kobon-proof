@@ -16,35 +16,197 @@
     1,
     -2
   ],
-  "seconds": 7.647955417633057,
+  "seconds": 3.234619617462158,
+  "exported_definitions": {
+    "lo": "Kobon/BBLSeed49Data.lean",
+    "hi": "Kobon/BBLSeed49Data.lean",
+    "lines": "Kobon/BBLSeed49Data.lean",
+    "lineAt": "Kobon/BBLSeed49Data.lean",
+    "triangles": "Kobon/BBLSeed49Data.lean",
+    "distinguished": "Kobon/BBLSeed49Data.lean",
+    "parameters": "Kobon/BBLSeed49.lean"
+  },
+  "visible_definition": "Kobon/BBLSeed49Exterior.lean",
   "files": [
     {
-      "path": "research\\three-hour-2026-10-02\\drafts\\BBLSeed49.lean",
-      "sha256": "322004522cf2ab18ab939c2ae11c1ec69bb139b6499324f9007e4fc620f2b3a6"
+      "path": "Kobon/BBLAnalytic.lean",
+      "sha256": "b9a8b9fb59910ae72d03315f4e0c5f2f26ac44c6e43e08055173cb6b5415b352"
     },
     {
-      "path": "research\\three-hour-2026-10-02\\drafts\\BBLSeed49Exterior.lean",
-      "sha256": "12cab750b5a3da1fc107e611edd440ff94720c41be3705d38e921f0f69e49bf8"
+      "path": "Kobon/BBLCapEnvelope.lean",
+      "sha256": "3f49f8758f4ae3441ec0a8ea14c5a88cb8090222a7e8da349d2e1928c83ca1b4"
     },
     {
-      "path": "research\\three-hour-2026-10-02\\constructions\\uniform-grid49\\uniform-seed.json",
-      "sha256": "8b904896ab6ee4216da0bfdd7a487dfdca32e38f3dbfaffbc9d93b3d221b937c"
+      "path": "Kobon/BBLCaps.lean",
+      "sha256": "7bbaf1bc4cb8b8346d78763e71203790b2afd4b2b134682ab692c74dc2f5be5b"
     },
     {
-      "path": "research\\three-hour-2026-10-02\\constructions\\uniform-grid49\\visibility.json",
-      "sha256": "f12161163b4fef58390e22b786d5f83d639b9a34398238a8e7715dd0e540b5b0"
+      "path": "Kobon/BBLCapSigns.lean",
+      "sha256": "3747427f149bd23f92d35e4a13d930fe7c43906143cc74449f75cf1ad0ae025d"
     },
     {
-      "path": "Kobon\\Parametric.lean",
+      "path": "Kobon/BBLCount.lean",
+      "sha256": "76637dbae361c1c7b9c2ab02d59c5e41de62f12ecdde40156630d1bb4852a5bc"
+    },
+    {
+      "path": "Kobon/BBLCrossingCoordinates.lean",
+      "sha256": "0b9c09d32cdb57bd0119a297f05c3c866e8103292394ae90ec668d967ba1e33e"
+    },
+    {
+      "path": "Kobon/BBLExtrema.lean",
+      "sha256": "28b88c1dc32194c3d73b06e5db1c43a4e2a575912ce1a900e40e8922a0689069"
+    },
+    {
+      "path": "Kobon/BBLGrid.lean",
+      "sha256": "7aeac68c9b58dd7dc8b109e71447e5f61a6a3309159e3f78bbbeb1928014ac67"
+    },
+    {
+      "path": "Kobon/BBLGridCuts.lean",
+      "sha256": "3464ec510f2da80b45324eabb971b8de76c508925a89836c9690a4322e176859"
+    },
+    {
+      "path": "Kobon/BBLIntersection.lean",
+      "sha256": "d886d967e5e23b0d50d1c6e4a9f75e02b51e1f2c605487038bbe8a259acd8e15"
+    },
+    {
+      "path": "Kobon/BBLLiftedKeys.lean",
+      "sha256": "f8c0990134ba00337c667266cad310642b79bbfed8a8add36098cfae14483c34"
+    },
+    {
+      "path": "Kobon/BBLLiftedRows.lean",
+      "sha256": "165f92bad5db6bf60bfb63ae89a09f76a681b5f053987717f5ee0171905baa3f"
+    },
+    {
+      "path": "Kobon/BBLMaximization.lean",
+      "sha256": "160ea077d1adec8de4e26f955c852926199067c68b3e07c032aacc2e739f5492"
+    },
+    {
+      "path": "Kobon/BBLPencilLimits.lean",
+      "sha256": "8210e908a4036b5def9077039049a595ba01f7d4e2607cba2f19238acc15ab47"
+    },
+    {
+      "path": "Kobon/BBLPencilProfiles.lean",
+      "sha256": "47bd74b0f35091a78151fe155f5908592f9b6ae885fa4ca19c03331a6d709849"
+    },
+    {
+      "path": "Kobon/BBLPencilRegularity.lean",
+      "sha256": "6ec22cf704fb26e4fd7511d1dd1c6515aa43686becf44278ff9b0452e49091da"
+    },
+    {
+      "path": "Kobon/BBLPersistence.lean",
+      "sha256": "4b2f17d9f55daa32b4ad94bad3ff0b3ac8ad9f9687b0e0753766fbe4ed09ffcd"
+    },
+    {
+      "path": "Kobon/BBLProfiles.lean",
+      "sha256": "041cae049569dc6c199e6902c13fc17291d0c44f8d58db1be5190318ad1f2a71"
+    },
+    {
+      "path": "Kobon/BBLProjection.lean",
+      "sha256": "80ed5375e7e722b53c6fe8525cf1bdcb0acba938664f54485500e9cf8d615956"
+    },
+    {
+      "path": "Kobon/BBLRealization.lean",
+      "sha256": "acb0ba7b3d834ae38f6b6a9de301435ee66ac2329ecd5d6f7f4765c9df2a831f"
+    },
+    {
+      "path": "Kobon/BBLRealizedPencil.lean",
+      "sha256": "f6265741b7f4543d474049a6a232bf78c1a6c69fa460ec1a6871e0c7a8af395b"
+    },
+    {
+      "path": "Kobon/BBLRegularity.lean",
+      "sha256": "35bbe0076dd3fffd65f2e66b304477e91750e783dc11847a0f5dfc4acb149add"
+    },
+    {
+      "path": "Kobon/BBLRowGeometry.lean",
+      "sha256": "d0fe745fd0856c6806f2db7d5bfbf93c25939ba223a562eefa34c5324dd01c7e"
+    },
+    {
+      "path": "Kobon/BBLRowOrder.lean",
+      "sha256": "ff35612bc7193d214da8b39c16e0cbca9e39b05dcde1b0569ce1cab9be51ee94"
+    },
+    {
+      "path": "Kobon/BBLSeed49.lean",
+      "sha256": "7ed094842689b86c5f4df1d78034edce21ff29e5b8173fe20d3e704c5e57c21d"
+    },
+    {
+      "path": "Kobon/BBLSeed49Checks.lean",
+      "sha256": "0f6b094ab5d6742ee59d962c1178c7f032189525e9cbd3907dc4eeb1eab0fd54"
+    },
+    {
+      "path": "Kobon/BBLSeed49Data.lean",
+      "sha256": "a5522611f36936360d655a402dd9f8e941fe4a936dd9ba71ef5fb8e4a65ca440"
+    },
+    {
+      "path": "Kobon/BBLSeed49Exterior.lean",
+      "sha256": "93d6d5d4c461304a5beeb2d2c6c14bf62c4f9ff67d24ed3a539960dcab4c3342"
+    },
+    {
+      "path": "Kobon/BBLSimple.lean",
+      "sha256": "e44a41d0792b4b9c10bc2bac8a7ddc5a366f85c416eea39fc770d37c720cedab"
+    },
+    {
+      "path": "Kobon/BBLTangent48Bounds.lean",
+      "sha256": "f651f64f964acd3dc9cc5fb8c41359583afd5575cf6e1b0d23c4c86e05c7a1dd"
+    },
+    {
+      "path": "Kobon/BBLTangentBounds.lean",
+      "sha256": "a71b44a6ae2dc97f9fc97203e0b27cb91f3a58c6763817b03a9ab41c01bb3a9c"
+    },
+    {
+      "path": "Kobon/BBLTriangles.lean",
+      "sha256": "32dbfccb88b75542e01fdbf59a31b70c46cd8bb804255cf34a0e3d5c1ad5d3b5"
+    },
+    {
+      "path": "Kobon/Euclidean.lean",
+      "sha256": "972e375e0703cb4ee5c06f28a4f4a16ff21cda226658a9aea3d6c0d9bd19cdbf"
+    },
+    {
+      "path": "Kobon/Exterior.lean",
+      "sha256": "d7c5ddac70dd7699e2bcfd3a4143269413fae5ee08e85de00ff0fefbea3ec844"
+    },
+    {
+      "path": "Kobon/Geometry.lean",
+      "sha256": "517220442ac15c648b9c03eac95904dfba22909ed7f84256a731669ddf547c02"
+    },
+    {
+      "path": "Kobon/HybridBoundary.lean",
+      "sha256": "ba41f0f9c5570c12c6a677049e6225dd2e01c07ba7d984b742f2d88983290554"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionBoolean.lean",
+      "sha256": "45d7cc7bd692b73fa9497ea8aa81a72815d380fce0e9e965f06f60015420d59e"
+    },
+    {
+      "path": "Kobon/OpenMathConstructionBooleanMemo.lean",
+      "sha256": "5cef6c48297c44b9c5ff70b0253e7de7349e545c4346b164e1e6ee77ff4876a8"
+    },
+    {
+      "path": "Kobon/Parametric.lean",
       "sha256": "651d8ea3863485596b5badb638648b0600246e365bd94653b517c23a54e88ad5"
     },
     {
-      "path": "Kobon\\ParametricCached.lean",
+      "path": "Kobon/ParametricCached.lean",
       "sha256": "76529bfd00d015e2de9e5feb2cca43f1689066e3fb9d11f55f12ac8367708f9b"
     },
     {
-      "path": "Kobon\\HybridBoundary.lean",
-      "sha256": "ba41f0f9c5570c12c6a677049e6225dd2e01c07ba7d984b742f2d88983290554"
+      "path": "Kobon/SeedFamily.lean",
+      "sha256": "54174ea39adae4734dbcc95150f3bd87925cffb4ef4da925fb17c38bff1dedbd"
+    },
+    {
+      "path": "Kobon/Simple.lean",
+      "sha256": "dd81d5366d788ee5fd12cd31e1eb05d9978db45f07d8a3537cb47039469a8176"
+    },
+    {
+      "path": "Kobon/TangentBounds.lean",
+      "sha256": "00be9ce337ea91e97ad3544cc846d251bfae4a4caa8cacde7c1605b065dcddce"
+    },
+    {
+      "path": "research/three-hour-2026-10-02/constructions/uniform-grid49/uniform-seed.json",
+      "sha256": "8b904896ab6ee4216da0bfdd7a487dfdca32e38f3dbfaffbc9d93b3d221b937c"
+    },
+    {
+      "path": "research/three-hour-2026-10-02/constructions/uniform-grid49/visibility.json",
+      "sha256": "f12161163b4fef58390e22b786d5f83d639b9a34398238a8e7715dd0e540b5b0"
     }
   ],
   "scope": "Exact Python re-evaluation of the generated Lean data and check semantics; does not establish compilation success or kernel acceptance"

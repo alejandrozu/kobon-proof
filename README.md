@@ -2,7 +2,9 @@
 
 Research repository of **Alejandro Zarzuelo Urdiales**. This revision consolidates the March 2026 paper and the subsequent extension, comparison, and hybrid-construction work.
 
-**5–6 October research branch:** [new results, proof endpoints, exact evidence and remaining obligations](research/openmath-seven-hour-2026-10-05/README.md). The new work includes a stronger 61-seed infinite even family, an all-order construction portfolio, a deficit-dependent successor for both parities, and general geometric/component charging inequalities. The unrestricted problem remains open. Integration into the existing manuscripts is deferred; the manuscript descriptions and release status below refer to the earlier editions.
+**Updated manuscripts, 7 October 2026:** [comprehensive edition](manuscripts/2026-10-07/long/Kobon_comprehensive_2026-10-07.pdf), **88 pages with 21 scientific figures and 35 references**, and [journal edition](manuscripts/2026-10-07/journal/Kobon_journal_2026-10-07.pdf), **15 pages including references and a clickable proof index**. [Source package, 200-entry proof map, contribution comparison and release checks](manuscripts/2026-10-07/README.md). These editions integrate the completed successor geometry, compatible 33/37/49/61 families, mixed and all-triple structural bounds, and exact surgery results. Earlier editions remain preserved.
+
+**5–6 October research:** [formulas, proof endpoints, exact evidence and remaining obligations](research/openmath-seven-hour-2026-10-05/README.md). The unrestricted Kobon problem remains open; the new manuscript editions distinguish proved class bounds from the remaining numerical/general conjectures.
 
 **New comprehensive edition, 3 October 2026:** [Kobon Triangle Constructions (PDF)](manuscripts/2026-10-03/long/Kobon_comprehensive_2026-10-03.pdf), **73 pages with 18 scientific figures and 31 references**. It incorporates the full March–October progress, completed infinite families, actual simple upper bounds, exact obstruction evidence, the 3–60 table and all 138 finite certificates. [LaTeX sources, proof map and reproduction instructions](manuscripts/2026-10-03/README.md).
 

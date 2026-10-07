@@ -39670,7 +39670,7 @@
       "sign": 1
     }
   ],
-  "seconds": 172.2905149459839,
+  "seconds": 77.12004661560059,
   "external_assumption": "Parpalak--Utkin completeness of the 236 published Euclidean classes of perfect 21-line arrangements",
   "scope": "Exact computer-assisted obstruction in the saturated tangent-grid ansatz; permits arbitrary epsilon-dependent slopes; not a general Kobon upper bound or a full Lean classification proof"
 }
